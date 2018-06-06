@@ -9,14 +9,14 @@ the product.
 -  Click on the **Launcher** from the Navigation Tabs and select
    **Report**.
 
-.. image:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-32.png
+.. _rf32:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-32.png
       :align: center
-      :width: 200px
       :alt: figure 32
 
-.. image:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-33.png
+.. _rf33:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-33.png
       :align: center
-      :width: 200px
       :alt: figure 33
 
 Section-A, B & C houses the `search features <#search-a-report>`__.
@@ -38,4 +38,4 @@ generation.
 Section-F allows you to control the number of Reports visible on a
 single page.
 
-Section-G houses the `Create a Report <#create-a-report>`__ button.
+Section-G houses the `Create a Report <#create-&-edit>`__ button.

@@ -13,6 +13,7 @@ users.
 All Reports are created using the New Custom Reports page. To access the
 page follow the below steps.
 
+.. _new-custom-report:
 New Custom Report
 ~~~~~~~~~~~~~~~~~
 
@@ -24,9 +25,9 @@ New Custom Report
    situated in the top right corner of the page. The New Custom Report
    page opens.
 
-.. image:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-1.png
-      :align: center
-      :width: 200px
+.. _rf1:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-1.png
+      :align: center     
       :alt: Figure 1
                
 
@@ -35,7 +36,7 @@ Creating a Report involves nine stages which have been described below:
 Add Name and Description
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-Section-A (Figure 1) is where you enter the name of the Report. The best
+Section-A (:numref:`rf1`) is where you enter the name of the Report. The best
 practice is having a name which is descriptive and concise.
 
 Section-B is where you enter the description of the Report. Write a
@@ -45,7 +46,7 @@ sent via email.
 Selecting a Module
 ^^^^^^^^^^^^^^^^^^
 
-Section-C (Figure 1) is where you select the module for which you are
+Section-C (:numref:`rf1`) is where you select the module for which you are
 making the Report. You are allowed to select one module from the
 following modules:
 
@@ -56,12 +57,12 @@ following modules:
 -  **Change**: Refers to the Change Management module.
 
 -  **Asset**: Refers to the Asset Management module. You can drill down
-   to an Asset Type with this selection in section-E (Figure 1). Reports
+   to an Asset Type with this selection in section-E (:numref:`rf1`). Reports
    are generated based on Asset and the type you select.
 
-.. image:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-2.png
+.. _rf2:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-2.png
       :align: center
-      :width: 200px
       :alt: figure 2
 
 
@@ -86,7 +87,7 @@ later.*
 Selecting Report Type
 ^^^^^^^^^^^^^^^^^^^^^
 
-Section-D (Figure 1) lets you select the Report type. There are three
+Section-D (:numref:`rf2`) lets you select the Report type. There are three
 types shown which are as follows:
 
 -  **Tabular Report**: These are simple reports that allow you list
@@ -106,7 +107,7 @@ later.*
 Report Layout
 ^^^^^^^^^^^^^
 
-Section-F (Figure 1) houses the layout options that decide the
+Section-F (:numref:`rf1`) houses the layout options that decide the
 orientation of the final Report. You can see the orientation when the
 Report is opened either in PDF or Excel format. There are two
 orientations to choose from:
@@ -118,7 +119,7 @@ orientations to choose from:
 Report Visibility
 ^^^^^^^^^^^^^^^^^
 
-Section-G (Figure 1) houses the visibility options. There are two
+Section-G (:numref:`rf1`) houses the visibility options. There are two
 options to choose from:
 
 -  **Public**: The Report is visible to anyone having access to the
@@ -133,7 +134,7 @@ changeable, if set to Private.*
 Filter Data with Time
 ^^^^^^^^^^^^^^^^^^^^^
 
-Section-H (Figure 1) allows you to filter data using time. When
+Section-H (:numref:`rf1`) allows you to filter data using time. When
 filtering tickets and CIs three times are considered; which one to use
 depends on your selection?
 
@@ -156,7 +157,7 @@ Remote Deployment.
 Setting Conditions to Filter Data
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Section-I (Figure 1) is where you set conditions to filter data before
+Section-I (:numref:`rf1`) is where you set conditions to filter data before
 it is used for generating Reports
 
 The condition parameters are different for each module, but the way they
@@ -165,9 +166,9 @@ work is same for all.
 You can add multiple condition groups with the **Add Condition Group**
 option. Within each group, you can add multiple condition statements.
 
-.. image:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-3.png
+.. _rf3:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-3.png
       :align: center
-      :width: 200px
       :alt: figure 3
 
 
@@ -190,7 +191,7 @@ between two statements, and the outcome is always either true or false.
 Grouping of data
 ^^^^^^^^^^^^^^^^
 
-Section-J (Figure 1) houses the Group By feature that groups the data
+Section-J (:numref:`rf1`) houses the Group By feature that groups the data
 rows in a Report by:
 
 *Note: This is a required field when the Report type is Matrix*
@@ -200,10 +201,9 @@ rows in a Report by:
 
 -  **Property**: Each module has a list of properties that you can use
    to group the data rows in the Report.
-
-.. image:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-4.png
+.. _rf4:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-4.png
       :align: center
-      :width: 200px
       :alt: figure 4
 
 The above figure shows the properties of the module Request Management.
@@ -214,13 +214,13 @@ Selecting Columns
 The last step in creating a Report is selecting the columns. What
 columns are available depends on the Report type and module selected.
 
-.. image:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-5.1.png
+.. _rf5.1:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-5.1.png
       :align: center
-      :width: 200px
       :alt: figure 5.1
-.. image:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-5.2.png
+.. _rf5.2:      
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-5.2.png
       :align: center
-      :width: 200px
       :alt: figure 5.2
 
 -  **Tabular Report**:
@@ -231,7 +231,7 @@ columns are available depends on the Report type and module selected.
 
 -  **Matrix Report**:
 
-   a. You select a column from a drop-down list (Figure 5). Each column
+   a. You select a column from a drop-down list (:numref:`rf5`). Each column
       is accompanied by the count function which tells of giving a
       cumulative count of items grouped by either time or a product
       property.
@@ -239,15 +239,14 @@ columns are available depends on the Report type and module selected.
    b. Some columns have sub-columns which you can access by clicking the
       down icon next to a column name.
 
-.. image:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-6.png
+.. _rf6:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-6.png
       :align: center
-      :width: 200px
       :alt: figure 6
+::
+      You can choose what sun-columns to include in the dialog box.
 
-
-You can choose what sun-columns to include in the dialog box.
-
-c. You add more columns using the plus icon (Figure 5).
+   c. You add more columns using the plus icon (:numref:`rf5.1`).
 
 -  **Summary Report**:
 
@@ -257,32 +256,32 @@ c. You add more columns using the plus icon (Figure 5).
    b. Some properties/details have sub-items which you can access by
       clicking the arrow icon next to a name.
 
-.. image:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-7.png
+.. _rf7:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-7.png
       :align: center
-      :width: 200px
       :alt: figure 7
 
-
-You can choose what sun-columns to include in the dialog box.
+::
+      You can choose what sun-columns to include in the dialog box.
 
 -  **Multi-Module Report**:
 
    You search and select Reports that you want to merge into one Report.
 
-.. image:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-8.png
+.. _rf8:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-8.png
       :align: center
-      :width: 200px
       :alt: figure 8
 
+.. _create-tabular-report: 
 Create a Tabular Report
 ~~~~~~~~~~~~~~~~~~~~~~~
 
--  Open the `New Custom Report <#_Accessing_New_Custom>`__ page.
+-  Open the :ref:`New Custom Report <new-custom-report>` page.
 
 -  We are going to create a Tabular Report called Computer Asset List
    that lists all computers managed by a particular Technician, group by
    Product.
-
 -  Following is our selections for the sections in New Custom Reports:
 
 +-----------------------------------+-----------------------------------+
@@ -301,7 +300,7 @@ Create a Tabular Report
 |                                   | Visibility <#report-visibility>`_ |
 |                                   | _                                 |
 +-----------------------------------+-----------------------------------+
-| Created Time                      | `Filter Data with                 |
+| Created Time                      | `rfilter Data with                 |
 |                                   | Time <#filter-data-with-time>`__  |
 +-----------------------------------+-----------------------------------+
 | Technician name                   | `Setting Conditions to Filter     |
@@ -312,16 +311,16 @@ Create a Tabular Report
 |                                   | Data <#grouping-of-data>`__       |
 +-----------------------------------+-----------------------------------+
 
-.. image:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-9.png
+.. _rf9:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-9.png
       :align: center
-      :width: 200px
       :alt: figure 9
 
 -  Scroll down to the Select Column section of the page.
 
-.. image:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-10.png
+.. _rf10:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-10.png
       :align: center
-      :width: 200px
       :alt: figure 10
 
 -  Here you see all the data columns available in a module. Each module
@@ -334,10 +333,9 @@ Create a Tabular Report
 
 -  We select three columns for this Report. We can rearrange them using
    drag & drop. We finalize our selections by clicking on **Done**.
-
-.. image:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-11.png
+.. _rf11:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-11.png
       :align: center
-      :width: 200px
       :alt: figure 11
 
 -  We save the Report by clicking on **Create**.
@@ -347,14 +345,16 @@ system. We get the following Report when we
 `preview <#preview-a-report>`__ for the past 3 months and group by
 Product.
 
-|image13|
+.. _rf12:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-12.png
+      :align: center
+      :alt: figure 12
 
-Figure 12
-
+.. _create-matrix-report:
 Create a Matrix Report
 ~~~~~~~~~~~~~~~~~~~~~~
 
--  Open the `New Custom Report <#_Accessing_New_Custom>`__ page.
+-  Open the :ref:`New Custom Report <new-custom-report>` page.
 
 -  We are going to create a Matrix Report called Average Resolution Time
    that shows the average resolution time of each Technicians along with
@@ -378,7 +378,7 @@ Create a Matrix Report
 |                                   | Visibility <#report-visibility>`_ |
 |                                   | _                                 |
 +-----------------------------------+-----------------------------------+
-| Created Time                      | `Filter Data with                 |
+| Created Time                      | `rfilter Data with                 |
 |                                   | Time <#filter-data-with-time>`__  |
 +-----------------------------------+-----------------------------------+
 | Status Equals to Closed           | `Setting Conditions to Filter     |
@@ -389,16 +389,16 @@ Create a Matrix Report
 |                                   | Data <#grouping-of-data>`__       |
 +-----------------------------------+-----------------------------------+
 
-.. image:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-13.png
+.. _rf13:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-13.png
       :align: center
-      :width: 200px
       :alt: figure 13
 
 -  Scroll down to Select Column section of the page.
 
-.. image:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-14.png
+.. _rf14:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-14.png
       :align: center
-      :width: 200px
       :alt: figure 14
 
 -  A Matric Report gives you a cumulative count of data; for example,
@@ -413,18 +413,19 @@ Create a Matrix Report
    It may happen a column name may generate additional columns. You can
    control the visibility of those columns.
 
-.. image:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-15.png
+.. _rf15:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-15.png
       :align: center
-      :width: 200px
       :alt: figure 15
 
-In the above figure, we have selected a column name Support Level.
-Clicking on the arrow icon adjacent to the column name opens a dialog
-box where you can check what sub-columns to show.
+::
+   In the above figure, we have selected a column name Support Level.
+   Clicking on the arrow icon adjacent to the column name opens a dialog
+   box where you can check what sub-columns to show.
 
-.. image:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-16.png
+.. _rf16:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-16.png
       :align: center
-      :width: 200px
       :alt: figure 16
 
 -  We save the Report.by clicking on **Create**.
@@ -432,15 +433,16 @@ box where you can check what sub-columns to show.
 We get the following Report when we `preview <#preview-a-report>`__ for
 the past 3 months and group by Technicians.
 
-.. image:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-17.png
+.. _rf17:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-17.png
       :align: center
-      :width: 200px
       :alt: figure 17
 
+.. _create-summary-report:
 Create a Summary Report
 ~~~~~~~~~~~~~~~~~~~~~~~
 
--  Open the `New Custom Report <#_Accessing_New_Custom>`__ page.
+-  Open the :ref:`New Custom Report <new-custom-report>` page.
 
 -  We are going to create a Summary Report called Asset Summary that
    summarizes OS name, memory size and hostname of computers managed by
@@ -464,7 +466,7 @@ Create a Summary Report
 |                                   | Visibility <#report-visibility>`_ |
 |                                   | _                                 |
 +-----------------------------------+-----------------------------------+
-| Created Time                      | `Filter Data with                 |
+| Created Time                      | `rfilter Data with                 |
 |                                   | Time <#filter-data-with-time>`__  |
 +-----------------------------------+-----------------------------------+
 | Technician name                   | `Setting Conditions to Filter     |
@@ -472,16 +474,16 @@ Create a Summary Report
 |                                   | er-data>`__                       |
 +-----------------------------------+-----------------------------------+
 
-.. image:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-18.png
+.. _rf18:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-18.png
       :align: center
-      :width: 200px
       :alt: figure 18
 
 -  Scroll down to the Selection Section.
 
-.. image:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-19.png
+.. _rf19:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-19.png
       :align: center
-      :width: 200px
       :alt: figure 19
 
 -  A Summary Report can summarize properties and components of Assets.
@@ -489,17 +491,17 @@ Create a Summary Report
    have selected **Computer Property Details**. We confirm our column
    selection by clicking **Done**.
 
-.. image:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-20.png
+.. _rf20:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-20.png
       :align: center
-      :width: 200px
       :alt: figure 20
 
 -  We only want OS name, memory size and host-name which we select as
-   sub-columns (Refer Figure 20).
+   sub-columns (Refer :numref:`rf20`).
 
-.. image:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-21.png
+.. _rf21:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-21.png
       :align: center
-      :width: 200px
       :alt: figure 21
 
 -  We save the Report.by clicking on **Create**.
@@ -507,18 +509,19 @@ Create a Summary Report
 We get the following Report when we `preview <#preview-a-report>`__ for
 the past 3 months.
 
-.. image:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-22.png
+.. _rf22:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-22.png
       :align: center
-      :width: 200px
       :alt: figure 22
 
+.. _create-multi-module:
 Creating Multi-Module Report
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 You can create a Report that summarizes the output of multiple Reports.
 The feature that allows you to do this is called multi-module.
 
--  Open the `New Custom Report <#_Accessing_New_Custom>`__ page.
+-  Open the :ref:`New Custom Report <new-custom-report>` page.
 
 -  We are going to create a Report called Multi-Module Report that has
    the output of two Reports (Computer Asset List and Average Resolution
@@ -537,27 +540,27 @@ The feature that allows you to do this is called multi-module.
 +----------------+----------------------------------------------------+
 | Public         | `Report Visibility <#report-visibility>`__         |
 +----------------+----------------------------------------------------+
-| Created Time   | `Filter Data with Time <#filter-data-with-time>`__ |
+| Created Time   | `rfilter Data with Time <#filter-data-with-time>`__ |
 +----------------+----------------------------------------------------+
 
-.. image:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-23.png
+.. _rf23:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-23.png
       :align: center
-      :width: 200px
       :alt: figure 23
 
 -  Scroll down to the Report selection area.
 
-.. image:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-24.png
+.. _rf24:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-24.png
       :align: center
-      :width: 200px
       :alt: figure 24
 
 -  We select the Reports that we want to add using the search features.
    We finalize our selection by clicking on **Done**.
 
-.. image:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-25.png
+.. _rf25:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-25.png
       :align: center
-      :width: 200px
       :alt: figure 25
 
 -  We can rearrange the order of the Reports by drag and drop.
@@ -567,24 +570,25 @@ The feature that allows you to do this is called multi-module.
 We get the following Report when we `preview <#preview-a-report>`__ for
 the past 3 months.
 
-.. image:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-26.png
+.. _rf26:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-26.png
       :align: center
-      :width: 200px
       :alt: figure 26
 
+.. _editing-report:
 Editing a Report
 ----------------
 
 *Note: A user can edit Reports that he creates.*
 
--  Go to the `Report List View <#_Report_List_View_1>`__.
+-  Go to the `Report List View <#_report_list_view>`__.
 
 -  In the list area, click on the **Edit Report** button of the Report
    which you want to edit. The Update Custom Report page opens.
 
-.. image:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-27.png
+.. _rf27:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-27.png
       :align: center
-      :width: 200px
       :alt: figure 27
 
 -  The Update Custom Report page is similar to the New Custom Report
@@ -608,8 +612,8 @@ Editing a Report
 
 -  Once you are over with your editing, click **Update**.
 
-You can also access the Update Custom Report page from `Custom
-Reports <#open-custom-reports>`__ page.
+You can also access the Update Custom Report page from :ref:`Custom
+Reports <open-custom-reports>` page.
 
 Add and Rearrange Columns
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -618,9 +622,9 @@ In the Update Custom Report page, you can change the
 Column/Report/Section selection using **Modify Column/Reports/Section
 Selection** button. You can rearrange the order using drag and drop.
 
-.. image:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-28.png
+.. _rf28:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-28.png
       :align: center
-      :width: 200px
       :alt: figure 28
 
 **Deleting a Report**
@@ -628,30 +632,29 @@ Selection** button. You can rearrange the order using drag and drop.
 *Note: A Technician is allowed to delete Reports that he/she has
 created.*
 
--  Go to the `Report List View <#create-a-summary-report>`__.
+-  Go to the `Report List View <#report-list-view>`__.
 
 -  Click on **Delete Report** from the Action Menu of a Report. On
    Confirmation, the Report is deleted.
 
-.. image:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-29.1.png
+.. _rf29.1:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-29.1.png
       :align: center
-      :width: 200px
       :alt: figure 29.1
-.. image:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-29.2.png
+.. _rf29.2:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-29.2.png
       :align: center
-      :width: 200px
       :alt: figure 29.2
 
-You can delete a Report from its `Update Custom
-Repor <#editing-a-report>`__\ t page and `Custom
-Reports <#open-custom-reports>`__ page.
+You can delete a Report from its :ref:`Update Custom Repor <editing-report>` page and :ref:`Custom
+Reports <open-custom-reports>` page.
 
-.. image:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-30.png
+.. _rf30:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-30.png
       :align: center
-      :width: 200px
       :alt: figure 30
 
-.. image:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-31.png
+.. _rf31:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-31.png
       :align: center
-      :width: 200px
       :alt: figure 31

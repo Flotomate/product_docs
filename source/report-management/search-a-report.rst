@@ -8,11 +8,11 @@ View:
 
 The product allows you to search for a Report using a keyword/keywords.
 The search bar is at the top of the `Report List
-View <#create-a-summary-report>`__.
+View <#report-list-view>`__.
 
-.. image:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-34.png
+.. _rf34:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-34.png
       :align: center
-      :width: 200px
       :alt: figure 34
 
 When you type in a keyword in the search bar, the product searches all
@@ -27,9 +27,9 @@ There are two types of filters in the Report List View: one that filters
 Reports based on a selected module, and the other that filters Reports
 based on whether a Report is pre-defined or custom.
 
-.. image:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-35.png
+.. _rf35:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-35.png
       :align: center
-      :width: 200px
       :alt: figure 35
 
 Apart from filtering Reports module wise, you can have an overview of
@@ -41,4 +41,4 @@ You can quickly toggle between Pre-Defined Reports and Custom Reports:
    Reports. These are standard Reports commonly used in the product.
 
 -  **Custom Report**: These are Reports that you create using the `New
-   Custom Report <#new-custom-report>`__ page.
+   Custom Report <#create-&-edit>`__ page.

@@ -59,21 +59,20 @@ There are four types of Reports that you can generate:
 -  **Tabular Report**: This type of Reports list items in columns
    grouped by either time or product properties. For example, you can
    create a Tabular Report that lists Assets grouped by Technicians who
-   manage them. Learn how to create a `Tabular
-   Report <#create-a-tabular-report>`__.
+   manage them. Learn how to create a :ref:`Tabular Report <create-tabular-report>` .
 
 -  **Matrix Report**: This type of Reports generate cumulative counts of
    items in a grid grouped by either time or a product property. For
    example, you can generate a report that lists the average resolution
    time of each Technician. Here average resolution time accounts for
-   all the Reports that a Technician has resolved. Learn how to create a
-   `Matrix Report <#create-a-matrix-report>`__.
+   all the Reports that a Technician has resolved. Learn how to create a 
+   :ref:`Matrix Report <create-matrix-report>`.
 
 -  **Summary Report**: This type of Reports can summarize properties,
    details, milestones, and components of items in Asset, Projects,
-   Patches, and Software License. Learn how to create a `Summary
-   Report <#create-a-summary-report>`__.
+   Patches, and Software License. Learn how to create a :ref:`Summary
+   Report <create-summary-report>`.
 
 -  **Multi-Module Report**: You can combine two or more Reports into a
    single Report. This is called a Multi-Module Report. Learn how to
-   create a `Multi-Module Report <#creating-multi-module-report>`__.
+   create a :ref:`Multi-Module Report <create-multi-module>`.

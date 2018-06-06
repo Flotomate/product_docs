@@ -5,13 +5,14 @@ Flotomate allows you to preview a Report of a specific period and
 download the output as either PDF or Excel. The Custom Reports page
 facilitates the generation of a preview.
 
+.. _open-custom-reports:
 Open Custom Reports
 -------------------
 
 Each Report has a Custom Report page that is accessed from the Report
 List View.
 
--  Go to the `Report List View <#create-a-summary-report>`__.
+-  Go to the `Report List View <#report-list-view>`__.
 
 -  Scroll down to the list area and click on a Report name that you want
    to preview. The Custom Reports page opens.
@@ -19,9 +20,9 @@ List View.
 Preview and Download
 --------------------
 
-.. image:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-36.png
+.. _rf36:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-36.png
       :align: center
-      :width: 200px
       :alt: figure 36
 
 **Generating a Preview**
@@ -42,7 +43,7 @@ Section-D houses four options:
 
 -  Delete the Report.
 
--  `Edit the Report <#editing-a-report>`__.
+-  :ref:`Edit the Report <editing-report>`.
 
 -  `Export/Share feature. <#share-a-report>`__
 
