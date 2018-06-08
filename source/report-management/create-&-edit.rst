@@ -342,7 +342,7 @@ Create a Tabular Report
 
 The process to create a Report is same for all the modules in the
 system. We get the following Report when we
-`preview <#preview-a-report>`__ for the past 3 months and group by
+:doc:`preview <preview-a-report>` for the past 3 months and group by
 Product.
 
 .. _rf12:
@@ -430,7 +430,7 @@ Create a Matrix Report
 
 -  We save the Report.by clicking on **Create**.
 
-We get the following Report when we `preview <#preview-a-report>`__ for
+We get the following Report when we :doc:`preview <preview-a-report>` for
 the past 3 months and group by Technicians.
 
 .. _rf17:
@@ -506,7 +506,7 @@ Create a Summary Report
 
 -  We save the Report.by clicking on **Create**.
 
-We get the following Report when we `preview <#preview-a-report>`__ for
+We get the following Report when we :doc:`preview <preview-a-report>` for
 the past 3 months.
 
 .. _rf22:
@@ -567,7 +567,7 @@ The feature that allows you to do this is called multi-module.
 
 -  We save the Report.by clicking on **Create**.
 
-We get the following Report when we `preview <#preview-a-report>`__ for
+We get the following Report when we :doc:`preview <preview-a-report>` for
 the past 3 months.
 
 .. _rf26:

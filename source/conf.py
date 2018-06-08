@@ -176,8 +176,7 @@ epub_copyright = copyright
 epub_exclude_files = ['search.html']
 
 #inter-sphinx extension
-extensions = ['sphinx.ext.intersphinx']
+#extensions = ['sphinx.ext.intersphinx']
 
 #numfig
-
 numfig = True
