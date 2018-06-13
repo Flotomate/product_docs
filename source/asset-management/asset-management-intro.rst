@@ -7,17 +7,17 @@ Asset Management
 
 As modern enterprises solely rely on digital infrastructure for almost
 all of their IT operations, it is critical to manage all components of
-the infrastructure as per best practices. {Product} Asset Management is
+the infrastructure as per best practices. Flotomate Asset Management is
 designed to align with the complexity of Assets and related functions.
 It empowers the IT to automate end to end asset lifecycle management,
 manage CMDB (Configuration Management Database), perform automatic
 discovery, generate reports, and much more.
 
-{Product} understands the complexity that a large number of IT Assets
+Flotomate understands the complexity that a large number of IT Assets
 can bring to an organization, which is why we have built a comprehensive
 Asset Management system suitable for organizations of all size.
 
-{Product} provides a unified experience in managing and tracking of IT
+Flotomate provides a unified experience in managing and tracking of IT
 and Non-IT Assets. We have features like Asset Discovery and Bulk Asset
 Import for easy creation of an Asset Repository (CMDB); for complicated
 Assets, we have the option of manual upload.
@@ -28,7 +28,7 @@ system. Asset Type Hierarchy gives a visual cue to tell where an Asset
 belongs. Another powerful visual aid is our Relationship Mapper that
 builds a diagram showing all relationships originating from an Asset.
 
-{Product} Asset Management features Product Catalogue and Vendor
+Flotomate Asset Management features Product Catalogue and Vendor
 Catalogue to streamline all your instances of product and vendor for
 better lifecycle management and maintenance.
 
@@ -38,7 +38,7 @@ Consolidation, Usage Analytics, Licence Management, Piracy detection and
 much more which empower you to automate your entire IT Compliance and
 governance as per your needs.
 
-All in all, {Product} Asset Management system brings in simplicity,
+All in all, Flotomate Asset Management system brings in simplicity,
 scalability, and robust features so that you can efficiently manage your
 IT Assets along with the cost of keeping them.
 
@@ -66,14 +66,14 @@ managing and optimizing the purchase, deployment, maintenance,
 utilization, and disposal of software applications within an
 organization.
 
-{Product} Asset Management provides tools for organizations to perform
+Flotomate Asset Management provides tools for organizations to perform
 SAM effectively and efficiently. Two of the prominent features for SAM
 are:
 
 Licence & Compliance Management
 -------------------------------
 
-{Product} Asset Management allows you to add and manage multiple
+Flotomate Asset Management allows you to add and manage multiple
 Software Licenses. You can view all your Licenses at one place and even
 get notifications when they are about to expire.
 
@@ -83,7 +83,7 @@ that you can manage compliance as well as your budget.
 Software Metering
 -----------------
 
-{Product} tracks three critical data of all Software in the Asset
+Flotomate tracks three critical data of all Software in the Asset
 repository: usage statistics of an Asset, total usage time in minutes
 and elapsed time since last used. Such data directly helps you to track
 the usability of a Software, and it can be coupled with other data to

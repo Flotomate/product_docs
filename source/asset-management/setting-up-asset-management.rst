@@ -29,7 +29,7 @@ Asset in the CMDB.
     :align: center
     :alt: figure 58.3
 
-{Product} allows you to add custom Asset Sub-Types in the Asset Type
+Flotomate allows you to add custom Asset Sub-Types in the Asset Type
 Hierarchy. You can create sub-types up to two levels.
 
 To add an Asset Type:
@@ -212,7 +212,7 @@ Adding a Vendor
 ===============
 
 A Vendor is a person or an organization that sales the Products. You can
-maintain a list of Vendors in {Product} that you can associate with each
+maintain a list of Vendors in Flotomate that you can associate with each
 Asset.
 
 **To add a Vendor:**
@@ -327,7 +327,7 @@ Adding a Product Type
 A Product can be further categorized into Product Types. A Product Type
 is a generic category to group Products. For example, Router is a
 Product Type that describes Products like Asus, TP-Link, etc. In
-{Product}, you get a list of Product Types out of the box, but you can
+Flotomate, you get a list of Product Types out of the box, but you can
 also add more types.
 
 **To Add a Product Type:**
@@ -411,7 +411,7 @@ gets deleted.
 Adding a Manufacturer
 =====================
 
-In {Product} you can maintain a list of manufacturers’ names that you
+In Flotomate you can maintain a list of manufacturers’ names that you
 add to various Products in the system. Before adding a Manufacturer’s
 name to a Product, you have to add it to the product.
 

@@ -3,7 +3,7 @@ Consolidating Software
 **********************
 
 It is common for a computer to have a software suite like MS Office. A
-Software suite is a collection of computer programs. {Product} allows
+Software suite is a collection of computer programs. Flotomate allows
 you to create a bundle of software with one as the Primary and the rest
 as Secondary. This way you can consolidate multiple Software Assets into
 one.

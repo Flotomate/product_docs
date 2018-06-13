@@ -28,7 +28,7 @@ To Access the Asset Details View:
     :alt: figure 14
 
 Understanding the Details View is the first step towards managing a
-single Asset in {Product}.
+single Asset in Flotomate.
 
 -  Section-A houses the `Change Name and Description of an
    Asset <#change-name-and-description-of-an-asset>`__.
@@ -54,7 +54,7 @@ single Asset in {Product}.
             :align: center
             :alt: figure 15
 
-        There are four categories of Properties in {Product}:
+        There are four categories of Properties in Flotomate:
 
             i.  Computer Properties
 

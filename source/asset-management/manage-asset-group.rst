@@ -2,7 +2,7 @@
 Managing Asset Groups
 *********************
 
-{Product} allows you to categorize Assets in the CMDB in to groups.
+Flotomate allows you to categorize Assets in the CMDB in to groups.
 Groups are a convenient way to compartmentalize Assets based on certain
 similarities. For example; you can have an Asset Group called Network
 for your network devices.

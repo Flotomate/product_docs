@@ -2,7 +2,7 @@
 Importing Assets in Bulk Using CSV
 **********************************
 
-{Product} allows you to import Assets in bulk using a CSV file. The CSV
+Flotomate allows you to import Assets in bulk using a CSV file. The CSV
 file has to be created in a particular format for this feature to work.
 
 A CSV file allows data to be represented in a tabular structure with

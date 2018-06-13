@@ -5,7 +5,7 @@ Setting up Software Asset Management
 All Assets are an instance of a Product, which means that you can add
 product information to every Asset in the CMDB. A Software Asset is no
 different; it is represented as a Product as well as a Component in
-{Product} because it is discovered in a machine.
+Flotomate because it is discovered in a machine.
 
 A Software Asset carries specific information in the form of Software
 Type, Category and Licence information.
@@ -14,7 +14,7 @@ Software Type
 =============
 
 A Software Type tries to define the nature of existence of a Software
-Asset. By default, {Product} provides six Software Types out of the box.
+Asset. By default, Flotomate provides six Software Types out of the box.
 They are as follows:
 
 -  **Excluded**: These are all Software that does not need any managing.
@@ -82,7 +82,7 @@ type that you want to delete. On confirmation, the type gets deleted.
 Adding a Software Category
 ==========================
 
-{Product} gives you the option to add functional categories specific to
+Flotomate gives you the option to add functional categories specific to
 Software Assets. For example, there could be a category of Software used
 for Accounting, Internet, Graphics, Multimedia, etc.
 

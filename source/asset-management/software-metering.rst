@@ -5,7 +5,7 @@ Software Metering
 
 Metering is a convenient tool to track the utilization of a Software
 application across machines in an organization. Using Metering,
-{Product} can track three usage statistics of a Software Asset using an
+Flotomate can track three usage statistics of a Software Asset using an
 Agent. You have to enable Metering individually for Software Assets that
 you want to track. Currently, Metering tracks the following information
 of a Software Asset:
@@ -65,7 +65,7 @@ Adding a Meter
 
     d. **Select Computer**: You have two ways to add computers:
 
-        i. **Computers**: You have to select computers with the {Product}
+        i. **Computers**: You have to select computers with the Flotomate
            Agent manually from a list. You can search for computers in the
            search bar. The search bar supports Advanced Search.
 

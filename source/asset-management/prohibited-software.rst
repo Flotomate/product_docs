@@ -6,7 +6,7 @@ In an organization, there could be restrictions on the kind of Software
 that can be used. For example, torrent clients are prohibited at most
 workplaces.
 
-{Product} has a default Software Type called Prohibited, which can be
+Flotomate has a default Software Type called Prohibited, which can be
 used to flag certain Software Assets in the CMDB. The process of
 flagging can be done both manually and through automation.
 
@@ -60,7 +60,7 @@ counter gets updated.
 Managing Prohibited Software Expressions
 ========================================
 
-In {Product}, you can automate the process of flagging Software Assets.
+In Flotomate, you can automate the process of flagging Software Assets.
 The feature works during discovery and for Software Assets already
 included in the CMDB.
 

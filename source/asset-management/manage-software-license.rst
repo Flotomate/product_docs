@@ -21,7 +21,7 @@ We support ten types of Licenses out of the box. They are as follows:
 
 -  **Single Machine**: Also referred to as Single User License. This
    type of License grants a single user to use the Software either on a
-   single machine or multiple machines. {Product} automatically sets the
+   single machine or multiple machines. Flotomate automatically sets the
    Purchase Count for this type to one.
 
 -  **Multiple Machine**: This type of License grants multiple users to
@@ -45,7 +45,7 @@ We support ten types of Licenses out of the box. They are as follows:
    uses the Software. The License carries the name of the user.
 
 -  **Node Lock**: A Node Lock License is an encrypted key that is locked
-   to a specific machine. {Product} automatically sets the Purchase
+   to a specific machine. Flotomate automatically sets the Purchase
    Count for this type to one.
 
 -  **Volume Users**: A Volume License denotes the product key used when
@@ -103,7 +103,7 @@ Associating a Software License with a Software Asset
 .. note:: Here a Software Asset refers to any Asset having an Asset Type as
 Software or any sub-type of Software.
 
-The functional aspect of having a Software License in {Product} starts
+The functional aspect of having a Software License in Flotomate starts
 with linking a License with a Software Asset which has the same Product
 Type as the License.
 
@@ -147,10 +147,10 @@ License Details View
 ====================
 
 A Software License is a legal instrument that holds vital information
-that forms the basis for compliance management. {Product} allows users
+that forms the basis for compliance management. Flotomate allows users
 to manage such information from the Details View of a License.
 
-Every License in {Product} has a Details View that shows all the
+Every License in Flotomate has a Details View that shows all the
 information about the License. You are taken to the Details View after
 adding a License in the system, but that does not mean you cannot access
 the Details View anytime later.
@@ -198,7 +198,7 @@ description:
    Multiple Machines, or Node Lock. It shows the following data points:
 
    a. **Allocations**: This shows the number of machines allocated to
-      the License. {Product} allows more Allocation than the Purchase
+      the License. Flotomate allows more Allocation than the Purchase
       Count.
 
    b. **Purchase Count**: This refers to the total allowable
@@ -294,7 +294,7 @@ Allocating Machines/Users in a Software License
 .. note:: Here a machine is referred to either a Workstation, Laptop or Server Asset.
 
 Allocation gives a machine/user, in the CMDB/product, the right to
-install a Licensed Software. It lets {Product} keep a count of all valid
+install a Licensed Software. It lets Flotomate keep a count of all valid
 installations of a Licensed Software. The count is vital for activating
 compliance specific notifications relating to over and under usage of a
 Licensed Software.
@@ -342,7 +342,7 @@ Unlimited Users, you have to add users instead of Assets.
         :alt: figure 134
 
    You can search supported Assets with keywords. When you provide a
-   keyword, {Product} searches all the supported Assets with the keyword in
+   keyword, Flotomate searches all the supported Assets with the keyword in
    Name, Description, and Tags.
 
    You can make a filter using a chain of predefined search options and
@@ -407,12 +407,12 @@ overutilization of a Licensed Software, and such risks come under the
 umbrella term compliance management. It is a set of pre-agreed upon
 conditions related to the usage of a Software.
 
-{Product} tracks all the Software that is installed on various Hardware
+Flotomate tracks all the Software that is installed on various Hardware
 Assets, and the process helps in compliance management. Currently,
-{Product} supports the generation of notifications upon nine types of
+Flotomate supports the generation of notifications upon nine types of
 violations.
 
-There is a separate thread in {Product} that checks all Licensed
+There is a separate thread in Flotomate that checks all Licensed
 Software and their installation instances against specific parameters;
 those parameters are as follows:
 
@@ -481,7 +481,7 @@ Software.
 Compliance Settings
 -------------------
 
-{Product} allows you to set under and overutilization notifications for
+Flotomate allows you to set under and overutilization notifications for
 Multiple Machines and Volume Users License Types. You have to define the
 underutilization and overutilization threshold for above mentioned
 License Types to enable utilization monitoring.

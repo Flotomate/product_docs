@@ -5,7 +5,7 @@ Asset Discovery
 Discovery of Workstations and Other Network Devices
 ===================================================
 
-{Product} aims to give maximum flexibility in ways to Discovery Assets
+Flotomate aims to give maximum flexibility in ways to Discovery Assets
 in a network. Our product can discover all pingable IT Assets in or
 outside a network. We support Assets Discovery in Windows Domain and IP
 Range Networks, and we also have an Agent Application for Assets that
@@ -35,7 +35,7 @@ are not part of any network/domain.
    that runs in the background of a workstation as a service, acquires
    the data and pushes directly to the main server.
 
-The first part of discovering Assets in {Product} (without using an
+The first part of discovering Assets in Flotomate (without using an
 Agent) is to set up the infrastructure and then to create a Discovery
 Probe. Once you create a Discovery Probe, you can Schedule Discoveries
 and even discover changes in existing recognized Assets.
@@ -148,7 +148,7 @@ network protocol is DHCP.
 
 In DHCP protocol, the IPs of Assets keep on changing, so the hostname of
 a machine is taken as the unique identifier. The DNS maps all the
-hostnames of the Assets with their IP addresses. {Product} connects with
+hostnames of the Assets with their IP addresses. Flotomate connects with
 the DNS using the information provided by an administrator in the DNS
 Configuration page.
 
@@ -171,7 +171,7 @@ Configuration page.
 3. Enter your primary DNS address in the primary field and your backup
    DNS address in the secondary field.
 
-4. The Base URL field is the domain name of {Product} hosted on your
+4. The Base URL field is the domain name of Flotomate hosted on your
    server. Enter the name and hit Update to save your changes.
 
 You can later edit your DNS configuration in the DNS Configuration page.
@@ -179,7 +179,7 @@ You can later edit your DNS configuration in the DNS Configuration page.
 Credential Library
 ^^^^^^^^^^^^^^^^^^
 
-{Product} provides an interface to upload all your credentials, so our
+Flotomate provides an interface to upload all your credentials, so our
 product can authenticate for an authorized access to a network.
 
 A repository stores all Credentials, which we call a library where you
@@ -249,7 +249,7 @@ We provide four easy Discovery Types to choose from:
 
     **SNMP (Simple Network Management Protocol)**
 
-    {Product} uses this application-layer protocol to scan devices with
+    Flotomate uses this application-layer protocol to scan devices with
     the SNMP agent in a managed network.
 
         .. _amf-159:
@@ -326,7 +326,7 @@ a successful connection was established or not.
 Network
 ^^^^^^^
 
-Adding a network to {Product} is an essential task for you to perform
+Adding a network to Flotomate is an essential task for you to perform
 asset Discovery and monitoring. We support Domain networks and IP Range
 Networks.
 
@@ -450,7 +450,7 @@ maximum types of devices in a network.
 Creating a Discovery Probe
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1. Log into the {Product} Dashboard.
+1. Log into the Flotomate Dashboard.
 
 2. Go to **Asset** (A Navigation Tab) >> **Discovery Probe**.
 
@@ -625,7 +625,7 @@ You can Schedule both Discovery and Polling.
 
 .. note:: You need to first create a Probe before you can use scheduling.
 
-1. Log into the {Product} Dashboard.
+1. Log into the Flotomate Dashboard.
 
 2. Go to **Asset** (A Navigation Tab) >> **Discovery Probe**.
 
@@ -802,7 +802,7 @@ three types of Discovery. We create two Probes in the process; one uses
 an IP Range Network and other, Domain Network. The Probe using the IP
 Range Network can discover all types of Assets, but the other Probe can
 discover only Windows machines. The use case gives you an overview of
-the entire process involved in setting up Discovery in {Product}.
+the entire process involved in setting up Discovery in Flotomate.
 
 We have the following Assets in the network that we want to discover:
 
@@ -1064,14 +1064,14 @@ clicking on **Run Now** from the Discovery Probe page. We select the
 auto-addition option and the discovered Assets are automatically added
 to the CMDB.
 
-{Product} Discovery Agent 
+Flotomate Discovery Agent 
 =========================
 
 Not all workstations in an organization are part of a network, but
-still, they need discovery. By using our Agent Application, {Product}
+still, they need discovery. By using our Agent Application, Flotomate
 can fetch data from such workstations remotely.
 
-{Product}’s Agent Application is a lightweight application that runs in
+Flotomate’s Agent Application is a lightweight application that runs in
 the background of a workstation, acquires data, and pushes it directly
 to the main server.
 

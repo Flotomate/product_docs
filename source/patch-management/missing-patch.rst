@@ -4,7 +4,7 @@ What is a Missing Patch?
 
 A missing Patch is a Patch which is supposed to be there (installed), but still it is in demand for installation. 
 There are several scenarios that can generate missing Patches but we are going to discuss few of them; 
-before doing that you need to understand the role of a Computer, the Update Server, and {Product} Server, 
+before doing that you need to understand the role of a Computer, the Update Server, and Flotomate Server, 
 and how they are related with one another.
 
 -  **Computer**: A Computer resides in a Node. It is responsible for

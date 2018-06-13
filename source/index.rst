@@ -11,6 +11,7 @@ Flotomate Product Manual
    :caption: Contents:
    
    report-management/index
+   admin/index
    asset-management/index
    patch-management/index
 

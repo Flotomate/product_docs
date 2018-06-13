@@ -8,7 +8,7 @@ Marking for Notification
 Marking Software Assets
 -----------------------
 
-{Product} allows you to mark certain Software Assets for notification.
+Flotomate allows you to mark certain Software Assets for notification.
 Whenever new instance of a marked Software Asset is found during a
 discovery, a notification is sent to subscribers.
 
@@ -65,7 +65,7 @@ an Asset Group and mentioning the Group when adding
 Different Types of Notifications
 ================================
 
-{Product} gives you thirteen predefined notifications related to Asset
+Flotomate gives you thirteen predefined notifications related to Asset
 Management. By default all of them are turned on. You need admin rights
 to configure them and change the content of each notification. To view 
 all available notifications:

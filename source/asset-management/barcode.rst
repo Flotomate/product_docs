@@ -79,7 +79,7 @@ way:
 Adding Assets Using Barcode
 ===========================
 
-{Product} allows you to add Assets using a barcode.
+Flotomate allows you to add Assets using a barcode.
 
 -  Go to the `List View <#asset-list-view>`__.
 

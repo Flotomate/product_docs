@@ -157,7 +157,7 @@ single option or multiple options from the drop-down list.
    :alt: figure 3
 
 You can search Assets with keywords in the search field. When you
-provide a keyword, {Product} searches all the Assets with the keyword in
+provide a keyword, Flotomate searches all the Assets with the keyword in
 their ID, Description, Name, Tags, and Display Name field. An Asset has
 to have at least one field matched (partial or full) with the keyword;
 in case there are multiple keywords, the Asset has to have at least one
@@ -318,7 +318,7 @@ There are filters to isolate an Asset Type:
 Bulk Update
 ===========
 
-{Product} supports bulk update of Asset information of multiple Assets
+Flotomate supports bulk update of Asset information of multiple Assets
 at once. The dialog box to perform this operation is same across all the
 classes. To perform the bulk update:
 
