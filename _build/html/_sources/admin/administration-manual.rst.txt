@@ -1,0 +1,1970 @@
+
+
+
+Customization
+=============
+
+Status 
+-------
+
+Status show the stage of a Request, Problem, Change and an Asset in
+their respective process flow. Statuses are essential in managing the
+lifecycle of tickets and CIs in the Flotomate. A lot of automatic
+processes can be created based on the Status of a ticket.
+
+We have predefined Statuses for each of the ticket types and Assets.
+Along with pre-defined Statuses, you can add custom Statuses.
+
+*Note: Setting Custom Status requires administrative rights.*
+
+|image87| |image88|
+
+Figure 85
+
+Predefined Status 
+~~~~~~~~~~~~~~~~~~
+
+Flotomate has predefined Statuses which are immutable. They coexist with
+custom Statuses. They are as follows:
+
+-  **Request**:
+
+   Here Statuses show the lifecycle of a Request.
+
+   a. Open
+
+   n. Pending On Requestor
+
+   o. Pending in Approval
+
+   p. Pending On Technician
+
+   q. Resolved
+
+   r. Closed
+
+-  **Problem**:
+
+   Here Statuses show the lifecycle of a Request.
+
+   a. Open
+
+   b. Pending On Requestor
+
+   c. Pending in Approval
+
+   d. Pending On Technician
+
+   e. Resolved
+
+   f. Closed
+
+-  **Change**:
+
+   Here each status is part of a stage in a Change process.
+
+   a. Submitted:
+
+      xiv. Requested
+
+      xv.  Rejected
+
+      xvi. Accepted
+
+   s. Planning:
+
+      xvii.  In Progress
+
+      xviii. Canceled
+
+      xix.   Completed
+
+   t. Approval:
+
+      xx.   Pending
+
+      xxi.  Rejected
+
+      xxii. Approved
+
+   u. Implementation:
+
+      xxiii. In Progress
+
+      xxiv.  Rejected
+
+      xxv.   Completed
+
+   v. In Review:
+
+      xxvi.   In Progress
+
+      xxvii.  Failed
+
+      xxviii. Completed
+
+-  **Asset**:
+
+   Here statuses reflect the state of an Asset.
+
+   a. In Use
+
+   b. Missing
+
+   c. Retired
+
+Add Custom Status 
+~~~~~~~~~~~~~~~~~~
+
+-  Go to **Admin** >> **(Request, Problem, Change or Asset) Custom
+   Status**.
+
+..
+
+   |image89|
+
+Figure 86
+
+-  Select a Status Type.
+
+   |image90|
+
+Figure 87
+
+-  Use the Plus Icon to add a custom Status. You can add multiple
+   Statuses.
+
+   |image91|
+
+Figure 88
+
+Rearrange Custom Status 
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+-  Go to the **Custom Status** page.
+
+-  You can change the order of custom Statuses in all type by drag and
+   drop.
+
+   |image92|
+
+Figure 89
+
+Business Services in Problem Management
+---------------------------------------
+
+Flotomate allows you to add a list of business deliverables (services)
+of your organization. You can describe each and every business service
+that you add.
+
+In the product, a Technician can highlight the impact of a Problem by
+associating it with a Business Service.
+
+*Note: Managing Business Services requires administrative rights.*
+
+**View Business Services**
+
+-  Go to **Admin** >> **Business Services** (Problem Management).
+
+-  In the **Business Services** page, you can view all your existing
+   business service descriptions, if any.
+
+   |image93|
+
+Figure 90
+
+Add Business Services
+~~~~~~~~~~~~~~~~~~~~~
+
+-  Go to the **Business Services** page.
+
+-  Click **Add Business Service** button situated in the top right
+   corner of the page.
+
+..
+
+   |image94|
+
+Figure 91
+
+-  Fill the Name and Description fields and click on **Add**.
+
+-  In the **Business Services** page, you can edit any business
+   description using the Edit Icon or delete using the Delete icon.
+
+   |image95|
+
+Figure 92
+
+Templates
+---------
+
+Templates in Flotomate allows you to quickly fill the create form of
+Request, Problem, and Change. You can create templates for each of the
+ticket types, and your users can use them while creating a Request,
+Problem or Change.
+
+*Note: Managing templates requires administrative rights.*
+
+Add a Template
+~~~~~~~~~~~~~~
+
+-  Go to **Admin** >> (Request, Problem or Change) Templates.
+
+   |image96|
+
+Figure 93
+
+-  In the new page, you can view your existing templates. To add a new
+   one, click on **Create a (Request, Problem, or Change) Template** in
+   the top right corner.
+
+-  A dialog box opens where you can predefine the following things:
+
+   |image97|
+
+Figure 94
+
+a. **Request**:
+
+   xxix.   The subject of a Request.
+
+   xxx.    Status, Urgency, and Impact of a Request.
+
+   xxxi.   Tags of a Request.
+
+   xxxii.  Category of a Request.
+
+   xxxiii. Description of a Request.
+
+w. **Problem**:
+
+   xxxiv.   Subject to a Problem
+
+   xxxv.    Whether a Problem is known or not.
+
+   xxxvi.   Status, Urgency, Nature of Problem and Impact of a Problem.
+
+   xxxvii.  Tags of a Problem.
+
+   xxxviii. Category of a Problem.
+
+   xxxix.   Description of a Problem.
+
+x. **Change**:
+
+   xl.    The subject of a Change.
+
+   xli.   Status, Urgency, Risk, Change Type and Impact of a Change.
+
+   xlii.  Tags of a Change.
+
+   xliii. Category of a Change.
+
+   xliv.  Description of a Change.
+
+Edit Request Templates
+~~~~~~~~~~~~~~~~~~~~~~
+
+-  Go to **(Request, Problem or Change) Templates** page
+
+-  Click the Edit-Icon adjacent to a template to open a dialog box.
+
+-  Make your changes and hit **Update**. You are taken back to the
+   **Templates** page
+
+-  Delete any template using the Delete Icon next to the Edit Icon.
+
+Custom Fields
+-------------
+
+Custom fields are additional fields added by a user. They can appear
+while creating a ticket, and in the details view of a ticket and CI.
+Custom fields can be added to Requests, Problems, Changes, and Assets.
+
+*Note: Adding Custom Fields requires administrative rights.*
+
+Add a Custom Field
+~~~~~~~~~~~~~~~~~~
+
+-  Go to **Admin** >> **(Request, Problem, Change or Asset) Custom
+   Fields**.
+
+   |image98|
+
+Figure 95
+
+-  In the **Custom Fields** page, you can view your existing custom
+   fields for each module, if any.
+
+|image99|
+
+Figure 96
+
+-  Regardless of the module, you can only have two types of fields: Text
+   Field and Selection Field. A Text field has a label and an input area
+   for a value, and a Selection Field has a lablel and an input area
+   with a drop-down list of values.
+
+   Anywhere, you can have both Text-Field and Selection-Field. You start
+   adding fields using the **Add** button.
+
++-----------------------------------+-----------------------------------+
+| Text Field                        | -  Field Label is the name of the |
+|                                   |    field and appears above the    |
+|                                   |    field.                         |
+|                                   |                                   |
+|                                   | -  Default Value always appears   |
+|                                   |    in the field before being      |
+|                                   |    edited.                        |
+|                                   |                                   |
+|                                   |    |image102|                     |
+|                                   |                                   |
+|                                   | Figure                            |
++===================================+===================================+
+| Selection Field                   | -  You can have one Field Label   |
+|                                   |    but multiple options.          |
+|                                   |                                   |
+|                                   | -  Use the Plus Icon to add more  |
+|                                   |    options                        |
+|                                   |                                   |
+|                                   | -  The options are shown as a     |
+|                                   |    list.                          |
+|                                   |                                   |
+|                                   | -  You can select an option to be |
+|                                   |    the default value. Default     |
+|                                   |    Value always appears in the    |
+|                                   |    field before being edited.     |
+|                                   |                                   |
+|                                   | -  You can change the Default     |
+|                                   |    Values’.                       |
+|                                   |                                   |
+|                                   |    |image103|                     |
+|                                   |                                   |
+|                                   | Figure                            |
++-----------------------------------+-----------------------------------+
+
+-  Custom fields have a different behaviour across the types.
+
+   a. **Request**:
+
+      xlv. You can show a custom field in **Create a Request** form.
+
+           |image104|
+
+Figure 99
+
+For example, we have created a field called Employee ID in Figure 99.
+
+xlvi. New fields appear in the Work tab of a Request.
+
+      |image105|
+
+Figure 100
+
+xlvii. You can make a field compulsory for certain Statuses. For
+       example, if a field is compulsory in Open Status, then you cannot
+       keep the field empty when changing to another Status.
+
+b. **Problem**:
+
+   xlviii. All custom fields appear in the **Custom Fields** tab under
+           **Analysis**.
+
+           |image106|
+
+Figure 101
+
+xlix. You can make a field compulsory for certain Statuses. For example,
+      if a field is compulsory in Open Status, then you cannot keep the
+      field empty when changing to another Status
+
+c. **Change**:
+
+   l. You can add a field to a particular stage of a Change.
+
+      |image107|
+
+Figure 102
+
+li.  You can mark a field as compulsory at a particular stage.
+
+lii. Fields appear in a separate section called Custom Fields.
+
+     |image108|
+
+Figure 103
+
+d. **Asset**:
+
+   liii. You add a field either to an Asset Type or a particular
+         sub-type.
+
+   liv.  Within a type, you can either make the field appear in Property
+         section or Component section. Please refer to the Asset
+         Management manual to learn more.
+
+Edit Custom Fields
+~~~~~~~~~~~~~~~~~~
+
+-  Go to the `Custom Fields <#add-a-custom-field>`__ page.
+
+-  .You can change the name of a custom field using the Edit Icon or
+   delete it using the Delete Icon.
+
+   |image109|
+
+Figure 104
+
+Category
+--------
+
+The category is one of many categorization features we have. You can use
+category for delegation, workflow design, or any other categorization
+function required by your organization. You can have Categories for
+Request, Problem, Change, Project, and Software.
+
+Predefined categories
+~~~~~~~~~~~~~~~~~~~~~
+
+Flotomate comes preloaded with the following Categories:
+
++-----------------------------------+-----------------------------------+
+| **Request**                       | -  Service Request                |
+|                                   |                                   |
+|                                   | -  Incident                       |
+|                                   |                                   |
+|                                   | You can change the name of the    |
+|                                   | above categories but not the      |
+|                                   | Category Key.                     |
++===================================+===================================+
+| **Problem**                       | -  General                        |
+|                                   |                                   |
+|                                   | -  Hardware                       |
+|                                   |                                   |
+|                                   | -  Software                       |
+|                                   |                                   |
+|                                   | -  Network                        |
+|                                   |                                   |
+|                                   | -  IT Administration              |
+|                                   |                                   |
+|                                   | You can change the name of the    |
+|                                   | above Categories.                 |
++-----------------------------------+-----------------------------------+
+| **Change**                        | -  General                        |
+|                                   |                                   |
+|                                   | -  Process                        |
+|                                   |                                   |
+|                                   | -  Hardware                       |
+|                                   |                                   |
+|                                   | -  Software                       |
+|                                   |                                   |
+|                                   | -  Network                        |
+|                                   |                                   |
+|                                   | -  Security                       |
+|                                   |                                   |
+|                                   | You can change the name of the    |
+|                                   | above Categories.                 |
++-----------------------------------+-----------------------------------+
+| **Project**                       | -  Business                       |
+|                                   |                                   |
+|                                   | -  Maintenance                    |
+|                                   |                                   |
+|                                   | -  Infrastructure                 |
+|                                   |                                   |
+|                                   | -  Research                       |
+|                                   |                                   |
+|                                   | You can change the name of the    |
+|                                   | above Categories.                 |
++-----------------------------------+-----------------------------------+
+| **Software**                      | -  A/C                            |
+|                                   |                                   |
+|                                   | -  DB                             |
+|                                   |                                   |
+|                                   | -  Development                    |
+|                                   |                                   |
+|                                   | -  Game                           |
+|                                   |                                   |
+|                                   | -  Graphics                       |
+|                                   |                                   |
+|                                   | -  Internet                       |
+|                                   |                                   |
+|                                   | -  Multi-Media                    |
+|                                   |                                   |
+|                                   | -  Operating System               |
+|                                   |                                   |
+|                                   | -  Others.                        |
+|                                   |                                   |
+|                                   | You can modify or delete the      |
+|                                   | above categories.                 |
++-----------------------------------+-----------------------------------+
+
+Add a Category
+~~~~~~~~~~~~~~
+
+*Note: Adding a category requires you to have access to the Admin
+section.*
+
+-  Go to **Admin** >> **(Request, Problem, Change, Project or
+   Software)** **Categories**.
+
+   |image110|
+
+Figure 105
+
+-  In Request, Problem, Change, and Project, you can add a Category and
+   its Sub-Categories up to level three. In Software, you can have only
+   standalone Categories.
+
+-  In the leftmost column, you can add a level one Category using the
+   **Add** button. Clicking on a Category activates its right side
+   Sub-Category column where you can add another Category.
+
+-  In Request, you are asked for a Category Key when adding a new
+   Category. This is used as a prefix to the ID of a Request.
+
+   |image111|
+
+Figure 106
+
+Edit Category
+~~~~~~~~~~~~~
+
+-  Go to **Categories** page\ **.**
+
+-  You can change the name of a Category using the Edit icon.
+
+   |image112|
+
+Figure 107
+
+-  You can only delete Categories in Software. In other types, you have
+   to turn a Category off.
+
+Custom Rules
+------------
+
+Using Custom Rules, you can set pre-requisites that need to be done
+before performing certain actions. You can have Custom Rules for
+Request, Problem, Change, Knowledge and Remote Deployment.
+
+To Open Custom Rules:
+
+-  Go to **Admin** >> **(Request, Problem, Change, Knowledge or Patch)
+   Custom Rules**.
+
+   |image113|
+
+   |image114|
+
+Figure 108
+
+Current Custom Rules are as follows:
+
+Request
+~~~~~~~
+
+-  **Before resolving a Request**:
+
+   a. User Interaction:
+
+      lv.   Should have at least one message in Ask Requestor tab.
+
+      lvi.  A Request should have at least one note.
+
+      lvii. Should have at least one solution.
+
+   y. Mandatory fields:
+
+      lviii. Should have an assigned Technician.
+
+      lix.   Should have a Location.
+
+      lx.    Should have an Estimated Time.
+
+      lxi.   Should have a Diagnosis.
+
+      lxii.  Should have a Source.
+
+      lxiii. Should have Approval status as either Approved or
+             Pre-Approved.
+
+   z. Should have all Tasks as closed.
+
+-  **Before closing a Request**:
+
+   a. Same as before resolving a Request.
+
+   a. Should not skip Resolve status.
+
+-  **Required to add a Note before**:
+
+   a. Should add a Note to a Request before performing the following
+      actions:
+
+      lxiv.   Changing assigned Technician of a Request.
+
+      lxv.    Changing Support Level of a Request.
+
+      lxvi.   Changing Due Date of a Request.
+
+      lxvii.  Changing Category of a Request.
+
+      lxviii. Changing Department of a Request.
+
+      lxix.   Changing Priority of a Request.
+
+Problem
+~~~~~~~
+
+-  **Before resolving a Request**:
+
+   a. User Interaction:
+
+      lxx.  A Request should have at least one note.
+
+      lxxi. Should have at least one solution.
+
+   a. Mandatory fields:
+
+      lxxii.  Should have an assigned Technician.
+
+      lxxiii. Should have a Location.
+
+      lxxiv.  Should have a Root Couse.
+
+      lxxv.   Should have a Symptom.
+
+      lxxvi.  Should have an Impact.
+
+      lxxvii. Should have Approval status as either Approved or
+              Pre-Approved.
+
+   b. Should have all Tasks as closed.
+
+-  **Before closing a Request**:
+
+   a. Same as before resolving a Request.
+
+   b. Should not skip Resolve status.
+
+-  **Required to add a Note before**:
+
+   a. Should add a Note before performing the following actions:
+
+      lxxviii. Changing assigned Technician.
+
+      lxxix.   Changing Due Date.
+
+      lxxx.    Changing Category.
+
+      lxxxi.   Changing Department.
+
+Change
+~~~~~~
+
+You can set rules for each stage of a change process.
+
+-  **Submit**:
+
+   a. Should have a Change Manager.
+
+   b. Should have an assigned Technician.
+
+   c. Should have a Location.
+
+-  **Planning**:
+
+   a. Should have schedule and rollout dates.
+
+   b. Should have a rollout plan.
+
+   c. Should have an assigned Technician.
+
+   d. Should have set impact.
+
+   e. Should have a Backout plan.
+
+-  **Implementation**:
+
+   a. Should have a change implementer.
+
+   b. All task must be closed before moving to the next stage.
+
+   c. Should have an assigned Technician.
+
+-  **In Review:**
+
+   a. Should have a change reviewer.
+
+   b. Should have an assigned Technician.
+
+-  **Require Note befor**\ e:
+
+   a. Changing category.
+
+   b. Changing assigned Technician.
+
+   c. Changing Department.
+
+   d. Changing Location.
+
+Asset
+~~~~~
+
+-  Manual Update:
+
+   *Note: Asset rules are applicable for both discovered and manually
+   created Assets.*
+
+   a. Whether to allow Technicians to update Hardware Components of an
+      Asset.
+
+   b. Whether to allow Technicians to update Software Components of an
+      Asset.
+
+   c. Whether to allow Technicians to update Users details of an Asset.
+
+Knowledge
+~~~~~~~~~
+
+Whether Knowledge should be approved by approvers before publishing.
+
+Remote Deployment:
+~~~~~~~~~~~~~~~~~~
+
+Whether a deployment of Patches and Packages needs to go through an
+Approval process.
+
+Setting Up Helpdesk
+===================
+
+Email Command Settings
+----------------------
+
+You can change the details of a **Request** remotely using an email.
+Along with changing details, you can also add a note to a Request.
+
+You create an email command tag, and you have to enclose your Request
+details within the email command tags along with [[**Request** Id]] in
+the subject field.
+
+**Setting Up Email Command**:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+*Note: Whatever parameters you want to change, you have to have the
+necessary permissions in your role.*
+
+1. Go to **Admin** >> **Email Command Settings** (Helpdesk).
+
+41. The Email Command Settings dialog box opens. You can change only the
+    details in Available Commands of a Request. Add your email command
+    in the Email Command field.
+
+    |image115|
+
+Figure 109
+
+42. The Subject and Content section of the page gives you a preview of
+    how to format an email to change a Request. The Request Id has to be
+    in the subject section, and whatever you write in the email body,
+    other than the command line, appears under collaborate in the
+    Request details page(Figure 110).
+
+|image116|
+
+Figure 110
+
+Request Feedback Settings
+-------------------------
+
+You can send an email to a Requestor of a Request asking for a Feedback.
+The email contains a link to the feedback form. You can choose whether
+to send the link with the Resolved and Closed email notification or send
+it manually in a separate email.
+
+-  Go to **Admin** >> **Request Feedback Settings** (Helpdesk).
+
+   |image117|
+
+Figure 111
+
+-  You can automatically send a feedback link to a Requestor in the
+   following ways:
+
+   a. **Resolving a Request**: If you toggle the Resolved button on, a
+      feedback link is sent with the email notification on Resolving a
+      Request.
+
+   b. **Closing a Request**: If you toggle the Closed button on, a
+      feedback link is sent with the email notification on Closing a
+      Request.
+
+-  If you turn **Send feedback manually** button on, then you can send a
+   feedback link to a Requester from the Details View of a Request.
+
+   |image118|
+
+   |image119|
+
+Figure 112
+
+-  On clicking on a feedback link you get following page:
+
+   |image120|
+
+Figure 113
+
+Priority Matrix
+---------------
+
+In the product, Priority is a way to set the importance of a Request
+ticket. A Technician can set the Priority of a Request manually or
+automatically using the Priority Matrix feature.
+
+**To open Priority Matrix:**
+
+-  Go to **Admin** (A Navigation Tab) >> **Priority Matrix** (in
+   Helpdesk). The Priority Matrix page opens.
+
+   |image121|
+
+Figure 114
+
+The Priority Matrix is a matrix with the column head having the Urgency
+values and rows having the Impact values. For example, if you want to
+set the Priority for Urgency **Low** and Impact **On Department** as
+**High** then you have to set the following row column value:
+
+|image122|
+
+Figure 115
+
+This way you have to set the values for all row and column combinations.
+The system automatically sets the Priority of a Request based on the
+matrix. You can decide whether you want users to override the set
+Priority using the toggle (Figure 114).
+
+Patch/Package Deployment
+========================
+
+Patch Custom Rules
+------------------
+
+Custom rules allow you make certain things prerequisite before
+performing certain activities. You can access custom rules from
+**Admin** (accessed from **Product Launcher**) >> **Patch Custom Rules**
+(Patch/Packages Deployment). Currently, the product offers the following
+rules:
+
+*Note: The edit button makes the fields editable.*
+
+-  Set requirement for an Approval before publishing a Deployment
+   Request.
+
+   |image123|
+
+Figure 116
+
+Share Drive Configuration
+-------------------------
+
+A Shared Drive is a shared resource on a Computer network. It is a
+device or piece of information on a Computer that can be remotely
+accessed from another Computer, typically via a local area network or an
+enterprise intranet, transparently as if it were a resource in the local
+machine.
+
+The Shared Drive is the default location where the Product Server stores
+all the Patches before deployment. The product asks for a Shared Drive
+when Patches don’t have a locally stored Package file.
+
+**To Setup a Shared Drive:**
+
+1. Log in to your Dashboard.
+
+43. Go to **Admin** (accessed from **Product Launcher**) >> **Shared
+    Drive Configurations** (Patch/Package Deployment).
+
+    |image124|
+
+Figure 117
+
+44. The Shared Drive Configuration page opens. Here you get the
+    following fields and options:
+
+    |image125|
+
+Figure 118
+
+c. In section-A (Figure 118), you type in a URL that tells the Product
+   Server the location of the Shared Drive.
+
+d. If you want the Patches to be automatically downloaded when there’s a
+   request, then turn on the toggle button in section-B.
+
+   Click the **Edit** button to make the fields editable. Once you enter
+   the URL, you can test the connection; the product tells you whether a
+   successful connection was established with the Share Drive. Once you
+   are done with everything, click on **Update** to save your changes.
+
+System Health Configuration
+---------------------------
+
+Patch Management ensures that all administered IT Assets are updated
+with the latest Patch from the Software Vendor; this enhances security
+and helps in thwarting external and internal cyber-attacks.
+
+Computers fetch and deploy Patches. So it becomes imperative to monitor
+all Computers to keep yourself aligned with the idea of Patch
+Management.
+
+Our product has a feature called System Health that flags Computers that
+are missing critical, essential Patches. This helps you to manage your
+vulnerability and prevent any attacks.
+
+System Health Settings
+~~~~~~~~~~~~~~~~~~~~~~
+
+Go to **Admin** (Accessed from **Product Launcher**) >> **System Health
+Settings** (Patch/Package Management).
+
+|image126|
+
+Figure
+
+These settings help Flotomate to flag Computers as either Highly
+Vulnerable or Vulnerable. You can filter the flagged Computers on the
+`Computer List View <#_Filters>`__. Clicking on **System Health
+Settings** opens a page. Here you can set the conditions separately to
+define Highly Vulnerable and Vulnerable.
+
+|image127|
+
+Figure
+
+Click on **Edit** to make the fields editable. You are expected to enter
+the minimum number of missing Patches for each severity label.
+
+Each vulnerability status has a set of four severity labels and their
+counts. No two same labels can have the same numbers (Numbers in Highly
+Vulnerable have to be higher than Vulnerable).
+
+|image128|
+
+Figure
+
+The number zero in a field signifies that there’s no condition for the
+corresponding severity label.
+
+If a Computer has a missing Patch number that is equal to or exceeds a
+minimum value for a label, then the Computer is flagged with the
+corresponding health status. In case a Computer satisfies multiple
+labels then the label top in the hierarchy is considered (Critical
+Patches having the highest priority and Low severity having the lowest).
+
+|image129|
+
+Figure
+
+Endpoint Scope
+--------------
+
+Depending on the License agreement you have with us, the number of
+Computers you can manage with the product (for remote deployment) is
+limited. All discovered Computers (with our Agent application) stay out
+of the scope of the product by default; you have to bring them within
+the scope before you can use our product features.
+
+The Endpoint Scope lets you view all available Computers (not in the
+Scope) and add them to the Scope. You can set certain conditions that
+allow the product to add any new Computers automatically. You can also
+add Computers manually.
+
+There is a counter that shows how many Computers are within the scope
+and how many you can still add. In no situation, you can exceed the
+total number of Computers you are allowed to add to the Scope.
+
+*Note: Only Computers configured with our Agent Application is visible
+on Endpoint Scope.*
+
+Add Computers to a Scope
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+-  Go to **Admin** (accessed from **Product Launcher**) >> **Endpoint
+   Scope** (Patch/Package Management).
+
+   |image130|
+
+Figure
+
+-  The Endpoint Scope page opens.
+
+   |image131|
+
+Figure
+
+-  You can view the total number of Computers that you can add from the
+   Total Endpoint Scope number. The Total Available shows you the number
+   of Computers you can still add to reach the Total Endpoint Scope
+   number.
+
+   |image132|
+
+Figure
+
+**Adding a Network (Automatic Addition of Computers)**
+
+-  You can associate a Network with a Scope; this allows the Scope to
+   automatically add Computers (with the Agent application) in the
+   Network based on include and exclude conditions. You can use both
+   manual and automatic addition of Computers together; they are not
+   mutually exclusive.
+
+   |image133|
+
+Figure
+
+-  Once you select a Network, you now have to add conditions. The
+   conditions are of two types: include and exclude. Both the types
+   create a set of Computers from which to either include or exclude.
+   When there’s an intersection or conflict between the two types then
+   exclude conditions/condition override the include set. For example,
+   to add Computers within an IP range with a hostname containing “Digi”
+   and excluding those with Linux OS, yields the following conditions:
+
+|image134|
+
+|image135|
+
+Figure
+
+**Manual Adding Computers**
+
+-  You can manually search and add Computers to a scope. The search bar
+   supports the Advanced Search feature where you get search options by
+   clicking on the search bar.
+
+   |image136|
+
+   |image137|
+
+Figure
+
+You can also enter keywords to search for a Computer. When entering a
+keyword, the product explores all the Computers with the keyword in
+their Name, Hostname, Domain name, OS name and Service Pack. A Computer
+has to have at least one field matched (partial or full) with the
+keyword; in case there are multiple keywords, a Computer has to have at
+least one field matched for each keyword.
+
+You can combine search options with keywords. Between two different
+conditions of the same type OR logic is followed. Between different
+types AND logic is observed. An example of same type contradiction is OS
+Name contains Windows vs. OS Name contains Linux.
+
+|image138|
+
+Figure
+
+-  Once you have found your Computers, add by selecting them, and they
+   move to the Selected Computers list. Manually selected Computers
+   override the exclude criteria/conditions set under the Network.
+
+   |image139|
+
+Figure
+
+-  Once you are done setting conditions and adding Computers, click on
+   **Update**.
+
+-  You can create more than one Scope to accommodate multiple Networks
+   (a Scope can have only one Network). The actual Computer list is
+   cumulative of all available Scopes (added manually and
+   automatically).
+
+|image140|
+
+Figure
+
+Preview Computer List
+~~~~~~~~~~~~~~~~~~~~~
+
+Once you are done with adding Computers and setting conditions, you can
+view the final list of all the Computers (added manually and
+automatically) in all Scopes using the Preview function.
+
+Open Endpoint Scope from **Admin**. Click on **Preview** to generate the
+Computer list.
+
+|image141|
+
+Figure
+
+You can search for a Computer. The search bar supports the Advanced
+Search feature. It is similar to the search bar in a Scope.
+
+Approval Settings
+-----------------
+
+The idea of Patch Management revolves around security, enhancement, and
+compliance. Sometimes it may happen that specific Patches don’t comply
+with the idea of Patch Management. It becomes necessary to keep these
+Patches out from the IT infrastructure which might cause more trouble
+than any good.
+
+The tool has the provision to seek Approval for each and every Patch
+before they can be deployed. There are two methods for Approval: Manual
+Approval and Automatic Approval (Automatic Patch Test). Which method to
+choose is decided from the Patch Approval Setting in Admin.
+
+Patch Approval Setting (Selecting an Approval Method)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+*Note: Configuring Patch Approval Settings requires Admin rights.*
+
+-  Go to **Admin** (accessed from **Product Launcher**) >> **Patch
+   Approval Setting** (Patch/Package Deployment).
+
+-  The Patch Approval Setting page opens. There you get three options
+   (Approval Types). Click on **Edit** to make the page editable.
+
+   |image142|
+
+Figure
+
+a. **All Patches Pre-Approved**: As the name suggests, all incoming
+   Patches (both new and missing Patches) are Pre-Approved by default. A
+   user can manually change the Approval status of Patch to Reject or
+   Approved. The Automatic Patch Test doesn’t work with this selection.
+
+   This selection comes into effect for incoming future Patches, and it
+   doesn’t affect Patches that are already in the product.
+
+e. **All Patches will be Manually Approved**: All new incoming Patches
+   have the Approval status **Not Approved** by default. A user has to
+   change the status manually to either Approved or Reject.
+
+f. **Qualified Patches will be Approved by Test Task**: All new incoming
+   Patches have the status **Not Approved** by default. A user can
+   manually set the status. He also has the option to create a Test
+   Task.
+
+   A Test Task, also known as Automatic Patch Test, deploys a selected
+   set of Patches to a specific set of Computers; if deployment is
+   successful in all of the Computers, then the Patches are
+   auto-approved after a set number of days. Test Task only works in
+   this setting.
+
+-  Select an Approval Type and hit **Update**.
+
+Asset Management
+================
+
+Adding Custom Asset Types
+-------------------------
+
+We have introduced the concept of Asset Type Hierarchy to make
+cataloging of Assets simple. It is a predefined catalog of Asset Types,
+which serves the purpose of giving you a generic umbrella term for every
+Asset in the CMDB.
+
+|image143|\ |image144|\ |image145|
+
+Figure 134
+
+Flotomate allows you to add custom Asset Sub-Types in the Asset Type
+Hierarchy. You can create sub-types up to two levels.
+
+To add an Asset Type:
+
+-  Go to **Admin** (A Navigation Tab) >> **Asset Types** (Asset
+   Management).
+
+   |image146|
+
+Figure 135
+
+-  The Asset Types page opens. Here you can add your sub-types in level
+   two and three using the **Add** button.
+
+**Editing Custom Types**
+
+-  Go to **Admin** >. **Asset Types**.
+
+-  You can change the name of any custom type using the Edit Icon or
+   delete any type using the Delete Icon.
+
+   |image147|
+
+Figure 136
+
+Adding an Asset Group
+---------------------
+
+Flotomate allows you to categorize Assets in the CMDB into groups.
+Groups are a convenient way to compartmentalize Assets based on certain
+similarities.
+
+Some of the benefits of using Asset Groups are:
+
+-  Asset Groups help Technicians to manage Assets in the CMDB. For
+   example: if a Technician is responsible for an Asset Group called
+   DATA CENTER ASSETS then he can easily search for the Assets with the
+   group name.
+
+-  Groups are used in Hardware Asset notification. For example: in case
+   there is a Hardware change in a specific Asset Group then a
+   notification is sent to certain users.
+
+**To Create an Asset Group:**
+
+*Note: This operation requires Admin rights.*
+
+1. Go to **Admin** >> **Asset Group** (Asset Management)
+
+45. The Asset Groups page opens. Here you can view all your Groups and
+    their Assets.
+
+    |image148|
+
+Figure 137
+
+*Note: You can access the Asset Groups page from Admin >> Asset Groups
+(under Asset Management).*
+
+46. Click on **Create an Asset Group** situated in the top right corner
+    of the page. A dialog box opens with the following fields:
+
+    g. **Name**: Provide a suitable name for the group.
+
+    h. **Owner**: Select an owner of the group from the Technician list.
+
+    i. **Description**: Write the purpose of the group.
+
+       |image149|
+
+Figure 138
+
+47. When you are done hit **Create**. Your Asset Group is added to the
+    Asset Groups page.
+
+Software Type
+-------------
+
+A Software Type tries to define the nature of existence of a Software
+Asset. By default, Flotomate provides six Software Types out of the box.
+They are as follows:
+
+-  **Excluded**: These are all Software that does not need any managing.
+
+-  **Managed**: These are all Software that needs managing with regards
+   to License and Compliance.
+
+-  **Freeware**: These are Software that is free to use.
+
+-  **Prohibited**: These are Software that is not allowed to be used.
+
+-  **Shareware**: These are Software that is running on a free Trial.
+
+-  **Unidentified**: As the name suggests, these are unidentified
+   Software with unknown source.
+
+Adding a Software Type:
+~~~~~~~~~~~~~~~~~~~~~~~
+
+*Note: This operation requires administrative rights.*
+
+Apart from the default Types, you can add more Software Type/Types. To
+add a Software Type:
+
+1. Go to **Admin** (A Navigation Tab) >> **Software Types** (Asset
+   Management).
+
+   |image150|
+
+Figure 139
+
+48. The Software Types page opens. Here you can view all your default
+    and custom types. Click on **Add Software Type** situated in the top
+    right corner.
+
+    |image151|
+
+Figure 140
+
+49. The Add Software Type dialog box opens. Type in the details and
+    click **Add**.
+
+Adding a Manufacturer
+---------------------
+
+Before adding a Manufacturer’s name to a Product, you have to add it in
+Flotomate. In Flotomate you can maintain a list of manufacturers’ names
+that you can associate with various Products in the system.
+
+To Add a Manufacturer:
+
+1. Go to **Admin** (A Navigation Tab) >> **Manufacturers** (Asset
+   Management).
+
+   |image152|
+
+Figure 141
+
+50. The Manufacturers page opens. Here you can view all the
+    Manufacturers that you have added. Click on **Add Manufacturer**
+    situated in the top right corner of the page.
+
+    |image153|
+
+Figure 142
+
+51. The Add Manufacturer dialog box opens. Type in the Name of the
+    Manufacturer and a Description, and you can maintain a record of
+    sysOIDs (System OID) using the **ADD System OID** (Figure 142)
+    button.
+
+    The sysOID is for SNMP devices. The product matches SNMP devices
+    with Manufacturers using the sysOID. The first 12 characters of a
+    sysOID gives enough information to perform the match. The
+    matchmaking happens even when the manufacturer is not explicitly
+    mentioned in a SNMP device.
+
+2. When you are done, hit **Save** to add the Manufacturer.
+
+**Editing Manufacturer**
+
+1. Go to **Admin** >> **Manufacturers**.
+
+52. In the Manufacturers page, click on the Edit Icon adjacent to the
+    Manufacturer that you want to edit.
+
+53. Perform your edits in the Edit Manufacturer dialog box and hit
+    **Update**.
+
+Barcode Configuration
+---------------------
+
+You can have a variety of barcode prefixes when you are generating
+barcodes for printing. In Barcode Configuration page is where you add
+your own barcode prefixes.
+
+**To Add New Barcode Prefix:**
+
+-  Go to **Admin** (A Navigation tab) >> **Barcode Configuration**
+   (Asset Management).
+
+-  Barcode Configuration page opens, there you can see all the existing
+   prefixes. Click on Add Prefix.
+
+   |image154|
+
+Figure 143
+
+-  Add Prefix dialog box opens. There type a four character prefix and
+   hit **Add**.
+
+**To Delete a Prefix:**
+
+-  In Barcode Configuration page, click on the Delete Icon adjacent to a
+   prefix that you want to delete. On confirmation, the prefix gets
+   deleted.
+
+Adding a Product Type
+---------------------
+
+A Product can be further categorized into Product Types. A Product Type
+is a generic category to group Products. For example, Router is a
+Product Type that describes Products like Asus, TP-Link, etc. In
+Flotomate, you get a list of Product Types out of the box, but you can
+also add more types.
+
+**To Add a Product Type:**
+
+1. Go to **Admin** (A Navigation Tab) >> **Product Types** (Asset
+   Management).
+
+   |image155|
+
+Figure 144
+
+54. The Product Types page opens. Here you can view all the Product
+    Types added by you along with the predefined types. Now click on
+    **Add Product Type** situated in the top right corner of the page.
+
+    |image156|
+
+Figure 145
+
+55. You see the Add Product Type dialog box. You have to fill the
+    following fields:
+
+    j. **Name**: Type an appropriate Type name. For example, Desktop is
+       a proper Product Type name.
+
+    k. **Type**: It is a subdivision of a Product Type. There are four
+       main Types to choose from:
+
+       lxxxii.  **Asset**: It is a thing that can provide value
+                generally for more than a year. For example, a Laptop
+                computer.
+
+       lxxxiii. **Component**: It refers to a functional part of an
+                Asset. For example, a GPU card is a component that goes
+                into a Desktop.
+
+       lxxxiv.  **Consumable**: It is a thing whose ability to deliver
+                value gets exhausted within a short period, generally
+                less than a year. For example, a Printer’s toner
+                cartridge.
+
+       lxxxv.   **Others**: Anything that doesn’t fall in the above
+                three Types.
+
+    l. **Category**: Here you have to make a selection between an IT and
+       Non-IT Asset. Learn `the difference between an IT and Non-IT
+       Asset <#_What_are_IT>`__.
+
+    m. **Description**: A short description of the Product Type.
+
+       After filling the details hit **Save** to create the Product
+       Type.
+
+**Editing a Product Type**
+
+|image157|
+
+Figure 146
+
+*Note: You can only change the description of the predefined Product
+Types. None of the predefined Product Types can be deleted.*
+
+-  Go to **Admin** (A Navigation Tab)>> **Product Types** (Asset
+   Management).
+
+-  In the Product Types page, click on the Edit Icon adjacent to the
+   Product Type you want to edit.
+
+-  Perform your edits in the Edit Product Type dialog box and hit
+   **Update**.
+
+In the Product Types page, click on the Delete Icon adjacent to the
+Product Type that you want to delete. On confirmation, the Product Type
+gets deleted.
+
+RDP Configuration
+-----------------
+
+Remote Desktop is the ability of a computer to remotely connect to
+another computer and control it as if the user were in front of the
+remote machine. Remote access is generally done utilizing an
+application.
+
+You can remotely connect and control workstations in the CMDB using our
+Agent application. Currently, Remote Desktop works on workstations
+having either Windows or Ubuntu OS and brought in by an Agent.
+
+Turning RDP On
+~~~~~~~~~~~~~~
+
+Before you can initiate a remote session, you have to turn on the RDP
+from Admin:
+
+-  Go to **Admin** >> **RDP Configuration** (Asset Management).
+
+   |image158|
+
+Figure 147
+
+-  The RDP Configuration dialog box opens. There toggle **Enable RDP**
+   on.
+
+   |image159|
+
+Figure 148
+
+-  If you are facing a problem in establishing a connection with some
+   Agents then you can use the Fix RDP option in RDP Configuration
+   dialog box to fix all available connections.
+
+.. |image0| image:: media/image1.jpeg
+   :width: 17.50417in
+   :height: 11.66944in
+.. |image1| image:: media/image2.png
+   :width: 2.50584in
+   :height: 2.29596in
+.. |image2| image:: media/image3.png
+   :width: 3.0909in
+   :height: 2.30807in
+.. |image3| image:: media/image4.png
+   :width: 3.46597in
+   :height: 2.82469in
+.. |image4| image:: media/image5.png
+   :width: 5.60139in
+   :height: 2.8522in
+.. |image5| image:: media/image6.png
+   :width: 5.61354in
+   :height: 3.62314in
+.. |image6| image:: media/image7.png
+   :width: 6.26806in
+   :height: 0.37431in
+.. |image7| image:: media/image8.png
+   :width: 5.78428in
+   :height: 0.21875in
+.. |image8| image:: media/image9.png
+   :width: 3.01084in
+   :height: 1.86484in
+.. |image9| image:: media/image10.png
+   :width: 6.02847in
+   :height: 2.33765in
+.. |image10| image:: media/image11.png
+   :width: 4.67431in
+   :height: 2.38894in
+.. |image11| image:: media/image12.png
+   :width: 6.04878in
+   :height: 1.55274in
+.. |image12| image:: media/image13.png
+   :width: 5.94514in
+   :height: 1.92265in
+.. |image13| image:: media/image14.png
+   :width: 5.06051in
+   :height: 0.64455in
+.. |image14| image:: media/image15.png
+   :width: 2.57292in
+   :height: 2.42462in
+.. |image15| image:: media/image16.png
+   :width: 4.28035in
+   :height: 2.48256in
+.. |image16| image:: media/image17.png
+   :width: 3.01042in
+   :height: 2.45096in
+.. |image17| image:: media/image18.png
+   :width: 4.25764in
+   :height: 2.34203in
+.. |image18| image:: media/image19.png
+   :width: 3.15625in
+   :height: 2.38533in
+.. |image19| image:: media/image20.png
+   :width: 5.76806in
+   :height: 1.42252in
+.. |image20| image:: media/image21.png
+   :width: 5.60139in
+   :height: 2.81497in
+.. |image21| image:: media/image22.png
+   :width: 6.26806in
+   :height: 1.78542in
+.. |image22| image:: media/image23.png
+   :width: 5.31in
+   :height: 1.47959in
+.. |image23| image:: media/image24.png
+   :width: 5.16181in
+   :height: 2.23718in
+.. |image24| image:: media/image25.png
+   :width: 5.59371in
+   :height: 3.67521in
+.. |image25| image:: media/image26.png
+   :width: 5.63892in
+   :height: 3.21324in
+.. |image26| image:: media/image27.png
+   :width: 5.12822in
+   :height: 1.55543in
+.. |image27| image:: media/image28.png
+   :width: 5.60139in
+   :height: 2.67596in
+.. |image28| image:: media/image29.png
+   :width: 4.34839in
+   :height: 2.31497in
+.. |image29| image:: media/image30.png
+   :width: 5.16608in
+   :height: 1.01603in
+.. |image30| image:: media/image31.png
+   :width: 5.16608in
+   :height: 0.92945in
+.. |image31| image:: media/image32.png
+   :width: 4.78125in
+   :height: 1.49845in
+.. |image32| image:: media/image33.png
+   :width: 2.93023in
+   :height: 1.50556in
+.. |image33| image:: media/image34.png
+   :width: 5.6136in
+   :height: 3.65664in
+.. |image34| image:: media/image35.png
+   :width: 5.56879in
+   :height: 3.1855in
+.. |image35| image:: media/image36.png
+   :width: 5.29167in
+   :height: 3.85296in
+.. |image36| image:: media/image37.png
+   :width: 6.04167in
+   :height: 3.10316in
+.. |image37| image:: media/image38.png
+   :width: 6.26806in
+   :height: 0.46597in
+.. |image38| image:: media/image39.png
+   :width: 3.40714in
+   :height: 2.625in
+.. |image39| image:: media/image40.png
+   :width: 6.10139in
+   :height: 0.69085in
+.. |image40| image:: media/image41.png
+   :width: 6.26806in
+   :height: 1.61319in
+.. |image41| image:: media/image42.png
+   :width: 6.26806in
+   :height: 0.93542in
+.. |image42| image:: media/image43.png
+   :width: 5.61181in
+   :height: 3.05584in
+.. |image43| image:: media/image44.png
+   :width: 6.10139in
+   :height: 2.8986in
+.. |image44| image:: media/image45.jpg
+   :width: 6.85139in
+   :height: 0.83043in
+.. |image45| image:: media/image46.png
+   :width: 4.69514in
+   :height: 3.33539in
+.. |image46| image:: media/image47.jpg
+   :width: 6.10139in
+   :height: 0.81118in
+.. |image47| image:: media/image48.png
+   :width: 3.10417in
+   :height: 1.55559in
+.. |image48| image:: media/image49.png
+   :width: 6.10139in
+   :height: 2.96079in
+.. |image49| image:: media/image50.png
+   :width: 4.36181in
+   :height: 1.69282in
+.. |image50| image:: media/image51.png
+   :width: 6.26806in
+   :height: 3.34514in
+.. |image51| image:: media/image52.png
+   :width: 6.26806in
+   :height: 2.45069in
+.. |image52| image:: media/image53.png
+   :width: 5.09606in
+   :height: 2.47314in
+.. |image53| image:: media/image54.png
+   :width: 4.67375in
+   :height: 2.17428in
+.. |image54| image:: media/image55.png
+   :width: 4.29446in
+   :height: 2.67571in
+.. |image55| image:: media/image56.png
+   :width: 3.05208in
+   :height: 2.75999in
+.. |image56| image:: media/image57.jpg
+   :width: 6.10139in
+   :height: 3.10004in
+.. |image57| image:: media/image58.jpg
+   :width: 5.85139in
+   :height: 2.85568in
+.. |image58| image:: media/image59.png
+   :width: 5.12222in
+   :height: 1.83131in
+.. |image59| image:: media/image60.jpg
+   :width: 5.62992in
+   :height: 3.27423in
+.. |image60| image:: media/image61.jpg
+   :width: 5.62581in
+   :height: 3.31528in
+.. |image61| image:: media/image62.jpg
+   :width: 4.54551in
+   :height: 2.64145in
+.. |image62| image:: media/image63.png
+   :width: 5.65156in
+   :height: 1.33333in
+.. |image63| image:: media/image64.png
+   :width: 6.01806in
+   :height: 1.54152in
+.. |image64| image:: media/image65.png
+   :width: 6.50654in
+   :height: 0.68338in
+.. |image65| image:: media/image66.png
+   :width: 5.09856in
+   :height: 1.51042in
+.. |image66| image:: media/image67.png
+   :width: 5.16555in
+   :height: 4.13542in
+.. |image67| image:: media/image68.png
+   :width: 4.88283in
+   :height: 2.78821in
+.. |image68| image:: media/image69.png
+   :width: 4.77755in
+   :height: 2.37819in
+.. |image69| image:: media/image70.png
+   :width: 4.4375in
+   :height: 3.53879in
+.. |image70| image:: media/image71.png
+   :width: 5.60139in
+   :height: 0.51633in
+.. |image71| image:: media/image72.png
+   :width: 5.16528in
+   :height: 4.16092in
+.. |image72| image:: media/image73.png
+   :width: 5.16554in
+   :height: 3.75598in
+.. |image73| image:: media/image74.png
+   :width: 5.60139in
+   :height: 0.43813in
+.. |image74| image:: media/image75.png
+   :width: 6.17431in
+   :height: 1.63285in
+.. |image75| image:: media/image76.png
+   :width: 4.05773in
+   :height: 3.25405in
+.. |image76| image:: media/image77.png
+   :width: 4.10001in
+   :height: 2.62923in
+.. |image77| image:: media/image78.png
+   :width: 2.5374in
+   :height: 1.93806in
+.. |image78| image:: media/image79.png
+   :width: 3.97917in
+   :height: 4.4375in
+.. |image79| image:: media/image80.png
+   :width: 2.64583in
+   :height: 2.15938in
+.. |image80| image:: media/image81.png
+   :width: 5.15486in
+   :height: 1.85281in
+.. |image81| image:: media/image82.png
+   :width: 5.65333in
+   :height: 3.02083in
+.. |image82| image:: media/image82.png
+   :width: 2.80208in
+   :height: 2.24672in
+.. |image83| image:: media/image83.png
+   :width: 5.60139in
+   :height: 4.10392in
+.. |image84| image:: media/image84.png
+   :width: 3.95556in
+   :height: 2.36387in
+.. |image85| image:: media/image85.png
+   :width: 5.63754in
+   :height: 0.94424in
+.. |image86| image:: media/image86.png
+   :width: 5.60919in
+   :height: 2.89391in
+.. |image87| image:: media/image87.png
+   :width: 2.79861in
+   :height: 2.12454in
+.. |image88| image:: media/image88.png
+   :width: 2.91939in
+   :height: 2.12598in
+.. |image89| image:: media/image89.png
+   :width: 6.0592in
+   :height: 0.97917in
+.. |image90| image:: media/image90.png
+   :width: 3.19792in
+   :height: 1.82381in
+.. |image91| image:: media/image91.png
+   :width: 3.7401in
+   :height: 0.62509in
+.. |image92| image:: media/image92.png
+   :width: 4.27847in
+   :height: 1.60312in
+.. |image93| image:: media/image93.png
+   :width: 2.08333in
+   :height: 2.57316in
+.. |image94| image:: media/image94.jpg
+   :width: 4.96597in
+   :height: 3.60922in
+.. |image95| image:: media/image95.png
+   :width: 5.76806in
+   :height: 0.57003in
+.. |image96| image:: media/image96.png
+   :width: 5.99722in
+   :height: 1.09499in
+.. |image97| image:: media/image97.png
+   :width: 4.52847in
+   :height: 3.69111in
+.. |image98| image:: media/image98.png
+   :width: 6.26806in
+   :height: 1.05069in
+.. |image99| image:: media/image99.png
+   :width: 5.31677in
+   :height: 2.03181in
+.. |image100| image:: media/image100.png
+   :width: 2.33778in
+   :height: 0.80208in
+.. |image101| image:: media/image101.png
+   :width: 2.23017in
+   :height: 1.07292in
+.. |image102| image:: media/image100.png
+   :width: 2.33778in
+   :height: 0.80208in
+.. |image103| image:: media/image101.png
+   :width: 2.23017in
+   :height: 1.07292in
+.. |image104| image:: media/image102.png
+   :width: 5.16298in
+   :height: 1.18006in
+.. |image105| image:: media/image103.png
+   :width: 3.07197in
+   :height: 1.81778in
+.. |image106| image:: media/image104.png
+   :width: 2.6875in
+   :height: 1.14907in
+.. |image107| image:: media/image105.png
+   :width: 4.64306in
+   :height: 1.08026in
+.. |image108| image:: media/image106.png
+   :width: 4.47639in
+   :height: 1.80325in
+.. |image109| image:: media/image107.png
+   :width: 5.84097in
+   :height: 1.38874in
+.. |image110| image:: media/image108.png
+   :width: 6.10139in
+   :height: 0.66043in
+.. |image111| image:: media/image109.png
+   :width: 4.49722in
+   :height: 2.02838in
+.. |image112| image:: media/image110.png
+   :width: 4.27083in
+   :height: 1.3979in
+.. |image113| image:: media/image111.png
+   :width: 6.26806in
+   :height: 2.68472in
+.. |image114| image:: media/image112.png
+   :width: 6.26806in
+   :height: 2.60417in
+.. |image115| image:: media/image113.jpg
+   :width: 5.60139in
+   :height: 2.99183in
+.. |image116| image:: media/image114.jpg
+   :width: 5.60063in
+   :height: 2.04722in
+.. |image117| image:: media/image115.png
+   :width: 3.9375in
+   :height: 2.31912in
+.. |image118| image:: media/image116.png
+   :width: 2.83333in
+   :height: 2.10169in
+.. |image119| image:: media/image117.png
+   :width: 5.16389in
+   :height: 1.7192in
+.. |image120| image:: media/image118.png
+   :width: 4.72583in
+   :height: 2.91686in
+.. |image121| image:: media/image119.png
+   :width: 5.87222in
+   :height: 2.44622in
+.. |image122| image:: media/image120.png
+   :width: 3.42348in
+   :height: 2.01896in
+.. |image123| image:: media/image121.png
+   :width: 5.79931in
+   :height: 1.80096in
+.. |image124| image:: media/image122.png
+   :width: 3.41667in
+   :height: 3.26602in
+.. |image125| image:: media/image123.png
+   :width: 6.26806in
+   :height: 1.82431in
+.. |image126| image:: media/image124.png
+   :width: 4.37222in
+   :height: 3.6679in
+.. |image127| image:: media/image125.png
+   :width: 6.26806in
+   :height: 2.73125in
+.. |image128| image:: media/image126.png
+   :width: 4.03857in
+   :height: 2.84391in
+.. |image129| image:: media/image127.png
+   :width: 4.16308in
+   :height: 2.48189in
+.. |image130| image:: media/image128.png
+   :width: 3.17431in
+   :height: 2.76494in
+.. |image131| image:: media/image129.png
+   :width: 6.26806in
+   :height: 2.60417in
+.. |image132| image:: media/image130.png
+   :width: 6.26806in
+   :height: 0.45903in
+.. |image133| image:: media/image131.png
+   :width: 4.39306in
+   :height: 1.58814in
+.. |image134| image:: media/image132.png
+   :width: 6.84236in
+   :height: 1.5025in
+.. |image135| image:: media/image133.png
+   :width: 6.82292in
+   :height: 1.76885in
+.. |image136| image:: media/image134.png
+   :width: 3.60139in
+   :height: 1.64548in
+.. |image137| image:: media/image135.png
+   :width: 3.93472in
+   :height: 1.32in
+.. |image138| image:: media/image136.png
+   :width: 5.00764in
+   :height: 2.68413in
+.. |image139| image:: media/image137.png
+   :width: 6.26806in
+   :height: 1.04028in
+.. |image140| image:: media/image138.png
+   :width: 6.26806in
+   :height: 2.77083in
+.. |image141| image:: media/image139.png
+   :width: 6.26806in
+   :height: 2.20069in
+.. |image142| image:: media/image140.png
+   :width: 6.26806in
+   :height: 1.51319in
+.. |image143| image:: media/image141.png
+   :width: 1.83333in
+   :height: 2.28688in
+.. |image144| image:: media/image142.png
+   :width: 1.85417in
+   :height: 2.29533in
+.. |image145| image:: media/image143.png
+   :width: 1.733in
+   :height: 2.29119in
+.. |image146| image:: media/image144.png
+   :width: 4.57821in
+   :height: 2.4533in
+.. |image147| image:: media/image145.png
+   :width: 3.88542in
+   :height: 1.30096in
+.. |image148| image:: media/image146.png
+   :width: 5.42751in
+   :height: 1.81541in
+.. |image149| image:: media/image147.png
+   :width: 3.62407in
+   :height: 2.53382in
+.. |image150| image:: media/image148.png
+   :width: 5.21139in
+   :height: 1.52155in
+.. |image151| image:: media/image149.png
+   :width: 4.87222in
+   :height: 2.28713in
+.. |image152| image:: media/image150.png
+   :width: 5.01413in
+   :height: 1.77554in
+.. |image153| image:: media/image151.png
+   :width: 3.9755in
+   :height: 2.79553in
+.. |image154| image:: media/image152.png
+   :width: 5.53889in
+   :height: 1.73911in
+.. |image155| image:: media/image153.png
+   :width: 5.41389in
+   :height: 2.36925in
+.. |image156| image:: media/image154.png
+   :width: 4.25764in
+   :height: 3.08686in
+.. |image157| image:: media/image155.png
+   :width: 5.95556in
+   :height: 1.0247in
+.. |image158| image:: media/image156.png
+   :width: 3.15541in
+   :height: 3.12569in
+.. |image159| image:: media/image157.png
+   :width: 4.03125in
+   :height: 1.73202in

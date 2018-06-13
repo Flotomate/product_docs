@@ -1,0 +1,445 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Working with Patches &#8212; ITSM Product Documentation 2.0.0 documentation</title>
+    <link rel="stylesheet" href="../_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="What is a Missing Patch?" href="missing-patch.html" />
+    <link rel="prev" title="Manage Computer Groups" href="manage-computer-groups.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="missing-patch.html" title="What is a Missing Patch?"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="manage-computer-groups.html" title="Manage Computer Groups"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">ITSM Product Documentation 2.0.0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" accesskey="U">Patch Management</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="working-with-patches">
+<h1>Working with Patches<a class="headerlink" href="#working-with-patches" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="id1">
+<h2>Patch List View<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
+<p>The UI is divided across Patch and Computer. The Patch aspect lets you
+view patches and perform related operations, and the Computer aspect
+lets you view Computers and perform related operations.</p>
+<p>The Patch aspect is made up of two types of views: the Patch List View and
+Details View. The Patch List View gives a point &amp; click interface to
+manage all patches from a single place. The view is divided across
+Windows and Linux platform. You can view Patches of any one platform at a
+time.</p>
+<p><strong>To open Patch List View</strong></p>
+<ul class="simple">
+<li>Log in to your Dashboard.</li>
+<li>Click on the Launcher icon and select <strong>Patch</strong>.</li>
+<li>Now choose a platform: either Windows or Linux. Based on your
+selection Patches are shown.</li>
+</ul>
+<div class="figure align-center" id="pf-15-1">
+<img alt="figure 15.1" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-15.1.png" />
+</div>
+<div class="figure align-center" id="pf-15-2">
+<img alt="figure 15.2" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-15.2.png" />
+</div>
+<div class="figure align-center" id="pf-15-3">
+<img alt="figure 15.3" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-15.3.png" />
+</div>
+<div class="figure align-center" id="pf-16">
+<img alt="figure 16" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-16.png" />
+</div>
+<dl class="docutils">
+<dt>::</dt>
+<dd><div class="first last admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Please refer to <a class="reference internal" href="#pf-16"><span class="std std-numref">Fig. 423</span></a> for the below description.</p>
+</div>
+</dd>
+</dl>
+<ul class="simple">
+<li>Section A, B, C &amp; D are the <a class="reference internal" href="#search-patches"><span class="std std-ref">Search Features</span></a>.</li>
+<li>Section-E is the list area where you can view all the Patches in the
+system. You can see the following information about a Patch here:<ol class="loweralpha">
+<li><strong>Patch ID</strong>: This is a system generated ID by Flotomate.</li>
+<li><strong>Name</strong>: The name of the Patch.</li>
+<li><strong>KB ID</strong>: This is a unique ID given by the Software Vendor.</li>
+<li><strong>Severity</strong>: This signifies the importance of a Patch, and the
+Software Vendor provides it.</li>
+<li><strong>Application</strong>: Refers to the application/OS for which a Patch is
+meant.</li>
+<li><strong>Category</strong>: These are pre-defined categories done by the
+Software Vendor.</li>
+<li><strong>Installed System</strong>: The total number of installation done in
+various Nodes.</li>
+<li><strong>Download Size</strong>: The size of a Patch.</li>
+</ol>
+</li>
+<li>On this page, you can perform Deployment, Approval and Ignore of
+Patches as bulk operations. In the list area, selecting one or more
+Patches makes the options visible.</li>
+</ul>
+<div class="figure align-center" id="pf-17">
+<img alt="figure 17" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-17.png" />
+</div>
+<dl class="docutils">
+<dt>::</dt>
+<dd><p class="first">The Deploy button lets you create a Deployment Request for the chosen
+Patches.</p>
+<p>The Approve button approves the selected Patches. Only approved Patches
+can be deployed.</p>
+<p class="last">The Ignore button marks the selected Patches as Ignored, which means it
+is excluded from all the processes in the system, and they appear only
+under the Ignored tab. Learn more about <a class="reference internal" href="ignore-patch.html"><span class="doc">Ignored Patches</span></a>.</p>
+</dd>
+</dl>
+</div>
+<div class="section" id="quick-glance-of-patch-details">
+<h2>Quick Glance of Patch Details<a class="headerlink" href="#quick-glance-of-patch-details" title="Permalink to this headline">¶</a></h2>
+<p>The Patch List View allows you to quickly glance the details of a Patch
+in the following way:</p>
+<ul class="simple">
+<li>Open the <a class="reference internal" href="#patch-list-view"><span class="std std-ref">Patch List View</span></a>.</li>
+<li>You can open the Patch Details dialog box of any Patch by clicking on
+the view icon adjacent to a Patch.</li>
+</ul>
+<div class="figure align-center" id="pf-18">
+<img alt="figure 18" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-18.png" />
+</div>
+<ul class="simple">
+<li>The Patch Details dialog box is a concise version of the <a class="reference internal" href="#patch-details-view"><span class="std std-ref">Details
+View</span></a>. You get all the information minus the
+features and description.</li>
+</ul>
+<div class="figure align-center" id="pf-19">
+<img alt="figure 19" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-19.png" />
+</div>
+</div>
+<div class="section" id="search-for-a-patch">
+<h2>Search for a Patch<a class="headerlink" href="#search-for-a-patch" title="Permalink to this headline">¶</a></h2>
+<p>There are two broad ways to search Patches in the product’s <a class="reference internal" href="#patch-list-view"><span class="std std-ref">List
+View</span></a>:</p>
+<ul class="simple">
+<li>Using Search Bar</li>
+<li>Using Filters</li>
+</ul>
+<div class="section" id="search-bar">
+<h3>Search Bar<a class="headerlink" href="#search-bar" title="Permalink to this headline">¶</a></h3>
+<p>The way the search bar works is same across all the platforms (Windows
+and Linux). The only difference being is the available search options in
+each category.</p>
+<p>You can use a search bar to search Patches in the <a class="reference internal" href="#patch-list-view"><span class="std std-ref">List
+View</span></a>. The search bar supports the
+Advanced Search feature where you get a set of predefined search options
+to narrow down your searches. If you want to see all the available
+options, then click on the search box. You can select a single option or
+multiple options from the drop-down list.</p>
+<div class="figure align-center" id="pf-20">
+<img alt="figure 20" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-20.png" />
+</div>
+<p>You can also search Patches with keywords in the search field. When you
+provide a keyword, Flotomate explores all the Patches with the keyword
+in their Name, Description, Bulletin ID and KB ID. A Patch has to have
+at least one field matched (partial or full) with the keyword; in case
+there are multiple keywords, the Patch has to have at least one field
+matched for each keyword.</p>
+<p>A search query can be made up of pre-defined options and keywords. In
+any case, the output yields Patches that satisfy all the parameters of
+the search query.</p>
+<p>Between two different conditions of the same option type OR logic is
+followed. Between different types AND logic is observed. Between
+keywords, and keywords and conditions AND logic is followed. An example
+of same option type contradiction is Severity Equals Important vs.
+Severity Equals Critical.</p>
+<div class="figure align-center" id="pf-21">
+<img alt="figure 21" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-21.png" />
+</div>
+<div class="section" id="custom-filters">
+<h4>Custom Filters<a class="headerlink" href="#custom-filters" title="Permalink to this headline">¶</a></h4>
+<p>You can make a filter using search options and keywords and save it by
+clicking on the star icon to the far left of the search bar. Saved
+search filters appear along with the platform filter in <a class="reference internal" href="#pf-22-1"><span class="std std-numref">Fig. 429</span></a>.
+Custom filters are specific to a particular platform.</p>
+<p>For example, a user saves a search query that filters Patches with
+severity <strong>Important</strong> and the keyword Net Framework in the Name.</p>
+<div class="figure align-center" id="pf-22-1">
+<img alt="figure 22.1" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-22.1.png" />
+</div>
+<div class="figure align-center" id="pf-22-2">
+<img alt="figure 22.2" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-22.2.png" />
+</div>
+</div>
+</div>
+<div class="section" id="filters">
+<h3>Filters<a class="headerlink" href="#filters" title="Permalink to this headline">¶</a></h3>
+<p>You can search for a Patch in the <a class="reference internal" href="#patch-list-view"><span class="std std-ref">List
+View</span></a> using Quick Filters. Flotomate
+gives you three types of Quick Filters:</p>
+<ul class="simple">
+<li>Platform-specific custom filters (either for Windows or Linux).</li>
+<li>Status-based filter.</li>
+<li>Severity type based filter.</li>
+</ul>
+<p>You can filter the Patches by platform (Windows or Linux). All <a class="reference internal" href="#custom-filter-list-view"><span class="std std-ref">custom
+filters</span></a> appear in their respective
+platform-specific filter list.</p>
+<div class="figure align-center" id="pf-23-1">
+<img alt="figure 23.1" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-23.1.png" />
+</div>
+<div class="figure align-center" id="pf-23-2">
+<img alt="figure 23.2" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-23.2.png" />
+</div>
+<p>You can pin a custom filter using the Pin Icon. The pinned filter is
+applied by default whenever someone clicks on Patch and goes to the
+<a class="reference internal" href="#patch-list-view"><span class="std std-ref">List View</span></a>.</p>
+<p>Another way to filter Patches is by using status:</p>
+<ul class="simple">
+<li><strong>All</strong>: Refers to all available Patches in the system.</li>
+<li><strong>New</strong>: These are newly discovered Patches on which no action has
+been taken.</li>
+<li><strong>Installed</strong>: Refers to Patches that have already been deployed and
+installed.</li>
+<li><strong>Missing</strong>: Refers to Patches that Computers ought to have installed
+but still being demanded, then they are highlighted as Missing. Learn
+more about <span class="xref std std-ref">Missing Patches</span>.</li>
+<li><strong>Ignored</strong>: Refers to all Patches that have been tagged as Ignore.</li>
+</ul>
+<div class="figure align-center" id="pf-24">
+<img alt="figure 24" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-24.png" />
+</div>
+<p>You can also filter Patches based on their severity label:</p>
+<ul class="simple">
+<li>Critical</li>
+<li>Moderate</li>
+<li>Important</li>
+<li>Low</li>
+<li>Unrated</li>
+</ul>
+<div class="figure align-center" id="pf-25">
+<img alt="figure 25" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-25.png" />
+</div>
+<p>The severity labels are assigned by the Software Vendor based on their
+criteria</p>
+</div>
+</div>
+<div class="section" id="id2">
+<h2>Patch Details View<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<p>The UI is divided across Patches and Computers. The Patch aspect lets
+you view patches and perform related operations, and the Computer aspect
+lets you view Computers and perform related operations.</p>
+<p>The Patch aspect is made up of two views: the Patch List View and
+Details View. The Details View shows essential details about a Patch and
+gives access to Patch related functionalities.</p>
+<p><strong>To open the Details View of Patch:</strong></p>
+<ul class="simple">
+<li>Go to the <a class="reference internal" href="#patch-list-view"><span class="std std-ref">Patch List View</span></a>.</li>
+<li>Click on a Patch from the list area to open its Details View.</li>
+</ul>
+<div class="figure align-center" id="pf-26">
+<img alt="figure 26" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-26.png" />
+</div>
+<div class="figure align-center" id="pf-27">
+<img alt="figure 27" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-27.png" />
+</div>
+<ul class="simple">
+<li>Section-A identifies the Patch. It starts with the Patch ID then the
+Name and ends with the KB ID. None of them are editable.</li>
+<li>Section-B shows the details of the Patch. The information shown in
+this section is deemed as critical, and the same information
+(excluding description) is available when you are glancing the
+details of a Patch from the <a class="reference internal" href="#quick-glance-patch"><span class="std std-ref">List View</span></a>. The data points that are
+shown are as follows:<ol class="loweralpha">
+<li>Severity information as stated by the Software Vendor.</li>
+<li>The related OS platform of the Patch.</li>
+<li>The related application name of the Patch.</li>
+<li>The Update category as provided by the Software Vendor.</li>
+<li>The Approval status of the Patch. It can be either Approved or
+Not-Approved. You can choose the method of Approval from Approval
+settings in the Admin.</li>
+<li>The Test Status which shows the result of an Automatic Patch Test.</li>
+<li>The KB ID of the Patch fetched from the update servers.</li>
+<li>Information about whether the Patch requires a reboot after
+installation.</li>
+<li>Information about whether the Patch supports uninstallation.</li>
+<li>The Download size of the Patch.</li>
+<li>The release date of the Patch.</li>
+</ol>
+</li>
+<li>Section-C shows you the description of the Patch. It is fetched from
+the update server.</li>
+<li>Section-D gives you four features which are as follows:<ol class="loweralpha">
+<li>In the <strong>Computer</strong> tab, you can view all associated Computers
+that have performed or about to perform certain operations with
+the Patch. The Computers are divided across three categories:<ol class="lowerroman">
+<li><strong>Available</strong>: Shows all the Computers that are yet to deploy
+the Patch.</li>
+<li><strong>Installed</strong>: Shows the Computers that have installed the
+Patch.</li>
+<li><strong>Missing</strong>: Shows the Computers that were supposed to have
+the Patch but they do not have the Patch. Learn more about
+<span class="xref std std-ref">missing Patches</span>.</li>
+<li><strong>Ignored</strong>: Shows in how many Computers the Patch is
+ignored.</li>
+</ol>
+</li>
+</ol>
+</li>
+</ul>
+<div class="figure align-center" id="pf-28">
+<img alt="figure 28" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-28.png" />
+</div>
+<dl class="docutils">
+<dt>::</dt>
+<dd><dl class="first last docutils">
+<dt>::</dt>
+<dd><dl class="first last docutils">
+<dt>::</dt>
+<dd>The tab provides a search bar for searching Computers. The search bar
+supports the Advance Search feature where you get search options by
+clicking on the search bar.</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+<div class="figure align-center" id="pf-29">
+<img alt="figure 29" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-29.png" />
+</div>
+<div class="figure align-center" id="pf-30">
+<img alt="figure 30" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-30.png" />
+</div>
+<dl class="docutils">
+<dt>::</dt>
+<dd><dl class="first last docutils">
+<dt>::</dt>
+<dd><dl class="first last docutils">
+<dt>::</dt>
+<dd><p class="first">You can also enter keywords to search for a Computer. When entering a
+keyword, the product explores all the Computers with the keyword in
+their Name, Hostname, Domain name, OS name and Service Pack. A Computer
+has to have at least one field matched (partial or full) with the
+keyword; in case there are multiple keywords, a Computer has to have at
+least one field matched for each keyword.</p>
+<p class="last">You can combine search options with keywords. Between two different
+conditions of the same type OR logic is followed. Between different
+types AND logic is observed. Between keywords, and keywords and
+conditions AND logic is followed. An example of same type contradiction
+is OS Name contains Windows vs. OS Name contains Linux.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+<div class="figure align-center" id="pf-31">
+<img alt="figure 31" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-31.png" />
+</div>
+<ul class="simple">
+<li>Section-E houses the following options:<ol class="loweralpha">
+<li>The <strong>Approve/Reject</strong> button for manual approval of a Patch.</li>
+<li>You can directly open the Create page for deployment with the
+Patch preselected using the <strong>Deploy</strong> button.</li>
+<li>The Action menu is where you can <a class="reference internal" href="config-patch-download-location.html#configuring-package-location-single-patch"><span class="std std-ref">Configure Package</span></a> location and <strong>Ignore/Un-Ignore</strong> the Patch.</li>
+</ol>
+</li>
+</ul>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Working with Patches</a><ul>
+<li><a class="reference internal" href="#id1">Patch List View</a></li>
+<li><a class="reference internal" href="#quick-glance-of-patch-details">Quick Glance of Patch Details</a></li>
+<li><a class="reference internal" href="#search-for-a-patch">Search for a Patch</a><ul>
+<li><a class="reference internal" href="#search-bar">Search Bar</a><ul>
+<li><a class="reference internal" href="#custom-filters">Custom Filters</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#filters">Filters</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#id2">Patch Details View</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="manage-computer-groups.html"
+                        title="previous chapter">Manage Computer Groups</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="missing-patch.html"
+                        title="next chapter">What is a Missing Patch?</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/patch-management/manage-patches.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="missing-patch.html" title="What is a Missing Patch?"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="manage-computer-groups.html" title="Manage Computer Groups"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">ITSM Product Documentation 2.0.0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" >Patch Management</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2018, Flotomate Technologies Private Limited.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.7.5.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,1275 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Asset Discovery &#8212; ITSM Product Documentation 2.0.0 documentation</title>
+    <link rel="stylesheet" href="../_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Initiate Manual Scanning" href="initiate-manual-scanning.html" />
+    <link rel="prev" title="Software Metering" href="software-metering.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="initiate-manual-scanning.html" title="Initiate Manual Scanning"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="software-metering.html" title="Software Metering"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">ITSM Product Documentation 2.0.0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" accesskey="U">Asset Management</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="asset-discovery">
+<h1>Asset Discovery<a class="headerlink" href="#asset-discovery" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="discovery-of-workstations-and-other-network-devices">
+<h2>Discovery of Workstations and Other Network Devices<a class="headerlink" href="#discovery-of-workstations-and-other-network-devices" title="Permalink to this headline">¶</a></h2>
+<p>Flotomate aims to give maximum flexibility in ways to Discovery Assets
+in a network. Our product can discover all pingable IT Assets in or
+outside a network. We support Assets Discovery in Windows Domain and IP
+Range Networks, and we also have an Agent Application for Assets that
+are not part of any network/domain.</p>
+<p><strong>Discovery Mechanism Overview?</strong></p>
+<ul class="simple">
+<li>Domain Network Discovery detects all Windows workstations and servers
+that are:<ol class="loweralpha">
+<li>Part of a Windows Domain and uses Active Directory.</li>
+<li>Part of a Windows Workgroup.</li>
+</ol>
+</li>
+<li>IP Range Network Discovery detects all workstations and servers
+within a range and supports:<ol class="loweralpha">
+<li>UNIX (Using SSH) and Windows-based systems (Using WMI).</li>
+<li>Workstations (Windows) that are part of a Windows workgroup.</li>
+<li>Pingable devices like network routers, printers, access points,
+etc. Using the SNMP protocol.</li>
+</ol>
+</li>
+<li>Our Agent Application can fetch data from workstations, which aren’t
+part of any network/domain, remotely. It is a lightweight application
+that runs in the background of a workstation as a service, acquires
+the data and pushes directly to the main server.</li>
+</ul>
+<p>The first part of discovering Assets in Flotomate (without using an
+Agent) is to set up the infrastructure and then to create a Discovery
+Probe. Once you create a Discovery Probe, you can Schedule Discoveries
+and even discover changes in existing recognized Assets.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">You need Administrative rights to set up the infrastructure for Asset Discovery and
+Domain rights to discover the target Domain.</p>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Present supported credentials are WMI, SSH, SNMP, and SNMP V3.</p>
+</div>
+<div class="section" id="understanding-agent-based-vs-agentless-method">
+<h3>Understanding Agent-Based vs. Agentless Method<a class="headerlink" href="#understanding-agent-based-vs-agentless-method" title="Permalink to this headline">¶</a></h3>
+<p>These two methods of discovering Asset can be compared with Push vs.
+Pull. In Agentless Discovery, the Discovery engine scans a given network
+for pingable Assets and populate the same in the CMDB. In Agent-Based,
+every node of the network must run an Agent Application which
+continuously streams the relevant data back to the server. As a best
+practice, Assets which are frequently moved in the context of a
+corporate network there Agent-based discovery and polling make more
+sense. Whereas, Agent-less is the only way for scanning SNMP assets like
+a printer, router, switches, etc.</p>
+<p>Below are six dimensions that highlight the fundamental differences
+between Agent-Based and Agentless scanning:</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">&#160;</th>
+<th class="head">Agent-Based</th>
+<th class="head">Agentless</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Discovery Method</td>
+<td><p class="first">Agent-Based Discovery
+is a push-based
+strategy, where every
+node in a network
+runs an Agent
+Application. The
+Application pushes
+the data into the
+main server.</p>
+<p class="last">It does not have any
+network or domain
+barriers.</p>
+</td>
+<td><p class="first">Agentless Discovery
+is a pull-based
+approach, which is
+designed to leverage
+a network either
+defined by a domain
+or an IP range.</p>
+<p class="last">It uses network and
+management protocols
+like SNMP, WMI, etc.</p>
+</td>
+</tr>
+<tr class="row-odd"><td>Deployment</td>
+<td>Running Agent-Based
+Discoveries in
+multiple workstations
+require the
+individual
+installation of the
+Application. In case
+the workstations are
+part of a network, an
+administrator can
+remotely install the
+application on all
+the workstations.</td>
+<td>Agentless Discovery
+requires one-time
+configuration of a
+network in the main
+server. Once a user
+configures a network,
+the user can create a
+Discovery Probes.</td>
+</tr>
+<tr class="row-even"><td>Device Coverage</td>
+<td>Currently,
+Agent-Based scanning
+supports the
+Discovery of Windows
+workstations only.</td>
+<td><p class="first">In an Agentless
+setup, the product
+scans Assets that
+supports the
+following credential
+types:</p>
+<ul class="last simple">
+<li>WMI (Windows
+Management
+Instrumentation)</li>
+<li>SSH</li>
+<li>SNMP</li>
+<li>SNMP V3</li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td>Maintenance</td>
+<td>The Agent Application
+requires maintenance
+in the form of
+patches and updates
+at the node level.</td>
+<td>No maintenance needed
+at the level of a
+node.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Which one is better, Agentless or Agent-Based?</strong></p>
+<p>It depends upon your requirement. Both Agent-Based and Agentless
+Discovery are similar in their capabilities and scale. The differences
+are in the way they function and their scope.</p>
+</div>
+<div class="section" id="infrastructure-setup">
+<h3>Infrastructure Setup<a class="headerlink" href="#infrastructure-setup" title="Permalink to this headline">¶</a></h3>
+<p>Setting up the Infrastructure is the first step before Asset Discovery.
+This step is prerequisite for Agentless Discovery of Assets, but not for
+the Agent Application.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Setting up the Infrastructure requires Administrative rights.</p>
+</div>
+<p>The Infrastructure Setup consists of three broad sections:</p>
+<ul class="simple">
+<li>DNS Configuration:</li>
+<li>Credential Library:</li>
+<li>Networks:</li>
+</ul>
+<div class="section" id="dns-configuration">
+<h4>DNS Configuration:<a class="headerlink" href="#dns-configuration" title="Permalink to this headline">¶</a></h4>
+<p>The DNS configuration helps the product in resolving hostnames of Assets
+against their IPs from the DNS. A DNS is useful especially when the
+network protocol is DHCP.</p>
+<p>In DHCP protocol, the IPs of Assets keep on changing, so the hostname of
+a machine is taken as the unique identifier. The DNS maps all the
+hostnames of the Assets with their IP addresses. Flotomate connects with
+the DNS using the information provided by an administrator in the DNS
+Configuration page.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">DNS configuration requires you to have administrative rights.</p>
+</div>
+<p><strong>Configuring DNS</strong></p>
+<ol class="arabic simple">
+<li>Log in to your Dashboard and head to <strong>Admin</strong> from the Navigation
+Tabs. Use search, or you can find the <strong>DNS Configuration</strong> in IT
+Infrastructure.</li>
+</ol>
+<div class="figure align-center" id="amf-156">
+<img alt="figure 156" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-156.png" />
+</div>
+<ol class="arabic simple" start="2">
+<li>The DNS Configuration page opens. Click on <strong>Edit</strong> to make the
+fields editable.</li>
+<li>Enter your primary DNS address in the primary field and your backup
+DNS address in the secondary field.</li>
+<li>The Base URL field is the domain name of Flotomate hosted on your
+server. Enter the name and hit Update to save your changes.</li>
+</ol>
+<p>You can later edit your DNS configuration in the DNS Configuration page.</p>
+</div>
+<div class="section" id="credential-library">
+<h4>Credential Library<a class="headerlink" href="#credential-library" title="Permalink to this headline">¶</a></h4>
+<p>Flotomate provides an interface to upload all your credentials, so our
+product can authenticate for an authorized access to a network.</p>
+<p>A repository stores all Credentials, which we call a library where you
+can manage (add, edit and delete) them.</p>
+<p>We provide four easy Discovery Types to choose from:</p>
+<ul class="simple">
+<li>WMI</li>
+<li>SSH</li>
+<li>SNMP</li>
+<li>SNMP V3</li>
+</ul>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Managing credentials requires administrative rights.</p>
+</div>
+<p><strong>Adding Credential</strong></p>
+<ol class="arabic simple">
+<li>Go to <strong>Admin</strong> (One of the Navigation Tabs)&gt;&gt; <strong>Credential Library</strong>
+(under IT Infrastructure). The Credentials page opens where you can
+view all existing credentials.</li>
+<li>Click the <strong>Add Credential</strong> situated in the top right corner of the
+page. The Add Credential dialog box opens.</li>
+</ol>
+<div class="figure align-center" id="amf-157">
+<img alt="figure 157" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-157.png" />
+</div>
+<ol class="arabic" start="3">
+<li><p class="first">Add a <strong>Name</strong> to the credential and select a Discovery Type which
+determines the authentication parameters. Now let’s understand the
+available Discovery Types:</p>
+<blockquote>
+<div><p><strong>WMI (Windows Management Instrumentation):</strong></p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Please refer to <a class="reference internal" href="#amf-157"><span class="std std-numref">Fig. 348</span></a>.</p>
+</div>
+<p>This protocol is used to scan for data in Windows-based systems
+within a Domain or Workgroup.</p>
+<blockquote>
+<div><ol class="loweralpha simple">
+<li><strong>Domain Username &amp; Password</strong>: These are credentials of the
+Administrator Account that has access to all the nodes in the
+domain.</li>
+<li><strong>Domain Name</strong>: The part of a network address which identifies
+it as belonging to a particular domain.</li>
+<li><strong>Domain Discovery</strong>: Enabling this marks the credential as
+discoverable. It means that the credential is for Discovery.</li>
+</ol>
+</div></blockquote>
+<p><strong>SSH (Secure Shell):</strong></p>
+<p>The SSH protocol is used to discover UNIX based machines.</p>
+<blockquote>
+<div><div class="figure align-center" id="amf-158">
+<img alt="figure 158" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-158.png" />
+</div>
+<ol class="loweralpha simple">
+<li><strong>Domain Username &amp; Password</strong>: These are the credentials for the
+user account specific to the Asset that we are going to discover. In
+case there are multiple machines, a common user can be created (with
+root access) in all the machines to make discovery easy; else, each
+different account would require a separate SSH credential.</li>
+</ol>
+</div></blockquote>
+<p><strong>SNMP (Simple Network Management Protocol)</strong></p>
+<p>Flotomate uses this application-layer protocol to scan devices with
+the SNMP agent in a managed network.</p>
+<blockquote>
+<div><div class="figure align-center" id="amf-159">
+<img alt="figure 159" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-159.png" />
+</div>
+<ol class="loweralpha simple">
+<li><strong>Community String</strong>: The Community String acts as a password in a
+managed network. It is sent along with each SNMP Get-Request to gain
+access to an SNMP enabled device’s data. If the community string is
+correct, the get request fetches the data.</li>
+</ol>
+</div></blockquote>
+<p><strong>SNMP V3 (Simple Network Management Protocol Version 3):</strong></p>
+<p>It is a secure version of SNMP with user-based authentication.</p>
+<blockquote>
+<div><div class="figure align-center" id="amf-160">
+<img alt="figure 160" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-160.png" />
+</div>
+<ol class="loweralpha">
+<li><p class="first"><strong>Community String</strong>: It is like a password which is used for
+authentication.</p>
+</li>
+<li><p class="first"><strong>Authentication Protoco</strong>l: Use the protocol that you want to use
+(we support both MD5 and SHA) in field-A (<a class="reference internal" href="#amf-160"><span class="std std-numref">Fig. 351</span></a>).</p>
+</li>
+<li><p class="first"><strong>Username</strong>: Enter your username.</p>
+</li>
+<li><p class="first"><strong>Auth Passphrase</strong>: This is the Auth password</p>
+</li>
+<li><p class="first"><strong>Privacy Passphrase</strong>: This is the Privacy password.</p>
+</li>
+<li><p class="first"><strong>Security Level</strong>: Choose an appropriate security level from the
+following options:</p>
+<blockquote>
+<div><ol class="lowerroman simple">
+<li><strong>Private Authentication</strong>: Uses protocols like SHA for
+authentication and protocols like AES for privacy.</li>
+<li><strong>No Private Authentication</strong>: only use authentication
+protocol.</li>
+<li><strong>No Private No Authentication</strong>: Data transfer with
+authentication and privacy.</li>
+</ol>
+</div></blockquote>
+</li>
+</ol>
+</div></blockquote>
+</div></blockquote>
+</li>
+</ol>
+<p><strong>Testing Connection</strong></p>
+<p>You can test the credential by connecting with a computer. Click on
+<strong>Test Connection</strong> next to <strong>Save</strong>. A dialog box opens asking for the
+IP of the machine. Submitting an IP starts a process that tells whether
+a successful connection was established or not.</p>
+<div class="figure align-center" id="amf-161">
+<img alt="figure 161" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-161.png" />
+</div>
+<p><strong>Editing/Deleting Credentials</strong></p>
+<ol class="arabic simple">
+<li>Go to <strong>Admin</strong> &gt;&gt; <strong>Credential Library</strong> (under IT Infrastructure).</li>
+</ol>
+<div class="figure align-center" id="amf-162">
+<img alt="figure 162" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-162.png" />
+</div>
+<ol class="arabic simple" start="2">
+<li>Click the edit icon adjacent to the credential you want to edit. You
+see the Edit Credential dialog box. Make your changes and hit
+<strong>Update</strong>.</li>
+<li>You can delete any credential by clicking the Delete icon adjacent
+to a credential.</li>
+</ol>
+</div>
+<div class="section" id="network">
+<h4>Network<a class="headerlink" href="#network" title="Permalink to this headline">¶</a></h4>
+<p>Adding a network to Flotomate is an essential task for you to perform
+asset Discovery and monitoring. We support Domain networks and IP Range
+Networks.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Managing Networks requires administrative rights.</p>
+</div>
+<p><strong>Adding a Network</strong></p>
+<ol class="arabic simple">
+<li>Log in to your Dashboard and head to <strong>Admin</strong> &gt;&gt; <strong>Networks</strong> (under
+IT Infrastructure).</li>
+<li>Click the <strong>Create a Network</strong> icon situated in the top right corner
+of the page. Create a Network dialog box opens.</li>
+</ol>
+<div class="figure align-center" id="amf-163">
+<img alt="figure 163" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-163.png" />
+</div>
+<div class="figure align-center" id="amf-164">
+<img alt="figure 164" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-164.png" />
+</div>
+<ol class="arabic" start="3">
+<li><p class="first">Give a name to the network.</p>
+</li>
+<li><p class="first">Add a Domain Network Type:</p>
+<p>We have two Domain Network Types to select from:</p>
+<blockquote>
+<div><ol class="loweralpha">
+<li><p class="first">Domain Network:</p>
+<blockquote>
+<div><table border="1" class="docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Windows Domain Controller</th>
+<th class="head">Windows Workgroup</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><p class="first">It is a form of a computer
+network in which all user
+accounts, computers, printers and
+other security principals, are
+registered with a Domain
+Controller</p>
+<p>Type the Domain Controller Name,
+something like company.com.</p>
+<p class="last">Select the appropriate credential
+from the Credential list.</p>
+</td>
+<td><p class="first">It is a peer-to-peer network of
+computers running Windows OS.</p>
+<p>Type in the common name of the
+Workgroup.</p>
+<p class="last">Select the credential of a remote
+computer in the network from the
+Credential list.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+</li>
+<li><p class="first">IP Range Network:</p>
+<blockquote>
+<div><table border="1" class="docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Entire Network</td>
+<td>This option uniquely identifies
+an entire network with IP Range
+Start (example: 192.168.27.0) and
+Subnet Mask (example:
+255.255.255.0).</td>
+</tr>
+<tr class="row-even"><td>Specific Range</td>
+<td>You can specify an IP Range with
+a start and end IP, and a Subnet
+Mask.</td>
+</tr>
+<tr class="row-odd"><td>Comma Separate IP List</td>
+<td>As the name suggests, you can add
+a comma-separated list of all the
+IPs.</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+</li>
+</ol>
+</div></blockquote>
+</li>
+<li><p class="first">Type in a description and protocol type (if IP Range is selected).
+We have two protocols to select from:</p>
+<blockquote>
+<div><table border="1" class="docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">DHCP</th>
+<th class="head">STATIC</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><p class="first">In this protocol, IP is centrally
+allocated and resolved in your
+network.</p>
+<p class="last">You have to configure your DNS
+for asset Discovery to work.</p>
+</td>
+<td>It uses static IP addresses to
+identify devices in the network.</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+</li>
+<li><p class="first">When you are done with everything, including adding credentials, hit
+<strong>Create</strong>.</p>
+</li>
+</ol>
+<p><strong>Editing/Deleting Network</strong></p>
+<p>Log in to your Dashboard and head to <strong>Admin</strong> &gt;&gt; <strong>Networks</strong>
+(under IT Infrastructure).</p>
+<div class="figure align-center" id="amf-165">
+<img alt="figure 165" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-165.png" />
+</div>
+<p>This section lists all existing networks. Click the Edit Icon
+adjacent to the network that you want to edit.</p>
+<p>Edit the network in the Edit Network dialog box and save your
+changes before exiting.</p>
+<p>You can delete any network by clicking the Delete icon adjacent to the
+network that you want to delete.</p>
+</div>
+</div>
+<div class="section" id="discovery-probe">
+<h3>Discovery Probe<a class="headerlink" href="#discovery-probe" title="Permalink to this headline">¶</a></h3>
+<p>After setting up the Infrastructure, now it is the time for you to
+create a Discovery Probe. A Discovery Probe is used in an Agentless
+setup to discover Assets in a network. It runs processes to discover all
+pingable workstations and devices in the network using the network
+credentials and can generate reports based on the output. Other
+capabilities that a Probe provides are: scheduling, Polling (detecting
+changes in existing Assets), and Asset Review; these features help you
+to make your Discovery operations manageable.</p>
+<p>A Discovery Probe supports a wide range of network protocols to cover
+maximum types of devices in a network.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Creating Discovery Probe requires Administrative rights.</p>
+</div>
+<div class="section" id="creating-a-discovery-probe">
+<h4>Creating a Discovery Probe<a class="headerlink" href="#creating-a-discovery-probe" title="Permalink to this headline">¶</a></h4>
+<ol class="arabic simple">
+<li>Log into the Flotomate Dashboard.</li>
+<li>Go to <strong>Asset</strong> (A Navigation Tab) &gt;&gt; <strong>Discovery Probe</strong>.</li>
+</ol>
+<div class="figure align-center" id="amf-166">
+<img alt="figure 166" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-166.png" />
+</div>
+<ol class="arabic simple" start="3">
+<li>The Discovery Probe page opens. Here you get to see all the existing
+probes. Click on <strong>Create Discovery Probe</strong> situated in the top
+right corner of the page. Create Discovery Probe dialog box opens.</li>
+</ol>
+<div class="figure align-center" id="amf-167">
+<img alt="figure 167" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-167.png" />
+</div>
+<ol class="arabic" start="4">
+<li><p class="first">The Create Discovery Probe dialog box has four fields (refer <a class="reference internal" href="#amf-166"><span class="std std-numref">Fig. 357</span></a>):</p>
+<blockquote>
+<div><ol class="loweralpha simple">
+<li>Section-A: You enter a Name for the Probe here. By default, you
+see the keyword Prob followed by the Date and Time. You can
+change the default name to anything.</li>
+<li>Section-B: Enter a description of the Probe here.</li>
+<li>Section C: Depending on what you want to discover or scan, you
+have to select a Network Type: Domain Network or IP Range
+Network.<ol class="lowerroman">
+<li>Domain Network: This type is used to discover or scan
+Windows workstations either under a Domain Controller or
+in a Windows Workgroup.</li>
+<li>IP Range Network: This type is used to discover or scan
+all workstations (UNIX &amp; Windows-based machines), network
+devices and other pingable Assets.</li>
+</ol>
+</li>
+<li>Section-D: While setting up the Infrastructure you must have
+added your network/networks. Those networks appear as a drop-down
+list filtered by the Network Type you have selected. The Probe
+acquires the network properties from the selected network.</li>
+</ol>
+</div></blockquote>
+</li>
+<li><p class="first">Once you are done, click on <strong>Create</strong>. You have successfully
+created a Discovery Probe. There is no limit to the number of Probes
+that you can create.</p>
+</li>
+</ol>
+</div>
+<div class="section" id="information-fetched-by-a-probe">
+<h4>Information Fetched by a Probe<a class="headerlink" href="#information-fetched-by-a-probe" title="Permalink to this headline">¶</a></h4>
+<p>The Probe fetches the following data points from a workstation:</p>
+<ul class="simple">
+<li>General Details:<ol class="loweralpha">
+<li>Name and ID</li>
+<li>Asset Type</li>
+<li>Status</li>
+<li>Used By</li>
+<li>Department</li>
+<li>IP</li>
+<li>Host Name</li>
+</ol>
+</li>
+<li>OS Name and Version</li>
+<li>Service Pack Name</li>
+<li>Memory Size</li>
+<li>Disk Size</li>
+<li>CPU Speed</li>
+<li>CPU Core Count</li>
+<li>MAC Address</li>
+<li>Domain Name</li>
+<li>Serial Number</li>
+<li>Processor Information</li>
+<li>Network Adapter Information</li>
+<li>Logical Disk Information</li>
+<li>Last Audit Date</li>
+</ul>
+</div>
+</div>
+<div class="section" id="managing-a-discovery-probe">
+<h3>Managing a Discovery Probe<a class="headerlink" href="#managing-a-discovery-probe" title="Permalink to this headline">¶</a></h3>
+<p>The Agentless method uses a Discovery Probe for discovery. Once you
+create a Probe, you can start Discovering Assets and can generate
+reports based on the output of a Discovery operation.</p>
+<p>New Assets can be added automatically to the CMDB during a Discovery
+operation and kept up to date by scheduling a process called
+<a class="reference external" href="#run-on-demand-polling">Polling</a> that retrieves any changes at the
+source.</p>
+<p>Using Scheduling, you can even automate the Discovery process. You can
+review the discovered Assets before committing them to the CMDB.</p>
+<div class="section" id="run-on-demand-discovery">
+<h4>Run on Demand Discovery<a class="headerlink" href="#run-on-demand-discovery" title="Permalink to this headline">¶</a></h4>
+<p>The fastest way to initiate a Discovery is to use the <strong>Run Now</strong> option
+in a Probe:</p>
+<ol class="arabic">
+<li><p class="first">Go to <strong>Asset</strong> (A Navigation Tab) &gt;&gt; <strong>Discovery Probe</strong>.</p>
+</li>
+<li><p class="first">Select a Probe. The <strong>Run Now</strong> option appears.</p>
+</li>
+<li><p class="first">Click on <strong>Run Now</strong> and it asks whether you want to add the Assets
+automatically or not. In response, the discovery process begins. The
+Status changes to FINISHED when done. Along with that it also shows
+the date and time of completion of the discovery.</p>
+<blockquote>
+<div><div class="figure align-center" id="amf-168">
+<img alt="figure 168" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-168.png" />
+</div>
+</div></blockquote>
+<p>During discovery, you can view the <a class="reference external" href="#statusprogress-of-a-probe">progress</a> under the Discovery tab.</p>
+</li>
+<li><p class="first">All discovered Assets are added to the Asset List View; there you
+can view them and can perform other operations. If you did not
+select automatic addition to the CMDB, then discovered Assets are
+staged for <a class="reference external" href="#reviewing-discovered-assets">review</a>; from there you
+have to commit them to the CMDB.</p>
+</li>
+</ol>
+<div class="figure align-center" id="amf-169">
+<img alt="figure 169" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-169.png" />
+</div>
+</div>
+<div class="section" id="run-on-demand-polling">
+<h4>Run on Demand Polling<a class="headerlink" href="#run-on-demand-polling" title="Permalink to this headline">¶</a></h4>
+<p>Polling detects any changes made to a discovered Asset at the source and
+pushes the changes (if any) to the CMDB. This process helps you to keep
+your CMDB up to date. The fastest way to initiate Polling is to use the
+Update Existing option.</p>
+<ol class="arabic simple">
+<li>Go to <strong>Asset</strong> (A Navigation Tab) &gt;&gt; <strong>Discovery Probe</strong>.</li>
+<li>Select a Probe. The <strong>Update Existing</strong> option appears.</li>
+<li>Click on <strong>Update Existing</strong> and it asks for confirmation. In
+positive response, the polling process begins. The Status changes to
+FINISHED when done. Along with that it also shows the date and time
+of completion of the polling.</li>
+</ol>
+<div class="figure align-center" id="amf-170">
+<img alt="figure 170" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-170.png" />
+</div>
+</div>
+<div class="section" id="scheduling">
+<h4>Scheduling<a class="headerlink" href="#scheduling" title="Permalink to this headline">¶</a></h4>
+<p>The Probe allows you to perform periodic scans using the Schedule
+function. It is a powerful feature to automate your Discovery process.
+You can Schedule both Discovery and Polling.</p>
+<p><strong>Scheduling a Discovery:</strong></p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">You need to first create a Probe before you can use scheduling.</p>
+</div>
+<ol class="arabic simple">
+<li>Log into the Flotomate Dashboard.</li>
+<li>Go to <strong>Asset</strong> (A Navigation Tab) &gt;&gt; <strong>Discovery Probe</strong>.</li>
+</ol>
+<div class="figure align-center" id="amf-171">
+<img alt="figure 171" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-171.png" />
+</div>
+<ol class="arabic simple" start="3">
+<li>Click on a probe. The color changes to dark blue. The Details Pane
+is visible on the right side of the probe list.</li>
+<li>Click on the <strong>Discovery tab</strong>. You see “No-schedule-created”
+message if you are scheduling for the first time. Click on
+<strong>Schedule</strong> to create one.</li>
+</ol>
+<div class="figure align-center" id="amf-172">
+<img alt="figure 172" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-172.png" />
+</div>
+<ol class="arabic" start="5">
+<li><p class="first">Refer <a class="reference internal" href="#amf-171"><span class="std std-numref">Fig. 362</span></a>. There are three fields in Schedule that you need
+to fill:</p>
+<blockquote>
+<div><ol class="loweralpha">
+<li><p class="first">Field-A talks about the frequency of scheduled Discovery that
+you want. You get the following options:</p>
+<blockquote>
+<div><ol class="lowerroman simple">
+<li><strong>Once</strong>: Discovery happens only once at a specific
+date and time.</li>
+<li><strong>Daily</strong>: The Discovery Schedule activates on a start
+date &amp; time. After that, the Discovery happens every
+day at a specified time mentioned in the Hour and
+Minute field.</li>
+<li><strong>Weekly</strong>: Discovery happens on a specific day/days of
+a week.</li>
+<li><strong>Monthly</strong>: Discovery happens in selected month/months
+of a year on a particular day.</li>
+</ol>
+</div></blockquote>
+</li>
+<li><p class="first">In Field-B, if you want the discovered Assets directly to be
+added to the CMDB then select <strong>Yes,</strong> else <strong>No</strong> if you want
+to review the Assets and add them yourself.</p>
+</li>
+<li><p class="first">Field-C is where you can enter one or more email addresses to
+send them discovery reports. After every successful Discovery,
+the system generates a report detailing about the discovered
+Assets. You can add as many email addresses you want. The report
+looks something like this:</p>
+</li>
+</ol>
+</div></blockquote>
+</li>
+</ol>
+<div class="figure align-center" id="amf-173">
+<img alt="figure 173" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-173.png" />
+</div>
+<ol class="arabic simple" start="6">
+<li>Select the options and complete the fields, and hit <strong>Save
+Schedule</strong> to start the Schedule.</li>
+</ol>
+<p><strong>Scheduling a Polling</strong></p>
+<p>The process of scheduling a Polling operation is similar to Discovery
+except the <strong>Automatically Add Asset in Store</strong> option is not present in
+Polling.</p>
+<p>The <strong>Schedule</strong> option can be found in the <strong>Polling</strong> tab.</p>
+</div>
+<div class="section" id="editing-a-schedule-for-discovery-and-polling">
+<h4>Editing a Schedule for Discovery and Polling<a class="headerlink" href="#editing-a-schedule-for-discovery-and-polling" title="Permalink to this headline">¶</a></h4>
+<p>You can easily edit the parameters of a set Schedule: you can change the
+frequency, review settings and add/subtract emails.</p>
+<div class="figure align-center" id="amf-174">
+<img alt="figure 174" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-174.png" />
+</div>
+<ol class="arabic simple">
+<li>Go to <strong>Asset</strong> (A Navigation Tab) &gt;&gt; <strong>Discovery Probe</strong>.</li>
+<li>Select a Probe and from the Glance pane and go to
+<strong>Discovery</strong>/<strong>Polling</strong> &gt;&gt; <strong>Edit Schedule</strong>.</li>
+<li>You can turn on/off a Schedule using the <strong>Scheduled</strong> toggle.</li>
+<li>Make the changes and hit <strong>Save Schedule</strong>.</li>
+</ol>
+</div>
+<div class="section" id="editing-a-probe">
+<h4>Editing a Probe<a class="headerlink" href="#editing-a-probe" title="Permalink to this headline">¶</a></h4>
+<p>You can edit all the parameters of an existing Probe:</p>
+<ol class="arabic simple">
+<li>Go to <strong>Asset</strong> (A Navigation Tab) &gt;&gt; <strong>Discovery Probe</strong>.</li>
+<li>Select the Probe that you want to edit. <strong>Action Menu</strong> appears
+next to the option <strong>Run Now</strong>.</li>
+</ol>
+<div class="figure align-center" id="amf-175">
+<img alt="figure 175" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-175.png" />
+</div>
+<ol class="arabic simple" start="3">
+<li>Select <strong>Edit</strong> from the <strong>Action Menu</strong>. The Update Discovery
+Probe dialog box appears. The dialog box has the same fields as the
+<a class="reference external" href="#creating-a-discovery-probe">Create Discovery Probe</a> dialog
+box.</li>
+<li>Change the parameters that you want and hit <strong>Update</strong>.</li>
+</ol>
+</div>
+<div class="section" id="deleting-a-probe">
+<h4>Deleting a Probe<a class="headerlink" href="#deleting-a-probe" title="Permalink to this headline">¶</a></h4>
+<ol class="arabic simple">
+<li>Go to <strong>Asset</strong> (A Navigation Tab) &gt;&gt; <strong>Discovery Probe</strong>.</li>
+<li>Select the Probe that you want to delete. <strong>Action Menu</strong> appears
+next to the option <strong>Run Now</strong>.</li>
+<li>Click on <strong>Archive</strong> from the Action Menu. A confirmation box
+appears and clicking on <strong>Yes</strong> deletes the Probe.</li>
+</ol>
+</div>
+<div class="section" id="status-progress-of-a-probe">
+<h4>Status/Progress of a Probe<a class="headerlink" href="#status-progress-of-a-probe" title="Permalink to this headline">¶</a></h4>
+<p>When you do a Discovery or a Polling operation, the Status tab is
+updated with the operation’s progress and the date and time of
+completion.</p>
+<div class="figure align-center" id="amf-176">
+<img alt="figure 176" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-176.png" />
+</div>
+<p>During a discovery the following things are shown as part of the
+progress status in the <strong>Discovery</strong> tab:</p>
+<ul class="simple">
+<li><strong>Total Nodes</strong>: Total number of node in the network.</li>
+<li><strong>Up Node</strong>s: Total number of nodes responding to a ping.</li>
+<li><strong>Windows Nodes</strong>: Out of total Up Nodes how many are Windows nodes.</li>
+<li><strong>Linux Nodes</strong>: Out of total Up Nodes how many are Linux nodes.</li>
+<li><strong>SNMP Nodes</strong>: Out of total Up Nodes how many are SNMP nodes.</li>
+</ul>
+<div class="figure align-center" id="amf-177">
+<img alt="figure 177" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-177.png" />
+</div>
+</div>
+<div class="section" id="reviewing-discovered-assets">
+<h4>Reviewing Discovered Assets<a class="headerlink" href="#reviewing-discovered-assets" title="Permalink to this headline">¶</a></h4>
+<p>The <strong>Status</strong> tab houses a button called <strong>View Asset in Review</strong>. If
+you have scheduled a Discovery with the option, <strong>Automatically Add
+Asset in Store</strong> as Yes, then all discoveries are staged in the Asset in
+Review page which is only accessible by the <strong>View Asset in Review</strong>
+button.</p>
+<div class="figure align-center" id="amf-178">
+<img alt="figure 178" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-178.png" />
+</div>
+<p>Once Assets are staged, you can manually add every Asset to the List
+View using the <strong>Add</strong> button adjacent to every Asset, or you can select
+them all and add them at once using the bulk add feature (<a class="reference internal" href="#amf-177"><span class="std std-numref">Fig. 368</span></a>).
+You can also delete the items in bulk.</p>
+</div>
+</div>
+<div class="section" id="use-case">
+<h3>Use Case<a class="headerlink" href="#use-case" title="Permalink to this headline">¶</a></h3>
+<p>Now we discuss a scenario where we discover Assets in a network using
+three types of Discovery. We create two Probes in the process; one uses
+an IP Range Network and other, Domain Network. The Probe using the IP
+Range Network can discover all types of Assets, but the other Probe can
+discover only Windows machines. The use case gives you an overview of
+the entire process involved in setting up Discovery in Flotomate.</p>
+<p>We have the following Assets in the network that we want to discover:</p>
+<ul class="simple">
+<li>Three Windows workstations in a domain.</li>
+<li>One Linux workstation.</li>
+<li>An SNMP enabled router.</li>
+</ul>
+<div class="section" id="ip-range-network-discovery-probe">
+<h4>IP Range Network Discovery Probe<a class="headerlink" href="#ip-range-network-discovery-probe" title="Permalink to this headline">¶</a></h4>
+<p>We now create a Discovery Probe that uses WMI, SSH, and SNMP protocols
+to discover Assets in a network. We start by configuring the
+Infrastructure.</p>
+<p><strong>Adding Credentials:</strong></p>
+<p>Credentials help us to get access to nodes so that we can fetch the
+necessary data. We have the following credentials to add:</p>
+<ul>
+<li><p class="first"><strong>Windows Machines</strong>:</p>
+<p>Username = Administrator</p>
+<p>Domain Name = mindarray.com</p>
+<p>Password: <a class="reference external" href="mailto:Mind&#37;&#52;&#48;launch">Mind<span>&#64;</span>launch</a></p>
+</li>
+<li><p class="first"><strong>Linux Machine</strong>:</p>
+<p>Domain Username = discovery</p>
+<p>Password = admin</p>
+</li>
+<li><p class="first"><strong>SNMP Enabled Router</strong>:</p>
+<p>Community String = public</p>
+<p>System OID = .1.3.6.1.4.1.16972</p>
+<p><strong>SNMP Device Properties:</strong></p>
+<p>Mac Address: .1.3.6.1.2.1.17.2.5.0</p>
+<p>Description: .1.3.6.1.2.1.1.1.0</p>
+<p>Uptime: .1.3.6.1.2.1.1.3</p>
+<p>Support: .1.3.6.1.2.1.10.23.2.3.1.5.210000.1</p>
+<p>ContactNo: .1.3.6.1.2.1.10.23.2.3.1.6.210000.1</p>
+</li>
+</ul>
+<p>We have to create the following Discovery types to incorporate the above
+credentials:</p>
+<ul class="simple">
+<li>WMI for Windows machines</li>
+<li>SSH for the Linux machine</li>
+<li>SNMP for the router.</li>
+</ul>
+<p>Now we add the credentials:</p>
+<ul class="simple">
+<li>Go to <strong>Admin</strong> (one of the Navigation Tabs) &gt;&gt; <strong>Credential
+Library</strong> (Under IT Infrastructure).</li>
+<li>We add the credentials using the Add Credential dialog box. Learn how
+to add credentials: Credential Library.</li>
+</ul>
+<div class="figure align-center" id="amf-179-1">
+<img alt="figure 179.1" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-179.1.png" />
+</div>
+<div class="figure align-center" id="amf-179-2">
+<img alt="figure 179.2" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-179.2.png" />
+</div>
+<div class="figure align-center" id="amf-179-3">
+<img alt="figure 179.3" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-179.3.png" />
+</div>
+<div class="figure align-center" id="amf-179-4">
+<img alt="figure 179.4" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-179.4.png" />
+</div>
+<p><strong>Adding Custom SNMP Properties</strong></p>
+<p>SNMP Custom Properties allow us to fetch specific property values of the
+SNMP router. The values are located using OIDs (Object IDs). An OID is
+an address to identify a device and its statuses. For example, we can
+know the temperature reading coming from a sensor at a remote facility.</p>
+<p>Before fetching any properties of an SNMP device, the product has to
+identify the device (Asset type) and this happens using the sysOID. A
+sysOID is a series of numbers that uniquely identifies an SNMP device.
+It is included when adding an SNMP device in the SNMP Custom Properties
+section. Once an SNMP device is added then the OIDs for the custom
+properties are added.</p>
+<p>The sysOID also helps in fetching manufacturer details of a device. If
+manufacturer records have sysOIDs then this is possible. You can also
+add a manufacturer when adding an SNMP device in SNMP Custom Properties.</p>
+<div class="figure align-center" id="amf-180-1">
+<img alt="figure 180.1" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-180.1.png" />
+</div>
+<div class="figure align-center" id="amf-180-2">
+<img alt="figure 180.2" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-180.2.png" />
+</div>
+<div class="figure align-center" id="amf-180-3">
+<img alt="figure 180.3" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-180.3.png" />
+</div>
+<div class="figure align-center" id="amf-180-4">
+<img alt="figure 180.4" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-180.4.png" />
+</div>
+<p>Related Topic:</p>
+<ul class="simple">
+<li><a class="reference external" href="#snmp-custom-properties">SNMP Properties</a></li>
+<li><a class="reference external" href="#adding-a-manufacturer">Adding Manufacturer</a>.</li>
+</ul>
+<p><strong>Adding a Network:</strong></p>
+<p>Now that we have added the credentials, It is time to add a Network that
+would utilize the credentials to communicate with the nodes.</p>
+<ul class="simple">
+<li>Go to <strong>Admin</strong> &gt;&gt; <strong>Networks</strong> (under IT Infrastructure).</li>
+<li>We use the <a class="reference external" href="#network">Add Network</a> dialog box to add a Network
+called IP_Range.</li>
+</ul>
+<div class="figure align-center" id="amf-181">
+<img alt="figure 181" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-181.png" />
+</div>
+<p>Now we are going to see what Network information we have entered and
+what options we have selected.</p>
+<div class="figure align-center" id="amf-182">
+<img alt="figure 182" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-182.png" />
+</div>
+<div class="figure align-center" id="amf-183">
+<img alt="figure 183" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-183.png" />
+</div>
+<p>We have entered the IP addresses of every machine/device as a
+comma-separated list. We do not know whether their IP addresses are
+static or not, so we have gone with the DHCP. Finally, we have added the
+credentials that we created earlier.</p>
+<p><strong>Configuring DNS:</strong></p>
+<p>Since we have selected the Protocol Type as DHCP, we need to configure
+the DNS settings. Learn more about DNS Configuration:</p>
+<ul class="simple">
+<li>We go to <strong>Admin</strong> &gt;&gt; <strong>DNS Configuration</strong> (Under IT
+Infrastructure).</li>
+<li>The DNS Configurations page opens. We add the Primary DNS and
+<strong>Update</strong> the settings.</li>
+</ul>
+<div class="figure align-center" id="amf-184">
+<img alt="figure 184" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-184.png" />
+</div>
+<p><strong>Creating a Discovery Probe:</strong></p>
+<p>Now we create the Discovery Probe that performs the discovery in the
+network.</p>
+<ul class="simple">
+<li>We go to <strong>Asset</strong> (one of the Navigation Tabs) &gt;&gt; <strong>Discovery
+Probe</strong>.</li>
+<li>We create a Probe called IP_Range_Probe using the Network that we
+have created. Learn <a class="reference external" href="#creating-a-discovery-probe">how to create a
+Probe</a>.</li>
+</ul>
+<div class="figure align-center" id="amf-185">
+<img alt="figure 185" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-185.png" />
+</div>
+<p><strong>Our first Discovery Operation:</strong></p>
+<p>Running our first discovery operation:</p>
+<ul class="simple">
+<li>We go to <strong>Assets</strong> &gt;&gt; <strong>Discovery Probe</strong>.</li>
+<li>We select IP_Range_Probe and click on <strong>Run Now</strong>. We select
+automatic addition of Assets. The Discovery operation starts and
+populates the CMDB. We can view the Assets in the Asset List View.</li>
+</ul>
+<div class="figure align-center" id="amf-186">
+<img alt="figure 186" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-186.png" />
+</div>
+</div>
+<div class="section" id="domain-network-discovery-probe">
+<h4>Domain Network Discovery Probe<a class="headerlink" href="#domain-network-discovery-probe" title="Permalink to this headline">¶</a></h4>
+<p>We create another Probe which uses a Domain Network. We already have the
+necessary credential in the Library. We just need to add a new Network.</p>
+<p><strong>Adding a Network:</strong></p>
+<p>We add a new Network called Domain_Net almost following the same steps
+as we did while adding the IP_Range. The difference is that here the
+Network Type is a Domain Network and Domain Network Type is Windows
+Domain Controller.</p>
+<p>Domain Controller Name can be an IP Address or a domain name. If IP
+Address is there, then you must configure DNS.</p>
+<div class="figure align-center" id="amf-187">
+<img alt="figure 187" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-187.png" />
+</div>
+<p><strong>Creating a Discovery Probe:</strong></p>
+<p>We create another Probe that uses a Domain Network to discovery Windows
+machines. As we did with IP_Range_Probe, we use the <strong>Create Discovery
+Probe</strong> dialog box.to create Domain_Net_Probe.</p>
+<div class="figure align-center" id="amf-188-1">
+<img alt="figure 188.1" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-188.1.png" />
+</div>
+<div class="figure align-center" id="amf-188-2">
+<img alt="figure 188.2" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-188.2.png" />
+</div>
+<p><strong>Discovery of Assets:</strong></p>
+<p>We have cleared the Asset List View so we can perform another Discovery
+using the new Probe. We are going to run the Domain_Net_Probe by
+clicking on <strong>Run Now</strong> from the Discovery Probe page. We select the
+auto-addition option and the discovered Assets are automatically added
+to the CMDB.</p>
+</div>
+</div>
+</div>
+<div class="section" id="flotomate-discovery-agent">
+<h2>Flotomate Discovery Agent<a class="headerlink" href="#flotomate-discovery-agent" title="Permalink to this headline">¶</a></h2>
+<p>Not all workstations in an organization are part of a network, but
+still, they need discovery. By using our Agent Application, Flotomate
+can fetch data from such workstations remotely.</p>
+<p>Flotomate’s Agent Application is a lightweight application that runs in
+the background of a workstation, acquires data, and pushes it directly
+to the main server.</p>
+<div class="section" id="minimum-system-requirements">
+<h3>Minimum System Requirements<a class="headerlink" href="#minimum-system-requirements" title="Permalink to this headline">¶</a></h3>
+<p>The following table highlights the hardware and software requirements
+for a system to run the Agent Application.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head"><strong>Processor Type</strong></th>
+<th class="head">Intel Dual Core</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><strong>Processor Speed</strong></td>
+<td>2.6 GHz</td>
+</tr>
+<tr class="row-odd"><td><strong>RAM</strong></td>
+<td>1 GB</td>
+</tr>
+<tr class="row-even"><td><strong>Free Hard Disk</strong></td>
+<td>100 MB</td>
+</tr>
+<tr class="row-odd"><td><strong>Operating System</strong></td>
+<td>Windows 7 and higher</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="installing-the-discovery-agent-application">
+<h3>Installing the Discovery Agent Application<a class="headerlink" href="#installing-the-discovery-agent-application" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="installing-in-windows">
+<h4>Installing in Windows:<a class="headerlink" href="#installing-in-windows" title="Permalink to this headline">¶</a></h4>
+<p>Installing the Agent on a Windows machine can be done in three ways:</p>
+<p><strong>Using the Application Installer:</strong></p>
+<ol class="arabic simple">
+<li>Download the Agent Application installer on the workstation.</li>
+<li>Go to the directory where the Agent.exe file is situated.</li>
+<li>Run Agent.exe as Administrator.</li>
+</ol>
+<div class="figure align-center" id="amf-189">
+<img alt="figure 189" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-189.png" />
+</div>
+<ol class="arabic simple" start="4">
+<li>The installation wizard opens. Click Next and set destination path.</li>
+</ol>
+<div class="figure align-center" id="amf-190">
+<img alt="figure 190" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-190.png" />
+</div>
+<ol class="arabic" start="5">
+<li><p class="first">In the URL field, enter the URL of Service Desk’s main server and
+click <strong>Next</strong>.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">http or https in URL is a must.</p>
+</div>
+</li>
+</ol>
+<div class="figure align-center" id="amf-191">
+<img alt="figure 191" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-191.png" />
+</div>
+<ol class="arabic simple" start="6">
+<li>In the next dialog box, click Install to complete your
+installation.</li>
+</ol>
+<p><strong>Using the Application Installer (Non-Interactive):</strong></p>
+<ol class="arabic simple">
+<li>You can also install the Agent Application from the Command Prompt
+without the hassle of seeing multiple dialog boxes.</li>
+<li>Open CMD and change the target path to Agent.exe.</li>
+<li>Type Agent.exe and the URL of the main server, and hit enter. Your
+installation is done.</li>
+</ol>
+<div class="figure align-center" id="amf-192">
+<img alt="figure 192" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-192.png" />
+</div>
+<p><strong>Using PsExec for installation:</strong></p>
+<p>PsExec lets you run processes remotely on other systems without the need
+of a client and with full access to console applications. Using PsExec,
+you can launch and execute CMD commands remotely. PsExec is part of the
+PsTools toolkit developed by Sysinternals.</p>
+<ol class="arabic">
+<li><p class="first">Download PSTools.zip from the following link:</p>
+<p><a class="reference external" href="https://s3.ap-south-1.amazonaws.com/flotomate-customer-releases/share/PSTools.zip">https://s3.ap-south-1.amazonaws.com/flotomate-customer-releases/share/PSTools.zip</a></p>
+</li>
+<li><p class="first">Extract the zip file to a folder.</p>
+</li>
+<li><p class="first">Download the Agent.exe file from the following link:</p>
+<p><a class="reference external" href="https://s3.ap-south-1.amazonaws.com/flotomate-customer-releases/latest/agent/Agent.exe">https://s3.ap-south-1.amazonaws.com/flotomate-customer-releases/latest/agent/Agent.exe</a></p>
+</li>
+<li><p class="first">Put Agent.exe in the PSTools folder.</p>
+</li>
+<li><p class="first">Add IP list in ip.txt file for installing agent in those computers.</p>
+</li>
+<li><p class="first">Now run setup.bat.</p>
+</li>
+<li><p class="first">Enter the Url of the main server.</p>
+</li>
+<li><p class="first">Enter Domain Username and password then hit enter.</p>
+</li>
+<li><p class="first">It will take time for installing agent in all Computers.</p>
+</li>
+</ol>
+</div>
+<div class="section" id="uninstalling-the-discovery-agent-application">
+<h4>Uninstalling the Discovery Agent Application<a class="headerlink" href="#uninstalling-the-discovery-agent-application" title="Permalink to this headline">¶</a></h4>
+<ol class="arabic simple">
+<li>Go to the directory where Agent.exe file is situated.</li>
+<li>Run the Agent.exe file.</li>
+<li><dl class="first docutils">
+<dt>Given that you have already installed the Agent Application, the</dt>
+<dd>Agent Setup Wizard leads you to the Modify, Repair, and Remove
+installation dialog box.</dd>
+</dl>
+</li>
+</ol>
+<div class="figure align-center" id="amf-193">
+<img alt="figure 193" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-193.png" />
+</div>
+<ol class="arabic simple" start="4">
+<li>Select Remove and follow the instructions to remove the Agent
+Application.</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Asset Discovery</a><ul>
+<li><a class="reference internal" href="#discovery-of-workstations-and-other-network-devices">Discovery of Workstations and Other Network Devices</a><ul>
+<li><a class="reference internal" href="#understanding-agent-based-vs-agentless-method">Understanding Agent-Based vs. Agentless Method</a></li>
+<li><a class="reference internal" href="#infrastructure-setup">Infrastructure Setup</a><ul>
+<li><a class="reference internal" href="#dns-configuration">DNS Configuration:</a></li>
+<li><a class="reference internal" href="#credential-library">Credential Library</a></li>
+<li><a class="reference internal" href="#network">Network</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#discovery-probe">Discovery Probe</a><ul>
+<li><a class="reference internal" href="#creating-a-discovery-probe">Creating a Discovery Probe</a></li>
+<li><a class="reference internal" href="#information-fetched-by-a-probe">Information Fetched by a Probe</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#managing-a-discovery-probe">Managing a Discovery Probe</a><ul>
+<li><a class="reference internal" href="#run-on-demand-discovery">Run on Demand Discovery</a></li>
+<li><a class="reference internal" href="#run-on-demand-polling">Run on Demand Polling</a></li>
+<li><a class="reference internal" href="#scheduling">Scheduling</a></li>
+<li><a class="reference internal" href="#editing-a-schedule-for-discovery-and-polling">Editing a Schedule for Discovery and Polling</a></li>
+<li><a class="reference internal" href="#editing-a-probe">Editing a Probe</a></li>
+<li><a class="reference internal" href="#deleting-a-probe">Deleting a Probe</a></li>
+<li><a class="reference internal" href="#status-progress-of-a-probe">Status/Progress of a Probe</a></li>
+<li><a class="reference internal" href="#reviewing-discovered-assets">Reviewing Discovered Assets</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#use-case">Use Case</a><ul>
+<li><a class="reference internal" href="#ip-range-network-discovery-probe">IP Range Network Discovery Probe</a></li>
+<li><a class="reference internal" href="#domain-network-discovery-probe">Domain Network Discovery Probe</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#flotomate-discovery-agent">Flotomate Discovery Agent</a><ul>
+<li><a class="reference internal" href="#minimum-system-requirements">Minimum System Requirements</a></li>
+<li><a class="reference internal" href="#installing-the-discovery-agent-application">Installing the Discovery Agent Application</a><ul>
+<li><a class="reference internal" href="#installing-in-windows">Installing in Windows:</a></li>
+<li><a class="reference internal" href="#uninstalling-the-discovery-agent-application">Uninstalling the Discovery Agent Application</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="software-metering.html"
+                        title="previous chapter">Software Metering</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="initiate-manual-scanning.html"
+                        title="next chapter">Initiate Manual Scanning</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/asset-management/asset-discovery.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="initiate-manual-scanning.html" title="Initiate Manual Scanning"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="software-metering.html" title="Software Metering"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">ITSM Product Documentation 2.0.0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" >Asset Management</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2018, Flotomate Technologies Private Limited.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.7.5.
+    </div>
+  </body>
+</html>

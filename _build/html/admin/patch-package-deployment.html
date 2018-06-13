@@ -1,0 +1,420 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Patch/Package Deployment &#8212; ITSM Product Documentation 2.0.0 documentation</title>
+    <link rel="stylesheet" href="../_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Asset Management" href="admin-asset-management.html" />
+    <link rel="prev" title="Setting Up Helpdesk" href="setting-up-helpdesk.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="admin-asset-management.html" title="Asset Management"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="setting-up-helpdesk.html" title="Setting Up Helpdesk"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">ITSM Product Documentation 2.0.0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" accesskey="U">Administration Manual</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="patch-package-deployment">
+<h1>Patch/Package Deployment<a class="headerlink" href="#patch-package-deployment" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="patch-custom-rules">
+<h2>Patch Custom Rules<a class="headerlink" href="#patch-custom-rules" title="Permalink to this headline">¶</a></h2>
+<p>Custom rules allow you make certain things prerequisite before
+performing certain activities. You can access custom rules from
+<strong>Admin</strong> (accessed from <strong>Product Launcher</strong>) &gt;&gt; <strong>Patch Custom Rules</strong>
+(Patch/Packages Deployment). Currently, the product offers the following
+rules:</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">The edit button makes the fields editable.</p>
+</div>
+<ul class="simple">
+<li>Set requirement for an Approval before publishing a Deployment
+Request.</li>
+</ul>
+<div class="figure align-center" id="adf-116">
+<img alt="figure 116" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-116.png" />
+</div>
+</div>
+<div class="section" id="share-drive-configuration">
+<h2>Share Drive Configuration<a class="headerlink" href="#share-drive-configuration" title="Permalink to this headline">¶</a></h2>
+<p>A Shared Drive is a shared resource on a Computer network. It is a
+device or piece of information on a Computer that can be remotely
+accessed from another Computer, typically via a local area network or an
+enterprise intranet, transparently as if it were a resource in the local
+machine.</p>
+<p>The Shared Drive is the default location where the Product Server stores
+all the Patches before deployment. The product asks for a Shared Drive
+when Patches don’t have a locally stored Package file.</p>
+<p><strong>To Setup a Shared Drive:</strong></p>
+<ol class="arabic simple">
+<li>Log in to your Dashboard.</li>
+<li>Go to <strong>Admin</strong> (accessed from <strong>Product Launcher</strong>) &gt;&gt; <strong>Shared
+Drive Configurations</strong> (Patch/Package Deployment).</li>
+</ol>
+<div class="figure align-center" id="adf-117">
+<img alt="figure 117" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-117.png" />
+</div>
+<ol class="arabic" start="3">
+<li><p class="first">The Shared Drive Configuration page opens. Here you get the
+following fields and options:</p>
+<blockquote>
+<div><div class="figure align-center" id="adf-118">
+<img alt="figure 118" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-118.png" />
+</div>
+<ol class="loweralpha simple">
+<li>In section-A (<a class="reference internal" href="#adf-118"><span class="std std-numref">Fig. 162</span></a>), you type in a URL that tells the Product
+Server the location of the Shared Drive.</li>
+</ol>
+<ol class="loweralpha simple" start="4">
+<li>If you want the Patches to be automatically downloaded when there’s a
+request, then turn on the toggle button in section-B.</li>
+</ol>
+</div></blockquote>
+<p>Click the <strong>Edit</strong> button to make the fields editable. Once you enter
+the URL, you can test the connection; the product tells you whether a
+successful connection was established with the Share Drive. Once you
+are done with everything, click on <strong>Update</strong> to save your changes.</p>
+</li>
+</ol>
+</div>
+<div class="section" id="system-health-configuration">
+<h2>System Health Configuration<a class="headerlink" href="#system-health-configuration" title="Permalink to this headline">¶</a></h2>
+<p>Patch Management ensures that all administered IT Assets are updated
+with the latest Patch from the Software Vendor; this enhances security
+and helps in thwarting external and internal cyber-attacks.</p>
+<p>Computers fetch and deploy Patches. So it becomes imperative to monitor
+all Computers to keep yourself aligned with the idea of Patch
+Management.</p>
+<p>Our product has a feature called System Health that flags Computers that
+are missing critical, essential Patches. This helps you to manage your
+vulnerability and prevent any attacks.</p>
+<div class="section" id="system-health-settings">
+<h3>System Health Settings<a class="headerlink" href="#system-health-settings" title="Permalink to this headline">¶</a></h3>
+<p>Go to <strong>Admin</strong> (Accessed from <strong>Product Launcher</strong>) &gt;&gt; <strong>System Health
+Settings</strong> (Patch/Package Management).</p>
+<div class="figure align-center" id="adf-119">
+<img alt="figure 119" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-119.png" />
+</div>
+<p>These settings help Flotomate to flag Computers as either Highly
+Vulnerable or Vulnerable. You can filter the flagged Computers on the
+<span class="xref std std-ref">Computer List View</span>. Clicking on <strong>System Health
+Settings</strong> opens a page. Here you can set the conditions separately to
+define Highly Vulnerable and Vulnerable.</p>
+<div class="figure align-center" id="adf-120">
+<img alt="figure 120" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-120.png" />
+</div>
+<p>Click on <strong>Edit</strong> to make the fields editable. You are expected to enter
+the minimum number of missing Patches for each severity label.</p>
+<p>Each vulnerability status has a set of four severity labels and their
+counts. No two same labels can have the same numbers (Numbers in Highly
+Vulnerable have to be higher than Vulnerable).</p>
+<div class="figure align-center" id="adf-121">
+<img alt="figure 121" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-121.png" />
+</div>
+<p>The number zero in a field signifies that there’s no condition for the
+corresponding severity label.</p>
+<p>If a Computer has a missing Patch number that is equal to or exceeds a
+minimum value for a label, then the Computer is flagged with the
+corresponding health status. In case a Computer satisfies multiple
+labels then the label top in the hierarchy is considered (Critical
+Patches having the highest priority and Low severity having the lowest).</p>
+<div class="figure align-center" id="adf-122">
+<img alt="figure 122" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-122.png" />
+</div>
+</div>
+</div>
+<div class="section" id="endpoint-scope">
+<h2>Endpoint Scope<a class="headerlink" href="#endpoint-scope" title="Permalink to this headline">¶</a></h2>
+<p>Depending on the License agreement you have with us, the number of
+Computers you can manage with the product (for remote deployment) is
+limited. All discovered Computers (with our Agent application) stay out
+of the scope of the product by default; you have to bring them within
+the scope before you can use our product features.</p>
+<p>The Endpoint Scope lets you view all available Computers (not in the
+Scope) and add them to the Scope. You can set certain conditions that
+allow the product to add any new Computers automatically. You can also
+add Computers manually.</p>
+<p>There is a counter that shows how many Computers are within the scope
+and how many you can still add. In no situation, you can exceed the
+total number of Computers you are allowed to add to the Scope.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Only Computers configured with our Agent Application is visible
+on Endpoint Scope.</p>
+</div>
+<div class="section" id="add-computers-to-a-scope">
+<h3>Add Computers to a Scope<a class="headerlink" href="#add-computers-to-a-scope" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Go to <strong>Admin</strong> (accessed from <strong>Product Launcher</strong>) &gt;&gt; <strong>Endpoint
+Scope</strong> (Patch/Package Management).</li>
+</ul>
+<div class="figure align-center" id="adf-123">
+<img alt="figure 123" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-123.png" />
+</div>
+<ul class="simple">
+<li>The Endpoint Scope page opens.</li>
+</ul>
+<div class="figure align-center" id="adf-124">
+<img alt="figure 124" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-124.png" />
+</div>
+<ul class="simple">
+<li>You can view the total number of Computers that you can add from the
+Total Endpoint Scope number. The Total Available shows you the number
+of Computers you can still add to reach the Total Endpoint Scope
+number.</li>
+</ul>
+<div class="figure align-center" id="adf-125">
+<img alt="figure 125" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-125.png" />
+</div>
+<p><strong>Adding a Network (Automatic Addition of Computers)</strong></p>
+<ul class="simple">
+<li>You can associate a Network with a Scope; this allows the Scope to
+automatically add Computers (with the Agent application) in the
+Network based on include and exclude conditions. You can use both
+manual and automatic addition of Computers together; they are not
+mutually exclusive.</li>
+</ul>
+<div class="figure align-center" id="adf-126">
+<img alt="figure 126" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-126.png" />
+</div>
+<ul class="simple">
+<li>Once you select a Network, you now have to add conditions. The
+conditions are of two types: include and exclude. Both the types
+create a set of Computers from which to either include or exclude.
+When there’s an intersection or conflict between the two types then
+exclude conditions/condition override the include set. For example,
+to add Computers within an IP range with a hostname containing “Digi”
+and excluding those with Linux OS, yields the following conditions:</li>
+</ul>
+<div class="figure align-center" id="adf-127-1">
+<img alt="figure 127.1" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-127.1.png" />
+</div>
+<div class="figure align-center" id="adf-127-2">
+<img alt="figure 127.2" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-127.2.png" />
+</div>
+<p><strong>Manual Adding Computers</strong></p>
+<ul>
+<li><p class="first">You can manually search and add Computers to a scope. The search bar
+supports the Advanced Search feature where you get search options by
+clicking on the search bar.</p>
+<blockquote>
+<div><div class="figure align-center" id="adf-128-1">
+<img alt="figure 128.1" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-128.1.png" />
+</div>
+<div class="figure align-center" id="adf-128-2">
+<img alt="figure 128.2" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-128.2.png" />
+</div>
+</div></blockquote>
+<p>You can also enter keywords to search for a Computer. When entering a
+keyword, the product explores all the Computers with the keyword in
+their Name, Hostname, Domain name, OS name and Service Pack. A Computer
+has to have at least one field matched (partial or full) with the
+keyword; in case there are multiple keywords, a Computer has to have at
+least one field matched for each keyword.</p>
+<p>You can combine search options with keywords. Between two different
+conditions of the same type OR logic is followed. Between different
+types AND logic is observed. An example of same type contradiction is OS
+Name contains Windows vs. OS Name contains Linux.</p>
+</li>
+</ul>
+<div class="figure align-center" id="adf-129">
+<img alt="figure 129" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-129.png" />
+</div>
+<ul class="simple">
+<li>Once you have found your Computers, add by selecting them, and they
+move to the Selected Computers list. Manually selected Computers
+override the exclude criteria/conditions set under the Network.</li>
+</ul>
+<div class="figure align-center" id="adf-130">
+<img alt="figure 130" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-130.png" />
+</div>
+<ul class="simple">
+<li>Once you are done setting conditions and adding Computers, click on
+<strong>Update</strong>.</li>
+<li>You can create more than one Scope to accommodate multiple Networks
+(a Scope can have only one Network). The actual Computer list is
+cumulative of all available Scopes (added manually and
+automatically).</li>
+</ul>
+<div class="figure align-center" id="adf-131">
+<img alt="figure 131" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-131.png" />
+</div>
+</div>
+<div class="section" id="preview-computer-list">
+<h3>Preview Computer List<a class="headerlink" href="#preview-computer-list" title="Permalink to this headline">¶</a></h3>
+<p>Once you are done with adding Computers and setting conditions, you can
+view the final list of all the Computers (added manually and
+automatically) in all Scopes using the Preview function.</p>
+<p>Open Endpoint Scope from <strong>Admin</strong>. Click on <strong>Preview</strong> to generate the
+Computer list.</p>
+<div class="figure align-center" id="adf-132">
+<img alt="figure 132" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-132.png" />
+</div>
+<p>You can search for a Computer. The search bar supports the Advanced
+Search feature. It is similar to the search bar in a Scope.</p>
+</div>
+</div>
+<div class="section" id="approval-settings">
+<h2>Approval Settings<a class="headerlink" href="#approval-settings" title="Permalink to this headline">¶</a></h2>
+<p>The idea of Patch Management revolves around security, enhancement, and
+compliance. Sometimes it may happen that specific Patches don’t comply
+with the idea of Patch Management. It becomes necessary to keep these
+Patches out from the IT infrastructure which might cause more trouble
+than any good.</p>
+<p>The tool has the provision to seek Approval for each and every Patch
+before they can be deployed. There are two methods for Approval: Manual
+Approval and Automatic Approval (Automatic Patch Test). Which method to
+choose is decided from the Patch Approval Setting in Admin.</p>
+<div class="section" id="patch-approval-setting-selecting-an-approval-method">
+<h3>Patch Approval Setting (Selecting an Approval Method)<a class="headerlink" href="#patch-approval-setting-selecting-an-approval-method" title="Permalink to this headline">¶</a></h3>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Configuring Patch Approval Settings requires Admin rights.</p>
+</div>
+<ul>
+<li><p class="first">Go to <strong>Admin</strong> (accessed from <strong>Product Launcher</strong>) &gt;&gt; <strong>Patch
+Approval Setting</strong> (Patch/Package Deployment).</p>
+</li>
+<li><p class="first">The Patch Approval Setting page opens. There you get three options
+(Approval Types). Click on <strong>Edit</strong> to make the page editable.</p>
+<blockquote>
+<div><div class="figure align-center" id="adf-133">
+<img alt="figure 133" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-133.png" />
+</div>
+<ol class="loweralpha">
+<li><p class="first"><strong>All Patches Pre-Approved</strong>: As the name suggests, all incoming
+Patches (both new and missing Patches) are Pre-Approved by default. A
+user can manually change the Approval status of Patch to Reject or
+Approved. The Automatic Patch Test doesn’t work with this selection.</p>
+<p>This selection comes into effect for incoming future Patches, and it
+doesn’t affect Patches that are already in the product.</p>
+</li>
+<li><p class="first"><strong>All Patches will be Manually Approved</strong>: All new incoming Patches
+have the Approval status <strong>Not Approved</strong> by default. A user has to
+change the status manually to either Approved or Reject.</p>
+</li>
+<li><p class="first"><strong>Qualified Patches will be Approved by Test Task</strong>: All new incoming
+Patches have the status <strong>Not Approved</strong> by default. A user can
+manually set the status. He also has the option to create a Test
+Task.</p>
+<p>A Test Task, also known as Automatic Patch Test, deploys a selected
+set of Patches to a specific set of Computers; if deployment is
+successful in all of the Computers, then the Patches are
+auto-approved after a set number of days. Test Task only works in
+this setting.</p>
+</li>
+</ol>
+</div></blockquote>
+</li>
+<li><p class="first">Select an Approval Type and hit <strong>Update</strong>.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Patch/Package Deployment</a><ul>
+<li><a class="reference internal" href="#patch-custom-rules">Patch Custom Rules</a></li>
+<li><a class="reference internal" href="#share-drive-configuration">Share Drive Configuration</a></li>
+<li><a class="reference internal" href="#system-health-configuration">System Health Configuration</a><ul>
+<li><a class="reference internal" href="#system-health-settings">System Health Settings</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#endpoint-scope">Endpoint Scope</a><ul>
+<li><a class="reference internal" href="#add-computers-to-a-scope">Add Computers to a Scope</a></li>
+<li><a class="reference internal" href="#preview-computer-list">Preview Computer List</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#approval-settings">Approval Settings</a><ul>
+<li><a class="reference internal" href="#patch-approval-setting-selecting-an-approval-method">Patch Approval Setting (Selecting an Approval Method)</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="setting-up-helpdesk.html"
+                        title="previous chapter">Setting Up Helpdesk</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="admin-asset-management.html"
+                        title="next chapter">Asset Management</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/admin/patch-package-deployment.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="admin-asset-management.html" title="Asset Management"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="setting-up-helpdesk.html" title="Setting Up Helpdesk"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">ITSM Product Documentation 2.0.0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" >Administration Manual</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2018, Flotomate Technologies Private Limited.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.7.5.
+    </div>
+  </body>
+</html>

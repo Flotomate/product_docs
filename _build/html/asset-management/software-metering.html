@@ -1,0 +1,233 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Software Metering &#8212; ITSM Product Documentation 2.0.0 documentation</title>
+    <link rel="stylesheet" href="../_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Asset Discovery" href="asset-discovery.html" />
+    <link rel="prev" title="Consolidating Software" href="consolidating-software.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="asset-discovery.html" title="Asset Discovery"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="consolidating-software.html" title="Consolidating Software"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">ITSM Product Documentation 2.0.0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" accesskey="U">Asset Management</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="software-metering">
+<h1>Software Metering<a class="headerlink" href="#software-metering" title="Permalink to this headline">¶</a></h1>
+<p>Metering is a convenient tool to track the utilization of a Software
+application across machines in an organization. Using Metering,
+Flotomate can track three usage statistics of a Software Asset using an
+Agent. You have to enable Metering individually for Software Assets that
+you want to track. Currently, Metering tracks the following information
+of a Software Asset:</p>
+<ul class="simple">
+<li>The number of times the Software application was open. Also referred
+to as Usage Count</li>
+<li>Total time the Software Application was used. Also referred to as
+Usage Duration.</li>
+<li>Time elapsed since the application was last open. Also referred to as
+Last Used.</li>
+</ul>
+<div class="section" id="adding-a-meter">
+<h2>Adding a Meter<a class="headerlink" href="#adding-a-meter" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li>Go to <strong>Asset</strong> (A Navigation Tab) &gt;&gt; <strong>Software Meter</strong>.</li>
+<li>The Software Meter page opens. Here you can view all the Meters that
+you have created. Click on <strong>Create a Meter</strong> situated in the top
+right corner of the page.</li>
+</ol>
+<div class="figure align-center" id="amf-148">
+<img alt="figure 148" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-148.png" />
+</div>
+<ol class="arabic" start="3">
+<li><p class="first">The Create a Meter dialog box opens. Then you have to provide the
+following information:</p>
+<blockquote>
+<div><ol class="loweralpha">
+<li><p class="first"><strong>Meter information</strong>: In this section, you have to provide a
+<strong>Name</strong> and <strong>Description</strong> of the Meter.</p>
+<blockquote>
+<div><div class="figure align-center" id="amf-149">
+<img alt="figure 149" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-149.png" />
+</div>
+</div></blockquote>
+</li>
+<li><p class="first"><strong>Select Software Asset</strong>: Select the Software that you want to
+meter. You can search the Software using the search bar. The search
+bar supports Advanced Search. Learn <a class="reference external" href="#_Understanding_the_Asset">how to use Advanced
+Search</a>.</p>
+<blockquote>
+<div><div class="figure align-center" id="amf-150">
+<img alt="figure 150" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-150.png" />
+</div>
+</div></blockquote>
+</li>
+<li><p class="first"><strong>Configure Executable File Name</strong>: As the name suggests, you have to
+provide the name of the executable file of the Software application
+if the file is not configured automatically.</p>
+<blockquote>
+<div><div class="figure align-center" id="amf-151">
+<img alt="figure 151" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-151.png" />
+</div>
+</div></blockquote>
+</li>
+<li><p class="first"><strong>Select Computer</strong>: You have two ways to add computers:</p>
+<blockquote>
+<div><ol class="lowerroman simple">
+<li><strong>Computers</strong>: You have to select computers with the Flotomate
+Agent manually from a list. You can search for computers in the
+search bar. The search bar supports Advanced Search.</li>
+</ol>
+<div class="figure align-center" id="amf-152">
+<img alt="figure 152" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-152.png" />
+</div>
+<ol class="lowerroman simple" start="2">
+<li><strong>Network</strong>: You can select all the computers with the Agent in
+an IP Range defined Network. Here you have to select the Network.</li>
+</ol>
+<div class="figure align-center" id="amf-153">
+<img alt="figure 153" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-153.png" />
+</div>
+</div></blockquote>
+</li>
+</ol>
+</div></blockquote>
+</li>
+<li><p class="first">After providing the information, click on <strong>Create</strong> to add the
+meter in the Software Meter page.</p>
+</li>
+</ol>
+</div>
+<div class="section" id="viewing-meter-statistics">
+<h2>Viewing Meter Statistics<a class="headerlink" href="#viewing-meter-statistics" title="Permalink to this headline">¶</a></h2>
+<p>There are two ways to view the data collected by a Meter:</p>
+<ul class="simple">
+<li>Go to the Software Meter page and click on a Meter to view the data
+in the right-hand side information pane.</li>
+</ul>
+<div class="figure align-center" id="amf-154">
+<img alt="figure 154" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-154.png" />
+</div>
+<ul class="simple">
+<li>You can also view the Metering data in the <a class="reference external" href="#searching-assets">Details
+View</a> of the Software Asset under the Meter
+tab.</li>
+</ul>
+<div class="figure align-center" id="amf-155">
+<img alt="figure 155" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-155.png" />
+</div>
+</div>
+<div class="section" id="viewing-meter-statistics-for-consolidated-software-assets">
+<h2>Viewing Meter Statistics for Consolidated Software Assets<a class="headerlink" href="#viewing-meter-statistics-for-consolidated-software-assets" title="Permalink to this headline">¶</a></h2>
+<p>In a Consolidation of Software Assets, one Asset is the Primary Asset,
+and the rest are Secondary Assets. If any or all the Assets have a
+Meter, then the following scenarios prevail.</p>
+<ul class="simple">
+<li>If all Assets in a Consolidation have a Meter, then the Primary Asset
+shows the cumulative data of all the Assets in its Meter tab, and the
+Secondary Assets shows their individual meter data.</li>
+<li>If the Primary Asset does not have a Meter but Secondary Assets have
+then the Primary Asset shows the cumulative meter data of Secondary
+Assets, and the Secondary Assets show their data. In vice-versa, the
+Primary Asset shows its data, and the Secondary Assets show no data.</li>
+</ul>
+<p>Whatever Meter data is present in a Consolidation it gets added to the
+Primary Asset.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Software Metering</a><ul>
+<li><a class="reference internal" href="#adding-a-meter">Adding a Meter</a></li>
+<li><a class="reference internal" href="#viewing-meter-statistics">Viewing Meter Statistics</a></li>
+<li><a class="reference internal" href="#viewing-meter-statistics-for-consolidated-software-assets">Viewing Meter Statistics for Consolidated Software Assets</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="consolidating-software.html"
+                        title="previous chapter">Consolidating Software</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="asset-discovery.html"
+                        title="next chapter">Asset Discovery</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/asset-management/software-metering.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="asset-discovery.html" title="Asset Discovery"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="consolidating-software.html" title="Consolidating Software"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">ITSM Product Documentation 2.0.0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" >Asset Management</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2018, Flotomate Technologies Private Limited.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.7.5.
+    </div>
+  </body>
+</html>

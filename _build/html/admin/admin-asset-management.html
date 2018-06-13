@@ -1,0 +1,445 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Asset Management &#8212; ITSM Product Documentation 2.0.0 documentation</title>
+    <link rel="stylesheet" href="../_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Asset Management" href="../asset-management/index.html" />
+    <link rel="prev" title="Patch/Package Deployment" href="patch-package-deployment.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../asset-management/index.html" title="Asset Management"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="patch-package-deployment.html" title="Patch/Package Deployment"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">ITSM Product Documentation 2.0.0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" accesskey="U">Administration Manual</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="asset-management">
+<h1>Asset Management<a class="headerlink" href="#asset-management" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="adding-custom-asset-types">
+<h2>Adding Custom Asset Types<a class="headerlink" href="#adding-custom-asset-types" title="Permalink to this headline">¶</a></h2>
+<p>We have introduced the concept of Asset Type Hierarchy to make
+cataloging of Assets simple. It is a predefined catalog of Asset Types,
+which serves the purpose of giving you a generic umbrella term for every
+Asset in the CMDB.</p>
+<div class="figure align-center" id="adf-134-1">
+<img alt="figure 134.1" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-134.1.png" />
+</div>
+<div class="figure align-center" id="adf-134-2">
+<img alt="figure 134.2" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-134.2.png" />
+</div>
+<div class="figure align-center" id="adf-134-3">
+<img alt="figure 134.3" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-134.3.png" />
+</div>
+<p>Flotomate allows you to add custom Asset Sub-Types in the Asset Type
+Hierarchy. You can create sub-types up to two levels.</p>
+<p>To add an Asset Type:</p>
+<ul class="simple">
+<li>Go to <strong>Admin</strong> (A Navigation Tab) &gt;&gt; <strong>Asset Types</strong> (Asset
+Management).</li>
+</ul>
+<div class="figure align-center" id="adf-135">
+<img alt="figure 135" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-135.png" />
+</div>
+<ul class="simple">
+<li>The Asset Types page opens. Here you can add your sub-types in level
+two and three using the <strong>Add</strong> button.</li>
+</ul>
+<p><strong>Editing Custom Types</strong></p>
+<ul class="simple">
+<li>Go to <strong>Admin</strong> &gt;. <strong>Asset Types</strong>.</li>
+<li>You can change the name of any custom type using the Edit Icon or
+delete any type using the Delete Icon.</li>
+</ul>
+<div class="figure align-center" id="adf-136">
+<img alt="figure 136" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-136.png" />
+</div>
+</div>
+<div class="section" id="adding-an-asset-group">
+<h2>Adding an Asset Group<a class="headerlink" href="#adding-an-asset-group" title="Permalink to this headline">¶</a></h2>
+<p>Flotomate allows you to categorize Assets in the CMDB into groups.
+Groups are a convenient way to compartmentalize Assets based on certain
+similarities.</p>
+<p>Some of the benefits of using Asset Groups are:</p>
+<ul class="simple">
+<li>Asset Groups help Technicians to manage Assets in the CMDB. For
+example: if a Technician is responsible for an Asset Group called
+DATA CENTER ASSETS then he can easily search for the Assets with the
+group name.</li>
+<li>Groups are used in Hardware Asset notification. For example: in case
+there is a Hardware change in a specific Asset Group then a
+notification is sent to certain users.</li>
+</ul>
+<p><strong>To Create an Asset Group:</strong></p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">This operation requires Admin rights.</p>
+</div>
+<ol class="arabic simple">
+<li>Go to <strong>Admin</strong> &gt;&gt; <strong>Asset Group</strong> (Asset Management)</li>
+<li>The Asset Groups page opens. Here you can view all your Groups and
+their Assets.</li>
+</ol>
+<div class="figure align-center" id="adf-137">
+<img alt="figure 137" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-137.png" />
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">You can access the Asset Groups page from Admin &gt;&gt; Asset Groups
+(under Asset Management).</p>
+</div>
+<ol class="arabic" start="3">
+<li><p class="first">Click on <strong>Create an Asset Group</strong> situated in the top right corner
+of the page. A dialog box opens with the following fields:</p>
+<blockquote>
+<div><ol class="loweralpha simple">
+<li><strong>Name</strong>: Provide a suitable name for the group.</li>
+<li><strong>Owner</strong>: Select an owner of the group from the Technician list.</li>
+<li><strong>Description</strong>: Write the purpose of the group.</li>
+</ol>
+</div></blockquote>
+</li>
+</ol>
+<div class="figure align-center" id="adf-138">
+<img alt="figure 138" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-138.png" />
+</div>
+<ol class="arabic simple" start="4">
+<li>When you are done hit <strong>Create</strong>. Your Asset Group is added to the
+Asset Groups page.</li>
+</ol>
+</div>
+<div class="section" id="software-type">
+<h2>Software Type<a class="headerlink" href="#software-type" title="Permalink to this headline">¶</a></h2>
+<p>A Software Type tries to define the nature of existence of a Software
+Asset. By default, Flotomate provides six Software Types out of the box.
+They are as follows:</p>
+<ul class="simple">
+<li><strong>Excluded</strong>: These are all Software that does not need any managing.</li>
+<li><strong>Managed</strong>: These are all Software that needs managing with regards
+to License and Compliance.</li>
+<li><strong>Freeware</strong>: These are Software that is free to use.</li>
+<li><strong>Prohibited</strong>: These are Software that is not allowed to be used.</li>
+<li><strong>Shareware</strong>: These are Software that is running on a free Trial.</li>
+<li><strong>Unidentified</strong>: As the name suggests, these are unidentified
+Software with unknown source.</li>
+</ul>
+<div class="section" id="adding-a-software-type">
+<h3>Adding a Software Type:<a class="headerlink" href="#adding-a-software-type" title="Permalink to this headline">¶</a></h3>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">This operation requires administrative rights.</p>
+</div>
+<p>Apart from the default Types, you can add more Software Type/Types. To
+add a Software Type:</p>
+<ol class="arabic simple">
+<li>Go to <strong>Admin</strong> (A Navigation Tab) &gt;&gt; <strong>Software Types</strong> (Asset
+Management).</li>
+</ol>
+<div class="figure align-center" id="adf-139">
+<img alt="figure 139" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-139.png" />
+</div>
+<ol class="arabic simple" start="2">
+<li>The Software Types page opens. Here you can view all your default
+and custom types. Click on <strong>Add Software Type</strong> situated in the top
+right corner.</li>
+</ol>
+<div class="figure align-center" id="adf-140">
+<img alt="figure 140" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-140.png" />
+</div>
+<ol class="arabic simple" start="3">
+<li>The Add Software Type dialog box opens. Type in the details and
+click <strong>Add</strong>.</li>
+</ol>
+</div>
+</div>
+<div class="section" id="adding-a-manufacturer">
+<h2>Adding a Manufacturer<a class="headerlink" href="#adding-a-manufacturer" title="Permalink to this headline">¶</a></h2>
+<p>Before adding a Manufacturer’s name to a Product, you have to add it in
+Flotomate. In Flotomate you can maintain a list of manufacturers’ names
+that you can associate with various Products in the system.</p>
+<p>To Add a Manufacturer:</p>
+<ol class="arabic simple">
+<li>Go to <strong>Admin</strong> (A Navigation Tab) &gt;&gt; <strong>Manufacturers</strong> (Asset
+Management).</li>
+</ol>
+<div class="figure align-center" id="adf-141">
+<img alt="figure 141" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-141.png" />
+</div>
+<ol class="arabic simple" start="2">
+<li>The Manufacturers page opens. Here you can view all the
+Manufacturers that you have added. Click on <strong>Add Manufacturer</strong>
+situated in the top right corner of the page.</li>
+</ol>
+<div class="figure align-center" id="adf-142">
+<img alt="figure 142" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-142.png" />
+</div>
+<ol class="arabic" start="3">
+<li><p class="first">The Add Manufacturer dialog box opens. Type in the Name of the
+Manufacturer and a Description, and you can maintain a record of
+sysOIDs (System OID) using the <strong>ADD System OID</strong> (<a class="reference internal" href="#adf-142"><span class="std std-numref">Fig. 190</span></a>)
+button.</p>
+<p>The sysOID is for SNMP devices. The product matches SNMP devices
+with Manufacturers using the sysOID. The first 12 characters of a
+sysOID gives enough information to perform the match. The
+matchmaking happens even when the manufacturer is not explicitly
+mentioned in a SNMP device.</p>
+</li>
+<li><p class="first">When you are done, hit <strong>Save</strong> to add the Manufacturer.</p>
+</li>
+</ol>
+<p><strong>Editing Manufacturer</strong></p>
+<ol class="arabic simple">
+<li>Go to <strong>Admin</strong> &gt;&gt; <strong>Manufacturers</strong>.</li>
+<li>In the Manufacturers page, click on the Edit Icon adjacent to the
+Manufacturer that you want to edit.</li>
+<li>Perform your edits in the Edit Manufacturer dialog box and hit
+<strong>Update</strong>.</li>
+</ol>
+</div>
+<div class="section" id="barcode-configuration">
+<h2>Barcode Configuration<a class="headerlink" href="#barcode-configuration" title="Permalink to this headline">¶</a></h2>
+<p>You can have a variety of barcode prefixes when you are generating
+barcodes for printing. In Barcode Configuration page is where you add
+your own barcode prefixes.</p>
+<p><strong>To Add New Barcode Prefix:</strong></p>
+<ul class="simple">
+<li>Go to <strong>Admin</strong> (A Navigation tab) &gt;&gt; <strong>Barcode Configuration</strong>
+(Asset Management).</li>
+<li>Barcode Configuration page opens, there you can see all the existing
+prefixes. Click on Add Prefix.</li>
+</ul>
+<div class="figure align-center" id="adf-143">
+<img alt="figure 143" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-143.png" />
+</div>
+<ul class="simple">
+<li>Add Prefix dialog box opens. There type a four character prefix and
+hit <strong>Add</strong>.</li>
+</ul>
+<p><strong>To Delete a Prefix:</strong></p>
+<ul class="simple">
+<li>In Barcode Configuration page, click on the Delete Icon adjacent to a
+prefix that you want to delete. On confirmation, the prefix gets
+deleted.</li>
+</ul>
+</div>
+<div class="section" id="adding-a-product-type">
+<h2>Adding a Product Type<a class="headerlink" href="#adding-a-product-type" title="Permalink to this headline">¶</a></h2>
+<p>A Product can be further categorized into Product Types. A Product Type
+is a generic category to group Products. For example, Router is a
+Product Type that describes Products like Asus, TP-Link, etc. In
+Flotomate, you get a list of Product Types out of the box, but you can
+also add more types.</p>
+<p><strong>To Add a Product Type:</strong></p>
+<ol class="arabic simple">
+<li>Go to <strong>Admin</strong> (A Navigation Tab) &gt;&gt; <strong>Product Types</strong> (Asset
+Management).</li>
+</ol>
+<div class="figure align-center" id="adf-144">
+<img alt="figure 144" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-144.png" />
+</div>
+<ol class="arabic simple" start="2">
+<li>The Product Types page opens. Here you can view all the Product
+Types added by you along with the predefined types. Now click on
+<strong>Add Product Type</strong> situated in the top right corner of the page.</li>
+</ol>
+<div class="figure align-center" id="adf-145">
+<img alt="figure 145" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-145.png" />
+</div>
+<ol class="arabic" start="3">
+<li><p class="first">You see the Add Product Type dialog box. You have to fill the
+following fields:</p>
+<blockquote>
+<div><ol class="loweralpha">
+<li><p class="first"><strong>Name</strong>: Type an appropriate Type name. For example, Desktop is
+a proper Product Type name.</p>
+</li>
+<li><p class="first"><strong>Type</strong>: It is a subdivision of a Product Type. There are four
+main Types to choose from:</p>
+<blockquote>
+<div><ol class="lowerroman simple">
+<li><strong>Asset</strong>: It is a thing that can provide value
+generally for more than a year. For example, a Laptop
+computer.</li>
+<li><strong>Component</strong>: It refers to a functional part of an
+Asset. For example, a GPU card is a component that goes
+into a Desktop.</li>
+<li><strong>Consumable</strong>: It is a thing whose ability to deliver
+value gets exhausted within a short period, generally
+less than a year. For example, a Printer’s toner
+cartridge.</li>
+<li><strong>Others</strong>: Anything that doesn’t fall in the above
+three Types.</li>
+</ol>
+</div></blockquote>
+</li>
+<li><p class="first"><strong>Category</strong>: Here you have to make a selection between an IT and
+Non-IT Asset. Learn <span class="xref std std-doc">the difference between an IT and Non-IT Asset</span>.</p>
+</li>
+<li><p class="first"><strong>Description</strong>: A short description of the Product Type.</p>
+</li>
+</ol>
+</div></blockquote>
+</li>
+</ol>
+<blockquote>
+<div>After filling the details hit <strong>Save</strong> to create the Product
+Type.</div></blockquote>
+<p><strong>Editing a Product Type</strong></p>
+<div class="figure align-center" id="adf-146">
+<img alt="figure 146" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-146.png" />
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">You can only change the description of the predefined Product
+Types. None of the predefined Product Types can be deleted.</p>
+</div>
+<ul class="simple">
+<li>Go to <strong>Admin</strong> (A Navigation Tab)&gt;&gt; <strong>Product Types</strong> (Asset
+Management).</li>
+<li>In the Product Types page, click on the Edit Icon adjacent to the
+Product Type you want to edit.</li>
+<li>Perform your edits in the Edit Product Type dialog box and hit
+<strong>Update</strong>.</li>
+</ul>
+<p>In the Product Types page, click on the Delete Icon adjacent to the
+Product Type that you want to delete. On confirmation, the Product Type
+gets deleted.</p>
+</div>
+<div class="section" id="rdp-configuration">
+<h2>RDP Configuration<a class="headerlink" href="#rdp-configuration" title="Permalink to this headline">¶</a></h2>
+<p>Remote Desktop is the ability of a computer to remotely connect to
+another computer and control it as if the user were in front of the
+remote machine. Remote access is generally done utilizing an
+application.</p>
+<p>You can remotely connect and control workstations in the CMDB using our
+Agent application. Currently, Remote Desktop works on workstations
+having either Windows or Ubuntu OS and brought in by an Agent.</p>
+<div class="section" id="turning-rdp-on">
+<h3>Turning RDP On<a class="headerlink" href="#turning-rdp-on" title="Permalink to this headline">¶</a></h3>
+<p>Before you can initiate a remote session, you have to turn on the RDP
+from Admin:</p>
+<ul class="simple">
+<li>Go to <strong>Admin</strong> &gt;&gt; <strong>RDP Configuration</strong> (Asset Management).</li>
+</ul>
+<div class="figure align-center" id="adf-147">
+<img alt="figure 147" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-147.png" />
+</div>
+<ul class="simple">
+<li>The RDP Configuration dialog box opens. There toggle <strong>Enable RDP</strong>
+on.</li>
+</ul>
+<div class="figure align-center" id="adf-148">
+<img alt="figure 148" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-148.png" />
+</div>
+<ul class="simple">
+<li>If you are facing a problem in establishing a connection with some
+Agents then you can use the Fix RDP option in RDP Configuration
+dialog box to fix all available connections.</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Asset Management</a><ul>
+<li><a class="reference internal" href="#adding-custom-asset-types">Adding Custom Asset Types</a></li>
+<li><a class="reference internal" href="#adding-an-asset-group">Adding an Asset Group</a></li>
+<li><a class="reference internal" href="#software-type">Software Type</a><ul>
+<li><a class="reference internal" href="#adding-a-software-type">Adding a Software Type:</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#adding-a-manufacturer">Adding a Manufacturer</a></li>
+<li><a class="reference internal" href="#barcode-configuration">Barcode Configuration</a></li>
+<li><a class="reference internal" href="#adding-a-product-type">Adding a Product Type</a></li>
+<li><a class="reference internal" href="#rdp-configuration">RDP Configuration</a><ul>
+<li><a class="reference internal" href="#turning-rdp-on">Turning RDP On</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="patch-package-deployment.html"
+                        title="previous chapter">Patch/Package Deployment</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="../asset-management/index.html"
+                        title="next chapter">Asset Management</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/admin/admin-asset-management.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../asset-management/index.html" title="Asset Management"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="patch-package-deployment.html" title="Patch/Package Deployment"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">ITSM Product Documentation 2.0.0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" >Administration Manual</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2018, Flotomate Technologies Private Limited.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.7.5.
+    </div>
+  </body>
+</html>

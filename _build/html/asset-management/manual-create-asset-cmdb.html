@@ -1,0 +1,175 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Manually Creating an Asset in the CMDB &#8212; ITSM Product Documentation 2.0.0 documentation</title>
+    <link rel="stylesheet" href="../_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Importing Assets in Bulk Using CSV" href="csv-import-assets.html" />
+    <link rel="prev" title="Setting up Asset Management" href="setting-up-asset-management.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="csv-import-assets.html" title="Importing Assets in Bulk Using CSV"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="setting-up-asset-management.html" title="Setting up Asset Management"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">ITSM Product Documentation 2.0.0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" accesskey="U">Asset Management</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="manually-creating-an-asset-in-the-cmdb">
+<h1>Manually Creating an Asset in the CMDB<a class="headerlink" href="#manually-creating-an-asset-in-the-cmdb" title="Permalink to this headline">¶</a></h1>
+<p>Flotomate allows you to add Assets in the CMDB manually. The process
+involves filling the <strong>Add an Asset</strong> dialog box. You can add both IT
+and Non-IT Assets using the <strong>Add an Asset</strong> dialog box. To add an Asset:</p>
+<ol class="arabic simple">
+<li>Click on the <strong>Create</strong> (A Navigation Tab).</li>
+<li><dl class="first docutils">
+<dt>Select <strong>Asset</strong> from the popup menu. The <strong>Add an Asset</strong> dialog</dt>
+<dd>box opens.</dd>
+</dl>
+</li>
+<li>You can also open the dialog box by pressing A in your keyboard.</li>
+</ol>
+<div class="figure align-center" id="amf-86">
+<img alt="figure 86" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-86.png" />
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Please refer to <a class="reference internal" href="#amf-86"><span class="std std-numref">Fig. 285</span></a> for the below description.</p>
+</div>
+<p>Two things are compulsory when creating an Asset: Name of the Asset and
+Asset Type. The Asset that you are adding must have a type which is
+present in the Asset Type Hierarchy. So before you add any Asset, you
+must have a Name and an Asset Type for each of your Assets.</p>
+<ul class="simple">
+<li>Section-A has the search bar that lets you search an Asset Type in
+the Asset Type Hierarchy. The found types are shown below in
+section-B.</li>
+<li>Section-B gives you access to the entire Asset Type Hierarchy when
+there’s no keyword in the search bar above. You can view all the
+sub-types by clicking a Parent Category. There are five Parent
+Categories to select from:<ol class="loweralpha">
+<li><strong>Services</strong>: This category houses Non-IT Asset Types.</li>
+<li><strong>Cloud</strong>: This category houses Assets related to cloud hosting.</li>
+<li><strong>Software</strong>: All Software Assets come in this category.</li>
+<li><strong>Hardware</strong>: This category contains all physical, pingable IT
+Assets.</li>
+<li><strong>Others</strong>: This category includes both IT and Non-IT Assets.</li>
+</ol>
+</li>
+<li>You put the display name in the Name field in section-C. This is a
+required field. The product shows an Asset by this name.</li>
+<li>In section-D, you select the name of the Technician who is managing
+the Asset. Clicking on the field gives you a list of all the
+available Technicians in the system.</li>
+<li>In section-E, you select the Location of the Asset from a drop-down
+list.</li>
+<li>In section-F, you can perform three operations:<ol class="loweralpha">
+<li><strong>Status</strong>: Here you can set a status for the Asset. Learn more
+about predefined and custom statuses.</li>
+<li><strong>Impact</strong>: You can specify the impact as either Low, Self,
+Department or Business.</li>
+<li><strong>Tag</strong>: You can add a custom tag to the Asset.</li>
+</ol>
+</li>
+<li>In section-H, you put the Barcode ID which is a sequence of
+alpha-numeric characters not more than 15 characters.</li>
+<li>Whatever Asset Type that you select, it is shown in section-I.</li>
+<li>In section-J, you put the email address of the person who is using
+the Asset.</li>
+<li>In section-K, you select an Asset Group. This is a way to categorize
+the Asset. Learn more about <a class="reference external" href="#managing-asset-groups">creating Asset
+Groups</a>.</li>
+<li>You select the Department where the Asset belongs from a drop-down
+list in section-J.</li>
+<li>You give a brief description of the Asset in the Description field.</li>
+<li>You can upload files as attachments with the Asset by using the
+Attach File button. For example, you can upload the invoice of the
+Asset.</li>
+</ul>
+<ol class="arabic simple" start="4">
+<li>Type in the Details and hit <strong>Add</strong> to create the Asset.</li>
+</ol>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="setting-up-asset-management.html"
+                        title="previous chapter">Setting up Asset Management</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="csv-import-assets.html"
+                        title="next chapter">Importing Assets in Bulk Using CSV</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/asset-management/manual-create-asset-cmdb.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="csv-import-assets.html" title="Importing Assets in Bulk Using CSV"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="setting-up-asset-management.html" title="Setting up Asset Management"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">ITSM Product Documentation 2.0.0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" >Asset Management</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2018, Flotomate Technologies Private Limited.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.7.5.
+    </div>
+  </body>
+</html>

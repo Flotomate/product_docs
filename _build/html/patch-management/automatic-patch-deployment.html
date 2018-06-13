@@ -1,0 +1,267 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Automatic Patch Deployment &#8212; ITSM Product Documentation 2.0.0 documentation</title>
+    <link rel="stylesheet" href="../_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Computer Management" href="computer-management.html" />
+    <link rel="prev" title="Deployment Requests" href="deployment-request.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="computer-management.html" title="Computer Management"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="deployment-request.html" title="Deployment Requests"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">ITSM Product Documentation 2.0.0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" accesskey="U">Patch Management</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="automatic-patch-deployment">
+<h1>Automatic Patch Deployment<a class="headerlink" href="#automatic-patch-deployment" title="Permalink to this headline">¶</a></h1>
+<p>Deploying Patches is a recurring task that requires time and effort, and
+the effort to download and deploy new Patches increases with the
+increase in the number of managed IT Assets.</p>
+<p>An Automatic Patch Deployment task helps you to download and deploy
+Patches, based on a set criterion, periodically. Setting up an
+auto-deployment task is a one-time activity, and you can turn it off
+anytime later. You can create multiple auto-deployment tasks.</p>
+<p>Few of the benefits of using Automatic Patch Deployment:</p>
+<ul class="simple">
+<li>Periodic download and deployment of newly found Patches without any
+misses.</li>
+<li>Schedule download of Patches at a time when the network is least
+likely to have heavy traffic.</li>
+</ul>
+<div class="section" id="creating-an-automatic-patch-deployment">
+<h2>Creating an Automatic Patch Deployment<a class="headerlink" href="#creating-an-automatic-patch-deployment" title="Permalink to this headline">¶</a></h2>
+<ul>
+<li><p class="first">Go to the Flotomate <strong>Launcher</strong> and select <strong>Patch</strong>.</p>
+</li>
+<li><p class="first">Select <strong>Automatic Patch Deployment</strong> from the Patch menu.</p>
+</li>
+<li><p class="first">The Automatic Patch Deployment page opens. Here you can view all your
+existing auto-deployments tasks if any. Click on <strong>Create Auto Deploy
+Task</strong> situated in the top right corner of the page.</p>
+</li>
+<li><p class="first">A new page opens with the following fields and options:</p>
+<blockquote>
+<div><div class="figure align-center" id="pf-93">
+<img alt="figure 93" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-93.png" />
+</div>
+<ol class="loweralpha">
+<li><p class="first">Section A (<a class="reference internal" href="#pf-93"><span class="std std-numref">Fig. 504</span></a>) is where you provide a name to the task, select
+a <a class="reference internal" href="deployment-policy.html"><span class="doc">Deployment Policy</span></a> and a
+Platform (a single task can deploy Patches of either one platform).</p>
+</li>
+<li><p class="first">Section B is where you select task and Patch type:</p>
+<blockquote>
+<div><p><strong>Task Type:</strong></p>
+<blockquote>
+<div><ol class="lowerroman simple">
+<li>Download only Approved Patch types in the <a class="reference internal" href="config-patch-download-location.html#share-drive"><span class="std std-ref">Shared Drive</span></a>.</li>
+<li>Download only Approved Patch types in the <a class="reference internal" href="config-patch-download-location.html#share-drive"><span class="std std-ref">Shared Drive</span></a>, and create a drafted Deployment Request.</li>
+<li>Download only Approved Patch types in the <a class="reference internal" href="config-patch-download-location.html#share-drive"><span class="std std-ref">Shared Drive</span></a>, and create and publish a Deployment Request.</li>
+</ol>
+</div></blockquote>
+<p><strong>Patch Type:</strong></p>
+<blockquote>
+<div><ol class="lowerroman simple">
+<li>Only consider Approved Patches that are newly added to the tool.</li>
+<li>Only consider Approved Patches that are <a class="reference internal" href="missing-patch.html"><span class="doc">missing</span></a>.</li>
+<li>Only consider Approved Patches that are newly added missing.</li>
+</ol>
+</div></blockquote>
+</div></blockquote>
+</li>
+<li><p class="first">Section C is where you select Computer Groups/Group where the Patches
+are going to be deployed.</p>
+</li>
+</ol>
+</div></blockquote>
+</li>
+<li><p class="first">Complete filling the fields and selecting the options. Click on
+<strong>Create</strong> to create your auto-deployment task.</p>
+</li>
+</ul>
+<p>In order to run the auto-deployment task, you have to create a schedule.</p>
+<p><strong>Edit/Delete a Deployment Task</strong></p>
+<p>You can open a task in edit mode by clicking on the Edit Icon adjacent
+to a task. Similarly, you can delete a task using the Delete Icon.</p>
+</div>
+<div class="section" id="create-an-auto-deployment-schedule">
+<h2>Create an Auto-Deployment Schedule<a class="headerlink" href="#create-an-auto-deployment-schedule" title="Permalink to this headline">¶</a></h2>
+<p>Scheduling tells the tool when to start an <a class="reference internal" href="#"><span class="doc">auto-deployment
+task</span></a>. The outcome of an
+auto-deployment task is a Pre-Approved Deployment Request for Patches
+satisfying the Patch type of the task.</p>
+<ul class="simple">
+<li>Go to the Automatic Patch Deployment Page.</li>
+<li>Click on the <strong>Schedule</strong> button adjacent to the task for which you
+want to set a schedule.</li>
+</ul>
+<div class="figure align-center" id="pf-94">
+<img alt="figure 94" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-94.png" />
+</div>
+<ul class="simple">
+<li>A dialog box opens. Click on the <strong>Schedule</strong> button.</li>
+</ul>
+<div class="figure align-center" id="pf-95">
+<img alt="figure 95" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-95.png" />
+</div>
+<ul>
+<li><p class="first">Set a Schedule frequency:</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Except Interval, every other option requires you to set a Time Zone.</p>
+</div>
+<ol class="loweralpha simple">
+<li><strong>Once</strong>: Deployment happens only once at a specific date and
+time.</li>
+<li><strong>Daily</strong>: The deployment task activates on a start date &amp; time.
+After that, the deployment happens every day at a specified time
+mentioned in the Hour and Minute field.</li>
+<li><strong>Weekly</strong>: Deployment happens on a specific day/days of a week at
+a specified time.</li>
+<li><strong>Monthly</strong>: Discovery happens in selected month/months of a year
+on a particular day at a specified time.</li>
+<li><strong>Interval</strong>: Discovery happens after every specified minutes,
+hours, days or month.</li>
+</ol>
+</li>
+<li><p class="first">An auto-deployment task generates a <a class="reference internal" href="patch-notification.html"><span class="doc">notification</span></a> whenever it creates a
+Deployment Request. Set the recipients; it can either be a Technician
+Group/Groups or an individual (email)/individuals.</p>
+</li>
+<li><p class="first">Click on <strong>Save Schedules</strong> to save your settings.</p>
+</li>
+</ul>
+<p>You can edit the schedule settings of any task.</p>
+</div>
+<div class="section" id="view-status-of-an-auto-patch-deployment-task">
+<h2>View Status of an Auto Patch Deployment Task<a class="headerlink" href="#view-status-of-an-auto-patch-deployment-task" title="Permalink to this headline">¶</a></h2>
+<div class="figure align-center" id="pf-96">
+<img alt="figure 96" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-96.png" />
+</div>
+<p>Using the <strong>Status</strong> button, you can check the download status of all
+associated Patches of a request, and associated Deployment Requests.</p>
+<p>Clicking on a <strong>Status</strong> button opens a new page with the following
+tabs:</p>
+<div class="figure align-center" id="pf-97">
+<img alt="figure 97" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-97.png" />
+</div>
+<ul class="simple">
+<li><strong>Download Status</strong>: Here you can view all involved Patches and their
+download statuses. A Patch transitions through various statuses
+during a download cycle. Some of the statuses reflect a stage, and
+some are conclusions. Altogether there are six statuses:<ol class="loweralpha">
+<li><strong>Pending</strong>: The Patch has been put in a queue by the Product
+Server for download.</li>
+<li><strong>Downloading</strong>: The Product Server is downloading the Patch.</li>
+<li><strong>Downloaded</strong>: The Product Server has finished downloading the
+Patch.</li>
+<li><strong>Transferring</strong>: The Product Server is transferring the Patch to
+the Shared Drive.</li>
+<li><strong>Available</strong>: The Patch is available on the Shared Drive for
+deployment.</li>
+<li><strong>Cancelled</strong>: There was an error in downloading the Patch.</li>
+</ol>
+</li>
+<li><strong>Deployment Requests</strong>: Here you can view all Deployment Requests
+created by the Auto Patch Deployment Task. Each request has a
+<strong>Status</strong> button to view its <a class="reference internal" href="deployment-request.html#deployment-status"><span class="std std-ref">Deployment
+Status</span></a>.</li>
+</ul>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Automatic Patch Deployment</a><ul>
+<li><a class="reference internal" href="#creating-an-automatic-patch-deployment">Creating an Automatic Patch Deployment</a></li>
+<li><a class="reference internal" href="#create-an-auto-deployment-schedule">Create an Auto-Deployment Schedule</a></li>
+<li><a class="reference internal" href="#view-status-of-an-auto-patch-deployment-task">View Status of an Auto Patch Deployment Task</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="deployment-request.html"
+                        title="previous chapter">Deployment Requests</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="computer-management.html"
+                        title="next chapter">Computer Management</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/patch-management/automatic-patch-deployment.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="computer-management.html" title="Computer Management"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="deployment-request.html" title="Deployment Requests"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">ITSM Product Documentation 2.0.0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" >Patch Management</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2018, Flotomate Technologies Private Limited.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.7.5.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,606 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Managing Software Licenses &#8212; ITSM Product Documentation 2.0.0 documentation</title>
+    <link rel="stylesheet" href="../_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Consolidating Software" href="consolidating-software.html" />
+    <link rel="prev" title="Modifying Software Assets" href="modify-software-assets.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="consolidating-software.html" title="Consolidating Software"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="modify-software-assets.html" title="Modifying Software Assets"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">ITSM Product Documentation 2.0.0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" accesskey="U">Asset Management</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="managing-software-licenses">
+<h1>Managing Software Licenses<a class="headerlink" href="#managing-software-licenses" title="Permalink to this headline">¶</a></h1>
+<p>A Software License is an instrument that governs the use and
+redistribution of the Software. It exists in the form of an agreement
+between the Software Vendor and the purchaser of the Software. The
+License agreement is referred to as <strong>End User License Agreement</strong> and
+contains information like expire date of the License, terms and
+condition of usage, and redistribution clause.</p>
+<p>We understand that managing Software Licenses is vital to stay
+compliant. So we have developed a robust License management module that
+aims to streamline all related processes. Using our module, you can
+manage License usage and track compliance violation.</p>
+<div class="section" id="understanding-the-license-types">
+<h2>Understanding the License Types:<a class="headerlink" href="#understanding-the-license-types" title="Permalink to this headline">¶</a></h2>
+<p>We support ten types of Licenses out of the box. They are as follows:</p>
+<ul class="simple">
+<li><strong>Single Machine</strong>: Also referred to as Single User License. This
+type of License grants a single user to use the Software either on a
+single machine or multiple machines. Flotomate automatically sets the
+Purchase Count for this type to one.</li>
+<li><strong>Multiple Machine</strong>: This type of License grants multiple users to
+use the Software package on multiple machines.</li>
+<li><strong>Enterprise (Perpetual)</strong>: Typically granted to an organization,
+this type of License allows unlimited use of the Software in the
+organization for a continuous period. Activations are done using one
+master key rather than multiple keys.</li>
+<li><strong>Unlimited Machines</strong>: In this type of License, an organization buys
+the right to use the Software for a specific period. When the period
+is over, the License is renewed. During the usage period, the License
+can be used by an unlimited number of machines.</li>
+<li><strong>OEM</strong>: This type of License is applicable for Software that comes
+preinstalled with hardware. The License limits the use of the
+Software on a specific Hardware.</li>
+<li><strong>Single User</strong>: This is an exclusive License for a defined user who
+uses the Software. The License carries the name of the user.</li>
+<li><strong>Node Lock</strong>: A Node Lock License is an encrypted key that is locked
+to a specific machine. Flotomate automatically sets the Purchase
+Count for this type to one.</li>
+<li><strong>Volume Users</strong>: A Volume License denotes the product key used when
+installing software licensed in bulk, which allows a single product
+key to be used for multiple users.</li>
+<li><strong>Unlimited Users</strong>: This type of License allows unlimited use of the
+Software by users for a specific period.</li>
+<li><strong>Free License</strong>: This type of License allows the free use of the
+Software.</li>
+</ul>
+</div>
+<div class="section" id="adding-a-license">
+<h2>Adding a License<a class="headerlink" href="#adding-a-license" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li>Go to <strong>Asset</strong> (A Navigation Tab) &gt;&gt; <strong>Software Licenses</strong>.</li>
+</ol>
+<div class="figure align-center" id="amf-123">
+<img alt="figure 123" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-123.png" />
+</div>
+<ol class="arabic simple" start="2">
+<li>The Software Licenses page opens. Here you can view all your
+existing Licenses. Click on <strong>Add Software License</strong> situated in the
+top right corner.</li>
+</ol>
+<div class="figure align-center" id="amf-124">
+<img alt="figure 124" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-124.png" />
+</div>
+<ol class="arabic" start="3">
+<li><p class="first">The Add Software License dialog box appears with the following fields:</p>
+<blockquote>
+<div><ol class="loweralpha simple">
+<li><strong>Name</strong>: A Proper name should identify the association of the
+License with a Software.</li>
+<li><strong>Product Name</strong>: This refers to the Product for which the
+License is meant.</li>
+<li><strong>Version</strong>: Type in the version of the License. This can be a
+user define or something mentioned in the License Agreement.</li>
+<li><strong>License Type</strong>: Learn more about the <a class="reference external" href="#understanding-the-license-types">License
+Types</a>.</li>
+<li><strong>Description</strong>: A short description of the License.</li>
+</ol>
+</div></blockquote>
+</li>
+<li><p class="first">Type in the details and hit <strong>Add</strong>. You are taken to the License
+Details View where you can add additional information about the
+License.</p>
+</li>
+</ol>
+</div>
+<div class="section" id="associating-a-software-license-with-a-software-asset">
+<h2>Associating a Software License with a Software Asset<a class="headerlink" href="#associating-a-software-license-with-a-software-asset" title="Permalink to this headline">¶</a></h2>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Here a Software Asset refers to any Asset having an Asset Type as</p>
+</div>
+<p>Software or any sub-type of Software.</p>
+<p>The functional aspect of having a Software License in Flotomate starts
+with linking a License with a Software Asset which has the same Product
+Type as the License.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">A License can be associated with only one Software Asset.</p>
+</div>
+<p><strong>To make an association:</strong></p>
+<ol class="arabic simple">
+<li>Go to <strong>Asset</strong> (A Navigation Tab) &gt;&gt; <a class="reference external" href="#asset-list-view">Asset List
+View</a>.</li>
+<li>Select a Software Asset with the same Product Type as the License
+and head to its Details View.</li>
+</ol>
+<div class="figure align-center" id="amf-125">
+<img alt="figure 125" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-125.png" />
+</div>
+<ol class="arabic" start="3">
+<li><p class="first">The <strong>License</strong> tab only appears when the Software Type is set to
+<strong>Managed</strong>. Change the Software Type to <strong>Manage</strong> from the <strong>More
+Details</strong> section if you do not see the <strong>License</strong> tab under
+<strong>Details</strong>.</p>
+</li>
+<li><p class="first">The <strong>License</strong> tab shows the associated License if any. In the
+<strong>License</strong> tab, click on the <strong>Associate License</strong> button.</p>
+</li>
+<li><p class="first">The <strong>Associate License with software</strong> dialog box opens. Here you
+can view all un-associated Licenses. You can search for available
+Licenses using the search bar using search options. Click the search
+bar to access the search options.</p>
+<blockquote>
+<div><div class="figure align-center" id="amf-126">
+<img alt="figure 126" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-126.png" />
+</div>
+</div></blockquote>
+</li>
+<li><p class="first">Select a License and click <strong>Associate Selected License</strong>. The
+License is added to the <strong>License</strong> tab of the Asset.</p>
+</li>
+</ol>
+</div>
+<div class="section" id="license-details-view">
+<h2>License Details View<a class="headerlink" href="#license-details-view" title="Permalink to this headline">¶</a></h2>
+<p>A Software License is a legal instrument that holds vital information
+that forms the basis for compliance management. Flotomate allows users
+to manage such information from the Details View of a License.</p>
+<p>Every License in Flotomate has a Details View that shows all the
+information about the License. You are taken to the Details View after
+adding a License in the system, but that does not mean you cannot access
+the Details View anytime later.</p>
+<p>To Access the Details View:</p>
+<ol class="arabic simple">
+<li>Go to <strong>Asset</strong> (A Navigation Tab) &gt;&gt; <strong>Software Licenses</strong>.</li>
+</ol>
+<div class="figure align-center" id="amf-127">
+<img alt="figure 127" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-127.png" />
+</div>
+<ol class="arabic simple" start="2">
+<li>Here you can view all existing Licenses. You can search Licenses
+using the search bar with search options. Click the search bar to
+access the search options.</li>
+</ol>
+<div class="figure align-center" id="amf-128">
+<img alt="figure 128" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-128.png" />
+</div>
+<ol class="arabic simple" start="3">
+<li>In the Software Licenses page, click on the <strong>Edit Icon</strong> adjacent
+to a License to open its Details View.</li>
+</ol>
+<div class="figure align-center" id="amf-129">
+<img alt="figure 129" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-129.png" />
+</div>
+<p>Please refer to the sections in <a class="reference internal" href="#amf-129"><span class="std std-numref">Fig. 327</span></a> while reading the below
+description:</p>
+<ul class="simple">
+<li>Section-A houses the <a class="reference external" href="#_Updating_License_Name">Updating License Name and
+Description</a> feature.</li>
+<li>Section-B shows you the License Type and to which Product the License
+is related. Learn more about <a class="reference external" href="#understanding-the-license-types">License
+Types</a>. You cannot modify these
+fields.</li>
+<li>Section-C shows you the description of the License.</li>
+<li>Section-D appears in Licences with the type either Single Machine,
+Multiple Machines, or Node Lock. It shows the following data points:<ol class="loweralpha">
+<li><strong>Allocations</strong>: This shows the number of machines allocated to
+the License. Flotomate allows more Allocation than the Purchase
+Count.</li>
+<li><strong>Purchase Count</strong>: This refers to the total allowable
+installation of the associated Software. Some License Types have a
+predefined count field that you cannot change, and there are types
+where the count field is not present.</li>
+<li><strong>Installation Count</strong>: The number shows the actual installation
+of the Software associated with the License across all Assets
+irrespective of whether they are allocated or not.</li>
+</ol>
+</li>
+<li>Section-E has the <a class="reference external" href="#updating-license-details">Details</a> and
+Allocation tabs. The <strong>Allocation</strong> tab shows all the machines that
+can install the Licensed Software. Allocations are done manually
+using the options available under the tab. Certain License Types
+allow you to add users instead of Assets. Learn more about
+<a class="reference external" href="#allocating-machinesusers-in-a-software-license">Allocation</a>.</li>
+<li>Section-F houses the <strong>Action Menu</strong>. Using the menu, you can access
+the <a class="reference external" href="#managing-license-compliance">Compliance Settings</a> of the
+License.</li>
+<li>Section-G shows whether the License is associated with a Software or
+not.</li>
+</ul>
+</div>
+<div class="section" id="updating-license-name-and-description">
+<h2>Updating License Name and Description.<a class="headerlink" href="#updating-license-name-and-description" title="Permalink to this headline">¶</a></h2>
+<p>The License ID precedes the Name of the License in section-A of <a class="reference internal" href="#amf-129"><span class="std std-numref">Fig. 327</span></a>.
+The Description of the License can be viewed in More Details
+(section-C of <a class="reference internal" href="#amf-129"><span class="std std-numref">Fig. 327</span></a>). You can edit both the Name and Description of
+the License, but not the ID.</p>
+<p><strong>To Edit Name and Description:</strong></p>
+<ul class="simple">
+<li>Click on the Edit Icon next to the Name.</li>
+<li>The Edit Software License Page opens. Type in the new Name and
+Description and hit <strong>Update</strong>.</li>
+</ul>
+<div class="figure align-center" id="amf-130">
+<img alt="figure 130" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-130.png" />
+</div>
+</div>
+<div class="section" id="updating-license-details">
+<h2>Updating License Details<a class="headerlink" href="#updating-license-details" title="Permalink to this headline">¶</a></h2>
+<p>The bulk of the information about the License is stored in the Details
+tab (section-E of <a class="reference internal" href="#amf-129"><span class="std std-numref">Fig. 327</span></a>) across three heads: License Info,
+Ownership, and Attachments.</p>
+<p>Clicking on the Details tab makes the three heads visible in the display
+pane below. Clicking on a head shows the available fields. Each head has
+an Edit Icon that you can use to edit the fields.</p>
+<div class="figure align-center" id="amf-131">
+<img alt="figure 131" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-131.png" />
+</div>
+<ul class="simple">
+<li><strong>License Info</strong>: You have the following fields in this section:<ol class="loweralpha">
+<li><strong>Purchase Date</strong>: This is the purchase date of the License as
+mentioned on the invoice.</li>
+<li><strong>Expiry Date</strong>: The expiry date is always as per License
+Agreement.</li>
+<li><strong>Cost</strong>: This is the cost of acquiring the License as mentioned
+on the invoice.</li>
+<li><strong>License Key</strong>: The actual key that is used to activate the
+Software.</li>
+<li><strong>Version</strong>: The version details of the License.</li>
+<li><strong>Purchase Count</strong>: This refers to the total allowable
+installation of the Software that is associated with the License.
+Some License Types have a predefined count field that you cannot
+change, and there are types where the count field is not present.</li>
+</ol>
+</li>
+<li><strong>Ownership</strong>: All License Types support the editing of the following
+fields: Owner Name and Owner Email. The owner is the end user of the
+License.</li>
+<li><strong>Attachments</strong>: You can upload the Invoice and License Agreement in
+this section.</li>
+</ul>
+</div>
+<div class="section" id="allocating-machines-users-in-a-software-license">
+<h2>Allocating Machines/Users in a Software License<a class="headerlink" href="#allocating-machines-users-in-a-software-license" title="Permalink to this headline">¶</a></h2>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Here a machine is referred to either a Workstation, Laptop or Server Asset.</p>
+</div>
+<p>Allocation gives a machine/user, in the CMDB/product, the right to
+install a Licensed Software. It lets Flotomate keep a count of all valid
+installations of a Licensed Software. The count is vital for activating
+compliance specific notifications relating to over and under usage of a
+Licensed Software.</p>
+<p>The Allocation is done manually on the Details View of a Software
+License. In case the License is either Single User, Volume Users or
+Unlimited Users, you have to add users instead of Assets.</p>
+<p><strong>To perform Asset Allocation:</strong></p>
+<ol class="arabic simple">
+<li>Go to <strong>Asset</strong> (A Navigation Tab) &gt;&gt; <strong>Software Licenses</strong>.</li>
+<li>Click on the <strong>Edit Icon</strong> adjacent to the License that needs
+Allocation, or just click the License name.</li>
+<li>The Details View of the License opens. Scroll down to the
+<strong>Allocation Tab</strong>. Here you can view the list of all the existing
+Allocations.</li>
+</ol>
+<div class="figure align-center" id="amf-132">
+<img alt="figure 132" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-132.png" />
+</div>
+<ol class="arabic simple" start="4">
+<li>Click on the <strong>Allocate</strong> button in the <strong>Allocation</strong> tab. The
+Allocate Assets dialog box opens.</li>
+</ol>
+<div class="figure align-center" id="amf-133">
+<img alt="figure 133" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-133.png" />
+</div>
+<ol class="arabic" start="5">
+<li><p class="first">The Allocate Assets dialog box shows you all the supported Assets
+(Workstations, Laptops, and Servers) in the CMDB. You can search
+supported Assets and allocate them.</p>
+<p>The search bar allows you to use various combinations of predefined
+search options and keywords. If you want to see the list of all
+available search options, then click on the search bar. You can
+select an option or multiple options from the drop-down list.</p>
+<blockquote>
+<div><div class="figure align-center" id="amf-134">
+<img alt="figure 134" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-134.png" />
+</div>
+</div></blockquote>
+<p>You can search supported Assets with keywords. When you provide a
+keyword, Flotomate searches all the supported Assets with the keyword in
+Name, Description, and Tags.</p>
+<p>You can make a filter using a chain of predefined search options and
+keywords.</p>
+<p>Perform search and find the Assets that you want to allocate.</p>
+</li>
+<li><p class="first">Select the Assets and click on <strong>Allocate</strong> situated in the top
+right corner. The selected Assets are allocated to the License.</p>
+</li>
+</ol>
+<p><strong>To Perform User Allocation:</strong></p>
+<ol class="arabic">
+<li><p class="first">Just like allocating Assets, certain License Types require you to
+allocate users instead of Assets. In the Details View of such a
+License type, click on the <strong>User Allocation</strong> tab.</p>
+<blockquote>
+<div><div class="figure align-center" id="amf-135">
+<img alt="figure 135" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-135.png" />
+</div>
+</div></blockquote>
+<p>The tab shows all current users added to the License if any.</p>
+</li>
+<li><p class="first">To add a new user/users, click on the <strong>Allocate License User</strong>
+button. This opens the <strong>Allocate License User</strong> dialog box.</p>
+<blockquote>
+<div><div class="figure align-center" id="amf-136">
+<img alt="figure 136" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-136.png" />
+</div>
+</div></blockquote>
+</li>
+<li><p class="first">In the dialog box, you can view the names of all the Requesters in
+the system. You can select multiple users (Requesters) by clicking
+on the checkbox against their names.</p>
+<p>The search bar allows you to search users based on the following
+options:</p>
+<blockquote>
+<div><ol class="loweralpha simple">
+<li>Name</li>
+<li>Email</li>
+<li>Location</li>
+<li>Department</li>
+<li>VIP Requester status</li>
+</ol>
+</div></blockquote>
+<p>You can set multiple conditions using the options; you can access
+them by clicking on the search bar.</p>
+<p>Select the users whom you want to allocate the License and click
+on the <strong>Allocate</strong> button. Now you have successfully allocated
+the License.</p>
+</li>
+</ol>
+</div>
+<div class="section" id="managing-license-compliance">
+<h2>Managing License Compliance<a class="headerlink" href="#managing-license-compliance" title="Permalink to this headline">¶</a></h2>
+<p>A company is exposed to different kinds of risks when it is not aware of
+the Software that is being run on its machines. One such risk is
+overutilization of a Licensed Software, and such risks come under the
+umbrella term compliance management. It is a set of pre-agreed upon
+conditions related to the usage of a Software.</p>
+<p>Flotomate tracks all the Software that is installed on various Hardware
+Assets, and the process helps in compliance management. Currently,
+Flotomate supports the generation of notifications upon nine types of
+violations.</p>
+<p>There is a separate thread in Flotomate that checks all Licensed
+Software and their installation instances against specific parameters;
+those parameters are as follows:</p>
+<ul class="simple">
+<li>Utilization</li>
+<li>Purchase Count</li>
+<li>Installation Count</li>
+<li>Expiry Date of the License</li>
+<li>Hostname (Node-Locked)</li>
+<li>Software Type</li>
+<li>Allocated Machines</li>
+</ul>
+<p>Out of all the above parameters, Utilization Count, Purchase Count,
+Expiry Date and Allocated Machines are License specific parameters.</p>
+<div class="section" id="utilization">
+<h3>Utilization<a class="headerlink" href="#utilization" title="Permalink to this headline">¶</a></h3>
+<p>Utilization refers to the total utilization of the Licensed Software
+across all managed IT Assets. The system denotes it as a percentage
+where the numerator is the Installation Count and denominator, Purchase
+Count.</p>
+</div>
+<div class="section" id="installation-count">
+<h3>Installation Count<a class="headerlink" href="#installation-count" title="Permalink to this headline">¶</a></h3>
+<p>Installation Count is the total number of installation of a Licensed
+Software. It does not discriminate between licensed installation and
+unlicensed installation.</p>
+</div>
+<div class="section" id="purchase-count">
+<h3>Purchase Count<a class="headerlink" href="#purchase-count" title="Permalink to this headline">¶</a></h3>
+<p>Purchase Count refers to the total allowable installation of a Licensed
+Software.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="36%" />
+<col width="64%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">License Type</th>
+<th class="head">Purchase Count</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Single Machine</td>
+<td>Default value set to one</td>
+</tr>
+<tr class="row-odd"><td>Multiple Machines</td>
+<td>Can be set to as many as possible</td>
+</tr>
+<tr class="row-even"><td>Enterprise (Perpetual)</td>
+<td>Not applicable</td>
+</tr>
+<tr class="row-odd"><td>Unlimited Machines</td>
+<td>Not applicable</td>
+</tr>
+<tr class="row-even"><td>OEM</td>
+<td>Not applicable</td>
+</tr>
+<tr class="row-odd"><td>Single User</td>
+<td>The Count is equal to the number of users</td>
+</tr>
+<tr class="row-even"><td>Node Locked</td>
+<td>Default value set to one</td>
+</tr>
+<tr class="row-odd"><td>Volume Users</td>
+<td>The Count is equal to the number of users</td>
+</tr>
+<tr class="row-even"><td>Unlimited Users</td>
+<td>Not applicable</td>
+</tr>
+<tr class="row-odd"><td>Free License</td>
+<td>Not applicable</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="compliance-settings">
+<h3>Compliance Settings<a class="headerlink" href="#compliance-settings" title="Permalink to this headline">¶</a></h3>
+<p>Flotomate allows you to set under and overutilization notifications for
+Multiple Machines and Volume Users License Types. You have to define the
+underutilization and overutilization threshold for above mentioned
+License Types to enable utilization monitoring.</p>
+<p>For every other License Types, except Free License, you have to add
+Requester Groups and Emails to enable compliance violation
+notifications.</p>
+<ol class="arabic simple">
+<li>Go to <strong>Asset</strong> (A Navigation Tab) &gt;&gt; <strong>Software Licenses</strong>.</li>
+<li>Select a License and head to its Details View.</li>
+<li>On the Details View, click the Action Menu (section-E of <a class="reference internal" href="#amf-129"><span class="std std-numref">Fig. 327</span></a>)
+and select <strong>Compliance Settings</strong>.</li>
+</ol>
+<div class="figure align-center" id="amf-137">
+<img alt="figure 137" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-137.png" />
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Please refer to <code class="xref std std-numref docutils literal notranslate"><span class="pre">137</span></code>.</p>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Section C in above figure is only available on Multiple Machines and Volume Users License Type.</p>
+</div>
+<ul class="simple">
+<li>Section-A allows you to add Requestor Groups that are going to
+receive notifications (group members are the <a class="reference external" href="#_Different_Types_of">admin for the
+notification</a>).</li>
+<li>Section-B is where you add emails of individuals who are going to
+receive notifications along with the groups (recipients are the
+<a class="reference external" href="#_Different_Types_of">admin for the notification</a>).</li>
+<li>In section-C is where you decide the threshold for overutilization
+and underutilization in percentage. For example, if Installation
+Count of a Licensed Software is equal to its Purchase Count then
+utilization is 100 percent.<ol class="loweralpha">
+<li>If over-utilization limit is set to 90%, then 91% utilization
+would trigger a notification to the admin.</li>
+<li>If under-utilization limit is set to 80% and utilization is 98%,
+then a fall of utilization below 80% would trigger a notification
+to the admin.</li>
+</ol>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Managing Software Licenses</a><ul>
+<li><a class="reference internal" href="#understanding-the-license-types">Understanding the License Types:</a></li>
+<li><a class="reference internal" href="#adding-a-license">Adding a License</a></li>
+<li><a class="reference internal" href="#associating-a-software-license-with-a-software-asset">Associating a Software License with a Software Asset</a></li>
+<li><a class="reference internal" href="#license-details-view">License Details View</a></li>
+<li><a class="reference internal" href="#updating-license-name-and-description">Updating License Name and Description.</a></li>
+<li><a class="reference internal" href="#updating-license-details">Updating License Details</a></li>
+<li><a class="reference internal" href="#allocating-machines-users-in-a-software-license">Allocating Machines/Users in a Software License</a></li>
+<li><a class="reference internal" href="#managing-license-compliance">Managing License Compliance</a><ul>
+<li><a class="reference internal" href="#utilization">Utilization</a></li>
+<li><a class="reference internal" href="#installation-count">Installation Count</a></li>
+<li><a class="reference internal" href="#purchase-count">Purchase Count</a></li>
+<li><a class="reference internal" href="#compliance-settings">Compliance Settings</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="modify-software-assets.html"
+                        title="previous chapter">Modifying Software Assets</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="consolidating-software.html"
+                        title="next chapter">Consolidating Software</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/asset-management/manage-software-license.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="consolidating-software.html" title="Consolidating Software"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="modify-software-assets.html" title="Modifying Software Assets"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">ITSM Product Documentation 2.0.0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" >Asset Management</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2018, Flotomate Technologies Private Limited.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.7.5.
+    </div>
+  </body>
+</html>

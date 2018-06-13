@@ -1,0 +1,181 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Manage Computer Groups &#8212; ITSM Product Documentation 2.0.0 documentation</title>
+    <link rel="stylesheet" href="../_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Working with Patches" href="manage-patches.html" />
+    <link rel="prev" title="Configuring Endpoint Scope" href="config-endpoint-scope.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="manage-patches.html" title="Working with Patches"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="config-endpoint-scope.html" title="Configuring Endpoint Scope"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">ITSM Product Documentation 2.0.0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" accesskey="U">Patch Management</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="manage-computer-groups">
+<h1>Manage Computer Groups<a class="headerlink" href="#manage-computer-groups" title="Permalink to this headline">¶</a></h1>
+<p>You can classify Computers into groups. Some of the use cases where
+having Computer Groups can be convenient are as follows:</p>
+<ul class="simple">
+<li>You want to deploy Patches in Computers belonging to a particular
+department. You can create a Computer Group having all the Computers
+of that department and quickly create a Deployment Request with that
+group.</li>
+<li>If you want to deny a specific set of Computers certain Patches, then
+you can create a Computers Group and decline them the Patches. The
+Decline Patch Configuration feature allows you to perform such an
+action.</li>
+<li>You can test the download ability of a set of Patches by deploying
+them in a Computer Group. The Automatic Patch Test feature allows you
+to perform such tests.</li>
+</ul>
+<p><strong>Create a Computer Group</strong></p>
+<ul class="simple">
+<li>Go to the <span class="xref std std-doc">Patch List View</span>.</li>
+<li>Click on <strong>All Computers Group</strong> from the Patch menu.</li>
+</ul>
+<div class="figure align-center" id="p-11">
+<img alt="figure 11" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-11.png" />
+</div>
+<ul class="simple">
+<li>The Computer Group page opens. Here you can view all existing groups
+if any. Click on <strong>Create Computer Group</strong> situated in the top right
+corner of the page.</li>
+<li>A new page opens. Here you can view all the Computers added to the
+<a class="reference internal" href="config-endpoint-scope.html#add-computer-scope"><span class="std std-ref">Endpoint scope</span></a>. You get options to
+select Computers manually and automatically from a Network (based on
+include and exclude conditions).</li>
+</ul>
+<div class="figure align-center" id="p-12">
+<img alt="figure 12" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-12.png" />
+</div>
+<ul class="simple">
+<li>Provide a name to the Computer Group.</li>
+<li>In whatever way you select Computers, they all become part of the
+group. The manual and automatic methods of selection are
+similar to the ones used for adding Computers to an <a class="reference internal" href="config-endpoint-scope.html#add-computer-scope"><span class="std std-ref">Endpoint scope</span></a>.</li>
+<li>Add the Computers and click on <strong>Create</strong> to save the group.</li>
+<li>You can review the Computer list of a group from the Computer Group
+page.</li>
+</ul>
+<div class="figure align-center" id="p-13-1">
+<img alt="figure 13.1" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-13.1.png" />
+</div>
+<div class="figure align-center" id="p-13-2">
+<img alt="figure 13.2" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-13.2.png" />
+</div>
+<ul class="simple">
+<li>You can search a Computer Group list using a search bar (Figure 13)
+that supports Advance Search and is similar to the one used for
+searching Computers in an <a class="reference internal" href="config-endpoint-scope.html#add-computer-scope"><span class="std std-ref">Endpoint scope</span></a>. You can open the details of any
+Computer by click on it.</li>
+</ul>
+<p><strong>Edit/Delete Groups</strong></p>
+<p>You can edit and delete any Computer Group.</p>
+<div class="figure align-center" id="p-14">
+<img alt="figure 14" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-14.png" />
+</div>
+<div class="section" id="id1">
+<h2>View Archived Groups<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
+<p>When a group is archived, we store the group details in a separate
+section for future reference. It is because even when a group gets
+deleted, it stays active in associated Deployment Requests.</p>
+<p>You can view all archived groups in the Computer Group page by clicking
+<strong>Archive Computer Group</strong> button situated in the top right corner. You
+can also preview the Computer list of an archived group.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Manage Computer Groups</a><ul>
+<li><a class="reference internal" href="#id1">View Archived Groups</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="config-endpoint-scope.html"
+                        title="previous chapter">Configuring Endpoint Scope</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="manage-patches.html"
+                        title="next chapter">Working with Patches</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/patch-management/manage-computer-groups.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="manage-patches.html" title="Working with Patches"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="config-endpoint-scope.html" title="Configuring Endpoint Scope"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">ITSM Product Documentation 2.0.0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" >Patch Management</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2018, Flotomate Technologies Private Limited.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.7.5.
+    </div>
+  </body>
+</html>

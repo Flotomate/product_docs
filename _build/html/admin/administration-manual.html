@@ -1,0 +1,1534 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Customization &#8212; ITSM Product Documentation 2.0.0 documentation</title>
+    <link rel="stylesheet" href="../_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="nav-item nav-item-0"><a href="../index.html">ITSM Product Documentation 2.0.0 documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="customization">
+<h1>Customization<a class="headerlink" href="#customization" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="status">
+<h2>Status<a class="headerlink" href="#status" title="Permalink to this headline">¶</a></h2>
+<p>Status show the stage of a Request, Problem, Change and an Asset in
+their respective process flow. Statuses are essential in managing the
+lifecycle of tickets and CIs in the Flotomate. A lot of automatic
+processes can be created based on the Status of a ticket.</p>
+<p>We have predefined Statuses for each of the ticket types and Assets.
+Along with pre-defined Statuses, you can add custom Statuses.</p>
+<p><em>Note: Setting Custom Status requires administrative rights.</em></p>
+<p><a class="reference internal" href="admin\media/image87.png"><img alt="image87" src="admin\media/image87.png" style="width: 2.79861in; height: 2.12454in;" /></a> <a class="reference internal" href="admin\media/image88.png"><img alt="image88" src="admin\media/image88.png" style="width: 2.91939in; height: 2.12598in;" /></a></p>
+<p>Figure 85</p>
+<div class="section" id="predefined-status">
+<h3>Predefined Status<a class="headerlink" href="#predefined-status" title="Permalink to this headline">¶</a></h3>
+<p>Flotomate has predefined Statuses which are immutable. They coexist with
+custom Statuses. They are as follows:</p>
+<ul>
+<li><p class="first"><strong>Request</strong>:</p>
+<p>Here Statuses show the lifecycle of a Request.</p>
+<ol class="loweralpha simple">
+<li>Open</li>
+</ol>
+<ol class="loweralpha simple" start="14">
+<li>Pending On Requestor</li>
+<li>Pending in Approval</li>
+<li>Pending On Technician</li>
+<li>Resolved</li>
+<li>Closed</li>
+</ol>
+</li>
+<li><p class="first"><strong>Problem</strong>:</p>
+<p>Here Statuses show the lifecycle of a Request.</p>
+<ol class="loweralpha simple">
+<li>Open</li>
+<li>Pending On Requestor</li>
+<li>Pending in Approval</li>
+<li>Pending On Technician</li>
+<li>Resolved</li>
+<li>Closed</li>
+</ol>
+</li>
+<li><p class="first"><strong>Change</strong>:</p>
+<p>Here each status is part of a stage in a Change process.</p>
+<ol class="loweralpha simple">
+<li>Submitted:<ol class="lowerroman" start="14">
+<li>Requested</li>
+<li>Rejected</li>
+<li>Accepted</li>
+</ol>
+</li>
+</ol>
+<ol class="loweralpha simple" start="19">
+<li>Planning:<ol class="lowerroman" start="17">
+<li>In Progress</li>
+<li>Canceled</li>
+<li>Completed</li>
+</ol>
+</li>
+<li>Approval:<ol class="lowerroman" start="20">
+<li>Pending</li>
+<li>Rejected</li>
+<li>Approved</li>
+</ol>
+</li>
+<li>Implementation:<ol class="lowerroman" start="23">
+<li>In Progress</li>
+<li>Rejected</li>
+<li>Completed</li>
+</ol>
+</li>
+<li>In Review:<ol class="lowerroman" start="26">
+<li>In Progress</li>
+<li>Failed</li>
+<li>Completed</li>
+</ol>
+</li>
+</ol>
+</li>
+<li><p class="first"><strong>Asset</strong>:</p>
+<p>Here statuses reflect the state of an Asset.</p>
+<ol class="loweralpha simple">
+<li>In Use</li>
+<li>Missing</li>
+<li>Retired</li>
+</ol>
+</li>
+</ul>
+</div>
+<div class="section" id="add-custom-status">
+<h3>Add Custom Status<a class="headerlink" href="#add-custom-status" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Go to <strong>Admin</strong> &gt;&gt; <strong>(Request, Problem, Change or Asset) Custom
+Status</strong>.</li>
+</ul>
+<blockquote>
+<div><a class="reference internal" href="admin\media/image89.png"><img alt="image89" src="admin\media/image89.png" style="width: 6.0592in; height: 0.97917in;" /></a></div></blockquote>
+<p>Figure 86</p>
+<ul>
+<li><p class="first">Select a Status Type.</p>
+<p><a class="reference internal" href="admin\media/image90.png"><img alt="image90" src="admin\media/image90.png" style="width: 3.19792in; height: 1.82381in;" /></a></p>
+</li>
+</ul>
+<p>Figure 87</p>
+<ul>
+<li><p class="first">Use the Plus Icon to add a custom Status. You can add multiple
+Statuses.</p>
+<p><a class="reference internal" href="admin\media/image91.png"><img alt="image91" src="admin\media/image91.png" style="width: 3.7401in; height: 0.62509in;" /></a></p>
+</li>
+</ul>
+<p>Figure 88</p>
+</div>
+<div class="section" id="rearrange-custom-status">
+<h3>Rearrange Custom Status<a class="headerlink" href="#rearrange-custom-status" title="Permalink to this headline">¶</a></h3>
+<ul>
+<li><p class="first">Go to the <strong>Custom Status</strong> page.</p>
+</li>
+<li><p class="first">You can change the order of custom Statuses in all type by drag and
+drop.</p>
+<p><a class="reference internal" href="admin\media/image92.png"><img alt="image92" src="admin\media/image92.png" style="width: 4.27847in; height: 1.60312in;" /></a></p>
+</li>
+</ul>
+<p>Figure 89</p>
+</div>
+</div>
+<div class="section" id="business-services-in-problem-management">
+<h2>Business Services in Problem Management<a class="headerlink" href="#business-services-in-problem-management" title="Permalink to this headline">¶</a></h2>
+<p>Flotomate allows you to add a list of business deliverables (services)
+of your organization. You can describe each and every business service
+that you add.</p>
+<p>In the product, a Technician can highlight the impact of a Problem by
+associating it with a Business Service.</p>
+<p><em>Note: Managing Business Services requires administrative rights.</em></p>
+<p><strong>View Business Services</strong></p>
+<ul>
+<li><p class="first">Go to <strong>Admin</strong> &gt;&gt; <strong>Business Services</strong> (Problem Management).</p>
+</li>
+<li><p class="first">In the <strong>Business Services</strong> page, you can view all your existing
+business service descriptions, if any.</p>
+<p><a class="reference internal" href="admin\media/image93.png"><img alt="image93" src="admin\media/image93.png" style="width: 2.08333in; height: 2.57316in;" /></a></p>
+</li>
+</ul>
+<p>Figure 90</p>
+<div class="section" id="add-business-services">
+<h3>Add Business Services<a class="headerlink" href="#add-business-services" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Go to the <strong>Business Services</strong> page.</li>
+<li>Click <strong>Add Business Service</strong> button situated in the top right
+corner of the page.</li>
+</ul>
+<blockquote>
+<div><a class="reference internal" href="admin\media/image94.jpg"><img alt="image94" src="admin\media/image94.jpg" style="width: 4.96597in; height: 3.60922in;" /></a></div></blockquote>
+<p>Figure 91</p>
+<ul>
+<li><p class="first">Fill the Name and Description fields and click on <strong>Add</strong>.</p>
+</li>
+<li><p class="first">In the <strong>Business Services</strong> page, you can edit any business
+description using the Edit Icon or delete using the Delete icon.</p>
+<p><a class="reference internal" href="admin\media/image95.png"><img alt="image95" src="admin\media/image95.png" style="width: 5.76806in; height: 0.57003in;" /></a></p>
+</li>
+</ul>
+<p>Figure 92</p>
+</div>
+</div>
+<div class="section" id="templates">
+<h2>Templates<a class="headerlink" href="#templates" title="Permalink to this headline">¶</a></h2>
+<p>Templates in Flotomate allows you to quickly fill the create form of
+Request, Problem, and Change. You can create templates for each of the
+ticket types, and your users can use them while creating a Request,
+Problem or Change.</p>
+<p><em>Note: Managing templates requires administrative rights.</em></p>
+<div class="section" id="add-a-template">
+<h3>Add a Template<a class="headerlink" href="#add-a-template" title="Permalink to this headline">¶</a></h3>
+<ul>
+<li><p class="first">Go to <strong>Admin</strong> &gt;&gt; (Request, Problem or Change) Templates.</p>
+<p><a class="reference internal" href="admin\media/image96.png"><img alt="image96" src="admin\media/image96.png" style="width: 5.99722in; height: 1.09499in;" /></a></p>
+</li>
+</ul>
+<p>Figure 93</p>
+<ul>
+<li><p class="first">In the new page, you can view your existing templates. To add a new
+one, click on <strong>Create a (Request, Problem, or Change) Template</strong> in
+the top right corner.</p>
+</li>
+<li><p class="first">A dialog box opens where you can predefine the following things:</p>
+<p><a class="reference internal" href="admin\media/image97.png"><img alt="image97" src="admin\media/image97.png" style="width: 4.52847in; height: 3.69111in;" /></a></p>
+</li>
+</ul>
+<p>Figure 94</p>
+<ol class="loweralpha simple">
+<li><strong>Request</strong>:<ol class="lowerroman" start="29">
+<li>The subject of a Request.</li>
+<li>Status, Urgency, and Impact of a Request.</li>
+<li>Tags of a Request.</li>
+<li>Category of a Request.</li>
+<li>Description of a Request.</li>
+</ol>
+</li>
+</ol>
+<ol class="loweralpha simple" start="23">
+<li><strong>Problem</strong>:<ol class="lowerroman" start="34">
+<li>Subject to a Problem</li>
+<li>Whether a Problem is known or not.</li>
+<li>Status, Urgency, Nature of Problem and Impact of a Problem.</li>
+<li>Tags of a Problem.</li>
+<li>Category of a Problem.</li>
+<li>Description of a Problem.</li>
+</ol>
+</li>
+<li><strong>Change</strong>:<ol class="lowerroman" start="40">
+<li>The subject of a Change.</li>
+<li>Status, Urgency, Risk, Change Type and Impact of a Change.</li>
+<li>Tags of a Change.</li>
+<li>Category of a Change.</li>
+<li>Description of a Change.</li>
+</ol>
+</li>
+</ol>
+</div>
+<div class="section" id="edit-request-templates">
+<h3>Edit Request Templates<a class="headerlink" href="#edit-request-templates" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Go to <strong>(Request, Problem or Change) Templates</strong> page</li>
+<li>Click the Edit-Icon adjacent to a template to open a dialog box.</li>
+<li>Make your changes and hit <strong>Update</strong>. You are taken back to the
+<strong>Templates</strong> page</li>
+<li>Delete any template using the Delete Icon next to the Edit Icon.</li>
+</ul>
+</div>
+</div>
+<div class="section" id="custom-fields">
+<h2>Custom Fields<a class="headerlink" href="#custom-fields" title="Permalink to this headline">¶</a></h2>
+<p>Custom fields are additional fields added by a user. They can appear
+while creating a ticket, and in the details view of a ticket and CI.
+Custom fields can be added to Requests, Problems, Changes, and Assets.</p>
+<p><em>Note: Adding Custom Fields requires administrative rights.</em></p>
+<div class="section" id="add-a-custom-field">
+<h3>Add a Custom Field<a class="headerlink" href="#add-a-custom-field" title="Permalink to this headline">¶</a></h3>
+<ul>
+<li><p class="first">Go to <strong>Admin</strong> &gt;&gt; <strong>(Request, Problem, Change or Asset) Custom
+Fields</strong>.</p>
+<p><a class="reference internal" href="admin\media/image98.png"><img alt="image98" src="admin\media/image98.png" style="width: 6.26806in; height: 1.05069in;" /></a></p>
+</li>
+</ul>
+<p>Figure 95</p>
+<ul class="simple">
+<li>In the <strong>Custom Fields</strong> page, you can view your existing custom
+fields for each module, if any.</li>
+</ul>
+<p><a class="reference internal" href="admin\media/image99.png"><img alt="image99" src="admin\media/image99.png" style="width: 5.31677in; height: 2.03181in;" /></a></p>
+<p>Figure 96</p>
+<ul>
+<li><p class="first">Regardless of the module, you can only have two types of fields: Text
+Field and Selection Field. A Text field has a label and an input area
+for a value, and a Selection Field has a lablel and an input area
+with a drop-down list of values.</p>
+<p>Anywhere, you can have both Text-Field and Selection-Field. You start
+adding fields using the <strong>Add</strong> button.</p>
+</li>
+</ul>
+<table border="1" class="docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Text Field</th>
+<th class="head"><ul class="first">
+<li><p class="first">Field Label is the name of the
+field and appears above the
+field.</p>
+</li>
+<li><p class="first">Default Value always appears
+in the field before being
+edited.</p>
+<p><a class="reference internal" href="admin\media/image100.png"><img alt="image102" src="admin\media/image100.png" style="width: 2.33778in; height: 0.80208in;" /></a></p>
+</li>
+</ul>
+<p class="last">Figure</p>
+</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Selection Field</td>
+<td><ul class="first">
+<li><p class="first">You can have one Field Label
+but multiple options.</p>
+</li>
+<li><p class="first">Use the Plus Icon to add more
+options</p>
+</li>
+<li><p class="first">The options are shown as a
+list.</p>
+</li>
+<li><p class="first">You can select an option to be
+the default value. Default
+Value always appears in the
+field before being edited.</p>
+</li>
+<li><p class="first">You can change the Default
+Values’.</p>
+<p><a class="reference internal" href="admin\media/image101.png"><img alt="image103" src="admin\media/image101.png" style="width: 2.23017in; height: 1.07292in;" /></a></p>
+</li>
+</ul>
+<p class="last">Figure</p>
+</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><p class="first">Custom fields have a different behaviour across the types.</p>
+<ol class="loweralpha">
+<li><p class="first"><strong>Request</strong>:</p>
+<ol class="lowerroman" start="45">
+<li><p class="first">You can show a custom field in <strong>Create a Request</strong> form.</p>
+<p><a class="reference internal" href="admin\media/image102.png"><img alt="image104" src="admin\media/image102.png" style="width: 5.16298in; height: 1.18006in;" /></a></p>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+</ul>
+<p>Figure 99</p>
+<p>For example, we have created a field called Employee ID in Figure 99.</p>
+<ol class="lowerroman" start="46">
+<li><p class="first">New fields appear in the Work tab of a Request.</p>
+<p><a class="reference internal" href="admin\media/image103.png"><img alt="image105" src="admin\media/image103.png" style="width: 3.07197in; height: 1.81778in;" /></a></p>
+</li>
+</ol>
+<p>Figure 100</p>
+<ol class="lowerroman simple" start="47">
+<li>You can make a field compulsory for certain Statuses. For
+example, if a field is compulsory in Open Status, then you cannot
+keep the field empty when changing to another Status.</li>
+</ol>
+<ol class="loweralpha" start="2">
+<li><p class="first"><strong>Problem</strong>:</p>
+<ol class="lowerroman" start="48">
+<li><p class="first">All custom fields appear in the <strong>Custom Fields</strong> tab under
+<strong>Analysis</strong>.</p>
+<p><a class="reference internal" href="admin\media/image104.png"><img alt="image106" src="admin\media/image104.png" style="width: 2.6875in; height: 1.14907in;" /></a></p>
+</li>
+</ol>
+</li>
+</ol>
+<p>Figure 101</p>
+<ol class="lowerroman simple" start="49">
+<li>You can make a field compulsory for certain Statuses. For example,
+if a field is compulsory in Open Status, then you cannot keep the
+field empty when changing to another Status</li>
+</ol>
+<ol class="loweralpha" start="3">
+<li><p class="first"><strong>Change</strong>:</p>
+<ol class="loweralpha" start="12">
+<li><p class="first">You can add a field to a particular stage of a Change.</p>
+<p><a class="reference internal" href="admin\media/image105.png"><img alt="image107" src="admin\media/image105.png" style="width: 4.64306in; height: 1.08026in;" /></a></p>
+</li>
+</ol>
+</li>
+</ol>
+<p>Figure 102</p>
+<ol class="lowerroman" start="51">
+<li><p class="first">You can mark a field as compulsory at a particular stage.</p>
+</li>
+<li><p class="first">Fields appear in a separate section called Custom Fields.</p>
+<p><a class="reference internal" href="admin\media/image106.png"><img alt="image108" src="admin\media/image106.png" style="width: 4.47639in; height: 1.80325in;" /></a></p>
+</li>
+</ol>
+<p>Figure 103</p>
+<ol class="loweralpha simple" start="4">
+<li><strong>Asset</strong>:<ol class="lowerroman" start="53">
+<li>You add a field either to an Asset Type or a particular
+sub-type.</li>
+<li>Within a type, you can either make the field appear in Property
+section or Component section. Please refer to the Asset
+Management manual to learn more.</li>
+</ol>
+</li>
+</ol>
+</div>
+<div class="section" id="edit-custom-fields">
+<h3>Edit Custom Fields<a class="headerlink" href="#edit-custom-fields" title="Permalink to this headline">¶</a></h3>
+<ul>
+<li><p class="first">Go to the <a class="reference external" href="#add-a-custom-field">Custom Fields</a> page.</p>
+</li>
+<li><p class="first">.You can change the name of a custom field using the Edit Icon or
+delete it using the Delete Icon.</p>
+<p><a class="reference internal" href="admin\media/image107.png"><img alt="image109" src="admin\media/image107.png" style="width: 5.84097in; height: 1.38874in;" /></a></p>
+</li>
+</ul>
+<p>Figure 104</p>
+</div>
+</div>
+<div class="section" id="category">
+<h2>Category<a class="headerlink" href="#category" title="Permalink to this headline">¶</a></h2>
+<p>The category is one of many categorization features we have. You can use
+category for delegation, workflow design, or any other categorization
+function required by your organization. You can have Categories for
+Request, Problem, Change, Project, and Software.</p>
+<div class="section" id="predefined-categories">
+<h3>Predefined categories<a class="headerlink" href="#predefined-categories" title="Permalink to this headline">¶</a></h3>
+<p>Flotomate comes preloaded with the following Categories:</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head"><strong>Request</strong></th>
+<th class="head"><ul class="first simple">
+<li>Service Request</li>
+<li>Incident</li>
+</ul>
+<p class="last">You can change the name of the
+above categories but not the
+Category Key.</p>
+</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><strong>Problem</strong></td>
+<td><ul class="first simple">
+<li>General</li>
+<li>Hardware</li>
+<li>Software</li>
+<li>Network</li>
+<li>IT Administration</li>
+</ul>
+<p class="last">You can change the name of the
+above Categories.</p>
+</td>
+</tr>
+<tr class="row-odd"><td><strong>Change</strong></td>
+<td><ul class="first simple">
+<li>General</li>
+<li>Process</li>
+<li>Hardware</li>
+<li>Software</li>
+<li>Network</li>
+<li>Security</li>
+</ul>
+<p class="last">You can change the name of the
+above Categories.</p>
+</td>
+</tr>
+<tr class="row-even"><td><strong>Project</strong></td>
+<td><ul class="first simple">
+<li>Business</li>
+<li>Maintenance</li>
+<li>Infrastructure</li>
+<li>Research</li>
+</ul>
+<p class="last">You can change the name of the
+above Categories.</p>
+</td>
+</tr>
+<tr class="row-odd"><td><strong>Software</strong></td>
+<td><ul class="first simple">
+<li>A/C</li>
+<li>DB</li>
+<li>Development</li>
+<li>Game</li>
+<li>Graphics</li>
+<li>Internet</li>
+<li>Multi-Media</li>
+<li>Operating System</li>
+<li>Others.</li>
+</ul>
+<p class="last">You can modify or delete the
+above categories.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="add-a-category">
+<h3>Add a Category<a class="headerlink" href="#add-a-category" title="Permalink to this headline">¶</a></h3>
+<p><em>Note: Adding a category requires you to have access to the Admin
+section.</em></p>
+<ul>
+<li><p class="first">Go to <strong>Admin</strong> &gt;&gt; <strong>(Request, Problem, Change, Project or
+Software)</strong> <strong>Categories</strong>.</p>
+<p><a class="reference internal" href="admin\media/image108.png"><img alt="image110" src="admin\media/image108.png" style="width: 6.10139in; height: 0.66043in;" /></a></p>
+</li>
+</ul>
+<p>Figure 105</p>
+<ul>
+<li><p class="first">In Request, Problem, Change, and Project, you can add a Category and
+its Sub-Categories up to level three. In Software, you can have only
+standalone Categories.</p>
+</li>
+<li><p class="first">In the leftmost column, you can add a level one Category using the
+<strong>Add</strong> button. Clicking on a Category activates its right side
+Sub-Category column where you can add another Category.</p>
+</li>
+<li><p class="first">In Request, you are asked for a Category Key when adding a new
+Category. This is used as a prefix to the ID of a Request.</p>
+<p><a class="reference internal" href="admin\media/image109.png"><img alt="image111" src="admin\media/image109.png" style="width: 4.49722in; height: 2.02838in;" /></a></p>
+</li>
+</ul>
+<p>Figure 106</p>
+</div>
+<div class="section" id="edit-category">
+<h3>Edit Category<a class="headerlink" href="#edit-category" title="Permalink to this headline">¶</a></h3>
+<ul>
+<li><p class="first">Go to <strong>Categories</strong> page<strong>.</strong></p>
+</li>
+<li><p class="first">You can change the name of a Category using the Edit icon.</p>
+<p><a class="reference internal" href="admin\media/image110.png"><img alt="image112" src="admin\media/image110.png" style="width: 4.27083in; height: 1.3979in;" /></a></p>
+</li>
+</ul>
+<p>Figure 107</p>
+<ul class="simple">
+<li>You can only delete Categories in Software. In other types, you have
+to turn a Category off.</li>
+</ul>
+</div>
+</div>
+<div class="section" id="custom-rules">
+<h2>Custom Rules<a class="headerlink" href="#custom-rules" title="Permalink to this headline">¶</a></h2>
+<p>Using Custom Rules, you can set pre-requisites that need to be done
+before performing certain actions. You can have Custom Rules for
+Request, Problem, Change, Knowledge and Remote Deployment.</p>
+<p>To Open Custom Rules:</p>
+<ul>
+<li><p class="first">Go to <strong>Admin</strong> &gt;&gt; <strong>(Request, Problem, Change, Knowledge or Patch)
+Custom Rules</strong>.</p>
+<p><a class="reference internal" href="admin\media/image111.png"><img alt="image113" src="admin\media/image111.png" style="width: 6.26806in; height: 2.68472in;" /></a></p>
+<p><a class="reference internal" href="admin\media/image112.png"><img alt="image114" src="admin\media/image112.png" style="width: 6.26806in; height: 2.60417in;" /></a></p>
+</li>
+</ul>
+<p>Figure 108</p>
+<p>Current Custom Rules are as follows:</p>
+<div class="section" id="request">
+<h3>Request<a class="headerlink" href="#request" title="Permalink to this headline">¶</a></h3>
+<ul>
+<li><p class="first"><strong>Before resolving a Request</strong>:</p>
+<ol class="loweralpha simple">
+<li>User Interaction:<ol class="lowerroman" start="55">
+<li>Should have at least one message in Ask Requestor tab.</li>
+<li>A Request should have at least one note.</li>
+<li>Should have at least one solution.</li>
+</ol>
+</li>
+</ol>
+<ol class="loweralpha simple" start="25">
+<li>Mandatory fields:<ol class="lowerroman" start="58">
+<li>Should have an assigned Technician.</li>
+<li>Should have a Location.</li>
+<li>Should have an Estimated Time.</li>
+<li>Should have a Diagnosis.</li>
+<li>Should have a Source.</li>
+<li>Should have Approval status as either Approved or
+Pre-Approved.</li>
+</ol>
+</li>
+<li>Should have all Tasks as closed.</li>
+</ol>
+</li>
+<li><p class="first"><strong>Before closing a Request</strong>:</p>
+<ol class="loweralpha simple">
+<li>Same as before resolving a Request.</li>
+</ol>
+<ol class="loweralpha simple">
+<li>Should not skip Resolve status.</li>
+</ol>
+</li>
+<li><p class="first"><strong>Required to add a Note before</strong>:</p>
+<ol class="loweralpha simple">
+<li>Should add a Note to a Request before performing the following
+actions:<ol class="lowerroman" start="64">
+<li>Changing assigned Technician of a Request.</li>
+<li>Changing Support Level of a Request.</li>
+<li>Changing Due Date of a Request.</li>
+<li>Changing Category of a Request.</li>
+<li>Changing Department of a Request.</li>
+<li>Changing Priority of a Request.</li>
+</ol>
+</li>
+</ol>
+</li>
+</ul>
+</div>
+<div class="section" id="problem">
+<h3>Problem<a class="headerlink" href="#problem" title="Permalink to this headline">¶</a></h3>
+<ul>
+<li><p class="first"><strong>Before resolving a Request</strong>:</p>
+<ol class="loweralpha simple">
+<li>User Interaction:<ol class="lowerroman" start="70">
+<li>A Request should have at least one note.</li>
+<li>Should have at least one solution.</li>
+</ol>
+</li>
+</ol>
+<ol class="loweralpha simple">
+<li>Mandatory fields:<ol class="lowerroman" start="72">
+<li>Should have an assigned Technician.</li>
+<li>Should have a Location.</li>
+<li>Should have a Root Couse.</li>
+<li>Should have a Symptom.</li>
+<li>Should have an Impact.</li>
+<li>Should have Approval status as either Approved or
+Pre-Approved.</li>
+</ol>
+</li>
+<li>Should have all Tasks as closed.</li>
+</ol>
+</li>
+<li><p class="first"><strong>Before closing a Request</strong>:</p>
+<ol class="loweralpha simple">
+<li>Same as before resolving a Request.</li>
+<li>Should not skip Resolve status.</li>
+</ol>
+</li>
+<li><p class="first"><strong>Required to add a Note before</strong>:</p>
+<ol class="loweralpha simple">
+<li>Should add a Note before performing the following actions:<ol class="lowerroman" start="78">
+<li>Changing assigned Technician.</li>
+<li>Changing Due Date.</li>
+<li>Changing Category.</li>
+<li>Changing Department.</li>
+</ol>
+</li>
+</ol>
+</li>
+</ul>
+</div>
+<div class="section" id="change">
+<h3>Change<a class="headerlink" href="#change" title="Permalink to this headline">¶</a></h3>
+<p>You can set rules for each stage of a change process.</p>
+<ul class="simple">
+<li><strong>Submit</strong>:<ol class="loweralpha">
+<li>Should have a Change Manager.</li>
+<li>Should have an assigned Technician.</li>
+<li>Should have a Location.</li>
+</ol>
+</li>
+<li><strong>Planning</strong>:<ol class="loweralpha">
+<li>Should have schedule and rollout dates.</li>
+<li>Should have a rollout plan.</li>
+<li>Should have an assigned Technician.</li>
+<li>Should have set impact.</li>
+<li>Should have a Backout plan.</li>
+</ol>
+</li>
+<li><strong>Implementation</strong>:<ol class="loweralpha">
+<li>Should have a change implementer.</li>
+<li>All task must be closed before moving to the next stage.</li>
+<li>Should have an assigned Technician.</li>
+</ol>
+</li>
+<li><strong>In Review:</strong><ol class="loweralpha">
+<li>Should have a change reviewer.</li>
+<li>Should have an assigned Technician.</li>
+</ol>
+</li>
+<li><strong>Require Note befor</strong>e:<ol class="loweralpha">
+<li>Changing category.</li>
+<li>Changing assigned Technician.</li>
+<li>Changing Department.</li>
+<li>Changing Location.</li>
+</ol>
+</li>
+</ul>
+</div>
+<div class="section" id="asset">
+<h3>Asset<a class="headerlink" href="#asset" title="Permalink to this headline">¶</a></h3>
+<ul>
+<li><p class="first">Manual Update:</p>
+<p><em>Note: Asset rules are applicable for both discovered and manually
+created Assets.</em></p>
+<ol class="loweralpha simple">
+<li>Whether to allow Technicians to update Hardware Components of an
+Asset.</li>
+<li>Whether to allow Technicians to update Software Components of an
+Asset.</li>
+<li>Whether to allow Technicians to update Users details of an Asset.</li>
+</ol>
+</li>
+</ul>
+</div>
+<div class="section" id="knowledge">
+<h3>Knowledge<a class="headerlink" href="#knowledge" title="Permalink to this headline">¶</a></h3>
+<p>Whether Knowledge should be approved by approvers before publishing.</p>
+</div>
+<div class="section" id="remote-deployment">
+<h3>Remote Deployment:<a class="headerlink" href="#remote-deployment" title="Permalink to this headline">¶</a></h3>
+<p>Whether a deployment of Patches and Packages needs to go through an
+Approval process.</p>
+</div>
+</div>
+</div>
+<div class="section" id="setting-up-helpdesk">
+<h1>Setting Up Helpdesk<a class="headerlink" href="#setting-up-helpdesk" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="email-command-settings">
+<h2>Email Command Settings<a class="headerlink" href="#email-command-settings" title="Permalink to this headline">¶</a></h2>
+<p>You can change the details of a <strong>Request</strong> remotely using an email.
+Along with changing details, you can also add a note to a Request.</p>
+<p>You create an email command tag, and you have to enclose your Request
+details within the email command tags along with [[<strong>Request</strong> Id]] in
+the subject field.</p>
+<div class="section" id="setting-up-email-command">
+<h3><strong>Setting Up Email Command</strong>:<a class="headerlink" href="#setting-up-email-command" title="Permalink to this headline">¶</a></h3>
+<p><em>Note: Whatever parameters you want to change, you have to have the
+necessary permissions in your role.</em></p>
+<ol class="arabic simple">
+<li>Go to <strong>Admin</strong> &gt;&gt; <strong>Email Command Settings</strong> (Helpdesk).</li>
+</ol>
+<ol class="arabic" start="41">
+<li><p class="first">The Email Command Settings dialog box opens. You can change only the
+details in Available Commands of a Request. Add your email command
+in the Email Command field.</p>
+<p><a class="reference internal" href="admin\media/image113.jpg"><img alt="image115" src="admin\media/image113.jpg" style="width: 5.60139in; height: 2.99183in;" /></a></p>
+</li>
+</ol>
+<p>Figure 109</p>
+<ol class="arabic simple" start="42">
+<li>The Subject and Content section of the page gives you a preview of
+how to format an email to change a Request. The Request Id has to be
+in the subject section, and whatever you write in the email body,
+other than the command line, appears under collaborate in the
+Request details page(Figure 110).</li>
+</ol>
+<p><a class="reference internal" href="admin\media/image114.jpg"><img alt="image116" src="admin\media/image114.jpg" style="width: 5.60063in; height: 2.04722in;" /></a></p>
+<p>Figure 110</p>
+</div>
+</div>
+<div class="section" id="request-feedback-settings">
+<h2>Request Feedback Settings<a class="headerlink" href="#request-feedback-settings" title="Permalink to this headline">¶</a></h2>
+<p>You can send an email to a Requestor of a Request asking for a Feedback.
+The email contains a link to the feedback form. You can choose whether
+to send the link with the Resolved and Closed email notification or send
+it manually in a separate email.</p>
+<ul>
+<li><p class="first">Go to <strong>Admin</strong> &gt;&gt; <strong>Request Feedback Settings</strong> (Helpdesk).</p>
+<p><a class="reference internal" href="admin\media/image115.png"><img alt="image117" src="admin\media/image115.png" style="width: 3.9375in; height: 2.31912in;" /></a></p>
+</li>
+</ul>
+<p>Figure 111</p>
+<ul>
+<li><p class="first">You can automatically send a feedback link to a Requestor in the
+following ways:</p>
+<ol class="loweralpha simple">
+<li><strong>Resolving a Request</strong>: If you toggle the Resolved button on, a
+feedback link is sent with the email notification on Resolving a
+Request.</li>
+<li><strong>Closing a Request</strong>: If you toggle the Closed button on, a
+feedback link is sent with the email notification on Closing a
+Request.</li>
+</ol>
+</li>
+<li><p class="first">If you turn <strong>Send feedback manually</strong> button on, then you can send a
+feedback link to a Requester from the Details View of a Request.</p>
+<p><a class="reference internal" href="admin\media/image116.png"><img alt="image118" src="admin\media/image116.png" style="width: 2.83333in; height: 2.10169in;" /></a></p>
+<p><a class="reference internal" href="admin\media/image117.png"><img alt="image119" src="admin\media/image117.png" style="width: 5.16389in; height: 1.7192in;" /></a></p>
+</li>
+</ul>
+<p>Figure 112</p>
+<ul>
+<li><p class="first">On clicking on a feedback link you get following page:</p>
+<p><a class="reference internal" href="admin\media/image118.png"><img alt="image120" src="admin\media/image118.png" style="width: 4.72583in; height: 2.91686in;" /></a></p>
+</li>
+</ul>
+<p>Figure 113</p>
+</div>
+<div class="section" id="priority-matrix">
+<h2>Priority Matrix<a class="headerlink" href="#priority-matrix" title="Permalink to this headline">¶</a></h2>
+<p>In the product, Priority is a way to set the importance of a Request
+ticket. A Technician can set the Priority of a Request manually or
+automatically using the Priority Matrix feature.</p>
+<p><strong>To open Priority Matrix:</strong></p>
+<ul>
+<li><p class="first">Go to <strong>Admin</strong> (A Navigation Tab) &gt;&gt; <strong>Priority Matrix</strong> (in
+Helpdesk). The Priority Matrix page opens.</p>
+<p><a class="reference internal" href="admin\media/image119.png"><img alt="image121" src="admin\media/image119.png" style="width: 5.87222in; height: 2.44622in;" /></a></p>
+</li>
+</ul>
+<p>Figure 114</p>
+<p>The Priority Matrix is a matrix with the column head having the Urgency
+values and rows having the Impact values. For example, if you want to
+set the Priority for Urgency <strong>Low</strong> and Impact <strong>On Department</strong> as
+<strong>High</strong> then you have to set the following row column value:</p>
+<p><a class="reference internal" href="admin\media/image120.png"><img alt="image122" src="admin\media/image120.png" style="width: 3.42348in; height: 2.01896in;" /></a></p>
+<p>Figure 115</p>
+<p>This way you have to set the values for all row and column combinations.
+The system automatically sets the Priority of a Request based on the
+matrix. You can decide whether you want users to override the set
+Priority using the toggle (Figure 114).</p>
+</div>
+</div>
+<div class="section" id="patch-package-deployment">
+<h1>Patch/Package Deployment<a class="headerlink" href="#patch-package-deployment" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="patch-custom-rules">
+<h2>Patch Custom Rules<a class="headerlink" href="#patch-custom-rules" title="Permalink to this headline">¶</a></h2>
+<p>Custom rules allow you make certain things prerequisite before
+performing certain activities. You can access custom rules from
+<strong>Admin</strong> (accessed from <strong>Product Launcher</strong>) &gt;&gt; <strong>Patch Custom Rules</strong>
+(Patch/Packages Deployment). Currently, the product offers the following
+rules:</p>
+<p><em>Note: The edit button makes the fields editable.</em></p>
+<ul>
+<li><p class="first">Set requirement for an Approval before publishing a Deployment
+Request.</p>
+<p><a class="reference internal" href="admin\media/image121.png"><img alt="image123" src="admin\media/image121.png" style="width: 5.79931in; height: 1.80096in;" /></a></p>
+</li>
+</ul>
+<p>Figure 116</p>
+</div>
+<div class="section" id="share-drive-configuration">
+<h2>Share Drive Configuration<a class="headerlink" href="#share-drive-configuration" title="Permalink to this headline">¶</a></h2>
+<p>A Shared Drive is a shared resource on a Computer network. It is a
+device or piece of information on a Computer that can be remotely
+accessed from another Computer, typically via a local area network or an
+enterprise intranet, transparently as if it were a resource in the local
+machine.</p>
+<p>The Shared Drive is the default location where the Product Server stores
+all the Patches before deployment. The product asks for a Shared Drive
+when Patches don’t have a locally stored Package file.</p>
+<p><strong>To Setup a Shared Drive:</strong></p>
+<ol class="arabic simple">
+<li>Log in to your Dashboard.</li>
+</ol>
+<ol class="arabic" start="43">
+<li><p class="first">Go to <strong>Admin</strong> (accessed from <strong>Product Launcher</strong>) &gt;&gt; <strong>Shared
+Drive Configurations</strong> (Patch/Package Deployment).</p>
+<p><a class="reference internal" href="admin\media/image122.png"><img alt="image124" src="admin\media/image122.png" style="width: 3.41667in; height: 3.26602in;" /></a></p>
+</li>
+</ol>
+<p>Figure 117</p>
+<ol class="arabic" start="44">
+<li><p class="first">The Shared Drive Configuration page opens. Here you get the
+following fields and options:</p>
+<p><a class="reference internal" href="admin\media/image123.png"><img alt="image125" src="admin\media/image123.png" style="width: 6.26806in; height: 1.82431in;" /></a></p>
+</li>
+</ol>
+<p>Figure 118</p>
+<ol class="loweralpha" start="3">
+<li><p class="first">In section-A (Figure 118), you type in a URL that tells the Product
+Server the location of the Shared Drive.</p>
+</li>
+<li><p class="first">If you want the Patches to be automatically downloaded when there’s a
+request, then turn on the toggle button in section-B.</p>
+<p>Click the <strong>Edit</strong> button to make the fields editable. Once you enter
+the URL, you can test the connection; the product tells you whether a
+successful connection was established with the Share Drive. Once you
+are done with everything, click on <strong>Update</strong> to save your changes.</p>
+</li>
+</ol>
+</div>
+<div class="section" id="system-health-configuration">
+<h2>System Health Configuration<a class="headerlink" href="#system-health-configuration" title="Permalink to this headline">¶</a></h2>
+<p>Patch Management ensures that all administered IT Assets are updated
+with the latest Patch from the Software Vendor; this enhances security
+and helps in thwarting external and internal cyber-attacks.</p>
+<p>Computers fetch and deploy Patches. So it becomes imperative to monitor
+all Computers to keep yourself aligned with the idea of Patch
+Management.</p>
+<p>Our product has a feature called System Health that flags Computers that
+are missing critical, essential Patches. This helps you to manage your
+vulnerability and prevent any attacks.</p>
+<div class="section" id="system-health-settings">
+<h3>System Health Settings<a class="headerlink" href="#system-health-settings" title="Permalink to this headline">¶</a></h3>
+<p>Go to <strong>Admin</strong> (Accessed from <strong>Product Launcher</strong>) &gt;&gt; <strong>System Health
+Settings</strong> (Patch/Package Management).</p>
+<p><a class="reference internal" href="admin\media/image124.png"><img alt="image126" src="admin\media/image124.png" style="width: 4.37222in; height: 3.6679in;" /></a></p>
+<p>Figure</p>
+<p>These settings help Flotomate to flag Computers as either Highly
+Vulnerable or Vulnerable. You can filter the flagged Computers on the
+<a class="reference external" href="#_Filters">Computer List View</a>. Clicking on <strong>System Health
+Settings</strong> opens a page. Here you can set the conditions separately to
+define Highly Vulnerable and Vulnerable.</p>
+<p><a class="reference internal" href="admin\media/image125.png"><img alt="image127" src="admin\media/image125.png" style="width: 6.26806in; height: 2.73125in;" /></a></p>
+<p>Figure</p>
+<p>Click on <strong>Edit</strong> to make the fields editable. You are expected to enter
+the minimum number of missing Patches for each severity label.</p>
+<p>Each vulnerability status has a set of four severity labels and their
+counts. No two same labels can have the same numbers (Numbers in Highly
+Vulnerable have to be higher than Vulnerable).</p>
+<p><a class="reference internal" href="admin\media/image126.png"><img alt="image128" src="admin\media/image126.png" style="width: 4.03857in; height: 2.84391in;" /></a></p>
+<p>Figure</p>
+<p>The number zero in a field signifies that there’s no condition for the
+corresponding severity label.</p>
+<p>If a Computer has a missing Patch number that is equal to or exceeds a
+minimum value for a label, then the Computer is flagged with the
+corresponding health status. In case a Computer satisfies multiple
+labels then the label top in the hierarchy is considered (Critical
+Patches having the highest priority and Low severity having the lowest).</p>
+<p><a class="reference internal" href="admin\media/image127.png"><img alt="image129" src="admin\media/image127.png" style="width: 4.16308in; height: 2.48189in;" /></a></p>
+<p>Figure</p>
+</div>
+</div>
+<div class="section" id="endpoint-scope">
+<h2>Endpoint Scope<a class="headerlink" href="#endpoint-scope" title="Permalink to this headline">¶</a></h2>
+<p>Depending on the License agreement you have with us, the number of
+Computers you can manage with the product (for remote deployment) is
+limited. All discovered Computers (with our Agent application) stay out
+of the scope of the product by default; you have to bring them within
+the scope before you can use our product features.</p>
+<p>The Endpoint Scope lets you view all available Computers (not in the
+Scope) and add them to the Scope. You can set certain conditions that
+allow the product to add any new Computers automatically. You can also
+add Computers manually.</p>
+<p>There is a counter that shows how many Computers are within the scope
+and how many you can still add. In no situation, you can exceed the
+total number of Computers you are allowed to add to the Scope.</p>
+<p><em>Note: Only Computers configured with our Agent Application is visible
+on Endpoint Scope.</em></p>
+<div class="section" id="add-computers-to-a-scope">
+<h3>Add Computers to a Scope<a class="headerlink" href="#add-computers-to-a-scope" title="Permalink to this headline">¶</a></h3>
+<ul>
+<li><p class="first">Go to <strong>Admin</strong> (accessed from <strong>Product Launcher</strong>) &gt;&gt; <strong>Endpoint
+Scope</strong> (Patch/Package Management).</p>
+<p><a class="reference internal" href="admin\media/image128.png"><img alt="image130" src="admin\media/image128.png" style="width: 3.17431in; height: 2.76494in;" /></a></p>
+</li>
+</ul>
+<p>Figure</p>
+<ul>
+<li><p class="first">The Endpoint Scope page opens.</p>
+<p><a class="reference internal" href="admin\media/image129.png"><img alt="image131" src="admin\media/image129.png" style="width: 6.26806in; height: 2.60417in;" /></a></p>
+</li>
+</ul>
+<p>Figure</p>
+<ul>
+<li><p class="first">You can view the total number of Computers that you can add from the
+Total Endpoint Scope number. The Total Available shows you the number
+of Computers you can still add to reach the Total Endpoint Scope
+number.</p>
+<p><a class="reference internal" href="admin\media/image130.png"><img alt="image132" src="admin\media/image130.png" style="width: 6.26806in; height: 0.45903in;" /></a></p>
+</li>
+</ul>
+<p>Figure</p>
+<p><strong>Adding a Network (Automatic Addition of Computers)</strong></p>
+<ul>
+<li><p class="first">You can associate a Network with a Scope; this allows the Scope to
+automatically add Computers (with the Agent application) in the
+Network based on include and exclude conditions. You can use both
+manual and automatic addition of Computers together; they are not
+mutually exclusive.</p>
+<p><a class="reference internal" href="admin\media/image131.png"><img alt="image133" src="admin\media/image131.png" style="width: 4.39306in; height: 1.58814in;" /></a></p>
+</li>
+</ul>
+<p>Figure</p>
+<ul class="simple">
+<li>Once you select a Network, you now have to add conditions. The
+conditions are of two types: include and exclude. Both the types
+create a set of Computers from which to either include or exclude.
+When there’s an intersection or conflict between the two types then
+exclude conditions/condition override the include set. For example,
+to add Computers within an IP range with a hostname containing “Digi”
+and excluding those with Linux OS, yields the following conditions:</li>
+</ul>
+<p><a class="reference internal" href="admin\media/image132.png"><img alt="image134" src="admin\media/image132.png" style="width: 6.84236in; height: 1.5025in;" /></a></p>
+<p><a class="reference internal" href="admin\media/image133.png"><img alt="image135" src="admin\media/image133.png" style="width: 6.82292in; height: 1.76885in;" /></a></p>
+<p>Figure</p>
+<p><strong>Manual Adding Computers</strong></p>
+<ul>
+<li><p class="first">You can manually search and add Computers to a scope. The search bar
+supports the Advanced Search feature where you get search options by
+clicking on the search bar.</p>
+<p><a class="reference internal" href="admin\media/image134.png"><img alt="image136" src="admin\media/image134.png" style="width: 3.60139in; height: 1.64548in;" /></a></p>
+<p><a class="reference internal" href="admin\media/image135.png"><img alt="image137" src="admin\media/image135.png" style="width: 3.93472in; height: 1.32in;" /></a></p>
+</li>
+</ul>
+<p>Figure</p>
+<p>You can also enter keywords to search for a Computer. When entering a
+keyword, the product explores all the Computers with the keyword in
+their Name, Hostname, Domain name, OS name and Service Pack. A Computer
+has to have at least one field matched (partial or full) with the
+keyword; in case there are multiple keywords, a Computer has to have at
+least one field matched for each keyword.</p>
+<p>You can combine search options with keywords. Between two different
+conditions of the same type OR logic is followed. Between different
+types AND logic is observed. An example of same type contradiction is OS
+Name contains Windows vs. OS Name contains Linux.</p>
+<p><a class="reference internal" href="admin\media/image136.png"><img alt="image138" src="admin\media/image136.png" style="width: 5.00764in; height: 2.68413in;" /></a></p>
+<p>Figure</p>
+<ul>
+<li><p class="first">Once you have found your Computers, add by selecting them, and they
+move to the Selected Computers list. Manually selected Computers
+override the exclude criteria/conditions set under the Network.</p>
+<p><a class="reference internal" href="admin\media/image137.png"><img alt="image139" src="admin\media/image137.png" style="width: 6.26806in; height: 1.04028in;" /></a></p>
+</li>
+</ul>
+<p>Figure</p>
+<ul class="simple">
+<li>Once you are done setting conditions and adding Computers, click on
+<strong>Update</strong>.</li>
+<li>You can create more than one Scope to accommodate multiple Networks
+(a Scope can have only one Network). The actual Computer list is
+cumulative of all available Scopes (added manually and
+automatically).</li>
+</ul>
+<p><a class="reference internal" href="admin\media/image138.png"><img alt="image140" src="admin\media/image138.png" style="width: 6.26806in; height: 2.77083in;" /></a></p>
+<p>Figure</p>
+</div>
+<div class="section" id="preview-computer-list">
+<h3>Preview Computer List<a class="headerlink" href="#preview-computer-list" title="Permalink to this headline">¶</a></h3>
+<p>Once you are done with adding Computers and setting conditions, you can
+view the final list of all the Computers (added manually and
+automatically) in all Scopes using the Preview function.</p>
+<p>Open Endpoint Scope from <strong>Admin</strong>. Click on <strong>Preview</strong> to generate the
+Computer list.</p>
+<p><a class="reference internal" href="admin\media/image139.png"><img alt="image141" src="admin\media/image139.png" style="width: 6.26806in; height: 2.20069in;" /></a></p>
+<p>Figure</p>
+<p>You can search for a Computer. The search bar supports the Advanced
+Search feature. It is similar to the search bar in a Scope.</p>
+</div>
+</div>
+<div class="section" id="approval-settings">
+<h2>Approval Settings<a class="headerlink" href="#approval-settings" title="Permalink to this headline">¶</a></h2>
+<p>The idea of Patch Management revolves around security, enhancement, and
+compliance. Sometimes it may happen that specific Patches don’t comply
+with the idea of Patch Management. It becomes necessary to keep these
+Patches out from the IT infrastructure which might cause more trouble
+than any good.</p>
+<p>The tool has the provision to seek Approval for each and every Patch
+before they can be deployed. There are two methods for Approval: Manual
+Approval and Automatic Approval (Automatic Patch Test). Which method to
+choose is decided from the Patch Approval Setting in Admin.</p>
+<div class="section" id="patch-approval-setting-selecting-an-approval-method">
+<h3>Patch Approval Setting (Selecting an Approval Method)<a class="headerlink" href="#patch-approval-setting-selecting-an-approval-method" title="Permalink to this headline">¶</a></h3>
+<p><em>Note: Configuring Patch Approval Settings requires Admin rights.</em></p>
+<ul>
+<li><p class="first">Go to <strong>Admin</strong> (accessed from <strong>Product Launcher</strong>) &gt;&gt; <strong>Patch
+Approval Setting</strong> (Patch/Package Deployment).</p>
+</li>
+<li><p class="first">The Patch Approval Setting page opens. There you get three options
+(Approval Types). Click on <strong>Edit</strong> to make the page editable.</p>
+<p><a class="reference internal" href="admin\media/image140.png"><img alt="image142" src="admin\media/image140.png" style="width: 6.26806in; height: 1.51319in;" /></a></p>
+</li>
+</ul>
+<p>Figure</p>
+<ol class="loweralpha">
+<li><p class="first"><strong>All Patches Pre-Approved</strong>: As the name suggests, all incoming
+Patches (both new and missing Patches) are Pre-Approved by default. A
+user can manually change the Approval status of Patch to Reject or
+Approved. The Automatic Patch Test doesn’t work with this selection.</p>
+<p>This selection comes into effect for incoming future Patches, and it
+doesn’t affect Patches that are already in the product.</p>
+</li>
+</ol>
+<ol class="loweralpha" start="5">
+<li><p class="first"><strong>All Patches will be Manually Approved</strong>: All new incoming Patches
+have the Approval status <strong>Not Approved</strong> by default. A user has to
+change the status manually to either Approved or Reject.</p>
+</li>
+<li><p class="first"><strong>Qualified Patches will be Approved by Test Task</strong>: All new incoming
+Patches have the status <strong>Not Approved</strong> by default. A user can
+manually set the status. He also has the option to create a Test
+Task.</p>
+<p>A Test Task, also known as Automatic Patch Test, deploys a selected
+set of Patches to a specific set of Computers; if deployment is
+successful in all of the Computers, then the Patches are
+auto-approved after a set number of days. Test Task only works in
+this setting.</p>
+</li>
+</ol>
+<ul class="simple">
+<li>Select an Approval Type and hit <strong>Update</strong>.</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="section" id="asset-management">
+<h1>Asset Management<a class="headerlink" href="#asset-management" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="adding-custom-asset-types">
+<h2>Adding Custom Asset Types<a class="headerlink" href="#adding-custom-asset-types" title="Permalink to this headline">¶</a></h2>
+<p>We have introduced the concept of Asset Type Hierarchy to make
+cataloging of Assets simple. It is a predefined catalog of Asset Types,
+which serves the purpose of giving you a generic umbrella term for every
+Asset in the CMDB.</p>
+<p><a class="reference internal" href="admin\media/image141.png"><img alt="image143" src="admin\media/image141.png" style="width: 1.83333in; height: 2.28688in;" /></a><a class="reference internal" href="admin\media/image142.png"><img alt="image144" src="admin\media/image142.png" style="width: 1.85417in; height: 2.29533in;" /></a><a class="reference internal" href="admin\media/image143.png"><img alt="image145" src="admin\media/image143.png" style="width: 1.733in; height: 2.29119in;" /></a></p>
+<p>Figure 134</p>
+<p>Flotomate allows you to add custom Asset Sub-Types in the Asset Type
+Hierarchy. You can create sub-types up to two levels.</p>
+<p>To add an Asset Type:</p>
+<ul>
+<li><p class="first">Go to <strong>Admin</strong> (A Navigation Tab) &gt;&gt; <strong>Asset Types</strong> (Asset
+Management).</p>
+<p><a class="reference internal" href="admin\media/image144.png"><img alt="image146" src="admin\media/image144.png" style="width: 4.57821in; height: 2.4533in;" /></a></p>
+</li>
+</ul>
+<p>Figure 135</p>
+<ul class="simple">
+<li>The Asset Types page opens. Here you can add your sub-types in level
+two and three using the <strong>Add</strong> button.</li>
+</ul>
+<p><strong>Editing Custom Types</strong></p>
+<ul>
+<li><p class="first">Go to <strong>Admin</strong> &gt;. <strong>Asset Types</strong>.</p>
+</li>
+<li><p class="first">You can change the name of any custom type using the Edit Icon or
+delete any type using the Delete Icon.</p>
+<p><a class="reference internal" href="admin\media/image145.png"><img alt="image147" src="admin\media/image145.png" style="width: 3.88542in; height: 1.30096in;" /></a></p>
+</li>
+</ul>
+<p>Figure 136</p>
+</div>
+<div class="section" id="adding-an-asset-group">
+<h2>Adding an Asset Group<a class="headerlink" href="#adding-an-asset-group" title="Permalink to this headline">¶</a></h2>
+<p>Flotomate allows you to categorize Assets in the CMDB into groups.
+Groups are a convenient way to compartmentalize Assets based on certain
+similarities.</p>
+<p>Some of the benefits of using Asset Groups are:</p>
+<ul class="simple">
+<li>Asset Groups help Technicians to manage Assets in the CMDB. For
+example: if a Technician is responsible for an Asset Group called
+DATA CENTER ASSETS then he can easily search for the Assets with the
+group name.</li>
+<li>Groups are used in Hardware Asset notification. For example: in case
+there is a Hardware change in a specific Asset Group then a
+notification is sent to certain users.</li>
+</ul>
+<p><strong>To Create an Asset Group:</strong></p>
+<p><em>Note: This operation requires Admin rights.</em></p>
+<ol class="arabic simple">
+<li>Go to <strong>Admin</strong> &gt;&gt; <strong>Asset Group</strong> (Asset Management)</li>
+</ol>
+<ol class="arabic" start="45">
+<li><p class="first">The Asset Groups page opens. Here you can view all your Groups and
+their Assets.</p>
+<p><a class="reference internal" href="admin\media/image146.png"><img alt="image148" src="admin\media/image146.png" style="width: 5.42751in; height: 1.81541in;" /></a></p>
+</li>
+</ol>
+<p>Figure 137</p>
+<p><em>Note: You can access the Asset Groups page from Admin &gt;&gt; Asset Groups
+(under Asset Management).</em></p>
+<ol class="arabic" start="46">
+<li><p class="first">Click on <strong>Create an Asset Group</strong> situated in the top right corner
+of the page. A dialog box opens with the following fields:</p>
+<ol class="loweralpha" start="7">
+<li><p class="first"><strong>Name</strong>: Provide a suitable name for the group.</p>
+</li>
+<li><p class="first"><strong>Owner</strong>: Select an owner of the group from the Technician list.</p>
+</li>
+<li><p class="first"><strong>Description</strong>: Write the purpose of the group.</p>
+<p><a class="reference internal" href="admin\media/image147.png"><img alt="image149" src="admin\media/image147.png" style="width: 3.62407in; height: 2.53382in;" /></a></p>
+</li>
+</ol>
+</li>
+</ol>
+<p>Figure 138</p>
+<ol class="arabic simple" start="47">
+<li>When you are done hit <strong>Create</strong>. Your Asset Group is added to the
+Asset Groups page.</li>
+</ol>
+</div>
+<div class="section" id="software-type">
+<h2>Software Type<a class="headerlink" href="#software-type" title="Permalink to this headline">¶</a></h2>
+<p>A Software Type tries to define the nature of existence of a Software
+Asset. By default, Flotomate provides six Software Types out of the box.
+They are as follows:</p>
+<ul class="simple">
+<li><strong>Excluded</strong>: These are all Software that does not need any managing.</li>
+<li><strong>Managed</strong>: These are all Software that needs managing with regards
+to License and Compliance.</li>
+<li><strong>Freeware</strong>: These are Software that is free to use.</li>
+<li><strong>Prohibited</strong>: These are Software that is not allowed to be used.</li>
+<li><strong>Shareware</strong>: These are Software that is running on a free Trial.</li>
+<li><strong>Unidentified</strong>: As the name suggests, these are unidentified
+Software with unknown source.</li>
+</ul>
+<div class="section" id="adding-a-software-type">
+<h3>Adding a Software Type:<a class="headerlink" href="#adding-a-software-type" title="Permalink to this headline">¶</a></h3>
+<p><em>Note: This operation requires administrative rights.</em></p>
+<p>Apart from the default Types, you can add more Software Type/Types. To
+add a Software Type:</p>
+<ol class="arabic">
+<li><p class="first">Go to <strong>Admin</strong> (A Navigation Tab) &gt;&gt; <strong>Software Types</strong> (Asset
+Management).</p>
+<p><a class="reference internal" href="admin\media/image148.png"><img alt="image150" src="admin\media/image148.png" style="width: 5.21139in; height: 1.52155in;" /></a></p>
+</li>
+</ol>
+<p>Figure 139</p>
+<ol class="arabic" start="48">
+<li><p class="first">The Software Types page opens. Here you can view all your default
+and custom types. Click on <strong>Add Software Type</strong> situated in the top
+right corner.</p>
+<p><a class="reference internal" href="admin\media/image149.png"><img alt="image151" src="admin\media/image149.png" style="width: 4.87222in; height: 2.28713in;" /></a></p>
+</li>
+</ol>
+<p>Figure 140</p>
+<ol class="arabic simple" start="49">
+<li>The Add Software Type dialog box opens. Type in the details and
+click <strong>Add</strong>.</li>
+</ol>
+</div>
+</div>
+<div class="section" id="adding-a-manufacturer">
+<h2>Adding a Manufacturer<a class="headerlink" href="#adding-a-manufacturer" title="Permalink to this headline">¶</a></h2>
+<p>Before adding a Manufacturer’s name to a Product, you have to add it in
+Flotomate. In Flotomate you can maintain a list of manufacturers’ names
+that you can associate with various Products in the system.</p>
+<p>To Add a Manufacturer:</p>
+<ol class="arabic">
+<li><p class="first">Go to <strong>Admin</strong> (A Navigation Tab) &gt;&gt; <strong>Manufacturers</strong> (Asset
+Management).</p>
+<p><a class="reference internal" href="admin\media/image150.png"><img alt="image152" src="admin\media/image150.png" style="width: 5.01413in; height: 1.77554in;" /></a></p>
+</li>
+</ol>
+<p>Figure 141</p>
+<ol class="arabic" start="50">
+<li><p class="first">The Manufacturers page opens. Here you can view all the
+Manufacturers that you have added. Click on <strong>Add Manufacturer</strong>
+situated in the top right corner of the page.</p>
+<p><a class="reference internal" href="admin\media/image151.png"><img alt="image153" src="admin\media/image151.png" style="width: 3.9755in; height: 2.79553in;" /></a></p>
+</li>
+</ol>
+<p>Figure 142</p>
+<ol class="arabic" start="51">
+<li><p class="first">The Add Manufacturer dialog box opens. Type in the Name of the
+Manufacturer and a Description, and you can maintain a record of
+sysOIDs (System OID) using the <strong>ADD System OID</strong> (Figure 142)
+button.</p>
+<p>The sysOID is for SNMP devices. The product matches SNMP devices
+with Manufacturers using the sysOID. The first 12 characters of a
+sysOID gives enough information to perform the match. The
+matchmaking happens even when the manufacturer is not explicitly
+mentioned in a SNMP device.</p>
+</li>
+</ol>
+<ol class="arabic simple" start="2">
+<li>When you are done, hit <strong>Save</strong> to add the Manufacturer.</li>
+</ol>
+<p><strong>Editing Manufacturer</strong></p>
+<ol class="arabic simple">
+<li>Go to <strong>Admin</strong> &gt;&gt; <strong>Manufacturers</strong>.</li>
+</ol>
+<ol class="arabic simple" start="52">
+<li>In the Manufacturers page, click on the Edit Icon adjacent to the
+Manufacturer that you want to edit.</li>
+<li>Perform your edits in the Edit Manufacturer dialog box and hit
+<strong>Update</strong>.</li>
+</ol>
+</div>
+<div class="section" id="barcode-configuration">
+<h2>Barcode Configuration<a class="headerlink" href="#barcode-configuration" title="Permalink to this headline">¶</a></h2>
+<p>You can have a variety of barcode prefixes when you are generating
+barcodes for printing. In Barcode Configuration page is where you add
+your own barcode prefixes.</p>
+<p><strong>To Add New Barcode Prefix:</strong></p>
+<ul>
+<li><p class="first">Go to <strong>Admin</strong> (A Navigation tab) &gt;&gt; <strong>Barcode Configuration</strong>
+(Asset Management).</p>
+</li>
+<li><p class="first">Barcode Configuration page opens, there you can see all the existing
+prefixes. Click on Add Prefix.</p>
+<p><a class="reference internal" href="admin\media/image152.png"><img alt="image154" src="admin\media/image152.png" style="width: 5.53889in; height: 1.73911in;" /></a></p>
+</li>
+</ul>
+<p>Figure 143</p>
+<ul class="simple">
+<li>Add Prefix dialog box opens. There type a four character prefix and
+hit <strong>Add</strong>.</li>
+</ul>
+<p><strong>To Delete a Prefix:</strong></p>
+<ul class="simple">
+<li>In Barcode Configuration page, click on the Delete Icon adjacent to a
+prefix that you want to delete. On confirmation, the prefix gets
+deleted.</li>
+</ul>
+</div>
+<div class="section" id="adding-a-product-type">
+<h2>Adding a Product Type<a class="headerlink" href="#adding-a-product-type" title="Permalink to this headline">¶</a></h2>
+<p>A Product can be further categorized into Product Types. A Product Type
+is a generic category to group Products. For example, Router is a
+Product Type that describes Products like Asus, TP-Link, etc. In
+Flotomate, you get a list of Product Types out of the box, but you can
+also add more types.</p>
+<p><strong>To Add a Product Type:</strong></p>
+<ol class="arabic">
+<li><p class="first">Go to <strong>Admin</strong> (A Navigation Tab) &gt;&gt; <strong>Product Types</strong> (Asset
+Management).</p>
+<p><a class="reference internal" href="admin\media/image153.png"><img alt="image155" src="admin\media/image153.png" style="width: 5.41389in; height: 2.36925in;" /></a></p>
+</li>
+</ol>
+<p>Figure 144</p>
+<ol class="arabic" start="54">
+<li><p class="first">The Product Types page opens. Here you can view all the Product
+Types added by you along with the predefined types. Now click on
+<strong>Add Product Type</strong> situated in the top right corner of the page.</p>
+<p><a class="reference internal" href="admin\media/image154.png"><img alt="image156" src="admin\media/image154.png" style="width: 4.25764in; height: 3.08686in;" /></a></p>
+</li>
+</ol>
+<p>Figure 145</p>
+<ol class="arabic" start="55">
+<li><p class="first">You see the Add Product Type dialog box. You have to fill the
+following fields:</p>
+<ol class="loweralpha" start="10">
+<li><p class="first"><strong>Name</strong>: Type an appropriate Type name. For example, Desktop is
+a proper Product Type name.</p>
+</li>
+<li><p class="first"><strong>Type</strong>: It is a subdivision of a Product Type. There are four
+main Types to choose from:</p>
+<ol class="lowerroman simple" start="82">
+<li><strong>Asset</strong>: It is a thing that can provide value
+generally for more than a year. For example, a Laptop
+computer.</li>
+<li><strong>Component</strong>: It refers to a functional part of an
+Asset. For example, a GPU card is a component that goes
+into a Desktop.</li>
+<li><strong>Consumable</strong>: It is a thing whose ability to deliver
+value gets exhausted within a short period, generally
+less than a year. For example, a Printer’s toner
+cartridge.</li>
+<li><strong>Others</strong>: Anything that doesn’t fall in the above
+three Types.</li>
+</ol>
+</li>
+<li><p class="first"><strong>Category</strong>: Here you have to make a selection between an IT and
+Non-IT Asset. Learn <a class="reference external" href="#_What_are_IT">the difference between an IT and Non-IT
+Asset</a>.</p>
+</li>
+<li><p class="first"><strong>Description</strong>: A short description of the Product Type.</p>
+<p>After filling the details hit <strong>Save</strong> to create the Product
+Type.</p>
+</li>
+</ol>
+</li>
+</ol>
+<p><strong>Editing a Product Type</strong></p>
+<p><a class="reference internal" href="admin\media/image155.png"><img alt="image157" src="admin\media/image155.png" style="width: 5.95556in; height: 1.0247in;" /></a></p>
+<p>Figure 146</p>
+<p><em>Note: You can only change the description of the predefined Product
+Types. None of the predefined Product Types can be deleted.</em></p>
+<ul class="simple">
+<li>Go to <strong>Admin</strong> (A Navigation Tab)&gt;&gt; <strong>Product Types</strong> (Asset
+Management).</li>
+<li>In the Product Types page, click on the Edit Icon adjacent to the
+Product Type you want to edit.</li>
+<li>Perform your edits in the Edit Product Type dialog box and hit
+<strong>Update</strong>.</li>
+</ul>
+<p>In the Product Types page, click on the Delete Icon adjacent to the
+Product Type that you want to delete. On confirmation, the Product Type
+gets deleted.</p>
+</div>
+<div class="section" id="rdp-configuration">
+<h2>RDP Configuration<a class="headerlink" href="#rdp-configuration" title="Permalink to this headline">¶</a></h2>
+<p>Remote Desktop is the ability of a computer to remotely connect to
+another computer and control it as if the user were in front of the
+remote machine. Remote access is generally done utilizing an
+application.</p>
+<p>You can remotely connect and control workstations in the CMDB using our
+Agent application. Currently, Remote Desktop works on workstations
+having either Windows or Ubuntu OS and brought in by an Agent.</p>
+<div class="section" id="turning-rdp-on">
+<h3>Turning RDP On<a class="headerlink" href="#turning-rdp-on" title="Permalink to this headline">¶</a></h3>
+<p>Before you can initiate a remote session, you have to turn on the RDP
+from Admin:</p>
+<ul>
+<li><p class="first">Go to <strong>Admin</strong> &gt;&gt; <strong>RDP Configuration</strong> (Asset Management).</p>
+<p><a class="reference internal" href="admin\media/image156.png"><img alt="image158" src="admin\media/image156.png" style="width: 3.15541in; height: 3.12569in;" /></a></p>
+</li>
+</ul>
+<p>Figure 147</p>
+<ul>
+<li><p class="first">The RDP Configuration dialog box opens. There toggle <strong>Enable RDP</strong>
+on.</p>
+<p><a class="reference internal" href="admin\media/image157.png"><img alt="image159" src="admin\media/image157.png" style="width: 4.03125in; height: 1.73202in;" /></a></p>
+</li>
+</ul>
+<p>Figure 148</p>
+<ul class="simple">
+<li>If you are facing a problem in establishing a connection with some
+Agents then you can use the Fix RDP option in RDP Configuration
+dialog box to fix all available connections.</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Customization</a><ul>
+<li><a class="reference internal" href="#status">Status</a><ul>
+<li><a class="reference internal" href="#predefined-status">Predefined Status</a></li>
+<li><a class="reference internal" href="#add-custom-status">Add Custom Status</a></li>
+<li><a class="reference internal" href="#rearrange-custom-status">Rearrange Custom Status</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#business-services-in-problem-management">Business Services in Problem Management</a><ul>
+<li><a class="reference internal" href="#add-business-services">Add Business Services</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#templates">Templates</a><ul>
+<li><a class="reference internal" href="#add-a-template">Add a Template</a></li>
+<li><a class="reference internal" href="#edit-request-templates">Edit Request Templates</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#custom-fields">Custom Fields</a><ul>
+<li><a class="reference internal" href="#add-a-custom-field">Add a Custom Field</a></li>
+<li><a class="reference internal" href="#edit-custom-fields">Edit Custom Fields</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#category">Category</a><ul>
+<li><a class="reference internal" href="#predefined-categories">Predefined categories</a></li>
+<li><a class="reference internal" href="#add-a-category">Add a Category</a></li>
+<li><a class="reference internal" href="#edit-category">Edit Category</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#custom-rules">Custom Rules</a><ul>
+<li><a class="reference internal" href="#request">Request</a></li>
+<li><a class="reference internal" href="#problem">Problem</a></li>
+<li><a class="reference internal" href="#change">Change</a></li>
+<li><a class="reference internal" href="#asset">Asset</a></li>
+<li><a class="reference internal" href="#knowledge">Knowledge</a></li>
+<li><a class="reference internal" href="#remote-deployment">Remote Deployment:</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#setting-up-helpdesk">Setting Up Helpdesk</a><ul>
+<li><a class="reference internal" href="#email-command-settings">Email Command Settings</a><ul>
+<li><a class="reference internal" href="#setting-up-email-command"><strong>Setting Up Email Command</strong>:</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#request-feedback-settings">Request Feedback Settings</a></li>
+<li><a class="reference internal" href="#priority-matrix">Priority Matrix</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#patch-package-deployment">Patch/Package Deployment</a><ul>
+<li><a class="reference internal" href="#patch-custom-rules">Patch Custom Rules</a></li>
+<li><a class="reference internal" href="#share-drive-configuration">Share Drive Configuration</a></li>
+<li><a class="reference internal" href="#system-health-configuration">System Health Configuration</a><ul>
+<li><a class="reference internal" href="#system-health-settings">System Health Settings</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#endpoint-scope">Endpoint Scope</a><ul>
+<li><a class="reference internal" href="#add-computers-to-a-scope">Add Computers to a Scope</a></li>
+<li><a class="reference internal" href="#preview-computer-list">Preview Computer List</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#approval-settings">Approval Settings</a><ul>
+<li><a class="reference internal" href="#patch-approval-setting-selecting-an-approval-method">Patch Approval Setting (Selecting an Approval Method)</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#asset-management">Asset Management</a><ul>
+<li><a class="reference internal" href="#adding-custom-asset-types">Adding Custom Asset Types</a></li>
+<li><a class="reference internal" href="#adding-an-asset-group">Adding an Asset Group</a></li>
+<li><a class="reference internal" href="#software-type">Software Type</a><ul>
+<li><a class="reference internal" href="#adding-a-software-type">Adding a Software Type:</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#adding-a-manufacturer">Adding a Manufacturer</a></li>
+<li><a class="reference internal" href="#barcode-configuration">Barcode Configuration</a></li>
+<li><a class="reference internal" href="#adding-a-product-type">Adding a Product Type</a></li>
+<li><a class="reference internal" href="#rdp-configuration">RDP Configuration</a><ul>
+<li><a class="reference internal" href="#turning-rdp-on">Turning RDP On</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/admin/administration-manual.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="nav-item nav-item-0"><a href="../index.html">ITSM Product Documentation 2.0.0 documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2018, Flotomate Technologies Private Limited.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.7.5.
+    </div>
+  </body>
+</html>

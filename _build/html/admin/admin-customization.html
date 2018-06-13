@@ -1,0 +1,870 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Customization &#8212; ITSM Product Documentation 2.0.0 documentation</title>
+    <link rel="stylesheet" href="../_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Setting Up Helpdesk" href="setting-up-helpdesk.html" />
+    <link rel="prev" title="Organization" href="admin-organization.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="setting-up-helpdesk.html" title="Setting Up Helpdesk"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="admin-organization.html" title="Organization"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">ITSM Product Documentation 2.0.0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" accesskey="U">Administration Manual</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="customization">
+<h1>Customization<a class="headerlink" href="#customization" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="status">
+<h2>Status<a class="headerlink" href="#status" title="Permalink to this headline">¶</a></h2>
+<p>Status show the stage of a Request, Problem, Change and an Asset in
+their respective process flow. Statuses are essential in managing the
+life-cycle of tickets and CIs in the Flotomate. A lot of automatic
+processes can be created based on the Status of a ticket.</p>
+<p>We have predefined Statuses for each of the ticket types and Assets.
+Along with pre-defined Statuses, you can add custom Statuses.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Setting Custom Status requires administrative rights.</p>
+</div>
+<div class="figure align-center" id="adf-85-1">
+<img alt="figure 85.1" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-85.1.png" />
+</div>
+<div class="figure align-center" id="adf-85-2">
+<img alt="figure 85.2" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-85.2.png" />
+</div>
+<div class="section" id="predefined-status">
+<h3>Predefined Status<a class="headerlink" href="#predefined-status" title="Permalink to this headline">¶</a></h3>
+<p>Flotomate has predefined Statuses which are immutable. They coexist with
+custom Statuses. They are as follows:</p>
+<ul>
+<li><p class="first"><strong>Request</strong>:</p>
+<p>Here Statuses show the life-cycle of a Request.</p>
+<ol class="loweralpha simple">
+<li>Open</li>
+<li>Pending On Requestor</li>
+<li>Pending in Approval</li>
+<li>Pending On Technician</li>
+<li>Resolved</li>
+<li>Closed</li>
+</ol>
+</li>
+<li><p class="first"><strong>Problem</strong>:</p>
+<p>Here Statuses show the life-cycle of a Request.</p>
+<ol class="loweralpha simple">
+<li>Open</li>
+<li>Pending On Requestor</li>
+<li>Pending in Approval</li>
+<li>Pending On Technician</li>
+<li>Resolved</li>
+<li>Closed</li>
+</ol>
+</li>
+<li><p class="first"><strong>Change</strong>:</p>
+<p>Here each status is part of a stage in a Change process.</p>
+<ol class="loweralpha">
+<li><p class="first">Submitted:</p>
+<ol class="lowerroman simple">
+<li>Requested</li>
+<li>Rejected</li>
+<li>Accepted</li>
+</ol>
+</li>
+<li><p class="first">Planning:</p>
+<ol class="lowerroman simple">
+<li>In Progress</li>
+<li>Canceled</li>
+</ol>
+<ol class="lowerroman simple" start="2">
+<li>Completed</li>
+</ol>
+</li>
+<li><p class="first">Approval:</p>
+<ol class="lowerroman simple">
+<li>Pending</li>
+<li>Rejected</li>
+<li>Approved</li>
+</ol>
+</li>
+<li><p class="first">Implementation:</p>
+<ol class="lowerroman simple">
+<li>In Progress</li>
+<li>Rejected</li>
+<li>Completed</li>
+</ol>
+</li>
+<li><p class="first">In Review:</p>
+<ol class="lowerroman simple">
+<li>In Progress</li>
+<li>Failed</li>
+<li>Completed</li>
+</ol>
+</li>
+</ol>
+</li>
+<li><p class="first"><strong>Asset</strong>:</p>
+<p>Here statuses reflect the state of an Asset.</p>
+<ol class="loweralpha simple">
+<li>In Use</li>
+<li>Missing</li>
+<li>Retired</li>
+</ol>
+</li>
+</ul>
+</div>
+<div class="section" id="add-custom-status">
+<h3>Add Custom Status<a class="headerlink" href="#add-custom-status" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Go to <strong>Admin</strong> &gt;&gt; <strong>(Request, Problem, Change or Asset) Custom
+Status</strong>.</li>
+</ul>
+<div class="figure align-center" id="adf-86">
+<img alt="figure 86" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-86.png" />
+</div>
+<ul class="simple">
+<li>Select a Status Type.</li>
+</ul>
+<div class="figure align-center" id="adf-87">
+<img alt="figure 87" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-87.png" />
+</div>
+<ul class="simple">
+<li>Use the Plus Icon to add a custom Status. You can add multiple
+Statuses.</li>
+</ul>
+<div class="figure align-center" id="adf-88">
+<img alt="figure 88" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-88.png" />
+</div>
+</div>
+<div class="section" id="rearrange-custom-status">
+<h3>Rearrange Custom Status<a class="headerlink" href="#rearrange-custom-status" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Go to the <strong>Custom Status</strong> page.</li>
+<li>You can change the order of custom Statuses in all type by drag and
+drop.</li>
+</ul>
+<div class="figure align-center" id="adf-89">
+<img alt="figure 89" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-89.png" />
+</div>
+</div>
+</div>
+<div class="section" id="business-services-in-problem-management">
+<h2>Business Services in Problem Management<a class="headerlink" href="#business-services-in-problem-management" title="Permalink to this headline">¶</a></h2>
+<p>Flotomate allows you to add a list of business deliverables (services)
+of your organization. You can describe each and every business service
+that you add.</p>
+<p>In the product, a Technician can highlight the impact of a Problem by
+associating it with a Business Service.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Managing Business Services requires administrative rights.</p>
+</div>
+<p><strong>View Business Services</strong></p>
+<ul class="simple">
+<li>Go to <strong>Admin</strong> &gt;&gt; <strong>Business Services</strong> (Problem Management).</li>
+<li>In the <strong>Business Services</strong> page, you can view all your existing
+business service descriptions, if any.</li>
+</ul>
+<div class="figure align-center" id="adf-90">
+<img alt="figure 90" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-90.png" />
+</div>
+<div class="section" id="add-business-services">
+<h3>Add Business Services<a class="headerlink" href="#add-business-services" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Go to the <strong>Business Services</strong> page.</li>
+<li>Click <strong>Add Business Service</strong> button situated in the top right
+corner of the page.</li>
+</ul>
+<div class="figure align-center" id="adf-91">
+<img alt="figure 91" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-91.png" />
+</div>
+<ul class="simple">
+<li>Fill the Name and Description fields and click on <strong>Add</strong>.</li>
+<li>In the <strong>Business Services</strong> page, you can edit any business
+description using the Edit Icon or delete using the Delete icon.</li>
+</ul>
+<div class="figure align-center" id="adf-92">
+<img alt="figure 92" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-92.png" />
+</div>
+</div>
+</div>
+<div class="section" id="templates">
+<h2>Templates<a class="headerlink" href="#templates" title="Permalink to this headline">¶</a></h2>
+<p>Templates in Flotomate allows you to quickly fill the create form of
+Request, Problem, and Change. You can create templates for each of the
+ticket types, and your users can use them while creating a Request,
+Problem or Change.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Managing templates requires administrative rights.</p>
+</div>
+<div class="section" id="add-a-template">
+<h3>Add a Template<a class="headerlink" href="#add-a-template" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Go to <strong>Admin</strong> &gt;&gt; (Request, Problem or Change) Templates.</li>
+</ul>
+<div class="figure align-center" id="adf-93">
+<img alt="figure 93" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-93.png" />
+</div>
+<ul>
+<li><p class="first">In the new page, you can view your existing templates. To add a new
+one, click on <strong>Create a (Request, Problem, or Change) Template</strong> in
+the top right corner.</p>
+</li>
+<li><p class="first">A dialog box opens where you can pre-define the following things:</p>
+<blockquote>
+<div><div class="figure align-center" id="adf-94">
+<img alt="figure 94" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-94.png" />
+</div>
+<ol class="loweralpha">
+<li><p class="first"><strong>Request</strong>:</p>
+<blockquote>
+<div><ol class="lowerroman simple">
+<li>The subject of a Request.</li>
+<li>Status, Urgency, and Impact of a Request.</li>
+<li>Tags of a Request.</li>
+<li>Category of a Request.</li>
+<li>Description of a Request.</li>
+</ol>
+</div></blockquote>
+</li>
+<li><p class="first"><strong>Problem</strong>:</p>
+<blockquote>
+<div><ol class="lowerroman simple">
+<li>Subject to a Problem</li>
+<li>Whether a Problem is known or not.</li>
+<li>Status, Urgency, Nature of Problem and Impact of a Problem.</li>
+<li>Tags of a Problem.</li>
+<li>Category of a Problem.</li>
+<li>Description of a Problem.</li>
+</ol>
+</div></blockquote>
+</li>
+<li><p class="first"><strong>Change</strong>:</p>
+<blockquote>
+<div><ol class="lowerroman simple">
+<li>The subject of a Change.</li>
+<li>Status, Urgency, Risk, Change Type and Impact of a Change.</li>
+<li>Tags of a Change.</li>
+<li>Category of a Change.</li>
+<li>Description of a Change.</li>
+</ol>
+</div></blockquote>
+</li>
+</ol>
+</div></blockquote>
+</li>
+</ul>
+</div>
+<div class="section" id="edit-request-templates">
+<h3>Edit Request Templates<a class="headerlink" href="#edit-request-templates" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Go to <strong>(Request, Problem or Change) Templates</strong> page</li>
+<li>Click the Edit-Icon adjacent to a template to open a dialog box.</li>
+<li>Make your changes and hit <strong>Update</strong>. You are taken back to the
+<strong>Templates</strong> page</li>
+<li>Delete any template using the Delete Icon next to the Edit Icon.</li>
+</ul>
+</div>
+</div>
+<div class="section" id="custom-fields">
+<h2>Custom Fields<a class="headerlink" href="#custom-fields" title="Permalink to this headline">¶</a></h2>
+<p>Custom fields are additional fields added by a user. They can appear
+while creating a ticket, and in the details view of a ticket and CI.
+Custom fields can be added to Requests, Problems, Changes, and Assets.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Adding Custom Fields requires administrative rights.</p>
+</div>
+<div class="section" id="add-a-custom-field">
+<h3>Add a Custom Field<a class="headerlink" href="#add-a-custom-field" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Go to <strong>Admin</strong> &gt;&gt; <strong>(Request, Problem, Change or Asset) Custom
+Fields</strong>.</li>
+</ul>
+<div class="figure align-center" id="adf-95">
+<img alt="figure 95" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-95.png" />
+</div>
+<ul class="simple">
+<li>In the <strong>Custom Fields</strong> page, you can view your existing custom
+fields for each module, if any.</li>
+</ul>
+<div class="figure align-center" id="adf-96">
+<img alt="figure 96" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-96.png" />
+</div>
+<ul>
+<li><p class="first">Regardless of the module, you can only have two types of fields: Text
+Field and Selection Field. A Text field has a label and an input area
+for a value, and a Selection Field has a label and an input area
+with a drop-down list of values.</p>
+<p>Anywhere, you can have both Text-Field and Selection-Field. You start
+adding fields using the <strong>Add</strong> button.</p>
+<blockquote>
+<div><table border="1" class="docutils">
+<colgroup>
+<col width="45%" />
+<col width="55%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Text Field</td>
+<td><ul class="first last">
+<li><p class="first">Field Label is the name of the
+field and appears above the
+field.</p>
+</li>
+<li><p class="first">Default Value always appears
+in the field before being
+edited.</p>
+<div class="figure align-center" id="adf-97">
+<img alt="figure 97" src="https://bit.ly/2t1fs3u" />
+</div>
+</li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td>Selection Field</td>
+<td><ul class="first last">
+<li><p class="first">You can have one Field Label
+but multiple options.</p>
+</li>
+<li><p class="first">Use the Plus Icon to add more
+options</p>
+</li>
+<li><p class="first">The options are shown as a
+list.</p>
+</li>
+<li><p class="first">You can select an option to be
+the default value. Default
+Value always appears in the
+field before being edited.</p>
+</li>
+<li><p class="first">You can change the Default
+Values’.</p>
+<blockquote>
+<div><div class="figure align-center" id="adf-98">
+<img alt="figure 98" src="https://bit.ly/2JBPyOI" />
+</div>
+</div></blockquote>
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+</li>
+<li><p class="first">Custom fields have a different behavior across the types.</p>
+<blockquote>
+<div><ol class="loweralpha simple">
+<li><strong>Request</strong>:</li>
+</ol>
+<blockquote>
+<div><ol class="lowerroman">
+<li><p class="first">You can show a custom field in <strong>Create a Request</strong> form.</p>
+<blockquote>
+<div><div class="figure align-center" id="adf-99">
+<img alt="figure 99" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-99.png" />
+</div>
+</div></blockquote>
+<p>For example, we have created a field called Employee ID in <a class="reference internal" href="#adf-99"><span class="std std-numref">Fig. 141</span></a>.</p>
+</li>
+<li><p class="first">New fields appear in the Work tab of a Request.</p>
+</li>
+</ol>
+<blockquote>
+<div><div class="figure align-center" id="adf-100">
+<img alt="figure 100" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-100.png" />
+</div>
+</div></blockquote>
+<ol class="lowerroman simple" start="3">
+<li>You can make a field compulsory for certain Statuses. For
+example, if a field is compulsory in Open Status, then you cannot
+keep the field empty when changing to another Status.</li>
+</ol>
+</div></blockquote>
+<ol class="loweralpha simple" start="2">
+<li><strong>Problem</strong>:</li>
+</ol>
+<blockquote>
+<div><ol class="lowerroman simple">
+<li><dl class="first docutils">
+<dt>All custom fields appear in the <strong>Custom Fields</strong> tab under</dt>
+<dd><strong>Analysis</strong>.</dd>
+</dl>
+</li>
+</ol>
+<blockquote>
+<div><div class="figure align-center" id="adf-101">
+<img alt="figure 101" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-101.png" />
+</div>
+</div></blockquote>
+<ol class="lowerroman simple" start="2">
+<li>You can make a field compulsory for certain Statuses. For example,
+if a field is compulsory in Open Status, then you cannot keep the
+field empty when changing to another Status</li>
+</ol>
+</div></blockquote>
+<ol class="loweralpha simple" start="3">
+<li><strong>Change</strong>:</li>
+</ol>
+<blockquote>
+<div><ol class="lowerroman simple">
+<li>You can add a field to a particular stage of a Change.</li>
+</ol>
+<blockquote>
+<div><div class="figure align-center" id="adf-102">
+<img alt="figure 102" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-102.png" />
+</div>
+</div></blockquote>
+<ol class="lowerroman simple" start="2">
+<li>You can mark a field as compulsory at a particular stage.</li>
+<li>Fields appear in a separate section called Custom Fields.</li>
+</ol>
+<blockquote>
+<div><div class="figure align-center" id="adf-103">
+<img alt="figure 103" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-103.png" />
+</div>
+</div></blockquote>
+</div></blockquote>
+<ol class="loweralpha simple" start="4">
+<li><strong>Asset</strong>:</li>
+</ol>
+<blockquote>
+<div><ol class="lowerroman simple">
+<li>You add a field either to an Asset Type or a particular
+sub-type.</li>
+<li>Within a type, you can either make the field appear in Property</li>
+</ol>
+<blockquote>
+<div><p>section or Component section. Please refer to the Asset
+Management manual to learn more.</p>
+</div></blockquote>
+</div></blockquote>
+</div></blockquote>
+</li>
+</ul>
+</div>
+<div class="section" id="edit-custom-fields">
+<h3>Edit Custom Fields<a class="headerlink" href="#edit-custom-fields" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Go to the <span class="xref std std-ref">Custom Fields</span> page.</li>
+<li>.You can change the name of a custom field using the Edit Icon or
+delete it using the Delete Icon.</li>
+</ul>
+<div class="figure align-center" id="adf-104">
+<img alt="figure 104" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-104.png" />
+</div>
+</div>
+</div>
+<div class="section" id="category">
+<h2>Category<a class="headerlink" href="#category" title="Permalink to this headline">¶</a></h2>
+<p>The category is one of many categorization features we have. You can use
+category for delegation, workflow design, or any other categorization
+function required by your organization. You can have Categories for
+Request, Problem, Change, Project, and Software.</p>
+<div class="section" id="predefined-categories">
+<h3>Predefined categories<a class="headerlink" href="#predefined-categories" title="Permalink to this headline">¶</a></h3>
+<p>Flotomate comes pre-loaded with the following Categories:</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><strong>Request</strong></td>
+<td><ul class="first simple">
+<li>Service Request</li>
+<li>Incident</li>
+</ul>
+<p class="last">You can change the name of the
+above categories but not the
+Category Key.</p>
+</td>
+</tr>
+<tr class="row-even"><td><strong>Problem</strong></td>
+<td><ul class="first simple">
+<li>General</li>
+<li>Hardware</li>
+<li>Software</li>
+<li>Network</li>
+<li>IT Administration</li>
+</ul>
+<p class="last">You can change the name of the
+above Categories.</p>
+</td>
+</tr>
+<tr class="row-odd"><td><strong>Change</strong></td>
+<td><ul class="first simple">
+<li>General</li>
+<li>Process</li>
+<li>Hardware</li>
+<li>Software</li>
+<li>Network</li>
+<li>Security</li>
+</ul>
+<p class="last">You can change the name of the
+above Categories.</p>
+</td>
+</tr>
+<tr class="row-even"><td><strong>Project</strong></td>
+<td><ul class="first simple">
+<li>Business</li>
+<li>Maintenance</li>
+<li>Infrastructure</li>
+<li>Research</li>
+</ul>
+<p class="last">You can change the name of the
+above Categories.</p>
+</td>
+</tr>
+<tr class="row-odd"><td><strong>Software</strong></td>
+<td><ul class="first simple">
+<li>A/C</li>
+<li>DB</li>
+<li>Development</li>
+<li>Game</li>
+<li>Graphics</li>
+<li>Internet</li>
+<li>Multi-Media</li>
+<li>Operating System</li>
+<li>Others.</li>
+</ul>
+<p class="last">You can modify or delete the
+above categories.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="add-a-category">
+<h3>Add a Category<a class="headerlink" href="#add-a-category" title="Permalink to this headline">¶</a></h3>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Adding a category requires you to have access to the Admin section.</p>
+</div>
+<ul class="simple">
+<li>Go to <strong>Admin</strong> &gt;&gt; <strong>(Request, Problem, Change, Project or
+Software)</strong> <strong>Categories</strong>.</li>
+</ul>
+<div class="figure align-center" id="adf-105">
+<img alt="figure 105" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-105.png" />
+</div>
+<ul class="simple">
+<li>In Request, Problem, Change, and Project, you can add a Category and
+its Sub-Categories up to level three. In Software, you can have only
+standalone Categories.</li>
+<li>In the leftmost column, you can add a level one Category using the
+<strong>Add</strong> button. Clicking on a Category activates its right side
+Sub-Category column where you can add another Category.</li>
+<li>In Request, you are asked for a Category Key when adding a new
+Category. This is used as a prefix to the ID of a Request.</li>
+</ul>
+<div class="figure align-center" id="adf-106">
+<img alt="figure 106" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-106.png" />
+</div>
+</div>
+<div class="section" id="edit-category">
+<h3>Edit Category<a class="headerlink" href="#edit-category" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Go to <strong>Categories</strong> page<strong>.</strong></li>
+<li>You can change the name of a Category using the Edit icon.</li>
+</ul>
+<div class="figure align-center" id="adf-107">
+<img alt="figure 107" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-107.png" />
+</div>
+<ul class="simple">
+<li>You can only delete Categories in Software. In other types, you have
+to turn a Category off.</li>
+</ul>
+</div>
+</div>
+<div class="section" id="custom-rules">
+<h2>Custom Rules<a class="headerlink" href="#custom-rules" title="Permalink to this headline">¶</a></h2>
+<p>Using Custom Rules, you can set pre-requisites that need to be done
+before performing certain actions. You can have Custom Rules for
+Request, Problem, Change, Knowledge and Remote Deployment.</p>
+<p>To Open Custom Rules:</p>
+<ul class="simple">
+<li>Go to <strong>Admin</strong> &gt;&gt; <strong>(Request, Problem, Change, Knowledge or Patch)
+Custom Rules</strong>.</li>
+</ul>
+<div class="figure align-center" id="adf-108-1">
+<img alt="figure 108.1" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-108.1.png" />
+</div>
+<div class="figure align-center" id="adf-108-2">
+<img alt="figure 108.2" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-108.2.png" />
+</div>
+<p>Current Custom Rules are as follows:</p>
+<div class="section" id="request">
+<h3>Request<a class="headerlink" href="#request" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><strong>Before resolving a Request</strong>:<ol class="loweralpha">
+<li>User Interaction:<ol class="lowerroman">
+<li>Should have at least one message in Ask Requestor tab.</li>
+<li>A Request should have at least one note.</li>
+<li>Should have at least one solution.</li>
+</ol>
+</li>
+<li>Mandatory fields:<ol class="lowerroman">
+<li>Should have an assigned Technician.</li>
+<li>Should have a Location.</li>
+<li>Should have an Estimated Time.</li>
+<li>Should have a Diagnosis.</li>
+<li>Should have a Source.</li>
+<li>Should have Approval status as either Approved or Pre-Approved.</li>
+</ol>
+</li>
+<li>Should have all Tasks as closed.</li>
+</ol>
+</li>
+<li><strong>Before closing a Request</strong>:<ol class="loweralpha">
+<li>Same as before resolving a Request.</li>
+<li>Should not skip Resolve status.</li>
+</ol>
+</li>
+<li><strong>Required to add a Note before</strong>:<ol class="loweralpha">
+<li>Should add a Note to a Request before performing the following
+actions:<ol class="lowerroman">
+<li>Changing assigned Technician of a Request.</li>
+<li>Changing Support Level of a Request.</li>
+<li>Changing Due Date of a Request.</li>
+<li>Changing Category of a Request.</li>
+<li>Changing Department of a Request.</li>
+<li>Changing Priority of a Request.</li>
+</ol>
+</li>
+</ol>
+</li>
+</ul>
+</div>
+<div class="section" id="problem">
+<h3>Problem<a class="headerlink" href="#problem" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><strong>Before resolving a Request</strong>:<ol class="loweralpha">
+<li>User Interaction:<ol class="lowerroman">
+<li>A Request should have at least one note.</li>
+<li>Should have at least one solution.</li>
+</ol>
+</li>
+<li>Mandatory fields:<ol class="lowerroman">
+<li>Should have an assigned Technician.</li>
+<li>Should have a Location.</li>
+<li>Should have a Root Cause.</li>
+<li>Should have a Symptom.</li>
+<li>Should have an Impact.</li>
+<li>Should have Approval status as either Approved or Pre-Approved.</li>
+</ol>
+</li>
+<li>Should have all Tasks as closed.</li>
+</ol>
+</li>
+<li><strong>Before closing a Request</strong>:<ol class="loweralpha">
+<li>Same as before resolving a Request.</li>
+<li>Should not skip Resolve status.</li>
+</ol>
+</li>
+<li><strong>Required to add a Note before</strong>:<ol class="loweralpha">
+<li>Should add a Note before performing the following actions:<ol class="lowerroman">
+<li>Changing assigned Technician.</li>
+<li>Changing Due Date.</li>
+<li>Changing Category.</li>
+<li>Changing Department.</li>
+</ol>
+</li>
+</ol>
+</li>
+</ul>
+</div>
+<div class="section" id="change">
+<h3>Change<a class="headerlink" href="#change" title="Permalink to this headline">¶</a></h3>
+<p>You can set rules for each stage of a change process.</p>
+<ul class="simple">
+<li><strong>Submit</strong>:<ol class="loweralpha">
+<li>Should have a Change Manager.</li>
+<li>Should have an assigned Technician.</li>
+<li>Should have a Location.</li>
+</ol>
+</li>
+<li><strong>Planning</strong>:<ol class="loweralpha">
+<li>Should have schedule and rollout dates.</li>
+<li>Should have a rollout plan.</li>
+<li>Should have an assigned Technician.</li>
+<li>Should have set impact.</li>
+<li>Should have a Backout plan.</li>
+</ol>
+</li>
+<li><strong>Implementation</strong>:<ol class="loweralpha">
+<li>Should have a change implementer.</li>
+<li>All task must be closed before moving to the next stage.</li>
+<li>Should have an assigned Technician.</li>
+</ol>
+</li>
+<li><strong>In Review:</strong><ol class="loweralpha">
+<li>Should have a change reviewer.</li>
+<li>Should have an assigned Technician.</li>
+</ol>
+</li>
+<li><strong>Require Note befor</strong>e:<ol class="loweralpha">
+<li>Changing category.</li>
+<li>Changing assigned Technician.</li>
+<li>Changing Department.</li>
+<li>Changing Location.</li>
+</ol>
+</li>
+</ul>
+</div>
+<div class="section" id="asset">
+<h3>Asset<a class="headerlink" href="#asset" title="Permalink to this headline">¶</a></h3>
+<ul>
+<li><p class="first">Manual Update:</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Asset rules are applicable for both discovered and manually created Assets.</p>
+</div>
+<ol class="loweralpha simple">
+<li>Whether to allow Technicians to update Hardware Components of an
+Asset.</li>
+<li>Whether to allow Technicians to update Software Components of an
+Asset.</li>
+<li>Whether to allow Technicians to update Users details of an Asset.</li>
+</ol>
+</li>
+</ul>
+</div>
+<div class="section" id="knowledge">
+<h3>Knowledge<a class="headerlink" href="#knowledge" title="Permalink to this headline">¶</a></h3>
+<p>Whether Knowledge should be approved by approvers before publishing.</p>
+</div>
+<div class="section" id="remote-deployment">
+<h3>Remote Deployment:<a class="headerlink" href="#remote-deployment" title="Permalink to this headline">¶</a></h3>
+<p>Whether a deployment of Patches and Packages needs to go through an
+Approval process.</p>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Customization</a><ul>
+<li><a class="reference internal" href="#status">Status</a><ul>
+<li><a class="reference internal" href="#predefined-status">Predefined Status</a></li>
+<li><a class="reference internal" href="#add-custom-status">Add Custom Status</a></li>
+<li><a class="reference internal" href="#rearrange-custom-status">Rearrange Custom Status</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#business-services-in-problem-management">Business Services in Problem Management</a><ul>
+<li><a class="reference internal" href="#add-business-services">Add Business Services</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#templates">Templates</a><ul>
+<li><a class="reference internal" href="#add-a-template">Add a Template</a></li>
+<li><a class="reference internal" href="#edit-request-templates">Edit Request Templates</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#custom-fields">Custom Fields</a><ul>
+<li><a class="reference internal" href="#add-a-custom-field">Add a Custom Field</a></li>
+<li><a class="reference internal" href="#edit-custom-fields">Edit Custom Fields</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#category">Category</a><ul>
+<li><a class="reference internal" href="#predefined-categories">Predefined categories</a></li>
+<li><a class="reference internal" href="#add-a-category">Add a Category</a></li>
+<li><a class="reference internal" href="#edit-category">Edit Category</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#custom-rules">Custom Rules</a><ul>
+<li><a class="reference internal" href="#request">Request</a></li>
+<li><a class="reference internal" href="#problem">Problem</a></li>
+<li><a class="reference internal" href="#change">Change</a></li>
+<li><a class="reference internal" href="#asset">Asset</a></li>
+<li><a class="reference internal" href="#knowledge">Knowledge</a></li>
+<li><a class="reference internal" href="#remote-deployment">Remote Deployment:</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="admin-organization.html"
+                        title="previous chapter">Organization</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="setting-up-helpdesk.html"
+                        title="next chapter">Setting Up Helpdesk</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/admin/admin-customization.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="setting-up-helpdesk.html" title="Setting Up Helpdesk"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="admin-organization.html" title="Organization"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">ITSM Product Documentation 2.0.0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" >Administration Manual</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2018, Flotomate Technologies Private Limited.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.7.5.
+    </div>
+  </body>
+</html>

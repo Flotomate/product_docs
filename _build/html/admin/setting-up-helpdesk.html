@@ -1,0 +1,215 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Setting Up Helpdesk &#8212; ITSM Product Documentation 2.0.0 documentation</title>
+    <link rel="stylesheet" href="../_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Patch/Package Deployment" href="patch-package-deployment.html" />
+    <link rel="prev" title="Customization" href="admin-customization.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="patch-package-deployment.html" title="Patch/Package Deployment"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="admin-customization.html" title="Customization"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">ITSM Product Documentation 2.0.0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" accesskey="U">Administration Manual</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="setting-up-helpdesk">
+<h1>Setting Up Helpdesk<a class="headerlink" href="#setting-up-helpdesk" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="email-command-settings">
+<h2>Email Command Settings<a class="headerlink" href="#email-command-settings" title="Permalink to this headline">¶</a></h2>
+<p>You can change the details of a <strong>Request</strong> remotely using an email.
+Along with changing details, you can also add a note to a Request.</p>
+<p>You create an email command tag, and you have to enclose your Request
+details within the email command tags along with [[<strong>Request</strong> Id]] in
+the subject field.</p>
+<div class="section" id="setting-up-email-command">
+<h3>Setting Up Email Command:<a class="headerlink" href="#setting-up-email-command" title="Permalink to this headline">¶</a></h3>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Whatever parameters you want to change, you have to have the
+necessary permissions in your role.</p>
+</div>
+<ol class="arabic simple">
+<li>Go to <strong>Admin</strong> &gt;&gt; <strong>Email Command Settings</strong> (Helpdesk).</li>
+<li>The Email Command Settings dialog box opens. You can change only the
+details in Available Commands of a Request. Add your email command
+in the Email Command field.</li>
+</ol>
+<div class="figure align-center" id="adf-109">
+<img alt="figure 109" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-109.png" />
+</div>
+<ol class="arabic simple" start="3">
+<li>The Subject and Content section of the page gives you a preview of
+how to format an email to change a Request. The Request Id has to be
+in the subject section, and whatever you write in the email body,
+other than the command line, appears under collaborate in the
+Request details page(<a class="reference internal" href="#adf-110"><span class="std std-numref">Fig. 153</span></a>).</li>
+</ol>
+<div class="figure align-center" id="adf-110">
+<img alt="figure 110" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-110.png" />
+</div>
+</div>
+</div>
+<div class="section" id="request-feedback-settings">
+<h2>Request Feedback Settings<a class="headerlink" href="#request-feedback-settings" title="Permalink to this headline">¶</a></h2>
+<p>You can send an email to a Requestor of a Request asking for a Feedback.
+The email contains a link to the feedback form. You can choose whether
+to send the link with the Resolved and Closed email notification or send
+it manually in a separate email.</p>
+<ul class="simple">
+<li>Go to <strong>Admin</strong> &gt;&gt; <strong>Request Feedback Settings</strong> (Helpdesk).</li>
+</ul>
+<div class="figure align-center" id="adf-111">
+<img alt="figure 111" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-111.png" />
+</div>
+<ul class="simple">
+<li>You can automatically send a feedback link to a Requestor in the
+following ways:<ol class="loweralpha">
+<li><strong>Resolving a Request</strong>: If you toggle the Resolved button on, a
+feedback link is sent with the email notification on Resolving a
+Request.</li>
+<li><strong>Closing a Request</strong>: If you toggle the Closed button on, a
+feedback link is sent with the email notification on Closing a
+Request.</li>
+</ol>
+</li>
+<li>If you turn <strong>Send feedback manually</strong> button on, then you can send a
+feedback link to a Requester from the Details View of a Request.</li>
+</ul>
+<div class="figure align-center" id="adf-112-1">
+<img alt="figure 112.1" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-112.1.png" />
+</div>
+<div class="figure align-center" id="adf-112-2">
+<img alt="figure 112.2" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-112.2.png" />
+</div>
+<ul class="simple">
+<li>On clicking on a feedback link you get following page:</li>
+</ul>
+<div class="figure align-center" id="adf-113">
+<img alt="figure 113" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-113.png" />
+</div>
+</div>
+<div class="section" id="priority-matrix">
+<h2>Priority Matrix<a class="headerlink" href="#priority-matrix" title="Permalink to this headline">¶</a></h2>
+<p>In the product, Priority is a way to set the importance of a Request
+ticket. A Technician can set the Priority of a Request manually or
+automatically using the Priority Matrix feature.</p>
+<p><strong>To open Priority Matrix:</strong></p>
+<ul class="simple">
+<li>Go to <strong>Admin</strong> (A Navigation Tab) &gt;&gt; <strong>Priority Matrix</strong> (in
+Helpdesk). The Priority Matrix page opens.</li>
+</ul>
+<div class="figure align-center" id="adf-114">
+<img alt="figure 114" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-114.png" />
+</div>
+<p>The Priority Matrix is a matrix with the column head having the Urgency
+values and rows having the Impact values. For example, if you want to
+set the Priority for Urgency <strong>Low</strong> and Impact <strong>On Department</strong> as
+<strong>High</strong> then you have to set the following row column value:</p>
+<div class="figure align-center" id="adf-115">
+<img alt="figure 115" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-115.png" />
+</div>
+<p>This way you have to set the values for all row and column combinations.
+The system automatically sets the Priority of a Request based on the
+matrix. You can decide whether you want users to override the set
+Priority using the toggle (<a class="reference internal" href="#adf-114"><span class="std std-numref">Fig. 158</span></a>).</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Setting Up Helpdesk</a><ul>
+<li><a class="reference internal" href="#email-command-settings">Email Command Settings</a><ul>
+<li><a class="reference internal" href="#setting-up-email-command">Setting Up Email Command:</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#request-feedback-settings">Request Feedback Settings</a></li>
+<li><a class="reference internal" href="#priority-matrix">Priority Matrix</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="admin-customization.html"
+                        title="previous chapter">Customization</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="patch-package-deployment.html"
+                        title="next chapter">Patch/Package Deployment</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/admin/setting-up-helpdesk.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="patch-package-deployment.html" title="Patch/Package Deployment"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="admin-customization.html" title="Customization"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">ITSM Product Documentation 2.0.0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" >Administration Manual</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2018, Flotomate Technologies Private Limited.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.7.5.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,1039 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>User Management &#8212; ITSM Product Documentation 2.0.0 documentation</title>
+    <link rel="stylesheet" href="../_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Automation" href="admin-automation.html" />
+    <link rel="prev" title="Introduction (Administration)" href="admin-introduction.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="admin-automation.html" title="Automation"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="admin-introduction.html" title="Introduction (Administration)"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">ITSM Product Documentation 2.0.0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" accesskey="U">Administration Manual</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="user-management">
+<h1>User Management<a class="headerlink" href="#user-management" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="manage-requestors">
+<h2>Manage Requestors<a class="headerlink" href="#manage-requestors" title="Permalink to this headline">¶</a></h2>
+<p>The Requestors are people who are seeking information, change or
+solution to a problem through our platform. They are the users of the
+product, and almost all of the product features are geared towards
+delivering IT services to Requestors. So it is important to manage their
+information in the product.</p>
+<p>Flotomate allows you to add Requestors individually and bulk upload
+through LDAP server synchronization. Once uploaded, you can manage them
+from the Admin section.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">All Technician are Requestors by default and enjoy their rights and permissions, and even more.</p>
+</div>
+<p><strong>Open Requestors Page</strong></p>
+<p>The Requestors page is where you can add, view, update and delete
+Requestors in the product.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">You need to have admin rights or be a Super User to add and modify Requestors.</p>
+</div>
+<ol class="arabic simple">
+<li>Log in to Flotomate, and go to <strong>Admin</strong> from the Navigation Tabs</li>
+</ol>
+<div class="figure align-center" id="adf-3">
+<img alt="figure 3" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-3.png" />
+</div>
+<ol class="arabic simple" start="2">
+<li>Search Requestors in the search bar or you can directly go to
+<strong>Requestors</strong> under Users. Clicking on <strong>Requestors</strong> opens the
+Requestors page.</li>
+<li>Here you see all the Requestors in the product if any.</li>
+</ol>
+<div class="figure align-center" id="adf-4">
+<img alt="figure 4" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-4.png" />
+</div>
+<p>You see only the Super User in the Requestor list when you log in for
+the first time; new names get populated in the list as you add more
+Requestors.</p>
+<div class="section" id="add-requestors-individually">
+<h3>Add Requestors Individually<a class="headerlink" href="#add-requestors-individually" title="Permalink to this headline">¶</a></h3>
+<p>You can add Requestors individually by entering their details.</p>
+<p><span class="xref std std-ref">Who are Requestors?</span></p>
+<ul class="simple">
+<li>Go to <strong>Admin</strong> &gt;&gt; <strong>Requestors</strong> (Users).</li>
+<li>On the <strong>Requestors</strong> page, click <strong>Add</strong> <strong>Requestor</strong> situated in
+the top right corner of the page. You get the <strong>Add</strong> <strong>Requestor</strong>
+dialog box.</li>
+<li>Fill in the details of the new Requestor along with a password. You
+can mark a Requestor as VIP if he/she is a critical person in the
+organization. This gives him/her the following benefits:<ol class="loweralpha">
+<li>Tickets created by him/her have the VIP label. They are treated
+with priority by the Technicians.</li>
+<li>Specific Workflows, SLAs, and Reports can be created for VIPs.</li>
+</ol>
+</li>
+<li>When you are done filling in the details, hit <strong>Add</strong>.</li>
+</ul>
+<div class="figure align-center" id="adf-5">
+<img alt="figure 5" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-5.png" />
+</div>
+<p>You can edit the details of Requestors created manually or imported
+through CSV. You cannot edit Requestors imported via LDAP.</p>
+<ul>
+<li><p class="first">In the Requestors page, <span class="xref std std-ref">Search</span> for the
+Requestor that you want to edit.</p>
+</li>
+<li><p class="first">Click on the Edit Icon adjacent to the Requestor. The Edit Requestor
+dialog box opens.</p>
+<blockquote>
+<div><div class="figure align-center" id="adf-6">
+<img alt="figure 6" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-6.png" />
+</div>
+</div></blockquote>
+</li>
+<li><p class="first">Perform your edits and hit <strong>Update</strong>.</p>
+</li>
+</ul>
+<p>You can delete Requestors created manually, imported through CSV or
+imported via LDAP.</p>
+<ul class="simple">
+<li><span class="xref std std-ref">Search</span> for the Requestor that you want to
+delete.</li>
+<li>Click on the Delete Icon adjacent to the Requestor. On Confirmation,
+the Requestor is deleted.</li>
+</ul>
+<div class="figure align-center" id="adf-7">
+<img alt="figure 7" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-7.png" />
+</div>
+</div>
+<div class="section" id="import-requestors-using-csv">
+<h3>Import Requestors Using CSV<a class="headerlink" href="#import-requestors-using-csv" title="Permalink to this headline">¶</a></h3>
+<p>In an organization there could be hundreds or thousands of Requestors;
+in that case, adding them individually is not feasible. The tool allows
+you to import Requestors from a CSV (Comma Separated Values) file into
+the system; this makes the uploading process much faster.</p>
+<p>To upload Requestors from a CSV follow the below steps:</p>
+<ul>
+<li><p class="first">Create a CSV file with the following property names in the first row
+(heading).</p>
+<ol class="loweralpha simple">
+<li>Department</li>
+</ol>
+<ol class="loweralpha simple" start="4">
+<li>Location</li>
+</ol>
+<ol class="loweralpha simple" start="3">
+<li>Name</li>
+<li>Contact No.</li>
+<li>Email</li>
+<li>Password</li>
+</ol>
+<p>If you do not use the property names mentioned above, then you
+have to manually match your names with the system property names
+mentioned above.</p>
+<p>Name, Email, and Password are required columns.</p>
+</li>
+<li><p class="first">In the CSV file, input the Requestor details under their respective
+heads. Each row should represent a single Requestor.</p>
+</li>
+<li><p class="first">Go to the <span class="xref std std-ref">Requestors</span> page. Click on settings
+and select <strong>Import from CSV</strong>.</p>
+</li>
+</ul>
+<div class="figure align-center" id="adf-8">
+<img alt="figure 8" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-8.png" />
+</div>
+<ul class="simple">
+<li>Import page opens. Upload the CSV file and click <strong>Next</strong>.</li>
+</ul>
+<div class="figure align-center" id="adf-9">
+<img alt="figure 9" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-9.png" />
+</div>
+<ul>
+<li><p class="first">Now you are in the <strong>Column Mapping</strong> stage. Every item in the first
+row (heading) is a name of a property. The system automatically
+matches the names in the file heading with the property names in the
+system.</p>
+<p>In <a class="reference internal" href="#adf-9"><span class="std std-numref">Fig. 48</span></a>, the left side column has the system property names and
+right side column has the property names in the CSV file.</p>
+<p>In case a property name does not have a match, the right-hand side
+field of the name remains empty. Here you have to manually select the
+matching name from a drop-down list by clicking on the field.</p>
+<blockquote>
+<div><div class="figure align-center" id="adf-10">
+<img alt="figure 10" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-10.png" />
+</div>
+</div></blockquote>
+<p>It is not necessary that all the property names have to have a match;
+you can still upload your Requestors as long as required fields are
+taken care off. Click <strong>Next</strong> to continue to the next stage.</p>
+</li>
+<li><p class="first">Now you are in the <strong>Unmatched Value Mapping</strong> stage. The given
+property names in the header have values (rows). The system checks
+for property values that aren’t in the system.</p>
+<blockquote>
+<div><div class="figure align-center" id="adf-11">
+<img alt="figure 11" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-11.png" />
+</div>
+</div></blockquote>
+<p>You can manually assign a value from the Possible Values (system values)
+to an Unmatched Value (value in the file). Click <strong>Next</strong> to continue to
+the next step.</p>
+</li>
+<li><p class="first">Now you are in the <strong>Review</strong> stage. Here you see the number of
+Requestors being uploaded. Click <strong>Import</strong> to finish the import
+process.</p>
+</li>
+</ul>
+<div class="figure align-center" id="adf-12">
+<img alt="figure 12" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-12.png" />
+</div>
+</div>
+<div class="section" id="import-requestors-using-ldap">
+<h3>Import Requestors Using LDAP<a class="headerlink" href="#import-requestors-using-ldap" title="Permalink to this headline">¶</a></h3>
+<p>Some organizations maintain their employee information in a distributed
+directory information service. Microsoft Active Directory. If your
+organization uses one, then you can import Requestors directly into the
+product using the LDAP protocol.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">You need admin rights to add Requestors using LDAP.</p>
+</div>
+<p>Once <span class="xref std std-ref">LDAP server is configured</span>, you can start
+importing Requestors:</p>
+<ol class="arabic simple">
+<li>Go to <strong>Admin</strong> &gt;&gt; <strong>LDAP Configuration</strong> (IT Infrastructure).</li>
+<li>Select the LDAP server from where you want to import. You see an
+option called <strong>Import</strong> <strong>Users</strong>, click it.</li>
+</ol>
+<div class="figure align-center" id="adf-13">
+<img alt="figure 13" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-13.png" />
+</div>
+<ol class="arabic simple" start="3">
+<li>On clicking <strong>Import Users</strong>, you get a confirmation dialog box
+stating whether the import was successful or not.</li>
+</ol>
+</div>
+<div class="section" id="search-for-a-requestor">
+<h3>Search for a Requestor<a class="headerlink" href="#search-for-a-requestor" title="Permalink to this headline">¶</a></h3>
+<p>The <span class="xref std std-ref">Requestors</span> page has a search box for
+searching Requestors. The search box uses Advanced Search features.</p>
+<ul class="simple">
+<li>Go to <span class="xref std std-ref">Requestors</span>.</li>
+<li>In the search box, you can search for a Requestor using five search
+options. Click on the search box to access the search options.</li>
+</ul>
+<div class="figure align-center" id="adf-14">
+<img alt="figure 14" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-14.png" />
+</div>
+<ul>
+<li><p class="first">You can create a filter using multiple search options. For example,
+we have the following search query for finding all the VIP Requestors
+in the marketing department.</p>
+<blockquote>
+<div><div class="figure align-center" id="adf-15">
+<img alt="figure 15" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-15.png" />
+</div>
+</div></blockquote>
+<p>Some search options have predefined values to choose from.</p>
+</li>
+</ul>
+</div>
+<div class="section" id="convert-a-requestor-to-technician">
+<h3>Convert a Requestor to Technician<a class="headerlink" href="#convert-a-requestor-to-technician" title="Permalink to this headline">¶</a></h3>
+<p>You can convert an existing Requestor into a Technician; this is the
+fastest way to add Technicians into the product. It works on Requestors
+created manually, imported through CSV or imported via LDAP. In case of
+Requestors from LDAP, you cannot edit their details after converting
+them to Technicians.</p>
+<ul class="simple">
+<li>Go to <strong>Admin</strong> &gt;&gt; <span class="xref std std-ref">Requestor</span> (Users).</li>
+<li><span class="xref std std-ref">Search</span> for the Requestor that you want to
+convert.</li>
+<li>Click on the Action Menu adjacent to the Requestor. Select <strong>Convert
+to Technician</strong> from the pop-up menu. Add Technician dialog box
+opens.</li>
+</ul>
+<div class="figure align-center" id="adf-16">
+<img alt="figure 16" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-16.png" />
+</div>
+<div class="figure align-center" id="adf-17">
+<img alt="figure 17" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-17.png" />
+</div>
+<ul class="simple">
+<li>In the Add Technician dialog box, the Technician details are
+pre-populated in their respective fields (Name, Email, and
+Department); apart from these fields, you have to enter the following
+information:<ol class="loweralpha">
+<li>Role/Roles as a Technician. This determines the rights and
+permissions of the Technician. Learn more about <span class="xref std std-ref">Roles of a
+Technician</span>.</li>
+<li>You can explicitly mention the support level. Technicians are
+grouped into four levels (tiers) based on their degree of
+expertise.</li>
+<li><a class="reference internal" href="admin-organization.html#location"><span class="std std-ref">Location</span></a> of the Technician.</li>
+</ol>
+</li>
+<li>When you are done, hit <strong>Add</strong>.</li>
+</ul>
+</div>
+<div class="section" id="block-a-requestor">
+<h3>Block a Requestor<a class="headerlink" href="#block-a-requestor" title="Permalink to this headline">¶</a></h3>
+<p>Sometimes it may happen that you want to prevent certain Requestors from
+accessing the product. You can block a Requestor and also who is a
+Technician.</p>
+<p>You can block Requestors created manually, imported through CSV or
+imported via LDAP. Blocked Requestors cannot log in to the system.</p>
+<ul class="simple">
+<li>Go to <strong>Admin</strong> &gt;&gt; <span class="xref std std-ref">Requestor</span> (Users)</li>
+<li><span class="xref std std-ref">Search</span> for the Requestor that you want to
+block.</li>
+<li>Click on the Block Icon adjacent to the Requestor. On Confirmation,
+the Requestor is blocked.</li>
+</ul>
+<div class="figure align-center" id="adf-18">
+<img alt="figure 18" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-18.png" />
+</div>
+<p><strong>Unblock Requestor</strong></p>
+<ul class="simple">
+<li>In the Requestor page, you know a Requestor is blocked when you see
+that the Block Icon is red.</li>
+<li>Click on the red Block Icon. On confirmation, the Requestor is
+unblocked.</li>
+</ul>
+</div>
+<div class="section" id="delete-requestors-in-bulk">
+<h3>Delete Requestors in Bulk<a class="headerlink" href="#delete-requestors-in-bulk" title="Permalink to this headline">¶</a></h3>
+<p>You can delete multiple Requestors at once from the <span class="xref std std-ref">Requestors
+page</span>. Select one or more Requestors. The
+<strong>Archive</strong> button appears above the display pane.</p>
+<div class="figure align-center" id="adf-19">
+<img alt="figure 19" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-19.png" />
+</div>
+<p>Clicking on Archive deletes the selected Requestors after confirmation.</p>
+</div>
+</div>
+<div class="section" id="requestor-groups">
+<h2>Requestor Groups<a class="headerlink" href="#requestor-groups" title="Permalink to this headline">¶</a></h2>
+<p>Flotomate allows you to create groups of Requestors. Grouping is a way
+to classify Requestors based on certain criteria.</p>
+<p>One use of creating groups is in communication:</p>
+<ul class="simple">
+<li>You can send an email notification to a Requestor Group about a
+ticket. All members of the group receives the email.</li>
+<li>You can email an Announcement to a Requestor Group.</li>
+<li>You can keep a Requestor Group as a watcher for a ticket (Request or
+Problem). Watchers receive ticket related emails.</li>
+<li>You can send a Knowledge Article/FAQ to a Requestor Group.</li>
+</ul>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">You need admin rights to create and modify Requestor Groups.</p>
+</div>
+<div class="section" id="add-a-requestor-group">
+<h3>Add a Requestor Group<a class="headerlink" href="#add-a-requestor-group" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li>Go to <strong>Admin</strong> &gt;&gt; <strong>Requestor Groups</strong> (Users).</li>
+<li>The Requestor Groups page opens. Here you get to see all the groups
+in the product if any. Click on <strong>Create a Requestor Group</strong> situated
+in the top right corner of the page.</li>
+</ol>
+<div class="figure align-center" id="adf-20">
+<img alt="figure 20" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-20.png" />
+</div>
+<ol class="arabic" start="3">
+<li><p class="first">In the new page, give a name and a description of the group. You can
+manually add group members from the Select Users field. In case there
+are many members, we have the option of setting conditions using the
+<strong>Select a Parameter</strong> field based on that Requestors are added
+automatically. You can set conditions based on three criteria:</p>
+<blockquote>
+<div><table border="1" class="docutils">
+<colgroup>
+<col width="39%" />
+<col width="61%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Requestor Department</td>
+<td>Department info from LDAP server</td>
+</tr>
+<tr class="row-even"><td>Department ID</td>
+<td>System departments</td>
+</tr>
+<tr class="row-odd"><td>Location</td>
+<td>System locations</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+</li>
+</ol>
+<div class="figure align-center" id="adf-21">
+<img alt="figure 21" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-21.png" />
+</div>
+<ol class="arabic" start="4">
+<li><p class="first">You can set a single condition or have multiple conditions in
+different condition groups. A condition group can have maximum two
+conditions.</p>
+<p>You have to define the relationship between conditions in a group
+using either AND or OR. In case there are multiple groups, then you
+have to define the relationship between them as well.</p>
+<p>Use <strong>Add Condition Group</strong> button to add groups. The plus icon adds
+conditions to a group, and the delete icon deletes them.</p>
+<p>Use the <strong>Preview</strong> button to preview Requestors who are going to be
+added to a different page.</p>
+</li>
+<li><p class="first">Click on <strong>Create</strong> to add the group.</p>
+</li>
+</ol>
+<p>Go to Requestor Groups page. Click the Edit Icon adjacent to the group
+that you want to edit. Make the changes and hit <strong>Update</strong>. You can
+delete the group by clicking <strong>Delete</strong>.</p>
+<p>You can also delete a group using the Delete Icon from the Requestors
+Groups page.</p>
+<div class="figure align-center" id="adf-22">
+<img alt="figure 22" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-22.png" />
+</div>
+</div>
+</div>
+<div class="section" id="managing-technician">
+<h2>Managing Technician<a class="headerlink" href="#managing-technician" title="Permalink to this headline">¶</a></h2>
+<p>A Technician is a person who delivers IT services by having certain
+rights to perform activities spanning across product administration,
+request handling, knowledge management, problem handling, change
+management, reporting, remote deployment, project management and asset
+monitoring. The extent of activities depends on the role/roles of a
+Technician.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Managing Technician requires you to have admin rights.</p>
+</div>
+<div class="section" id="add-view-technicians">
+<h3>Add/View Technicians<a class="headerlink" href="#add-view-technicians" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li>Log in to your Dashboard and click <strong>Admin</strong> from the Navigation
+tabs.</li>
+<li>Click on <strong>Technicians</strong> in Users. You are directed to the
+Technicians page. Here you can view all current Technicians in the
+system if any. By default, the superuser is on the list before you
+even start adding anyone.</li>
+</ol>
+<div class="figure align-center" id="adf-23">
+<img alt="figure 23" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-23.png" />
+</div>
+<ol class="arabic simple" start="3">
+<li>Click <strong>Add Technician</strong> button situated in the top right corner of
+the page. The <strong>Add Technician</strong> dialog box opens.</li>
+</ol>
+<div class="figure align-center" id="adf-24">
+<img alt="figure 24" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-24.png" />
+</div>
+<ol class="arabic simple" start="4">
+<li>In the Add Technician dialog box you have to input the following
+information:<ol class="loweralpha">
+<li>Name of the Technician.</li>
+<li>Email ID of the Technician.</li>
+<li>Password for the Technician to log in to the system.</li>
+<li>The department to which the Technician is associated. This is not
+a mandatory field. Departments are added from a drop-down menu.
+Learn how to add a <a class="reference internal" href="admin-organization.html#departments"><span class="std std-ref">department</span></a> to the
+product.</li>
+<li>Roles of the Technician. This defines the rights and permissions
+of the Technician. Learn how to <span class="xref std std-ref">create custom
+roles</span>.</li>
+<li>There are four support levels to choose from; you can select all
+four. Defining the levels of a Technician is a way to quantify
+his/her capabilities. Some tickets have a defined tier which tells
+that only a Technician of that tier (level) should handle it. This
+is not a mandatory field.</li>
+<li>Add the location of the Technician. Learn <a class="reference internal" href="admin-organization.html#location"><span class="std std-ref">how to add a
+location</span></a> to the product.</li>
+</ol>
+</li>
+<li>Hit <strong>Add</strong> to register a new Technician.</li>
+</ol>
+</div>
+<div class="section" id="update-a-technicians-info">
+<h3>Update a Technician’s Info<a class="headerlink" href="#update-a-technicians-info" title="Permalink to this headline">¶</a></h3>
+<p>Flotomate provides the <strong>Edit Technician</strong> dialog box for easy
+modification of a Technician’s info.</p>
+<p><span class="xref std std-ref">Learn who is Technician?</span></p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">You need to have administrative rights to view and modify Technician details.</p>
+</div>
+<ul class="simple">
+<li>.Go to <strong>Admin</strong> (A Navigation tab) &gt;&gt; <strong>Technicians</strong> (Users)</li>
+<li>Click the Edit Icon (refer <a class="reference internal" href="#adf-23"><span class="std std-numref">Fig. 62</span></a>) adjacent to the Technician, or
+click on the name, that you want to edit. The <strong>Edit Technician</strong>
+dialog box opens.</li>
+<li>In the Edit Technician dialog box, edit the fields that you want to
+change. Update your changes before closing the dialog box.</li>
+</ul>
+<div class="figure align-center" id="adf-25">
+<img alt="figure 25" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-25.png" />
+</div>
+<div class="section" id="role-of-a-technician">
+<h4>Role of a Technician<a class="headerlink" href="#role-of-a-technician" title="Permalink to this headline">¶</a></h4>
+<p>A Technician can have multiple roles. Each role has its rights. Click
+the Roles field in Edit Technician dialog box (<a class="reference internal" href="#adf-25"><span class="std std-numref">Fig. 64</span></a>)<strong>;</strong> select
+the roles applicable to the person and hit <strong>Update</strong> to make the
+changes.</p>
+<p>Learn <span class="xref std std-ref">how to add new roles</span>.</p>
+</div>
+<div class="section" id="change-support-level">
+<h4>Change Support Level<a class="headerlink" href="#change-support-level" title="Permalink to this headline">¶</a></h4>
+<p>There are four support levels to choose from; you can select all four.
+Defining the levels of a Technician is a way to quantify his/her
+capabilities. Some tickets have a defined tier which tells that only a
+Technician of that tier (level) should handle it.</p>
+<p>A Technician can have support levels. Click the Support Level field in
+Edit Technician dialog box (<a class="reference internal" href="#adf-25"><span class="std std-numref">Fig. 64</span></a>)<strong>;</strong> select the tiers
+applicable to the person and hit <strong>Update</strong>.</p>
+</div>
+<div class="section" id="reset-password-of-a-technician">
+<h4>Reset Password of a Technician<a class="headerlink" href="#reset-password-of-a-technician" title="Permalink to this headline">¶</a></h4>
+<p>Resetting the password of a Technician is very easy. Click the <strong>Reset Password button</strong> (refer <a class="reference internal" href="#adf-25"><span class="std std-numref">Fig. 64</span></a>).
+Click <strong>yes</strong> to confirm; a password reset link is sent to the Technician’s email address.</p>
+</div>
+</div>
+</div>
+<div class="section" id="technical-groups">
+<h2>Technical Groups<a class="headerlink" href="#technical-groups" title="Permalink to this headline">¶</a></h2>
+<p>You can group Technicians into separate <strong>Technician Groups.</strong> It is a
+way to classify Technicians; for example, people who work with databases
+can be grouped into a Technician Group called Database. There’s no limit
+to the number of <strong>Technician Groups</strong> you can create.</p>
+<p>Few use cases of having Technician Groups are:</p>
+<ul class="simple">
+<li>You can associate a ticket (Request, Problem or Change) with a
+particular Technician Group; this tells the product/users that the
+ticket should be handled by a Technician of that group.</li>
+<li>You can send notifications to a Technician Group regarding a ticket.</li>
+<li>You can send an Announcement through email to a Technician Group.</li>
+<li>Change in Technician Group of a Request can trigger an automatic
+process.</li>
+</ul>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">You need to have administrative rights to view and modify Technician Group details.</p>
+</div>
+<div class="section" id="create-a-new-technical-group">
+<h3>Create a New Technical Group<a class="headerlink" href="#create-a-new-technical-group" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Log in to your Dashboard and click <strong>Admin</strong> from the Navigation
+Tabs.</li>
+<li>Click on Technician Groups in Users. The Technician Groups page
+opens.</li>
+</ul>
+<div class="figure align-center" id="adf-26">
+<img alt="figure 26" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-26.png" />
+</div>
+<ul class="simple">
+<li>Click on <strong>Create a Technician Group</strong> button situated in the top
+right corner of <a class="reference internal" href="#adf-26"><span class="std std-numref">Fig. 65</span></a>.</li>
+<li>In the new dialog box, give the group a name, description and add the
+technicians in the Users field.</li>
+<li>Click on <strong>Create</strong> to create the group.</li>
+</ul>
+</div>
+<div class="section" id="modify-technician-group">
+<h3>Modify Technician Group<a class="headerlink" href="#modify-technician-group" title="Permalink to this headline">¶</a></h3>
+<p>Flotomate provides an easy way to modify existing <strong>Technician Groups</strong>.</p>
+<p>To modify an existing group:</p>
+<ul class="simple">
+<li>Go to <strong>Admin</strong> &gt;&gt; <strong>Technician Groups</strong> in Users.</li>
+<li>Click the Edit icon adjacent to the group that you want to edit
+(refer <a class="reference internal" href="#adf-26"><span class="std std-numref">Fig. 65</span></a>)</li>
+<li>In the Edit Technician Group dialog box, edit the information that
+you want to change and save your changes before closing the dialog
+box.</li>
+</ul>
+<p>You can delete any group by hitting the Delete icon adjacent to the
+group that you want to delete.</p>
+</div>
+</div>
+<div class="section" id="technician-roles">
+<h2>Technician Roles<a class="headerlink" href="#technician-roles" title="Permalink to this headline">¶</a></h2>
+<p>Every Technician is different, so we have roles to give them different
+rights and permissions. Each role is unique, and out of the box we have
+seven roles in the system; you cannot modify the permissions and rights
+of these roles. However, you can add custom roles where you can set the
+permissions and rights; there’s no limit to the number of custom roles
+that you can create.</p>
+<p>Using Roles you can control the CRUD operations a Technician can perform
+across the following modules:</p>
+<ul class="simple">
+<li>Request</li>
+<li>Problem</li>
+<li>Change</li>
+<li>Project</li>
+<li>Patch</li>
+<li>Knowledge</li>
+<li>Asset</li>
+<li>Admin</li>
+</ul>
+<div class="section" id="default-roles">
+<h3>Default Roles<a class="headerlink" href="#default-roles" title="Permalink to this headline">¶</a></h3>
+<p>Flotomate offers eight default roles with predefined permissions
+covering major ITSM processes.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Admin</td>
+<td>Service Desk
+Technician</td>
+<td>Problem Specialist
+Technician</td>
+</tr>
+<tr class="row-even"><td>Request Specialist
+Technician</td>
+<td>Problem Specialist
+Technician</td>
+<td>Change Specialist
+Technician</td>
+</tr>
+<tr class="row-odd"><td>Asset Specialist
+Technician</td>
+<td>Junior Technician</td>
+<td>&#160;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="add-view-roles">
+<h3>Add/View Roles<a class="headerlink" href="#add-view-roles" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>In the <strong>Admin</strong> section, you can view all the roles in Roles
+(in Users) page. Click any one role to view its permissions and rights.</li>
+</ul>
+<div class="figure align-center" id="adf-27">
+<img alt="figure 27" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-27.png" />
+</div>
+<ul>
+<li><p class="first">You add a custom role by going back to the <strong>Roles</strong> page and
+clicking <strong>Add Roles</strong> situated in the top right corner of the page.
+We have the permissions and rights grouped module wise. Click any one
+module to see its rights and permissions.</p>
+</li>
+<li><p class="first">Add a name to the role and a description. You can set the permissions
+and rights for every module.</p>
+<p>We have the following rights and permissions:</p>
+<blockquote>
+<div><table border="1" class="docutils">
+<colgroup>
+<col width="18%" />
+<col width="82%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Project</td>
+<td><ul class="first last simple">
+<li>Only view details of Projects</li>
+<li>Create &amp; Update Projects</li>
+<li>Delete Projects</li>
+<li>Manage Project milestones</li>
+<li>Closing a Project</li>
+<li>Manage Project Attachments</li>
+<li>Create Tasks in Project.</li>
+<li>Cancel a Project</li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td>Knowledge</td>
+<td><ul class="first last simple">
+<li>Create, update and delete Knowledge.</li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td>Request</td>
+<td><ul class="first last simple">
+<li>View, create, update and delete a Request.</li>
+<li>Communicate with Requestors.</li>
+<li>Mark a Request as spam.</li>
+<li>Assign a Technician to a Request.</li>
+<li>Update status of a Request.</li>
+<li>Close a Request</li>
+<li>Manage relationship in a Request.</li>
+<li>Add solution and tasks in a Request.</li>
+<li>Merge multiple Requests.</li>
+<li>Resolve a Request.</li>
+<li>Re-open a closed Request.</li>
+<li>Update priority of a Request.</li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td>Problem</td>
+<td><ul class="first last simple">
+<li>View, create, update and delete a Problem.</li>
+<li>Add solution to a Problem.</li>
+<li>Assign Technician to a Problem.</li>
+<li>Resolving a Problem.</li>
+<li>Re-opening a closed Problem.</li>
+<li>Create tasks in a Problem.</li>
+<li>Update status and priority in a Problem.</li>
+<li>Managing relationships in a Problem.</li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td>Change</td>
+<td><ul class="first last simple">
+<li>View, create, update and delete a Change.</li>
+<li>Creating tasks in a Change.</li>
+<li>Assign a Technician to a Change.</li>
+<li>Updating status and priority of a Change.</li>
+<li>Managing relationships in a Change.</li>
+<li>Closing and Re-opening a Change</li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td>Patch</td>
+<td><ul class="first last simple">
+<li>Manage Patches &amp; Packages</li>
+<li>View Patches &amp; Package.</li>
+<li>View Remote Deployment Policy.</li>
+<li>Manage Remote Deployment Policy.</li>
+<li>View Auto Patch Deployment Task.</li>
+<li>Manage Auto Patch Deployment Task.</li>
+<li>View Auto Patch Test Task.</li>
+<li>Manage Auto Patch Test Task.</li>
+<li>View Decline Patch Configuration.</li>
+<li>Manage Decline Patch Configuration.</li>
+<li>Permission to deploy Patches.</li>
+<li>Permission to ignore Patches.</li>
+<li>Permission to configure Packages for Patches.</li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td>Asset</td>
+<td><ul class="first last simple">
+<li>Managing Asset discovery and Administration.</li>
+<li>View, create, update and delete an Asset.</li>
+<li>Update status of Assets.</li>
+<li>Manage relationships of Assets.</li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td>Admin</td>
+<td><ul class="first last simple">
+<li>Manage organization.</li>
+<li>Manage automation in the product.</li>
+<li>Ignore approvers in an Approval process.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+</li>
+<li><p class="first">Once you are done with the permissions and rights, hit <strong>Create</strong> to
+create your new role.</p>
+</li>
+</ul>
+<p><strong>Modify Roles</strong></p>
+<p>You can go to the <strong>Roles</strong> page anytime and change the permissions and
+rights of the roles that you have created using the Edit Icon. Default
+roles cannot be modified.</p>
+</div>
+</div>
+<div class="section" id="helpdesk-security">
+<h2>Helpdesk Security<a class="headerlink" href="#helpdesk-security" title="Permalink to this headline">¶</a></h2>
+<p>This section of Admin controls how users log in to the product and the
+necessity of their credential when submitting a ticket.</p>
+<p>You can make sure that users can securely log into the customer portal
+with third party credentials using a SSO login . You can even make
+login an optional action before submitting a Request from the customer
+portal.</p>
+<div class="section" id="single-sign-on-configuration">
+<h3>Single Sign-On Configuration<a class="headerlink" href="#single-sign-on-configuration" title="Permalink to this headline">¶</a></h3>
+<p>Single Sign-On feature in Flotomate enables users to log in to the
+customer portal with third-party credentials. It creates a unifying
+experience for some users and saves time by not having to maintain
+multiple accounts.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">SSO Configuration requires administrative rights.</p>
+</div>
+<div class="section" id="activate-create-request-through-sso-login">
+<h4>Activate Create Request through SSO Login<a class="headerlink" href="#activate-create-request-through-sso-login" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li>Go to <strong>Admin</strong> (A Navigation tab) &gt;&gt; <strong>Helpdesk Security</strong> (Users).</li>
+</ul>
+<div class="figure align-center" id="adf-28">
+<img alt="figure 28" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-28.png" />
+</div>
+<ul class="simple">
+<li>In the new page, turn on the <strong>Allow Single Sign-On for User</strong>. Now
+you have to configure the SSO settings to use this feature.</li>
+</ul>
+</div>
+<div class="section" id="configure-simple-sso">
+<h4>Configure Simple SSO:<a class="headerlink" href="#configure-simple-sso" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li>Go to <strong>Admin</strong> &gt;&gt; <strong>Helpdesk Security</strong> (Users).</li>
+</ul>
+<div class="figure align-center" id="adf-29">
+<img alt="figure 29" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-29.png" />
+</div>
+<ul class="simple">
+<li>In the Simple SSO section, click on edit which makes the fields
+editable. Input the following information.<ol class="loweralpha">
+<li><strong>SSO Login URL</strong>: This is the URL of the third party web server
+where the authentication happens.</li>
+<li><strong>SSO Logout URL</strong>: Sending the Guest Requestor to this URL clears
+all session cookies, and the Guest is logged out.</li>
+<li><strong>SSO Shared Key</strong>: The key authenticates the identity of
+Flotomate during communication with third-party servers. You have
+to copy and put the key in the third party server.</li>
+</ol>
+</li>
+<li>Save your changes by hitting <strong>Update</strong>.</li>
+</ul>
+</div>
+<div class="section" id="configure-google-sso">
+<h4>Configure Google SSO<a class="headerlink" href="#configure-google-sso" title="Permalink to this headline">¶</a></h4>
+<p>People can log in to the customer portal using Google credentials.</p>
+<ul class="simple">
+<li>Go to <strong>Admin</strong> &gt;&gt; <strong>Helpdesk Security</strong> (Users).</li>
+</ul>
+<div class="figure align-center" id="adf-30">
+<img alt="figure 30" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-30.png" />
+</div>
+<ul class="simple">
+<li>Once you connect your AuthO client with Google, you are required to
+generate a Client ID. You need to put that Client ID in the Google
+Client ID field.</li>
+<li>Save your changes by clicking <strong>Update</strong>.</li>
+</ul>
+<p>On enabling SSO, an SSO Login button appears on your customer login
+page. You can enable/disable an SSO configuration anytime.</p>
+<div class="figure align-center" id="adf-31">
+<img alt="figure 31" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-31.png" />
+</div>
+</div>
+<div class="section" id="understanding-flow-of-an-sso-login">
+<h4>Understanding Flow of an SSO Login<a class="headerlink" href="#understanding-flow-of-an-sso-login" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li>A Requester who intends to log in to your customer portal and clicks
+on “<strong>SSO Login</strong>.”</li>
+<li>The requester is redirected to the Login URL (A SSO login page
+opens).</li>
+<li>Requester enters his/her application credential in the SSO login
+page.</li>
+<li>The SSO Login page authenticates credential from the application
+server.</li>
+<li>If the application server finds given credentials valid, it sends a
+generated “Hash” with a pre-shared key.</li>
+<li>Now, the Login page makes an authentication call against Flotomate
+server to obtain SSO Token.</li>
+<li>If authentication is successful, then the Flotomate server issues SSO
+token, and it redirects to Support portal as a logged in user.</li>
+</ul>
+</div>
+</div>
+<div class="section" id="allow-request-without-login">
+<h3>Allow Request without Login<a class="headerlink" href="#allow-request-without-login" title="Permalink to this headline">¶</a></h3>
+<p>Do you want your requesters to be logged in when they make a request, or
+you want them to create a request as a guest? Flotomate has the guest
+login feature for the latter.</p>
+<p>Guests, without a Requestor account, cannot view and manage their
+submitted Requests. Guest, with a Requestor account, can view their
+Requests in the <strong>My Request</strong> section.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Changing this option requires administrative rights.</p>
+</div>
+<p>To enable/disable this option:</p>
+<ul class="simple">
+<li>Go to <strong>Admin</strong> &gt;&gt; <strong>Helpdesk Security</strong> (Users).</li>
+</ul>
+<div class="figure align-center" id="adf-32">
+<img alt="figure 32" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-32.png" />
+</div>
+<ul class="simple">
+<li>Toggle <strong>Allow to Report Request without login</strong> to turn on/off the
+feature.</li>
+</ul>
+</div>
+</div>
+<div class="section" id="user-story">
+<h2>User Story<a class="headerlink" href="#user-story" title="Permalink to this headline">¶</a></h2>
+<p>Ravi is the IT manager at Acme Inc. He is implementing Flotomate
+Helpdesk in his company. Ravi has logged into the Dashboard as a
+superuser. For now, he wants to add 10 technicians to Flotomate.</p>
+<ul class="simple">
+<li>He goes to the admin section by clicking <strong>Admin</strong> from the
+Navigation tabs.</li>
+<li>He searches for <strong>Technicians</strong> in the search bar; he sees the
+<strong>Technicians</strong> option in Users and clicks it.</li>
+<li>He begins by adding Suraj; he fills the fields for Suraj.</li>
+</ul>
+<div class="figure align-center" id="adf-33">
+<img alt="figure 33" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-33.png" />
+</div>
+<ul class="simple">
+<li>He adds rest of the team by following the same process.</li>
+</ul>
+<p>Ravi realizes that he has accidentally added Mohan as a Technician.
+Again he goes to <strong>Technicians</strong> in Users. He finds Mohan and hits the
+Delete icon adjacent to his name; he has successfully deleted Mohan from
+the system.</p>
+<p>He has another task to do. He needs to change the Roles of a Technician
+name Naren. He quickly goes to the <strong>Edit Technician</strong> dialog box and
+updates his role.</p>
+<div class="figure align-center" id="adf-34">
+<img alt="figure 34" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-34.png" />
+</div>
+<p>Ravi knows that all his technicians are not the same. He wants to group
+them into different groups. Ravi remembers that Flotomate offers
+<strong>Technician Groups</strong>; he goes to <strong>Technicians Groups</strong> (Users) from
+<strong>Admin</strong>. He quickly adds a database group name Database and adds Naren
+and Amartya.</p>
+<div class="figure align-center" id="adf-35">
+<img alt="figure 35" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-35.png" />
+</div>
+<p>He can efficiently manage all the groups from the <strong>Technician Groups</strong>
+page. Now he is confident that he has aligned his company’s resources to
+meet its IT requirements.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">User Management</a><ul>
+<li><a class="reference internal" href="#manage-requestors">Manage Requestors</a><ul>
+<li><a class="reference internal" href="#add-requestors-individually">Add Requestors Individually</a></li>
+<li><a class="reference internal" href="#import-requestors-using-csv">Import Requestors Using CSV</a></li>
+<li><a class="reference internal" href="#import-requestors-using-ldap">Import Requestors Using LDAP</a></li>
+<li><a class="reference internal" href="#search-for-a-requestor">Search for a Requestor</a></li>
+<li><a class="reference internal" href="#convert-a-requestor-to-technician">Convert a Requestor to Technician</a></li>
+<li><a class="reference internal" href="#block-a-requestor">Block a Requestor</a></li>
+<li><a class="reference internal" href="#delete-requestors-in-bulk">Delete Requestors in Bulk</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#requestor-groups">Requestor Groups</a><ul>
+<li><a class="reference internal" href="#add-a-requestor-group">Add a Requestor Group</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#managing-technician">Managing Technician</a><ul>
+<li><a class="reference internal" href="#add-view-technicians">Add/View Technicians</a></li>
+<li><a class="reference internal" href="#update-a-technicians-info">Update a Technician’s Info</a><ul>
+<li><a class="reference internal" href="#role-of-a-technician">Role of a Technician</a></li>
+<li><a class="reference internal" href="#change-support-level">Change Support Level</a></li>
+<li><a class="reference internal" href="#reset-password-of-a-technician">Reset Password of a Technician</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#technical-groups">Technical Groups</a><ul>
+<li><a class="reference internal" href="#create-a-new-technical-group">Create a New Technical Group</a></li>
+<li><a class="reference internal" href="#modify-technician-group">Modify Technician Group</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#technician-roles">Technician Roles</a><ul>
+<li><a class="reference internal" href="#default-roles">Default Roles</a></li>
+<li><a class="reference internal" href="#add-view-roles">Add/View Roles</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#helpdesk-security">Helpdesk Security</a><ul>
+<li><a class="reference internal" href="#single-sign-on-configuration">Single Sign-On Configuration</a><ul>
+<li><a class="reference internal" href="#activate-create-request-through-sso-login">Activate Create Request through SSO Login</a></li>
+<li><a class="reference internal" href="#configure-simple-sso">Configure Simple SSO:</a></li>
+<li><a class="reference internal" href="#configure-google-sso">Configure Google SSO</a></li>
+<li><a class="reference internal" href="#understanding-flow-of-an-sso-login">Understanding Flow of an SSO Login</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#allow-request-without-login">Allow Request without Login</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#user-story">User Story</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="admin-introduction.html"
+                        title="previous chapter">Introduction (Administration)</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="admin-automation.html"
+                        title="next chapter">Automation</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/admin/admin-user-management.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="admin-automation.html" title="Automation"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="admin-introduction.html" title="Introduction (Administration)"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">ITSM Product Documentation 2.0.0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" >Administration Manual</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2018, Flotomate Technologies Private Limited.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.7.5.
+    </div>
+  </body>
+</html>

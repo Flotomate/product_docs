@@ -1,0 +1,229 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Ignoring a Patch &#8212; ITSM Product Documentation 2.0.0 documentation</title>
+    <link rel="stylesheet" href="../_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Deployment Requests" href="deployment-request.html" />
+    <link rel="prev" title="Patch Approval" href="patch-approval.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="deployment-request.html" title="Deployment Requests"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="patch-approval.html" title="Patch Approval"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">ITSM Product Documentation 2.0.0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" accesskey="U">Patch Management</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="ignoring-a-patch">
+<h1>Ignoring a Patch<a class="headerlink" href="#ignoring-a-patch" title="Permalink to this headline">¶</a></h1>
+<p>The idea of Patch Management revolves around security, enhancement, and
+compliance. Sometimes it may happen that specific Patches don’t comply
+with the idea of Patch Management. It becomes necessary to keep these
+Patches out from the IT infrastructure which might cause more trouble
+than any good.</p>
+<p>Our product allows you to ignore certain Patches for deployment.
+Ignoring a Patch has the following effects:</p>
+<ul class="simple">
+<li>An ignored Patch is segregated to a separate section called <strong>Ignored
+Patches</strong>.</li>
+<li>A Patch is overlooked by all automatic processes (Automatic Patch
+Deployment and Automatic Patch Test).</li>
+<li>An ignored Patch is overlooked even when it’s part of one or more
+Deployment Requests.</li>
+</ul>
+<p>There are two ways to ignore Patches: manual and automatic (<strong>Decline
+Patch Configuration</strong>)</p>
+<div class="section" id="manually-ignore-patches">
+<h2>Manually Ignore Patches<a class="headerlink" href="#manually-ignore-patches" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Go to the <a class="reference internal" href="manage-patches.html#patch-list-view"><span class="std std-ref">Patch List View</span></a>.</li>
+<li>Select the Patch/Patches that you want to ignore. The Ignore button appears above the list area.</li>
+</ul>
+<div class="figure align-center" id="pf-54">
+<img alt="figure 54" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-54.png" />
+</div>
+<ul class="simple">
+<li>Clicking the Ignore button opens a confirmation dialog box. On
+confirming, the selected Patches are sent to the ignored list.</li>
+</ul>
+<div class="figure align-center" id="pf-55">
+<img alt="figure 55" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-55.png" />
+</div>
+<ul class="simple">
+<li>You can also ignore a Patch from its <a class="reference internal" href="manage-patches.html#patch-details-view"><span class="std std-ref">Details View</span></a>.</li>
+</ul>
+<div class="figure align-center" id="pf-56">
+<img alt="figure 56" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-56.png" />
+</div>
+</div>
+<div class="section" id="id1">
+<h2>Decline Patch Configuration<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
+<p>Ignoring Patches is a vital security feature (<a class="reference internal" href="#manual-ignore-patch"><span class="std std-ref">Learn
+More</span></a>), and Decline Patch Configuration allows you
+to automate this process. The automatic feature works to ignore Patches
+for a specific set of Computers which is different from manual ignoring
+(where a Patch is ignored for all Computers).</p>
+<p>A decline configuration jumps into action whenever a Computer demands a
+Patch. It checks whether the Patch is part of any DC and updates the
+Patch database accordingly. Patches ignored automatically are also added
+to the global ignored list, but you can drill down to the specific
+Computers where they have been ignored using the product UI.</p>
+<p>We now create a Decline Patch Configuration that ignores Windows
+Defender updates for a Computer Group called Alpha.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">The maximum decline configurations you can create is ten.</p>
+</div>
+<ul class="simple">
+<li>We go to <strong>Patch</strong> from the <strong>Launcher</strong>.</li>
+<li>We select <strong>Decline Patch Configuration</strong> from the Patch menu.</li>
+</ul>
+<div class="figure align-center" id="pf-57">
+<img alt="figure 57" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-57.png" />
+</div>
+<ul class="simple">
+<li>The Decline Patch Configuration page opens. Here we can view all
+existing decline configurations. We click on <strong>Create Configuration</strong>
+situated in the top right corner of the page.</li>
+<li>The Create page opens. We provide a name, description and define the
+platform for the configuration.</li>
+</ul>
+<div class="figure align-center" id="pf-58">
+<img alt="figure 58" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-58.png" />
+</div>
+<ul class="simple">
+<li>Based on the platform selected, we see the Patches and application
+for selection.</li>
+</ul>
+<div class="figure align-center" id="pf-59">
+<img alt="figure 59" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-59.png" />
+</div>
+<ul>
+<li><p class="first">We select the application Windows Defender (<a class="reference internal" href="#pf-59"><span class="std std-numref">Fig. 469</span></a>). All existing
+and future Patches of Windows Defender for the Computer Group are
+ignored. We can also select individual Patches for ignoring or mix
+things up by using both application and Patches.</p>
+<p>When selecting an application, we can specify which severities to
+consider.</p>
+</li>
+</ul>
+<div class="figure align-center" id="pf-60-1">
+<img alt="figure 60.1" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-60.1.png" />
+</div>
+<div class="figure align-center" id="pf-60-2">
+<img alt="figure 60.2" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-60.2.png" />
+</div>
+<ul class="simple">
+<li>We select the Computer Group Alpha in the same way we selected the
+application. We can select multiple groups.</li>
+<li>We click on <strong>Create</strong> to save our configuration.</li>
+<li>Later we can edit the decline configuration from the Decline Patch
+Configuration page.</li>
+</ul>
+<div class="figure align-center" id="pf-61">
+<img alt="figure 61" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-61.png" />
+</div>
+</div>
+<div class="section" id="un-ignoring-patches">
+<h2>Un-Ignoring Patches<a class="headerlink" href="#un-ignoring-patches" title="Permalink to this headline">¶</a></h2>
+<p>You can un-ignore Patches that have been ignored; it doesn’t matter
+whether they have been manually ignored or by a decline configuration.</p>
+<p>The process of un-ignoring is same as <a class="reference internal" href="#manual-ignore-patch"><span class="std std-ref">manually ignoring a
+Patch</span></a> where instead Ignore button you get
+Un-Ignore button. When you ignore a Patch, it happens globally.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Ignoring a Patch</a><ul>
+<li><a class="reference internal" href="#manually-ignore-patches">Manually Ignore Patches</a></li>
+<li><a class="reference internal" href="#id1">Decline Patch Configuration</a></li>
+<li><a class="reference internal" href="#un-ignoring-patches">Un-Ignoring Patches</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="patch-approval.html"
+                        title="previous chapter">Patch Approval</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="deployment-request.html"
+                        title="next chapter">Deployment Requests</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/patch-management/ignore-patch.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="deployment-request.html" title="Deployment Requests"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="patch-approval.html" title="Patch Approval"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">ITSM Product Documentation 2.0.0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" >Patch Management</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2018, Flotomate Technologies Private Limited.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.7.5.
+    </div>
+  </body>
+</html>

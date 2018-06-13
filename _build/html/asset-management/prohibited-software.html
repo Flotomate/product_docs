@@ -1,0 +1,216 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Prohibited Software &#8212; ITSM Product Documentation 2.0.0 documentation</title>
+    <link rel="stylesheet" href="../_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="nav-item nav-item-0"><a href="../index.html">ITSM Product Documentation 2.0.0 documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="prohibited-software">
+<h1>Prohibited Software<a class="headerlink" href="#prohibited-software" title="Permalink to this headline">¶</a></h1>
+<p>In an organization, there could be restrictions on the kind of Software
+that can be used. For example, torrent clients are prohibited at most
+workplaces.</p>
+<p>Flotomate has a default Software Type called Prohibited, which can be
+used to flag certain Software Assets in the CMDB. The process of
+flagging can be done both manually and through automation.</p>
+<p>We have <a class="reference external" href="#different-types-of-notifications">notifications</a> that
+notify people about the discovery of Prohibited Assets. The notification
+can go to the users (Used By) of the Assets and the Administrators.</p>
+<div class="section" id="manually-flagging-a-software-asset-as-prohibited">
+<h2>Manually Flagging a Software Asset as Prohibited<a class="headerlink" href="#manually-flagging-a-software-asset-as-prohibited" title="Permalink to this headline">¶</a></h2>
+<p><strong>Flagging from the Asset List View</strong>:</p>
+<ul class="simple">
+<li>Go to the <a class="reference external" href="#asset-list-view">Asset List View</a> of the class
+Software IT Asset.</li>
+<li>Select one or more Software from the list area. The <strong>Mark as
+Prohibited</strong> button appears above the pane.</li>
+</ul>
+<div class="figure align-center" id="amf-141">
+<img alt="figure 141" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-141.png" />
+</div>
+<ul class="simple">
+<li>Click on <strong>Mark as Prohibited</strong>. Your selected Assets are marked as
+Prohibited.</li>
+</ul>
+<p><strong>Flagging from the Software Details View:</strong></p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Using this method you can flag Software Assets one at a time.</p>
+</div>
+<ul class="simple">
+<li>Go to the <a class="reference external" href="#classifying-assets">Details View</a> of a Software Asset.</li>
+<li>There expand the <strong>More Details</strong> section.</li>
+</ul>
+<div class="figure align-center" id="amf-142">
+<img alt="figure 142" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-142.png" />
+</div>
+<ul class="simple">
+<li>In the expanded section, changing Software Type to <strong>Prohibited</strong>
+flags the Software as Prohibited.</li>
+</ul>
+<p>Every time an Asset is marked as Prohibited, the <strong>Prohibited Software</strong>
+counter gets updated.</p>
+<div class="figure align-center" id="amf-143">
+<img alt="figure 143" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-143.png" />
+</div>
+</div>
+<div class="section" id="managing-prohibited-software-expressions">
+<h2>Managing Prohibited Software Expressions<a class="headerlink" href="#managing-prohibited-software-expressions" title="Permalink to this headline">¶</a></h2>
+<p>In Flotomate, you can automate the process of flagging Software Assets.
+The feature works during discovery and for Software Assets already
+included in the CMDB.</p>
+<p>The process runs a regex expression against the names of the Software
+Assets. Assets with matched characters are flagged as Prohibited. Users
+provide the regex expressions.</p>
+<p><strong>To Provide an Expression:</strong></p>
+<ol class="arabic simple">
+<li>Go to the <a class="reference external" href="#asset-list-view">Asset List View</a> of the class
+Software IT Assets.</li>
+<li>Select one or more Software from the list area. <strong>Manage Prohibited
+Software Expressions</strong> button appear above the pane.</li>
+</ol>
+<div class="figure align-center" id="amf-144">
+<img alt="figure 144" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-144.png" />
+</div>
+<ol class="arabic simple" start="3">
+<li>Click on <strong>Manage Prohibited Software Expression</strong>. The Prohibited
+Software Expressions dialog box opens.</li>
+</ol>
+<div class="figure align-center" id="amf-145">
+<img alt="figure 145" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-145.png" />
+</div>
+<ol class="arabic" start="4">
+<li><p class="first">The Prohibited Software Expressions dialog box has the following
+fields:</p>
+<blockquote>
+<div><div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Refer to <code class="xref std std-numref docutils literal notranslate"><span class="pre">amf-145</span></code>.</p>
+</div>
+<ol class="loweralpha simple">
+<li>In section-A, you add emails of people who want a notification
+every time a Prohibited Software Asset is discovered. The
+<a class="reference external" href="#managing-software-licenses">notification</a> for Admin is sent
+to the mentioned email address/addresses.</li>
+<li>In section-B, you add your expression. You can add multiple
+expressions and can view them in section-D. Type in your
+expression and click on <strong>Add Pattern</strong>.</li>
+<li>In section-C, selecting this option scans all Software Assets
+that are already in the CMDB for expression matching. If you
+don’t select this option then the system performs a scan in the
+next discovery.</li>
+<li>In section-D, you can view all the expressions already added.
+Prohibition of a Software happens when any one of the given
+expressions is matched against its name. You can delete any
+expression using the Delete Icon.</li>
+</ol>
+</div></blockquote>
+</li>
+<li><p class="first">Click on <strong>Done</strong> to save your changes. Scanning process starts
+immediately if you have checked the box.</p>
+</li>
+</ol>
+</div>
+<div class="section" id="computer-exclusion">
+<h2>Computer Exclusion<a class="headerlink" href="#computer-exclusion" title="Permalink to this headline">¶</a></h2>
+<p>You can ignore Prohibited Software in certain Hardware Assets. Computer
+Exclusion lets you add Assets that you want to ignore for Prohibited
+Software.</p>
+<ul class="simple">
+<li>Go to the <a class="reference external" href="#asset-list-view">List View</a> of class Software Assets.</li>
+<li>Click on Computer Exclusion above view pane.</li>
+</ul>
+<div class="figure align-center" id="amf-146">
+<img alt="figure 146" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-146.png" />
+</div>
+<ul class="simple">
+<li>Add Global Exclusion dialog box opens. There you can search for
+Assets (it supports <a class="reference external" href="#using-search-bar">Advanced Search</a>). Select
+the Assets that you want to ignore and add them for exclusion.</li>
+</ul>
+<div class="figure align-center" id="amf-147">
+<img alt="figure 147" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-147.png" />
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Prohibited Software</a><ul>
+<li><a class="reference internal" href="#manually-flagging-a-software-asset-as-prohibited">Manually Flagging a Software Asset as Prohibited</a></li>
+<li><a class="reference internal" href="#managing-prohibited-software-expressions">Managing Prohibited Software Expressions</a></li>
+<li><a class="reference internal" href="#computer-exclusion">Computer Exclusion</a></li>
+</ul>
+</li>
+</ul>
+
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/asset-management/prohibited-software.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="nav-item nav-item-0"><a href="../index.html">ITSM Product Documentation 2.0.0 documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2018, Flotomate Technologies Private Limited.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.7.5.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,177 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Asset Logs &#8212; ITSM Product Documentation 2.0.0 documentation</title>
+    <link rel="stylesheet" href="../_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Exporting Asset Details" href="export-asset-details.html" />
+    <link rel="prev" title="Importing Assets in Bulk Using CSV" href="csv-import-assets.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="export-asset-details.html" title="Exporting Asset Details"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="csv-import-assets.html" title="Importing Assets in Bulk Using CSV"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">ITSM Product Documentation 2.0.0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" accesskey="U">Asset Management</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="asset-logs">
+<h1>Asset Logs<a class="headerlink" href="#asset-logs" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="viewing-audit-trail">
+<h2>Viewing Audit Trail<a class="headerlink" href="#viewing-audit-trail" title="Permalink to this headline">¶</a></h2>
+<p>An Audit Trail provides an active log of changes made to an Asset in a
+CMDB with timestamp and info about the user responsible for the change.
+This is a tracking feature that allows monitoring of Technicians’
+activities in relation to an Asset.</p>
+<p>You can view the Audit Trail in the following ways:</p>
+<ul class="simple">
+<li><strong>History Tab</strong>: You can view the Audit Trail in the History tab (in
+<a class="reference external" href="#searching-assets">Asset Details View</a>) of a Hardware, Service,
+Cloud and Other Asset types.</li>
+</ul>
+<div class="figure align-center" id="amf-94">
+<img alt="figure 94" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-94.png" />
+</div>
+<ul class="simple">
+<li><strong>Asset List View</strong>: You can access the Audit Trail from the Action
+Menu of an Asset in the <a class="reference external" href="#searching-assets">Asset List View</a>.</li>
+</ul>
+<div class="figure align-center" id="amf-95">
+<img alt="figure 95" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-95.png" />
+</div>
+<ul class="simple">
+<li><strong>Asset Details View</strong>: You can access the Audit Trail from the
+Action Menu of an Asset in the <a class="reference external" href="#searching-assets">Asset Details
+View</a>.</li>
+</ul>
+<div class="figure align-center" id="amf-96">
+<img alt="figure 96" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-96.png" />
+</div>
+</div>
+<div class="section" id="change-and-scan-log">
+<h2>Change and Scan Log<a class="headerlink" href="#change-and-scan-log" title="Permalink to this headline">¶</a></h2>
+<p>Asset types other than Software provide two important logs; you can find
+them in <strong>History</strong> tab on the <a class="reference external" href="#understanding-asset-details">Details
+View</a> of an Asset, they are:</p>
+<ul class="simple">
+<li><strong>Scan Log</strong>: Here you can view the number of times the Asset was
+scanned along with timestamp and the mode of scan.</li>
+</ul>
+<div class="figure align-center" id="amf-97">
+<img alt="figure 97" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-97.png" />
+</div>
+<ul>
+<li><p class="first"><strong>Change Log</strong>: During a Polling process, Assets in the CMDB are
+updated for changes in Software and Hardware. A Change log lists the
+discrepancies between a source (Asset in network) and a destination
+(Asset in CMDB). For example: a new addition of a software to an
+already discovered Asset gets reflected in the Change Log during
+polling.</p>
+<blockquote>
+<div><div class="figure align-center" id="amf-98">
+<img alt="figure 98" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-98.png" />
+</div>
+</div></blockquote>
+<p>You can open the details of a change by clicking on the adjacent
+<strong>View</strong>.</p>
+<blockquote>
+<div><div class="figure align-center" id="amf-99">
+<img alt="figure 99" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-99.png" />
+</div>
+</div></blockquote>
+</li>
+</ul>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Asset Logs</a><ul>
+<li><a class="reference internal" href="#viewing-audit-trail">Viewing Audit Trail</a></li>
+<li><a class="reference internal" href="#change-and-scan-log">Change and Scan Log</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="csv-import-assets.html"
+                        title="previous chapter">Importing Assets in Bulk Using CSV</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="export-asset-details.html"
+                        title="next chapter">Exporting Asset Details</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/asset-management/asset-logs.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="export-asset-details.html" title="Exporting Asset Details"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="csv-import-assets.html" title="Importing Assets in Bulk Using CSV"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">ITSM Product Documentation 2.0.0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" >Asset Management</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2018, Flotomate Technologies Private Limited.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.7.5.
+    </div>
+  </body>
+</html>

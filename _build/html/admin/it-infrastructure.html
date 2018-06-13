@@ -1,0 +1,753 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>IT Infrastructure &#8212; ITSM Product Documentation 2.0.0 documentation</title>
+    <link rel="stylesheet" href="../_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Organization" href="admin-organization.html" />
+    <link rel="prev" title="Automation" href="admin-automation.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="admin-organization.html" title="Organization"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="admin-automation.html" title="Automation"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">ITSM Product Documentation 2.0.0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" accesskey="U">Administration Manual</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="it-infrastructure">
+<h1>IT Infrastructure<a class="headerlink" href="#it-infrastructure" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="getting-started-with-email-setup">
+<h2>Getting Started with Email Setup<a class="headerlink" href="#getting-started-with-email-setup" title="Permalink to this headline">¶</a></h2>
+<p>Setting up an email server and linking that with the product allows the
+product to send and receive emails.</p>
+<p>Some of the capabilities that the product get after email setup are:</p>
+<ul class="simple">
+<li>Requestors can log tickets using email.</li>
+<li>The product can send <span class="xref std std-ref">Email
+Notifications</span> and Announcements.</li>
+<li>Technicians can change Request details using <span class="xref std std-ref">Email
+Commands</span>.</li>
+</ul>
+<p>Whether self-hosted or cloud-hosted, you can add any vanity email
+address to Flotomate using any one of the two email protocols: POP3 and
+IMAP.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Before configuring email, you have to create an email with your
+email host and make sure to enable the protocol you want to use (POP3 or
+IMAP).</p>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">You need administrative rights to set the email configuration.</p>
+</div>
+<div class="section" id="email-server-configuration">
+<h3>Email Server Configuration<a class="headerlink" href="#email-server-configuration" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Log in to your Dashboard and head to <strong>Admin</strong> from the Navigation
+Tabs. Use the search field, or you can find the Email Server
+Configuration under IT Infrastructure.</li>
+</ul>
+<div class="figure align-center" id="adf-61-1">
+<img alt="figure 61.1" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-61.1.png" />
+</div>
+<div class="figure align-center" id="adf-61-2">
+<img alt="figure 61.2" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-61.2.png" />
+</div>
+<ul>
+<li><p class="first">On clicking, you see the <strong>Email Server Configuration</strong> page. Your
+email host provides you with all the information needed to complete
+the process.</p>
+</li>
+<li><p class="first">A summary of the required information:</p>
+<blockquote>
+<div><table border="1" class="docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Outgoing Server</th>
+<th class="head">This is the hostname of your
+outgoing SMTP server. For
+example, the hostname of Google’s
+outgoing SMTP is smtp.gmail.com</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Outgoing Port</td>
+<td>It refers to the outgoing port
+number of the SMTP server.</td>
+</tr>
+<tr class="row-odd"><td>Outgoing Email</td>
+<td>The outgoing email address.</td>
+</tr>
+<tr class="row-even"><td>Outgoing Username</td>
+<td>Username of the outgoing email
+address.</td>
+</tr>
+<tr class="row-odd"><td>Outgoing Password</td>
+<td>Password of the outgoing email
+address.</td>
+</tr>
+<tr class="row-even"><td>Outgoing Security Type</td>
+<td>Please refer to your email server
+specification to know what
+security standards it supports.
+Currently, we support TLS and
+SSL.</td>
+</tr>
+<tr class="row-odd"><td>Incoming Server</td>
+<td>This is the hostname of your
+incoming mail server. For
+example, the hostname of Google’s
+incoming POP3 server is
+pop.gmail.com and for IMAP
+server, imap.gmail.com</td>
+</tr>
+<tr class="row-even"><td>Incoming Port</td>
+<td>It refers to the incoming port
+number of the mail server.</td>
+</tr>
+<tr class="row-odd"><td>Incoming Email</td>
+<td>The incoming email address.</td>
+</tr>
+<tr class="row-even"><td>Incoming Password</td>
+<td>Password of the incoming email
+address.</td>
+</tr>
+<tr class="row-odd"><td>Incoming Security Type</td>
+<td>Please refer to your email server
+specification to know what
+security standards it supports.
+Currently, we support TLS and
+SSL.</td>
+</tr>
+<tr class="row-even"><td>Incoming Protocol</td>
+<td>POP3 or IMAP</td>
+</tr>
+<tr class="row-odd"><td>Incoming Supportidle</td>
+<td>Disable/Enable IMAP IDLE support</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+</li>
+<li><p class="first">After filling the fields, you can test the connection between the
+server and Flotomate using <strong>Test Connection</strong>. Flotomate warns you
+in case of a connection error.</p>
+</li>
+<li><p class="first">Add any email addresses that you want to ignore (don’t want to
+receive emails from) in the <strong>Ignore Email Addresses</strong> field. Use
+<strong>Update</strong> to save your changes.</p>
+</li>
+</ul>
+<p>Flotomate gives you two email fields one for outgoing and the other for
+incoming. If you want, you can use two different addresses for outgoing
+and incoming. You can use the <strong>Email Server Configuration</strong> page to
+edit your settings later.</p>
+</div>
+<div class="section" id="enabling-email-to-ticket">
+<h3>Enabling Email to Ticket<a class="headerlink" href="#enabling-email-to-ticket" title="Permalink to this headline">¶</a></h3>
+<p>The Email to Ticket feature allows users to create a Request by sending
+an email to the incoming email ID of the product.</p>
+<p>The subject of the email becomes the subject of the Request and the body
+becomes the Description. Whether only registered users can send or
+everyone depends on the <strong>Allow to report Request without login</strong> option
+in <strong>Admin</strong> &gt;&gt; <strong>Helpdesk Security</strong>.</p>
+<p>To enable this feature:</p>
+<ul class="simple">
+<li>Go to <strong>Admin</strong> &gt;&gt; <strong>Email Server Configuration</strong> (IT
+Infrastructure).</li>
+<li>There turn on the toggle <strong>Enable Email to Ticket</strong>.</li>
+<li>The Category field specifies the default category applied to Requests
+created via email.</li>
+</ul>
+<div class="figure align-center" id="adf-62">
+<img alt="figure 62" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-62.png" />
+</div>
+</div>
+</div>
+<div class="section" id="dns-configuration">
+<h2>DNS Configuration:<a class="headerlink" href="#dns-configuration" title="Permalink to this headline">¶</a></h2>
+<p>Some email notifications have links to the product. The URL of the
+product is appended to such links from the DNS Configuration.</p>
+<p>The DNS configuration is also used in resolving hostnames of Assets
+against their IPs from the DNS when the network protocol is DHCP.</p>
+<p>In the DHCP protocol, the IPs of Assets keep on changing, so the
+hostname of a machine is taken as the unique identifier. The DNS maps
+all the hostnames of the Assets with their IP addresses. Flotomate
+connects with the DNS using the information provided by the
+administrator in the DNS Configuration page (Primary DNS and Secondary
+DNS) during polling (scanning of existing Assets).</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Setting DNS configuration requires you to have administrative rights.</p>
+</div>
+<div class="section" id="configuring-dns">
+<h3>Configuring DNS<a class="headerlink" href="#configuring-dns" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Log in to your Dashboard and head to <strong>Admin</strong> from the Navigation
+Tabs. Use the search, or you can find the <strong>DNS Configuration</strong> in IT
+Infrastructure.</li>
+</ul>
+<div class="figure align-center" id="adf-63">
+<img alt="figure 63" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-63.png" />
+</div>
+<ul class="simple">
+<li>On clicking <strong>DNS Configuration</strong>, you see the DNS Configuration
+page.</li>
+<li>Enter your primary DNS address in the primary field and your backup
+DNS address in the secondary field.</li>
+<li>The Base URL field is the domain name of Flotomate hosted on your
+servers. Enter the name and hit <strong>Update</strong> to save your changes.</li>
+</ul>
+<p>You can later edit your DNS configuration in the DNS Configuration page.</p>
+</div>
+</div>
+<div class="section" id="credential-library">
+<h2>Credential Library<a class="headerlink" href="#credential-library" title="Permalink to this headline">¶</a></h2>
+<p>The product has a centralized credential library to store and manage
+Network Credentials. When a Network is created, credentials are added
+from the Credential Library.</p>
+<p>A Network can have multiple devices, and you have to make sure
+credentials of all those devices are in the Credential Library before
+adding the Network to the product.</p>
+<p>We provide four easy Discovery Types to choose.</p>
+<ul class="simple">
+<li>WMI</li>
+<li>SSH</li>
+<li>SNMP</li>
+<li>SNMP V3</li>
+</ul>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Managing credentials requires administrative rights.</p>
+</div>
+<div class="section" id="add-credential">
+<h3>Add Credential<a class="headerlink" href="#add-credential" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li>Go to <strong>Admin</strong> (One of the Navigation Tabs)&gt;&gt; <strong>Credential Library</strong>
+(IT Infrastructure). The Credentials page opens where you can view
+all the existing credentials if any.</li>
+<li>Click the <strong>Add Credential</strong> situated in the top right corner of the
+page. The Add Credential dialog box opens.</li>
+</ol>
+<div class="figure align-center" id="adf-64">
+<img alt="figure 64" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-64.png" />
+</div>
+<ol class="arabic" start="3">
+<li><p class="first">Add a <strong>Name</strong> to the credential and select a Discovery Type which
+determines the authentication parameters. Now let’s understand the
+Discovery Types available with Flotomate:</p>
+<blockquote>
+<div><p><strong>WMI (Windows Management Instrumentation):</strong></p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Please refer to <a class="reference internal" href="#adf-64"><span class="std std-numref">Fig. 105</span></a>.</p>
+</div>
+<p>This protocol is used to scan for data in Windows-based systems
+within a Domain or Workgroup.</p>
+<ol class="loweralpha simple">
+<li><strong>Domain Username &amp; Password</strong>: These are the credentials for the
+Administrator Account that has access to all the nodes in the
+domain.</li>
+<li><strong>Domain Name</strong>: The part of a network address which identifies
+it as belonging to a particular domain.</li>
+<li><strong>Domain Discovery</strong>: If the credential belongs to an Asset which
+is part of a domain then you have to tick mark this field.</li>
+</ol>
+<p><strong>SSH (Secure Shell):</strong></p>
+<p>The SSH protocol is used to discover UNIX based machines.</p>
+<div class="figure align-center" id="adf-65">
+<img alt="figure 65" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-65.png" />
+</div>
+<ol class="loweralpha simple">
+<li><strong>Domain Username &amp; Password</strong>: These are the credentials for the
+user account specific to the Asset that we are going to discover. In
+case there are multiple machines, a universal account can be created
+on all the machines to make Discovery easy; else, each different
+account requires a separate SSH credential.</li>
+</ol>
+<p><strong>SNMP (Simple Network Management Protocol)</strong></p>
+<p>Flotomate uses this application-layer protocol to scan devices with
+the SNMP agent in a managed network.</p>
+<div class="figure align-center" id="adf-66">
+<img alt="figure 66" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-66.png" />
+</div>
+<ol class="loweralpha simple">
+<li><strong>Community String</strong>: The Community String acts as a password in a
+managed network. It is sent along with each SNMP Get-Request to gain
+access to an SNMP enabled device’s data. If the community string is
+correct, the get request fetches the data.</li>
+</ol>
+<p><strong>SNMP V3 (Simple Network Management Protocol Version 3):</strong></p>
+<p>It is a secure version of SNMP with user-based authentication.</p>
+<div class="figure align-center" id="adf-67">
+<img alt="figure 67" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-67.png" />
+</div>
+<ol class="loweralpha">
+<li><p class="first"><strong>Community String</strong>: It is a password which is used for
+authentication.</p>
+</li>
+<li><p class="first"><strong>Authentication Protoco</strong>: Use the protocol that you want to use
+(we support both MD5 and SHA) in field-A.</p>
+</li>
+<li><p class="first"><strong>Username</strong>: Enter your username.</p>
+</li>
+<li><p class="first"><strong>Auth Passphrase</strong>: This is the Auth password</p>
+</li>
+<li><p class="first"><strong>Privacy Passphrase</strong>: This is the Privacy password.</p>
+</li>
+<li><p class="first"><strong>Security Level</strong>: Choose an appropriate security level from the
+following options:</p>
+<blockquote>
+<div><ol class="lowerroman simple">
+<li><strong>Private Authentication</strong>: Uses protocol like SHA for
+authentication and protocol like AES for privacy.</li>
+<li><strong>No Private Authentication</strong>: The only authentication protocol
+is used.</li>
+<li><strong>No Private No Authentication</strong>: Data transfer with
+authentication and privacy.</li>
+</ol>
+</div></blockquote>
+</li>
+</ol>
+</div></blockquote>
+</li>
+</ol>
+<p><strong>Edit/Delete Credentials</strong></p>
+<ol class="arabic simple">
+<li>Go to <strong>Admin</strong> &gt;&gt; <strong>Credential Library</strong> (IT Infrastructure).</li>
+</ol>
+<div class="figure align-center" id="adf-68">
+<img alt="figure 68" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-68.png" />
+</div>
+<ol class="arabic simple" start="2">
+<li>Click the Edit Icon adjacent to the credential you want to edit. In
+the Edit Credential dialog box, make your changes and hit
+<strong>Update</strong>.</li>
+</ol>
+<p>You can delete any credential by clicking the Delete icon adjacent
+to the credential.</p>
+</div>
+</div>
+<div class="section" id="network">
+<h2>Network<a class="headerlink" href="#network" title="Permalink to this headline">¶</a></h2>
+<p>Adding a Network allows the product to perform the following things:</p>
+<ul class="simple">
+<li>Asset discovery and monitoring.</li>
+<li>Remote deployment of Patches and Packages.</li>
+</ul>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Managing Networks requires administrative rights.</p>
+</div>
+<div class="section" id="add-a-network">
+<h3>Add a Network<a class="headerlink" href="#add-a-network" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li>Log in to your Dashboard and head to <strong>Admin</strong> &gt;&gt; <strong>Networks</strong> (IT
+Infrastructure).</li>
+<li>Click the <strong>Create a Network</strong> icon situated in the top right corner
+of the page. Create a Network dialog box opens.</li>
+</ol>
+<div class="figure align-center" id="adf-69">
+<img alt="figure 69" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-69.png" />
+</div>
+<div class="figure align-center" id="adf-70">
+<img alt="figure 70" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-70.png" />
+</div>
+<ol class="arabic" start="3">
+<li><p class="first">Give a name to the network.</p>
+</li>
+<li><p class="first">You can associate the Network to a department.</p>
+</li>
+<li><p class="first">Add a Domain Network Type:
+We have two Domain Network Types to select from:</p>
+<blockquote>
+<div><ol class="loweralpha">
+<li><p class="first">Domain Network:</p>
+<blockquote>
+<div><table border="1" class="docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Windows Domain Controller</th>
+<th class="head">.Windows Workgroup</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><ul class="first last simple">
+<li>Type the Domain Controller
+Name, something like
+company.com.</li>
+<li>Select the appropriate
+credential from Credential
+list.</li>
+</ul>
+</td>
+<td><ul class="first last simple">
+<li>It is a peer-to-peer network
+of computers running Windows
+OS. Type in the common name of
+the Workgroup.</li>
+<li>Select the credential of a
+remote computer in the network
+from Credential list.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+</li>
+</ol>
+<ol class="loweralpha" start="16">
+<li><p class="first">IP Range Network:</p>
+<blockquote>
+<div><table border="1" class="docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Entire Network</td>
+<td>This option uniquely identifies
+an entire network with IP Range
+Start (example: 192.168.27.0) and
+Subnet Mask (example:
+255.255.255.0).</td>
+</tr>
+<tr class="row-even"><td>Specific Range</td>
+<td>You can specify an IP Range with
+a start and end IP, and a Subnet
+Mask.</td>
+</tr>
+<tr class="row-odd"><td>Comma Separate IP List</td>
+<td>As the name suggests, you can add
+a comma-separated list of all the
+IPs.</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+</li>
+</ol>
+</div></blockquote>
+</li>
+<li><p class="first">Type in a description and protocol type (if IP Range is selected).</p>
+<blockquote>
+<div><ol class="loweralpha">
+<li><p class="first">We have two protocols to select from:</p>
+<blockquote>
+<div><table border="1" class="docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">DHCP</th>
+<th class="head">STATIC</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><ul class="first last simple">
+<li>In this protocol, IP is
+centrally allocated and
+resolved in your network.</li>
+<li>You have to configure your DNS
+for asset Discovery to work.</li>
+</ul>
+</td>
+<td><ul class="first last simple">
+<li>Using static IP addresses to
+identify devices in the
+network.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+</li>
+</ol>
+</div></blockquote>
+</li>
+<li><p class="first">Add the necessary credential from the credential list and hit
+<strong>Create</strong>.</p>
+</li>
+</ol>
+<p><strong>Edit/Delete Network</strong></p>
+<ol class="arabic simple">
+<li>Log in to your Dashboard and head to <strong>Admin</strong> &gt;&gt; <strong>Networks</strong> (IT
+Infrastructure).</li>
+</ol>
+<div class="figure align-center" id="adf-71">
+<img alt="figure 71" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-71.png" />
+</div>
+<ol class="arabic simple" start="2">
+<li>All your networks are listed on this page. Click the Edit Icon
+adjacent to the network that you want to edit.</li>
+<li>Edit the network in the Edit Network dialog box and save your change
+before exiting.</li>
+</ol>
+<p>You can delete any network by clicking the Delete Icon adjacent to the
+network that you want to delete.</p>
+</div>
+</div>
+<div class="section" id="proxy-server-configuration">
+<h2>Proxy Server Configuration<a class="headerlink" href="#proxy-server-configuration" title="Permalink to this headline">¶</a></h2>
+<p>If you want the product to have access to the internet, then you can
+setup a proxy server or give the product direct access.</p>
+<p>Some of the benefits of Proxy configured:</p>
+<ul class="simple">
+<li>Control of patch downloading from update servers in Remote
+Deployment.</li>
+<li>Protects the tool from direct access.</li>
+</ul>
+<p>To configure Proxy Server:</p>
+<ul class="simple">
+<li>Go to <strong>Admin</strong> &gt;&gt; <strong>Proxy Server Configuration</strong> (IT
+Infrastructure).</li>
+</ul>
+<div class="figure align-center" id="adf-72">
+<img alt="figure 72" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-72.png" />
+</div>
+<ul class="simple">
+<li>In the new page, you get three options:<ol class="loweralpha">
+<li>No Internet Access</li>
+<li>Direct Internet Access</li>
+<li><strong>Configure Manually</strong> (Connection via proxy server): You require
+the following information to set up a proxy connection:<ol class="lowerroman">
+<li>Proxy host</li>
+<li>Port number of the proxy server.</li>
+<li>Credentials to access proxy server (Username and Password)</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>Save your changes using the <strong>Update</strong> button.</li>
+</ul>
+</div>
+<div class="section" id="ldap-configuration">
+<h2>LDAP Configuration<a class="headerlink" href="#ldap-configuration" title="Permalink to this headline">¶</a></h2>
+<p>Flotomate allows batch upload of <strong>Requestors</strong> from an LDAP request.
+LDAP is a protocol used by enterprises to access an Active Directory of
+their employees. It is mainly used for email clients and other contact
+search programs.</p>
+<p>Flotomate establishes a connection with a distributed directory
+information system using the user provided information, and it makes
+queries using the LDAP protocol. It fetches the employee details from
+the server into the product.</p>
+<div class="section" id="configure-ldap">
+<h3>Configure LDAP:<a class="headerlink" href="#configure-ldap" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li>Go to <strong>Admin</strong> &gt;&gt; <strong>LDAP Configuration</strong> (IT Infrastructure).</li>
+<li>LDAP Configurations page opens. Here you can see all your existing
+LDAP servers if any. Click <strong>Add LDAP Configuration</strong> situated in the
+top right corner. You get the following dialog box:</li>
+</ol>
+<div class="figure align-center" id="adf-73">
+<img alt="figure 73" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-73.png" />
+</div>
+<div class="figure align-center" id="adf-74">
+<img alt="figure 74" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-74.png" />
+</div>
+<ol class="arabic simple" start="3">
+<li>Please refer <a class="reference internal" href="#adf-73"><span class="std std-numref">Fig. 114</span></a>. Give a name to the server. URL (field A) is
+the URL of the LDAP server which begins with <a class="reference external" href="ldap://">ldap://</a> (ldaps:// if the
+connection is secured) followed by protocol components (IP address,
+and port number). A valid URL should look something like
+ldap://111.111.0.11:920. Base DN (field B) is an API reference for
+the LDAP object; basically, it tells us what to fetch from where to
+fetch from the LDAP server. Put you LDAP credentials in the User ID
+(field C) and Password (field D).</li>
+<li>Please refer <a class="reference internal" href="#adf-74"><span class="std std-numref">Fig. 115</span></a>. Switch to the Mapping section of the dialog
+box. Here you have to enter the LDAP object attributes. There are
+two pre-defined fields (Name and Email). You can add more fields
+using the <strong>Add Custom Field</strong> button. You can edit and delete a
+custom field.</li>
+<li>Hit <strong>Add</strong> to save your LDAP server.</li>
+</ol>
+<p>The credentials required for LDAP configuration are of the LDAP Admin.
+In case, credentials are not available then a new user can be created in
+their Active Directory. Please refer the document LDAP Configuration by
+Creating New User.</p>
+</div>
+<div class="section" id="edit-ldap-server">
+<h3>Edit LDAP Server<a class="headerlink" href="#edit-ldap-server" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li>Open LDAP Configurations page and select the server that you want to
+edit.</li>
+</ol>
+<div class="figure align-center" id="adf-75">
+<img alt="figure 75" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-75.png" />
+</div>
+<ol class="arabic simple" start="2">
+<li>Click <strong>Edit</strong> from the right-side details pane. The Edit LDAP
+Configuration dialog box opens. Make the changes and hit <strong>Update</strong>.</li>
+</ol>
+<p>Please refer <a class="reference internal" href="admin-user-management.html#adf-13"><span class="std std-numref">Fig. 52</span></a>. Go to the LDAP Configurations page and select
+the server name that you want to delete and click on Action Menu. Click
+on <strong>Delete</strong> from the pop-up menu. On confirmation, the server gets
+deleted.</p>
+</div>
+<div class="section" id="ldap-connection-test">
+<h3>LDAP Connection Test<a class="headerlink" href="#ldap-connection-test" title="Permalink to this headline">¶</a></h3>
+<p>In the LDAP Configurations page, you can check an LDAP server’s
+connection with the product by using the <strong>Test Connection</strong> option in
+<a class="reference internal" href="#adf-75"><span class="std std-numref">Fig. 116</span></a>.</p>
+</div>
+<div class="section" id="setting-ldap-import-schedule">
+<h3>Setting LDAP Import Schedule<a class="headerlink" href="#setting-ldap-import-schedule" title="Permalink to this headline">¶</a></h3>
+<p>Scheduling allows you to periodically import employee details from the
+server. This feature helps you to keep the Requestor list up to date.</p>
+<div class="figure align-center" id="adf-76">
+<img alt="figure 76" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-76.png" />
+</div>
+<ol class="arabic simple">
+<li>Open <strong>LDAP Configurations</strong> page and select the server that you want
+to schedule an import. Under <strong>Import Schedule</strong>, set a schedule
+cycle for importing the Requestors. Flotomate offers three options:
+Daily, Weekly, and Monthly.<ol class="loweralpha">
+<li>Importing daily requires a start date and time; after that, the
+importing happens every day at the set time.</li>
+<li>Importing weekly requires you to set the days in a week on which
+the importing happens.</li>
+<li>Importing monthly requires you to set a day of the month and the
+months in which the importing happens.</li>
+</ol>
+</li>
+<li>After setting the schedule, hit <strong>Save Schedule</strong> to save your
+changes.</li>
+</ol>
+</div>
+<div class="section" id="edit-disable-ldap-schedule">
+<h3>Edit/ Disable LDAP Schedule<a class="headerlink" href="#edit-disable-ldap-schedule" title="Permalink to this headline">¶</a></h3>
+<p>You can later edit the schedule using the <strong>Edit Schedule</strong> option. The
+Scheduled toggle turns on/off a schedule.</p>
+<div class="figure align-center" id="adf-77">
+<img alt="figure 77" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-77.png" />
+</div>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">IT Infrastructure</a><ul>
+<li><a class="reference internal" href="#getting-started-with-email-setup">Getting Started with Email Setup</a><ul>
+<li><a class="reference internal" href="#email-server-configuration">Email Server Configuration</a></li>
+<li><a class="reference internal" href="#enabling-email-to-ticket">Enabling Email to Ticket</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#dns-configuration">DNS Configuration:</a><ul>
+<li><a class="reference internal" href="#configuring-dns">Configuring DNS</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#credential-library">Credential Library</a><ul>
+<li><a class="reference internal" href="#add-credential">Add Credential</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#network">Network</a><ul>
+<li><a class="reference internal" href="#add-a-network">Add a Network</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#proxy-server-configuration">Proxy Server Configuration</a></li>
+<li><a class="reference internal" href="#ldap-configuration">LDAP Configuration</a><ul>
+<li><a class="reference internal" href="#configure-ldap">Configure LDAP:</a></li>
+<li><a class="reference internal" href="#edit-ldap-server">Edit LDAP Server</a></li>
+<li><a class="reference internal" href="#ldap-connection-test">LDAP Connection Test</a></li>
+<li><a class="reference internal" href="#setting-ldap-import-schedule">Setting LDAP Import Schedule</a></li>
+<li><a class="reference internal" href="#edit-disable-ldap-schedule">Edit/ Disable LDAP Schedule</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="admin-automation.html"
+                        title="previous chapter">Automation</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="admin-organization.html"
+                        title="next chapter">Organization</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/admin/it-infrastructure.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="admin-organization.html" title="Organization"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="admin-automation.html" title="Automation"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">ITSM Product Documentation 2.0.0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" >Administration Manual</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2018, Flotomate Technologies Private Limited.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.7.5.
+    </div>
+  </body>
+</html>

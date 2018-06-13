@@ -1,0 +1,1024 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Patch Management &#8212; ITSM Product Documentation 2.0.0 documentation</title>
+    <link rel="stylesheet" href="../_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="nav-item nav-item-0"><a href="../index.html">ITSM Product Documentation 2.0.0 documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="patch-management">
+<h1>Patch Management<a class="headerlink" href="#patch-management" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="managing-deployment-requests">
+<h2>Managing Deployment Requests<a class="headerlink" href="#managing-deployment-requests" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="introduction">
+<h3>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h3>
+<p>A Deployment Request is a set of instructions for Computers (with our
+Agent application). The Admin creates it, or anyone with the rights, to
+initiate a deployment cycle. A Deployment Request mainly contains the
+following types of information:</p>
+<ul class="simple">
+<li><strong>Request details</strong>: Defining the installation criteria.</li>
+<li><strong>Patch details</strong>: Selection of Patches that need deployment.</li>
+<li><strong>Computer details</strong>: Selection of Computers that perform deployment
+in their respective nodes.</li>
+</ul>
+<p>Learn <a class="reference external" href="#manually-creating-a-request">to create a Deployment
+Request</a>.</p>
+<p>All Computers ping the Flotomate server every hour to check for
+available Deployment Requests. On finding a Deployment Request,
+Computer/Computers can acquire the Patches from the Shared Drive, and
+install them following a <a class="reference external" href="#manually-creating-a-request">Deployment
+Policy</a>. A Deployment Cycle refers to
+the end to end process involving getting and installing Patches.</p>
+<p><strong>Methods of Deployment</strong></p>
+<p>There are three ways to create a Deployment Request in the product:</p>
+<ul class="simple">
+<li>Manually creating a Deployment Request and publishing it.</li>
+<li>Automatic Patch Deployment creates a Deployment Request (either in
+Draft or Publish).</li>
+<li>Initiating an Automatic Patch Test which in turn creates and
+publishes a Deployment Request.</li>
+</ul>
+</div>
+<div class="section" id="manually-creating-a-request">
+<h3>Manually Creating a Request<a class="headerlink" href="#manually-creating-a-request" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li>Click on the Launcher icon and select <strong>Patch</strong>.</li>
+</ol>
+<ol class="arabic" start="12">
+<li><p class="first">Select <strong>Deployment Request</strong> from the Patch menu.</p>
+<p><a class="reference internal" href="patch-management\media/image72.png"><img alt="image71" src="patch-management\media/image72.png" style="width: 3.14306in; height: 2.49014in;" /></a></p>
+</li>
+</ol>
+<p>Figure 62</p>
+<ol class="arabic" start="13">
+<li><p class="first">The Deployment Requests page opens. Here you can view all available
+requests in the product. Click on <strong>Deploy Patches</strong> situated in the
+top right corner of the page.</p>
+</li>
+<li><p class="first">The Create page opens. The page is divided into three sections; they
+are as follows:</p>
+<ol class="lowerroman">
+<li><p class="first"><strong>Request Details</strong>:</p>
+<p><a class="reference internal" href="patch-management\media/image73.png"><img alt="image72" src="patch-management\media/image73.png" style="width: 5.83707in; height: 0.75146in;" /></a></p>
+</li>
+</ol>
+</li>
+</ol>
+<p>Figure 63</p>
+<ol class="lowerroman simple" start="8">
+<li><strong>Name</strong>: You can provide a name to the Patch instead of the
+default placeholder. It is advisable to keep the date part of the
+placeholder.</li>
+<li><strong>Platform</strong>: Select the platform for which you are deploying
+patch/patches. Currently, we support only Windows and Linux.</li>
+<li><strong>Deployment Policy</strong>: Select a Deployment policy from the
+drop-down list. A Deployment Policy governs how the deployment of
+Patches is carried out. Learn about <a class="reference external" href="#setting-up-a-deployment-policy">Deployment
+Policies</a>.</li>
+<li><strong>Install After</strong>: Provide a date and time after which the request
+tells the Computers to commence the installation process</li>
+<li><strong>Expire After</strong>: This is the date and time after which the
+request ceases to be a valid request.</li>
+</ol>
+<ol class="loweralpha" start="10">
+<li><p class="first"><strong>Select Patch</strong>: Here you add the Patch/Patches that you want to
+deploy.</p>
+<p><a class="reference internal" href="patch-management\media/image74.png"><img alt="image73" src="patch-management\media/image74.png" style="width: 5.8601in; height: 2.14057in;" /></a></p>
+</li>
+</ol>
+<p>Figure 64</p>
+<ol class="lowerroman" start="13">
+<li><p class="first">Section-A (Figure 64) is the area where you view the selected
+Patches.</p>
+</li>
+<li><p class="first">Section-B has a search bar for searching all available Patches for
+the selected platform. The search bar supports the Advanced Search
+feature. Learn how to use <a class="reference external" href="#AdvanceSearch">Advanced Search</a>.</p>
+</li>
+<li><p class="first">Section-C is where you view the available Patches in the product.
+Clicking a checkbox selects a Patch and transfers it to section-A.</p>
+<p>Select the Patches that you want to deploy.</p>
+</li>
+</ol>
+<ol class="loweralpha" start="11">
+<li><p class="first"><strong>Select Target</strong>:</p>
+<p><a class="reference internal" href="patch-management\media/image75.png"><img alt="image74" src="patch-management\media/image75.png" style="width: 6.22802in; height: 2.03484in;" /></a></p>
+</li>
+</ol>
+<p>Figure 65</p>
+<p>Target refers to Computer/Computers where Patches are going to be
+installed. You can select a Computer Group or Groups, or individual
+Computers as a target. You can select both Computer Groups and Computers
+as a target.</p>
+<p>You can create a new group using the <strong>Create Computer Group</strong> button.
+It opens a dialog box where you can create a group; learn <a class="reference external" href="#patch-notifications">how to create
+a group</a>. You also get a search bar to search
+Computers. The search bar supports the Advanced Search feature. Learn
+how to use <a class="reference external" href="#AdvanceSearch">Advanced Search</a>.</p>
+<p>Fill in all the necessary details. Now you have two options; you can
+publish the request or save it as a draft.</p>
+<p>If you save the request as a draft, then the request appears as drafted
+in the Deployment Requests page. You can view all drafted requests using
+the Quick Filter <strong>Drafted</strong>.</p>
+<p><a class="reference internal" href="patch-management\media/image76.png"><img alt="image75" src="patch-management\media/image76.png" style="width: 6.26806in; height: 1.60139in;" /></a></p>
+<p>Figure 66</p>
+<p>If you want to publish the request, then click on <strong>Publish</strong>. This
+might or might not activate the request immediately, depending on Custom
+Rules. If Patch <a class="reference external" href="#approval">Custom Rules</a> demand Approval, then you
+have to seek Approval before you can publish the Request.</p>
+<p>You can publish a drafted request from its Update page (clicking on a
+request opens its Update page).</p>
+</div>
+<div class="section" id="other-ways-to-add-a-manual-request">
+<h3>Other Ways to Add a Manual Request<a class="headerlink" href="#other-ways-to-add-a-manual-request" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="deployment-request-from-the-patch-list-view">
+<h4>Deployment Request from the Patch List View:<a class="headerlink" href="#deployment-request-from-the-patch-list-view" title="Permalink to this headline">¶</a></h4>
+<p>Flotomate allows you to select the Patches from the List View directly
+and deploy them.</p>
+<ul>
+<li><p class="first">Go to the <a class="reference external" href="#patch-list-view">Patch List View</a>.</p>
+</li>
+<li><p class="first">Select a Patch or Patches from the list area. A Deploy button appears
+above the list area.</p>
+<p><a class="reference internal" href="patch-management\media/image77.png"><img alt="image76" src="patch-management\media/image77.png" style="width: 5.30867in; height: 1.64271in;" /></a></p>
+</li>
+</ul>
+<p>Figure 67</p>
+<ul class="simple">
+<li>Click on <strong>Deploy,</strong> and the Create page opens. The selected
+Patch/Patches are preselected. Complete the request and deploy. Learn
+more about creating a <a class="reference external" href="#manually-creating-a-request">Deployment
+Request</a>.</li>
+</ul>
+</div>
+<div class="section" id="deployment-request-from-patch-details-view">
+<h4>Deployment Request from Patch Details View:<a class="headerlink" href="#deployment-request-from-patch-details-view" title="Permalink to this headline">¶</a></h4>
+<ul>
+<li><p class="first">Go to the <a class="reference external" href="#patch-details-view">Details View</a> of the Patch that
+you want to deploy.</p>
+</li>
+<li><p class="first">Click on the <strong>Deploy</strong> button situated in the top right corner of
+the page.</p>
+<p><a class="reference internal" href="patch-management\media/image78.png"><img alt="image77" src="patch-management\media/image78.png" style="width: 6.26806in; height: 2.21528in;" /></a></p>
+</li>
+</ul>
+<p>Figure 68</p>
+<ul class="simple">
+<li>The Create page opens with the Patch preselected. Complete the
+Deployment Request. Learn more about <a class="reference external" href="#manually-creating-a-request">Deployment
+Request</a>.</li>
+</ul>
+</div>
+<div class="section" id="adding-a-deployment-request-from-a-computers-details-view">
+<h4>Adding a Deployment Request from a Computer’s Details View:<a class="headerlink" href="#adding-a-deployment-request-from-a-computers-details-view" title="Permalink to this headline">¶</a></h4>
+<ul>
+<li><p class="first">Go to the <a class="reference external" href="#computer-list-view">Computer List View</a>.</p>
+</li>
+<li><p class="first">Click on a Computer. This takes you to the Details View of the
+Computer.</p>
+</li>
+<li><p class="first">Click on <strong>Deploy Patches</strong> from the <strong>Action Menu</strong>.</p>
+<p><a class="reference internal" href="patch-management\media/image79.png"><img alt="image78" src="patch-management\media/image79.png" style="width: 6.26806in; height: 1.64444in;" /></a></p>
+</li>
+</ul>
+<p>Figure 69</p>
+<ul class="simple">
+<li>The Create page of Deployment Request opens. Create your request and
+publish it, or you can save it as a draft. Learn more about <a class="reference external" href="#manually-creating-a-request">creating
+Deployment Requests</a>.</li>
+</ul>
+</div>
+</div>
+<div class="section" id="approval">
+<h3>Approval<a class="headerlink" href="#approval" title="Permalink to this headline">¶</a></h3>
+<p>In case there is a custom rule defined, then you have to make every
+drafted request go through an Approval process before publishing it. In
+an Approval process, you seek approval from a set of approver/approvers.</p>
+<div class="section" id="asking-for-an-approval">
+<h4>Asking for an Approval:<a class="headerlink" href="#asking-for-an-approval" title="Permalink to this headline">¶</a></h4>
+<ul>
+<li><p class="first">Go to the <a class="reference external" href="#manually-creating-a-request">Deployment Request</a> page.</p>
+</li>
+<li><p class="first">Click on the Quick Filter <strong>Drafted</strong> to sort all drafted requests.</p>
+<p><a class="reference internal" href="patch-management\media/image80.png"><img alt="image79" src="patch-management\media/image80.png" style="width: 4.36181in; height: 1.70732in;" /></a></p>
+</li>
+</ul>
+<p>Figure 70</p>
+<ul>
+<li><p class="first">Select one or more requests. The <strong>Ask for an Approval</strong> button
+appears above the list area.</p>
+<p><a class="reference internal" href="patch-management\media/image81.png"><img alt="image80" src="patch-management\media/image81.png" style="width: 5.87222in; height: 1.17887in;" /></a></p>
+</li>
+</ul>
+<p>Figure 71</p>
+<ul class="simple">
+<li>Click on <strong>Ask for an Approval</strong> to initiate the Approval process.</li>
+</ul>
+</div>
+<div class="section" id="different-states-in-an-approval">
+<h4>Different States in an Approval<a class="headerlink" href="#different-states-in-an-approval" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li>Pending:</li>
+<li>Rejected:</li>
+<li>Pre-Approved:</li>
+<li>Approved:</li>
+</ul>
+</div>
+<div class="section" id="approval-process">
+<h4>Approval Process:<a class="headerlink" href="#approval-process" title="Permalink to this headline">¶</a></h4>
+<ul>
+<li><p class="first">First, the system checks all available Approval Workflows when an
+Approval is asked. If there are no workflows or the workflow
+conditions are not meet, then the drafted request/requests are
+Pre-Approved, and you can proceed with publishing. If there is a
+workflow/are workflows, and their conditions are met, then
+approver/approvers are auto-assigned for each request.</p>
+<p>When there are multiple requests, it may happen that some may trigger
+the Approval conditions and are put in Approval, and some may not
+trigger the conditions and are Pre-Approved.</p>
+<p><a class="reference internal" href="patch-management\media/image82.png"><img alt="image81" src="patch-management\media/image82.png" style="width: 6.35139in; height: 1.12307in;" /></a></p>
+</li>
+</ul>
+<p>Figure 72</p>
+<ul>
+<li><p class="first">When you <strong>Ask for an Approval</strong> for a request, an <strong>Approval</strong>
+button appears adjacent to the request. The button gives you access
+to the Approval details dialog box where you can view all the
+approvers and their comments and even re-ask for an Approval (this
+again checks for all available workflows).</p>
+<p><a class="reference internal" href="patch-management\media/image83.png"><img alt="image82" src="patch-management\media/image83.png" style="width: 6.26806in; height: 1.25208in;" /></a></p>
+</li>
+</ul>
+<p>Figure 73</p>
+<p>For requests that have Approvers, the Approval Status changes to
+Pending, and it stays there as long as the approver/approvers don’t
+express a decision.</p>
+<ul>
+<li><p class="first">An approver can see his Approvals in the <strong>My Approvals</strong> section of
+his account.</p>
+<p><a class="reference internal" href="patch-management\media/image84.png"><img alt="image83" src="patch-management\media/image84.png" style="width: 3.67431in; height: 3.55422in;" /></a></p>
+</li>
+</ul>
+<p>Figure 74</p>
+<p>Clicking on <strong>My Approvals</strong> (Figure 74) opens the My Approval page
+where he can view his Approvals.</p>
+<p><a class="reference internal" href="patch-management\media/image85.png"><img alt="image84" src="patch-management\media/image85.png" style="width: 6.26806in; height: 1.57569in;" /></a></p>
+<p>Figure 75</p>
+<p>Clicking on an Approval in <strong>My Approval</strong> opens a new page. There he
+can perform the following actions:</p>
+<p><a class="reference internal" href="patch-management\media/image86.png"><img alt="image85" src="patch-management\media/image86.png" style="width: 6.26806in; height: 2.52778in;" /></a></p>
+<p>Figure 76</p>
+<ol class="loweralpha simple" start="12">
+<li>View request details, target Patches, and Computers.</li>
+<li>Start a comment thread.</li>
+<li>Approve or Reject the Approval.</li>
+</ol>
+<ul>
+<li><p class="first">The outcome of an Approval process is decided in two ways:</p>
+<ol class="loweralpha simple">
+<li><strong>Unanimous</strong>: All of the Approvers have to approve else the
+Approval is rejected.</li>
+</ol>
+<ol class="loweralpha" start="15">
+<li><p class="first"><strong>Majority</strong>: If the majority of Approvers agree then Approval is
+successful.</p>
+<p>In case there are multiple Approvals, the decision to go with
+unanimous or majority can be set from <strong>Admin</strong> (A Navigation Tab)
+&gt;&gt; <strong>Approval Workflow</strong> (Automation) &gt;&gt; <strong>Approval Settings</strong>,
+but the rights to do it lies with the Super Admin.</p>
+</li>
+</ol>
+</li>
+<li><p class="first">On success, the Approval moves to the Approved stage where the author
+can publish the draft. On failure, the Approval moves to the Reject
+stage where the author has to reinitiate the Approval process. The
+author reinitiates an Approval process using the <strong>Re-Approve</strong>
+option. A <strong>Re-Approve</strong> puts a request back to the pending stage.</p>
+<p><a class="reference internal" href="patch-management\media/image87.png"><img alt="image86" src="patch-management\media/image87.png" style="width: 6.26806in; height: 1.70139in;" /></a></p>
+</li>
+</ul>
+<p>Figure 77</p>
+<ul>
+<li><p class="first">Any Technician with the <strong>Can Ignore Approval</strong> right can ignore
+approvers and push the Approval towards the Approved stage; where he
+can publish the draft. The ignored approvers can see their Approval
+status as Ignored in Approval details dialog box of the Article.</p>
+<p><a class="reference internal" href="patch-management\media/image88.png"><img alt="image87" src="patch-management\media/image88.png" style="width: 6.26806in; height: 1.26458in;" /></a></p>
+</li>
+</ul>
+<p>Figure 78</p>
+</div>
+</div>
+<div class="section" id="searching-deployment-requests">
+<h3>Searching Deployment Requests<a class="headerlink" href="#searching-deployment-requests" title="Permalink to this headline">¶</a></h3>
+<p>There are two broad ways to search Deployment Requests in the product:</p>
+<ul class="simple">
+<li>Using Search Bar</li>
+<li>Using Filters</li>
+</ul>
+<p><a class="reference internal" href="patch-management\media/image89.png"><img alt="image88" src="patch-management\media/image89.png" style="width: 6.26806in; height: 2.24306in;" /></a></p>
+<p>Figure 79</p>
+<div class="section" id="search-bar">
+<span id="search-bar-1"></span><h4>Search Bar<a class="headerlink" href="#search-bar" title="Permalink to this headline">¶</a></h4>
+<p>In the <a class="reference external" href="#manually-creating-a-request">Deployment Request</a> page you
+get a search bar to search through requests. The search bar supports the
+Advanced Search feature where you get a set of search options. Click on
+the search bar to access all search options.</p>
+<p><a class="reference internal" href="patch-management\media/image90.png"><img alt="image89" src="patch-management\media/image90.png" style="width: 2.95833in; height: 1.9243in;" /></a></p>
+<p>Figure 80</p>
+<p>In some options you have to enter a value and in others there are
+predefined values. You can create conditions using multiple options.
+Between two different conditions of the same option type OR logic is
+followed. Between different types AND logic is observed. An example of
+same option type contradiction is Platform equals Windows vs. Platform
+equals Linux.</p>
+<p><a class="reference internal" href="patch-management\media/image91.png"><img alt="image90" src="patch-management\media/image91.png" style="width: 6.26806in; height: 2.15625in;" /></a></p>
+<p>Figure 81</p>
+</div>
+<div class="section" id="filters">
+<span id="filters-1"></span><h4>Filters<a class="headerlink" href="#filters" title="Permalink to this headline">¶</a></h4>
+<p>You can search for requests in the Deployment Request page using Quick
+Filters. There three types of filters available:</p>
+<ul class="simple">
+<li>Filters based on time of deployment.</li>
+<li>Filters based on publishing status.</li>
+<li>Filters based on origin.</li>
+</ul>
+<p><a class="reference internal" href="patch-management\media/image92.png"><img alt="image91" src="patch-management\media/image92.png" style="width: 5.24686in; height: 1.57243in;" /></a></p>
+<p>Figure 82</p>
+<p>Section-A (Figure 82) is a quick filter to toggle across the following
+views:</p>
+<ul class="simple">
+<li><strong>Current</strong>: Shows all the published and drafted requests that can
+start the deployment process immediately.</li>
+<li><strong>Future</strong>: Shows all the published requests that can start the
+deployment after a future date and time.</li>
+<li><strong>Past</strong>: Shows all the requests that have expired.</li>
+<li><strong>Drafted</strong>: Shows all drafted requests that are yet to be published.</li>
+<li><strong>Archived</strong>: Shows requests that have been deleted, includes drafted
+requests.</li>
+</ul>
+<p>Section-B (Figure 82) allows you to filter request based on origin and
+Approval status. There are three ways to create a Deployment Request,
+and the Approval status shows both Approved and Pre-Approved requests.</p>
+<ul class="simple">
+<li><a class="reference external" href="#approval">Approval</a></li>
+<li><a class="reference external" href="#manually-creating-a-request">Manually</a></li>
+<li><a class="reference external" href="#searching-deployment-requests">Automatic Patch Deployment</a></li>
+<li><a class="reference external" href="#automatic-patch-test-auto-approval-of-patches">Automatic Patch
+Test</a></li>
+</ul>
+</div>
+</div>
+<div class="section" id="managing-deployment-requests-1">
+<span id="id1"></span><h3>Managing Deployment Requests<a class="headerlink" href="#managing-deployment-requests-1" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="deployment-status">
+<h4>Deployment Status<a class="headerlink" href="#deployment-status" title="Permalink to this headline">¶</a></h4>
+<p>In the Deployment Request page, every published request has a Status
+button.</p>
+<p><a class="reference internal" href="patch-management\media/image93.png"><img alt="image92" src="patch-management\media/image93.png" style="width: 6.26806in; height: 1.86389in;" /></a></p>
+<p>Figure 83</p>
+<p>Using the Status button, you can check the download status of all
+associated Patches of a request, and associated Computers and their
+Deployment Status.</p>
+<p>Clicking on a <strong>Status</strong> button opens a new page with the following
+tabs:</p>
+<ul>
+<li><p class="first"><strong>Patch Download Status</strong>: Here you can view all involved Patches and
+their download statuses. A Patch transitions through various statuses
+during a download cycle. Some of the statuses reflect a stage, and
+some are conclusions. Altogether there are six statuses:</p>
+<p><a class="reference internal" href="patch-management\media/image94.png"><img alt="image93" src="patch-management\media/image94.png" style="width: 6.26806in; height: 2.46319in;" /></a></p>
+</li>
+</ul>
+<p>Figure 84</p>
+<ol class="loweralpha">
+<li><p class="first"><strong>Pending</strong>: The Patch has been put in a queue by the Product Server
+for download. At this stage, you can cancel the process.</p>
+<p><a class="reference internal" href="patch-management\media/image95.png"><img alt="image94" src="patch-management\media/image95.png" style="width: 3.46875in; height: 1.02957in;" /></a></p>
+</li>
+</ol>
+<p>Figure 85</p>
+<ol class="loweralpha simple" start="16">
+<li><strong>Downloading</strong>: The Product Server is downloading the Patch. At this
+stage, you can cancel the process.</li>
+<li><strong>Downloaded</strong>: The Product Server has finished downloading the
+Patch.</li>
+<li><strong>Transferring</strong>: The Product Server is transferring the Patch to the
+Shared Drive.</li>
+<li><strong>Available</strong>: The Patch is available on the Shared Drive for
+deployment.</li>
+<li><strong>Cancelled</strong>: A user cancelled the downloading process, or there was
+an error in downloading the Patch. You can restart the download
+process using the <strong>Retry</strong> button.</li>
+</ol>
+<ul>
+<li><p class="first"><strong>Computers</strong>: Here you can view all the associated Computers. Each
+computer has a <strong>Deployment Status</strong> button which opens a dialog box
+where you can view the installation statuses of each Patch. Computer
+transitions through various statuses when installing a Patch. Some of
+the statuses reflect a stage, and some are conclusions. Altogether
+there are six statuses:</p>
+<p><a class="reference internal" href="patch-management\media/image96.png"><img alt="image95" src="patch-management\media/image96.png" style="width: 6.26806in; height: 1.42569in;" /></a></p>
+</li>
+</ul>
+<p>Figure 86</p>
+<p><a class="reference internal" href="patch-management\media/image97.png"><img alt="image96" src="patch-management\media/image97.png" style="width: 6.26806in; height: 2.45903in;" /></a></p>
+<p>Figure 87</p>
+<ol class="loweralpha simple">
+<li><strong>Yet to Receive</strong>: The Computer is yet to receive instructions from
+the request to install the Patch.</li>
+<li><strong>In Progress</strong>: The Computer is in the process of installing the
+Patch after receiving the instructions.</li>
+<li><strong>Success</strong>: The Computer has successfully installed the Patch.</li>
+<li><strong>Failed</strong>: The Computer has failed to install the Patch.</li>
+<li><strong>Cancelled</strong>: The request was deleted before the Computer could
+receive the instructions for installation.</li>
+<li><strong>Not Applicable</strong>: The Patch is not meant for the Computer.</li>
+</ol>
+</div>
+<div class="section" id="unsupported-computers-in-a-deployment">
+<h4>Unsupported Computers in a Deployment<a class="headerlink" href="#unsupported-computers-in-a-deployment" title="Permalink to this headline">¶</a></h4>
+<p>During deployment it may happen that certain target Computers don’t
+support all the Patches; in that case, the Not Applicable status is
+helpful.</p>
+<p>Go to the <strong>Status</strong> of a request. Click on the <strong>Deployment status</strong> of
+a Computer; there the Patches that don’t support the Computer have the
+<strong>Not Applicable</strong> status.</p>
+<p><a class="reference internal" href="patch-management\media/image98.png"><img alt="image97" src="patch-management\media/image98.png" style="width: 5.77847in; height: 1.15365in;" /></a></p>
+<p>Figure 88</p>
+</div>
+<div class="section" id="edit-archive-a-deployment-request">
+<h4>Edit/Archive a Deployment Request:<a class="headerlink" href="#edit-archive-a-deployment-request" title="Permalink to this headline">¶</a></h4>
+<p>You can update Deployment Requests that are in draft mode (both created
+manually and by an automatic process). Once published, a request cannot
+be edited.</p>
+<ul>
+<li><p class="first">Go to the <a class="reference external" href="#manually-creating-a-request">Deployment Request Page</a>.</p>
+</li>
+<li><p class="first">The <strong>Status</strong> button adjacent to a request shows that the request is
+a published request.</p>
+</li>
+<li><p class="first">You can open a request in edit mode by clicking on it or by clicking
+the Edit icon.</p>
+<p><a class="reference internal" href="patch-management\media/image99.png"><img alt="image98" src="patch-management\media/image99.png" style="width: 6.26806in; height: 1.90417in;" /></a></p>
+</li>
+</ul>
+<p>Figure 89</p>
+<p><strong>Archiving</strong></p>
+<p>The product allows you to delete published and drafted Deployment
+Requests. You can delete multiple requests at a time.</p>
+<ul>
+<li><p class="first">Go to the <a class="reference external" href="#manually-creating-a-request">Deployment Request</a> page
+from the Patch Menu.</p>
+</li>
+<li><p class="first">Select one and more requests. The <strong>Archive</strong> button appears.</p>
+<p><a class="reference internal" href="patch-management\media/image100.png"><img alt="image99" src="patch-management\media/image100.png" style="width: 5.65347in; height: 1.75818in;" /></a></p>
+</li>
+</ul>
+<p>Figure 90</p>
+<ul class="simple">
+<li>Click on the <strong>Archive</strong> button. On confirmation, the
+request/requests are deleted.</li>
+</ul>
+<p><strong>Deleting an Active Deployment Request:</strong></p>
+<p>Deleting a published request has the following effects:</p>
+<ul class="simple">
+<li>Installation of Patches is cancelled in Computers that are yet to
+receive instructions.</li>
+<li>Downloading and transfer of Patches to the Shared Drive continues
+even when the request is archived.</li>
+</ul>
+</div>
+<div class="section" id="view-archived-deployment-requests">
+<h4>View Archived Deployment Requests<a class="headerlink" href="#view-archived-deployment-requests" title="Permalink to this headline">¶</a></h4>
+<p>You can view an archived request along with its status. An archived
+request may have partially finished operations that might need scrutiny.
+To view an archived request:</p>
+<ul>
+<li><p class="first">Go to the <a class="reference external" href="#manually-creating-a-request">Deployment Request</a> page.</p>
+</li>
+<li><p class="first">Select <strong>Archived</strong> from the Quick Filter section.</p>
+<p><a class="reference internal" href="patch-management\media/image101.png"><img alt="image100" src="patch-management\media/image101.png" style="width: 4.58056in; height: 2.55518in;" /></a></p>
+</li>
+</ul>
+<p>Figure 91</p>
+<ul>
+<li><p class="first">Now you can view all archived requests. Use the <strong>Status</strong> button to
+view <a class="reference external" href="#deployment-status">deployment status</a>.</p>
+<p><a class="reference internal" href="patch-management\media/image102.png"><img alt="image101" src="patch-management\media/image102.png" style="width: 5.51806in; height: 2.26811in;" /></a></p>
+</li>
+</ul>
+<p>Figure 92</p>
+</div>
+</div>
+</div>
+<div class="section" id="automatic-patch-deployment">
+<h2>Automatic Patch Deployment<a class="headerlink" href="#automatic-patch-deployment" title="Permalink to this headline">¶</a></h2>
+<p>Deploying Patches is a recurring task that requires time and effort, and
+the effort to download and deploy new Patches increases with the
+increase in the number of managed IT Assets.</p>
+<p>An Automatic Patch Deployment task helps you to download and deploy
+Patches, based on a set criterion, periodically. Setting up an
+auto-deployment task is a one-time activity, and you can turn it off
+anytime later. You can create multiple auto-deployment tasks.</p>
+<p>Few of the benefits of using Automatic Patch Deployment:</p>
+<ul class="simple">
+<li>Periodic download and deployment of newly found Patches without any
+misses.</li>
+<li>Schedule download of Patches at a time when the network is least
+likely to have heavy traffic.</li>
+</ul>
+<div class="section" id="creating-an-automatic-patch-deployment">
+<h3>Creating an Automatic Patch Deployment<a class="headerlink" href="#creating-an-automatic-patch-deployment" title="Permalink to this headline">¶</a></h3>
+<ul>
+<li><p class="first">Go to the Flotomate <strong>Launcher</strong> and select <strong>Patch</strong>.</p>
+</li>
+<li><p class="first">Select <strong>Automatic Patch Deployment</strong> from the Patch menu.</p>
+</li>
+<li><p class="first">The Automatic Patch Deployment page opens. Here you can view all your
+existing auto-deployments tasks if any. Click on <strong>Create Auto Deploy
+Task</strong> situated in the top right corner of the page.</p>
+</li>
+<li><p class="first">A new page opens with the following fields and options:</p>
+<p><a class="reference internal" href="patch-management\media/image103.png"><img alt="image102" src="patch-management\media/image103.png" style="width: 6.26806in; height: 3.10069in;" /></a></p>
+</li>
+</ul>
+<p>Figure 93</p>
+<ol class="loweralpha">
+<li><p class="first">Section A (Figure 93) is where you provide a name to the task, select
+a <a class="reference external" href="#setting-up-a-deployment-policy">Deployment Policy</a> and a
+Platform (a single task can deploy Patches of either one platform).</p>
+</li>
+<li><p class="first">Section B is where you select task and Patch type:</p>
+<p><strong>Task Type:</strong></p>
+<ol class="lowerroman" start="16">
+<li><p class="first">Download only Approved Patch types in the <a class="reference external" href="#configuring-shared-drive">Shared
+Drive</a>.</p>
+</li>
+<li><p class="first">Download only Approved Patch types in the <a class="reference external" href="#configuring-shared-drive">Shared
+Drive</a>, and create a drafted
+Deployment Request.</p>
+</li>
+<li><p class="first">Download only Approved Patch types in the <a class="reference external" href="#configuring-shared-drive">Shared
+Drive</a>, and create and publish a
+Deployment Request.</p>
+<p><strong>Patch Type:</strong></p>
+</li>
+</ol>
+<ol class="lowerroman simple">
+<li>Only consider Approved Patches that are newly added to the tool.</li>
+<li>Only consider Approved Patches that are
+<a class="reference external" href="#what-is-a-missing-patch">missing</a>.</li>
+<li>Only consider Approved Patches that are newly added missing.</li>
+</ol>
+</li>
+</ol>
+<ol class="loweralpha simple" start="21">
+<li>Section C is where you select Computer Groups/Group where the Patches
+are going to be deployed.</li>
+</ol>
+<ul class="simple">
+<li>Complete filling the fields and selecting the options. Click on
+<strong>Create</strong> to create your auto-deployment task.</li>
+</ul>
+<p>In order to run the auto-deployment task, you have to create a schedule.</p>
+<p><strong>Edit/Delete a Deployment Task</strong></p>
+<p>You can open a task in edit mode by clicking on the Edit Icon adjacent
+to a task. Similarly, you can delete a task using the Delete Icon.</p>
+</div>
+<div class="section" id="create-an-auto-deployment-schedule">
+<h3>Create an Auto-Deployment Schedule<a class="headerlink" href="#create-an-auto-deployment-schedule" title="Permalink to this headline">¶</a></h3>
+<p>Scheduling tells the tool when to start an <a class="reference external" href="#searching-deployment-requests">auto-deployment
+task</a>. The outcome of an
+auto-deployment task is a Pre-Approved Deployment Request for Patches
+satisfying the Patch type of the task.</p>
+<ul>
+<li><p class="first">Go to the Automatic Patch Deployment Page.</p>
+</li>
+<li><p class="first">Click on the <strong>Schedule</strong> button adjacent to the task for which you
+want to set a schedule.</p>
+<p><a class="reference internal" href="patch-management\media/image104.png"><img alt="image103" src="patch-management\media/image104.png" style="width: 4.375in; height: 1.71463in;" /></a></p>
+</li>
+</ul>
+<p>Figure 94</p>
+<ul>
+<li><p class="first">A dialog box opens. Click on the <strong>Schedule</strong> button.</p>
+<p><a class="reference internal" href="patch-management\media/image105.png"><img alt="image104" src="patch-management\media/image105.png" style="width: 2.22442in; height: 3.41667in;" /></a></p>
+</li>
+</ul>
+<p>Figure 95</p>
+<ul>
+<li><p class="first">Set a Schedule frequency:</p>
+<p><em>Note: Except Interval, every other option requires you to set a Time
+Zone.</em></p>
+<ol class="loweralpha simple">
+<li><strong>Once</strong>: Deployment happens only once at a specific date and
+time.</li>
+<li><strong>Daily</strong>: The deployment task activates on a start date &amp; time.
+After that, the deployment happens every day at a specified time
+mentioned in the Hour and Minute field.</li>
+<li><strong>Weekly</strong>: Deployment happens on a specific day/days of a week at
+a specified time.</li>
+<li><strong>Monthly</strong>: Discovery happens in selected month/months of a year
+on a particular day at a specified time.</li>
+<li><strong>Interval</strong>: Discovery happens after every specified minutes,
+hours, days or month.</li>
+</ol>
+</li>
+<li><p class="first">An auto-deployment task generates a
+<a class="reference external" href="#patch-notifications">notification</a> whenever it creates a
+Deployment Request. Set the recipients; it can either be a Technician
+Group/Groups or an individual (email)/individuals.</p>
+</li>
+<li><p class="first">Click on <strong>Save Schedules</strong> to save your settings.</p>
+</li>
+</ul>
+<p>You can edit the schedule settings of any task.</p>
+</div>
+<div class="section" id="view-status-of-an-auto-patch-deployment-task">
+<h3>View Status of an Auto Patch Deployment Task<a class="headerlink" href="#view-status-of-an-auto-patch-deployment-task" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="patch-management\media/image106.png"><img alt="image105" src="patch-management\media/image106.png" style="width: 6.26806in; height: 0.98403in;" /></a></p>
+<p>Figure 96</p>
+<p>Using the <strong>Status</strong> button, you can check the download status of all
+associated Patches of a request, and associated Deployment Requests.</p>
+<p>Clicking on a <strong>Status</strong> button opens a new page with the following
+tabs:</p>
+<p><a class="reference internal" href="patch-management\media/image107.png"><img alt="image106" src="patch-management\media/image107.png" style="width: 6.08056in; height: 2.94798in;" /></a></p>
+<p>Figure 97</p>
+<ul>
+<li><p class="first"><strong>Download Status</strong>: Here you can view all involved Patches and their
+download statuses. A Patch transitions through various statuses
+during a download cycle. Some of the statuses reflect a stage, and
+some are conclusions. Altogether there are six statuses:</p>
+<ol class="loweralpha simple">
+<li><strong>Pending</strong>: The Patch has been put in a queue by the Product
+Server for download.</li>
+</ol>
+<ol class="loweralpha simple" start="22">
+<li><strong>Downloading</strong>: The Product Server is downloading the Patch.</li>
+<li><strong>Downloaded</strong>: The Product Server has finished downloading the
+Patch.</li>
+<li><strong>Transferring</strong>: The Product Server is transferring the Patch to
+the Shared Drive.</li>
+<li><strong>Available</strong>: The Patch is available on the Shared Drive for
+deployment.</li>
+<li><strong>Cancelled</strong>: There was an error in downloading the Patch.</li>
+</ol>
+</li>
+<li><p class="first"><strong>Deployment Requests</strong>: Here you can view all Deployment Requests
+created by the Auto Patch Deployment Task. Each request has a
+<strong>Status</strong> button to view its <a class="reference external" href="#deployment-status">Deployment
+Status</a>.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="computer-management">
+<h2>Computer Management<a class="headerlink" href="#computer-management" title="Permalink to this headline">¶</a></h2>
+<p>Computers are pingable IT Assets that are capable of running our Agent
+application. Computers communicate with the main server (product)
+through the Agent and update the main server with Patch info, and fetch
+instruction for deployment (installation) of Patches.</p>
+<p>You have complete control over Computers with respect to the following:</p>
+<ul class="simple">
+<li>What Patches to deploy?</li>
+<li>How to deploy the Patches (<a class="reference external" href="#setting-up-a-deployment-policy">Deployment
+Policy</a>).</li>
+</ul>
+<p>The product shows you vital info about the Computers with respect to the
+following:</p>
+<ul class="simple">
+<li>What Patches are associated with a Computer?</li>
+<li>A Computer is receiving instruction from how many Deployment Request?</li>
+<li>Connection status of a Computer with the main server.</li>
+</ul>
+<div class="section" id="computer-list-view">
+<h3>Computer List View<a class="headerlink" href="#computer-list-view" title="Permalink to this headline">¶</a></h3>
+<p>The UI is different for Computers and Patches. We have already covered
+the Patch aspect of the product. Now we are going to talk about the
+Computer aspect.</p>
+<p>The Computer aspect is made up of two types of views: the Computer List
+View and Computer Details View. The Computer List View shows all the
+Computers that are available in the system.</p>
+<ol class="arabic simple">
+<li>Log in to your Dashboard.</li>
+</ol>
+<ol class="arabic" start="15">
+<li><p class="first">Go to <strong>Patch</strong> from the <strong>Launcher</strong>.</p>
+<p><a class="reference internal" href="patch-management\media/image108.png"><img alt="image107" src="patch-management\media/image108.png" style="width: 5.45556in; height: 3.84838in;" /></a></p>
+</li>
+</ol>
+<p>Figure 98</p>
+<ol class="arabic" start="16">
+<li><p class="first">Click on All Computers from the Patch menu.</p>
+<p><a class="reference internal" href="patch-management\media/image109.png"><img alt="image108" src="patch-management\media/image109.png" style="width: 4.62222in; height: 2.99528in;" /></a></p>
+</li>
+</ol>
+<p>Figure 99</p>
+<ol class="arabic simple" start="17">
+<li>The Computer List View opens.</li>
+</ol>
+<p><a class="reference internal" href="patch-management\media/image110.png"><img alt="image109" src="patch-management\media/image110.png" style="width: 6.26806in; height: 2.36806in;" /></a></p>
+<p>Figure 100</p>
+<ul class="simple">
+<li>Section A &amp; B (Figure 100) are the search features.</li>
+<li>Section C is the list area where you view all Computers. You can view
+the following information about a Computer:<ol class="loweralpha">
+<li>Computer ID is given by the Main Server.</li>
+<li>Hostname of the Computer.</li>
+<li>The OS platform of the Computer.</li>
+<li>Service Pack Details.</li>
+<li>Domain Details</li>
+<li>IP address of the Computer</li>
+</ol>
+</li>
+<li>Section D is where you can control the number of Computers visible on
+a page. You can set a default number from the Preference section.</li>
+</ul>
+</div>
+<div class="section" id="active-status-of-a-computer">
+<h3>Active Status of a Computer<a class="headerlink" href="#active-status-of-a-computer" title="Permalink to this headline">¶</a></h3>
+<p>The tool has a marker that tells whether a Computer is active or
+offline. Wherever you see Agent information in the product, you can see
+the associated marker. The marker has two colours: <strong>green</strong> signifying
+the Computer is active and communicating, and <strong>yellow</strong> signifying the
+Computer is offline.</p>
+<p><a class="reference internal" href="patch-management\media/image111.png"><img alt="image110" src="patch-management\media/image111.png" style="width: 4.67708in; height: 0.58333in;" /></a></p>
+<p><a class="reference internal" href="patch-management\media/image112.png"><img alt="image111" src="patch-management\media/image112.png" style="width: 4.70833in; height: 0.58383in;" /></a></p>
+<p>Figure 101</p>
+</div>
+<div class="section" id="searching-computers">
+<h3>Searching Computers<a class="headerlink" href="#searching-computers" title="Permalink to this headline">¶</a></h3>
+<p>There are two broad ways to search Computers in the product’s <a class="reference external" href="#computer-list-view">List
+View</a>:</p>
+<ul class="simple">
+<li>Using the Search Bar</li>
+<li>Using Filters</li>
+</ul>
+<div class="section" id="search-bar-2">
+<span id="id2"></span><h4>Search Bar<a class="headerlink" href="#search-bar-2" title="Permalink to this headline">¶</a></h4>
+<p>There is a search bar for searching Computers in the <a class="reference external" href="#computer-list-view">Computer List
+View</a>. The search bar supports the Advanced
+Search feature where you get a set of search options to narrow down your
+searches. You can access all the available search options by clicking on
+the search box. You can build conditions using a single option or
+multiple options.</p>
+<p><a class="reference internal" href="patch-management\media/image113.png"><img alt="image112" src="patch-management\media/image113.png" style="width: 3.01042in; height: 2.91667in;" /></a></p>
+<p>Figure 102</p>
+<p>You can search Computers with keywords in the search field. When you
+provide a keyword, Flotomate searches all the Computers with the keyword
+in their Service Pack, OS Name, Domain Name, Hostname, and Name. A
+Computer has to have at least one field matched (partial or full) with
+the keyword; in case there are multiple keywords, the Computer has to
+have at least one field matched for each keyword.</p>
+<p>A search query can be made up of options and keywords. In any case, the
+output yields Computers that satisfy all the parameters of the search
+query.</p>
+<p>Between two different conditions of the same option type OR logic is
+followed. Between different types AND logic is observed. Between
+keywords, and keywords and conditions AND logic is followed. An example
+of same option type contradiction is OS Name contains Windows vs. OS
+Name contains Linux.</p>
+</div>
+<div class="section" id="filters-2">
+<span id="id3"></span><h4>Filters<a class="headerlink" href="#filters-2" title="Permalink to this headline">¶</a></h4>
+<p>The <a class="reference external" href="#computer-list-view">Computer List View</a> has filters that allow
+you to view all healthy Computers, Highly Vulnerable Computers, and
+Vulnerable Computers. These filters are classifications based on
+Computer health. The health of a Computer is ascertained based on the
+number of missing Patches. Learn more about <a class="reference external" href="#computer-health-management">Computer Health
+Management</a>.</p>
+</div>
+</div>
+<div class="section" id="computers-details-view">
+<h3>Computer’s Details View<a class="headerlink" href="#computers-details-view" title="Permalink to this headline">¶</a></h3>
+<p>The UI is different for Computers and Patches. We have already covered
+the Patch aspect. Now we are going to talk about the Computer aspect.</p>
+<p>The Computer aspect is made up of two types of views: the Computer List
+View and Computer Details View. The Computer Details View is Computer
+specific which means every Computer in the system has a Details View
+that shows additional information and provides deployment options.</p>
+<ul class="simple">
+<li>Go to the <a class="reference external" href="#computer-list-view">Computer List View</a>.</li>
+<li>Click on a Computer from the list area to open its Details View.</li>
+</ul>
+<p><a class="reference internal" href="patch-management\media/image114.png"><img alt="image113" src="patch-management\media/image114.png" style="width: 6.26806in; height: 2.54444in;" /></a></p>
+<p>Figure 103</p>
+<ul>
+<li><p class="first">Section-A shows the identity of the Computer. It starts with the
+Computer ID and then the Computer Name. It also shows additional
+information about the Computer. You can see the platform, OS details,
+IP address and hostname of the Computer.</p>
+</li>
+<li><p class="first">Section-C gives you two tabs to view all related Patches and
+Deployment Requests:</p>
+<p><strong>Patches:</strong></p>
+<p><a class="reference internal" href="patch-management\media/image115.png"><img alt="image114" src="patch-management\media/image115.png" style="width: 6.26806in; height: 1.23472in;" /></a></p>
+</li>
+</ul>
+<p>Figure 104</p>
+<p>Under this tab, you can view all associated Patches categories into the
+following:</p>
+<ol class="loweralpha simple">
+<li><strong>New Patches</strong>: Shows newly discovered Patches that are yet to be
+deployed by the Computer.</li>
+</ol>
+<ol class="loweralpha" start="7">
+<li><p class="first"><strong>Installed Patches</strong>: Shows the Patches that have been installed by
+the Computer.</p>
+</li>
+<li><p class="first"><strong>Missing Patches</strong>: Shows the Patches that are being shown as
+Installed somewhere in the system but the Computer is yet to deploy
+them.</p>
+</li>
+<li><p class="first"><strong>Ignored Patches</strong>: Shows Patches that have been deemed as ignored
+for the Computer, Learn more about <a class="reference external" href="#ignoring-a-patch">Ignored
+Patches</a>.</p>
+<p>In each category, you can use a search bar to search for Patches. The
+search bar works in the same way as the one on <a class="reference external" href="#search-bar">Patch List
+View</a>.</p>
+<p>You can access the <a class="reference external" href="#patch-details-view">Details View</a> of a Patch
+by clicking on it.</p>
+<p><strong>Deployment Status:</strong></p>
+<p><a class="reference internal" href="patch-management\media/image116.png"><img alt="image115" src="patch-management\media/image116.png" style="width: 4.10502in; height: 0.54167in;" /></a></p>
+</li>
+</ol>
+<p>Figure 105</p>
+<p>In this tab, you can view all Deployment Requests that are giving Patch
+Deployment instructions to the Computer. You also view their
+<a class="reference external" href="#deployment-status">statuses</a>.</p>
+</div>
+<div class="section" id="computer-health-management">
+<h3>Computer Health Management<a class="headerlink" href="#computer-health-management" title="Permalink to this headline">¶</a></h3>
+<p>We have discussed earlier that Patch Management ensures that all
+administered IT Assets are updated with the latest Patch from the
+Software Vendor; this enhances security and helps in thwarting external
+and internal cyber-attacks.</p>
+<p>Computers fetch and deploy Patches. So it becomes imperative to monitor
+all Computers to keep yourself aligned with the idea of Patch
+Management.</p>
+<p>Our product has a feature called System Health that flags Computers that
+are missing critical, essential Patches. This helps you to manage your
+vulnerability and prevent any attacks.</p>
+<div class="section" id="system-health-settings">
+<h4>System Health Settings<a class="headerlink" href="#system-health-settings" title="Permalink to this headline">¶</a></h4>
+<p>Go to <strong>Admin</strong> (A Navigation Tab) &gt;&gt; <strong>System Health Settings</strong>
+(Patch/Package Management).</p>
+<p><a class="reference internal" href="patch-management\media/image117.png"><img alt="image116" src="patch-management\media/image117.png" style="width: 4.37222in; height: 3.6679in;" /></a></p>
+<p>Figure 106</p>
+<p>These settings help Flotomate to flag Computers as either Highly
+Vulnerable or Vulnerable. You can filter the flagged Computers on the
+<a class="reference external" href="#filters-2">Computer List View</a>. Clicking on <strong>System Health
+Settings</strong> opens a page. Here you can set the conditions separately to
+define Highly Vulnerable and Vulnerable.</p>
+<p><a class="reference internal" href="patch-management\media/image118.png"><img alt="image117" src="patch-management\media/image118.png" style="width: 6.26806in; height: 2.73125in;" /></a></p>
+<p>Figure 107</p>
+<p>Click on <strong>Edit</strong> to make the fields editable. You are expected to enter
+the minimum number of missing Patches for each severity label.</p>
+<p>Each vulnerability status has a set of four severity labels and their
+counts. No two same labels can have the same numbers (Numbers in Highly
+Vulnerable have to be higher than Vulnerable).</p>
+<p><a class="reference internal" href="patch-management\media/image119.png"><img alt="image118" src="patch-management\media/image119.png" style="width: 4.49722in; height: 3.16689in;" /></a></p>
+<p>Figure 108</p>
+<p>The number zero in a field signifies that there’s no condition for the
+corresponding severity label.</p>
+<p>If a Computer has a missing Patch number that is equal to or exceeds a
+minimum value for a label, then the Computer is flagged with the
+corresponding health status. In case a Computer satisfies multiple
+labels then the label top in the hierarchy is considered (Critical
+Patches having the highest priority and Low severity having the lowest).</p>
+<p><a class="reference internal" href="patch-management\media/image120.png"><img alt="image119" src="patch-management\media/image120.png" style="width: 4.33056in; height: 2.58173in;" /></a></p>
+<p>Figure 109</p>
+</div>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Patch Management</a><ul>
+<li><a class="reference internal" href="#managing-deployment-requests">Managing Deployment Requests</a><ul>
+<li><a class="reference internal" href="#introduction">Introduction</a></li>
+<li><a class="reference internal" href="#manually-creating-a-request">Manually Creating a Request</a></li>
+<li><a class="reference internal" href="#other-ways-to-add-a-manual-request">Other Ways to Add a Manual Request</a><ul>
+<li><a class="reference internal" href="#deployment-request-from-the-patch-list-view">Deployment Request from the Patch List View:</a></li>
+<li><a class="reference internal" href="#deployment-request-from-patch-details-view">Deployment Request from Patch Details View:</a></li>
+<li><a class="reference internal" href="#adding-a-deployment-request-from-a-computers-details-view">Adding a Deployment Request from a Computer’s Details View:</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#approval">Approval</a><ul>
+<li><a class="reference internal" href="#asking-for-an-approval">Asking for an Approval:</a></li>
+<li><a class="reference internal" href="#different-states-in-an-approval">Different States in an Approval</a></li>
+<li><a class="reference internal" href="#approval-process">Approval Process:</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#searching-deployment-requests">Searching Deployment Requests</a><ul>
+<li><a class="reference internal" href="#search-bar">Search Bar</a></li>
+<li><a class="reference internal" href="#filters">Filters</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#managing-deployment-requests-1">Managing Deployment Requests</a><ul>
+<li><a class="reference internal" href="#deployment-status">Deployment Status</a></li>
+<li><a class="reference internal" href="#unsupported-computers-in-a-deployment">Unsupported Computers in a Deployment</a></li>
+<li><a class="reference internal" href="#edit-archive-a-deployment-request">Edit/Archive a Deployment Request:</a></li>
+<li><a class="reference internal" href="#view-archived-deployment-requests">View Archived Deployment Requests</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#automatic-patch-deployment">Automatic Patch Deployment</a><ul>
+<li><a class="reference internal" href="#creating-an-automatic-patch-deployment">Creating an Automatic Patch Deployment</a></li>
+<li><a class="reference internal" href="#create-an-auto-deployment-schedule">Create an Auto-Deployment Schedule</a></li>
+<li><a class="reference internal" href="#view-status-of-an-auto-patch-deployment-task">View Status of an Auto Patch Deployment Task</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#computer-management">Computer Management</a><ul>
+<li><a class="reference internal" href="#computer-list-view">Computer List View</a></li>
+<li><a class="reference internal" href="#active-status-of-a-computer">Active Status of a Computer</a></li>
+<li><a class="reference internal" href="#searching-computers">Searching Computers</a><ul>
+<li><a class="reference internal" href="#search-bar-2">Search Bar</a></li>
+<li><a class="reference internal" href="#filters-2">Filters</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#computers-details-view">Computer’s Details View</a></li>
+<li><a class="reference internal" href="#computer-health-management">Computer Health Management</a><ul>
+<li><a class="reference internal" href="#system-health-settings">System Health Settings</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/patch-management/Patch-Management.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="nav-item nav-item-0"><a href="../index.html">ITSM Product Documentation 2.0.0 documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2018, Flotomate Technologies Private Limited.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.7.5.
+    </div>
+  </body>
+</html>

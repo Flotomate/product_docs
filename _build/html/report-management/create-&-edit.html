@@ -1,0 +1,596 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Create &amp; Edit Reports &#8212; ITSM Product Documentation 2.0.0 documentation</title>
+    <link rel="stylesheet" href="../_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Report List View" href="report-list-view.html" />
+    <link rel="prev" title="Introduction to Reports" href="introduction-to-report.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="report-list-view.html" title="Report List View"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="introduction-to-report.html" title="Introduction to Reports"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">ITSM Product Documentation 2.0.0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" accesskey="U">Report Management</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="create-edit-reports">
+<h1>Create &amp; Edit Reports<a class="headerlink" href="#create-edit-reports" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="create-a-report">
+<h2>Create a Report<a class="headerlink" href="#create-a-report" title="Permalink to this headline">¶</a></h2>
+<p>We have a standard interface to create reports across different modules.</p>
+<p>We give twenty-three Reports out of the box, referred as Pre-defined
+Reports. These Reports are standard Reports commonly used by most of our
+users.</p>
+<p>All Reports are created using the New Custom Reports page. To access the
+page follow the below steps.</p>
+<div class="section" id="id1">
+<h3>New Custom Report<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Log in to the Dashboard using the Technician Portal.</li>
+<li>Click on <strong>Report</strong> from the Navigation Tabs.</li>
+<li>The Report List View opens. Click on <strong>Create a Report</strong> button
+situated in the top right corner of the page. The New Custom Report
+page opens.</li>
+</ul>
+<div class="figure align-center" id="rf1">
+<img alt="Figure 1" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-1.png" />
+</div>
+<p>Creating a Report involves nine stages which have been described below:</p>
+<div class="section" id="add-name-and-description">
+<h4>Add Name and Description<a class="headerlink" href="#add-name-and-description" title="Permalink to this headline">¶</a></h4>
+<p>Section-A (<a class="reference internal" href="#rf1"><span class="std std-numref">Fig. 1</span></a>) is where you enter the name of the Report. The best
+practice is having a name which is descriptive and concise.</p>
+<p>Section-B is where you enter the description of the Report. Write a
+suitable description because it is used as a body when the Report is
+sent via email.</p>
+</div>
+<div class="section" id="selecting-a-module">
+<h4>Selecting a Module<a class="headerlink" href="#selecting-a-module" title="Permalink to this headline">¶</a></h4>
+<p>Section-C (<a class="reference internal" href="#rf1"><span class="std std-numref">Fig. 1</span></a>) is where you select the module for which you are
+making the Report. You are allowed to select one module from the
+following modules:</p>
+<ul class="simple">
+<li><strong>Request</strong>: Refers to the Request Management module.</li>
+<li><strong>Problem</strong>: Refers to the Problem Management module.</li>
+<li><strong>Change</strong>: Refers to the Change Management module.</li>
+<li><strong>Asset</strong>: Refers to the Asset Management module. You can drill down
+to an Asset Type with this selection in section-E (<a class="reference internal" href="#rf1"><span class="std std-numref">Fig. 1</span></a>). Reports
+are generated based on Asset and the type you select.</li>
+</ul>
+<div class="figure align-center" id="rf2">
+<img alt="figure 2" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-2.png" />
+</div>
+<ul class="simple">
+<li><strong>Project</strong>: Refers to the Project Management module.</li>
+<li><strong>Remote Deployment</strong>-<strong>Patch</strong>: Refers to the Patch Management
+module.</li>
+<li><strong>Remoter Deployment</strong>-<strong>Agent</strong>: Refers to the Flotomate Agent used
+for Asset discovery and remote deployment of patches and packages.</li>
+<li><strong>Multi-Module</strong>: This module helps you to combine two or more
+existing Reports into one Report. This module is visible when the
+Report Type is set to Summary Report.</li>
+</ul>
+<p>Depending on the module selected, the Criteria parameters, data columns
+and group by properties are updated.</p>
+<p><em>Note: This is a onetime selection meaning that you cannot change it
+later.</em></p>
+</div>
+<div class="section" id="selecting-report-type">
+<h4>Selecting Report Type<a class="headerlink" href="#selecting-report-type" title="Permalink to this headline">¶</a></h4>
+<p>Section-D (<a class="reference internal" href="#rf2"><span class="std std-numref">Fig. 2</span></a>) lets you select the Report type. There are three
+types shown which are as follows:</p>
+<ul class="simple">
+<li><strong>Tabular Report</strong>: These are simple reports that allow you list
+items in columns grouped by criteria in section-J.</li>
+<li><strong>Matrix Report</strong>: This type of Reports show cumulative item counts
+in a grid format (C X R). The counts are group based on criteria in
+section-J.</li>
+<li><strong>Summary Report</strong>: This type of Reports can summarize properties,
+details, milestones, and components of items in Asset, Projects,
+Patches, and Software License.</li>
+</ul>
+<p><em>Note: This is a onetime selection meaning that you cannot change it
+later.</em></p>
+</div>
+<div class="section" id="report-layout">
+<h4>Report Layout<a class="headerlink" href="#report-layout" title="Permalink to this headline">¶</a></h4>
+<p>Section-F (<a class="reference internal" href="#rf1"><span class="std std-numref">Fig. 1</span></a>) houses the layout options that decide the
+orientation of the final Report. You can see the orientation when the
+Report is opened either in PDF or Excel format. There are two
+orientations to choose from:</p>
+<ul class="simple">
+<li>Portrait</li>
+<li>Landscape</li>
+</ul>
+</div>
+<div class="section" id="report-visibility">
+<h4>Report Visibility<a class="headerlink" href="#report-visibility" title="Permalink to this headline">¶</a></h4>
+<p>Section-G (<a class="reference internal" href="#rf1"><span class="std std-numref">Fig. 1</span></a>) houses the visibility options. There are two
+options to choose from:</p>
+<ul class="simple">
+<li><strong>Public</strong>: The Report is visible to anyone having access to the
+Technician Portal. But the right to edit and delete still lies with
+the creator of the Report.</li>
+<li><strong>Private</strong>: The Report is visible only to the creator.</li>
+</ul>
+<p><em>Note: This option is non-changeable if the visibility is set to Public;
+changeable, if set to Private.</em></p>
+</div>
+<div class="section" id="filter-data-with-time">
+<h4>Filter Data with Time<a class="headerlink" href="#filter-data-with-time" title="Permalink to this headline">¶</a></h4>
+<p>Section-H (<a class="reference internal" href="#rf1"><span class="std std-numref">Fig. 1</span></a>) allows you to filter data using time. When
+filtering tickets and CIs three times are considered; which one to use
+depends on your selection?</p>
+<ul class="simple">
+<li><strong>Create Time</strong>: Whenever data is fetched, by Flotomate, from a
+module, the Create Time is considered in checking conditions, if any.
+For example, in a Report that shows total Requests with the Urgency
+set to High and group by Technicians for last 60 days, the Flotomate
+checks the Create Time of all the Requests to see eligibility for the
+period.</li>
+<li><strong>Update Time</strong>: Instead of Create Time, the product uses the Update
+Time in checking data.</li>
+<li><strong>Closed Time</strong>: Here the product uses the Closed Time in checking
+data.</li>
+</ul>
+<p>Closed Time is not applicable to the Asset module and its Types, and
+Remote Deployment.</p>
+</div>
+<div class="section" id="setting-conditions-to-filter-data">
+<h4>Setting Conditions to Filter Data<a class="headerlink" href="#setting-conditions-to-filter-data" title="Permalink to this headline">¶</a></h4>
+<p>Section-I (<a class="reference internal" href="#rf1"><span class="std std-numref">Fig. 1</span></a>) is where you set conditions to filter data before
+it is used for generating Reports</p>
+<p>The condition parameters are different for each module, but the way they
+work is same for all.</p>
+<p>You can add multiple condition groups with the <strong>Add Condition Group</strong>
+option. Within each group, you can add multiple condition statements.</p>
+<div class="figure align-center" id="rf3">
+<img alt="figure 3" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-3.png" />
+</div>
+<p>Each condition statement talks about a parameter being equal/not equal
+to something. You can form a condition statement by clicking on the
+three components marked by red boxes in Figure 3. Condition statements
+exist within a group, and you can add multiple conditions by clicking on
+the plus sign.</p>
+<p>The conditions are checked following a hierarchy: first conditions are
+checked within a group, and then within groups. The outcome of a
+condition statement or a group of statements, or groups of statements is
+either true or false. The word AND &amp; OR helps in deriving an outcome
+when there are multiple statements or groups, or both.</p>
+<p>Multiple condition statements can be evaluated using two basic
+operators: AND &amp; OR. These two operators describe the relationship
+between two statements, and the outcome is always either true or false.</p>
+</div>
+<div class="section" id="grouping-of-data">
+<h4>Grouping of data<a class="headerlink" href="#grouping-of-data" title="Permalink to this headline">¶</a></h4>
+<p>Section-J (<a class="reference internal" href="#rf1"><span class="std std-numref">Fig. 1</span></a>) houses the Group By feature that groups the data
+rows in a Report by:</p>
+<p><em>Note: This is a required field when the Report type is Matrix</em></p>
+<ul class="simple">
+<li><strong>Time Unit</strong>: You can group the data row either Daily, Weekly or
+Monthly.</li>
+<li><strong>Property</strong>: Each module has a list of properties that you can use
+to group the data rows in the Report.</li>
+</ul>
+<div class="figure align-center" id="rf4">
+<img alt="figure 4" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-4.png" />
+</div>
+<p>The above figure shows the properties of the module Request Management.</p>
+</div>
+<div class="section" id="selecting-columns">
+<h4>Selecting Columns<a class="headerlink" href="#selecting-columns" title="Permalink to this headline">¶</a></h4>
+<p>The last step in creating a Report is selecting the columns. What
+columns are available depends on the Report type and module selected.</p>
+<div class="figure align-center" id="rf5-1">
+<img alt="figure 5.1" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-5.1.png" />
+</div>
+<div class="figure align-center" id="rf5-2">
+<img alt="figure 5.2" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-5.2.png" />
+</div>
+<ul class="simple">
+<li><strong>Tabular Report</strong>:<ol class="loweralpha">
+<li>You add columns by selecting them and clicking on <strong>Done</strong>.</li>
+<li>You can search a column by its name.</li>
+</ol>
+</li>
+<li><strong>Matrix Report</strong>:<ol class="loweralpha">
+<li>You select a column from a drop-down list (<code class="xref std std-numref docutils literal notranslate"><span class="pre">rf5</span></code>). Each column
+is accompanied by the count function which tells of giving a
+cumulative count of items grouped by either time or a product
+property.</li>
+<li>Some columns have sub-columns which you can access by clicking the
+down icon next to a column name.</li>
+</ol>
+</li>
+</ul>
+<div class="figure align-center" id="rf6">
+<img alt="figure 6" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-6.png" />
+</div>
+<dl class="docutils">
+<dt>::</dt>
+<dd><blockquote class="first">
+<div>You can choose what sun-columns to include in the dialog box.</div></blockquote>
+<ol class="last loweralpha simple" start="3">
+<li>You add more columns using the plus icon (<a class="reference internal" href="#rf5-1"><span class="std std-numref">Fig. 5</span></a>).</li>
+</ol>
+</dd>
+</dl>
+<ul class="simple">
+<li><strong>Summary Report</strong>:<ol class="loweralpha">
+<li>You add properties/details by selecting them and clicking on
+<strong>Done</strong>.</li>
+<li>Some properties/details have sub-items which you can access by
+clicking the arrow icon next to a name.</li>
+</ol>
+</li>
+</ul>
+<div class="figure align-center" id="rf7">
+<img alt="figure 7" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-7.png" />
+</div>
+<dl class="docutils">
+<dt>::</dt>
+<dd>You can choose what sun-columns to include in the dialog box.</dd>
+</dl>
+<ul>
+<li><p class="first"><strong>Multi-Module Report</strong>:</p>
+<p>You search and select Reports that you want to merge into one Report.</p>
+</li>
+</ul>
+<div class="figure align-center" id="rf8">
+<img alt="figure 8" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-8.png" />
+</div>
+</div>
+</div>
+<div class="section" id="create-a-tabular-report">
+<h3>Create a Tabular Report<a class="headerlink" href="#create-a-tabular-report" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Open the <a class="reference internal" href="#new-custom-report"><span class="std std-ref">New Custom Report</span></a> page.</li>
+<li>We are going to create a Tabular Report called Computer Asset List
+that lists all computers managed by a particular Technician, group by
+Product.</li>
+<li>Following is our selections for the sections in New Custom Reports:</li>
+</ul>
+<div class="figure align-center" id="rf9">
+<img alt="figure 9" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-9.png" />
+</div>
+<ul class="simple">
+<li>Scroll down to the Select Column section of the page.</li>
+</ul>
+<div class="figure align-center" id="rf10">
+<img alt="figure 10" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-10.png" />
+</div>
+<ul>
+<li><p class="first">Here you see all the data columns available in a module. Each module
+has different columns to select. In Asset, you get different columns
+for each Asset Type; there could be hidden columns that you have to
+unhide by checking a box highlighted in Figure 10.</p>
+<p>You can also search for a column using the search bar in that
+section.</p>
+</li>
+<li><p class="first">We select three columns for this Report. We can rearrange them using
+drag &amp; drop. We finalize our selections by clicking on <strong>Done</strong>.</p>
+</li>
+</ul>
+<div class="figure align-center" id="rf11">
+<img alt="figure 11" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-11.png" />
+</div>
+<ul class="simple">
+<li>We save the Report by clicking on <strong>Create</strong>.</li>
+</ul>
+<p>The process to create a Report is same for all the modules in the
+system. We get the following Report when we
+<a class="reference internal" href="preview-a-report.html"><span class="doc">preview</span></a> for the past 3 months and group by
+Product.</p>
+<div class="figure align-center" id="rf12">
+<img alt="figure 12" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-12.png" />
+</div>
+</div>
+<div class="section" id="create-a-matrix-report">
+<h3>Create a Matrix Report<a class="headerlink" href="#create-a-matrix-report" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Open the <a class="reference internal" href="#new-custom-report"><span class="std std-ref">New Custom Report</span></a> page.</li>
+<li>We are going to create a Matrix Report called Average Resolution Time
+that shows the average resolution time of each Technicians along with
+the Request number bifurcated across support levels.</li>
+<li>Following is our selections for the sections in New Custom Reports:</li>
+</ul>
+<div class="figure align-center" id="rf13">
+<img alt="figure 13" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-13.png" />
+</div>
+<ul class="simple">
+<li>Scroll down to Select Column section of the page.</li>
+</ul>
+<div class="figure align-center" id="rf14">
+<img alt="figure 14" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-14.png" />
+</div>
+<ul>
+<li><p class="first">A Matric Report gives you a cumulative count of data; for example,
+the total number of Requests assigned to each Technician. In Figure
+14, Count is the function mentioned in the first box, and the second
+box shows you all the column names available in the module. Each
+module has different column names. You can add more columns using the
+Plus Icon.</p>
+<p>We select two columns and click on <strong>Done</strong> to finalize our decision.</p>
+<p>It may happen a column name may generate additional columns. You can
+control the visibility of those columns.</p>
+</li>
+</ul>
+<div class="figure align-center" id="rf15">
+<img alt="figure 15" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-15.png" />
+</div>
+<dl class="docutils">
+<dt>::</dt>
+<dd>In the above figure, we have selected a column name Support Level.
+Clicking on the arrow icon adjacent to the column name opens a dialog
+box where you can check what sub-columns to show.</dd>
+</dl>
+<div class="figure align-center" id="rf16">
+<img alt="figure 16" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-16.png" />
+</div>
+<ul class="simple">
+<li>We save the Report.by clicking on <strong>Create</strong>.</li>
+</ul>
+<p>We get the following Report when we <a class="reference internal" href="preview-a-report.html"><span class="doc">preview</span></a> for
+the past 3 months and group by Technicians.</p>
+<div class="figure align-center" id="rf17">
+<img alt="figure 17" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-17.png" />
+</div>
+</div>
+<div class="section" id="create-a-summary-report">
+<h3>Create a Summary Report<a class="headerlink" href="#create-a-summary-report" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Open the <a class="reference internal" href="#new-custom-report"><span class="std std-ref">New Custom Report</span></a> page.</li>
+<li>We are going to create a Summary Report called Asset Summary that
+summarizes OS name, memory size and hostname of computers managed by
+a Technician.</li>
+<li>Following is our selections for the sections in New Custom Reports:</li>
+</ul>
+<div class="figure align-center" id="rf18">
+<img alt="figure 18" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-18.png" />
+</div>
+<ul class="simple">
+<li>Scroll down to the Selection Section.</li>
+</ul>
+<div class="figure align-center" id="rf19">
+<img alt="figure 19" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-19.png" />
+</div>
+<ul class="simple">
+<li>A Summary Report can summarize properties and components of Assets.
+In this Report, we are going to summarize properties which is why we
+have selected <strong>Computer Property Details</strong>. We confirm our column
+selection by clicking <strong>Done</strong>.</li>
+</ul>
+<div class="figure align-center" id="rf20">
+<img alt="figure 20" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-20.png" />
+</div>
+<ul class="simple">
+<li>We only want OS name, memory size and host-name which we select as
+sub-columns (Refer <a class="reference internal" href="#rf20"><span class="std std-numref">Fig. 21</span></a>).</li>
+</ul>
+<div class="figure align-center" id="rf21">
+<img alt="figure 21" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-21.png" />
+</div>
+<ul class="simple">
+<li>We save the Report.by clicking on <strong>Create</strong>.</li>
+</ul>
+<p>We get the following Report when we <a class="reference internal" href="preview-a-report.html"><span class="doc">preview</span></a> for
+the past 3 months.</p>
+<div class="figure align-center" id="rf22">
+<img alt="figure 22" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-22.png" />
+</div>
+</div>
+<div class="section" id="creating-multi-module-report">
+<h3>Creating Multi-Module Report<a class="headerlink" href="#creating-multi-module-report" title="Permalink to this headline">¶</a></h3>
+<p>You can create a Report that summarizes the output of multiple Reports.
+The feature that allows you to do this is called multi-module.</p>
+<ul class="simple">
+<li>Open the <a class="reference internal" href="#new-custom-report"><span class="std std-ref">New Custom Report</span></a> page.</li>
+<li>We are going to create a Report called Multi-Module Report that has
+the output of two Reports (Computer Asset List and Average Resolution
+Time).</li>
+<li>Following is our selections for the sections in New Custom Reports:</li>
+</ul>
+<div class="figure align-center" id="rf23">
+<img alt="figure 23" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-23.png" />
+</div>
+<ul class="simple">
+<li>Scroll down to the Report selection area.</li>
+</ul>
+<div class="figure align-center" id="rf24">
+<img alt="figure 24" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-24.png" />
+</div>
+<ul class="simple">
+<li>We select the Reports that we want to add using the search features.
+We finalize our selection by clicking on <strong>Done</strong>.</li>
+</ul>
+<div class="figure align-center" id="rf25">
+<img alt="figure 25" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-25.png" />
+</div>
+<ul class="simple">
+<li>We can rearrange the order of the Reports by drag and drop.</li>
+<li>We save the Report.by clicking on <strong>Create</strong>.</li>
+</ul>
+<p>We get the following Report when we <a class="reference internal" href="preview-a-report.html"><span class="doc">preview</span></a> for
+the past 3 months.</p>
+<div class="figure align-center" id="rf26">
+<img alt="figure 26" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-26.png" />
+</div>
+</div>
+</div>
+<div class="section" id="editing-a-report">
+<h2>Editing a Report<a class="headerlink" href="#editing-a-report" title="Permalink to this headline">¶</a></h2>
+<p><em>Note: A user can edit Reports that he creates.</em></p>
+<ul class="simple">
+<li>Go to the <a class="reference external" href="#_report_list_view">Report List View</a>.</li>
+<li>In the list area, click on the <strong>Edit Report</strong> button of the Report
+which you want to edit. The Update Custom Report page opens.</li>
+</ul>
+<div class="figure align-center" id="rf27">
+<img alt="figure 27" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-27.png" />
+</div>
+<ul class="simple">
+<li>The Update Custom Report page is similar to the New Custom Report
+page.</li>
+<li>You can edit the following things in Update Custom Report page:<ol class="loweralpha">
+<li>The layout of the Report.</li>
+<li>You can change the Visibility if it is already set to Private.
+Once set to public, you cannot change Visibility.</li>
+<li>The Date filter field.</li>
+<li>You can modify existing conditions or add new ones in the Criteria
+section.</li>
+<li>You can change the Group by options.</li>
+<li>Add and rearrange columns.</li>
+</ol>
+</li>
+<li>Once you are over with your editing, click <strong>Update</strong>.</li>
+</ul>
+<p>You can also access the Update Custom Report page from <a class="reference internal" href="preview-a-report.html#open-custom-reports"><span class="std std-ref">Custom
+Reports</span></a> page.</p>
+<div class="section" id="add-and-rearrange-columns">
+<h3>Add and Rearrange Columns<a class="headerlink" href="#add-and-rearrange-columns" title="Permalink to this headline">¶</a></h3>
+<p>In the Update Custom Report page, you can change the
+Column/Report/Section selection using <strong>Modify Column/Reports/Section
+Selection</strong> button. You can rearrange the order using drag and drop.</p>
+<div class="figure align-center" id="rf28">
+<img alt="figure 28" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-28.png" />
+</div>
+<p><strong>Deleting a Report</strong></p>
+<p><em>Note: A Technician is allowed to delete Reports that he/she has
+created.</em></p>
+<ul class="simple">
+<li>Go to the <a class="reference external" href="#report-list-view">Report List View</a>.</li>
+<li>Click on <strong>Delete Report</strong> from the Action Menu of a Report. On
+Confirmation, the Report is deleted.</li>
+</ul>
+<div class="figure align-center" id="rf29-1">
+<img alt="figure 29.1" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-29.1.png" />
+</div>
+<div class="figure align-center" id="rf29-2">
+<img alt="figure 29.2" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-29.2.png" />
+</div>
+<p>You can delete a Report from its <a class="reference internal" href="#editing-report"><span class="std std-ref">Update Custom Repor</span></a> page and <a class="reference internal" href="preview-a-report.html#open-custom-reports"><span class="std std-ref">Custom
+Reports</span></a> page.</p>
+<div class="figure align-center" id="rf30">
+<img alt="figure 30" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-30.png" />
+</div>
+<div class="figure align-center" id="rf31">
+<img alt="figure 31" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-31.png" />
+</div>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Create &amp; Edit Reports</a><ul>
+<li><a class="reference internal" href="#create-a-report">Create a Report</a><ul>
+<li><a class="reference internal" href="#id1">New Custom Report</a><ul>
+<li><a class="reference internal" href="#add-name-and-description">Add Name and Description</a></li>
+<li><a class="reference internal" href="#selecting-a-module">Selecting a Module</a></li>
+<li><a class="reference internal" href="#selecting-report-type">Selecting Report Type</a></li>
+<li><a class="reference internal" href="#report-layout">Report Layout</a></li>
+<li><a class="reference internal" href="#report-visibility">Report Visibility</a></li>
+<li><a class="reference internal" href="#filter-data-with-time">Filter Data with Time</a></li>
+<li><a class="reference internal" href="#setting-conditions-to-filter-data">Setting Conditions to Filter Data</a></li>
+<li><a class="reference internal" href="#grouping-of-data">Grouping of data</a></li>
+<li><a class="reference internal" href="#selecting-columns">Selecting Columns</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#create-a-tabular-report">Create a Tabular Report</a></li>
+<li><a class="reference internal" href="#create-a-matrix-report">Create a Matrix Report</a></li>
+<li><a class="reference internal" href="#create-a-summary-report">Create a Summary Report</a></li>
+<li><a class="reference internal" href="#creating-multi-module-report">Creating Multi-Module Report</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#editing-a-report">Editing a Report</a><ul>
+<li><a class="reference internal" href="#add-and-rearrange-columns">Add and Rearrange Columns</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="introduction-to-report.html"
+                        title="previous chapter">Introduction to Reports</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="report-list-view.html"
+                        title="next chapter">Report List View</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/report-management/create-&amp;-edit.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="report-list-view.html" title="Report List View"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="introduction-to-report.html" title="Introduction to Reports"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">ITSM Product Documentation 2.0.0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" >Report Management</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2018, Flotomate Technologies Private Limited.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.7.5.
+    </div>
+  </body>
+</html>
