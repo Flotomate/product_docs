@@ -1,0 +1,472 @@
+
+
+
+
+Request Management for Requesters
+=================================
+
+The Customer Portal provides a simple interface for Requesters to create
+and manage their Requests. The Customer Portal is the primary interface
+between Requesters and the Helpdesk.
+
+.. _creating-a-request-1:
+
+Creating a Request 
+-------------------
+
+The Create a Request form on the Customer Portal is a toned down version
+of the Technician Portal.
+
+Requestors can also use the Create a Request dialog box without login as
+guest users. An Admin has to enable the guest user feature.
+
+-  Log in to the Customer Portal. You can log in with third-party
+   credentials if SSO is already configured; please refer Administration
+   Manual to know about SSO configuration.
+
+-  Click on **Create Request**.
+
+   |image79|
+
+Figure 78
+
+|image80|
+
+Figure 79
+
+-  The **Create-a-Request** dialog box opens. You have to enter a
+   Category, your email ID (your authenticated email if Request without
+   login is disabled), and a Subject line. `Learn more about the
+   fields <#creating-a-request>`__.
+
+-  Fill in the details and hit **Create**. If you are not logged in,
+   then you may be asked to log in depending on the settings selected by
+   the Admin. You have now created your Request.
+
+Creating a Request with an Email 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Flotomate gives the option to set up an email as the Helpdesk email
+address. Requestors can send an email to create a Request.
+
+The question, who can create a Request, depends on the **Helpdesk**
+settings in the **Admin** section. If settings allow creating Requests
+without login, then anyone with the Helpdesk email can create a Request.
+Else, the system accepts email Requests from registered emails only.
+
+When you create a Request using an email, the email subject becomes the
+Request Subject, email body becomes the Request Description, and any
+attachments become the Request attachment.
+
+.. _request-list-view-1:
+
+Request List View
+-----------------
+
+Requestors can manage their Requests on the Customer Portal in Request
+List View, but a Requester has no rights to neither view nor manages
+Requests created by other Requesters. He can only view and manage his
+Requests.
+
+To access Request List View
+
+1. Log in to the Customer Portal.
+
+36. On the homepage, you can find the button **My Requests**, click on
+    it.
+
+37. You are now on the Request List View.
+
+    |image81|
+
+Figure 80
+
+h. Section A&B are part of the `search features <#searching-request>`__.
+
+i. Section C is the list area for Requests. Here you can perform the
+   following operations:
+
+   ix. `Classify <#classify-requests-1>`__
+
+   x.  `Resolve <#resolving-a-request>`__
+
+   xi. `Edit <#editing-subject-and-description>`__
+
+j. Section-D is the details Pane of a Request.
+
+k. Clicking section-E gives you the option to set the number of Requests
+   visible per page; the highest is 100 per page.
+
+Searching Request
+-----------------
+
+There are two broad ways to search requests:
+
+-  **Search Bar**: This search bar is similar to the one in the
+   `Technician List View <#using-a-search-bar>`__.
+
+-  **Filters**: Status-based filters that tell you about the
+   distribution of Requests under various predefined and custom
+   statuses:
+
+   |image82|
+
+Figure 81
+
+.. _request-details-view-1:
+
+Request Details View
+--------------------
+
+The Details View is where a Requester communicates with the Technicians
+and has access to the details of the Request.
+
+1. Go to the `Request List View <#request-list-view-1>`__.
+
+2. Click on the Subject line of a Request.
+
+38. You are now in the Request Details View of that Request.
+
+    |image83|
+
+Figure 82
+
+l. Section –A are the `classifier <#classify-requests-1>`__\ \ s.
+
+m. Section-B is the `comment section <#conversation-with-technician>`__.
+   The Requester can also view any linked Knowledge Base write-ups here.
+
+n. Section-C is the details about the assigned Technician.
+
+o. Section-D houses `Resolve <#resolving-a-request>`__ and
+   `Edit <#editing-subject-and-description>`__.
+
+.. _classify-requests-1:
+
+Classify Requests
+-----------------
+
+Flotomate allows requesters to classify Requests based on the following:
+
+-  **Urgency**: Setting this label shows the Technicians which Requests
+   to give priority. These are predefined labels that are immutable, and
+   they are Low, Medium, High, and Urgent.
+
+-  **Impact**: Setting this label shows where a Request has its effect
+   which is either on User, Department or Business.
+
+|image84|
+
+Figure 83
+
+Conversation with Technician
+----------------------------
+
+Requesters can have a conversation thread with Technicians:
+
+To write a comment:
+
+-  Go to the `Details View <#request-details-view-1>`__ of a Request.
+
+-  Scroll down to the **Conversation** tab and click on **Reply to
+   Technician**. The pane expands to show an editor.
+
+   |image85|
+
+Figure 84
+
+-  Write your comment. You can also attach files with your comments.
+
+You can search and sort the comment thread.
+
+Resolving a Request
+-------------------
+
+A Requester can resolve a Request in the following ways:
+
+-  In the `List View <#request-list-view-1>`__, click on the **Resolve**
+   button adjacent to a Request’s Subject line. The Status changes to
+   Resolve.
+
+-  In the `Details View <#request-details-view>`__, click on Resolve
+   button situated in the top right corner of the page. The Status
+   Changes to Resolve.
+
+Reopening a Request
+~~~~~~~~~~~~~~~~~~~
+
+You reopen a Request in the same ways you resolved it, instead of
+**Resolve** you have **Reopen**.
+
+Editing Subject and Description
+-------------------------------
+
+Requesters can edit the Subject and Description of a Request in the
+following ways:
+
+-  In the `List View <#request-list-view-1>`__, click on the **Edit**
+   button adjacent to a Request’s Subject line. A dialog box opens,
+   perform the edits and hit Update.
+
+-  In the `Details View <#request-details-view>`__, click on **Edit**
+   button situated in the top right corner of the page. A dialog box
+   opens, perform the edits and hit Update.
+
+.. |image0| image:: media/image1.jpeg
+   :width: 18.72917in
+   :height: 12.49861in
+.. |image1| image:: media/image2.png
+   :width: 2.21875in
+   :height: 3.21474in
+.. |image2| image:: media/image3.png
+   :width: 5.81955in
+   :height: 3.70347in
+.. |image3| image:: media/image4.png
+   :width: 5.83056in
+   :height: 1.15435in
+.. |image4| image:: media/image5.png
+   :width: 2.91976in
+   :height: 2.79561in
+.. |image5| image:: media/image6.png
+   :width: 6.26806in
+   :height: 3.31944in
+.. |image6| image:: media/image7.png
+   :width: 5.92431in
+   :height: 0.61763in
+.. |image7| image:: media/image8.png
+   :width: 5.20441in
+   :height: 1.02904in
+.. |image8| image:: media/image9.png
+   :width: 5.21756in
+   :height: 0.40522in
+.. |image9| image:: media/image10.png
+   :width: 3.20804in
+   :height: 2.27639in
+.. |image10| image:: media/image11.png
+   :width: 5.52207in
+   :height: 0.93426in
+.. |image11| image:: media/image12.png
+   :width: 4.31497in
+   :height: 2.56507in
+.. |image12| image:: media/image13.png
+   :width: 3.64583in
+   :height: 1.98631in
+.. |image13| image:: media/image14.png
+   :width: 5.36181in
+   :height: 0.92433in
+.. |image14| image:: media/image15.png
+   :width: 5.73681in
+   :height: 1.33982in
+.. |image15| image:: media/image16.png
+   :width: 4.68207in
+   :height: 1.6283in
+.. |image16| image:: media/image17.png
+   :width: 6.26806in
+   :height: 3.22708in
+.. |image17| image:: media/image18.png
+   :width: 4.10417in
+   :height: 1.58126in
+.. |image18| image:: media/image19.png
+   :width: 4.66319in
+   :height: 2.78107in
+.. |image19| image:: media/image20.png
+   :width: 5.79931in
+   :height: 2.70433in
+.. |image20| image:: media/image21.png
+   :width: 4.15347in
+   :height: 1.34967in
+.. |image21| image:: media/image22.png
+   :width: 4.74409in
+   :height: 2.15554in
+.. |image22| image:: media/image23.png
+   :width: 4.1264in
+   :height: 1.84375in
+.. |image23| image:: media/image24.png
+   :width: 3.33305in
+   :height: 2.41934in
+.. |image24| image:: media/image25.png
+   :width: 4.54861in
+   :height: 1.39542in
+.. |image25| image:: media/image26.png
+   :width: 4.47844in
+   :height: 3.39744in
+.. |image26| image:: media/image27.png
+   :width: 4.73516in
+   :height: 3.17708in
+.. |image27| image:: media/image28.png
+   :width: 5.66854in
+   :height: 1.6875in
+.. |image28| image:: media/image29.png
+   :width: 5.34276in
+   :height: 1.72182in
+.. |image29| image:: media/image30.png
+   :width: 5.36707in
+   :height: 1.1738in
+.. |image30| image:: media/image31.png
+   :width: 2.95833in
+   :height: 2.22243in
+.. |image31| image:: media/image32.png
+   :width: 5.89663in
+   :height: 1.35417in
+.. |image32| image:: media/image33.png
+   :width: 4.6615in
+   :height: 2.33333in
+.. |image33| image:: media/image34.png
+   :width: 2.85359in
+   :height: 1.74977in
+.. |image34| image:: media/image35.png
+   :width: 6.14306in
+   :height: 1.35405in
+.. |image35| image:: media/image36.png
+   :width: 4.25in
+   :height: 2.08992in
+.. |image36| image:: media/image36.png
+   :width: 4.89889in
+   :height: 1.21931in
+.. |image37| image:: media/image37.png
+   :width: 3.45553in
+   :height: 3.50109in
+.. |image38| image:: media/image38.png
+   :width: 5.32372in
+   :height: 1.59375in
+.. |image39| image:: media/image39.png
+   :width: 5.74819in
+   :height: 2.82324in
+.. |image40| image:: media/image40.png
+   :width: 4.15503in
+   :height: 2.37692in
+.. |image41| image:: media/image41.png
+   :width: 3.79931in
+   :height: 2.32269in
+.. |image42| image:: media/image42.png
+   :width: 4.87222in
+   :height: 2.53381in
+.. |image43| image:: media/image43.png
+   :width: 3.97917in
+   :height: 2.66017in
+.. |image44| image:: media/image44.png
+   :width: 3.16667in
+   :height: 2.59829in
+.. |image45| image:: media/image44.png
+   :width: 3.29287in
+   :height: 2.70184in
+.. |image46| image:: media/image45.png
+   :width: 3.70476in
+   :height: 2.67708in
+.. |image47| image:: media/image46.png
+   :width: 3.5in
+   :height: 2.37073in
+.. |image48| image:: media/image47.png
+   :width: 5.70556in
+   :height: 1.28385in
+.. |image49| image:: media/image48.png
+   :width: 5.32961in
+   :height: 2.82955in
+.. |image50| image:: media/image49.png
+   :width: 4.44514in
+   :height: 2.40627in
+.. |image51| image:: media/image50.png
+   :width: 5.69514in
+   :height: 1.24932in
+.. |image52| image:: media/image51.png
+   :width: 4.10028in
+   :height: 2.9864in
+.. |image53| image:: media/image52.png
+   :width: 3.1625in
+   :height: 1.3917in
+.. |image54| image:: media/image53.png
+   :width: 4.48681in
+   :height: 2.60877in
+.. |image55| image:: media/image54.png
+   :width: 2.13333in
+   :height: 3.25333in
+.. |image56| image:: media/image55.png
+   :width: 4.93472in
+   :height: 2.036in
+.. |image57| image:: media/image56.png
+   :width: 5.19514in
+   :height: 0.9969in
+.. |image58| image:: media/image57.png
+   :width: 4.8458in
+   :height: 2.70915in
+.. |image59| image:: media/image58.png
+   :width: 2.75in
+   :height: 2.86913in
+.. |image60| image:: media/image59.png
+   :width: 5.21454in
+   :height: 1.97582in
+.. |image61| image:: media/image60.png
+   :width: 4.23348in
+   :height: 3.62027in
+.. |image62| image:: media/image61.png
+   :width: 4.96597in
+   :height: 1.24232in
+.. |image63| image:: media/image62.png
+   :width: 3.40625in
+   :height: 1.66623in
+.. |image64| image:: media/image63.png
+   :width: 3.9375in
+   :height: 2.31912in
+.. |image65| image:: media/image64.png
+   :width: 2.83333in
+   :height: 2.10169in
+.. |image66| image:: media/image65.png
+   :width: 5.16389in
+   :height: 1.7192in
+.. |image67| image:: media/image66.png
+   :width: 5.45508in
+   :height: 3.18021in
+.. |image68| image:: media/image67.png
+   :width: 6.26806in
+   :height: 2.64306in
+.. |image69| image:: media/image68.png
+   :width: 5.32014in
+   :height: 3.89609in
+.. |image70| image:: media/image69.png
+   :width: 5.63003in
+   :height: 3.07967in
+.. |image71| image:: media/image70.png
+   :width: 5.85109in
+   :height: 2.66667in
+.. |image72| image:: media/image71.png
+   :width: 5.77847in
+   :height: 1.81434in
+.. |image73| image:: media/image72.png
+   :width: 5.72639in
+   :height: 3.00213in
+.. |image74| image:: media/image73.png
+   :width: 5.12064in
+   :height: 2.84583in
+.. |image75| image:: media/image74.png
+   :width: 5.50625in
+   :height: 2.91805in
+.. |image76| image:: media/image75.png
+   :width: 5.69514in
+   :height: 1.23859in
+.. |image77| image:: media/image76.png
+   :width: 5.72632in
+   :height: 2.78403in
+.. |image78| image:: media/image77.png
+   :width: 6.26806in
+   :height: 1.35347in
+.. |image79| image:: media/image78.png
+   :width: 4.59029in
+   :height: 3.02431in
+.. |image80| image:: media/image79.png
+   :width: 5.45635in
+   :height: 3.20187in
+.. |image81| image:: media/image80.png
+   :width: 6.20834in
+   :height: 2.09375in
+.. |image82| image:: media/image81.png
+   :width: 5.79931in
+   :height: 1.58379in
+.. |image83| image:: media/image82.png
+   :width: 5.63561in
+   :height: 2.5in
+.. |image84| image:: media/image83.png
+   :width: 6.26806in
+   :height: 0.70694in
+.. |image85| image:: media/image84.png
+   :width: 5.41389in
+   :height: 2.38245in

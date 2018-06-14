@@ -10,6 +10,7 @@ Flotomate Product Manual
    :maxdepth: 1
    :caption: Contents:
    
+   request-management/index
    report-management/index
    admin/index
    asset-management/index
