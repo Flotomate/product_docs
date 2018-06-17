@@ -55,7 +55,7 @@ Please refer :numref:`pmf-5` for the below descriptions:
 
     c. Requester info and Create time of the Problem.
 
--  Section-G is the Glance view of a Problem that shows you some
+-  Section-G is the Glance pane of a Problem that shows you some
    classifiers and the following tabs:
 
    a. **Incidents**: Shows you the related Requests to the Problem.
@@ -67,10 +67,10 @@ Please refer :numref:`pmf-5` for the below descriptions:
 -  Section-H gives you the option to set the number of Problems visible
    per page; the highest is 100 per page.
 
-   You can toggle between Table view and Grid view for the list area.
+   You can toggle between Table view-mode and Grid view-mode for the list area.
 
-    a. In Grid view, the listings are more descriptive and explicit
-       compared to Glance Mode. You can view additional information in
+    a. In Grid view-mode, the listings are more descriptive and explicit
+       compared to Table view-mode. You can view additional information in
        the Glance pane of a Problem.
 
         .. _pmf-7:
@@ -78,8 +78,8 @@ Please refer :numref:`pmf-5` for the below descriptions:
             :align: center
             :alt: figure 7
 
-    b. Table view is minimalistic which shows minimum information. The focus
-       is to give you the most critical information.
+    b. Table view-mode is minimalistic which shows minimum information. The focus
+       is to give you the critical information.
 
         .. _pmf-8:
         .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/problem-management/PM-8.png

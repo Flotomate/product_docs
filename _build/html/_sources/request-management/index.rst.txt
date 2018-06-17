@@ -6,7 +6,7 @@ Request Management
    :caption: Request Management
 
    introduction-request-Management
-   request-management-technician
+   request-management-technician/index
    request-management-requestor
 
    

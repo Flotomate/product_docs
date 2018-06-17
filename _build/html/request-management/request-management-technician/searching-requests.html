@@ -1,0 +1,197 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Searching Requests &#8212; ITSM Product Documentation 2.0.0 documentation</title>
+    <link rel="stylesheet" href="../../_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Assigning a Request" href="assigning-a-request.html" />
+    <link rel="prev" title="Request List View" href="request-list-view.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="assigning-a-request.html" title="Assigning a Request"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="request-list-view.html" title="Request List View"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../index.html">ITSM Product Documentation 2.0.0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../index.html" >Request Management</a> &#187;</li>
+          <li class="nav-item nav-item-2"><a href="index.html" accesskey="U">Request Management for Technicians</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="searching-requests">
+<h1>Searching Requests<a class="headerlink" href="#searching-requests" title="Permalink to this headline">¶</a></h1>
+<p>Flotomate gives you two broad ways to search Requests in <a class="reference internal" href="request-list-view.html"><span class="doc">Request List
+View</span></a>.</p>
+<ul class="simple">
+<li>Using custom and predefined filters.</li>
+<li>Using a search bar.</li>
+</ul>
+<div class="section" id="using-a-search-bar">
+<h2>Using a Search Bar<a class="headerlink" href="#using-a-search-bar" title="Permalink to this headline">¶</a></h2>
+<p>The product allows you to perform Advanced Search using various
+combinations of predefined search options and keywords. If you want to
+see the list of available options, then click on the Search Box. You can
+select an option or multiple options from a drop-down menu.</p>
+<div class="figure align-center" id="rmf-9">
+<img alt="figure 9" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-9.png" />
+</div>
+<p>You can search Requests with keywords. When you provide a keyword,
+Flotomate examines all the Requests with the keyword in Subject,
+Description, Solution, Tags, Requestor Email, and ID fields. All matched
+Requests get displayed in the list area. In case of multiple keywords,
+all keywords need to be matched.</p>
+<p>You can make a filter using a chain of search options and keywords. You
+can save your search queries, refer <a class="reference internal" href="#rmf-10"><span class="std std-numref">Fig. 10</span></a>. Saved search queries
+appear in the section-A’s menu list (<a class="reference internal" href="request-list-view.html#rmf-5"><span class="std std-numref">Fig. 5</span></a>).</p>
+<p>For example, if you are looking for all Requests containing the word SLA
+in the Subject line and have an Impact on a Department. You have the
+search query in <a class="reference internal" href="#rmf-10"><span class="std std-numref">Fig. 10</span></a>.</p>
+<div class="figure align-center" id="rmf-10">
+<img alt="figure 10" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-10.png" />
+</div>
+<p>Between two different conditions of the same data type, the OR logic
+prevails. Between different data, types, the AND logic prevails. An
+example of same data type conditions is Status Open vs. Status Closed.
+Between keywords and conditions AND logic is followed.</p>
+<div class="figure align-center" id="rmf-11">
+<img alt="figure 11" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-11.png" />
+</div>
+</div>
+<div class="section" id="using-filters">
+<h2>Using Filters<a class="headerlink" href="#using-filters" title="Permalink to this headline">¶</a></h2>
+<p>The product has filters to sort Requests List using the following
+criteria:</p>
+<ul class="simple">
+<li>Status</li>
+<li>Priority</li>
+<li>Assignee</li>
+<li>SLA</li>
+</ul>
+<p>Go to the <a class="reference internal" href="request-list-view.html"><span class="doc">Request List View</span></a>. In the List View,
+clicking on the header section (Section-A <a class="reference internal" href="request-list-view.html#rmf-5"><span class="std std-numref">Fig. 5</span></a>) gives you a popup
+menu containing seven predefined filters.</p>
+<div class="figure align-center" id="rmf-12">
+<img alt="figure 12" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-12.png" />
+</div>
+<p>Selecting any one filter populates the list area with Requests
+satisfying the filter’s conditions. All seven filters have different
+conditions, which are:</p>
+<p>There are status based filters in Section-B (<a class="reference internal" href="request-list-view.html#rmf-5"><span class="std std-numref">Fig. 5</span></a>) of List View that
+tell you about the distribution of Requests under various predefined and
+custom statuses.</p>
+<div class="figure align-center" id="rmf-13">
+<img alt="figure 13" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-13.png" />
+</div>
+<p>You can create and manage custom statuses, but you cannot change some
+statuses, which are:</p>
+<ul class="simple">
+<li>Open</li>
+<li>Pending on Requester</li>
+<li>Pending in Approval (This <span class="xref std std-ref">status</span> can only be set by
+the system when the Request is in the <a class="reference internal" href="working-on-a-request.html#rm-asking-for-approval"><span class="std std-ref">Approval</span></a> stage.)</li>
+<li>Pending on Technician</li>
+<li>Resolved</li>
+<li>Closed</li>
+</ul>
+<p>Please refer Request Custom Status (Customization and Configuration) in
+the Administration manual to learn how to create Custom Statuses.</p>
+<p>The product can also show you the distribution of all the unclosed
+Requests across the priority levels and SLA statuses.</p>
+<div class="figure align-center" id="rmf-14">
+<img alt="figure 14" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-14.png" />
+</div>
+<p>Additional tags appear when one or more Requests are about to reach
+their Due-dates. The maximum time-frame to show due is 24 hours.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Searching Requests</a><ul>
+<li><a class="reference internal" href="#using-a-search-bar">Using a Search Bar</a></li>
+<li><a class="reference internal" href="#using-filters">Using Filters</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="request-list-view.html"
+                        title="previous chapter">Request List View</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="assigning-a-request.html"
+                        title="next chapter">Assigning a Request</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../_sources/request-management/request-management-technician/searching-requests.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="assigning-a-request.html" title="Assigning a Request"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="request-list-view.html" title="Request List View"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../index.html">ITSM Product Documentation 2.0.0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../index.html" >Request Management</a> &#187;</li>
+          <li class="nav-item nav-item-2"><a href="index.html" >Request Management for Technicians</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2018, Flotomate Technologies Private Limited.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.7.5.
+    </div>
+  </body>
+</html>

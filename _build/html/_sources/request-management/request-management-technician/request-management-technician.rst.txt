@@ -1,0 +1,404 @@
+**********************************
+Request Management for Technicians
+**********************************
+
+
+
+
+
+
+
+
+
+
+
+Mark a Request as a Spam
+========================
+
+It may happen that some Requests that you receive are irrelevant, and
+you want them disappear. You can discard a Request as a Spam, and it
+disappears from the product. You can mark multiple Requests as Spam at
+once or mark them individually.
+
+.. _rmf-58:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-58.png
+    :align: center
+    :alt: figure 58
+
+1. Go to **Request** >> :ref:`Request List View <request-list-view>`.
+
+2. Select a Request or Requests from the list area. The **Mark as
+   Spam** option appears.
+
+3. Clicking **Mark as Spam** sends the selected Requests to spam. Else
+   you can mark then individually by selecting **Mark as Spam** from the
+   Action Menu of a Request.
+
+You can also send Requests to spam from the Request Details View:
+
+1. Go to a Request’s Detail View.
+
+2. Click on the Action Menu.
+
+.. _rmf-59:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-59.png
+    :align: center
+    :alt: figure 59
+
+3. Click **Mark as Spam** to send the Request to spam.
+
+Viewing/Unspam a Spammed Requests
+---------------------------------
+
+1. Go to **Requests** >> :ref:`Request List View <request-list-view>`.
+
+2. Click on the Search Box.
+
+3. Select **Spam equals** >> **Yes**.
+
+   You would see all the Spam Requests in the list area. You can Unspam
+   them by selecting **Mark as Unspam** from the Action menu of a
+   spammed Request. You can also Unspam multiple Requests in the same
+   way you Spammed them.
+
+    .. _rmf-60:
+    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-60.png
+        :align: center
+        :alt: figure 60
+
+   You can also find the **Mark as Unspam** option in the Details View of a
+   Spammed Request. It is in the Action Menu of a Request.
+
+.. _rm-viewing-audit-trail:
+Viewing Audit Trail
+===================
+
+The Audit Trail dialog box lists most changes concerning assignment, and
+:ref:`classifiers <classify-requests>` of a Request.
+
+1. Go to **Request** >> :ref:`Request List View <request-list-view>`.
+
+2. Select the Request whose **Audit Trail** you want to see.
+
+3. Click on the Action Menu next to Assign/Name-of-Assignee, and click
+   **View Audit Trail**. The Audit Trail dialog box opens, and you can
+   search and sort the Audit Trail information.
+
+.. _rmf-61:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-61.png
+    :align: center
+    :alt: figure 61
+
+Alternatively, the Audit Trail is also visible under the Activity tab.
+
+.. _rmf-62:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-62.png
+    :align: center
+    :alt: figure 62
+
+Another way to view Audit Trail is from the Details View:
+
+1. Go to the Details View of a Request.
+
+2. Click on the Action Menu next to Assign/Name-of-Assignee and then
+   click on **View Audit Trail**.
+
+.. _rmf-63:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-63.png
+    :align: center
+    :alt: figure 63
+
+Asking for Feedback
+===================
+
+A Technician can ask a Requestor for feedback about his/her experience
+with a Request. In taking feedback, an email is sent with a link to the
+feedback form or the link is embedded in the notification emails sent
+when a Request is resolved and closed.
+
+To activate feedback:
+
+-  Go to **Admin** >> **Request Feedback Settings** (Helpdesk).
+
+.. _rmf-64:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-64.png
+    :align: center
+    :alt: figure 64
+
+-  You can automatically send a feedback link to a Requestor in the
+   following ways:
+
+   a. **Resolving a Request**: If you toggle the Resolved button on, a
+      feedback link is sent with the email notification on Resolving a
+      Request.
+
+   b. **Closing a Request**: If you toggle the Closed button on, a
+      feedback link is sent with the email notification on Closing a
+      Request.
+
+-  If you turn **Send feedback manually** button on, then you can send a
+   feedback link to a Requester from the Details View of a Request.
+
+.. _rmf-65.1:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-65.1.png
+    :align: center
+    :alt: figure 65.1
+
+.. _rmf-65.2:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-65.2.png
+    :align: center
+    :alt: figure 65.2
+
+When a Requestor clicks on the feedback link he/she gets the following
+form:
+
+.. _rmf-66:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-66.png
+    :align: center
+    :alt: figure 66
+
+You can view the feedback of a Requestor in the Details View of a
+Request.
+
+.. _rmf-67:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-67.png
+    :align: center
+    :alt: figure 67
+
+.. _request-bulk-update:
+Bulk Update
+===========
+
+The product allows Technicians to change Request information of multiple
+Requests at once.
+
+To perform Bulk Update:
+
+-  Go to the :ref:`Request List View <request-list-view>`.
+
+-  Select more than one Request.
+
+-  The **Bulk Update** button appears above the list area. Click on
+   **Bulk Update,** and a dialog box opens.
+
+    .. _rmf-68:
+    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-68.png
+        :align: center
+        :alt: figure 68
+
+   You can change the following things:
+
+        a. Change the assignee of the Requests.
+
+        d. Modify the Technician Group.
+
+        e. Change four :ref:`classifiers <classify-requests>` (Status, Priority,
+           Urgency, and Impact).
+
+        f. Add new tags or append to the existing ones.
+
+        g. Change Category, Source, Department, and Location.
+
+-  When you are done hit **Update,** and your changes are saved.
+
+Merge Requests
+==============
+
+Sometimes two or more Requests are similar, or they are duplicates The
+Merge function in Flotomate helps in dealing with duplicates and similar
+Requests.
+
+In the Merge process, one is the Primary Request, and all others are
+Secondary. The outcome of a merge is always the Secondary Requests
+linked to the Primary Request. If the Merge process happens between
+Requests created by the same Requestor, then all the Secondary Requests
+are closed, but they stay linked with the Primary Request.
+
+Doing a Merge:
+--------------
+
+1. Log in to the Technician Portal.
+
+2. Go to **Request** >> :ref:`Request List View <request-list-view>`.
+
+.. _rmf-69:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-69.png
+    :align: center
+    :alt: figure 69
+
+3. Select two or more Requests, and the **Merge** option appears over
+   the list area.
+
+.. _rmf-70:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-70.png
+    :align: center
+    :alt: figure 70
+
+4. Clicking on **Merge** takes you to a new dialog box. Here you can
+   choose which one to keep as Primary and which one, Secondary.
+   Referring to :numref:`rmf-70`, section-A shows the Primary Request (which
+   can only be one) and section-B lists the Secondary. Clicking on the
+   symbol adjacent to a Request (S & P) changes a Request from Primary
+   to Secondary and vice-versa.
+
+   Section-C is the search area. You can use the search area to find
+   specific Requests by using custom keywords and predefined search
+   options. The Search Box works similarly to the :ref:`Search Box <searching-requests>` in List View.
+
+   Below the Search Box is a list of other Requests. If no search filter
+   is applied, then the list contains all the other Requests not
+   selected for merge. Section-D allows you to select multiple Requests.
+   The total number of selected Requests appears on top of the Search
+   Box along with the symbol S. Click on the S symbol to add them to the
+   Secondary Request area.
+
+5. Click **Merge** once you are done with the setup. The Merge process
+   closes all those Secondary Requests with the same Requestor email,
+   treating them as duplicate, as in the Primary Request. Requests with
+   a different email stay open.
+
+Viewing the Relation of a Primary Request:
+------------------------------------------
+
+You can see the effect of merge under **Relations** tab in the Primary
+Request’s Details View.
+
+.. _rmf-71:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-71.png
+    :align: center
+    :alt: figure 71
+
+Deleting a Request
+==================
+
+Deleting is a bulk operation which means you can delete multiple
+Requests at once.
+
+1. Go to **Request** >> :ref:`Request List View <request-list-view>`.
+
+2. Select a Request or Requests from the list area.
+
+3. Click Archive, and you get a confirmation message; click **Yes** to
+   delete the selected Request/Requests.
+
+.. _rmf-72:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-72.png
+    :align: center
+    :alt: figure 72
+
+Announcements
+=============
+
+An announcement is a statement made to the public (Customers and
+Technicians) or on a particular portal which gives information about
+something that has happened or that will happen. For example: an
+announcement can be made stating that the Helpdesk will be down for a
+certain period.
+
+You can run an Announcement on both Customer and Technician Portals.
+
+.. _rmf-73:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-73.png
+    :align: center
+    :alt: figure 73
+
+.. _rmf-74:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-74.png
+    :align: center
+    :alt: figure 74
+
+Creating an Announcement 
+------------------------
+
+1. Log in to the Technician Portal.
+
+2. Go to **Request** >> :ref:`Request List View <request-list-view>`.
+
+3. Click **Manage Announcements** situated in the top right corner of
+   the page. You are now on the Announcements page.
+
+.. _rmf-75:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-75.png
+    :align: center
+    :alt: figure 75
+
+4. Click on **Create Announcement** situated in the top right corner of
+   the page. Create Announcement dialog box opens.
+
+.. _rmf-76:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-76.png
+    :align: center
+    :alt: figure 76
+
+5. The subject of an Announcement (section-A in :numref:`rmf-76`) is the first
+   line of the message. It is supposed to give a brief introduction of
+   the message.
+
+   .. note:: All Announcements are visible to the Technicians on the
+             Dashboard (under Announcement tab) in the Technician Portal.
+
+   Section B highlights the Display options available on the dialog box,
+   which are:
+
+    +-----------------------------------+-----------------------------------+
+    | Display to Customer Portal Guest  | The Announcement is visible on    |
+    |                                   | the Customer Portal even when     |
+    |                                   | people are not logged in.         |
+    +-----------------------------------+-----------------------------------+
+    | Display to only logged in         | Requestors can view the           |
+    | Requestors                        | Announcement on the Customer      |
+    |                                   | Portal after logging-in.          |
+    +-----------------------------------+-----------------------------------+
+    | Display in Technician Portal only | The Announcement is visible to    |
+    |                                   | the Technicians on the Technician |
+    |                                   | Portal.                           |
+    +-----------------------------------+-----------------------------------+
+
+
+   In section C, you can send the Announcement as an email to a group or
+   groups. Flotomate allows you to send to both Technician and Requestor
+   Groups or any one of them.
+
+   All Announcements in Flotomate are scheduled. They begin on a start
+   date at a specific time and end on an end date at a specific time. In
+   section D, you can enter the Start Date-Time and the End Date-Time of
+   the Announcement.
+
+   The body of the message goes into the text editor (section E).
+
+6. When you are done with your setup, click **Send** to add your
+   Announcement to the list. Once added, it is scheduled to begin on
+   start date-time.
+
+Editing an Announcement
+-----------------------
+
+1. Go to **Request** >> **Manage Announcements** >>Announcements.
+
+2. Click on the Edit Icon next to the Announcement that you want to
+   change.
+
+3. Make the changes on the Announcement dialog box and click **Send**
+   to save your changes.
+
+Deleting an Announcement
+------------------------
+
+1. Go to **Request** >> **Manage Announcements** >>Announcements.
+
+2. Click on the Delete Icon adjacent to the Announcement that you want
+   to delete.
+
+Turning off an Announcement
+---------------------------
+
+Go to **Request** >> **Manage Announcements** >>Announcements.
+
+.. _rmf-77:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-77.png
+    :align: center
+    :alt: figure 77
+
+There is a toggle button adjacent to every Announcement. Use that to
+toggle on/off any Announcement. You can also turn off an
+Announcement from its Create Announcements dialog box.
