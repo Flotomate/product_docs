@@ -1,0 +1,218 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Use cases &#8212; ITSM Product Documentation 2.0.0 documentation</title>
+    <link rel="stylesheet" href="../_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Viewing Audit Trail of a Change" href="viewing-audit-trail-of-a-change.html" />
+    <link rel="prev" title="Inside a Change" href="inside-a-change.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="viewing-audit-trail-of-a-change.html" title="Viewing Audit Trail of a Change"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="inside-a-change.html" title="Inside a Change"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">ITSM Product Documentation 2.0.0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" accesskey="U">Change Management</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="use-cases">
+<h1>Use cases<a class="headerlink" href="#use-cases" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="change-workflow-without-rejection">
+<h2>Change Workflow without Rejection:<a class="headerlink" href="#change-workflow-without-rejection" title="Permalink to this headline">¶</a></h2>
+<ul>
+<li><p class="first">The workflow starts with the submission of a Change (Request for
+Change) by a Requester.</p>
+</li>
+<li><p class="first">A Technician is <a class="reference internal" href="assigning-a-change.html"><span class="doc">assigned</span></a> to the Change, and then he
+assigns a Change Manager.</p>
+</li>
+<li><p class="first">Either the Assignee, Change Manager or anyone with the update Change
+right can approve the Change, and it then moves to the Planning
+Stage.</p>
+</li>
+<li><p class="first">In the Planning stage, anyone who has the update Change right can
+complete the Planning stage and move the Change to the Approval
+stage.</p>
+</li>
+<li><p class="first">In the Approval stage, the assigned Technician appoints approvers for
+<span class="xref std std-ref">Approval</span>. He can appoint n number of
+approvers.</p>
+<p>An approver gets to see his Approvals in the <strong>My Approvals</strong> section
+of his account.</p>
+<blockquote>
+<div><div class="figure align-center" id="cmf-50">
+<img alt="figure 50" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/change-management/CM-50.png" />
+</div>
+</div></blockquote>
+</li>
+</ul>
+<blockquote>
+<div><p>Clicking on <strong>My Approvals</strong> (<a class="reference internal" href="#cmf-50"><span class="std std-numref">Fig. 214</span></a>) opens the My Approvals page
+where the approver can view his Approvals.</p>
+<blockquote>
+<div><div class="figure align-center" id="cmf-51">
+<img alt="figure 51" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/change-management/CM-51.png" />
+</div>
+</div></blockquote>
+<p>Clicking on an Approval opens a page with the subject line as the page
+header title. It resembles the <span class="xref std std-ref">Details View</span>
+of a Change but has no editing capabilities.</p>
+<p>Here the approver can start conversation threads and finally decide
+whether to approve or reject the Approval. Anyone can be part of these
+conversation threads as long as he/she has access to the comment
+section.</p>
+<blockquote>
+<div><div class="figure align-center" id="cmf-52">
+<img alt="figure 52" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/change-management/CM-52.png" />
+</div>
+</div></blockquote>
+</div></blockquote>
+<ul>
+<li><p class="first">On approval, either unanimous or majority, the Change moves to the
+Implementation stage. A Technician with update Change right assigns a
+Change Implementer and Change Reviewer.</p>
+<p>At this stage, the Change is implemented. On success, the Change is
+marked as Completed.</p>
+</li>
+<li><p class="first">The Change moves to the final stage where the Change Reviewer audits
+the Change implementation. On successful audit, the Change is marked
+as Completed. This ends the journey of the Change in the system.</p>
+</li>
+</ul>
+</div>
+<div class="section" id="change-workflow-with-rejection">
+<h2>Change Workflow with Rejection:<a class="headerlink" href="#change-workflow-with-rejection" title="Permalink to this headline">¶</a></h2>
+<p>At any given stage a Change can be either rejected or put on hold.</p>
+<ul>
+<li><p class="first">In Submitted and Planning stage, any Technician with update Change
+rights can reject the Change using the <strong>Rejected/Cancelled</strong> button
+after the Change has an assigned Technician.</p>
+<p>The <strong>Req.Info</strong> (button name can be modified and additional buttons
+can be added) button (<a class="reference internal" href="#cmf-53"><span class="std std-numref">Fig. 217</span></a>) puts the Change on a custom status.
+It is a way to tell the requester to provide further information for
+the Change to move forward.</p>
+</li>
+</ul>
+<div class="figure align-center" id="cmf-53">
+<img alt="figure 53" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/change-management/CM-53.png" />
+</div>
+<ul class="simple">
+<li>In Approval and Implementation stage, the <strong>Rejection</strong> button
+rejects a stage. A Technician can put the Implementation on a custom
+status (Backout and other custom buttons) or send the Change back to
+Planning stage by clicking on <strong>Back to Planning</strong> (Only after
+rejecting the stage).</li>
+</ul>
+<div class="figure align-center" id="cmf-54">
+<img alt="figure 54" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/change-management/CM-54.png" />
+</div>
+<ul class="simple">
+<li>The In-Review stage has the <strong>Req.info</strong> (you can add other custom
+buttons) for putting the Change on a custom status and <strong>Failed</strong> to
+reject.</li>
+</ul>
+<p>On rejection, a stage turns red, and the Technician can close the Change
+by clicking on <strong>Close this Change</strong> situated in the top right corner of
+the page.</p>
+<div class="figure align-center" id="cmf-55">
+<img alt="figure 55" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/change-management/CM-55.png" />
+</div>
+<div class="figure align-center" id="cmf-56">
+<img alt="figure 56" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/change-management/CM-56.png" />
+</div>
+<p>The Change reaches the last stage and closes with the status Closed. A
+Technician can reopen the Change by clicking on <strong>Reopen</strong> (<a class="reference internal" href="#cmf-56"><span class="std std-numref">Fig. 220</span></a>).</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Use cases</a><ul>
+<li><a class="reference internal" href="#change-workflow-without-rejection">Change Workflow without Rejection:</a></li>
+<li><a class="reference internal" href="#change-workflow-with-rejection">Change Workflow with Rejection:</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="inside-a-change.html"
+                        title="previous chapter">Inside a Change</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="viewing-audit-trail-of-a-change.html"
+                        title="next chapter">Viewing Audit Trail of a Change</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/change-management/cm-use-cases.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="viewing-audit-trail-of-a-change.html" title="Viewing Audit Trail of a Change"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="inside-a-change.html" title="Inside a Change"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">ITSM Product Documentation 2.0.0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" >Change Management</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2018, Flotomate Technologies Private Limited.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.7.5.
+    </div>
+  </body>
+</html>
