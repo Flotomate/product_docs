@@ -745,7 +745,9 @@ Add/View Roles
     |           |                                                  |
     |           | -  View Patches & Package.                       |
     |           |                                                  |
-    |           | -  View Remote Deployment Policy.                |
+    |           | -  View Remote Deployment.                       |
+    |           |                                                  |
+    |           | -  View/Manage Computer Group                    |       
     |           |                                                  |
     |           | -  Manage Remote Deployment Policy.              |
     |           |                                                  |
@@ -761,7 +763,7 @@ Add/View Roles
     |           |                                                  |
     |           | -  Manage Decline Patch Configuration.           |
     |           |                                                  |
-    |           | -  Permission to deploy Patches.                 |
+    |           | -  Manage Remote Deployment.                     |
     |           |                                                  |
     |           | -  Permission to ignore Patches.                 |
     |           |                                                  |

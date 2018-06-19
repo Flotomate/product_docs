@@ -14,3 +14,4 @@ Administration Manual
    setting-up-helpdesk
    patch-package-deployment
    admin-asset-management
+   system-configuration 

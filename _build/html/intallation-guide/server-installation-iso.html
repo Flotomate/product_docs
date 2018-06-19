@@ -1,0 +1,200 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Flotomate Service Desk – Server Installation via ISO Guide &#8212; ITSM Product Documentation 2.0.0 documentation</title>
+    <link rel="stylesheet" href="../_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="nav-item nav-item-0"><a href="../index.html">ITSM Product Documentation 2.0.0 documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="flotomate-service-desk-server-installation-via-iso-guide">
+<h1>Flotomate Service Desk – Server Installation via ISO Guide<a class="headerlink" href="#flotomate-service-desk-server-installation-via-iso-guide" title="Permalink to this headline">¶</a></h1>
+<p>Describes ISO Installation Steps</p>
+<div class="section" id="system-requirements">
+<h2>System Requirements<a class="headerlink" href="#system-requirements" title="Permalink to this headline">¶</a></h2>
+<p>Hardware Requirement:</p>
+<ul class="simple">
+<li>4GB System RAM</li>
+<li>Dual Core Processor</li>
+<li>Space: 100 GB Hard Drive</li>
+</ul>
+</div>
+<div class="section" id="installation-process">
+<h2>Installation Process:<a class="headerlink" href="#installation-process" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li>Boot ISO.in your target machine</li>
+<li>Select language:</li>
+</ol>
+<div class="figure align-center" id="sib-1">
+<img alt="figure 1" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/server-installation/SIB-1.png" />
+</div>
+<ol class="arabic simple" start="3">
+<li>Select installation type, “<em>Install IT Service Desk</em>”.</li>
+</ol>
+<div class="figure align-center" id="sib-2">
+<img alt="figure 2" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/server-installation/SIB-2.png" />
+</div>
+<ol class="arabic simple" start="4">
+<li>The installation process will start.</li>
+</ol>
+<div class="figure align-center" id="sib-3">
+<img alt="figure 3" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/server-installation/SIB-3.png" />
+</div>
+<ol class="arabic simple" start="5">
+<li>After installation is completed, log in with the credentials
+mentioned below:</li>
+</ol>
+<blockquote>
+<div><p><strong>Username</strong>: Jarvis</p>
+<p><strong>Password</strong>: marvel</p>
+</div></blockquote>
+<ol class="arabic simple" start="6">
+<li>Go to product directory using the below command:</li>
+</ol>
+<blockquote>
+<div><strong>cd /opt</strong></div></blockquote>
+<ol class="arabic" start="7">
+<li><p class="first">Make Sure you have execute permission to build file. If it does not
+have execute permission then you can change it by following command.</p>
+<p><strong>sudo chmod 777 service_desk_master_CI</strong></p>
+</li>
+<li><p class="first">Run Installer by following command</p>
+<p><strong>sudo ./service_desk_master_CI</strong></p>
+<blockquote>
+<div><div class="figure align-center" id="sib-4">
+<img alt="figure 4" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/server-installation/SIB-4.png" />
+</div>
+</div></blockquote>
+<p>During Installation, Installer will prompt for Password. Please
+provide following password : mypassword.</p>
+<blockquote>
+<div><div class="figure align-center" id="sib-5">
+<img alt="figure 5" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/server-installation/SIB-5.png" />
+</div>
+</div></blockquote>
+<p>During Installation, Installer will prompt for Tenant Name. You can set
+any name (must be all small letters without any special characters or
+spaces.)</p>
+<blockquote>
+<div><div class="figure align-center" id="sib-6">
+<img alt="figure 6" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/server-installation/SIB-6.png" />
+</div>
+<div class="figure align-center" id="sib-7">
+<img alt="figure 7" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/server-installation/SIB-7.png" />
+</div>
+</div></blockquote>
+</li>
+</ol>
+<blockquote>
+<div>Once you see below screen, that means you have successfully installed
+the product.</div></blockquote>
+<ol class="arabic" start="9">
+<li><p class="first">After Installation,</p>
+<p>Navigate to <a class="reference external" href="http://localhost/register">http://localhost/register</a>, It will open Registration form
+as below :</p>
+</li>
+</ol>
+<div class="figure align-center" id="sib-8">
+<img alt="figure 8" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/server-installation/SIB-8.png" />
+</div>
+<ol class="arabic simple" start="10">
+<li>Please provide super admin user details there.</li>
+<li>In Personalize URL field, make sure you put exact same name which
+you given as tenant name during installation process.</li>
+<li>Now you can login to <a class="reference external" href="http://localhost">http://localhost</a> with super admin user, Setup
+your organization, users and configure important setting to start
+using a product.</li>
+</ol>
+<div class="figure align-center" id="sib-9">
+<img alt="figure 9" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/server-installation/SIB-9.png" />
+</div>
+<ol class="arabic simple" start="13">
+<li>Note that:<ol class="loweralpha">
+<li>You can login to Technician Portal by selecting ‘Technician
+Portal’ tab and,</li>
+<li>You can login to Customer Portal by selecting ‘Support Center’
+tab.</li>
+</ol>
+</li>
+<li>You can login to Customer Portal by selecting ‘Support Center’ tab.</li>
+</ol>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Flotomate Service Desk – Server Installation via ISO Guide</a><ul>
+<li><a class="reference internal" href="#system-requirements">System Requirements</a></li>
+<li><a class="reference internal" href="#installation-process">Installation Process:</a></li>
+</ul>
+</li>
+</ul>
+
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/intallation-guide/server-installation-iso.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="nav-item nav-item-0"><a href="../index.html">ITSM Product Documentation 2.0.0 documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2018, Flotomate Technologies Private Limited.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.7.5.
+    </div>
+  </body>
+</html>

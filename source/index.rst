@@ -10,9 +10,11 @@ Flotomate Product Manual
    :maxdepth: 1
    :caption: Contents:
    
+   installation-guide/index
    request-management/index
    problem-management/index
    change-management/index
+   knowledge-management/index
    report-management/index
    admin/index
    asset-management/index
