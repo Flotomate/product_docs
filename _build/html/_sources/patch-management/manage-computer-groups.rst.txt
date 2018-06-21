@@ -10,7 +10,7 @@ having Computer Groups can be convenient are as follows:
    group.
 
 -  If you want to deny a specific set of Computers certain Patches, then
-   you can create a Computers Group and decline them the Patches. The
+   you can create a Computer Group and decline them the Patches. The
    Decline Patch Configuration feature allows you to perform such an
    action.
 

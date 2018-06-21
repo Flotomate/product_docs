@@ -1,0 +1,166 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Setting Up a Deployment Policy &#8212; ITSM Product Documentation 2.0.0 documentation</title>
+    <link rel="stylesheet" href="../_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="Managing Software Packages" href="managing-software-packages.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="managing-software-packages.html" title="Managing Software Packages"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">ITSM Product Documentation 2.0.0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" accesskey="U">Package Management</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="setting-up-a-deployment-policy">
+<h1>Setting Up a Deployment Policy<a class="headerlink" href="#setting-up-a-deployment-policy" title="Permalink to this headline">¶</a></h1>
+<p>A deployment policy is created to control how a Deployment Request
+.actually carries out the deployment of packages/registry entries. A
+user can create multiple policies and select any one of those when
+creating a Deployment Request.</p>
+<p>A Deployment Policy uses fine-grained configurations to control
+deployment initiation, reboot policy, user interaction, and
+notifications.</p>
+<p><strong>Adding a Deployment Policy</strong></p>
+<ol class="arabic simple">
+<li>Click on the <strong>Launcher</strong> icon and select <strong>Package</strong>.</li>
+<li>Select <strong>Deployment Policy</strong> from the Package Menu.</li>
+</ol>
+<div class="figure align-center" id="spf-28">
+<img alt="figure 28" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/software-package-deployment/SP-28.png" />
+</div>
+<ol class="arabic simple" start="3">
+<li>The Deployment Policies page opens. Here you can view all your
+policies that you create. Click on <strong>Create Deployment Policy</strong>
+situated in the top right corner of the page.</li>
+</ol>
+<div class="figure align-center" id="spf-29">
+<img alt="figure 29" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/software-package-deployment/SP-29.png" />
+</div>
+<ol class="arabic" start="4">
+<li><p class="first">The Create Deployment Policy dialog box opens. You get the following
+fields:</p>
+<blockquote>
+<div><div class="figure align-center" id="spf-30">
+<img alt="figure 30" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/software-package-deployment/SP-30.png" />
+</div>
+</div></blockquote>
+<ol class="loweralpha simple">
+<li><strong>Name</strong>: This field allows you to give a name to the policy.</li>
+<li><strong>Apply on Every Start-up:</strong> Checking this option makes the policy
+initiate a deployment via a request in a computer every time it boots
+up.</li>
+<li><strong>Initiate Policy</strong>: You can instruct Computers to install the
+packages or perform registry deployment immediately (while the system
+is running) or during a system startup.</li>
+<li><strong>Reboot Policy</strong>: You can instruct Computers to perform a reboot,
+shutdown or do nothing after a successful installation or deployment.</li>
+<li><strong>Allow-user-to-skip-deployment</strong>: Do you want to give the users of
+Computers the option to skip a deployment?</li>
+<li><strong>Notify-user-before-deployment</strong>: Do you want to notify the users of
+Computers before a deployment. If you select <strong>Yes,</strong> then two new
+fields appear where you have to add a title and a message for the
+users.</li>
+</ol>
+<blockquote>
+<div><div class="figure align-center" id="spf-31">
+<img alt="figure 31" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/software-package-deployment/SP-31.png" />
+</div>
+</div></blockquote>
+<p>Fill in the fields and click <strong>Add</strong> to add the policy to the list of
+Deployment Policies.</p>
+</li>
+</ol>
+<p><strong>Edit a policy:</strong></p>
+<ul class="simple">
+<li>Go to the <a class="reference internal" href="#"><span class="doc">Deployment Policy</span></a>
+page.</li>
+<li>Click on the Edit Icon adjacent to the policy which you want to edit.</li>
+<li>Click on <strong>Update</strong> after performing the edits.</li>
+</ul>
+<p><strong>Delete a policy:</strong></p>
+<p>In the Deployment Policy page, click on the Delete Icon adjacent to the
+policy that you want to delete. A confirmation box opens whereby
+selecting Yes deletes the policy permanently.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">You cannot delete a policy if it is associated with a Deployment
+Request. You have to delete the request first then the policy.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="managing-software-packages.html"
+                        title="previous chapter">Managing Software Packages</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/package-deployment/sp-setting-up-a-deployment-policy.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="managing-software-packages.html" title="Managing Software Packages"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">ITSM Product Documentation 2.0.0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" >Package Management</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2018, Flotomate Technologies Private Limited.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.7.5.
+    </div>
+  </body>
+</html>

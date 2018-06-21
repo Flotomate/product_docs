@@ -19,6 +19,7 @@ Flotomate Product Manual
    admin/index
    asset-management/index
    patch-management/index
+   package-deployment/index
 
 
 

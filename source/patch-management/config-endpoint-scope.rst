@@ -5,11 +5,11 @@ Depending on the License agreement you have with us, the number of
 Computers you can manage with the product is limited. All discovered
 Computers (with our Agent application) stay out of the scope of the
 product by default; you have to bring them within the scope before you
-can use Patch Mangement.
+can use Patch Management.
 
 The Endpoint Scope lets you view all available Computers (not in the
 Scope) and add them to the Scope. You can set certain conditions that
-allow the product to add any new Computers automatically. You can also
+allow the product to add any new Computer automatically. You can also
 add Computers manually.
 
 There is a counter that shows how many Computers are within the scope

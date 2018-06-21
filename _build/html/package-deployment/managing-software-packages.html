@@ -1,0 +1,207 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Managing Software Packages &#8212; ITSM Product Documentation 2.0.0 documentation</title>
+    <link rel="stylesheet" href="../_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="Searching Packages/Registry Templates" href="searching-packages.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="searching-packages.html" title="Searching Packages/Registry Templates"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">ITSM Product Documentation 2.0.0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" accesskey="U">Package Management</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="managing-software-packages">
+<h1>Managing Software Packages<a class="headerlink" href="#managing-software-packages" title="Permalink to this headline">¶</a></h1>
+<p>The first step towards package deployment is to add Software Packages in
+the system. A Package has to be manually added in the Flotomate before
+it can be attached to a Deployment Request.</p>
+<p>Whatever Packages you add, they all appear on the <a class="reference internal" href="package-registry-list-view.html"><span class="doc">Package List
+View</span></a> (either under Windows or Linux).
+There you can modify the Package details and also delete them.</p>
+<div class="section" id="adding-a-software-package">
+<h2>Adding a Software Package<a class="headerlink" href="#adding-a-software-package" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic">
+<li><p class="first">Go to the <a class="reference internal" href="package-registry-list-view.html"><span class="doc">Package/Registry List
+View</span></a> (either Windows or Linux).</p>
+</li>
+<li><p class="first">Click on the <strong>Add Software Package</strong> button situated in the top
+right corner.</p>
+</li>
+<li><p class="first">The Add Software Package page opens. Here you get the following
+fields:</p>
+<blockquote>
+<div><div class="figure align-center" id="spf-25">
+<img alt="figure 25" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/software-package-deployment/SP-25.png" />
+</div>
+</div></blockquote>
+<ol class="loweralpha">
+<li><p class="first"><strong>Name (Compulsory Field)</strong>: Here you type the name of the Package.
+The best practice is to type the name of the Software.</p>
+</li>
+<li><p class="first"><strong>Platform (Compulsory Field)</strong>: Select the OS on which the package
+runs. Here you get a predefined list containing Windows and Linux.</p>
+</li>
+<li><p class="first"><strong>Package Type (Compulsory Field)</strong>: You select any one of the
+options:</p>
+<blockquote>
+<div><ol class="lowerroman simple">
+<li><strong>Application Patch</strong>: Refers to a component of a computer program.</li>
+<li><strong>Application</strong>: Refers to an entire program designed to
+perform a set of coordinated functions.</li>
+<li><strong>Operating System</strong>: OS like Windows.</li>
+<li><strong>OS Component Patch</strong>: Update patch of an OS.</li>
+<li><strong>Unknown</strong></li>
+</ol>
+</div></blockquote>
+</li>
+<li><p class="first"><strong>Version</strong>: Type in the version of the Software.</p>
+</li>
+<li><p class="first"><strong>Vendor</strong>: Name of the entity who created the Software Package. The
+list is populated from the Vendor Catalog.</p>
+</li>
+<li><p class="first"><strong>Package Architecture (Compulsory Field)</strong>: Architecture of the
+package either 64bit or 32bit.</p>
+</li>
+<li><p class="first"><strong>Description</strong>: Add a Brief explanation of the Software Package.</p>
+</li>
+<li><p class="first"><strong>Package Location Type (Compulsory Field)</strong>: Here you state whether
+the location is for a Shared Drive or a Remote URL. A Share drive is
+a locally hosted storage location whereas a Remote URL points to a
+location on the Internet. A package can have only one location type.</p>
+</li>
+<li><p class="first"><strong>Package Locations (Compulsory Field)</strong>: Here you type and add the
+location URL. You can add multiple URLs of the same package.</p>
+</li>
+<li><p class="first"><strong>Locations</strong>: Here you can view all the location URLs added to the
+Package. You can add multiple location URLs because a Software
+Package can be made up of multiple components each having a separate
+location.</p>
+</li>
+</ol>
+<blockquote>
+<div><div class="figure align-center" id="spf-26">
+<img alt="figure 26" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/software-package-deployment/SP-26.png" />
+</div>
+</div></blockquote>
+<p>Fill in the fields and click <strong>Add</strong>. Now you have successfully added a
+Package, and it now appears on the <a class="reference internal" href="package-registry-list-view.html"><span class="doc">Package List View</span></a>.</p>
+</li>
+</ol>
+</div>
+<div class="section" id="editing-deleting-a-software-package">
+<h2>Editing/Deleting a Software Package<a class="headerlink" href="#editing-deleting-a-software-package" title="Permalink to this headline">¶</a></h2>
+<p><strong>To Edit a Package:</strong></p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Only Packages that are not associated with a deployment request
+can be edited.</p>
+</div>
+<ol class="arabic simple">
+<li>Go to the <a class="reference internal" href="package-registry-list-view.html"><span class="doc">Package/Registry List
+View</span></a>.</li>
+<li>In the list area, click on the <strong>Edit Icon</strong> adjacent to the package
+that you want to edit or click on the package name.</li>
+</ol>
+<div class="figure align-center" id="spf-27">
+<img alt="figure 27" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/software-package-deployment/SP-27.png" />
+</div>
+<ol class="arabic simple" start="3">
+<li>The Update package page opens. Make your changes and hit <strong>Update</strong>.</li>
+</ol>
+<p><strong>To Delete a Package:</strong></p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Only Packages that are not associated with a deployment request
+can be deleted.</p>
+</div>
+<p>In the List Page, click on the <strong>Delete Icon</strong> adjacent to the Package
+that you want to delete. On confirmation, the package is deleted.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Managing Software Packages</a><ul>
+<li><a class="reference internal" href="#adding-a-software-package">Adding a Software Package</a></li>
+<li><a class="reference internal" href="#editing-deleting-a-software-package">Editing/Deleting a Software Package</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="searching-packages.html"
+                        title="previous chapter">Searching Packages/Registry Templates</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/package-deployment/managing-software-packages.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="searching-packages.html" title="Searching Packages/Registry Templates"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">ITSM Product Documentation 2.0.0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" >Package Management</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2018, Flotomate Technologies Private Limited.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.7.5.
+    </div>
+  </body>
+</html>

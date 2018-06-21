@@ -13,7 +13,7 @@ lets you view Computers and perform related operations.
 The Patch aspect is made up of two types of views: the Patch List View and
 Details View. The Patch List View gives a point & click interface to
 manage all patches from a single place. The view is divided across
-Windows and Linux platform. You can view Patches of any one platform at a
+Windows and Linux patches. You can view Patches of any one platform at a
 time.
 
 **To open Patch List View**
@@ -132,9 +132,8 @@ View <patch-list-view>`:
 Search Bar
 ----------
 
-The way the search bar works is same across all the platforms (Windows
-and Linux). The only difference being is the available search options in
-each category.
+The way the search bar works is same for both Windows and Linux Patch List View. 
+The only difference being is the available search options in each view.
 
 You can use a search bar to search Patches in the :ref:`List
 View <patch-list-view>`. The search bar supports the

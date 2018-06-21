@@ -1,0 +1,1229 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Package/Registry Deployment &#8212; ITSM Product Documentation 2.0.0 documentation</title>
+    <link rel="stylesheet" href="../_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="nav-item nav-item-0"><a href="../index.html">ITSM Product Documentation 2.0.0 documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="package-registry-deployment">
+<h1>Package/Registry Deployment<a class="headerlink" href="#package-registry-deployment" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="manage-computer-groups">
+<h2>Manage Computer Groups<a class="headerlink" href="#manage-computer-groups" title="Permalink to this headline">¶</a></h2>
+<p>You can classify Computers into groups. Some of the use cases where
+having Computer Groups can be convenient are as follows:</p>
+<ul class="simple">
+<li>You want to deploy packages in Computers belonging to a particular
+department. You can create a Computer Group having all the Computers
+of that department and quickly create a Deployment Request with that
+group.</li>
+<li>If you want to deny a specific set of Computers of packages, then you
+can create a Computer Group and decline them the packages.</li>
+</ul>
+<p><strong>Create a Computer Group</strong></p>
+<ul>
+<li><p class="first">Go to the Package/Registry List View.</p>
+</li>
+<li><p class="first">Click on <strong>All Computers Group</strong> from the Package menu.</p>
+<p><a class="reference internal" href="package-deployment\media/image14.png"><img alt="image13" src="package-deployment\media/image14.png" style="width: 3.15347in; height: 2.76531in;" /></a></p>
+</li>
+</ul>
+<p>Figure 11</p>
+<ul>
+<li><p class="first">The Computer Group page opens. Here you can view all existing groups
+if any. Click on <strong>Create Computer Group</strong> situated in the top right
+corner of the page.</p>
+</li>
+<li><p class="first">A new page opens. Here you can view all the Computers added to the
+<a class="reference external" href="#configuring-endpoint-scope">Endpoint scope</a>. You get options to
+select Computers manually and automatically from a Network (based on
+include and exclude conditions).</p>
+<p><a class="reference internal" href="package-deployment\media/image15.png"><img alt="image14" src="package-deployment\media/image15.png" style="width: 6.26806in; height: 3.18819in;" /></a></p>
+</li>
+</ul>
+<p>Figure 12</p>
+<ul>
+<li><p class="first">Provide a name to the Computer Group.</p>
+</li>
+<li><p class="first">In whatever way you select Computers, they all become part of the
+group. The manual and automatic methods of selection are similar to
+the ones used for adding Computers to an <a class="reference external" href="#configuring-endpoint-scope">Endpoint
+Scope</a>.</p>
+</li>
+<li><p class="first">Add the Computers and click on <strong>Create</strong> to save the group.</p>
+</li>
+<li><p class="first">You can review the Computer list of a group from the Computer Group
+page.</p>
+<p><a class="reference internal" href="package-deployment\media/image16.png"><img alt="image15" src="package-deployment\media/image16.png" style="width: 6.43889in; height: 0.97375in;" /></a></p>
+<p><a class="reference internal" href="package-deployment\media/image17.png"><img alt="image16" src="package-deployment\media/image17.png" style="width: 5.86181in; height: 2.05676in;" /></a></p>
+</li>
+</ul>
+<p>Figure 13</p>
+<ul class="simple">
+<li>You can search a Computer Group list using a search bar (Figure 13)
+that supports Advance Search and is similar to the one used for
+searching Computers in an <a class="reference external" href="#configuring-endpoint-scope">Endpoint
+Scope</a>. You can open the details of
+any Computer by click on it.</li>
+</ul>
+<p><strong>Edit/Delete Groups</strong></p>
+<p>You can edit and delete any Computer Group.</p>
+<p><a class="reference internal" href="package-deployment\media/image18.png"><img alt="image17" src="package-deployment\media/image18.png" style="width: 6.14306in; height: 1.0032in;" /></a></p>
+<p>Figure 14</p>
+<div class="section" id="view-archived-groups">
+<h3>View Archived Groups<a class="headerlink" href="#view-archived-groups" title="Permalink to this headline">¶</a></h3>
+<p>When a group is archived (delete), we store the group details in a
+separate section for future reference. It is because even when a group
+gets deleted, it stays active in associated Deployment Requests.</p>
+<p>You can view all archived groups in the Computer Group page by clicking
+<strong>Archive Computer Group</strong> button situated in the top right corner. You
+can also preview the Computer list of an archived group.</p>
+</div>
+</div>
+<div class="section" id="packages-registry-list-view">
+<h2>Packages/Registry List View<a class="headerlink" href="#packages-registry-list-view" title="Permalink to this headline">¶</a></h2>
+<p>The UI is divided across packages/registries and Computers. One aspect
+lets you view packages &amp; registry templates and perform related
+operations, and the Computer aspect lets you view all Computers and
+perform related operations.</p>
+<p>We have the Package/Registry List View that gives a point &amp; click
+interface to manage all package/registry from a single place. The view
+is divided across Windows and Linux platform.</p>
+<p><strong>Viewing Package/Registry List View</strong></p>
+<ol class="arabic simple">
+<li>Log in to your Dashboard.</li>
+<li>Click on the Launcher icon and select <strong>Package</strong>.</li>
+<li>Now choose a type: either Windows Packages, Linux Packages or Windows
+Registry. Based on your selection packages/registries are shown.</li>
+</ol>
+<p><a class="reference internal" href="package-deployment\media/image19.png"><img alt="image18" src="package-deployment\media/image19.png" style="width: 2.77977in; height: 3.51042in;" /></a></p>
+<p>Figure 15</p>
+<p><a class="reference internal" href="package-deployment\media/image20.png"><img alt="image19" src="package-deployment\media/image20.png" style="width: 3.84097in; height: 3.41883in;" /></a></p>
+<p>Figure 16</p>
+<p><a class="reference internal" href="package-deployment\media/image21.png"><img alt="image20" src="package-deployment\media/image21.png" style="width: 4.45556in; height: 3.11139in;" /></a></p>
+<p>Figure 17</p>
+<p><a class="reference internal" href="package-deployment\media/image22.png"><img alt="image21" src="package-deployment\media/image22.png" style="width: 6.26806in; height: 2.55069in;" /></a></p>
+<p>Figure 18</p>
+<p>Please refer to Figure 18 for the below description:</p>
+<ul>
+<li><p class="first">Section-A houses the search features.</p>
+</li>
+<li><p class="first">Section-B is the list area where you can view all the
+packages/registries in the system. You can view the following
+information about a package/registry:</p>
+<p><strong>Packages info</strong>:</p>
+<ol class="loweralpha">
+<li><p class="first">Package ID as generated by the system to identify the Package.</p>
+</li>
+<li><p class="first">Name of the Package.</p>
+</li>
+<li><p class="first">Version of the package.</p>
+</li>
+<li><p class="first">Package type is a system generated classification which can be
+either:</p>
+<ol class="lowerroman simple">
+<li><strong>Application Patch</strong>: Refers to a component of a computer
+program.</li>
+<li><strong>Application</strong>: Refers to an entire program.</li>
+<li><strong>Operating System</strong>: OS like Windows.</li>
+<li><strong>OS Component Patch</strong>: Update patch for an OS.</li>
+<li><strong>Unknown</strong></li>
+</ol>
+</li>
+<li><p class="first">Package Architecture which is either 64bit or 32bit.</p>
+<p><strong>Registry info</strong>:</p>
+</li>
+</ol>
+<ol class="loweralpha simple">
+<li>Name of the Registry template.</li>
+<li>Description of the Registry template.</li>
+<li>The number of registry items in the template.</li>
+</ol>
+</li>
+<li><p class="first">Section-C houses the option to add a new package or create a new
+registry template.</p>
+</li>
+</ul>
+</div>
+<div class="section" id="searching-packages-registry-templates">
+<h2>Searching Packages/Registry Templates<a class="headerlink" href="#searching-packages-registry-templates" title="Permalink to this headline">¶</a></h2>
+<p>There are two broad ways to search in the product’s <a class="reference external" href="#packagesregistry-list-view">List
+View</a>:</p>
+<ul class="simple">
+<li>Using a Search Bar</li>
+<li>Using Filters</li>
+</ul>
+<div class="section" id="search-bar">
+<h3>Search Bar<a class="headerlink" href="#search-bar" title="Permalink to this headline">¶</a></h3>
+<p>The way the search bar works is same for Windows and Linux Package List
+View. The search bar in the Windows Registry view is different.</p>
+<p>The <a class="reference external" href="#packagesregistry-list-view">Package/Registry List View</a> has a
+search bar. The search bar (for Windows and Linux Package List View)
+supports the Advanced Search feature where you get a set of predefined
+search options to narrow down your searches. If you want to see all the
+available options, then click on the search box. You can select a single
+option or multiple options from the drop-down list.</p>
+<p><a class="reference internal" href="package-deployment\media/image23.png"><img alt="image22" src="package-deployment\media/image23.png" style="width: 3.09498in; height: 2.23958in;" /></a></p>
+<p>Figure 19</p>
+<p>You can also search with keywords in the search field. When you provide
+a keyword, Flotomate explores all the packages with the keyword in their
+ID, Name, Description, Display Name, and Version; and for registry
+templates, ID, Sub-key, Value Name, Name, and Description. A
+package/template has to have at least one field matched (partial or
+full) with the keyword; in case there are multiple keywords, a
+package/template has to have at least one field matched for each
+keyword.</p>
+<p>The search bar in the Windows Registry List View only supports
+keyword-based searches.</p>
+<p>A search query (for packages) can be made up of pre-defined options and
+keywords. In any case, the output yields packages that satisfy all the
+parameters of the search query.</p>
+<p>Between two different conditions of the same option type OR logic is
+followed. Between different types AND logic is observed. Between
+keywords, and keywords and conditions AND logic is followed. An example
+of same option type contradiction is Package Type equals Application
+Patch vs. Package Type equals Operating System.</p>
+<p><a class="reference internal" href="package-deployment\media/image24.png"><img alt="image23" src="package-deployment\media/image24.png" style="width: 6.26806in; height: 2.49514in;" /></a></p>
+<p>Figure 20</p>
+<div class="section" id="custom-filters-applicable-on-package-list-views">
+<h4>Custom Filters (Applicable on Package List Views)<a class="headerlink" href="#custom-filters-applicable-on-package-list-views" title="Permalink to this headline">¶</a></h4>
+<p>You can make a filter using search options and keywords and save it by
+clicking on the star icon to the far left of the search bar. Saved
+search filters appear along with the platform-specific filters in Figure
+21. Custom filters are specific to a particular platform.</p>
+<p>For example, a user saves a search query that filters packages with
+Package Type: Application Patch and the keyword Deamon.</p>
+<p><a class="reference internal" href="package-deployment\media/image25.png"><img alt="image24" src="package-deployment\media/image25.png" style="width: 6.26806in; height: 2.11111in;" /></a></p>
+<p><a class="reference internal" href="package-deployment\media/image26.png"><img alt="image25" src="package-deployment\media/image26.png" style="width: 3.75in; height: 1.6348in;" /></a></p>
+<p>Figure 21</p>
+</div>
+</div>
+<div class="section" id="filters">
+<h3>Filters<a class="headerlink" href="#filters" title="Permalink to this headline">¶</a></h3>
+<p>There are three primary filters available to sort packages and registry
+templates in the product:</p>
+<ul>
+<li><p class="first">You can isolate packages for Windows and Linux, and also registry
+templates from the Package Menu. You can access the Package Menu from
+the <a class="reference external" href="#packagesregistry-list-view">Launcher icon</a>.</p>
+<p><a class="reference internal" href="package-deployment\media/image21.png"><img alt="image26" src="package-deployment\media/image21.png" style="width: 3.63264in; height: 2.53673in;" /></a></p>
+</li>
+</ul>
+<p>Figure 22</p>
+<ul>
+<li><p class="first">In the <a class="reference external" href="#packagesregistry-list-view">Package List View</a>, you can
+perform the following segregations:</p>
+<ol class="loweralpha">
+<li><p class="first">Segregate packages based on architecture type (32bit or 64bit).</p>
+<p><a class="reference internal" href="package-deployment\media/image27.png"><img alt="image27" src="package-deployment\media/image27.png" style="width: 5.22917in; height: 1.13542in;" /></a></p>
+</li>
+</ol>
+</li>
+</ul>
+<p>Figure 23</p>
+<ol class="loweralpha" start="6">
+<li><p class="first">Segregate packages based on Package type.</p>
+<p><a class="reference internal" href="package-deployment\media/image28.png"><img alt="image28" src="package-deployment\media/image28.png" style="width: 3.29053in; height: 1.92492in;" /></a></p>
+</li>
+</ol>
+<p>Figure 24</p>
+</div>
+</div>
+<div class="section" id="managing-software-packages">
+<h2>Managing Software Packages<a class="headerlink" href="#managing-software-packages" title="Permalink to this headline">¶</a></h2>
+<p>The first step towards package deployment is to add Software Packages in
+the system. A Package has to be manually added in the Flotomate before
+it can be attached to a Deployment Request.</p>
+<p>Whatever Packages you add, they all appear on the <a class="reference external" href="#packagesregistry-list-view">Package List
+View</a> (either under Windows or Linux).
+There you can modify the Package details and also delete them.</p>
+<div class="section" id="adding-a-software-package">
+<h3>Adding a Software Package<a class="headerlink" href="#adding-a-software-package" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li>Go to the <a class="reference external" href="#packagesregistry-list-view">Package/Registry List
+View</a> (either Windows or Linux).</li>
+</ol>
+<ol class="arabic" start="4">
+<li><p class="first">Click on the <strong>Add Software Package</strong> button situated in the top
+right corner.</p>
+</li>
+<li><p class="first">The Add Software Package page opens. Here you get the following
+fields:</p>
+<p><a class="reference internal" href="package-deployment\media/image29.png"><img alt="image29" src="package-deployment\media/image29.png" style="width: 6.44514in; height: 3.27255in;" /></a></p>
+</li>
+</ol>
+<p>Figure 25</p>
+<ol class="loweralpha" start="7">
+<li><p class="first"><strong>Name (Compulsory Field)</strong>: Here you type the name of the Package.
+The best practice is to type the name of the Software.</p>
+</li>
+<li><p class="first"><strong>Platform (Compulsory Field)</strong>: Select the OS on which the package
+runs. Here you get a predefined list containing Windows and Linux.</p>
+</li>
+<li><p class="first"><strong>Package Type (Compulsory Field)</strong>: You select any one of the
+options:</p>
+<ol class="lowerroman simple" start="6">
+<li><strong>Application Patch</strong>: Refers to a component of a computer
+program.</li>
+<li><strong>Application</strong>: Refers to an entire program designed to
+perform a set of coordinated functions.</li>
+<li><strong>Operating System</strong>: OS like Windows.</li>
+<li><strong>OS Component Patch</strong>: Update patch of an OS.</li>
+<li><strong>Unknown</strong></li>
+</ol>
+</li>
+<li><p class="first"><strong>Version</strong>: Type in the version of the Software.</p>
+</li>
+<li><p class="first"><strong>Vendor</strong>: Name of the entity who created the Software Package. The
+list is populated from the Vendor Catalog.</p>
+</li>
+<li><p class="first"><strong>Package Architecture (Compulsory Field)</strong>: Architecture of the
+package either 64bit or 32bit.</p>
+</li>
+<li><p class="first"><strong>Description</strong>: Add a Brief explanation of the Software Package.</p>
+</li>
+<li><p class="first"><strong>Package Location Type (Compulsory Field)</strong>: Here you state whether
+the location is for a Shared Drive or a Remote URL. A Share drive is
+a locally hosted storage location whereas a Remote URL points to a
+location on the Internet. A package can have only one location type.</p>
+</li>
+<li><p class="first"><strong>Package Locations (Compulsory Field)</strong>: Here you type and add the
+location URL. You can add multiple URLs of the same package.</p>
+</li>
+<li><p class="first"><strong>Locations</strong>: Here you can view all the location URLs added to the
+Package. You can add multiple location URLs because a Software
+Package can be made up of multiple components each having a separate
+location.</p>
+<p><a class="reference internal" href="package-deployment\media/image30.png"><img alt="image30" src="package-deployment\media/image30.png" style="width: 5.11181in; height: 2.57063in;" /></a></p>
+</li>
+</ol>
+<p>Figure 26</p>
+<p>Fill in the fields and click <strong>Add</strong>. Now you have successfully added a
+Package, and it now appears on the <a class="reference external" href="#packagesregistry-list-view">Package List
+View</a>.</p>
+</div>
+<div class="section" id="editing-deleting-a-software-package">
+<h3>Editing/Deleting a Software Package<a class="headerlink" href="#editing-deleting-a-software-package" title="Permalink to this headline">¶</a></h3>
+<p><strong>To Edit a Package:</strong></p>
+<p><em>Note: Only Packages that are not associated with a deployment request
+can be edited.</em></p>
+<ol class="arabic simple" start="6">
+<li>Go to the <a class="reference external" href="#packagesregistry-list-view">Package/Registry List
+View</a>.</li>
+</ol>
+<ol class="arabic">
+<li><p class="first">In the list area, click on the <strong>Edit Icon</strong> adjacent to the package
+that you want to edit or click on the package name.</p>
+<p><a class="reference internal" href="package-deployment\media/image31.png"><img alt="image31" src="package-deployment\media/image31.png" style="width: 6.26806in; height: 2.18542in;" /></a></p>
+</li>
+</ol>
+<p>Figure 27</p>
+<ol class="arabic simple" start="7">
+<li>The Update package page opens. Make your changes and hit <strong>Update</strong>.</li>
+</ol>
+<p><strong>To Delete a Package:</strong></p>
+<p><em>Note: Only Packages that are not associated with a deployment request
+can be deleted.</em></p>
+<p>In the List Page, click on the <strong>Delete Icon</strong> adjacent to the Package
+that you want to delete. On confirmation, the package is deleted.</p>
+</div>
+</div>
+<div class="section" id="setting-up-a-deployment-policy">
+<h2>Setting Up a Deployment Policy<a class="headerlink" href="#setting-up-a-deployment-policy" title="Permalink to this headline">¶</a></h2>
+<p>A deployment policy is created to control how a Deployment Request
+.actually carries out the deployment of packages/registry entries. A
+user can create multiple policies and select any one of those when
+creating a Deployment Request.</p>
+<p>A Deployment Policy uses fine-grained configurations to control
+deployment initiation, reboot policy, user interaction, and
+notifications.</p>
+<p><strong>Adding a Deployment Policy</strong></p>
+<ol class="arabic simple">
+<li>Click on the <strong>Launcher</strong> icon and select <strong>Package</strong>.</li>
+</ol>
+<ol class="arabic" start="8">
+<li><p class="first">Select <strong>Deployment Policy</strong> from the Package Menu.</p>
+<p><a class="reference internal" href="package-deployment\media/image32.png"><img alt="image32" src="package-deployment\media/image32.png" style="width: 5.03889in; height: 3.06822in;" /></a></p>
+</li>
+</ol>
+<p>Figure 28</p>
+<ol class="arabic" start="9">
+<li><p class="first">The Deployment Policies page opens. Here you can view all your
+policies that you create. Click on <strong>Create Deployment Policy</strong>
+situated in the top right corner of the page.</p>
+<p><a class="reference internal" href="package-deployment\media/image33.png"><img alt="image33" src="package-deployment\media/image33.png" style="width: 6.26806in; height: 1.29792in;" /></a></p>
+</li>
+</ol>
+<p>Figure 29</p>
+<ol class="arabic" start="10">
+<li><p class="first">The Create Deployment Policy dialog box opens. You get the following
+fields:</p>
+<p><a class="reference internal" href="package-deployment\media/image34.png"><img alt="image34" src="package-deployment\media/image34.png" style="width: 6.26806in; height: 3.15278in;" /></a></p>
+</li>
+</ol>
+<p>Figure 30</p>
+<ol class="loweralpha simple" start="17">
+<li><strong>Name</strong>: This field allows you to give a name to the policy.</li>
+<li><strong>Apply on Every Start-up:</strong> Checking this option makes the policy
+initiate a deployment via a request in a computer every time it boots
+up.</li>
+<li><strong>Initiate Policy</strong>: You can instruct Computers to install the
+packages or perform registry deployment immediately (while the system
+is running) or during a system startup.</li>
+<li><strong>Reboot Policy</strong>: You can instruct Computers to perform a reboot,
+shutdown or do nothing after a successful installation or deployment.</li>
+<li><strong>Allow-user-to-skip-deployment</strong>: Do you want to give the users of
+Computers the option to skip a deployment?</li>
+<li><strong>Notify-user-before-deployment</strong>: Do you want to notify the users of
+Computers before a deployment. If you select <strong>Yes,</strong> then two new
+fields appear where you have to add a title and a message for the
+users.</li>
+</ol>
+<p><a class="reference internal" href="package-deployment\media/image35.png"><img alt="image35" src="package-deployment\media/image35.png" style="width: 5.73367in; height: 2.09375in;" /></a></p>
+<p>Figure 31</p>
+<p>Fill in the fields and click <strong>Add</strong> to add the policy to the list of
+Deployment Policies.</p>
+<p><strong>Edit a policy:</strong></p>
+<ul class="simple">
+<li>Go to the <a class="reference external" href="#setting-up-a-deployment-policy">Deployment Policy</a>
+page.</li>
+<li>Click on the Edit Icon adjacent to the policy which you want to edit.</li>
+<li>Click on <strong>Update</strong> after performing the edits.</li>
+</ul>
+<p><strong>Delete a policy:</strong></p>
+<p>In the Deployment Policy page, click on the Delete Icon adjacent to the
+policy that you want to delete. A confirmation box opens whereby
+selecting Yes deletes the policy permanently.</p>
+<p><em>Note: You cannot delete a policy if it is associated with a Deployment
+Request. You have to delete the request first then the policy.</em></p>
+</div>
+<div class="section" id="deployment-request">
+<h2>Deployment Request<a class="headerlink" href="#deployment-request" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="introduction">
+<h3>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h3>
+<p>A Deployment Request is a set of instructions for Computer/Computers.
+The Admin creates it, or anyone with the rights, to initiate a
+deployment cycle. A Deployment Request mainly contains the following
+information:</p>
+<ul class="simple">
+<li><strong>Request details</strong>: Defining the installation criteria.</li>
+<li><strong>Package details</strong>: Installation of which Packages?</li>
+<li><strong>Computer details</strong>: Computers that are going to install the
+Packages.</li>
+</ul>
+<p>Learn how <a class="reference external" href="#adding-a-package-deployment-request">Deployment Requests</a>
+are created.</p>
+<p>All Computers ping the Flotomate server periodically to check for
+available Deployment Requests. On finding a Deployment Request,
+Computers/Computer can acquire the Packages from the Shared Drive or a
+Remote URL, and install them following a Deployment Policy. A single end
+to end process of fetching and installing/deploying Packages or registry
+values is called Deployment Cycle.</p>
+</div>
+<div class="section" id="adding-a-package-deployment-request">
+<h3>Adding a Package Deployment Request<a class="headerlink" href="#adding-a-package-deployment-request" title="Permalink to this headline">¶</a></h3>
+<p>Currently, all package deployment requests are created by users. To
+create a deployment request:</p>
+<ol class="arabic" start="11">
+<li><p class="first">Click on the Launcher icon and select <strong>Package</strong>.</p>
+</li>
+<li><p class="first">Select <strong>Deployment Request</strong> from the Package menu.</p>
+<p><a class="reference internal" href="package-deployment\media/image36.png"><img alt="image36" src="package-deployment\media/image36.png" style="width: 4.02847in; height: 2.88143in;" /></a></p>
+</li>
+</ol>
+<p>Figure 32</p>
+<ol class="arabic" start="13">
+<li><p class="first">The Deployment Requests page opens. Here you can view all available
+requests in the product. Click on <strong>Deploy Packages</strong> situated in
+the top right corner of the page.</p>
+</li>
+<li><p class="first">The Create page opens. The page is divided into three sections; they
+are as follows:</p>
+<ol class="loweralpha" start="23">
+<li><p class="first"><strong>Request Details</strong>:</p>
+<p><a class="reference internal" href="package-deployment\media/image37.png"><img alt="image37" src="package-deployment\media/image37.png" style="width: 5.83707in; height: 0.75146in;" /></a></p>
+</li>
+</ol>
+</li>
+</ol>
+<p>Figure 33</p>
+<ol class="lowerroman simple" start="11">
+<li><strong>Name</strong>: You can provide a name to the Deployment Request instead
+of the default placeholder. It is advisable to keep the date part
+of the placeholder.</li>
+<li><strong>Platform</strong>: Select the platform for which you are deploying
+Package/Packages. Currently, we support only Windows and Linux.</li>
+<li><strong>Deployment Policy</strong>: Select a Deployment policy from the
+drop-down list. A Deployment Policy governs how the deployment of
+Packages is carried out. Learn about <a class="reference external" href="#_Setting_Up_a_2">Deployment
+Policies</a>.</li>
+<li><strong>Install After</strong>: Provide a date and time after which the request
+tells the Computers to commence the installation process</li>
+<li><strong>Expire After</strong>: This is the date and time after which the
+request ceases to be a valid request.</li>
+</ol>
+<ol class="loweralpha" start="24">
+<li><p class="first"><strong>Select Package</strong>: Here you add the Package/Packages that you want
+to deploy.</p>
+<p><a class="reference internal" href="package-deployment\media/image38.png"><img alt="image38" src="package-deployment\media/image38.png" style="width: 6.09097in; height: 1.17082in;" /></a></p>
+</li>
+</ol>
+<p>Figure 34</p>
+<ol class="lowerroman" start="16">
+<li><p class="first">Section-A (Figure 34) is the area where you view the selected
+Packages.</p>
+</li>
+<li><p class="first">Section-B has a search bar for searching all available Packages
+for the selected OS. The search bar supports the Advanced Search
+feature. Learn how to use Advanced Search (refer to how search
+works in <a class="reference external" href="#packagesregistry-list-view">Package List View</a>).</p>
+</li>
+<li><p class="first">Section-C is where you view the available Packages in the main
+server. Clicking a checkbox selects a Package and transfers it to
+section-A.</p>
+<p>Select the Packages that you want to deploy.</p>
+</li>
+</ol>
+<ol class="loweralpha" start="25">
+<li><p class="first"><strong>Select Target</strong>:</p>
+<p><a class="reference internal" href="package-deployment\media/image39.png"><img alt="image39" src="package-deployment\media/image39.png" style="width: 6.22802in; height: 2.03484in;" /></a></p>
+</li>
+</ol>
+<p>Figure 35</p>
+<p>Target refers to Computer/Computers where Packages are going to be
+installed. You can select a Computer Group or Groups, or individual
+Computers as a target. You can select both Computer Groups and Computers
+as a target.</p>
+<p>You can create a new group using the <strong>Create Computer Group</strong> button.
+It opens a dialog box where you can create a group; learn <a class="reference external" href="#manage-computer-groups">how to create
+a group</a>. You also get a search bar to
+search Computers. The search bar supports the Advanced Search feature.
+Learn how to use <a class="reference external" href="#packagesregistry-list-view">Advanced Search.</a></p>
+<ol class="loweralpha" start="26">
+<li><p class="first"><strong>Retry Configuration</strong>:</p>
+<p><a class="reference internal" href="package-deployment\media/image40.png"><img alt="image40" src="package-deployment\media/image40.png" style="width: 5.97639in; height: 0.95347in;" /></a></p>
+</li>
+</ol>
+<p>Figure 36</p>
+<p>The retry configuration limits the number of times an Agent tries
+deployment when faced with failure.</p>
+<ol class="lowerroman" start="19">
+<li><p class="first">You can define the maximum number of times to try deployment during
+system start-up.</p>
+</li>
+<li><p class="first">You can define the maximum number of times to try deployment once
+at each refresh cycle (by default refresh cycle is set to 1 hour).</p>
+<p>During each retry cycle, the deployment status swings from
+In-Progress to Failed and vice-versa when all cycles fail to deploy
+the packages.</p>
+<p>Fill in all the necessary details. Now you have two options; you
+can publish the request or save it as a draft.</p>
+<p>If you save the request as a draft, then the request appears as
+drafted in the Deployment Requests page. You can view all drafted
+requests using the Quick Filter <strong>Drafted</strong>.</p>
+<p><a class="reference internal" href="package-deployment\media/image41.png"><img alt="image41" src="package-deployment\media/image41.png" style="width: 6.26806in; height: 2.0625in;" /></a></p>
+</li>
+</ol>
+<p>Figure 37</p>
+<p>If you want to publish the request, then click on <strong>Publish</strong>. This
+might or might not activate the request immediately, depending on Custom
+Rules. If Deployment Custom Rules (refer Admin Manual) demand Approval,
+then you have to seek Approval before you can publish the Request.</p>
+<p>You can publish a drafted request from its Update page (clicking on a
+request opens it in edit mode), or you can click on the publish button
+adjacent to a request.</p>
+</div>
+<div class="section" id="other-ways-to-add-a-deployment-requests">
+<h3>Other Ways to Add a Deployment Requests<a class="headerlink" href="#other-ways-to-add-a-deployment-requests" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="adding-a-deployment-request-from-the-package-registry-list-view">
+<h4>Adding a Deployment Request from the Package/Registry List View:<a class="headerlink" href="#adding-a-deployment-request-from-the-package-registry-list-view" title="Permalink to this headline">¶</a></h4>
+<p>Our product allows you to select a Package/Packages from the List Page
+directly and deploy them.</p>
+<ol class="arabic simple">
+<li>Go to the <a class="reference external" href="#packagesregistry-list-view">Package List View</a> of
+either Windows or Linux.</li>
+</ol>
+<ol class="arabic" start="15">
+<li><p class="first">Select a Package or Packages from the list area. A <strong>Deploy</strong> button
+appears above the list area.</p>
+<p><a class="reference internal" href="package-deployment\media/image42.png"><img alt="image42" src="package-deployment\media/image42.png" style="width: 6.26806in; height: 2.68681in;" /></a></p>
+</li>
+</ol>
+<p>Figure 38</p>
+<ol class="arabic simple" start="16">
+<li>Click on <strong>Deploy</strong> which opens the
+<a class="reference external" href="#adding-a-package-deployment-request">Create</a> page. Use the page
+to create the request. The dialog box has the Package/Packages
+preselected.</li>
+</ol>
+</div>
+<div class="section" id="adding-a-deployment-request-from-a-computers-details-page">
+<h4>Adding a Deployment Request from a Computer’s Details Page:<a class="headerlink" href="#adding-a-deployment-request-from-a-computers-details-page" title="Permalink to this headline">¶</a></h4>
+<ol class="arabic simple">
+<li>Go to the Computer List Page.</li>
+</ol>
+<ol class="arabic" start="17">
+<li><p class="first">Click on a Computer. This takes you to the Details Page.</p>
+</li>
+<li><p class="first">Click on <strong>Deploy Packages</strong> from the Action Menu.</p>
+<p><a class="reference internal" href="package-deployment\media/image43.png"><img alt="image43" src="package-deployment\media/image43.png" style="width: 5.66389in; height: 2.67067in;" /></a></p>
+</li>
+</ol>
+<p>Figure 39</p>
+<ol class="arabic simple" start="19">
+<li><a class="reference external" href="#adding-a-package-deployment-request">Create</a> page for request
+opens. Create your request and publish it, or you can save it as a
+draft.</li>
+</ol>
+</div>
+</div>
+<div class="section" id="approval">
+<h3>Approval<a class="headerlink" href="#approval" title="Permalink to this headline">¶</a></h3>
+<p>In case there is a custom rule (Refer admin manual for Patch Custom
+Rules) defined, then you have to make every drafted request go through
+an Approval process before publishing it. In an Approval process, you
+seek approval from a set of approver/approvers.</p>
+<div class="section" id="asking-for-an-approval">
+<h4>Asking for an Approval:<a class="headerlink" href="#asking-for-an-approval" title="Permalink to this headline">¶</a></h4>
+<ul>
+<li><p class="first">Go to the <a class="reference external" href="#adding-a-package-deployment-request">Deployment
+Request</a> page.</p>
+</li>
+<li><p class="first">Click on the Quick Filter <strong>Drafted</strong> to sort all drafted requests.</p>
+<p><a class="reference internal" href="package-deployment\media/image44.png"><img alt="image44" src="package-deployment\media/image44.png" style="width: 4.01806in; height: 1.50822in;" /></a></p>
+</li>
+</ul>
+<p>Figure 40</p>
+<ul>
+<li><p class="first">You can initiate an Approval process for a request by click on the
+adjacent <strong>Ask for Approval</strong> button.</p>
+<p><a class="reference internal" href="package-deployment\media/image45.png"><img alt="image45" src="package-deployment\media/image45.png" style="width: 5.79931in; height: 2.35994in;" /></a></p>
+</li>
+</ul>
+<p>Figure 41</p>
+</div>
+<div class="section" id="different-states-in-an-approval">
+<h4>Different States in an Approval<a class="headerlink" href="#different-states-in-an-approval" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li>Pending:</li>
+<li>Rejected:</li>
+<li>Pre-Approved:</li>
+<li>Approved:</li>
+</ul>
+</div>
+<div class="section" id="approval-process">
+<h4>Approval Process:<a class="headerlink" href="#approval-process" title="Permalink to this headline">¶</a></h4>
+<ul>
+<li><p class="first">First, the system checks all available Approval Workflows when an
+Approval is asked. If there are no workflows or the present workflow
+conditions are not meet, then the drafted request/requests are
+Pre-Approved, and you can proceed with publishing. If there is a
+workflow/are workflows, and their conditions are met, then
+approver/approvers are auto-assigned for each request.</p>
+<p>When there are multiple requests, it may happen that some may trigger
+the Approval conditions and are put in Approval, and some may not
+trigger the conditions and are Pre-Approved.</p>
+<p><a class="reference internal" href="package-deployment\media/image46.png"><img alt="image46" src="package-deployment\media/image46.png" style="width: 6.26806in; height: 1.71597in;" /></a></p>
+</li>
+</ul>
+<p>Figure 42</p>
+<ul>
+<li><p class="first">When you <strong>Ask for Approval</strong> for a request, an <strong>Approval</strong> button
+appears adjacent to the request. The button gives you access to the
+Approval details dialog box where you can view all the approvers and
+their comments and even re-ask for an Approval (this again checks for
+all available workflows).</p>
+<p><a class="reference internal" href="package-deployment\media/image47.png"><img alt="image47" src="package-deployment\media/image47.png" style="width: 6.26806in; height: 1.31944in;" /></a></p>
+</li>
+</ul>
+<p>Figure 43</p>
+<p>For requests that have Approvers, the Approval Status changes to
+Pending, and it stays there as long as the approver/approvers don’t
+express a decision.</p>
+<ul>
+<li><p class="first">An approver can see his Approvals in the <strong>My Approvals</strong> section of
+his account.</p>
+<p><a class="reference internal" href="package-deployment\media/image48.png"><img alt="image48" src="package-deployment\media/image48.png" style="width: 3.67431in; height: 3.55422in;" /></a></p>
+</li>
+</ul>
+<p>Figure 44</p>
+<p>Clicking on <strong>My Approvals</strong> (Figure 44) opens the My Approval page
+where he can view his Approvals.</p>
+<p><a class="reference internal" href="package-deployment\media/image49.png"><img alt="image49" src="package-deployment\media/image49.png" style="width: 6.26806in; height: 1.48958in;" /></a></p>
+<p>Figure 45</p>
+<p>Clicking on an Approval in <strong>My Approval</strong> opens a new page. There he
+can perform the following actions:</p>
+<p><a class="reference internal" href="package-deployment\media/image50.png"><img alt="image50" src="package-deployment\media/image50.png" style="width: 6.26806in; height: 2.43611in;" /></a></p>
+<p>Figure 46</p>
+<ol class="loweralpha simple">
+<li>View request details, target Packages, and Computers.</li>
+</ol>
+<ol class="loweralpha simple">
+<li>Start a comment thread.</li>
+<li>Approve or Reject the Approval.</li>
+</ol>
+<ul>
+<li><p class="first">The outcome of an Approval process is decided in two ways:</p>
+<ol class="loweralpha simple">
+<li><strong>Unanimous</strong>: All of the Approvers have to approve else the
+Approval is rejected.</li>
+</ol>
+<ol class="loweralpha" start="3">
+<li><p class="first"><strong>Majority</strong>: If the majority of Approvers agree then Approval is
+successful.</p>
+<p>In case there are multiple Approvals, the decision to go with
+unanimous or majority can be set from <strong>Admin</strong> (A Navigation Tab)
+&gt;&gt; <strong>Approval Workflow</strong> (Automation) &gt;&gt; <strong>Approval Settings</strong>,
+but the rights to do it lies with the Super Admin.</p>
+</li>
+</ol>
+</li>
+<li><p class="first">On success, the Approval moves to the Approved stage where the author
+can publish the draft. On failure, the Approval moves to the Reject
+stage where the author has to reinitiate the Approval process. The
+author reinitiates an Approval process using the <strong>Re-Approve</strong>
+option. A <strong>Re-Approve</strong> puts a request back to the pending stage.</p>
+<p><a class="reference internal" href="package-deployment\media/image51.png"><img alt="image51" src="package-deployment\media/image51.png" style="width: 6.26806in; height: 1.70139in;" /></a></p>
+</li>
+</ul>
+<p>Figure 47</p>
+<ul>
+<li><p class="first">Any Technician with the <strong>Can Ignore Approval</strong> right can ignore
+approvers and push the Approval towards the Approved stage; where he
+can publish the draft. The ignored approvers can see their Approval
+status as Ignored in Approval details dialog box of the Article.</p>
+<p><a class="reference internal" href="package-deployment\media/image52.png"><img alt="image52" src="package-deployment\media/image52.png" style="width: 6.26806in; height: 1.71389in;" /></a></p>
+</li>
+</ul>
+<p>Figure 48</p>
+</div>
+</div>
+<div class="section" id="searching-deployment-requests">
+<h3>Searching Deployment Requests<a class="headerlink" href="#searching-deployment-requests" title="Permalink to this headline">¶</a></h3>
+<p>There are two broad ways to search Deployment Requests in the product:</p>
+<ul class="simple">
+<li>Using Search Bar</li>
+<li>Using Filters</li>
+</ul>
+<p><a class="reference internal" href="package-deployment\media/image53.png"><img alt="image53" src="package-deployment\media/image53.png" style="width: 6.26806in; height: 2.21389in;" /></a></p>
+<p>Figure 49</p>
+<div class="section" id="search-bar-1">
+<span id="id1"></span><h4>Search Bar<a class="headerlink" href="#search-bar-1" title="Permalink to this headline">¶</a></h4>
+<p>In the <a class="reference external" href="#adding-a-package-deployment-request">Deployment Request</a>
+page, you get a search bar to search through requests. The search bar
+supports the Advanced Search feature where you get a set of search
+options. Click on the search bar to access all search options.</p>
+<p><a class="reference internal" href="package-deployment\media/image54.png"><img alt="image54" src="package-deployment\media/image54.png" style="width: 2.83333in; height: 2.68499in;" /></a></p>
+<p>Figure 50</p>
+<p>In some options, you have to enter a value, and in others, there are
+predefined values. You can create conditions using multiple options.
+Between two different conditions of the same option type OR logic is
+followed. Between different types AND logic is observed. An example of
+same option type contradiction is Platform equals Windows vs. Platform
+equals Linux.</p>
+<p><a class="reference internal" href="package-deployment\media/image55.png"><img alt="image55" src="package-deployment\media/image55.png" style="width: 6.26806in; height: 1.57014in;" /></a></p>
+<p>Figure 51</p>
+</div>
+<div class="section" id="filters-1">
+<span id="id2"></span><h4>Filters<a class="headerlink" href="#filters-1" title="Permalink to this headline">¶</a></h4>
+<p>You can search for requests in the Deployment Request page using Quick
+Filters. There three types of filters available:</p>
+<ul class="simple">
+<li>Filters based on time of deployment.</li>
+<li>Filters based on publishing status.</li>
+<li>Filters based on origin.</li>
+</ul>
+<p><a class="reference internal" href="package-deployment\media/image56.png"><img alt="image56" src="package-deployment\media/image56.png" style="width: 6.26806in; height: 1.78264in;" /></a></p>
+<p>Figure 52</p>
+<p>Section-A (Figure 52) is a quick filter to toggle across the following
+views:</p>
+<ul class="simple">
+<li><strong>Current</strong>: Shows all the published and drafted requests that can
+start the deployment process immediately.</li>
+<li><strong>Future</strong>: Shows all the published requests that can start the
+deployment after a future date and time.</li>
+<li><strong>Past</strong>: Shows all the requests that have expired.</li>
+<li><strong>Drafted</strong>: Shows all drafted requests that are yet to be published.</li>
+<li><strong>Archived</strong>: Shows requests that have been deleted, includes drafted
+requests.</li>
+</ul>
+<p>Section-B (Figure 52) allows you to filter request based on origin and
+Approval status. There is one possible origin to a Deployment Request,
+and the Approval status shows both Approved and Pre-Approved requests.</p>
+<ul class="simple">
+<li><a class="reference external" href="#adding-a-package-deployment-request">Manually</a></li>
+</ul>
+</div>
+</div>
+<div class="section" id="managing-deployment-requests">
+<h3>Managing Deployment Requests<a class="headerlink" href="#managing-deployment-requests" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="deployment-status">
+<h4>Deployment Status<a class="headerlink" href="#deployment-status" title="Permalink to this headline">¶</a></h4>
+<p>In the Deployment Request page, every published request has a Status
+button.</p>
+<p><a class="reference internal" href="package-deployment\media/image57.png"><img alt="image57" src="package-deployment\media/image57.png" style="width: 6.26806in; height: 1.86389in;" /></a></p>
+<p>Figure 53</p>
+<p>Using the Status button, you can check the Deployment Status of all
+associated Computers.</p>
+<p>Clicking on a <strong>Status</strong> button opens a new page where you can view all
+associated Computers that are going to deploy the Package/Packages.</p>
+<p>Each computer has a <strong>Deployment Status</strong> button which opens a dialog
+box where you can view the installation statuses of each Package.
+Computer transitions through various statuses when installing a Package.
+Some of the statuses reflect a stage, and some are conclusions.
+Altogether there are six statuses:</p>
+<p><a class="reference internal" href="package-deployment\media/image58.png"><img alt="image58" src="package-deployment\media/image58.png" style="width: 6.26806in; height: 1.42569in;" /></a></p>
+<p>Figure 54</p>
+<p><a class="reference internal" href="package-deployment\media/image59.png"><img alt="image59" src="package-deployment\media/image59.png" style="width: 6.26806in; height: 2.18542in;" /></a></p>
+<p>Figure 55</p>
+<ul class="simple">
+<li><strong>Yet to Receive</strong>: The Computer is yet to receive instructions from
+the request to install the Package.</li>
+<li><strong>In Progress</strong>: The Computer is in the process of installing the
+Package after receiving the instructions.</li>
+<li><strong>Success</strong>: The Computer has successfully installed the Package.</li>
+<li><strong>Failed</strong>: The Computer has failed to install the Package.</li>
+<li><strong>Cancelled</strong>: The request was deleted before the Computer could
+receive the instructions for installation.</li>
+<li><strong>Not Applicable</strong>: The Package is not meant for the Computer.</li>
+</ul>
+</div>
+<div class="section" id="unsupported-computers-in-a-deployment">
+<h4>Unsupported Computers in a Deployment<a class="headerlink" href="#unsupported-computers-in-a-deployment" title="Permalink to this headline">¶</a></h4>
+<p>During deployment it may happen that certain target Computers don’t
+support all the Packages; in that case, the <strong>Not Applicable</strong> status is
+helpful.</p>
+<p>Go to the <strong>Status</strong> of a request. Click on the <strong>Deployment status</strong> of
+a Computer; there the Packages that don’t support the Computer have the
+<strong>Not Applicable</strong> status.</p>
+<p><a class="reference internal" href="package-deployment\media/image60.png"><img alt="image60" src="package-deployment\media/image60.png" style="width: 6.26806in; height: 2.19375in;" /></a></p>
+<p>Figure 56</p>
+</div>
+<div class="section" id="edit-archive-a-deployment-request">
+<h4>Edit/Archive a Deployment Request:<a class="headerlink" href="#edit-archive-a-deployment-request" title="Permalink to this headline">¶</a></h4>
+<p>You can update Deployment Requests that are in draft mode. Once
+published, a request cannot be edited.</p>
+<ul>
+<li><p class="first">Go to the <a class="reference external" href="#adding-a-package-deployment-request">Deployment Request
+Page</a>.</p>
+</li>
+<li><p class="first">The <strong>Status</strong> button adjacent to a request shows that the request is
+a published request.</p>
+</li>
+<li><p class="first">You can open a request in edit mode by clicking on it or by clicking
+the Edit icon.</p>
+<p><a class="reference internal" href="package-deployment\media/image61.png"><img alt="image61" src="package-deployment\media/image61.png" style="width: 6.26806in; height: 2.01875in;" /></a></p>
+</li>
+</ul>
+<p>Figure 57</p>
+<p><strong>Archiving</strong></p>
+<p>The product allows you to delete published and drafted Deployment
+Requests. You can delete multiple requests at a time.</p>
+<ul>
+<li><p class="first">Go to the <a class="reference external" href="#adding-a-package-deployment-request">Deployment
+Request</a> page from the
+Package Menu.</p>
+</li>
+<li><p class="first">Select one and more requests. The <strong>Archive</strong> button appears.</p>
+<p><a class="reference internal" href="package-deployment\media/image62.png"><img alt="image62" src="package-deployment\media/image62.png" style="width: 6.26806in; height: 2.28333in;" /></a></p>
+</li>
+</ul>
+<p>Figure 58</p>
+<ul class="simple">
+<li>Click on the <strong>Archive</strong> button. On confirmation, the
+request/requests are deleted.</li>
+</ul>
+<p><strong>Deleting an Active Deployment Request:</strong></p>
+<p>Deleting a published request has the following effects:</p>
+<ul class="simple">
+<li>Installation of Packages is canceled in Computers that are yet to
+receive instructions.</li>
+</ul>
+</div>
+<div class="section" id="view-archived-deployment-requests">
+<h4>View Archived Deployment Requests<a class="headerlink" href="#view-archived-deployment-requests" title="Permalink to this headline">¶</a></h4>
+<p>You can view an archived request along with its status. An archived
+request may have partially finished operations that might need scrutiny.
+To view an archived request:</p>
+<ul>
+<li><p class="first">Go to the <a class="reference external" href="#adding-a-package-deployment-request">Deployment
+Request</a> page.</p>
+</li>
+<li><p class="first">Select <strong>Archived</strong> from the Quick Filter section.</p>
+<p><a class="reference internal" href="package-deployment\media/image63.png"><img alt="image63" src="package-deployment\media/image63.png" style="width: 4.58056in; height: 2.55518in;" /></a></p>
+</li>
+</ul>
+<p>Figure 59</p>
+<ul>
+<li><p class="first">Now you can view all archived requests. Use the <strong>Status</strong> button to
+view <a class="reference external" href="#deployment-status">deployment status</a>.</p>
+<p><a class="reference internal" href="package-deployment\media/image64.png"><img alt="image64" src="package-deployment\media/image64.png" style="width: 6.26806in; height: 2.26319in;" /></a></p>
+</li>
+</ul>
+<p>Figure 60</p>
+</div>
+</div>
+</div>
+<div class="section" id="computer-management">
+<h2>Computer Management<a class="headerlink" href="#computer-management" title="Permalink to this headline">¶</a></h2>
+<p>Computers are pingable IT Assets that are capable of running our Agent
+application. Computers communicate with the main server (product)
+through the Agent and update the main server with Patch info, and fetch
+instruction for deployment (installation) of Patches, Packages, and
+Registry.</p>
+<p>You have complete control over Computers with respect to the following:</p>
+<ul class="simple">
+<li>What Packages to deploy?</li>
+<li>How to deploy the Packages (<a class="reference external" href="#setting-up-a-deployment-policy">Deployment
+Policy</a>).</li>
+</ul>
+<p>Package Deployment shows you vital info about the Computers with respect
+to the following:</p>
+<ul class="simple">
+<li>What Packages are associated with a Computer?</li>
+<li>A Computer is receiving instruction from how many Deployment Request?</li>
+<li>Connection status of a Computer with the main server.</li>
+</ul>
+<div class="section" id="computer-list-view">
+<h3>Computer List View<a class="headerlink" href="#computer-list-view" title="Permalink to this headline">¶</a></h3>
+<p>The UI is different for Computers and Packages. We have already covered
+the Package aspect of the product. Now we are going to talk about the
+Computer aspect.</p>
+<p>The Computer aspect is made up of two types of views: the Computer List
+View and Computer Details View. The Computer List View shows all the
+Computers that are available in the system.</p>
+<ol class="arabic simple">
+<li>Log in to your Dashboard.</li>
+</ol>
+<ol class="arabic" start="20">
+<li><p class="first">Go to <strong>Package</strong> from the <strong>Launcher</strong>.</p>
+<p><a class="reference internal" href="package-deployment\media/image65.png"><img alt="image65" src="package-deployment\media/image65.png" style="width: 5.29931in; height: 4.80026in;" /></a></p>
+</li>
+</ol>
+<p>Figure 61</p>
+<ol class="arabic" start="21">
+<li><p class="first">Click on All Computers from the Package menu.</p>
+<p><a class="reference internal" href="package-deployment\media/image66.png"><img alt="image66" src="package-deployment\media/image66.png" style="width: 4.63264in; height: 3.08415in;" /></a></p>
+</li>
+</ol>
+<p>Figure 62</p>
+<ol class="arabic simple" start="22">
+<li>The Computer List View opens.</li>
+</ol>
+<p><a class="reference internal" href="package-deployment\media/image67.png"><img alt="image67" src="package-deployment\media/image67.png" style="width: 6.26806in; height: 2.32083in;" /></a></p>
+<p>Figure 63</p>
+<ul class="simple">
+<li>Section A &amp; B (Figure 63) are the <a class="reference external" href="#searching-computers">search
+features</a>.</li>
+<li>Section C is the list area where you view all Computers. You can view
+the following information about a Computer:<ol class="loweralpha" start="4">
+<li>Computer ID is given by the Main Server.</li>
+<li>Hostname of the Computer.</li>
+<li>The OS platform of the Computer.</li>
+<li>The architecture of the Computer.</li>
+<li>Service Pack Details.</li>
+<li>Domain Details</li>
+<li>IP address of the Computer</li>
+<li>Version of the Agent application.</li>
+</ol>
+</li>
+<li>Section D is where you can control the number of Computers visible on
+a page. You can set a default number from the Preference section.</li>
+</ul>
+</div>
+<div class="section" id="active-status-of-a-computer">
+<h3>Active Status of a Computer<a class="headerlink" href="#active-status-of-a-computer" title="Permalink to this headline">¶</a></h3>
+<p>The tool has a marker that tells whether a Computer is active or
+offline. Wherever you see Agent information in the product, you can see
+the associated marker. The marker has two colours: <strong>green</strong> signifying
+the Computer is active and communicating, and <strong>yellow</strong> signifying the
+Computer is offline.</p>
+<p><a class="reference internal" href="package-deployment\media/image68.png"><img alt="image68" src="package-deployment\media/image68.png" style="width: 4.67708in; height: 0.58333in;" /></a></p>
+<p><a class="reference internal" href="package-deployment\media/image69.png"><img alt="image69" src="package-deployment\media/image69.png" style="width: 4.70833in; height: 0.58383in;" /></a></p>
+<p>Figure 64</p>
+</div>
+<div class="section" id="searching-computers">
+<h3>Searching Computers<a class="headerlink" href="#searching-computers" title="Permalink to this headline">¶</a></h3>
+<p>There are two broad ways to search Computers in the product’s <a class="reference external" href="#computer-list-view">List
+View</a>:</p>
+<ul class="simple">
+<li>Using the Search Bar</li>
+<li>Using Filters</li>
+</ul>
+<div class="section" id="search-bar-2">
+<span id="id3"></span><h4>Search Bar<a class="headerlink" href="#search-bar-2" title="Permalink to this headline">¶</a></h4>
+<p>There is a search bar for searching Computers in the <a class="reference external" href="#computer-list-view">Computer List
+View</a>. The search bar supports the Advanced
+Search feature where you get a set of search options to narrow down your
+searches. You can access all the available search options by clicking on
+the search box. You can build conditions using a single option or
+multiple options.</p>
+<p><a class="reference internal" href="package-deployment\media/image70.png"><img alt="image70" src="package-deployment\media/image70.png" style="width: 3.01042in; height: 2.91667in;" /></a></p>
+<p>Figure 65</p>
+<p>You can search Computers with keywords in the search field. When you
+provide a keyword, Flotomate searches all the Computers with the keyword
+in their Service Pack, OS Name, Domain Name, Hostname, and Name. A
+Computer has to have at least one field matched (partial or full) with
+the keyword; in case there are multiple keywords, the Computer has to
+have at least one field matched for each keyword.</p>
+<p>A search query can be made up of options and keywords. In any case, the
+output yields Computers that satisfy all the parameters of the search
+query.</p>
+<p>Between two different conditions of the same option type OR logic is
+followed. Between different types AND logic is observed. Between
+keywords, and keywords and conditions AND logic is followed. An example
+of same option type contradiction is OS Name contains Windows vs. OS
+Name contains Linux.</p>
+</div>
+<div class="section" id="filters-2">
+<span id="id4"></span><h4>Filters<a class="headerlink" href="#filters-2" title="Permalink to this headline">¶</a></h4>
+<p>The <a class="reference external" href="#computer-list-view">Computer List View</a> has filters that allow
+you to view all healthy Computers, Highly Vulnerable Computers, and
+Vulnerable Computers. These filters are classifications based on the
+health of a Computer. The health of a Computer is ascertained based on
+the number of missing Patches. Learn more about <a class="reference external" href="#computer-health-management">Computer Health
+Management</a>.</p>
+</div>
+</div>
+<div class="section" id="computers-details-view">
+<h3>Computer’s Details View<a class="headerlink" href="#computers-details-view" title="Permalink to this headline">¶</a></h3>
+<p>The UI is different for Computers and Packages. We have already covered
+the Package aspect. Now we are going to talk about the Computer aspect.</p>
+<p>The Computer aspect is made up of two types of views: the Computer List
+View and Computer Details View. The Computer Details View is Computer
+specific which means every Computer in the system has a Details View
+that shows additional information and provides deployment options.</p>
+<ul class="simple">
+<li>Go to the <a class="reference external" href="#computer-list-view">Computer List View</a>.</li>
+<li>Click on a Computer from the list area to open its Details View.</li>
+</ul>
+<p><a class="reference internal" href="package-deployment\media/image71.png"><img alt="image71" src="package-deployment\media/image71.png" style="width: 5.85139in; height: 2.72149in;" /></a></p>
+<p>Figure 66</p>
+<ul>
+<li><p class="first">Section-A shows the identity of the Computer. It starts with the
+Computer ID and then the Computer Name. It also shows additional
+information about the Computer. You can see the platform, OS details,
+IP address ,hostname of the Computer, Architecture, Remote Office
+details, Vendor and Domain Name</p>
+</li>
+<li><p class="first">Section-C gives you two tabs to view all related Patches and
+Deployment Requests:</p>
+<p><strong>Patches:</strong></p>
+<p><a class="reference internal" href="package-deployment\media/image72.png"><img alt="image72" src="package-deployment\media/image72.png" style="width: 6.26806in; height: 1.23472in;" /></a></p>
+</li>
+</ul>
+<p>Figure 67</p>
+<p>Under this tab, you can view all associated Patches categories into the
+following:</p>
+<ol class="loweralpha simple" start="2">
+<li><strong>New Patches</strong>: Shows newly discovered Patches that are yet to be
+deployed by the Computer.</li>
+</ol>
+<ol class="loweralpha" start="12">
+<li><p class="first"><strong>Installed Patches</strong>: Shows the Patches that have been installed by
+the Computer.</p>
+</li>
+<li><p class="first"><strong>Missing Patches</strong>: Shows the Patches that are being shown as
+Installed somewhere in the system but the Computer is yet to deploy
+them.</p>
+</li>
+<li><p class="first"><strong>Ignored Patches</strong>: Shows Patches that have been deemed as ignored
+for the Computer, Learn more about <a class="reference external" href="#_Ignoring_a_Patch_1">Ignored
+Patches</a>.</p>
+<p>In each category, you can use a search bar to search for Patches. The
+search bar works in the same way as the one on <a class="reference external" href="#search-bar">Patch List
+View</a>.</p>
+<p>You can access the Details View of a Patch by clicking on it.</p>
+<p><strong>Deployment Status:</strong></p>
+<p><a class="reference internal" href="package-deployment\media/image73.png"><img alt="image73" src="package-deployment\media/image73.png" style="width: 6.52763in; height: 1.1875in;" /></a></p>
+</li>
+</ol>
+<p>Figure 68</p>
+<p>In this tab, you can view all Deployment Requests that are giving
+Patch/Package/Registry Deployment instructions to the Computer. You also
+view their <a class="reference external" href="#deployment-status">statuses</a>.</p>
+</div>
+<div class="section" id="computer-health-management">
+<h3>Computer Health Management<a class="headerlink" href="#computer-health-management" title="Permalink to this headline">¶</a></h3>
+<p>We have discussed earlier (in Patch Management manual) that Patch
+Management ensures that all administered IT Assets are updated with the
+latest Patch from the Software Vendor; this enhances security and helps
+in thwarting external and internal cyber-attacks.</p>
+<p>Computers fetch and deploy Patches. So it becomes imperative to monitor
+all Computers to keep yourself aligned with the idea of Patch
+Management.</p>
+<p>Our product has a feature called System Health that flags Computers that
+are missing critical, essential Patches. This helps you to manage your
+vulnerability and prevent any attacks.</p>
+<div class="section" id="system-health-settings">
+<h4>System Health Settings<a class="headerlink" href="#system-health-settings" title="Permalink to this headline">¶</a></h4>
+<p>Go to <strong>Admin</strong> (A Navigation Tab) &gt;&gt; <strong>System Health Settings</strong>
+(Patch/Package Management).</p>
+<p><a class="reference internal" href="package-deployment\media/image74.png"><img alt="image74" src="package-deployment\media/image74.png" style="width: 4.37222in; height: 3.6679in;" /></a></p>
+<p>Figure 69</p>
+<p>These settings help Flotomate to flag Computers as either Highly
+Vulnerable or Vulnerable. You can filter the flagged Computers on the
+<a class="reference external" href="#computer-list-view">Computer List View</a>. Clicking on <strong>System
+Health Settings</strong> opens a page. Here you can set the conditions
+separately to define Highly Vulnerable and Vulnerable.</p>
+<p><a class="reference internal" href="package-deployment\media/image75.png"><img alt="image75" src="package-deployment\media/image75.png" style="width: 6.26806in; height: 2.73125in;" /></a></p>
+<p>Figure 70</p>
+<p>Click on <strong>Edit</strong> to make the fields editable. You are expected to enter
+the minimum number of missing Patches for each severity label.</p>
+<p>Each vulnerability status has a set of four severity labels and their
+counts. No two same labels can have the same numbers (Numbers in Highly
+Vulnerable have to be higher than Vulnerable).</p>
+<p><a class="reference internal" href="package-deployment\media/image76.png"><img alt="image76" src="package-deployment\media/image76.png" style="width: 4.49722in; height: 3.16689in;" /></a></p>
+<p>Figure 71</p>
+<p>The number zero in a field signifies that there’s no condition for the
+corresponding severity label.</p>
+<p>If a Computer has a missing Patch number that is equal to or exceeds a
+minimum value for a label, then the Computer is flagged with the
+corresponding health status. In case a Computer satisfies multiple
+labels then the label top in the hierarchy is considered (Critical
+Patches having the highest priority and Low severity having the lowest).</p>
+<p><a class="reference internal" href="package-deployment\media/image77.png"><img alt="image77" src="package-deployment\media/image77.png" style="width: 4.33056in; height: 2.58173in;" /></a></p>
+<p>Figure 72</p>
+</div>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Package/Registry Deployment</a><ul>
+<li><a class="reference internal" href="#manage-computer-groups">Manage Computer Groups</a><ul>
+<li><a class="reference internal" href="#view-archived-groups">View Archived Groups</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#packages-registry-list-view">Packages/Registry List View</a></li>
+<li><a class="reference internal" href="#searching-packages-registry-templates">Searching Packages/Registry Templates</a><ul>
+<li><a class="reference internal" href="#search-bar">Search Bar</a><ul>
+<li><a class="reference internal" href="#custom-filters-applicable-on-package-list-views">Custom Filters (Applicable on Package List Views)</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#filters">Filters</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#managing-software-packages">Managing Software Packages</a><ul>
+<li><a class="reference internal" href="#adding-a-software-package">Adding a Software Package</a></li>
+<li><a class="reference internal" href="#editing-deleting-a-software-package">Editing/Deleting a Software Package</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#setting-up-a-deployment-policy">Setting Up a Deployment Policy</a></li>
+<li><a class="reference internal" href="#deployment-request">Deployment Request</a><ul>
+<li><a class="reference internal" href="#introduction">Introduction</a></li>
+<li><a class="reference internal" href="#adding-a-package-deployment-request">Adding a Package Deployment Request</a></li>
+<li><a class="reference internal" href="#other-ways-to-add-a-deployment-requests">Other Ways to Add a Deployment Requests</a><ul>
+<li><a class="reference internal" href="#adding-a-deployment-request-from-the-package-registry-list-view">Adding a Deployment Request from the Package/Registry List View:</a></li>
+<li><a class="reference internal" href="#adding-a-deployment-request-from-a-computers-details-page">Adding a Deployment Request from a Computer’s Details Page:</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#approval">Approval</a><ul>
+<li><a class="reference internal" href="#asking-for-an-approval">Asking for an Approval:</a></li>
+<li><a class="reference internal" href="#different-states-in-an-approval">Different States in an Approval</a></li>
+<li><a class="reference internal" href="#approval-process">Approval Process:</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#searching-deployment-requests">Searching Deployment Requests</a><ul>
+<li><a class="reference internal" href="#search-bar-1">Search Bar</a></li>
+<li><a class="reference internal" href="#filters-1">Filters</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#managing-deployment-requests">Managing Deployment Requests</a><ul>
+<li><a class="reference internal" href="#deployment-status">Deployment Status</a></li>
+<li><a class="reference internal" href="#unsupported-computers-in-a-deployment">Unsupported Computers in a Deployment</a></li>
+<li><a class="reference internal" href="#edit-archive-a-deployment-request">Edit/Archive a Deployment Request:</a></li>
+<li><a class="reference internal" href="#view-archived-deployment-requests">View Archived Deployment Requests</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#computer-management">Computer Management</a><ul>
+<li><a class="reference internal" href="#computer-list-view">Computer List View</a></li>
+<li><a class="reference internal" href="#active-status-of-a-computer">Active Status of a Computer</a></li>
+<li><a class="reference internal" href="#searching-computers">Searching Computers</a><ul>
+<li><a class="reference internal" href="#search-bar-2">Search Bar</a></li>
+<li><a class="reference internal" href="#filters-2">Filters</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#computers-details-view">Computer’s Details View</a></li>
+<li><a class="reference internal" href="#computer-health-management">Computer Health Management</a><ul>
+<li><a class="reference internal" href="#system-health-settings">System Health Settings</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/package-deployment/package-deployment.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="nav-item nav-item-0"><a href="../index.html">ITSM Product Documentation 2.0.0 documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2018, Flotomate Technologies Private Limited.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.7.5.
+    </div>
+  </body>
+</html>
