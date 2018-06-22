@@ -91,13 +91,19 @@ single Asset in Flotomate.
        Relationships <#prohibited-software>`__.
 
     h. **Linked Events**: Learn about `Linked
-       Events <#prohibited-software>`__.
+       Events <#prohibited-software>`__.   
 
     i. **Installation**: The Installation tab of a Software lists all the
        machines using the Software or have it installed.
 
     j. **Metering**: Learn about `Software
        Metering <#managing-software-licenses>`__.
+
+    k. **Notes**: Technicians can add notes in an Asset. Notes are visible to all Technicians
+       who are allowed to view the CMDB. :ref:`Learn more <adding notes>`.
+
+    l. **Agent Information**: Assets that have been discovered via an Agent have this tab. The tab shows
+       important information about he Agent, for example Agent ID.
 
 -  Section-E is the Display Pane where all the Properties, Components,
    relationships, editing options, adding options and other information
@@ -332,6 +338,34 @@ the context.
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-26.png
     :align: center
     :alt: figure 26
+
+Adding Notes
+============
+
+Notes are a brief record of points or ideas written down as an aid to memory. 
+Technicians can record brief information in an Asset. One use case of this feature is that a technician can mention
+a possible fault in an Asset via a Note; other Technicians can view the note before working with the Asset.
+
+**To add a Note:**
+
+- Go to the :doc:`Details View <manage-asset-details>` of the Asset where you want to add a Note.
+
+- Click on the Note tab.
+
+.. _amf-26.1:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-26.1.png
+    :align: center
+    :alt: figure 26.1
+
+- Click on Add Note to add a new note. A new dialog box opens.
+
+.. _amf-26.2:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-26.2.png
+    :align: center
+    :alt: figure 26.2
+
+- Write a name and description and then click on **Add**.
+
 
 Relationships
 =============

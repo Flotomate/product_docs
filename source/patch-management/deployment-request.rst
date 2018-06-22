@@ -54,71 +54,89 @@ Manually Creating a Request
   requests in the product. Click on **Deploy Patches** situated in the
   top right corner of the page.
 
-- The Create page opens. The page is divided into three sections; they
+- The Create page opens. The page is divided into four sections; they
   are as follows:
 
-      a. **Request Details**:
+    a. **Request Details**:
 
-            .. _pf-63:
-            .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-63.png
-                :align: center
-                :alt: figure 63
+        .. _pf-63:
+        .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-63.png
+            :align: center
+            :alt: figure 63
 
-            i.  **Name**: You can provide a name to the Patch instead of the
-                default placeholder. It is advisable to keep the date part of the
-                placeholder.
+        i.  **Name**: You can provide a name to the Patch instead of the
+            default placeholder. It is advisable to keep the date part of the
+            placeholder.
 
-            ii.  **Platform**: Select the platform for which you are deploying
-                 patch/patches. Currently, we support only Windows and Linux.
+        ii.  **Platform**: Select the platform for which you are deploying
+             patch/patches. Currently, we support only Windows and Linux.
 
-            iii. **Deployment Policy**: Select a Deployment policy from the
-                 drop-down list. A Deployment Policy governs how the deployment of
-                 Patches is carried out. Learn about :doc:`Deployment
-                 Policies <deployment-policy>`.
+        iii. **Deployment Policy**: Select a Deployment policy from the
+             drop-down list. A Deployment Policy governs how the deployment of
+             Patches is carried out. Learn about :doc:`Deployment
+             Policies <deployment-policy>`.
 
-            iv.  **Install After**: Provide a date and time after which the request
-                 tells the Computers to commence the installation process
+        iv.  **Install After**: Provide a date and time after which the request
+             tells the Computers to commence the installation process
 
-            v.  **Expire After**: This is the date and time after which the
-                request ceases to be a valid request.
+        v.  **Expire After**: This is the date and time after which the
+            request ceases to be a valid request.
 
-      b. **Select Patch**: Here you add the Patch/Patches that you want to
-         deploy.
+    b. **Select Patch**: Here you add the Patch/Patches that you want to deploy.
 
-            .. _pf-64:
-            .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-64.png
-                :align: center
-                :alt: figure 64
+        .. _pf-64:
+        .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-64.png
+            :align: center
+            :alt: figure 64
 
-            i. Section-A (:numref:`pf-64`) is the area where you view the selected Patches.
+        i. Section-A (:numref:`pf-64`) is the area where you view the selected Patches.
 
-            ii.  Section-B has a search bar for searching all available Patches for
-                 the selected platform. The search bar supports the Advanced Search
-                 feature. Learn how to use :ref:`Advanced Search <advanced-search-computer>`.
+        ii.  Section-B has a search bar for searching all available Patches for
+             the selected platform. The search bar supports the Advanced Search
+             feature. Learn how to use :ref:`Advanced Search <advanced-search-computer>`.
 
-            iii.  Section-C is where you view the available Patches in the product.
-                  Clicking a checkbox selects a Patch and transfers it to section-A.
+        iii.  Section-C is where you view the available Patches in the product.
+              Clicking a checkbox selects a Patch and transfers it to section-A.
 
-            Select the Patches that you want to deploy.
+        Select the Patches that you want to deploy.
 
-      c. **Select Target**:
+    c. **Select Target**:
 
-            .. _pf-65:
-            .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-65.png
-                :align: center
-                :alt: figure 65
+        .. _pf-65:
+        .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-65.png
+            :align: center
+            :alt: figure 65
 
 
-            Target refers to Computer/Computers where Patches are going to be
-            installed. You can select a Computer Group or Groups, or individual
-            Computers as a target. You can select both Computer Groups and Computers
-            as a target.
+        Target refers to Computer/Computers where Patches are going to be
+        installed. You can select a Computer Group or Groups, or individual
+        Computers as a target. You can select both Computer Groups and Computers
+        as a target.
 
-            You can create a new group using the **Create Computer Group** button.
-            It opens a dialog box where you can create a group; learn :doc:`how to create
-            a group <manage-computer-groups>`. You also get a search bar to search
-            Computers. The search bar supports the Advanced Search feature. Learn
-            how to use :ref:`Advanced Search <advanced-search-computer>`.
+        You can create a new group using the **Create Computer Group** button.
+        It opens a dialog box where you can create a group; learn :doc:`how to create
+        a group <manage-computer-groups>`. You also get a search bar to search
+        Computers. The search bar supports the Advanced Search feature. Learn
+        how to use :ref:`Advanced Search <advanced-search-computer>`.
+      
+    d. **Retry Configuration**
+
+        .. _spf-36:
+        .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/software-package-deployment/SP-36.png
+            :align: center
+            :alt: figure 36
+
+        The retry configuration limits the number of times an Agent tries
+        deployment when faced with failure.
+
+            i. You can define the maximum number of times to try deployment during
+               system start-up.
+
+            ii. You can define the maximum number of times to try deployment once
+                at each refresh cycle (by default refresh cycle is set to 1 hour).
+
+        During each retry cycle, the deployment status swings from
+        In-Progress to Failed and vice-versa for a single patch till success is reached in deployment.     
 
 Fill in all the necessary details. Now you have two options; you can
 publish the request or save it as a draft.

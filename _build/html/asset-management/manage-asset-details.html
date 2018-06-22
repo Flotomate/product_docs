@@ -134,6 +134,12 @@ machines using the Software or have it installed.</p>
 <li><p class="first"><strong>Metering</strong>: Learn about <a class="reference external" href="#managing-software-licenses">Software
 Metering</a>.</p>
 </li>
+<li><p class="first"><strong>Notes</strong>: Technicians can add notes in an Asset. Notes are visible to all Technicians
+who are allowed to view the CMDB. <a class="reference internal" href="#adding-notes"><span class="std std-ref">Learn more</span></a>.</p>
+</li>
+<li><p class="first"><strong>Agent Information</strong>: Assets that have been discovered via an Agent have this tab. The tab shows
+important information about he Agent, for example Agent ID.</p>
+</li>
 </ol>
 </div></blockquote>
 </li>
@@ -337,6 +343,29 @@ you want.</p>
 <img alt="figure 26" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-26.png" />
 </div>
 </div>
+<div class="section" id="adding-notes">
+<h2>Adding Notes<a class="headerlink" href="#adding-notes" title="Permalink to this headline">¶</a></h2>
+<p>Notes are a brief record of points or ideas written down as an aid to memory.
+Technicians can record brief information in an Asset. One use case of this feature is that a technician can mention
+a possible fault in an Asset via a Note; other Technicians can view the note before working with the Asset.</p>
+<p><strong>To add a Note:</strong></p>
+<ul class="simple">
+<li>Go to the <a class="reference internal" href="#"><span class="doc">Details View</span></a> of the Asset where you want to add a Note.</li>
+<li>Click on the Note tab.</li>
+</ul>
+<div class="figure align-center" id="amf-26-1">
+<img alt="figure 26.1" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-26.1.png" />
+</div>
+<ul class="simple">
+<li>Click on Add Note to add a new note. A new dialog box opens.</li>
+</ul>
+<div class="figure align-center" id="amf-26-2">
+<img alt="figure 26.2" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-26.2.png" />
+</div>
+<ul class="simple">
+<li>Write a name and description and then click on <strong>Add</strong>.</li>
+</ul>
+</div>
 <div class="section" id="relationships">
 <h2>Relationships<a class="headerlink" href="#relationships" title="Permalink to this headline">¶</a></h2>
 <p>You can create an exciting topology of Assets showing the nature of
@@ -369,7 +398,7 @@ Relationship</strong> button while keeping a node selected.</p>
 </div>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">Please refer to* <a class="reference internal" href="#amf-28"><span class="std std-numref">Fig. 547</span></a>.</p>
+<p class="last">Please refer to* <a class="reference internal" href="#amf-28"><span class="std std-numref">Fig. 549</span></a>.</p>
 </div>
 <ol class="loweralpha">
 <li><p class="first">The relationship operation happens between two nodes at a time.
@@ -392,7 +421,7 @@ select <strong>Depends On</strong> from the Relation Direct Type List.</p>
 <div class="figure align-center" id="amf-29">
 <img alt="figure 29" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-29.png" />
 </div>
-<p>In <a class="reference internal" href="#amf-29"><span class="std std-numref">Fig. 548</span></a>, the arrow shows the direction of the dependency.</p>
+<p>In <a class="reference internal" href="#amf-29"><span class="std std-numref">Fig. 550</span></a>, the arrow shows the direction of the dependency.</p>
 <p><strong>Example of an Inverse relationship:</strong></p>
 <p>A server receives data from a PC is an inverse relationship. We select
 <strong>Received Data from</strong> from the Relation Direct Type List in this case.</p>
@@ -452,6 +481,7 @@ page.</li>
 </ul>
 </li>
 <li><a class="reference internal" href="#linked-events">Linked Events</a></li>
+<li><a class="reference internal" href="#adding-notes">Adding Notes</a></li>
 <li><a class="reference internal" href="#relationships">Relationships</a></li>
 </ul>
 </li>

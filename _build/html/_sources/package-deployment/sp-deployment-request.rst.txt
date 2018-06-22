@@ -130,8 +130,7 @@ create a deployment request:
             at each refresh cycle (by default refresh cycle is set to 1 hour).
 
      During each retry cycle, the deployment status swings from
-     In-Progress to Failed and vice-versa when all cycles fail to deploy
-     the packages.
+     In-Progress to Failed and vice-versa for each package till success is reached in deployment.
 
    Fill in all the necessary details. Now you have two options; you
    can publish the request or save it as a draft.

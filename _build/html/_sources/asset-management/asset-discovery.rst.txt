@@ -297,7 +297,8 @@ We provide four easy Discovery Types to choose from:
 
 **Testing Connection**
 
-You can test the credential by connecting with a computer. Click on
+.. role:: red
+You can test the credential by connecting with a computer (:red:`works for WMI and SSH credentials`). Click on
 **Test Connection** next to **Save**. A dialog box opens asking for the
 IP of the machine. Submitting an IP starts a process that tells whether
 a successful connection was established or not.
@@ -337,8 +338,8 @@ Networks.
 1. Log in to your Dashboard and head to **Admin** >> **Networks** (under
    IT Infrastructure).
 
-2. Click the **Create a Network** icon situated in the top right corner
-   of the page. Create a Network dialog box opens.
+2. Click the **Create a Network** button situated in the top right corner
+   of the page. A dialog box opens.
 
 .. _amf-163:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-163.png
@@ -440,7 +441,7 @@ pingable workstations and devices in the network using the network
 credentials and can generate reports based on the output. Other
 capabilities that a Probe provides are: scheduling, Polling (detecting
 changes in existing Assets), and Asset Review; these features help you
-to make your Discovery operations manageable.
+to make your Discovery operations smooth and manageable.
 
 A Discovery Probe supports a wide range of network protocols to cover
 maximum types of devices in a network.
@@ -500,7 +501,7 @@ Creating a Discovery Probe
 Information Fetched by a Probe
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The Probe fetches the following data points from a workstation:
+The Probe fetches the following data points from a workstation (subject to change in subsequent product updates):
 
 -  General Details:
 
@@ -562,14 +563,14 @@ review the discovered Assets before committing them to the CMDB.
 Run on Demand Discovery
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-The fastest way to initiate a Discovery is to use the **Run Now** option
+The fastest way to initiate a Discovery is to use the **Scan New Assets** option
 in a Probe:
 
 1. Go to **Asset** (A Navigation Tab) >> **Discovery Probe**.
 
-2. Select a Probe. The **Run Now** option appears.
+2. Select a Probe. The **Scan New Assets** option appears.
 
-3. Click on **Run Now** and it asks whether you want to add the Assets
+3. Click on **Scan New Assets** and it asks whether you want to add the Assets
    automatically or not. In response, the discovery process begins. The
    Status changes to FINISHED when done. Along with that it also shows
    the date and time of completion of the discovery.
@@ -585,7 +586,8 @@ in a Probe:
    can view them and can perform other operations. If you did not
    select automatic addition to the CMDB, then discovered Assets are
    staged for `review <#reviewing-discovered-assets>`__; from there you
-   have to commit them to the CMDB.
+   have to commit them to the CMDB. You can view the Assets that are currently staged
+   by clicking on the **View Assets in Stage** button under the Status tab.
 
 .. _amf-169:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-169.png
@@ -598,13 +600,13 @@ Run on Demand Polling
 Polling detects any changes made to a discovered Asset at the source and
 pushes the changes (if any) to the CMDB. This process helps you to keep
 your CMDB up to date. The fastest way to initiate Polling is to use the
-Update Existing option.
+**Scan Existing Assets** option.
 
 1. Go to **Asset** (A Navigation Tab) >> **Discovery Probe**.
 
-2. Select a Probe. The **Update Existing** option appears.
+2. Select a Probe. The **Scan Existing Assets** option appears.
 
-3. Click on **Update Existing** and it asks for confirmation. In
+3. Click on **Scan Existing Assets** and it asks for confirmation. On a
    positive response, the polling process begins. The Status changes to
    FINISHED when done. Along with that it also shows the date and time
    of completion of the polling.
@@ -720,7 +722,7 @@ You can edit all the parameters of an existing Probe:
 1. Go to **Asset** (A Navigation Tab) >> **Discovery Probe**.
 
 2. Select the Probe that you want to edit. **Action Menu** appears
-   next to the option **Run Now**.
+   next to the option **Scan New Assets**.
 
 .. _amf-175:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-175.png
@@ -740,11 +742,12 @@ Deleting a Probe
 1. Go to **Asset** (A Navigation Tab) >> **Discovery Probe**.
 
 2. Select the Probe that you want to delete. **Action Menu** appears
-   next to the option **Run Now**.
+   next to the option **Scan New Assets**.
 
 3. Click on **Archive** from the Action Menu. A confirmation box
    appears and clicking on **Yes** deletes the Probe.
 
+.. _status-of-a-probe:
 Status/Progress of a Probe
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -778,10 +781,10 @@ progress status in the **Discovery** tab:
 Reviewing Discovered Assets
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The **Status** tab houses a button called **View Asset in Review**. If
+The :ref:`Status <status-of-a-probe>`  tab houses a button called **View Assets in Stage**. If
 you have scheduled a Discovery with the option, **Automatically Add
 Asset in Store** as Yes, then all discoveries are staged in the Asset in
-Review page which is only accessible by the **View Asset in Review**
+Review page which is only accessible by the **View Assets in Stage**
 button.
 
 .. _amf-178:
@@ -1009,7 +1012,7 @@ Running our first discovery operation:
 
 -  We go to **Assets** >> **Discovery Probe**.
 
--  We select IP_Range_Probe and click on **Run Now**. We select
+-  We select IP_Range_Probe and click on **Scan New Assets**. We select
    automatic addition of Assets. The Discovery operation starts and
    populates the CMDB. We can view the Assets in the Asset List View.
 
@@ -1060,7 +1063,7 @@ Probe** dialog box.to create Domain_Net_Probe.
 
 We have cleared the Asset List View so we can perform another Discovery
 using the new Probe. We are going to run the Domain_Net_Probe by
-clicking on **Run Now** from the Discovery Probe page. We select the
+clicking on **Scan New Assets** from the Discovery Probe page. We select the
 auto-addition option and the discovered Assets are automatically added
 to the CMDB.
 

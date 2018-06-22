@@ -281,7 +281,7 @@ available Discovery Types:</p>
 <div><p><strong>WMI (Windows Management Instrumentation):</strong></p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">Please refer to <a class="reference internal" href="#amf-157"><span class="std std-numref">Fig. 670</span></a>.</p>
+<p class="last">Please refer to <a class="reference internal" href="#amf-157"><span class="std std-numref">Fig. 679</span></a>.</p>
 </div>
 <p>This protocol is used to scan for data in Windows-based systems
 within a Domain or Workgroup.</p>
@@ -335,7 +335,7 @@ correct, the get request fetches the data.</li>
 authentication.</p>
 </li>
 <li><p class="first"><strong>Authentication Protoco</strong>l: Use the protocol that you want to use
-(we support both MD5 and SHA) in field-A (<a class="reference internal" href="#amf-160"><span class="std std-numref">Fig. 673</span></a>).</p>
+(we support both MD5 and SHA) in field-A (<a class="reference internal" href="#amf-160"><span class="std std-numref">Fig. 682</span></a>).</p>
 </li>
 <li><p class="first"><strong>Username</strong>: Enter your username.</p>
 </li>
@@ -362,7 +362,7 @@ authentication and privacy.</li>
 </li>
 </ol>
 <p><strong>Testing Connection</strong></p>
-<p>You can test the credential by connecting with a computer. Click on
+<p>You can test the credential by connecting with a computer (<span class="red">works for WMI and SSH credentials</span>). Click on
 <strong>Test Connection</strong> next to <strong>Save</strong>. A dialog box opens asking for the
 IP of the machine. Submitting an IP starts a process that tells whether
 a successful connection was established or not.</p>
@@ -397,8 +397,8 @@ Networks.</p>
 <ol class="arabic simple">
 <li>Log in to your Dashboard and head to <strong>Admin</strong> &gt;&gt; <strong>Networks</strong> (under
 IT Infrastructure).</li>
-<li>Click the <strong>Create a Network</strong> icon situated in the top right corner
-of the page. Create a Network dialog box opens.</li>
+<li>Click the <strong>Create a Network</strong> button situated in the top right corner
+of the page. A dialog box opens.</li>
 </ol>
 <div class="figure align-center" id="amf-163">
 <img alt="figure 163" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-163.png" />
@@ -536,7 +536,7 @@ pingable workstations and devices in the network using the network
 credentials and can generate reports based on the output. Other
 capabilities that a Probe provides are: scheduling, Polling (detecting
 changes in existing Assets), and Asset Review; these features help you
-to make your Discovery operations manageable.</p>
+to make your Discovery operations smooth and manageable.</p>
 <p>A Discovery Probe supports a wide range of network protocols to cover
 maximum types of devices in a network.</p>
 <div class="admonition note">
@@ -561,7 +561,7 @@ right corner of the page. Create Discovery Probe dialog box opens.</li>
 <img alt="figure 167" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-167.png" />
 </div>
 <ol class="arabic" start="4">
-<li><p class="first">The Create Discovery Probe dialog box has four fields (refer <a class="reference internal" href="#amf-166"><span class="std std-numref">Fig. 679</span></a>):</p>
+<li><p class="first">The Create Discovery Probe dialog box has four fields (refer <a class="reference internal" href="#amf-166"><span class="std std-numref">Fig. 688</span></a>):</p>
 <blockquote>
 <div><ol class="loweralpha simple">
 <li>Section-A: You enter a Name for the Probe here. By default, you
@@ -594,7 +594,7 @@ that you can create.</p>
 </div>
 <div class="section" id="information-fetched-by-a-probe">
 <h4>Information Fetched by a Probe<a class="headerlink" href="#information-fetched-by-a-probe" title="Permalink to this headline">¶</a></h4>
-<p>The Probe fetches the following data points from a workstation:</p>
+<p>The Probe fetches the following data points from a workstation (subject to change in subsequent product updates):</p>
 <ul class="simple">
 <li>General Details:<ol class="loweralpha">
 <li>Name and ID</li>
@@ -635,14 +635,14 @@ source.</p>
 review the discovered Assets before committing them to the CMDB.</p>
 <div class="section" id="run-on-demand-discovery">
 <h4>Run on Demand Discovery<a class="headerlink" href="#run-on-demand-discovery" title="Permalink to this headline">¶</a></h4>
-<p>The fastest way to initiate a Discovery is to use the <strong>Run Now</strong> option
+<p>The fastest way to initiate a Discovery is to use the <strong>Scan New Assets</strong> option
 in a Probe:</p>
 <ol class="arabic">
 <li><p class="first">Go to <strong>Asset</strong> (A Navigation Tab) &gt;&gt; <strong>Discovery Probe</strong>.</p>
 </li>
-<li><p class="first">Select a Probe. The <strong>Run Now</strong> option appears.</p>
+<li><p class="first">Select a Probe. The <strong>Scan New Assets</strong> option appears.</p>
 </li>
-<li><p class="first">Click on <strong>Run Now</strong> and it asks whether you want to add the Assets
+<li><p class="first">Click on <strong>Scan New Assets</strong> and it asks whether you want to add the Assets
 automatically or not. In response, the discovery process begins. The
 Status changes to FINISHED when done. Along with that it also shows
 the date and time of completion of the discovery.</p>
@@ -657,7 +657,8 @@ the date and time of completion of the discovery.</p>
 can view them and can perform other operations. If you did not
 select automatic addition to the CMDB, then discovered Assets are
 staged for <a class="reference external" href="#reviewing-discovered-assets">review</a>; from there you
-have to commit them to the CMDB.</p>
+have to commit them to the CMDB. You can view the Assets that are currently staged
+by clicking on the <strong>View Assets in Stage</strong> button under the Status tab.</p>
 </li>
 </ol>
 <div class="figure align-center" id="amf-169">
@@ -669,11 +670,11 @@ have to commit them to the CMDB.</p>
 <p>Polling detects any changes made to a discovered Asset at the source and
 pushes the changes (if any) to the CMDB. This process helps you to keep
 your CMDB up to date. The fastest way to initiate Polling is to use the
-Update Existing option.</p>
+<strong>Scan Existing Assets</strong> option.</p>
 <ol class="arabic simple">
 <li>Go to <strong>Asset</strong> (A Navigation Tab) &gt;&gt; <strong>Discovery Probe</strong>.</li>
-<li>Select a Probe. The <strong>Update Existing</strong> option appears.</li>
-<li>Click on <strong>Update Existing</strong> and it asks for confirmation. In
+<li>Select a Probe. The <strong>Scan Existing Assets</strong> option appears.</li>
+<li>Click on <strong>Scan Existing Assets</strong> and it asks for confirmation. On a
 positive response, the polling process begins. The Status changes to
 FINISHED when done. Along with that it also shows the date and time
 of completion of the polling.</li>
@@ -710,7 +711,7 @@ message if you are scheduling for the first time. Click on
 <img alt="figure 172" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-172.png" />
 </div>
 <ol class="arabic" start="5">
-<li><p class="first">Refer <a class="reference internal" href="#amf-171"><span class="std std-numref">Fig. 684</span></a>. There are three fields in Schedule that you need
+<li><p class="first">Refer <a class="reference internal" href="#amf-171"><span class="std std-numref">Fig. 693</span></a>. There are three fields in Schedule that you need
 to fill:</p>
 <blockquote>
 <div><ol class="loweralpha">
@@ -779,7 +780,7 @@ frequency, review settings and add/subtract emails.</p>
 <ol class="arabic simple">
 <li>Go to <strong>Asset</strong> (A Navigation Tab) &gt;&gt; <strong>Discovery Probe</strong>.</li>
 <li>Select the Probe that you want to edit. <strong>Action Menu</strong> appears
-next to the option <strong>Run Now</strong>.</li>
+next to the option <strong>Scan New Assets</strong>.</li>
 </ol>
 <div class="figure align-center" id="amf-175">
 <img alt="figure 175" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-175.png" />
@@ -797,7 +798,7 @@ box.</li>
 <ol class="arabic simple">
 <li>Go to <strong>Asset</strong> (A Navigation Tab) &gt;&gt; <strong>Discovery Probe</strong>.</li>
 <li>Select the Probe that you want to delete. <strong>Action Menu</strong> appears
-next to the option <strong>Run Now</strong>.</li>
+next to the option <strong>Scan New Assets</strong>.</li>
 <li>Click on <strong>Archive</strong> from the Action Menu. A confirmation box
 appears and clicking on <strong>Yes</strong> deletes the Probe.</li>
 </ol>
@@ -825,17 +826,17 @@ progress status in the <strong>Discovery</strong> tab:</p>
 </div>
 <div class="section" id="reviewing-discovered-assets">
 <h4>Reviewing Discovered Assets<a class="headerlink" href="#reviewing-discovered-assets" title="Permalink to this headline">¶</a></h4>
-<p>The <strong>Status</strong> tab houses a button called <strong>View Asset in Review</strong>. If
+<p>The <a class="reference internal" href="#status-of-a-probe"><span class="std std-ref">Status</span></a>  tab houses a button called <strong>View Assets in Stage</strong>. If
 you have scheduled a Discovery with the option, <strong>Automatically Add
 Asset in Store</strong> as Yes, then all discoveries are staged in the Asset in
-Review page which is only accessible by the <strong>View Asset in Review</strong>
+Review page which is only accessible by the <strong>View Assets in Stage</strong>
 button.</p>
 <div class="figure align-center" id="amf-178">
 <img alt="figure 178" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-178.png" />
 </div>
 <p>Once Assets are staged, you can manually add every Asset to the List
 View using the <strong>Add</strong> button adjacent to every Asset, or you can select
-them all and add them at once using the bulk add feature (<a class="reference internal" href="#amf-177"><span class="std std-numref">Fig. 690</span></a>).
+them all and add them at once using the bulk add feature (<a class="reference internal" href="#amf-177"><span class="std std-numref">Fig. 699</span></a>).
 You can also delete the items in bulk.</p>
 </div>
 </div>
@@ -991,7 +992,7 @@ Probe</a>.</li>
 <p>Running our first discovery operation:</p>
 <ul class="simple">
 <li>We go to <strong>Assets</strong> &gt;&gt; <strong>Discovery Probe</strong>.</li>
-<li>We select IP_Range_Probe and click on <strong>Run Now</strong>. We select
+<li>We select IP_Range_Probe and click on <strong>Scan New Assets</strong>. We select
 automatic addition of Assets. The Discovery operation starts and
 populates the CMDB. We can view the Assets in the Asset List View.</li>
 </ul>
@@ -1026,7 +1027,7 @@ Probe</strong> dialog box.to create Domain_Net_Probe.</p>
 <p><strong>Discovery of Assets:</strong></p>
 <p>We have cleared the Asset List View so we can perform another Discovery
 using the new Probe. We are going to run the Domain_Net_Probe by
-clicking on <strong>Run Now</strong> from the Discovery Probe page. We select the
+clicking on <strong>Scan New Assets</strong> from the Discovery Probe page. We select the
 auto-addition option and the discovered Assets are automatically added
 to the CMDB.</p>
 </div>

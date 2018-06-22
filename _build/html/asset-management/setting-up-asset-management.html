@@ -47,8 +47,8 @@ each Asset. By identity, we mean product information that can be used
 for identification. You can add this information in the form of Asset
 Type, Status, Product Type, Manufacturer details, Warranty information
 and Vendor details.</p>
-<div class="section" id="adding-custom-asset-types">
-<h2>Adding Custom Asset Types<a class="headerlink" href="#adding-custom-asset-types" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="custom-asset-types">
+<h2>Custom Asset Types<a class="headerlink" href="#custom-asset-types" title="Permalink to this headline">¶</a></h2>
 <p>We have introduced the concept of Asset Type Hierarchy to make
 cataloging of Assets simple. It is a predefined catalog of Asset Types,
 which serves the purpose of giving you a generic umbrella term for every
@@ -76,14 +76,12 @@ Management).</li>
 <li>The Asset Types page opens. Here you can add your sub-types in level
 two and three using the <strong>Add</strong> button.</li>
 </ul>
-<div class="section" id="editing-deleting-custom-types">
-<h3>Editing/Deleting Custom Types<a class="headerlink" href="#editing-deleting-custom-types" title="Permalink to this headline">¶</a></h3>
+<p><strong>Editing/Deleting Custom Types</strong></p>
 <p>Go to <strong>Admin</strong> &gt;. <strong>Asset Types</strong>.</p>
 <p>You can change the name of any custom type using the Edit Icon or
 delete any type using the Delete Icon.</p>
 <div class="figure align-center" id="amf-60">
 <img alt="figure 60" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-60.png" />
-</div>
 </div>
 </div>
 <div class="section" id="asset-status">
@@ -110,19 +108,19 @@ Management).</p>
 <div class="figure align-center" id="amf-62">
 <img alt="figure 62" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-62.png" />
 </div>
-</div>
-<div class="section" id="editing-deleting-statuses">
-<h3>Editing/Deleting Statuses<a class="headerlink" href="#editing-deleting-statuses" title="Permalink to this headline">¶</a></h3>
+<p><strong>Editing/Deleting Statuses</strong></p>
 <p>You can edit/delete any status with the Edit/Delete Icon. You can also
 rearrange them by drag and drop.</p>
 </div>
 </div>
-<div class="section" id="adding-a-product">
-<h2>Adding a Product<a class="headerlink" href="#adding-a-product" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="product">
+<h2>Product<a class="headerlink" href="#product" title="Permalink to this headline">¶</a></h2>
 <p>Every CI (Configuration Item) in the CMDB is an instance of a Product.
 For example; a Windows workstation could be an instance of a Product
 called HP Desktop JP78. A single Product can have multiple instances in
-the CMDB. Users are responsible for adding the Products.</p>
+the CMDB.</p>
+<p>Asset Management allows you to maintain a catalog of products. You can maintain information about the vendor and manufacturer
+in each product.</p>
 <p><strong>To add a new Product:</strong></p>
 <ol class="arabic simple">
 <li>Go to <strong>Asset</strong> (A Navigation Tab) &gt;&gt; <strong>Product Catalog</strong>.</li>
@@ -131,23 +129,22 @@ the CMDB. Users are responsible for adding the Products.</p>
 <img alt="figure 63" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-63.png" />
 </div>
 <ol class="arabic" start="2">
-<li><dl class="first docutils">
-<dt>The Product Catalog page opens. Here you can view all the available</dt>
-<dd><p class="first">products in the system.</p>
-<div class="last figure align-center" id="amf-64">
+<li><p class="first">The Product Catalog page opens. Here you can view all the available
+products in the system.</p>
+<blockquote>
+<div><div class="figure align-center" id="amf-64">
 <img alt="figure 64" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-64.png" />
 </div>
-</dd>
-</dl>
+</div></blockquote>
 <p>Click on <strong>Add Product</strong> situated in the top right corner of the page.</p>
 </li>
-<li><dl class="first docutils">
-<dt>The Add Product dialog box opens. You have to type in the following</dt>
-<dd><p class="first">details of a product:</p>
-<div class="figure align-center" id="amf-65">
+<li><p class="first">The Add Product dialog box opens. You have to type in the following
+details of a product:</p>
+<blockquote>
+<div><div class="figure align-center" id="amf-65">
 <img alt="figure 65" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-65.png" />
 </div>
-<ol class="last loweralpha">
+<ol class="loweralpha">
 <li><p class="first"><strong>Name</strong>: HP DeskJet GT 5821 is the name of a printer.</p>
 </li>
 <li><p class="first"><strong>Product Type</strong>: Printer is the Product Type for HP DeskJet GT 5821.
@@ -176,21 +173,19 @@ under Warranty.</p>
 <li><p class="first"><strong>Description</strong>: A short description of the Product.</p>
 </li>
 </ol>
-</dd>
-</dl>
+</div></blockquote>
 </li>
 <li><p class="first">Click on <strong>Add</strong> and your Product is added to the Products page.</p>
 </li>
 </ol>
-</div>
 <div class="section" id="searching-products">
-<h2>Searching Products<a class="headerlink" href="#searching-products" title="Permalink to this headline">¶</a></h2>
-<p>You can search for a Product using the Type and Status. You can get the
-options by clicking on the Search Bar.</p>
+<h3>Searching Products<a class="headerlink" href="#searching-products" title="Permalink to this headline">¶</a></h3>
+<p>You can search for a Product using the search bar and Quick Filters on the Product Catalog page.
+The search bar has the search option type that allows you to search based on Product Type.</p>
 <div class="figure align-center" id="amf-66">
 <img alt="figure 66" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-66.png" />
 </div>
-<p>Clicking on an option opens another drop-down list where you have to
+<p>Clicking on the <strong>Product Type</strong> option opens another drop-down list where you have to
 make a selection. The Product list is filtered based on the selections
 that you make.</p>
 <div class="figure align-center" id="amf-67">
@@ -199,31 +194,31 @@ that you make.</p>
 <p>You can create multiple conditions using the available options. You can
 also search using keywords. Just type in a keyword and hit enter. You
 use both keywords and search options.</p>
+<p>The Product Catalog page has Quick Filters to sort the products into three categories:</p>
+<div class="figure align-center" id="amf-67-1">
+<img alt="figure 67.1" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-67.1.png" />
 </div>
-<div class="section" id="editing-deleting-a-product">
-<h2>Editing/Deleting a Product<a class="headerlink" href="#editing-deleting-a-product" title="Permalink to this headline">¶</a></h2>
+<p><strong>Editing/Deleting a Product</strong></p>
 <div class="figure align-center" id="amf-68">
 <img alt="figure 68" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-68.png" />
 </div>
 <p><strong>To Edit a Product:</strong></p>
 <ol class="arabic simple">
 <li>Go to <strong>Asset</strong> (A Navigation Tab) &gt;&gt; <strong>Product Catalog</strong>.</li>
-<li><dl class="first docutils">
-<dt>The Products page opens. Clicking on the Edit Icon adjacent to a</dt>
-<dd>Product opens the Edit Product dialog box.</dd>
-</dl>
-</li>
+<li>The Products page opens. Clicking on the Edit Icon adjacent to a
+Product opens the Edit Product dialog box.</li>
 <li>Performs the edits and hit <strong>Update</strong>.</li>
 </ol>
 <p><strong>To Delete a Product:</strong></p>
 <p>In the Product Catalog page, click on the Delete Icon adjacent to the
 Product that you want to delete. On confirming the Product is deleted.</p>
 </div>
-<div class="section" id="adding-a-vendor">
-<h2>Adding a Vendor<a class="headerlink" href="#adding-a-vendor" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="vendor">
+<h2>Vendor<a class="headerlink" href="#vendor" title="Permalink to this headline">¶</a></h2>
 <p>A Vendor is a person or an organization that sales the Products. You can
 maintain a list of Vendors in Flotomate that you can associate with each
-Asset.</p>
+Asset and Product.</p>
 <p><strong>To add a Vendor:</strong></p>
 <ol class="arabic">
 <li><p class="first">Go to <strong>Asset</strong> (A Navigation Tab) &gt;&gt; <strong>Vendors Catalog</strong>.</p>
@@ -251,9 +246,6 @@ page.</p>
 </dl>
 </li>
 </ol>
-</div>
-<div class="section" id="editing-deleting-a-vendor">
-<h2>Editing/Deleting a Vendor<a class="headerlink" href="#editing-deleting-a-vendor" title="Permalink to this headline">¶</a></h2>
 <div class="figure align-center" id="amf-71">
 <img alt="figure 71" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-71.png" />
 </div>
@@ -271,7 +263,7 @@ Vendor that you want to delete. On confirming the Vendor gets deleted.</p>
 <div class="section" id="managing-vendors-in-a-product">
 <h2>Managing Vendors in a Product<a class="headerlink" href="#managing-vendors-in-a-product" title="Permalink to this headline">¶</a></h2>
 <p>You can link a Product listed on the Product Catalog page to a Vendor
-listed on the Vendor Catalog page.</p>
+listed on the Vendor Catalog page and Vice-Versa.</p>
 <div class="section" id="linking-a-vendor">
 <h3>Linking a Vendor<a class="headerlink" href="#linking-a-vendor" title="Permalink to this headline">¶</a></h3>
 <div class="admonition note">
@@ -292,17 +284,17 @@ transaction details.</p>
 <div class="figure align-center" id="amf-73">
 <img alt="figure 73" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-73.png" />
 </div>
-<p>You can add a Vendor from the Vendor list in field A &amp; B (<a class="reference internal" href="#amf-73"><span class="std std-numref">Fig. 594</span></a>).
+<p>You can add a Vendor from the Vendor Catalog in the Vendor field (<a class="reference internal" href="#amf-73"><span class="std std-numref">Fig. 597</span></a>).
 After filling in the details, click save to link the Vendor to the
 Product. Learn <a class="reference external" href="#adding-a-vendor">how to add a Vendor</a>.</p>
 </div>
-<div class="section" id="editing-delinking-a-vendor">
-<h3>Editing/Delinking a Vendor<a class="headerlink" href="#editing-delinking-a-vendor" title="Permalink to this headline">¶</a></h3>
-<p>You can easily edit &amp; delink a Vendor from a Product by following the
+<div class="section" id="editing-de-linking-a-vendor">
+<h3>Editing/De-linking a Vendor<a class="headerlink" href="#editing-de-linking-a-vendor" title="Permalink to this headline">¶</a></h3>
+<p>You can easily edit &amp; de-link a Vendor from a Product by following the
 below mentioned steps:</p>
 <p><strong>To edit Vendor Info of a Product:</strong></p>
 <ol class="arabic simple">
-<li>Go to <strong>Asset</strong> &gt;&gt; <strong>Products</strong> and then to the <strong>Manage Vendors</strong>
+<li>Go to <strong>Asset</strong> &gt;&gt; <strong>Products Catalog</strong> and then to the <strong>Manage Vendors</strong>
 page of the Product that you want to edit.</li>
 </ol>
 <div class="figure align-center" id="amf-74">
@@ -318,8 +310,80 @@ Vendor that you want to delink. On confirming the Vendor is delinked
 from the Product.</p>
 </div>
 </div>
-<div class="section" id="adding-a-product-type">
-<h2>Adding a Product Type<a class="headerlink" href="#adding-a-product-type" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="managing-products-in-a-vendor">
+<h2>Managing Products in a Vendor<a class="headerlink" href="#managing-products-in-a-vendor" title="Permalink to this headline">¶</a></h2>
+<p>All Products have a Vendor associated with them. You can link a Product with a Vendor from the Vendor Catalog page and Vice-Versa.</p>
+<div class="section" id="linking-a-product">
+<h3>Linking a Product<a class="headerlink" href="#linking-a-product" title="Permalink to this headline">¶</a></h3>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">You need to first add a Product before linking any vendor.</p>
+</div>
+<p>Go to <strong>Asset</strong> (A Navigation Tab) &gt;&gt; <strong>Vendor Catalog</strong>.</p>
+<p>In Vendor Catalog page, click on <strong>Manage Products</strong> adjacent to the
+Vendor that you want to link.</p>
+<div class="figure align-center" id="amf-74-1">
+<img alt="figure 74.1" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-74.1.png" />
+</div>
+<p>The Manage Products page opens. In this page, you can view all the
+Products linked to the Vendor. A Product can be added only once.
+Click on <strong>Link Product</strong> situated in the top right corner.</p>
+<p>The <strong>Add Product</strong> dialog box opens. Fill in the Product and
+transaction details.</p>
+<div class="figure align-center" id="amf-74-2">
+<img alt="figure 74.2" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-74.2.png" />
+</div>
+<p>You can add a Product from the Product Catalog in the Product field (<a class="reference internal" href="#amf-74-2"><span class="std std-numref">Fig. 600</span></a>).
+After filling in the details, click save to link the Product to the
+Vendor.</p>
+</div>
+<div class="section" id="editing-de-linking-a-product">
+<h3>Editing/De-linking a Product<a class="headerlink" href="#editing-de-linking-a-product" title="Permalink to this headline">¶</a></h3>
+<p>You can easily edit &amp; de-link a Product from a Vendor by following the
+below mentioned steps:</p>
+<p><strong>To edit Vendor Info of a Product:</strong></p>
+<ol class="arabic simple">
+<li>Go to <strong>Asset</strong> &gt;&gt; <strong>Vendor Catalog</strong> and then to the <strong>Manage Products</strong>
+page of the Vendor that you want to edit.</li>
+</ol>
+<div class="figure align-center" id="amf-74-3">
+<img alt="figure 74.3" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-74.3.png" />
+</div>
+<ol class="arabic simple" start="2">
+<li>Clicking on the Edit Icon opens the Edit Product dialog box.
+Performs the edits and hit <strong>Update</strong>.</li>
+</ol>
+<p><strong>To Delink a Vendor:</strong></p>
+<p>In the Manage Product page, click on the Delete Icon adjacent to the
+Product that you want to delink. On confirmation, the Product is de-linked
+from the Vendor.</p>
+</div>
+</div>
+<div class="section" id="software-catalog">
+<h2>Software Catalog<a class="headerlink" href="#software-catalog" title="Permalink to this headline">¶</a></h2>
+<p>The Software Catalog is used by Patch Management to store the names of application for which Patches have been identified.
+The names in the Software Catalog are used when creating deployment requests for Patches. The catalog is automatically updated
+by the main server based on the information received from the Computers. You can also add Software manually.</p>
+<p><strong>To add a Software in the Catalog:</strong></p>
+<ul class="simple">
+<li>Go to Asset (A Navigation Tab) &gt;&gt; Software Catalog.</li>
+</ul>
+<div class="figure align-center" id="amf-74-4">
+<img alt="figure 74.4" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-74.4.png" />
+</div>
+<ul class="simple">
+<li>The Software Catalog page opens. Here you can view the list of application names.
+There are search bar and filters to search for names. Click on the <strong>Add Software</strong> button to add a new entry.</li>
+</ul>
+<div class="figure align-center" id="amf-74-5">
+<img alt="figure 74.5" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-74.5.png" />
+</div>
+<ul class="simple">
+<li>The new dialog box opens. Provide the all the details and click on <strong>Add</strong>.</li>
+</ul>
+</div>
+<div class="section" id="product-type">
+<h2>Product Type<a class="headerlink" href="#product-type" title="Permalink to this headline">¶</a></h2>
 <p>A Product can be further categorized into Product Types. A Product Type
 is a generic category to group Products. For example, Router is a
 Product Type that describes Products like Asus, TP-Link, etc. In
@@ -376,9 +440,7 @@ Type.</p>
 </div></blockquote>
 </li>
 </ol>
-</div>
-<div class="section" id="editing-deleting-a-product-type">
-<h2>Editing/Deleting a Product Type<a class="headerlink" href="#editing-deleting-a-product-type" title="Permalink to this headline">¶</a></h2>
+<p><strong>Editing/Deleting a Product Type</strong></p>
 <div class="figure align-center" id="amf-77">
 <img alt="figure 77" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-77.png" />
 </div>
@@ -400,22 +462,21 @@ Product Type you want to edit.</li>
 Product Type that you want to delete. On confirmation the Product Type
 gets deleted.</p>
 </div>
-<div class="section" id="adding-a-manufacturer">
-<h2>Adding a Manufacturer<a class="headerlink" href="#adding-a-manufacturer" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="manufacturer">
+<h2>Manufacturer<a class="headerlink" href="#manufacturer" title="Permalink to this headline">¶</a></h2>
 <p>In Flotomate you can maintain a list of manufacturers’ names that you
 add to various Products in the system. Before adding a Manufacturer’s
-name to a Product, you have to add it to the product.</p>
+name to a Product, you have to add it to the system.</p>
 <p>To Add a Manufacturer:</p>
 <ol class="arabic simple">
-<li>Go to <strong>Admin</strong> (A Navigation Tab) &gt;&gt; <strong>Manufacturers</strong> (Asset
-Management).</li>
+<li>Go to <strong>Asset</strong> (A Navigation Tab) &gt;&gt; <strong>Manufacturer Catalog</strong>.</li>
 </ol>
 <div class="figure align-center" id="amf-78">
 <img alt="figure 78" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-78.png" />
 </div>
 <ol class="arabic simple" start="2">
-<li>The Manufacturers page opens. Here you can view all the
-Manufacturers that you have added. Click on <strong>Add Manufacturer</strong>
+<li>The Manufacturers page opens. Here you can view all existing
+Manufacturers. Click on <strong>Add Manufacturer</strong>
 situated in the top right corner of the page.</li>
 </ol>
 <div class="figure align-center" id="amf-79">
@@ -424,7 +485,7 @@ situated in the top right corner of the page.</li>
 <ol class="arabic" start="3">
 <li><p class="first">The Add Manufacturer dialog box opens. Type in the Name of the
 Manufacturer and a Description, and you can also maintain a record
-of sysOIDs (System OID) using the <strong>ADD System OID</strong> (<a class="reference internal" href="#amf-79"><span class="std std-numref">Fig. 600</span></a>)
+of sysOIDs (System OID) using the <strong>ADD System OID</strong> (<a class="reference internal" href="#amf-79"><span class="std std-numref">Fig. 608</span></a>)
 button.</p>
 <p>The sysOID is for SNMP devices. The product matches SNMP devices
 with Manufacturers using the sysOID. The first 12 characters of a
@@ -432,12 +493,15 @@ sysOID gives enough information to perform the match. The
 matchmaking happens even when the manufacturer is not explicitly
 mentioned in a SNMP device.</p>
 </li>
-<li><p class="first">When you are done, hit <strong>Save</strong> to add the Manufacturer.</p>
+<li><p class="first">When you are done, hit <strong>Add</strong> to add the Manufacturer.</p>
 </li>
 </ol>
+<p><strong>View Linked Products</strong></p>
+<p>In the Asset &gt;&gt; Manufacturer Catalog page, you can view the associated Products of a Manufacturer
+using the <strong>View Products</strong> option.</p>
+<div class="figure align-center" id="amf-79-1">
+<img alt="figure 79.1" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-79.1.png" />
 </div>
-<div class="section" id="editing-deleting-manufacturer">
-<h2>Editing/Deleting Manufacturer<a class="headerlink" href="#editing-deleting-manufacturer" title="Permalink to this headline">¶</a></h2>
 <p><strong>To Edit a Manufacturer:</strong></p>
 <ol class="arabic simple">
 <li>Go to <strong>Admin</strong> &gt;&gt; <strong>Manufacturers</strong>.</li>
@@ -458,7 +522,7 @@ device. The values are located using OIDs (Object IDs). An OID is an
 address to identify a device and its statuses. For example, we can know
 the temperature reading coming from a sensor at a remote facility.</p>
 <p>An SNMP device can have multiple OIDs, each one for a specific property.
-You can maintain SNMP devices with their OIDs in the <strong>SNMP Custom
+You can maintain records of SNMP devices with their OIDs in the <strong>SNMP Custom
 Properties</strong> section of Admin.</p>
 <p>Whenever an SNMP device is discovered, the product checks whether the
 sysOID of the discovered Asset is there in the SNMP Custom Properties or
@@ -497,6 +561,8 @@ device during discovery using OIDs.</li>
 <img alt="figure 82" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-82.png" />
 </div>
 <p><strong>To add OIDs in an SNMP device:</strong></p>
+<p>Each OID that you add in an SNMP device represents a custom property.
+You can view the custom property values in the details view of an SNMP device.</p>
 <ul class="simple">
 <li>Go to <strong>Admin</strong> &gt;&gt; <strong>SNMP Custom Properties.</strong></li>
 <li>In the SNMP Custom Properties page click on an SNMP device.</li>
@@ -543,29 +609,29 @@ Asset with custom properties.</li>
   <h3><a href="../index.html">Table Of Contents</a></h3>
   <ul>
 <li><a class="reference internal" href="#">Setting up Asset Management</a><ul>
-<li><a class="reference internal" href="#adding-custom-asset-types">Adding Custom Asset Types</a><ul>
-<li><a class="reference internal" href="#editing-deleting-custom-types">Editing/Deleting Custom Types</a></li>
-</ul>
-</li>
+<li><a class="reference internal" href="#custom-asset-types">Custom Asset Types</a></li>
 <li><a class="reference internal" href="#asset-status">Asset Status</a><ul>
 <li><a class="reference internal" href="#adding-a-custom-status">Adding a Custom Status</a></li>
-<li><a class="reference internal" href="#editing-deleting-statuses">Editing/Deleting Statuses</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#adding-a-product">Adding a Product</a></li>
+<li><a class="reference internal" href="#product">Product</a><ul>
 <li><a class="reference internal" href="#searching-products">Searching Products</a></li>
-<li><a class="reference internal" href="#editing-deleting-a-product">Editing/Deleting a Product</a></li>
-<li><a class="reference internal" href="#adding-a-vendor">Adding a Vendor</a></li>
-<li><a class="reference internal" href="#editing-deleting-a-vendor">Editing/Deleting a Vendor</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#vendor">Vendor</a></li>
 <li><a class="reference internal" href="#managing-vendors-in-a-product">Managing Vendors in a Product</a><ul>
 <li><a class="reference internal" href="#linking-a-vendor">Linking a Vendor</a></li>
-<li><a class="reference internal" href="#editing-delinking-a-vendor">Editing/Delinking a Vendor</a></li>
+<li><a class="reference internal" href="#editing-de-linking-a-vendor">Editing/De-linking a Vendor</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#adding-a-product-type">Adding a Product Type</a></li>
-<li><a class="reference internal" href="#editing-deleting-a-product-type">Editing/Deleting a Product Type</a></li>
-<li><a class="reference internal" href="#adding-a-manufacturer">Adding a Manufacturer</a></li>
-<li><a class="reference internal" href="#editing-deleting-manufacturer">Editing/Deleting Manufacturer</a></li>
+<li><a class="reference internal" href="#managing-products-in-a-vendor">Managing Products in a Vendor</a><ul>
+<li><a class="reference internal" href="#linking-a-product">Linking a Product</a></li>
+<li><a class="reference internal" href="#editing-de-linking-a-product">Editing/De-linking a Product</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#software-catalog">Software Catalog</a></li>
+<li><a class="reference internal" href="#product-type">Product Type</a></li>
+<li><a class="reference internal" href="#manufacturer">Manufacturer</a></li>
 <li><a class="reference internal" href="#snmp-custom-properties">SNMP Custom Properties</a></li>
 </ul>
 </li>

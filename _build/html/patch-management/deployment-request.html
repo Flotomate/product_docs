@@ -84,7 +84,7 @@ publishes a Deployment Request.</li>
 requests in the product. Click on <strong>Deploy Patches</strong> situated in the
 top right corner of the page.</p>
 </li>
-<li><p class="first">The Create page opens. The page is divided into three sections; they
+<li><p class="first">The Create page opens. The page is divided into four sections; they
 are as follows:</p>
 <blockquote>
 <div><ol class="loweralpha">
@@ -110,14 +110,13 @@ request ceases to be a valid request.</li>
 </ol>
 </div></blockquote>
 </li>
-<li><p class="first"><strong>Select Patch</strong>: Here you add the Patch/Patches that you want to
-deploy.</p>
+<li><p class="first"><strong>Select Patch</strong>: Here you add the Patch/Patches that you want to deploy.</p>
 <blockquote>
 <div><div class="figure align-center" id="pf-64">
 <img alt="figure 64" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-64.png" />
 </div>
 <ol class="lowerroman simple">
-<li>Section-A (<a class="reference internal" href="#pf-64"><span class="std std-numref">Fig. 797</span></a>) is the area where you view the selected Patches.</li>
+<li>Section-A (<a class="reference internal" href="#pf-64"><span class="std std-numref">Fig. 806</span></a>) is the area where you view the selected Patches.</li>
 <li>Section-B has a search bar for searching all available Patches for
 the selected platform. The search bar supports the Advanced Search
 feature. Learn how to use <a class="reference internal" href="manage-patches.html#advanced-search-computer"><span class="std std-ref">Advanced Search</span></a>.</li>
@@ -141,6 +140,25 @@ It opens a dialog box where you can create a group; learn <a class="reference in
 a group</span></a>. You also get a search bar to search
 Computers. The search bar supports the Advanced Search feature. Learn
 how to use <a class="reference internal" href="manage-patches.html#advanced-search-computer"><span class="std std-ref">Advanced Search</span></a>.</p>
+</div></blockquote>
+</li>
+<li><p class="first"><strong>Retry Configuration</strong></p>
+<blockquote>
+<div><div class="figure align-center" id="spf-36">
+<img alt="figure 36" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/software-package-deployment/SP-36.png" />
+</div>
+<p>The retry configuration limits the number of times an Agent tries
+deployment when faced with failure.</p>
+<blockquote>
+<div><ol class="lowerroman simple">
+<li>You can define the maximum number of times to try deployment during
+system start-up.</li>
+<li>You can define the maximum number of times to try deployment once
+at each refresh cycle (by default refresh cycle is set to 1 hour).</li>
+</ol>
+</div></blockquote>
+<p>During each retry cycle, the deployment status swings from
+In-Progress to Failed and vice-versa for a single patch till success is reached in deployment.</p>
 </div></blockquote>
 </li>
 </ol>
@@ -282,7 +300,7 @@ his account.</p>
 <div class="figure align-center" id="pf-74">
 <img alt="figure 74" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-74.png" />
 </div>
-<p>Clicking on <strong>My Approvals</strong> (<a class="reference internal" href="#pf-74"><span class="std std-numref">Fig. 807</span></a>) opens the My Approval page
+<p>Clicking on <strong>My Approvals</strong> (<a class="reference internal" href="#pf-74"><span class="std std-numref">Fig. 817</span></a>) opens the My Approval page
 where he can view his Approvals.</p>
 <div class="figure align-center" id="pf-75">
 <img alt="figure 75" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-75.png" />
@@ -368,7 +386,7 @@ Filters. There three types of filters available:</p>
 <div class="figure align-center" id="pf-82">
 <img alt="figure 82" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-82.png" />
 </div>
-<p>Section-A (<a class="reference internal" href="#pf-82"><span class="std std-numref">Fig. 815</span></a>) is a quick filter to toggle across the following
+<p>Section-A (<a class="reference internal" href="#pf-82"><span class="std std-numref">Fig. 825</span></a>) is a quick filter to toggle across the following
 views:</p>
 <ul class="simple">
 <li><strong>Current</strong>: Shows all the published and drafted requests that can
@@ -380,7 +398,7 @@ deployment after a future date and time.</li>
 <li><strong>Archived</strong>: Shows requests that have been deleted, includes drafted
 requests.</li>
 </ul>
-<p>Section-B (<a class="reference internal" href="#pf-82"><span class="std std-numref">Fig. 815</span></a>) allows you to filter request based on origin and
+<p>Section-B (<a class="reference internal" href="#pf-82"><span class="std std-numref">Fig. 825</span></a>) allows you to filter request based on origin and
 Approval status. There are three possible origins to a Deployment Request,
 and the Approval status shows both Approved and Pre-Approved requests.</p>
 <ul class="simple">
