@@ -550,9 +550,9 @@ using the **View Products** option.
 
 **To Edit a Manufacturer:**
 
-1. Go to **Admin** >> **Manufacturers**.
+1. Go to **Asset** >> **Manufacturer Catalog**.
 
-2. In the Manufacturers page, click on the Edit Icon adjacent to the
+2. In the Manufacturers Catalog page, click on the Edit Icon adjacent to the
    Manufacturer that you want to edit.
 
 3. Perform your edits in the Edit Manufacturer dialog box and hit
@@ -560,7 +560,7 @@ using the **View Products** option.
 
 **To Delete a Manufacturer:**
 
-In the Manufacturers page, click on the Delete Icon adjacent to the
+In the Manufacturers Catalog page, click on the Delete Icon adjacent to the
 Manufacturer that you want to delete. On confirmation, the manufacturer
 gets deleted.
 

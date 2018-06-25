@@ -7,19 +7,31 @@ Describes Installation Steps for Flotomate Windows Agent – 1.0.0
 System Requirement :
 ====================
 
-**Target Machine OS:** Windows 7 and above.
+**Target Machine OS**: 
 
-Manual Installation Setup:
-==========================
+- Windows 7 and above.
+- Linux.
 
-1. Run Agent.exe as Administrator.
+**OS Architecture**: 
+
+- Windows (32 & 64 bits).
+- Linux (64bits).
+
+.. note:: Currently we have tested the Linux Agent in Ubuntu 16 and above.
+
+Installation in Windows
+=======================
+
+1. Download the latest agent.exe file from the given link.
+
+2. Run Agent.exe as Administrator.
 
 .. _aig-1:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/agent-installation-guide/AIG-1.png
     :align: center
     :alt: figure 1
 
-2. Follow the wizards as below mentioned screenshots
+3. Follow the wizards as below mentioned screenshots
 
  a. Click Next
 
@@ -35,7 +47,7 @@ Manual Installation Setup:
         :align: center
         :alt: figure 3
 
-3. During installation setup, It will ask for URL. Write url of
+4. During installation setup, It will ask for URL. Write url of
    service-desk’s main-server with http or https. Note : http or https in
    url is must.
 
@@ -44,15 +56,49 @@ Manual Installation Setup:
     :align: center
     :alt: figure 4
 
-4. Then next and finish installation process.
+5. Then next and finish installation process.
 
 .. _aig-5:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/agent-installation-guide/AIG-5.png
     :align: center
     :alt: figure 5
 
-Installation using PsExec
-=========================
+Installation in Linux
+=====================
+
+1. Download the latest agent file from the given link.
+
+2. Open terminal and go to the directory where you have downloaded the file.
+
+3. Check the permissions of the file whether it is executable. If not run the following command.
+
+   **sudo chmod 777 agent**
+
+.. _aig-6:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/agent-installation-guide/AIG-6.png
+    :align: center
+    :alt: figure 6
+
+4. Now run the agent file using sudo.
+
+   **sudo ./agent**
+
+.. _aig-7:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/agent-installation-guide/AIG-7.png
+    :align: center
+    :alt: figure 7
+
+5. Enter your system password.
+
+6. Enter the URL of the product (Flotomate) server.
+
+.. _aig-8:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/agent-installation-guide/AIG-8.png
+    :align: center
+    :alt: figure 8    
+
+Installation using PsExec (For Windows)
+=======================================
 
 1. Download PSTools.zip. Extract the zip file to a folder.
 

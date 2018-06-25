@@ -163,12 +163,11 @@ Discovery Probes.</td>
 Agent-Based scanning
 supports the
 Discovery of Windows
-workstations only.</td>
+and Linux machines.</td>
 <td><p class="first">In an Agentless
 setup, the product
-scans Assets that
-supports the
-following credential
+scans Assets that</p>
+<p>following credential
 types:</p>
 <ul class="last simple">
 <li>WMI (Windows
@@ -281,7 +280,7 @@ available Discovery Types:</p>
 <div><p><strong>WMI (Windows Management Instrumentation):</strong></p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">Please refer to <a class="reference internal" href="#amf-157"><span class="std std-numref">Fig. 679</span></a>.</p>
+<p class="last">Please refer to <a class="reference internal" href="#amf-157"><span class="std std-numref">Fig. 691</span></a>.</p>
 </div>
 <p>This protocol is used to scan for data in Windows-based systems
 within a Domain or Workgroup.</p>
@@ -335,7 +334,7 @@ correct, the get request fetches the data.</li>
 authentication.</p>
 </li>
 <li><p class="first"><strong>Authentication Protoco</strong>l: Use the protocol that you want to use
-(we support both MD5 and SHA) in field-A (<a class="reference internal" href="#amf-160"><span class="std std-numref">Fig. 682</span></a>).</p>
+(we support both MD5 and SHA) in field-A (<a class="reference internal" href="#amf-160"><span class="std std-numref">Fig. 694</span></a>).</p>
 </li>
 <li><p class="first"><strong>Username</strong>: Enter your username.</p>
 </li>
@@ -509,8 +508,8 @@ identify devices in the network.</td>
 </table>
 </div></blockquote>
 </li>
-<li><p class="first">When you are done with everything, including adding credentials, hit
-<strong>Create</strong>.</p>
+<li><p class="first">Add the necessary credentials from the credential list, or you can create new credentials using the
+<strong>Add New Credential</strong> option in <a class="reference internal" href="#amf-163"><span class="std std-numref">Fig. 697</span></a>. When you are done hit <strong>Create</strong>.</p>
 </li>
 </ol>
 <p><strong>Editing/Deleting Network</strong></p>
@@ -561,7 +560,7 @@ right corner of the page. Create Discovery Probe dialog box opens.</li>
 <img alt="figure 167" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-167.png" />
 </div>
 <ol class="arabic" start="4">
-<li><p class="first">The Create Discovery Probe dialog box has four fields (refer <a class="reference internal" href="#amf-166"><span class="std std-numref">Fig. 688</span></a>):</p>
+<li><p class="first">The Create Discovery Probe dialog box has four fields (refer <a class="reference internal" href="#amf-166"><span class="std std-numref">Fig. 700</span></a>):</p>
 <blockquote>
 <div><ol class="loweralpha simple">
 <li>Section-A: You enter a Name for the Probe here. By default, you
@@ -711,7 +710,7 @@ message if you are scheduling for the first time. Click on
 <img alt="figure 172" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-172.png" />
 </div>
 <ol class="arabic" start="5">
-<li><p class="first">Refer <a class="reference internal" href="#amf-171"><span class="std std-numref">Fig. 693</span></a>. There are three fields in Schedule that you need
+<li><p class="first">Refer <a class="reference internal" href="#amf-171"><span class="std std-numref">Fig. 705</span></a>. There are three fields in Schedule that you need
 to fill:</p>
 <blockquote>
 <div><ol class="loweralpha">
@@ -836,7 +835,7 @@ button.</p>
 </div>
 <p>Once Assets are staged, you can manually add every Asset to the List
 View using the <strong>Add</strong> button adjacent to every Asset, or you can select
-them all and add them at once using the bulk add feature (<a class="reference internal" href="#amf-177"><span class="std std-numref">Fig. 699</span></a>).
+them all and add them at once using the bulk add feature (<a class="reference internal" href="#amf-177"><span class="std std-numref">Fig. 711</span></a>).
 You can also delete the items in bulk.</p>
 </div>
 </div>
@@ -1066,7 +1065,8 @@ for a system to run the Agent Application.</p>
 <td>100 MB</td>
 </tr>
 <tr class="row-odd"><td><strong>Operating System</strong></td>
-<td>Windows 7 and higher</td>
+<td>Windows 7 and higher/
+Ubuntu 16 and higher</td>
 </tr>
 </tbody>
 </table>
@@ -1146,8 +1146,8 @@ PsTools toolkit developed by Sysinternals.</p>
 </li>
 </ol>
 </div>
-<div class="section" id="uninstalling-the-discovery-agent-application">
-<h4>Uninstalling the Discovery Agent Application<a class="headerlink" href="#uninstalling-the-discovery-agent-application" title="Permalink to this headline">¶</a></h4>
+<div class="section" id="uninstalling-windows-the-discovery-agent-application">
+<h4>Uninstalling (Windows) the Discovery Agent Application<a class="headerlink" href="#uninstalling-windows-the-discovery-agent-application" title="Permalink to this headline">¶</a></h4>
 <ol class="arabic simple">
 <li>Go to the directory where Agent.exe file is situated.</li>
 <li>Run the Agent.exe file.</li>
@@ -1214,7 +1214,7 @@ Application.</li>
 <li><a class="reference internal" href="#minimum-system-requirements">Minimum System Requirements</a></li>
 <li><a class="reference internal" href="#installing-the-discovery-agent-application">Installing the Discovery Agent Application</a><ul>
 <li><a class="reference internal" href="#installing-in-windows">Installing in Windows:</a></li>
-<li><a class="reference internal" href="#uninstalling-the-discovery-agent-application">Uninstalling the Discovery Agent Application</a></li>
+<li><a class="reference internal" href="#uninstalling-windows-the-discovery-agent-application">Uninstalling (Windows) the Discovery Agent Application</a></li>
 </ul>
 </li>
 </ul>

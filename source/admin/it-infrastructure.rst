@@ -403,8 +403,8 @@ Add a Network
         |    for asset Discovery to work.   |                                   |
         +-----------------------------------+-----------------------------------+
 
-7. Add the necessary credential from the credential list and hit
-   **Create**.
+7. Add the necessary credentials from the credential list, or you can create new credentials using the
+   **Add New Credential** option in :numref:`adf-69`. When you are done hit **Create**.
 
 **Edit/Delete Network**
 
@@ -511,8 +511,8 @@ Configure LDAP:
 4. Please refer :numref:`adf-74`. Switch to the Mapping section of the dialog
    box. Here you have to enter the LDAP object attributes. There are
    two pre-defined fields (Name and Email). You can add more fields
-   using the **Add Custom Field** button. You can edit and delete a
-   custom field.
+   using the :doc:`Requestor Custom Field <admin-customization>` option. You can edit and delete a
+   custom field in the :doc:`Custom Field <admin-customization>` section of Admin.
 
 5. Hit **Add** to save your LDAP server.
 

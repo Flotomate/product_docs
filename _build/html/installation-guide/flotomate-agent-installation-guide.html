@@ -45,17 +45,31 @@
 <p>Describes Installation Steps for Flotomate Windows Agent – 1.0.0</p>
 <div class="section" id="system-requirement">
 <h2>System Requirement :<a class="headerlink" href="#system-requirement" title="Permalink to this headline">¶</a></h2>
-<p><strong>Target Machine OS:</strong> Windows 7 and above.</p>
+<p><strong>Target Machine OS</strong>:</p>
+<ul class="simple">
+<li>Windows 7 and above.</li>
+<li>Linux.</li>
+</ul>
+<p><strong>OS Architecture</strong>:</p>
+<ul class="simple">
+<li>Windows (32 &amp; 64 bits).</li>
+<li>Linux (64bits).</li>
+</ul>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Currently we have tested the Linux Agent in Ubuntu 16 and above.</p>
 </div>
-<div class="section" id="manual-installation-setup">
-<h2>Manual Installation Setup:<a class="headerlink" href="#manual-installation-setup" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="installation-in-windows">
+<h2>Installation in Windows<a class="headerlink" href="#installation-in-windows" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic simple">
+<li>Download the latest agent.exe file from the given link.</li>
 <li>Run Agent.exe as Administrator.</li>
 </ol>
 <div class="figure align-center" id="aig-1">
 <img alt="figure 1" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/agent-installation-guide/AIG-1.png" />
 </div>
-<ol class="arabic simple" start="2">
+<ol class="arabic simple" start="3">
 <li>Follow the wizards as below mentioned screenshots</li>
 </ol>
 <blockquote>
@@ -72,7 +86,7 @@
 </li>
 </ol>
 </div></blockquote>
-<ol class="arabic simple" start="3">
+<ol class="arabic simple" start="4">
 <li>During installation setup, It will ask for URL. Write url of
 service-desk’s main-server with http or https. Note : http or https in
 url is must.</li>
@@ -80,15 +94,45 @@ url is must.</li>
 <div class="figure align-center" id="aig-4">
 <img alt="figure 4" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/agent-installation-guide/AIG-4.png" />
 </div>
-<ol class="arabic simple" start="4">
+<ol class="arabic simple" start="5">
 <li>Then next and finish installation process.</li>
 </ol>
 <div class="figure align-center" id="aig-5">
 <img alt="figure 5" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/agent-installation-guide/AIG-5.png" />
 </div>
 </div>
-<div class="section" id="installation-using-psexec">
-<h2>Installation using PsExec<a class="headerlink" href="#installation-using-psexec" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="installation-in-linux">
+<h2>Installation in Linux<a class="headerlink" href="#installation-in-linux" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic">
+<li><p class="first">Download the latest agent file from the given link.</p>
+</li>
+<li><p class="first">Open terminal and go to the directory where you have downloaded the file.</p>
+</li>
+<li><p class="first">Check the permissions of the file whether it is executable. If not run the following command.</p>
+<p><strong>sudo chmod 777 agent</strong></p>
+</li>
+</ol>
+<div class="figure align-center" id="aig-6">
+<img alt="figure 6" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/agent-installation-guide/AIG-6.png" />
+</div>
+<ol class="arabic" start="4">
+<li><p class="first">Now run the agent file using sudo.</p>
+<p><strong>sudo ./agent</strong></p>
+</li>
+</ol>
+<div class="figure align-center" id="aig-7">
+<img alt="figure 7" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/agent-installation-guide/AIG-7.png" />
+</div>
+<ol class="arabic simple" start="5">
+<li>Enter your system password.</li>
+<li>Enter the URL of the product (Flotomate) server.</li>
+</ol>
+<div class="figure align-center" id="aig-8">
+<img alt="figure 8" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/agent-installation-guide/AIG-8.png" />
+</div>
+</div>
+<div class="section" id="installation-using-psexec-for-windows">
+<h2>Installation using PsExec (For Windows)<a class="headerlink" href="#installation-using-psexec-for-windows" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic simple">
 <li>Download PSTools.zip. Extract the zip file to a folder.</li>
 <li>Download the Agent.exe file.</li>
@@ -112,8 +156,9 @@ url is must.</li>
   <ul>
 <li><a class="reference internal" href="#">Flotomate Agent Installation Guide</a><ul>
 <li><a class="reference internal" href="#system-requirement">System Requirement :</a></li>
-<li><a class="reference internal" href="#manual-installation-setup">Manual Installation Setup:</a></li>
-<li><a class="reference internal" href="#installation-using-psexec">Installation using PsExec</a></li>
+<li><a class="reference internal" href="#installation-in-windows">Installation in Windows</a></li>
+<li><a class="reference internal" href="#installation-in-linux">Installation in Linux</a></li>
+<li><a class="reference internal" href="#installation-using-psexec-for-windows">Installation using PsExec (For Windows)</a></li>
 </ul>
 </li>
 </ul>

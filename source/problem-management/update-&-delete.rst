@@ -36,6 +36,8 @@ To perform Bulk Update:
 
    e. Change Category, Department, and Location.
 
+   f. Set affected business service from a predefined list set by an admin.
+
 -  When you are done hit **Update** (it shows the number of Problems
    going to change), it saves your changes.
 

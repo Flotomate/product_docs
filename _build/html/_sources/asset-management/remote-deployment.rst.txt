@@ -1,6 +1,6 @@
-*****************
-Remote Deployment
-*****************
+**************
+Remote Desktop
+**************
 
 Remote Desktop is the ability of a computer to remotely connect to
 another computer and control it as if the user were in front of the
@@ -9,7 +9,13 @@ application.
 
 You can remotely connect and control workstations in the CMDB using our
 Agent application. Currently Remote Desktop works on workstations having
-either Windows or Ubuntu OS and brought in by an Agent.
+either Windows or Linux (Ubuntu OS) and brought in by an Agent.
+
+Perquisite
+==========
+
+- All node Computers should have the RDP-Agent installed.
+- The main server should be configured with the RDP middleware.
 
 Turning RDP On
 ==============

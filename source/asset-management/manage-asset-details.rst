@@ -125,12 +125,12 @@ single Asset in Flotomate.
 -  Section-G is the Action Menu of the Details View. The available
    options in this menu depend on the Asset Type.
 
-Change Name and Description of an Asset
+Change (Host)Name and Description of an Asset
 =======================================
 
-Section-A (:numref:`amf-14`) shows the ID and Name of the Asset. The ID
-Uniquely identifies an Asset whereas the Name is a human given Asset
-identifier. You can change the Name and Description of the Asset using
+Section-A (:numref:`amf-14`) shows the ID and Name (by default host name in case of Hardware Asset) of the Asset. The ID
+Uniquely identifies an Asset whereas the Name is a human readable Asset
+identifier. You can change the Display Name, HostName (in case of a Hardware Asset) and Description of the Asset using
 the Edit Icon.
 
 .. _amf-16:
@@ -192,34 +192,34 @@ have the following classifying options.
    You can have custom statuses. Learn more about `custom
    status <#_Asset_Custom_Status>`__.
 
--  **Discover status** (:numref:`amf-18`): The system classifies all discovered
+-  **Discover status** (:numref:`amf-18.2`): The system classifies all discovered
    Assets with the label **Discovered**. The Assets that are manually
    created have the **Manually Created** label.
 
--  **IP Address** (:numref:`amf-18`): You can set IP address of a manually
+-  **IP Address** (:numref:`amf-18.2`): You can set IP address of a manually
    added Asset.
 
 -  **Hostname**: You can set Hostname of a manually added Asset.
 
--  **Tags** (:numref:`amf-18`): It is a convenient way to classify an Asset by
+-  **Tags** (:numref:`amf-18.2`): It is a convenient way to classify an Asset by
    Technicians when existing options are not enough.
 
--  **Impact** (:numref:`amf-18`): It lets Technicians to define the impact of
+-  **Impact** (:numref:`amf-18.2`): It lets Technicians to define the impact of
    the Asset as either low, on self, department or business.
 
--  **Used By** (:numref:`amf-18`): Here a Technician can add the email of the
+-  **Used By** (:numref:`amf-18.2`): Here a Technician can add the email of the
    user of the Asset from the Requester list.
 
--  **Business Service** (:numref:`amf-18`): You can associate the Asset with a
+-  **Business Service** (:numref:`amf-18.2`): You can associate the Asset with a
    predefined Business Service.
 
--  **Department** (:numref:`amf-18`): You can associate the Asset with a
+-  **Department** (:numref:`amf-18.2`): You can associate the Asset with a
    particular department by setting this field.
 
--  **Location** (:numref:`amf-18`): You can associate the Asset with a
+-  **Location** (:numref:`amf-18.2`): You can associate the Asset with a
    particular location by setting this field.
 
--  **Managed By** (:numref:`amf-18`): You can add the email address of the
+-  **Managed By** (:numref:`amf-18.2`): You can add the email address of the
    Technician who is responsible for the Asset from Technician list.
 
 Add/Modify Asset Group:
@@ -227,7 +227,7 @@ Add/Modify Asset Group:
 
 Asset Groups help you to categorize an Asset. You can add an Asset Group
 to an Asset or modify an existing one. By clicking on the Asset Group
-field (:numref:`amf-18`) opens a drop-down menu where you make your selection.
+field (:numref:`amf-18.2`) opens a drop-down menu where you make your selection.
 
 .. _amf-21:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-21.png
@@ -243,13 +243,13 @@ Add/Modify Product
 
 Every Asset in the CMDB is an instance of a Product. Having a Product
 unlocks additional functionalities. You can add/modify the Product field
-of all Assets (:numref:`amf-18`)). By clicking on the Product field you get
+of all Assets (:numref:`amf-18.2`)). By clicking on the Product field you get
 access to all available Products to choose from.
 
 Add/Modify Vendor
 -----------------
 
-You can add/modify the Vendor field (:numref:`amf-18`) of any Asset from a
+You can add/modify the Vendor field (:numref:`amf-18.2`) of any Asset from a
 predefined list.
 
 Asset Attachments

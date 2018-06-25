@@ -820,7 +820,7 @@ Adding a Time Log:
     :alt: figure 57
 
 5. In the dialog box, enter a Start Date Time (e.g., Mon, Dec 11, 2017,
-   5:12 PM) and an End Date Time (e.g., Mon, Dec 11, 2017, 10:10 PM),
+   5:12 PM) an End Date Time (e.g., Mon, Dec 11, 2017, 10:10 PM) and a description,
    and hit **Add** to save your log.
 
 Edit/Delete a Time Log:

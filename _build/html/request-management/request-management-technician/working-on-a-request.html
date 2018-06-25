@@ -86,7 +86,8 @@ of Work.</li>
 <li><a class="reference internal" href="rm-viewing-audit-trail.html"><span class="doc">View Audit Trail</span></a></li>
 <li><a class="reference internal" href="#rm-watchers"><span class="std std-ref">Add Watcher</span></a></li>
 <li><a class="reference internal" href="#rm-notifications"><span class="std std-ref">Send Notification</span></a></li>
-<li>Unwatch</li>
+<li>Watch/Unwatch</li>
+<li><a class="reference internal" href="asking-for-feedback.html"><span class="doc">Send Feedback</span></a></li>
 </ol>
 </li>
 </ol>
@@ -96,7 +97,7 @@ of Work.</li>
 <div class="section" id="modifying-request-subject-and-description">
 <h2>Modifying Request Subject and Description<a class="headerlink" href="#modifying-request-subject-and-description" title="Permalink to this headline">¶</a></h2>
 <p>You can modify the Subject and Description of a Request. Below the
-header title (section-A in <a class="reference internal" href="#rmf-16"><span class="std std-numref">Fig. 54</span></a>) shows the ID of the Request. Next
+header title (section-A in <a class="reference internal" href="#rmf-16"><span class="std std-numref">Fig. 58</span></a>) shows the ID of the Request. Next
 to the ID is the subject line of the Request. It is supposed to give you
 a short description of the Request, and next to it is the Edit Icon for
 editing the Subject and Description.</p>
@@ -111,6 +112,19 @@ hit <strong>Update</strong>.</li>
 </div>
 <div class="figure align-center" id="rmf-18">
 <img alt="figure 18" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-18.png" />
+</div>
+</div>
+<div class="section" id="viewing-other-requests-created-by-the-requestor">
+<h2>Viewing Other Requests Created by the Requestor<a class="headerlink" href="#viewing-other-requests-created-by-the-requestor" title="Permalink to this headline">¶</a></h2>
+<p>The product has the provision to view all other Requests created by the Requestor from the Details View
+of a Request.</p>
+<ul class="simple">
+<li>Go to the <span class="xref std std-ref">Details View</span> of a Request</li>
+<li>Hover your mouse over the Requestor info section of the page.</li>
+<li>A pop-up menu opens where you can access other Requests.</li>
+</ul>
+<div class="figure align-center" id="rmf-18-1">
+<img alt="figure 18.1" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-18.1.png" />
 </div>
 </div>
 <div class="section" id="classify-requests">
@@ -192,9 +206,13 @@ Technician can manually set the department field if needed.</li>
 then this field is set to that location.</li>
 </ol>
 </li>
-<li><p class="first"><strong>Source</strong>: It shows the medium used to create the Request. For
-example: all Requests created via email can have the source set to
+<li><dl class="first docutils">
+<dt><strong>Source</strong>: It shows the medium used to create the Request. The field is</dt>
+<dd><p class="first last">automatically set by the server based on how it was created.
+For example: all Requests created via email have the source set to
 Email.</p>
+</dd>
+</dl>
 </li>
 <li><p class="first"><strong>Category</strong>: It is the primary method to categorize the Request.
 <span class="xref std std-doc">Learn More</span>.</p>
@@ -377,7 +395,7 @@ between your selection/selections and the Request.</li>
 <h2>Time Log<a class="headerlink" href="#time-log" title="Permalink to this headline">¶</a></h2>
 <p>Once a Technician gets assigned to a Request, he along with other
 Technicians can log their time spent working on the Request in the Time
-Log section of a Request.</p>
+Log section of the Request.</p>
 <div class="section" id="adding-a-time-log">
 <h3>Adding a Time Log<a class="headerlink" href="#adding-a-time-log" title="Permalink to this headline">¶</a></h3>
 <ol class="arabic">
@@ -398,8 +416,8 @@ it.</p>
 </div>
 </div></blockquote>
 </li>
-<li><p class="first">Enter a Start Date Time (e.g., Mon, Dec 11, 2017, 5:12 PM) and an End
-Date Time (e.g., Mon, Dec 11, 2017, 10:10 PM), and hit <strong>Add</strong> to
+<li><p class="first">Enter a Start Date Time (e.g., Mon, Dec 11, 2017, 5:12 PM), an End
+Date Time (e.g., Mon, Dec 11, 2017, 10:10 PM) and a description, and hit <strong>Add</strong> to
 save your log.</p>
 </li>
 </ol>
@@ -528,7 +546,7 @@ his account.</p>
 <img alt="figure 37" src="https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-37.png" />
 </div>
 </div></blockquote>
-<p>Clicking on <strong>My Approvals</strong> (<a class="reference internal" href="#rmf-37"><span class="std std-numref">Fig. 75</span></a>) opens the My Approval page
+<p>Clicking on <strong>My Approvals</strong> (<a class="reference internal" href="#rmf-37"><span class="std std-numref">Fig. 80</span></a>) opens the My Approval page
 where he can view his Approvals.</p>
 <blockquote>
 <div><div class="figure align-center" id="rmf-38">
@@ -701,7 +719,7 @@ Notification</strong> from the pop meu.</li>
 <li>Now choose the audience who receives your notification. You can
 select individuals or groups, be it Requesters or Technicians, or
 both. You can add multiple emails using the <strong>Add Email</strong> (section-A
-in <a class="reference internal" href="#rmf-49"><span class="std std-numref">Fig. 87</span></a>) button.</li>
+in <a class="reference internal" href="#rmf-49"><span class="std std-numref">Fig. 92</span></a>) button.</li>
 <li>Request specific details are there in the Subject and Body. You can
 edit the Subject and Body if you want. Make all the changes and hit
 <strong>Send</strong>. Now you have successfully sent a Notification.</li>
@@ -874,6 +892,7 @@ three heads:</p>
 <li><a class="reference internal" href="#">Working on a Request</a><ul>
 <li><a class="reference internal" href="#request-details-view">Request Details View</a></li>
 <li><a class="reference internal" href="#modifying-request-subject-and-description">Modifying Request Subject and Description</a></li>
+<li><a class="reference internal" href="#viewing-other-requests-created-by-the-requestor">Viewing Other Requests Created by the Requestor</a></li>
 <li><a class="reference internal" href="#classify-requests">Classify Requests</a></li>
 <li><a class="reference internal" href="#linking-knowledge-with-a-request">Linking Knowledge with a Request</a></li>
 <li><a class="reference internal" href="#communication-collaboration-and-resolution">Communication, Collaboration, and Resolution</a><ul>

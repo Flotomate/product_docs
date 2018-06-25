@@ -50,6 +50,9 @@ only difference being you upload the same file again with new values.
        specify the date format in the Date Format field. Upload the CSV file
        from your PC.
 
+       Custom Asset Types also appear in this section (in the Asset Type field). Learn how to create :doc:`Custom Asset Type <admin-asset-management>`
+       (head to Asset Type)
+
        After finishing this section, click **Next**.
 
     b. **Column Mapping**: Every item in the first row (heading) is a name
@@ -86,6 +89,14 @@ only difference being you upload the same file again with new values.
       It is not necessary that all the property field names have to have a
       match; you can still upload your Assets. Click **Next** to continue to
       the next step.
+
+      You can add additional property names using custom fields. Whatever custom fields you add appear as column property names.
+      Learn how to add :doc:`Custom Fields <admin-customization>` (head to Custom Fields).
+
+       .. _amf-92.1:
+       .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-92.1.png
+            :align: center
+            :alt: figure 92.1 
 
     c. **Unmatched Value Mapping**: The given property names in the header
        have values (rows). The system checks for property values that aren’t

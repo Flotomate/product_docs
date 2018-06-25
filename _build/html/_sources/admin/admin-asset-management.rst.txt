@@ -326,7 +326,7 @@ application.
 
 You can remotely connect and control workstations in the CMDB using our
 Agent application. Currently, Remote Desktop works on workstations
-having either Windows or Ubuntu OS and brought in by an Agent.
+having either Windows or Linux (Ubuntu OS) and brought in by an Agent.
 
 Turning RDP On
 --------------

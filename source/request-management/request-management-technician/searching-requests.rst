@@ -32,6 +32,11 @@ You can make a filter using a chain of search options and keywords. You
 can save your search queries, refer :numref:`rmf-10`. Saved search queries
 appear in the section-A’s menu list (:numref:`rmf-5`).
 
+.. _rmf-9.1:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-9.1.png
+    :align: center
+    :alt: figure 9.1
+
 For example, if you are looking for all Requests containing the word SLA
 in the Subject line and have an Impact on a Department. You have the
 search query in :numref:`rmf-10`.
@@ -106,7 +111,7 @@ conditions, which are:
 |                                   | Technician Group that you are     |
 |                                   | part of.                          |
 +-----------------------------------+-----------------------------------+
-| All Un-analysed Request            | It shows all the Requests without |
+| All Un-analysed Request           | It shows all the Requests without |
 |                                   | a Diagnosis.                      |
 +-----------------------------------+-----------------------------------+
 
@@ -135,7 +140,7 @@ statuses, which are:
 
 -  Closed
 
-Please refer Request Custom Status (Customization and Configuration) in
+Please refer :doc:`Request Custom Status <admin-customization>` (Customization and Configuration) in
 the Administration manual to learn how to create Custom Statuses.
 
 The product can also show you the distribution of all the unclosed

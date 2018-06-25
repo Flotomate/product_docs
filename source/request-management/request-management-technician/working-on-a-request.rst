@@ -68,7 +68,9 @@ The List View is a dynamic interface with the following features:
 
       iv.  :ref:`Send Notification <rm-notifications>`
 
-      v. Unwatch
+      v. Watch/Unwatch
+
+      vi. :doc:`Send Feedback <asking-for-feedback>`
 
 Modifying Request Subject and Description
 =========================================
@@ -95,6 +97,21 @@ editing the Subject and Description.
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-18.png
     :align: center
     :alt: figure 18
+
+Viewing Other Requests Created by the Requestor
+===============================================
+
+The product has the provision to view all other Requests created by the Requestor from the Details View
+of a Request.
+
+- Go to the :ref:`Details View <request-details-view>` of a Request
+- Hover your mouse over the Requestor info section of the page.
+- A pop-up menu opens where you can access other Requests.
+
+.. _rmf-18.1:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-18.1.png
+    :align: center
+    :alt: figure 18.1
 
 Classify Requests
 =================
@@ -182,9 +199,10 @@ the following ways:
    b. **Location**: If the Request is related to a particular location,
       then this field is set to that location.
 
--  **Source**: It shows the medium used to create the Request. For
-   example: all Requests created via email can have the source set to
-   Email.
+-  **Source**: It shows the medium used to create the Request. The field is 
+    automatically set by the server based on how it was created. 
+    For example: all Requests created via email have the source set to
+    Email.
 
 -  **Category**: It is the primary method to categorize the Request.
    :doc:`Learn More <introduction-request-management>`.
@@ -401,7 +419,7 @@ Time Log
 
 Once a Technician gets assigned to a Request, he along with other
 Technicians can log their time spent working on the Request in the Time
-Log section of a Request.
+Log section of the Request.
 
 Adding a Time Log
 -----------------
@@ -423,8 +441,8 @@ Adding a Time Log
         :align: center
         :alt: figure 30
 
-4. Enter a Start Date Time (e.g., Mon, Dec 11, 2017, 5:12 PM) and an End
-   Date Time (e.g., Mon, Dec 11, 2017, 10:10 PM), and hit **Add** to
+4. Enter a Start Date Time (e.g., Mon, Dec 11, 2017, 5:12 PM), an End
+   Date Time (e.g., Mon, Dec 11, 2017, 10:10 PM) and a description, and hit **Add** to
    save your log.
 
 How to Edit/Delete Time Log:

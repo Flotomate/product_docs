@@ -5,7 +5,7 @@ Organization
 Flotomate allows you to maintain company details in the product in the
 following forms:
 
--  Company Profile
+-  Account
 
 -  Department information
 
@@ -15,30 +15,33 @@ following forms:
 
 -  Branding
 
-Company Profile 
-===============
+Account 
+=======
 
 Flotomate has the account section where you can maintain the company’s
 profile.
 
 .. note:: Managing company details requires you to have Administrative
-          rights
+          rights.
 
-1. Go to **Admin** from the Navigation Tabs.
+- Go to **Admin** from the Navigation Tabs.
 
-2. Search **Account** in the search bar or you can find **Account** in
-   the Organization section. Clicking on **Account** opens the Account
-   page.
+- Search **Account** in the search bar or you can find **Account** under 
+  Organization. Click on **Account**; it opens the Account page.
+
+The Account page is divided in to three sections; they are as follows:  
+
+**Profile**
 
 .. _adf-78:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-78.png
     :align: center
     :alt: figure 78
 
-3. Click **Edit** situated in the top right corner of the display area.
-   The Profile fields become editable.
+- Click **Edit** situated in the top right corner of the display area.
+  The Profile fields become editable.
 
-4. You can enter the following information:
+- You can enter the following information:
 
     a. Name of the company.
 
@@ -56,11 +59,40 @@ profile.
 
     h. Time zone of the company.
 
-5. Once you are done inputting data, click on **Update** to save the
-   information.
+- Once you are done inputting data, click on **Update** to save the
+  information.
 
 You can edit the profile any time using the **Edit** option in the same
 way you created your profile.
+
+**License Information**
+
+How much you can use our product is decided by the type of license you have.
+In this section, you can view all license related information.
+
+.. _adf-78.1:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-78.1.png
+    :align: center
+    :alt: figure 78.1
+
+- Here you can view vital information about the License; for example,
+  license type, number of Agents you can use, number of Assets you can discover, etc.
+
+- You can access additional information about the license from the Action Menu.
+
+.. _adf-78.2:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-78.2.png
+    :align: center
+    :alt: figure 78.2
+
+**Version**
+
+Here you can view the version details of the product. The details are automatically updated after every release.
+
+.. _adf-78.3:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-78.3.png
+    :align: center
+    :alt: figure 78.3
 
 Departments
 ===========

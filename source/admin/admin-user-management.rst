@@ -68,6 +68,8 @@ You can add Requestors individually by entering their details.
 
    b. Specific Workflows, SLAs, and Reports can be created for VIPs.
 
+-  You can create custom fields that allow you to store additional information. :doc:`Learn More (see Custom Fields) <admin-customization>`    
+
 -  When you are done filling in the details, hit **Add**.
 
 .. _adf-5:
@@ -174,6 +176,9 @@ To upload Requestors from a CSV follow the below steps:
    It is not necessary that all the property names have to have a match;
    you can still upload your Requestors as long as required fields are
    taken care off. Click **Next** to continue to the next stage.
+
+   You can create custom property names using Custom Fields. You can create n number of such fields, and they appear
+   along side the default ones. :doc:`Learn more (head to Custom Fields) <admin-customization>`. 
 
 -  Now you are in the **Unmatched Value Mapping** stage. The given
    property names in the header have values (rows). The system checks
@@ -927,8 +932,28 @@ To enable/disable this option:
 - Toggle **Allow to Report Request without login** to turn on/off the
   feature.
 
+Allow Technicians to Submit Requests of Non-Requestors
+-----------------------------------------------------
+
+Flotomate has the option to allow Technicians to submit requests in the
+name of people who are not requestors. The product doesn't demand for authentication.
+
+.. note:: Changing this option requires administrative rights.
+
+To enable/disable this option:
+
+- Go to **Admin** >> **Helpdesk Security** (Users).
+
+.. _adf-32.1:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-32.1.png
+    :align: center
+    :alt: figure 32.1
+
+- Toggle **Allow Technician to report a ticket for non-exist requestor** to turn on/off the
+  feature.
+
 User Story
-=========    
+==========    
 
 Ravi is the IT manager at Acme Inc. He is implementing Flotomate
 Helpdesk in his company. Ravi has logged into the Dashboard as a

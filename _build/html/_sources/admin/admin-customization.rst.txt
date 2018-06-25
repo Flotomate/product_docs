@@ -360,7 +360,7 @@ Add a Custom Field
     |                                   |        :alt: figure 98                   |  
     +-----------------------------------+------------------------------------------+
 
--  Custom fields have a different behavior across the types.
+-  The behavior and outlook of custom fields change across the module types.
 
     a. **Request**:
 
@@ -421,9 +421,41 @@ Add a Custom Field
       i. You add a field either to an Asset Type or a particular
          sub-type.
 
-      ii.  Within a type, you can either make the field appear in Property
-         section or Component section. Please refer to the Asset
-         Management manual to learn more.
+      ii. Within a type, you can either make the field appear in Property
+          section or Component section. Please refer to the Asset
+          Management manual to learn more.
+
+    e. **Requestor**
+       
+       i. Here Custom fields allow you to create new variables to store information about requestors.
+
+       ii. You can create n number of text fields.
+
+        .. _adf-103.1:
+        .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-103.1.png
+            :align: center
+            :alt: figure 103.1
+        
+       iii. Such fields appear on the :ref:`form for creating <add-requestor-individually>` Requestors.
+
+        .. _adf-103.2:
+        .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-103.2.png
+            :align: center
+            :alt: figure 103.2
+
+       iv. Custom fields appear while mapping field names during LDAP Configurations.
+
+        .. _adf-103.3:
+        .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-103.3.png
+             :align: center
+             :alt: figure 103.3
+
+       v. Custom fields are considered when mapping columns during CSV import of Requestors.
+
+        .. _adf-103.4:
+        .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-103.4.png
+             :align: center
+             :alt: figure 103.4              
 
 Edit Custom Fields
 ------------------

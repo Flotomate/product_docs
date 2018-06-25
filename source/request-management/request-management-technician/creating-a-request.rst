@@ -11,7 +11,7 @@ portal is different. It has additional fields that are specific to the
 needs of the Technicians.
 
 Only people with create Request rights can create Requests. Please refer
-Roles (Users) in the Administration Manual.
+:ref:`Roles <admin-user-management>` (Users) in the Administration Manual.
 
 1. Log in to the Technician Portal. Hover your mouse over the **Create**
    button in one of the Navigation Tabs. You see a popup menu; click on

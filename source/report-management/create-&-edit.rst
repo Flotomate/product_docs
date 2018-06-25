@@ -74,6 +74,8 @@ following modules:
 -  **Remoter Deployment**-**Agent**: Refers to the Flotomate Agent used
    for Asset discovery and remote deployment of patches and packages.
 
+-  **Software License**: This allows you to create exclusive reports on Software License usage.   
+
 -  **Multi-Module**: This module helps you to combine two or more
    existing Reports into one Report. This module is visible when the
    Report Type is set to Summary Report.
@@ -135,7 +137,7 @@ Filter Data with Time
 ^^^^^^^^^^^^^^^^^^^^^
 
 Section-H (:numref:`rf1`) allows you to filter data using time. When
-filtering tickets and CIs three times are considered; which one to use
+filtering tickets and CIs, two times are considered which one to use
 depends on your selection?
 
 -  **Create Time**: Whenever data is fetched, by Flotomate, from a
@@ -147,12 +149,6 @@ depends on your selection?
 
 -  **Update Time**: Instead of Create Time, the product uses the Update
    Time in checking data.
-
--  **Closed Time**: Here the product uses the Closed Time in checking
-   data.
-
-Closed Time is not applicable to the Asset module and its Types, and
-Remote Deployment.
 
 Setting Conditions to Filter Data
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -231,7 +227,7 @@ columns are available depends on the Report type and module selected.
 
 -  **Matrix Report**:
 
-   a. You select a column from a drop-down list (:numref:`rf5`). Each column
+   a. You select a column from a drop-down list (:numref:`rf5.2`). Each column
       is accompanied by the count function which tells of giving a
       cumulative count of items grouped by either time or a product
       property.
@@ -244,7 +240,7 @@ columns are available depends on the Report type and module selected.
       :align: center
       :alt: figure 6
 ::
-      You can choose what sun-columns to include in the dialog box.
+      You can choose what sub-columns to include in the dialog box.
 
    c. You add more columns using the plus icon (:numref:`rf5.1`).
 
@@ -401,9 +397,9 @@ Create a Matrix Report
       :align: center
       :alt: figure 14
 
--  A Matric Report gives you a cumulative count of data; for example,
-   the total number of Requests assigned to each Technician. In Figure
-   14, Count is the function mentioned in the first box, and the second
+-  A Matrix Report gives you a cumulative count of data; for example,
+   the total number of Requests assigned to each Technician. In :numref:
+   `rf14`, Count is the function mentioned in the first box, and the second
    box shows you all the column names available in the module. Each
    module has different column names. You can add more columns using the
    Plus Icon.
@@ -579,7 +575,8 @@ the past 3 months.
 Editing a Report
 ----------------
 
-*Note: A user can edit Reports that he creates.*
+A Technician can edit a report that he/she has created. Pre-defined reports can't be modified.
+Both public (certain fields are restricted) and private reports can be modified. To edit a report:
 
 -  Go to the `Report List View <#_report_list_view>`__.
 
@@ -598,8 +595,8 @@ Editing a Report
 
    a. The layout of the Report.
 
-   b. You can change the Visibility if it is already set to Private.
-      Once set to public, you cannot change Visibility.
+   b. You can change the Visibility if it is set to Private.
+      Once set to Public, you cannot change Visibility.
 
    c. The Date filter field.
 
@@ -612,8 +609,8 @@ Editing a Report
 
 -  Once you are over with your editing, click **Update**.
 
-You can also access the Update Custom Report page from :ref:`Custom
-Reports <open-custom-reports>` page.
+You can also access the Update Custom Report page from :doc:`Custom
+Reports <preview-a-report>` page.
 
 Add and Rearrange Columns
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -629,24 +626,20 @@ Selection** button. You can rearrange the order using drag and drop.
 
 **Deleting a Report**
 
-*Note: A Technician is allowed to delete Reports that he/she has
-created.*
+A Technician is allowed to delete Reports that he/she has
+created. To delete a report:
 
 -  Go to the `Report List View <#report-list-view>`__.
 
--  Click on **Delete Report** from the Action Menu of a Report. On
+-  Click on the Delete icon adjacent to the report that you want to delete. On
    Confirmation, the Report is deleted.
 
-.. _rf29.1:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-29.1.png
+.. _rf29:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-29.png
       :align: center
-      :alt: figure 29.1
-.. _rf29.2:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-29.2.png
-      :align: center
-      :alt: figure 29.2
+      :alt: figure 29
 
-You can delete a Report from its :ref:`Update Custom Repor <editing-report>` page and :ref:`Custom
+You can delete a Report from its :ref:`Update Custom Report <editing-report>` page and :ref:`Custom
 Reports <open-custom-reports>` page.
 
 .. _rf30:

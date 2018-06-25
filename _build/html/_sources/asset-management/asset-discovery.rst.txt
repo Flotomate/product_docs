@@ -95,8 +95,8 @@ between Agent-Based and Agentless scanning:
 | Device Coverage       | Currently,            | In an Agentless       |
 |                       | Agent-Based scanning  | setup, the product    |
 |                       | supports the          | scans Assets that     |
-|                       | Discovery of Windows  | supports the          |
-|                       | workstations only.    | following credential  |
+|                       | Discovery of Windows  |                       |
+|                       | and Linux machines.   | following credential  |
 |                       |                       | types:                |
 |                       |                       |                       |
 |                       |                       | -  WMI (Windows       |
@@ -409,8 +409,8 @@ Networks.
     | for asset Discovery to work.      |                                   |
     +-----------------------------------+-----------------------------------+
 
-6. When you are done with everything, including adding credentials, hit
-   **Create**.
+6. Add the necessary credentials from the credential list, or you can create new credentials using the
+   **Add New Credential** option in :numref:`amf-163`. When you are done hit **Create**.
 
 **Editing/Deleting Network**
 
@@ -1093,7 +1093,8 @@ for a system to run the Agent Application.
 +----------------------+----------------------+
 | **Free Hard Disk**   | 100 MB               |
 +----------------------+----------------------+
-| **Operating System** | Windows 7 and higher |
+| **Operating System** | Windows 7 and higher/|
+|                      | Ubuntu 16 and higher |
 +----------------------+----------------------+
 
 Installing the Discovery Agent Application
@@ -1181,8 +1182,8 @@ PsTools toolkit developed by Sysinternals.
 
 9. It will take time for installing agent in all Computers.
 
-Uninstalling the Discovery Agent Application
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Uninstalling (Windows) the Discovery Agent Application
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 1. Go to the directory where Agent.exe file is situated.
 

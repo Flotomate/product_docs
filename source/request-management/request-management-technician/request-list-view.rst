@@ -56,7 +56,7 @@ The List View is dynamic with the following features:
         :align: center
         :alt: figure 6
 
-    a. :ref:`Classifiers <classify-requests>` (Status, Priority, Due Date)
+    a. :ref:`Classifiers <classify-requests>` (Status, Priority, Due Date and SLA Status)
 
     b. Assignee information or :doc:`Claim and Assign
        buttons <assigning-a-request>`. Next to them is the Action
@@ -76,7 +76,9 @@ The List View is dynamic with the following features:
     a. **Details**: It shows the Requester info and Create Time of the
        Request
 
-    b. **Activity**: It shows the :doc:`Audit Trail <rm-viewing-audit-trail>`
+    b. **Requestor Info**: Here the name and email address of the requestor is shown.    
+
+    c. **Activity**: It shows the :doc:`Audit Trail <rm-viewing-audit-trail>`
        of the Request.
 
 -  Section-H gives you the option to set the number of Requests visible
@@ -101,4 +103,5 @@ The List View is dynamic with the following features:
     :align: center
     :alt: figure 8
 
--  Section-I is the :doc:`Manage Announcements <rm-announcements>` option.
+-  Section-I is the :doc:`Manage Announcements <rm-announcements>` option; nest to that, is the Action Menu 
+   housing the :doc:`View Archived Requests <deleting-a-request>`.

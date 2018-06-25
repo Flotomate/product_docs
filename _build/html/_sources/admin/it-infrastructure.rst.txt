@@ -403,8 +403,8 @@ Add a Network
         |    for asset Discovery to work.   |                                   |
         +-----------------------------------+-----------------------------------+
 
-7. Add the necessary credential from the credential list and hit
-   **Create**.
+7. Add the necessary credentials from the credential list, or you can create new credentials using the
+   **Add New Credential** option in :numref:`adf-69`. When you are done hit **Create**.
 
 **Edit/Delete Network**
 
