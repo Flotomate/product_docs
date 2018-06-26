@@ -1,0 +1,23 @@
+*.class
+*/target/**
+*/logs/**
+*/tmp/**
+*/filedb/**
+
+boot/sample File.txt
+# Package Files #
+*.jar
+*.war
+*.ear
+**/db/migration/*.sql
+**/db/schema/*.sql
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+!.mvn/wrapper/maven-wrapper.jar
+!apgdiff-2.4.jar
+!EmailReplyParser-1.1.jar
+application.pid
+!OldJavaFormatter_1.1.4.jar
+_build
