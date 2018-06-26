@@ -64,10 +64,10 @@ having Computer Groups can be convenient are as follows:
    :align: center
    :alt: figure 13.2
 
--  You can search a Computer Group list using a search bar (Figure 13)
-   that supports Advance Search and is similar to the one used for
+-  You can search for a Computer Group using the search bar (Figure 13)
+   which supports Advance Search and is similar to the one used for
    searching Computers in an :ref:`Endpoint scope <add-computer-scope>`. You can open the details of any
-   Computer by click on it.
+   Computer Group by click on it.
 
 **Edit/Delete Groups**
 

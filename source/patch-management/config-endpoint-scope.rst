@@ -16,7 +16,7 @@ There is a counter that shows how many Computers are within the scope
 and how many you can still add. In no situation, you can exceed the
 total number of Computers you are allowed to add to the Scope.
 
-.. note:: Only Computers configured with our Agent Application is visible on Endpoint Scope page.
+.. note:: Only Computers configured with our Agent Application is visible on the Endpoint Scope page.
 
 .. _add-computer-scope:
 Add Computers to a Scope

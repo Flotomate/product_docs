@@ -286,19 +286,29 @@ perform the following actions:
    gets added to a unified thread. The comments of the Requester also
    get added to the thread.
 
-   The Requester gets an email notification on every message you post.
-   The Requestor can reply to the emails and the replies are added to
-   the comment thread in the **Work** tab.
+   The Requester gets an email notification on every message you post and vice-versa (Requestor and assigned Technician are the
+   default recipients for email notification). The Requestor can reply to the emails and the replies are added to
+   the comment thread.
 
-   A Requestor can directly comment in the Details View of a Request
+   A Requestor can also comment in the Details View of a Request
    from the Customer Portal. Where he/she can specify a Technician’s
-   name as @tachnician_name in the message body. The mentioned
-   Technician gets notified via email.
+   name (other than the assigned Technician) as @tachnician_name in the 
+   message body, and the mentioned Technician/Technicians get notified via email.
 
-.. _rmf-24:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-24.png
-    :align: center
-    :alt: figure 24
+    .. _rmf-24:
+    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-24.png
+        :align: center
+        :alt: figure 24
+   
+   Yon can use a template to insert a canned response in the text field. Click on **Insert from Template**
+   , which opens a dialog box from where you can search and add a template. 
+
+   .. _rmf-24.1:
+   .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-24.1.png
+        :align: center
+        :alt: figure 24.1
+
+   Learn how to add a :ref:`Response Template<ad-response-template>`. 
 
 -  **Collaborate**: You can collaborate with other Technicians. You can
    start a message thread which is visible to people who has access to
@@ -357,6 +367,16 @@ posts.
 
 When you add a solution, you get a prompt asking you to resolve the
 Request.
+
+Yon can use a template to insert a canned response in the text field. Click on **Insert from Template**
+, which opens a dialog box from where you can search and add a template.
+
+.. _rmf-26.1:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-26.1.png
+    :align: center
+    :alt: figure 26.1
+
+Learn how to add a :ref:`Response Template<ad-response-template>`.
 
 Resolve Rules
 -------------

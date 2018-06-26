@@ -46,7 +46,7 @@ time.
 ::  
     .. note:: Please refer to :numref:`pf-16` for the below description.
 
--  Section A, B, C & D are the :ref:`Search Features <search-patches>`.
+-  Section A, B, C & D are the :ref:`Search Features<search-patches>`.
 
 -  Section-E is the list area where you can view all the Patches in the
    system. You can see the following information about a Patch here:
@@ -55,7 +55,7 @@ time.
 
    b. **Name**: The name of the Patch.
 
-   c. **KB ID**: This is a unique ID given by the Software Vendor.
+   c. **KB ID**: This is a unique ID given by the Software Vendor (**this column is only available in windows Patches**).
 
    d. **Severity**: This signifies the importance of a Patch, and the
       Software Vendor provides it.
@@ -69,7 +69,7 @@ time.
    g. **Installed System**: The total number of installation done in
       various Nodes.
 
-   h. **Download Size**: The size of a Patch.
+   h. **Approval Status**: It could be either Approved, Pending, Reject or Not-Approved.
 
 -  On this page, you can perform Deployment, Approval and Ignore of
    Patches as bulk operations. In the list area, selecting one or more
@@ -297,7 +297,9 @@ gives access to Patch related functionalities.
    this section is deemed as critical, and the same information
    (excluding description) is available when you are glancing the
    details of a Patch from the :ref:`List View <quick-glance-patch>`. The data points that are
-   shown are as follows:
+   shown are different for Windows and Linux patches; they are as follows:
+   
+   **Windows Patches:**
 
    a. Severity information as stated by the Software Vendor.
 
@@ -307,7 +309,7 @@ gives access to Patch related functionalities.
 
    d. The Update category as provided by the Software Vendor.
 
-   e. The Approval status of the Patch. It can be either Approved or
+   e. The Approval status of the Patch. It can be either Approved,Pending, Rejected or
       Not-Approved. You can choose the method of Approval from Approval
       settings in the Admin.
 
@@ -318,11 +320,35 @@ gives access to Patch related functionalities.
    h. Information about whether the Patch requires a reboot after
       installation.
 
-   i. Information about whether the Patch supports uninstallation.
+   i. Information about whether the Patch supports un-installation.
 
    j. The Download size of the Patch.
 
    k. The release date of the Patch.
+
+   **Linux Patches**
+   
+   a. Compatible OS of the Patch.
+
+   b. Severity details of the Patch as published by the software vendor.
+
+   c. Name of the related application.
+
+   d. Category of the update as stated by the software vendor.
+
+   e. The Approval status of the Patch. It can be either Approved,Pending, Rejected or
+      Not-Approved. You can choose the method of Approval from Approval
+      settings in the Admin.
+
+   f. The Test Status which shows the result of an Automatic Patch Test.
+
+   g. Priority details of the Patch. 
+
+   h. Whether the patch is a security patch.
+
+   i. Download size of the patch.
+
+   j. Information about the release date.  
 
 -  Section-C shows you the description of the Patch. It is fetched from
    the update server.

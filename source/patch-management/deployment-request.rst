@@ -152,7 +152,7 @@ the Quick Filter **Drafted**.
 
 If you want to publish the request, then click on **Publish**. This
 might or might not activate the request immediately, depending on Custom
-Rules. If Patch :ref:`Custom Rules <deployment-request-approval>` demand Approval, then you
+Rules. If Patch :ref:`Custom Rules<deployment-request-approval>` demand Approval, then you
 have to seek Approval before you can publish the Request.
 
 You can publish a drafted request from its Update page (clicking on a
@@ -224,14 +224,14 @@ Adding a Deployment Request from a Computer’s Details View:
 Approval
 ========
 
-In case there is a custom rule defined (Refer admin manual for Patch Custom Rules), then you have to make every
-drafted request go through an Approval process before publishing it. In
+In case there is a custom rule defined (Refer admin manual for Patch :ref:`Custom Rules<ad-custom-rule>`), 
+then you have to make every drafted request go through an Approval process before publishing it. In
 an Approval process, you seek approval from a set of approver/approvers.
 
 Asking for an Approval:
 -----------------------
 
--  Go to the :ref:`Deployment Request <manually-create-request>` page.
+-  Go to the :ref:`Deployment Request<manually-create-request>` page.
 
 -  Click on the Quick Filter **Drafted** to sort all drafted requests.
 
@@ -240,15 +240,14 @@ Asking for an Approval:
    :align: center
    :alt: figure 70
 
--  Select one or more requests. The **Ask for an Approval** button
-   appears above the list area.
+-  Requests that haven't gone through the Approval process have the **Ask for Approval** button adjacent to them.
 
 .. _pf-71:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-71.png
    :align: center
    :alt: figure 71
 
--  Click on **Ask for an Approval** to initiate the Approval process.
+-  Click on **Ask for an Approval** to initiate the Approval process. The Approval status changes to pending.
 
 Different States in an Approval
 -------------------------------

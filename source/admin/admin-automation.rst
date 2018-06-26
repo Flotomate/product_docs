@@ -587,6 +587,7 @@ View Email Notifications
     :align: center
     :alt: figure 51
 
+.. _modify-content-of-a-notification:
 Modify Content of a Notification
 --------------------------------
 
