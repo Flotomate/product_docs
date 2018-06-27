@@ -204,12 +204,14 @@ Add Business Services
     :align: center
     :alt: figure 92
 
+.. _ad-templates:
+
 Templates
 =========
 
 Templates in Flotomate allows you to quickly fill the create form of
 Request, Problem, and Change. You can create templates for each of the
-ticket types, and your users can use them while creating a Request,
+ticket types, and your users (only on Technician portal) can use them while creating a Request,
 Problem or Change.
 
 .. note:: Managing templates requires administrative rights.
@@ -230,48 +232,61 @@ Add a Template
 
 -  A dialog box opens where you can pre-define the following things:
 
-    .. _adf-94:
-    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-94.png
-        :align: center
-        :alt: figure 94
+   a. **Request**:
 
-    a. **Request**:
+        .. _adf-94:
+        .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-94.png
+            :align: center
+            :alt: figure 94
 
-        i.  The subject of a Request.
+       i.  The subject of a Request.
 
-        ii.  Status, Urgency, and Impact of a Request.
+       ii. Urgency, and Impact of a Request.
 
-        iii.  Tags of a Request.
+       iii. Tags of a Request.
 
-        iv.  Category of a Request.
+       iv.  Category of a Request.
 
-        v.  Description of a Request.
+       v.   Requestor Accounts.
 
-    b. **Problem**:
+       vi.  Description of a Request.
 
-        i.  Subject to a Problem
+   b. **Problem**:
+        .. _adf-94.1:
+        .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-94.1.png
+            :align: center
+            :alt: figure 94.1
 
-        ii.  Whether a Problem is known or not.
+       i.  Subject to a Problem
 
-        iii.  Status, Urgency, Nature of Problem and Impact of a Problem.
+       ii.  Whether a Problem is known or not.
 
-        iv.  Tags of a Problem.
+       iii.  Priority, Urgency, Nature of Problem and Impact of a Problem.
 
-        v. Category of a Problem.
+       iv. Tags of a Problem.
 
-        vi.  Description of a Problem.
+       v.  Mark the Problem as a known error.
 
-    c. **Change**:
+       vi.  Category of a Problem.
 
-        i.  The subject of a Change.
+       vii.  Description of a Problem.
 
-        ii.  Status, Urgency, Risk, Change Type and Impact of a Change.
+   c. **Change**:
 
-        iii.  Tags of a Change.
+        .. _adf-94.2:
+        .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-94.2.png
+            :align: center
+            :alt: figure 94.2
 
-        iv.  Category of a Change.
+       i.  The subject of a Change.
 
-        v.  Description of a Change.
+       ii.  Priority, Urgency, Risk, Change Type and Impact of a Change.
+
+       iii.  Tags of a Change.
+
+       iv.  Category of a Change.
+
+       v.  Description of a Change.
 
 Edit Request Templates
 ----------------------
@@ -352,6 +367,8 @@ adding a solution.
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-94.4.png
     :align: center
     :alt: figure 94.4        
+
+.. _ad-custom-fields:
 
 Custom Fields
 =============
@@ -455,7 +472,7 @@ Add a Custom Field
     b. **Problem**:
 
       i. All custom fields appear in the **Custom Fields** tab under
-           **Analysis**.
+         **Analysis**.
 
         .. _adf-101:
         .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-101.png
@@ -537,6 +554,8 @@ Edit Custom Fields
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-104.png
     :align: center
     :alt: figure 104
+
+.. _ad-category:
 
 Category
 ========

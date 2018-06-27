@@ -500,6 +500,8 @@ In the Product Types page, click on the Delete Icon adjacent to the
 Product Type that you want to delete. On confirmation the Product Type
 gets deleted.
 
+.. _adding-a-manufacturer:
+
 Manufacturer
 ============
 

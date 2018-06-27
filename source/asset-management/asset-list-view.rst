@@ -109,7 +109,7 @@ view differ across classes in terms of filters and options.
 -  When you select one or more Assets you get the following bulk
    operations:
 
-   a. `Bulk Update <#bulk-update>`__
+   a. :ref:`Bulk Update <#bulk-update>`__
 
    b. `Delete <#deletestage-assets>`__
 
