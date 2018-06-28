@@ -2,6 +2,8 @@
 Notifications in Asset Management
 *********************************
 
+.. _am-marking-for-notification:
+
 Marking for Notification
 ========================
 
@@ -13,7 +15,7 @@ Whenever new instance of a marked Software Asset is found during a
 discovery, a notification is sent to subscribers.
 
 For this notification to work, you have to add people as subscribers.
-Learn how to add `subscribers <#managing-subscribers>`__.
+Learn how to add :ref:`subscribers<managing subscribers>`.
 
 .. _amf-45:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-45.png
@@ -22,7 +24,7 @@ Learn how to add `subscribers <#managing-subscribers>`__.
 
 **From List View:**
 
--  Go to the `List View <#asset-list-view>`__ of class Software IT
+-  Go to the :doc:`List View<asset-list-view>` of class Software IT
    Assets.
 
 -  Select one or more Software Assets. **Mark for Notification** button
@@ -37,7 +39,7 @@ Learn how to add `subscribers <#managing-subscribers>`__.
 
 **From Details View:**
 
--  Go to the `Details View <#classifying-assets>`__ of a Software Asset.
+-  Go to the :doc:`Details View<managing-asset-details>` of a Software Asset.
 
 -  Click on the Action Menu situated in the top right corner beside
    barcode/Add Barcode.
@@ -60,7 +62,7 @@ notification.
 
 You can mark Non-Software Assets for notifications by adding them in to
 an Asset Group and mentioning the Group when adding
-`subscribers <#managing-subscribers>`__ to an Email Notification.
+:ref:`subscribers<managing subscribers>` to an Email Notification.
 
 Different Types of Notifications
 ================================
@@ -88,122 +90,113 @@ all available notifications:
 
 3. Here you can view all the notifications and configure them.
 
-+-----------------------------------+-----------------------------------+
-| **Notify Admin upon Non-Licensed  | Upon turning this notification    |
-| Installation Found**              | on, if a Licensed Software is     |
-|                                   | found on an unallocated machine   |
-|                                   | then the people and groups        |
-|                                   | mentioned in the License’s        |
-|                                   | compliance settings get a         |
-|                                   | notification.                     |
-|                                   |                                   |
-|                                   | All License Types, except Free    |
-|                                   | License, have a Compliance        |
-|                                   | Settings dialog box with options  |
-|                                   | to add Requester Groups and       |
-|                                   | Emails. Learn how to access       |
-|                                   | `Compliance                       |
-|                                   | Settings <#compliance-settings>`_ |
-|                                   | _.                                |
-+-----------------------------------+-----------------------------------+
-| **Notify Admin upon Unauthorized  | If Software with a Node Lock      |
-| Host Detected**                   | License is found in an            |
-|                                   | unallocated host, then a          |
-|                                   | notification is sent to people    |
-|                                   | mentioned in the License’s        |
-|                                   | Compliance Settings.              |
-+-----------------------------------+-----------------------------------+
-| **Notify Admin upon Software      | If the installation of a Licensed |
-| Installation Exceed**             | Software exceeds the Purchase     |
-|                                   | Count, then a notification is     |
-|                                   | sent to people mentioned in the   |
-|                                   | License’s Compliance Settings.    |
-+-----------------------------------+-----------------------------------+
-| **Licence Expired Notification**  | When a License expires, a         |
-|                                   | notification is sent to people    |
-|                                   | mentioned in the License’s        |
-|                                   | Compliance Settings.              |
-+-----------------------------------+-----------------------------------+
-| **Licence about to expire         | When a License is about to        |
-| notification**                    | expire, a notification is sent,   |
-|                                   | 15 days prior, to people          |
-|                                   | mentioned in the License’s        |
-|                                   | Compliance Settings.              |
-+-----------------------------------+-----------------------------------+
-| **Licence Under-Utilization       | When                              |
-| notification**                    | `utilization <#utilization>`__ of |
-|                                   | a Licensed Software comes below   |
-|                                   | the `underutilization             |
-|                                   | threshold <#_Understanding_Compli |
-|                                   | ance_Settings>`__,                |
-|                                   | then a notification is sent to    |
-|                                   | people mentioned in the License’s |
-|                                   | Compliance Settings.              |
-+-----------------------------------+-----------------------------------+
-| **Licence Over-Utilization        | When                              |
-| notification**                    | `utilization <#utilization>`__ of |
-|                                   | a Licensed Software exceeds the   |
-|                                   | `overutilization                  |
-|                                   | threshold <#_Understanding_Compli |
-|                                   | ance_Settings>`__,                |
-|                                   | then a notification is sent to    |
-|                                   | people mentioned in the License’s |
-|                                   | Compliance Settings.              |
-+-----------------------------------+-----------------------------------+
-| **Notify User upon Prohibited     | When a Prohibited Software is     |
-| Software Installation**           | detected in an Asset, then the    |
-|                                   | user of the Asset gets a          |
-|                                   | notification from the system.     |
-|                                   |                                   |
-|                                   | Every Asset in the CMDB has the   |
-|                                   | used-by detail which is used      |
-|                                   | here.                             |
-+-----------------------------------+-----------------------------------+
-| **Notify Admin upon Prohibited    | When a Prohibited Software is     |
-| Software Installation**           | detected in an Asset, then users  |
-|                                   | mentioned in the Prohibited       |
-|                                   | Software Expressions dialog box   |
-|                                   | get a notification.               |
-+-----------------------------------+-----------------------------------+
-| **Notify Subscriber When Software | When an instance of a marked      |
-| Installation Found.**             | Software is found during a        |
-|                                   | discovery then a notification is  |
-|                                   | sent to the                       |
-|                                   | `subscribers <#managing-subscribe |
-|                                   | rs>`__.                           |
-+-----------------------------------+-----------------------------------+
-| **Notify Subscriber When Hardware | A notification can be set for     |
-| Change Detects**                  | Hardware Assets in an Asset       |
-|                                   | Group. Whenever any change is     |
-|                                   | detected during discovery a       |
-|                                   | notification is sent to           |
-|                                   | `subscribers <#managing-subscribe |
-|                                   | rs>`__.                           |
-+-----------------------------------+-----------------------------------+
-| **Notify Subscriber When Warranty | A notification can be set for     |
-| Expired**                         | Hardware Assets in a particular   |
-|                                   | Asset Group. Whenever warranty of |
-|                                   | a Hardware Asset (in the group)   |
-|                                   | expires then a notification is    |
-|                                   | sent to                           |
-|                                   | `subscribers <#managing-subscribe |
-|                                   | rs>`__.                           |
-+-----------------------------------+-----------------------------------+
-| **Notify Subscriber When Warranty | A notification can be set for     |
-| is About to Expire**              | Hardware Assets in a particular   |
-|                                   | Asset Group. Whenever warranty of |
-|                                   | a Hardware Asset (in the group)   |
-|                                   | is about to expire in 30 days     |
-|                                   | then a notification is sent to    |
-|                                   | `subscribers <#managing-subscribe |
-|                                   | rs>`__.                           |
-+-----------------------------------+-----------------------------------+
++-----------------------------------+------------------------------------------------------------------+
+| **Notify Admin upon Non-Licensed  | Upon turning this notification                                   |
+| Installation Found**              | on, if a Licensed Software is                                    |
+|                                   | found on an un-allocated machine                                 |
+|                                   | then the people and groups                                       |
+|                                   | mentioned in the License’s                                       |
+|                                   | compliance settings get a                                        |
+|                                   | notification.                                                    | 
+|                                   |                                                                  | 
+|                                   | All License Types, except Free                                   |
+|                                   | License, have a Compliance                                       |
+|                                   | Settings dialog box with options                                 |
+|                                   | to add Requester Groups and                                      |
+|                                   | Emails. Learn how to access                                      |
+|                                   | :ref:`Compliance Settings<compliance settings>`                  |
+|                                   |                                                                  |
++-----------------------------------+------------------------------------------------------------------+
+| **Notify Admin upon Unauthorized  | If Software with a Node Lock                                     |
+| Host Detected**                   | License is found in an                                           |
+|                                   | unallocated host, then a                                         |
+|                                   | notification is sent to people                                   |
+|                                   | mentioned in the License’s                                       |
+|                                   | Compliance Settings.                                             |
++-----------------------------------+------------------------------------------------------------------+
+| **Notify Admin upon Software      | If the installation of a Licensed                                |
+| Installation Exceed**             | Software exceeds the Purchase                                    |
+|                                   | Count, then a notification is                                    |
+|                                   | sent to people mentioned in the                                  |
+|                                   | License’s Compliance Settings.                                   |
++-----------------------------------+------------------------------------------------------------------+
+| **Licence Expired Notification**  | When a License expires, a                                        |
+|                                   | notification is sent to people                                   |
+|                                   | mentioned in the License’s                                       |
+|                                   | Compliance Settings.                                             |
++-----------------------------------+------------------------------------------------------------------+
+| **Licence about to expire         | When a License is about to                                       |
+| notification**                    | expire, a notification is sent,                                  |
+|                                   | 15 days prior, to people                                         |
+|                                   | mentioned in the License’s                                       |
+|                                   | Compliance Settings.                                             |
++-----------------------------------+------------------------------------------------------------------+
+| **Licence Under-Utilization       | When                                                             |
+| notification**                    | :ref:`utilization<am-utilization>` of                            |
+|                                   | a Licensed Software comes below                                  |   
+|                                   | the :ref:`under utilization threshold<compliance settings>`,     |
+|                                   | then a notification is sent to                                   |
+|                                   | people mentioned in the License’s                                |
+|                                   | Compliance Settings.                                             |
++-----------------------------------+------------------------------------------------------------------+
+| **Licence Over-Utilization        | When                                                             |
+| notification**                    | :ref:`utilization<am-utilization>` of                            |
+|                                   | a Licensed Software exceeds the                                  |
+|                                   | :ref:`over-utilization threshold<compliance settings>`,          |
+|                                   | then a notification is sent to                                   |
+|                                   | people mentioned in the License’s                                |
+|                                   | Compliance Settings.                                             |
++-----------------------------------+------------------------------------------------------------------+
+| **Notify User upon Prohibited     | When a Prohibited Software is                                    |
+| Software Installation**           | detected in an Asset, then the                                   |
+|                                   | user of the Asset gets a                                         |
+|                                   | notification from the system.                                    |
+|                                   |                                                                  |
+|                                   | Every Asset in the CMDB has the                                  |
+|                                   | used-by detail which is used                                     |
+|                                   | here.                                                            |
++-----------------------------------+------------------------------------------------------------------+
+| **Notify Admin upon Prohibited    | When a Prohibited Software is                                    |
+| Software Installation**           | detected in an Asset, then users                                 |
+|                                   | mentioned in the Prohibited                                      |
+|                                   | Software Expressions dialog box                                  |
+|                                   | get a notification.                                              |
++-----------------------------------+------------------------------------------------------------------+
+| **Notify Subscriber When Software | When an instance of a marked                                     |
+| Installation Found.**             | Software is found during a                                       |
+|                                   | discovery then a notification is                                 |
+|                                   | sent to the                                                      |
+|                                   | :ref:`subscribers<managing subscribers>`.                        |
++-----------------------------------+------------------------------------------------------------------+
+| **Notify Subscriber When Hardware | A notification can be set for                                    |
+| Change Detects**                  | Hardware Assets in an Asset                                      |
+|                                   | Group. Whenever any change is                                    |
+|                                   | detected during discovery a                                      |
+|                                   | notification is sent to                                          |
+|                                   | :ref:`subscribers<managing subscribers>`.                        |
++-----------------------------------+------------------------------------------------------------------+
+| **Notify Subscriber When Warranty | A notification can be set for                                    |
+| Expired**                         | Hardware Assets in a particular                                  |
+|                                   | Asset Group. Whenever warranty of                                |
+|                                   | a Hardware Asset (in the group)                                  |
+|                                   | expires then a notification is                                   |
+|                                   | sent to                                                          |
+|                                   | :ref:`subscribers<managing subscribers>`.                        |
++-----------------------------------+------------------------------------------------------------------+
+| **Notify Subscriber When Warranty | A notification can be set for                                    |
+| is About to Expire**              | Hardware Assets in a particular                                  |
+|                                   | Asset Group. Whenever warranty of                                |
+|                                   | a Hardware Asset (in the group)                                  |
+|                                   | is about to expire in 30 days                                    |
+|                                   | then a notification is sent to                                   |
+|                                   | :ref:`subscribers<managing subscribers>`.                        |
++-----------------------------------+------------------------------------------------------------------+
 
 Editing Notification Content
 ----------------------------
 
 You can modify the content of each type of
-`notifications <#_Different_Types_of>`__ for Asset Management.
+:ref:`notifications<different types of notifications>` for Asset Management.
 
 -  In the Email Notifications page (**Admin** >> **Email
    Notification**), click on a notification that you want to edit.
@@ -246,7 +239,7 @@ the notifications.
 
 Adding Subscribers:
 
--  Go to the `Emails Notifications <#_Different_Types_of>`__ (**Admin**
+-  Go to the :ref:`Email Notifications<different types of notifications>` (**Admin**
    >> **Email Notifications**) page.
 
 -  Click on a notification that supports adding subscribers; click and

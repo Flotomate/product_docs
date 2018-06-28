@@ -2,6 +2,8 @@
 Asset Logs
 **********
 
+.. _am-viewing-audit-trail:
+
 Viewing Audit Trail
 ===================
 
@@ -13,7 +15,7 @@ activities in relation to an Asset.
 You can view the Audit Trail in the following ways:
 
 -  **History Tab**: You can view the Audit Trail in the History tab (in
-   `Asset Details View <#searching-assets>`__) of a Hardware, Service,
+   :doc:`Asset Details View<manage-asset-details>`) of a Hardware, Service,
    Cloud and Other Asset types.
 
 .. _amf-94:
@@ -22,7 +24,7 @@ You can view the Audit Trail in the following ways:
     :alt: figure 94
 
 -  **Asset List View**: You can access the Audit Trail from the Action
-   Menu of an Asset in the `Asset List View <#searching-assets>`__.
+   Menu of an Asset in the :doc:`Asset List View<asset-list-view>`.
 
 .. _amf-95:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-95.png
@@ -30,8 +32,7 @@ You can view the Audit Trail in the following ways:
     :alt: figure 95
 
 -  **Asset Details View**: You can access the Audit Trail from the
-   Action Menu of an Asset in the `Asset Details
-   View <#searching-assets>`__.
+   Action Menu of an Asset in the :doc:`Asset Details View<manage-asset-details>`.
 
 .. _amf-96:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-96.png
@@ -42,8 +43,7 @@ Change and Scan Log
 ===================
 
 Asset types other than Software provide two important logs; you can find
-them in **History** tab on the `Details
-View <#understanding-asset-details>`__ of an Asset, they are:
+them in **History** tab on the :doc:`Details View<manage-asset-details>` of an Asset, they are:
 
 -  **Scan Log**: Here you can view the number of times the Asset was
    scanned along with timestamp and the mode of scan.

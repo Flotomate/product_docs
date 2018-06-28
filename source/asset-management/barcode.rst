@@ -15,7 +15,7 @@ Adding Barcode to an Asset
 You can add an existing barcode to an Asset or generate a new one and
 add.
 
--  Go to the `Details View <#classifying-assets>`__ of the Asset you
+-  Go to the :ref:`Details View<classifying assets>` of the Asset you
    want to add a barcode.
 
 -  Click on **Add Barcode** situated in the top right corner of the
@@ -38,7 +38,7 @@ add.
 Changing an Asset’s Barcode
 ---------------------------
 
--  Go to the `Details View <#classifying-assets>`__ of the Asset.
+-  Go to the :ref:`Details View<classifying assets>` of the Asset.
 
 -  Click on the barcode situated in the top right corner of the page.
 
@@ -65,7 +65,7 @@ Copying an Asset Barcode to the Clipboard
 You can copy the barcode of an Asset to the clipboard in the following
 way:
 
--  Go to the `Details View <#classifying-assets>`__ of the Asset.
+-  Go to the :ref:`Details View<classifying assets>` of the Asset.
 
 -  Click on the barcode situated in the top right corner of page.
 
@@ -81,7 +81,7 @@ Adding Assets Using Barcode
 
 Flotomate allows you to add Assets using a barcode.
 
--  Go to the `List View <#asset-list-view>`__.
+-  Go to the :doc:`List View<asset-list-view>`.
 
 -  Click on **Add Assets using Barcodes** from the Action Menu situated
    in the top right corner of the page.
@@ -135,7 +135,7 @@ ways to print barcodes:
 
 From Asset List View:
 
--  Go to the `List View <#asset-list-view>`__ of any class.
+-  Go to the :doc:`List View<asset-list-view>` of any class.
 
 -  Select one or more Assets. The **Print Barcodes** button appear above
    the pane.
@@ -150,7 +150,7 @@ From Asset List View:
 
 From Asset Details View:
 
--  Go to the `Details View <#classifying-assets>`__ of an Asset.
+-  Go to the :ref:`Details View<classifying assets>` of an Asset.
 
 -  Click on the barcode in the top right corner of the page.
 
@@ -163,11 +163,12 @@ From Asset Details View:
 
 -  Browser’s print dialog box opens. Where you can print the barcode.
 
+.. _am-print-new-barcodes:
+
 Print New Barcodes
 ==================
 
-You can generate and print new barcodes from the `List
-View <#asset-list-view>`__.
+You can generate and print new barcodes from the :doc:`List View<asset-list-view>`.
 
 -  In the List View, click on Print Barcodes from the **Action Menu**
    situated in the top right corner.
@@ -196,8 +197,7 @@ View <#asset-list-view>`__.
 Changing Barcode Prefix
 =======================
 
-You can have a variety of barcode prefixes when you are `generating
-barcode <#print-new-barcodes>`__ for printing.
+You can have a variety of barcode prefixes when you are :ref:`generating barcode<am-print-new-barcodes>` for printing.
 
 **To Add New Barcode Prefix:**
 

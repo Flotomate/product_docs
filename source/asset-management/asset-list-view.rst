@@ -38,8 +38,7 @@ view differ across classes in terms of filters and options.
 
 .. note:: Kindly refer to :numref:`amf-2`.
 
--  Section A, B, C & D are the :ref:`search
-   features <change-name-and-description-of-an-asset>`.
+-  Section A, B, C & D are the :ref:`search features<change name and description of an asset>`.
 
 -  Section-E is the checkbox which you can use to select all the Assets
    currently viewable in the list area.
@@ -80,12 +79,11 @@ view differ across classes in terms of filters and options.
    j. **Software Category**: One of the many ways of categorization.
 
       Each Asset has an Action Menu (at far right) from where they can
-      perform the following operations: :ref:`Scan
-      Now <scanning-a-single-hardware-computer>`, :ref:`Exclude from
-      Scanning <excluding-an-asset-from-scanning>`, :ref:`Viewing Audit
-      Trail <viewing-audit-trail>`, :ref:`Export
-      Asset <exporting-from-asset-list-view>`, :ref:`Mark for
-      Notification <marking-for-notification>` (for Software Assets),
+      perform the following operations: :ref:`Scan Now<scanning-a-single-hardware-computer>`, 
+      :ref:`Exclude from Scanning<excluding an asset from scanning>`, 
+      :ref:`Viewing Audit Trail<am-viewing-audit-trail>`, 
+      :doc:`Export Asset<export-asset-details>`, 
+      :ref:`Mark for Notification<am-marking-for-notification>` (for Software Assets),
       and Open Asset in new tab.
 
 -  Section-G gives you the option to set the number of Assets visible
@@ -94,42 +92,40 @@ view differ across classes in terms of filters and options.
 
 -  Section-H houses the following options:
 
-   a. :ref:`Import Asset <importing-assets-in-bulk-using-csv>`
+   a. :ref:`Import Asset<importing assets in bulk using csv>`
 
-   b. :ref:`Scan Barcode <opening-asset-using-barcode>`
+   b. :ref:`Scan Barcode<opening asset using barcode>`
 
-   c. :ref:`Print Barcode <print-new-barcodes>`
+   c. :ref:`Print Barcode<am-print-new-barcodes>`
 
-   d. :ref:`Add Assets using Barcode <adding-assets-using-barcode>`
+   d. :ref:`Add Assets using Barcode<adding assets using barcode>`
 
-   e. :ref:`Manage Asset Groups <managing-asset-groups>`
+   e. :ref:`Manage Asset Groups<managing asset groups>`
 
-   f. :ref:`Asset in Stage <deletestage-assets>`
+   f. :ref:`Asset in Stage<delete-assets>`
 
 -  When you select one or more Assets you get the following bulk
    operations:
 
-   a. :ref:`Bulk Update <#bulk-update>`__
+   a. :ref:`Bulk Update<am-bulk-update>`
 
-   b. `Delete <#deletestage-assets>`__
+   b. :ref:`Delete<delete-assets>`
 
-   c. `Print Barcode <#print-asset-barcode>`__
+   c. :ref:`Print Barcode<print-asset-barcode>`
 
-   d. `Move to Stage <#deletestage-assets>`__
+   d. :ref:`Move to Stage<delete-assets>`
 
 -  Other features specifically for Software Assets are:
 
-   a. `Manage Prohibited Software
-      Expression <#managing-prohibited-software-expressions>`__
+   a. :ref:`Manage Prohibited Software Expression<managing prohibited software expressions>`
 
-   b. `Computer Exclusion <#computer-exclusion>`__
+   b. :ref:`Computer Exclusion<computer exclusion>`
 
-   c. `Mark as
-      Prohibited <#manually-flagging-a-software-asset-as-prohibited>`__
+   c. :ref:`Mark as Prohibited<manually flagging a software asset as prohibited>`
 
-   d. `Mark for Notification <#marking-software-assets>`__
+   d. :ref:`Mark for Notification<marking software assets>`
 
-   e. `Consolidate <#consolidating-software>`__
+   e. :ref:`Consolidate<consolidating software>`
 
 Searching Assets
 ================
@@ -205,7 +201,7 @@ Hardware Asset
 ^^^^^^^^^^^^^^
 
 There are five predefined search filters in the header section of
-`List View <#asset-list-view>`__:
+:doc:`List View<asset-list-view>`:
 
       .. _amf-6:
       .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-6.png
@@ -251,7 +247,7 @@ Software Asset
 ^^^^^^^^^^^^^^
 
 There are three predefined search filters in the header section of
-`List View <#asset-list-view>`__:
+:doc:`List View<asset-list-view>`:
 
       .. _amf-7:
       .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-7.png
@@ -288,7 +284,7 @@ Other IT Assets
 ^^^^^^^^^^^^^^^
 
 There are three predefined search filters in the header section of
-`List View <#asset-list-view>`__:
+:doc:`List View<asset-list-view>`:
 
       .. _amf-8:
       .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-8.png
@@ -315,6 +311,8 @@ There are filters to isolate an Asset Type:
 
    c. Others
 
+.. _am-bulk-update:
+
 Bulk Update
 ===========
 
@@ -322,7 +320,7 @@ Flotomate supports bulk update of Asset information of multiple Assets
 at once. The dialog box to perform this operation is same across all the
 classes. To perform the bulk update:
 
-1. Go to the `Asset List View <#asset-list-view>`__ of any class.
+1. Go to the :doc:`Asset List View<asset-list-view>` of any class.
 
 2. Select Assets on which you want to perform Bulk Update. The Bulk
    Update button appears above the pane. Click on **Bulk Update**.
@@ -337,8 +335,7 @@ classes. To perform the bulk update:
 
    a. Asset Type: Based on Asset Type hierarchy.
 
-   b. Asset Group; Learn `how to add Asset
-      Groups <#adding-an-asset-group>`__.
+   b. Asset Group; Learn :ref:`how to add Asset Groups<adding an asset group>`.
 
    c. Status: Learn about Status
 
@@ -347,9 +344,9 @@ classes. To perform the bulk update:
    e. Tags: You can replace the existing tags, or append tags by
       selecting **Append Tags to existing tags**.
 
-   f. Product: Learn about `Product <#adding-a-product>`__.
+   f. Product: Learn about :ref:`Product<am-product>`.
 
-   g. Vendor: Learn about `Vendor <#adding-a-vendor>`__
+   g. Vendor: Learn about :ref:`Vendor<am-vendor>`.
 
    h. Used By: Update the user of the Assets.
 
@@ -363,6 +360,8 @@ classes. To perform the bulk update:
    Number of Assets that are going to be updated is visible in the
    Update button. When you are done hit **Update** to save your
    changes.
+
+.. _delete-assets:
 
 Delete/Stage Assets
 ===================
@@ -378,7 +377,7 @@ after a discovery process.
 
 **To Delete/Stage Assets:**
 
--  Go to the `Asset List View <#asset-list-view>`__ of any class.
+-  Go to the :doc:`Asset List View<asset-list-view>` of any class.
 
 -  Select the Assets that you want to delete. The **Delete** button
    appears above the listing area.
@@ -402,7 +401,7 @@ after a discovery process.
 
 **Add an Asset Back to CMDB from Stage:**
 
--  Go to the `Asset List View <#asset-list-view>`__.
+-  Go to the :doc:`Asset List View<asset-list-view>`.
 
 -  Click on **Asset in Stage** from the Action Menu.
 

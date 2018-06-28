@@ -97,6 +97,8 @@ The Custom Status page opens. Add your statuses using the plus icon.
 You can edit/delete any status with the Edit/Delete Icon. You can also
 rearrange them by drag and drop.
 
+.. _am-product:
+
 Product
 =======
 
@@ -214,6 +216,8 @@ The Product Catalog page has Quick Filters to sort the products into three categ
 
 In the Product Catalog page, click on the Delete Icon adjacent to the
 Product that you want to delete. On confirming the Product is deleted.
+
+.. _am-vendor:
 
 Vendor
 ======

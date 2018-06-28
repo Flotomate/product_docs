@@ -8,7 +8,7 @@ locally. There are two ways to do it.
 Exporting from Asset List View:
 ===============================
 
--  Go to the `Asset List View <#asset-list-view>`__ of any class.
+-  Go to the :doc:`Asset List View<asset-list-view>` of any class.
 
 -  Click on the Action Menu of the Asset that you want to export, and
    then select **Export Asset**.
@@ -24,7 +24,7 @@ Exporting from Asset List View:
 Exporting from Asset Details View:
 ==================================
 
--  Go to the `Asset Details View <#searching-assets>`__ of the Asset
+-  Go to the :doc:`Asset Details View<manage-asset-details>` of the Asset
    that you want to export.
 
 .. _amf-101:

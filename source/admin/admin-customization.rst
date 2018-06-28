@@ -2,6 +2,8 @@
 Customization
 *************
 
+.. _ad-status
+
 Status 
 ======
 
@@ -117,6 +119,8 @@ custom Statuses. They are as follows:
    b. Missing
 
    c. Retired
+
+.. _ad-add-custom-status:
 
 Add Custom Status 
 -----------------

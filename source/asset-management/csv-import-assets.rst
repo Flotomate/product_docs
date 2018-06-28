@@ -24,7 +24,7 @@ only difference being you upload the same file again with new values.
 
 **To Upload Bulk Assets using CSV:**
 
-1. Go to the `Asset List View <#asset-list-view>`__.
+1. Go to the :doc:`Asset List View<asset-list-view>`.
 
 2. Click on the Action Menu situated in the top right corner of the
     page. Select **Import Asset** from the pop-up menu.

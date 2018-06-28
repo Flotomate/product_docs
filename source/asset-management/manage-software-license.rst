@@ -433,6 +433,8 @@ those parameters are as follows:
 Out of all the above parameters, Utilization Count, Purchase Count,
 Expiry Date and Allocated Machines are License specific parameters.
 
+.. _am-utilization:
+
 Utilization
 -----------
 
