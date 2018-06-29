@@ -136,6 +136,8 @@ There are two broad ways to search Assets in the product:
 
 -  Using Filters
 
+.. _am-using-search-bar:
+
 Using Search Bar
 ----------------
 

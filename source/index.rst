@@ -5,12 +5,13 @@
 
 
 Flotomate Product Manual 
-========
+========================
 .. toctree::
    :maxdepth: 1
    :caption: Contents:
    
    installation-guide/index
+   integration-guide/index
    request-management/index
    problem-management/index
    change-management/index

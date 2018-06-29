@@ -88,8 +88,7 @@ Adding a License
     c. **Version**: Type in the version of the License. This can be a
        user define or something mentioned in the License Agreement.
 
-    d. **License Type**: Learn more about the `License
-       Types <#understanding-the-license-types>`__.
+    d. **License Type**: Learn more about the :ref:`License Types <understanding the license types>`.
 
     e. **Description**: A short description of the License.
 
@@ -111,8 +110,7 @@ Type as the License.
 
 **To make an association:**
 
-1. Go to **Asset** (A Navigation Tab) >> `Asset List
-   View <#asset-list-view>`__.
+1. Go to **Asset** (A Navigation Tab) >> :doc:`Asset List View <asset-list-view>`.
 
 2. Select a Software Asset with the same Product Type as the License
    and head to its Details View.
@@ -184,12 +182,10 @@ To Access the Details View:
 Please refer to the sections in :numref:`amf-129` while reading the below
 description:
 
--  Section-A houses the `Updating License Name and
-   Description <#_Updating_License_Name>`__ feature.
+-  Section-A houses the :ref:`Updating License Name and Description <updating license name and description>` feature.
 
 -  Section-B shows you the License Type and to which Product the License
-   is related. Learn more about `License
-   Types <#understanding-the-license-types>`__. You cannot modify these
+   is related. Learn more about :ref:`License Types <understanding the license types>`. You cannot modify these
    fields.
 
 -  Section-C shows you the description of the License.
@@ -210,15 +206,15 @@ description:
       of the Software associated with the License across all Assets
       irrespective of whether they are allocated or not.
 
--  Section-E has the `Details <#updating-license-details>`__ and
+-  Section-E has the :ref:`Details <updating license details>` and
    Allocation tabs. The **Allocation** tab shows all the machines that
    can install the Licensed Software. Allocations are done manually
    using the options available under the tab. Certain License Types
    allow you to add users instead of Assets. Learn more about
-   `Allocation <#allocating-machinesusers-in-a-software-license>`__.
+   :ref:`Allocation <allocating-machines-in-a-software-license>`.
 
 -  Section-F houses the **Action Menu**. Using the menu, you can access
-   the `Compliance Settings <#managing-license-compliance>`__ of the
+   the :ref:`Compliance Settings <managing license compliance>` of the
    License.
 
 -  Section-G shows whether the License is associated with a Software or
@@ -287,6 +283,8 @@ an Edit Icon that you can use to edit the fields.
 
 -  **Attachments**: You can upload the Invoice and License Agreement in
    this section.
+
+.. _allocating-machines-in-a-software-license:
 
 Allocating Machines/Users in a Software License 
 ===============================================
@@ -509,12 +507,11 @@ notifications.
 .. note:: Section C in above figure is only available on Multiple Machines and Volume Users License Type.
 
 -  Section-A allows you to add Requestor Groups that are going to
-   receive notifications (group members are the `admin for the
-   notification <#_Different_Types_of>`__).
+   receive notifications (group members are the :ref:`admin for the notification <different types of notifications>`).
 
 -  Section-B is where you add emails of individuals who are going to
    receive notifications along with the groups (recipients are the
-   `admin for the notification <#_Different_Types_of>`__).
+   :ref:`admin for the notification <different types of notifications>`).
 
 -  In section-C is where you decide the threshold for overutilization
    and underutilization in percentage. For example, if Installation

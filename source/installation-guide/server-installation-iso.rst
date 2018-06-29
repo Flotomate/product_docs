@@ -22,22 +22,22 @@ Installation Process:
 
 2. Select language:
 
-.. _sib-1:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/server-installation/SIB-1.png
+.. _sii-1:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/server-installation/SII-1.png
     :align: center
     :alt: figure 1
 
 3. Select installation type, “\ *Install IT Service Desk*\ ”.
 
-.. _sib-2:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/server-installation/SIB-2.png
+.. _sii-2:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/server-installation/SII-2.png
     :align: center
     :alt: figure 2
 
 4. The installation process will start.
 
-.. _sib-3:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/server-installation/SIB-3.png
+.. _sii-3:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/server-installation/SII-3.png
     :align: center
     :alt: figure 3
 
@@ -65,16 +65,16 @@ Installation Process:
 
    **sudo ./service_desk_master_CI**
 
-    .. _sib-4:
-    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/server-installation/SIB-4.png
+    .. _sii-4:
+    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/server-installation/SII-4.png
         :align: center
         :alt: figure 4
 
    During Installation, Installer will prompt for Password. Please
    provide following password : mypassword.
 
-    .. _sib-5:
-    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/server-installation/SIB-5.png
+    .. _sii-5:
+    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/server-installation/SII-5.png
         :align: center
         :alt: figure 5
 
@@ -82,13 +82,13 @@ Installation Process:
    any name (must be all small letters without any special characters or
    spaces.)
 
-    .. _sib-6:
-    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/server-installation/SIB-6.png
+    .. _sii-6:
+    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/server-installation/SII-6.png
         :align: center
         :alt: figure 6
 
-    .. _sib-7:
-    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/server-installation/SIB-7.png
+    .. _sii-7:
+    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/server-installation/SII-7.png
         :align: center
         :alt: figure 7
 
@@ -100,8 +100,8 @@ Installation Process:
    Navigate to http://localhost/register, It will open Registration form
    as below :
 
-.. _sib-8:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/server-installation/SIB-8.png
+.. _sii-8:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/server-installation/SII-8.png
     :align: center
     :alt: figure 8
 
@@ -114,8 +114,8 @@ Installation Process:
     your organization, users and configure important setting to start
     using a product.
 
-.. _sib-9:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/server-installation/SIB-9.png
+.. _sii-9:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/server-installation/SII-9.png
     :align: center
     :alt: figure 9
 

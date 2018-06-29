@@ -3,12 +3,12 @@ Modifying Software Assets
 *************************
 
 We can edit software Details (some fields may not be editable) and
-create Software suits using `Consolidation <#consolidating-software>`__.
+create Software suits using :ref:`Consolidation <consolidating software>`.
 
 Editing Software Details
 ========================
 
-Go to the `Details View <#understanding-asset-details>`__ of a
+Go to the :doc:`Details View <manage-asset-details>` of a
 Software Asset.
 
 Scroll down to the Details tab. The Details tab shows the following

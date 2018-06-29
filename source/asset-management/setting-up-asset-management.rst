@@ -141,8 +141,7 @@ in each product.
 
     b. **Product Type**: Printer is the Product Type for HP DeskJet GT 5821.
        This field has a drop-down list. If you do not see the correct
-       Product Type, then you have to add it. Learn `how to add a Product
-       Type <#adding-a-product-type>`__.
+       Product Type, then you have to add it. Learn :ref:`how to add a Product Type <am-product-type>`.
 
     c. **Status**: There are three Statuses that you can select:
 
@@ -155,8 +154,8 @@ in each product.
              anymore.
 
     d. **Manufacturer**: This field has a drop-down list. If you do not see
-       the correct Manufacturer name, then you have to add it. Learn `how to
-       add a Manufacturer <#adding-a-manufacturer>`__.
+       the correct Manufacturer name, then you have to add it. Learn :ref:`how to
+       add a Manufacturer <am-manufacturer>`.
 
     e. **Warranty Period**: You can add how long the Product is covered
        under Warranty.
@@ -302,7 +301,7 @@ transaction details.
 
 You can add a Vendor from the Vendor Catalog in the Vendor field (:numref:`amf-73`).
 After filling in the details, click save to link the Vendor to the
-Product. Learn `how to add a Vendor <#adding-a-vendor>`__.
+Product. Learn :ref:`how to add a Vendor <am-vendor>`.
 
 Editing/De-linking a Vendor
 --------------------------
@@ -418,6 +417,8 @@ by the main server based on the information received from the Computers. You can
 - The new dialog box opens. Provide the all the details and click on **Add**.
 
 
+.. _am-product-type:
+
 Product Type
 ============
 
@@ -470,8 +471,7 @@ also add more types.
             Types.
 
     c. **Category**: Here you have to make a selection between an IT and
-       Non-IT Asset. Learn `the difference between an IT and Non-IT
-       Asset <#it-non-it-assets>`__.
+       Non-IT Asset. Learn :doc:`the difference between an IT and Non-IT Asset <asset-management-intro>`.
 
     d. **Description**: A short description of the Product Type.
 
@@ -504,7 +504,7 @@ In the Product Types page, click on the Delete Icon adjacent to the
 Product Type that you want to delete. On confirmation the Product Type
 gets deleted.
 
-.. _adding-a-manufacturer:
+.. _am-manufacturer:
 
 Manufacturer
 ============
@@ -664,7 +664,7 @@ You can view the custom property values in the details view of an SNMP device.
 
 **View Custom Properties:**
 
--  Go to the `Details View <#understanding-asset-details>`__ of an SNMP
+-  Go to the :ref:`Details View <manage-asset-details>` of an SNMP
    Asset with custom properties.
 
 -  The Custom Properties are highlighted in the **Properties** tab.

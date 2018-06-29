@@ -6,7 +6,7 @@ Our Asset Management tool allows Technicians to edit the information of
 an Asset in the CMDB. What a Technician can edit depends on the
 following things:
 
--  `Asset Type <#adding-custom-asset-types>`__
+-  :ref:`Asset Type <adding custom asset types>`
 
 -  Whether the Asset was added manually or discovered.
 
@@ -26,7 +26,7 @@ modifying an Asset, which is same for all the Asset types.
 Add/Edit Properties:
 --------------------
 
-Go to the `Details View <#searching-assets>`__ of a Hardware Asset.
+Go to the :ref:`Details View <manage-asset-details>` of a Hardware Asset.
 
 Scroll down to Properties. You get the following heads:
 

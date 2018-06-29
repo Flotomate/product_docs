@@ -74,8 +74,7 @@ must have a Name and an Asset Type for each of your Assets.
    the Asset.
 
 -  In section-K, you select an Asset Group. This is a way to categorize
-   the Asset. Learn more about `creating Asset
-   Groups <#managing-asset-groups>`__.
+   the Asset. Learn more about :ref:`creating Asset Groups <managing asset groups>`.
 
 -  You select the Department where the Asset belongs from a drop-down
    list in section-J.
