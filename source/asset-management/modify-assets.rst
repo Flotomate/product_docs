@@ -168,36 +168,14 @@ To Add a Field:
     :align: center
     :alt: figure 112
 
--  Custom Fields page opens. Here you can add two types of fields.
+-  Custom Fields page opens. Drag a field type from **Form Control** to the **Preview** section; this creates a new field.
+   There are four types of fields that you can add. 
 
-    a. **Text** **Field**: It is a type of field that accepts a
-       user-defined value.
+   a. Learn more about the :ref:`field types <ad-types-of-fields>`
+   
+   b. Learn how to :ref:`add custom fields <ad-create-custom-fields>`   
 
-        .. _amf-113:
-        .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-113.png
-            :align: center
-            :alt: figure 113
-
-       The Label is the visible name of the field. Default value is the
-       pre-populated value in the input area.
-
-    b. **Selection Field**: It is a type of field that accepts a user
-       response from a predefined list.
-
-        .. _amf-114:
-        .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-114.png
-            :align: center
-            :alt: figure 114
-
-       The Label is the visible name of the field. You add the list items using
-       the plus icon. You can edit/delete a list item using the Edit/ Delete
-       Icon. You can make a list item the default value (pre-selected value)
-       using the adjacent Default Value toggle. You can change the order of the
-       items by drag-drop.
-
-       Select a field type (:numref:`amf-112`) and click on Add.
-
--  Now you have to choose where to add the field. In the Asset
+-  Now you have to choose where to add the field. Click on the field and open Glance View. In the Asset
    Information section you decide on the following things:
 
     .. _amf-115:
@@ -206,9 +184,9 @@ To Add a Field:
         :alt: figure 115
 
     a. **Asset Type**: Here you decide which Asset Type carries the field.
-       The sub-types of the select type doesn’t carry the field. If Asset
-       Property and Asset Component are left none, then the field appears
-       under the head **Additional Fields** in **Properties**.
+       The sub-types of the select main-type also carry the field. If Asset
+       Property and Asset Component are left empty, then the field appears
+       under the head **Custom Fields** in **Properties**.
 
         .. _amf-116:
         .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-116.png
@@ -216,8 +194,8 @@ To Add a Field:
             :alt: figure 116
 
     b. **Asset Property**: You can add the field to a particular property of
-       an Asset type. The available properties are visible as a drop-down
-       list. If the list is empty then the Asset type doesn’t have any
+       an Asset type (sub-types will inherit the fields of the main-type but not vice-versa). 
+       The available properties are visible as a drop-down list. If the list is empty then the Asset type doesn’t have any
        properties.
 
         .. _amf-117.1:
@@ -231,8 +209,8 @@ To Add a Field:
             :alt: figure 117.2
 
     c. **Asset Component**: You can either put a field in property or
-       component. In the same way, you can add the field to a particular
-       component.
+       component. In the same way, you have to add the field to a particular
+       component (Software in the below figure).
 
         .. _amf-118.1:
         .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-118.1.png

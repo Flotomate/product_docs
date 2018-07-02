@@ -43,9 +43,11 @@ The List View is a dynamic interface with the following features:
 
    c. :ref:`Approvals <rm-asking-for-approval>`
 
-   d. :ref:`Time Log <rm-time-log>`
+   d. :ref:`Custom Fields <ad-custom-fields>`
 
-   e. :ref:`Notification <rm-notifications>`
+   e. :ref:`Time Log <rm-time-log>`
+
+   f. :ref:`Notification <rm-notifications>`
 
 -  Section-E is :ref:`Task <rm-managing-task>` column which is a sub-function
    of Work.
@@ -484,8 +486,8 @@ How to Edit/Delete Time Log:
 Custom Fields
 =============
 
-Custom fields are additional fields that can appear on the Create a
-Request form (both Technician and Customer Portal) or solely on the
+Custom fields are additional fields that appear on the Create a
+Request form (both Technician and Customer Portal) and the
 Details View of Requests. You can create such fields from the Admin
 section.
 
@@ -495,7 +497,7 @@ created a field called employee ID and made it compulsory for the status
 make sure the Employee ID is not empty.
 
 Inputted values in the Custom field is shown in the :ref:`Details
-View <request-details-view>` of a Request.
+View <request-details-view>` of a Request under Custom Fields tab.
 
 .. _rmf-32:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-32.png
@@ -503,6 +505,7 @@ View <request-details-view>` of a Request.
     :alt: figure 32
 
 .. _rm-asking-for-approval:
+
 Asking for Approval
 ===================
 

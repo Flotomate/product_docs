@@ -48,9 +48,11 @@ Change. Every Change has its own Details View.
 
    c. :ref:`Task <cm-managing-tasks.>`
 
-   d. :ref:`Time Log <cm-time-log>`
+   d. :ref:`Custom Fields <ad-custom-fields>`
 
-   e. :ref:`Approvals <approval-in-change>`
+   e. :ref:`Time Log <cm-time-log>`
+
+   f. :ref:`Approvals <approval-in-change>`
 
 -  Section-G shows you information about the Requester and the time of
    creation of the Change.

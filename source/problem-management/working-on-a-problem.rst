@@ -51,13 +51,15 @@ Please refer :numref:`pmf-16` for the below description:
 
    c. :ref:`Time Log <time-log-in-problem>`
 
+   d. :ref:`Custom Fields <ad-custom-fields>`
+
    d. :ref:`Notifications <notifications-in-problem>`
 
    e. :ref:`Approvals <pm-asking-for-approval>`
 
 -  Section-E shows you the requester details.
 
--  Section-G houses the following options:
+-  Section-F houses the following options:
 
    a. :ref:`Close this Problem <closing-a-problem>`
 
@@ -604,9 +606,9 @@ To add a relationship:
 Custom Fields in a Problem
 ==========================
 
-Custom fields are additional fields that can appear on the Create a
+Custom fields are additional fields that appear on the Create a
 Problem dialog box in the Technician Portal and on the Details View of
-Requests. You can create such fields from the Admin section.
+Problems. You can create such fields from the Admin section.
 
 A field can be made compulsory in a particular status. For example, we
 created a field called employee ID and made it compulsory for the status
@@ -614,7 +616,7 @@ created a field called employee ID and made it compulsory for the status
 make sure the Employee ID is not empty.
 
 Inputted values in the Custom field is shown in the :ref:`Details
-View <problem-details-view>` of the Problem.
+View <problem-details-view>` of a Problem.
 
 .. _pmf-46:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/problem-management/PM-46.png

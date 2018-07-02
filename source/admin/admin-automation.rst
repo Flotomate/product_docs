@@ -714,7 +714,7 @@ Before using REST API, you have to create an API Client.
     :align: center
     :alt: figure 56
 
-Learn how to make an :ref:`API Call`.
+Learn how to make an :doc:`API Call <how-to-create-request-using-rest>`.
 
 Edit Integration
 ----------------
