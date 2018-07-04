@@ -676,6 +676,7 @@ Approval Process
    b. Location, Category, and Department cannot be modified.
 
 .. _rm-managing-task:
+
 Managing Task
 =============
 

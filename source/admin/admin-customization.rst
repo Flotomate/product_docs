@@ -503,6 +503,9 @@ The product has a simple drag and drop UI to create and arrange fields.
 You can arrange the fields using drag and drop. You can group fields in to sections (this feature is available for Request and Problem custom fields), and
 you can arrange custom fields in to a matrix using the section feature. 
 
+.. note:: The rearrange feature doesn't work when a field is in edit mode (Glance View is open). 
+          The fields are movable when the move icon is visible. 
+
 .. _adf-98.4:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-98.4.png
     :align: center

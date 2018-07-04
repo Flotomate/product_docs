@@ -434,6 +434,8 @@ responded within 10 hours then the **Request** is auto-assigned to John,
 and if the resolution does not happen within a day then the priority is
 automatically set to high.
 
+.. _ad-approval-workflow:
+
 Approval Workflow
 =================
 

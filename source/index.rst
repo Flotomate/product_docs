@@ -16,6 +16,7 @@ Flotomate Product Manual
    problem-management/index
    change-management/index
    knowledge-management/index
+   service-catalog/index
    report-management/index
    admin/index
    asset-management/index
