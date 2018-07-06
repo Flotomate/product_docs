@@ -256,6 +256,7 @@ Add a Template
        vi.  Description of a Request.
 
    b. **Problem**:
+
         .. _adf-94.1:
         .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-94.1.png
             :align: center
@@ -577,7 +578,7 @@ You can find the fields under the **Custom Fields** tab.
 
 You can make a field compulsory for certain Statuses. For example,
 if a field is compulsory in Open Status, then you cannot keep the
-field empty when changing to another Status. Please refer to the above :ref:`section <custom-field-request>`.
+field empty when changing to another Status. Please refer to the above :ref:`section <custom-field-reques>`.
 
 **Change**:
 
@@ -630,6 +631,8 @@ Management manual to learn more.
      :align: center
      :alt: figure 102.5         
 
+.. _requestor-custom-field:
+
 **Requestor Custom Field**
        
 Here Custom fields allow you to create new variables to store information about requestors.
@@ -641,7 +644,7 @@ You can create n number of text fields.
         :align: center
         :alt: figure 103.1
         
-Such fields appear on the :ref:`form for creating <add-requestor-individually>` Requestors.
+Such fields appear on the :ref:`form for creating <add requestor individually>` Requestors.
 
 .. _adf-103.2:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-103.2.png

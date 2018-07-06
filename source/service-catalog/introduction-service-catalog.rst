@@ -29,7 +29,7 @@ Use Case
 ========
 
 In the subsequent sections, we are going to create a Service Item for employee on-board (in Marketing) which is going to be used
-by the HR department. In this hypothetical scenario, a person from the HR department will interact with a Service Item (created from
+by the HR department of Acme.Inc. In this hypothetical scenario, a person from the HR department will interact with a Service Item (created from
 a Template called On-Board) to create credentials for new joiners in the Marketing department.
 
 - Learn about the process involved in creating a Service Item from scratch (:doc:`service-catalog-workflow`). 
@@ -38,6 +38,8 @@ a Template called On-Board) to create credentials for new joiners in the Marketi
 
 - We then create a Template called On-Boarding in the above created Category (:doc:`creating-a-template`).
 
-- :doc:`create-service-item` 
+- Using the Template we create a service Item (:doc:`create-service-item`). 
+
+- 
 
 

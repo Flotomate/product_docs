@@ -169,21 +169,21 @@ Follow the below steps to create a Workflow:
 
 -  We select the module type as Request.
 
--  We set the following values for all the four :ref:`stages <workflow-type>`:
+-  We set the following values for all the four :ref:`stages <workflow type>`:
 
 +-----------------------------------+--------------------------------------------+
 | Values                            | Stage Name                                 |
 +===================================+============================================+
-| Event                             | :ref:`Workflow Type <workflow-type>`       |
+| Event                             | :ref:`Workflow Type <workflow type>`       |
 |                                   |                                            |
 +-----------------------------------+--------------------------------------------+
-| Marked as Spam                    | :ref:`Selecting an Event <select-an-event>`|                        
+| Marked as Spam                    | :ref:`Selecting an Event <select an event>`|                        
 |                                   |                                            |
 +-----------------------------------+--------------------------------------------+
-| Description contains Antivirus OR | :ref:`Setting Conditions <set-conditions>` |                    
+| Description contains Antivirus OR | :ref:`Setting Conditions <set conditions>` |                    
 | Subject contains Antivirus.       |                                            |
 +-----------------------------------+--------------------------------------------+
-| Set Spam to False                 | :ref:`Setting Actions <set-actions>`       |                      
+| Set Spam to False                 | :ref:`Setting Actions <set actions>`       |                      
 |                                   |                                            |
 +-----------------------------------+--------------------------------------------+
 
@@ -266,7 +266,7 @@ Setting SLA Conditions
 
 Section D (:numref:`adf-42`) lets you define the conditions for the **SLA** to
 be applicable. To learn how to use control flow using condition
-statements, please refer :ref:`setting Workflow conditions <set-conditions>`.
+statements, please refer :ref:`setting Workflow conditions <set conditions>`.
 
 Setting Response Time and Escalation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -315,19 +315,19 @@ Add a Service Level Agreement (SLA)
 -  We add a name and department.
 
 -  We set the following values for the
-   :ref:`Stages <setting-operational-hour-type>`:
+   :ref:`Stages <setting operational hour type>`:
 
     +-----------------------------------+----------------------------------------------------------------------------------------+
     | Values                            | Stage Name                                                                             | 
     +===================================+========================================================================================+
-    | Calendar Hours                    | :ref:`Setting Operational Hour Type <setting-operational-hour-type>`                   |                         |
+    | Calendar Hours                    | :ref:`Setting Operational Hour Type <setting operational hour type>`                   |                         |
     +-----------------------------------+----------------------------------------------------------------------------------------+
-    | VIP Request equals to True        | :ref:`Setting SLA Conditions <setting-sla-conditions>`                                 |
+    | VIP Request equals to True        | :ref:`Setting SLA Conditions <setting sla conditions>`                                 |
     +-----------------------------------+----------------------------------------------------------------------------------------+
-    | Set assignee to a technician      | :ref:`Setting Response Time and Escalation <setting-response-time-and-escalation>`     |    
+    | Set assignee to a technician      | :ref:`Setting Response Time and Escalation <setting response time and escalation>`     |    
     | after 10 mins of violation.       |                                                                                        |
     +-----------------------------------+----------------------------------------------------------------------------------------+
-    | Set priority to urgent a day      | :ref:`Setting Resolution Time and Escalation <setting-resolution-time-and-escalation>` |     
+    | Set priority to urgent a day      | :ref:`Setting Resolution Time and Escalation <setting resolution time and escalation>` |     
     | before violation.                 |                                                                                        |
     +-----------------------------------+----------------------------------------------------------------------------------------+
 
@@ -380,9 +380,9 @@ to stay within SLA guidelines
 Manage SLA with Status
 ----------------------
 
-In the :ref:`Custom Status <add-custom-status>` page, you can turn on/off
+In the :ref:`Custom Status <ad-add-custom-status>` page, you can turn on/off
 SLA in a Request Status using the adjacent toggle button. Learn more
-about :ref:`SLA <managing-sla>`.
+about :ref:`SLA <managing sla>`.
 
 Except for Open, Resolved and Closed, you can deactivate/activate SLA in
 all other Statuses, including custom ones.
@@ -393,6 +393,7 @@ all other Statuses, including custom ones.
     :alt: figure 46
 
 .. _use-case-1:
+
 User Story
 ==========
 
@@ -483,7 +484,7 @@ Setting Approval Conditions
 
 Section-B is where you set conditions for the Workflow. When set
 conditions are triggered, the system creates an Approval and assigns
-approver/approvers to it. Learn more about :ref:`setting conditions <set-conditions>`.
+approver/approvers to it. Learn more about :ref:`setting conditions <set conditions>`.
 
 Settings Approvers
 ^^^^^^^^^^^^^^^^^^
@@ -516,14 +517,14 @@ Creating an Approval Workflow
 -  We select Problem as our chosen module.
 
 -  We set the following values for the
-   :ref:`stages <setting-approval-conditions>`:
+   :ref:`stages <setting approval conditions>`:
 
     +-----------------------------------+---------------------------------------------------------------+
     | Values                            | Stage Name                                                    |
     +===================================+===============================================================+
-    | Category equals to Software       | :ref:`Setting Approval Workflow <setting-approval-conditions>`|                 
+    | Category equals to Software       | :ref:`Setting Approval Workflow <setting approval conditions>`|                 
     +-----------------------------------+---------------------------------------------------------------+
-    | Set Approvers to two Technicians. | :ref:`Setting Approvers <settings-approvers>`                 |         
+    | Set Approvers to two Technicians. | :ref:`Setting Approvers <settings approvers>`                 |         
     | Decision Type as **Unanimous**    |                                                               |
     +-----------------------------------+---------------------------------------------------------------+
 
@@ -555,7 +556,7 @@ stakeholders up to date on certain aspects of the product. You have
 complete control over the content of the notifications, and you can even
 turn them off if required.
 
-:ref:`Request Feedback <request-feedback-settings>` has a dependence on
+:ref:`Request Feedback <request feedback settings>` has a dependence on
 Email Notifications. Certain notifications need to be on for feedback to
 work.
 
@@ -590,6 +591,7 @@ View Email Notifications
     :alt: figure 51
 
 .. _modify-content-of-a-notification:
+
 Modify Content of a Notification
 --------------------------------
 

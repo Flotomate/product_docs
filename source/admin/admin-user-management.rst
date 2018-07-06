@@ -17,6 +17,8 @@ from the Admin section.
 
 .. note:: All Technician are Requestors by default and enjoy their rights and permissions, and even more.
 
+.. _view-requestor:
+
 **Open Requestors Page**
 
 The Requestors page is where you can add, view, update and delete
@@ -51,7 +53,7 @@ Add Requestors Individually
 
 You can add Requestors individually by entering their details.
 
-:ref:`Who are Requestors? <manage-requestors>`
+:ref:`Who are Requestors? <manage requestors>`
 
 -  Go to **Admin** >> **Requestors** (Users).
 
@@ -80,7 +82,7 @@ You can add Requestors individually by entering their details.
 You can edit the details of Requestors created manually or imported
 through CSV. You cannot edit Requestors imported via LDAP.
 
--  In the Requestors page, :ref:`Search <search-for-a-requestor>` for the
+-  In the Requestors page, :ref:`Search <search for a requestor>` for the
    Requestor that you want to edit.
 
 -  Click on the Edit Icon adjacent to the Requestor. The Edit Requestor
@@ -96,7 +98,7 @@ through CSV. You cannot edit Requestors imported via LDAP.
 You can delete Requestors created manually, imported through CSV or
 imported via LDAP.
 
--  :ref:`Search <search-for-a-requestor>` for the Requestor that you want to
+-  :ref:`Search <search for a requestor>` for the Requestor that you want to
    delete.
 
 -  Click on the Delete Icon adjacent to the Requestor. On Confirmation,
@@ -141,7 +143,7 @@ To upload Requestors from a CSV follow the below steps:
 -  In the CSV file, input the Requestor details under their respective
    heads. Each row should represent a single Requestor.
 
--  Go to the :ref:`Requestors <manage-requestors>` page. Click on settings
+-  Go to the :ref:`Requestors <manage requestors>` page. Click on settings
    and select **Import from CSV**.
 
 .. _adf-8:
@@ -212,7 +214,7 @@ product using the LDAP protocol.
 
 .. note:: You need admin rights to add Requestors using LDAP.
 
-Once :ref:`LDAP server is configured <ldap-configuration>`, you can start
+Once :ref:`LDAP server is configured <ldap configuration>`, you can start
 importing Requestors:
 
 1. Go to **Admin** >> **LDAP Configuration** (IT Infrastructure).
@@ -231,10 +233,10 @@ importing Requestors:
 Search for a Requestor
 ----------------------
 
-The :ref:`Requestors <manage-requestors>` page has a search box for
+The :ref:`Requestors <manage requestors>` page has a search box for
 searching Requestors. The search box uses Advanced Search features.
 
--  Go to :ref:`Requestors <manage-requestors>`.
+-  Go to :ref:`Requestors <manage requestors>`.
 
 -  In the search box, you can search for a Requestor using five search
    options. Click on the search box to access the search options.
@@ -264,9 +266,9 @@ created manually, imported through CSV or imported via LDAP. In case of
 Requestors from LDAP, you cannot edit their details after converting
 them to Technicians.
 
--  Go to **Admin** >> :ref:`Requestor <manage-requestors>` (Users).
+-  Go to **Admin** >> :ref:`Requestor <manage requestors>` (Users).
 
--  :ref:`Search <search-for-a-requestor>` for the Requestor that you want to
+-  :ref:`Search <search for a requestor>` for the Requestor that you want to
    convert.
 
 -  Click on the Action Menu adjacent to the Requestor. Select **Convert
@@ -290,7 +292,7 @@ them to Technicians.
 
    a. Role/Roles as a Technician. This determines the rights and
       permissions of the Technician. Learn more about :ref:`Roles of a
-      Technician <technician-roles>`.
+      Technician <technician roles>`.
 
    b. You can explicitly mention the support level. Technicians are
       grouped into four levels (tiers) based on their degree of
@@ -310,9 +312,9 @@ Technician.
 You can block Requestors created manually, imported through CSV or
 imported via LDAP. Blocked Requestors cannot log in to the system.
 
--  Go to **Admin** >> :ref:`Requestor <manage-requestors>` (Users)
+-  Go to **Admin** >> :ref:`Requestor <manage requestors>` (Users)
 
--  :ref:`Search <search-for-a-requestor>` for the Requestor that you want to
+-  :ref:`Search <search for a requestor>` for the Requestor that you want to
    block.
 
 -  Click on the Block Icon adjacent to the Requestor. On Confirmation,
@@ -478,7 +480,7 @@ Add/View Technicians
 
    e. Roles of the Technician. This defines the rights and permissions
       of the Technician. Learn how to :ref:`create custom
-      roles <technician-Roles>`.
+      roles <technician Roles>`.
 
    f. There are four support levels to choose from; you can select all
       four. Defining the levels of a Technician is a way to quantify
@@ -498,7 +500,7 @@ Update a Technician’s Info
 Flotomate provides the **Edit Technician** dialog box for easy
 modification of a Technician’s info.
 
-:ref:`Learn who is Technician? <managing-Technician>`
+:ref:`Learn who is Technician? <managing Technician>`
 
 .. note:: You need to have administrative rights to view and modify Technician details.
 
@@ -524,7 +526,7 @@ the Roles field in Edit Technician dialog box (:numref:`adf-25`)\ **;** select
 the roles applicable to the person and hit **Update** to make the
 changes.
 
-Learn :ref:`how to add new roles <technician-roles>`.
+Learn :ref:`how to add new roles <technician roles>`.
 
 Change Support Level
 ^^^^^^^^^^^^^^^^^^^^
@@ -1003,6 +1005,8 @@ He can efficiently manage all the groups from the **Technician Groups**
 page. Now he is confident that he has aligned his company’s resources to
 meet its IT requirements.
 
+.. _ad-requestor-accounts:
+
 Requestor Accounts
 =================
 
@@ -1034,7 +1038,7 @@ of the Requestor. Before using this feature, a user (with admin rights) has to m
 
 **Edit/Delete an Account**
 
-- Go to the :ref:`Requestor Accounts<requestor-accounts>` page.
+- Go to the :ref:`Requestor Accounts<requestor accounts>` page.
 
 - The edit icon allows you to edit an Account and the delete icon lets you delete one.
 

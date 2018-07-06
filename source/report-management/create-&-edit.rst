@@ -14,6 +14,7 @@ All Reports are created using the New Custom Reports page. To access the
 page follow the below steps.
 
 .. _new-custom-report:
+
 New Custom Report
 ~~~~~~~~~~~~~~~~~
 
@@ -270,6 +271,7 @@ columns are available depends on the Report type and module selected.
       :alt: figure 8
 
 .. _create-tabular-report: 
+
 Create a Tabular Report
 ~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -280,32 +282,32 @@ Create a Tabular Report
    Product.
 -  Following is our selections for the sections in New Custom Reports:
 
-+-----------------------------------+-----------------------------------+
-| Values                            | Section Name                      |
-+===================================+===================================+
-| Asset and Computer (Sub-Asset     | `Selecting a                      |
-| Type)                             | Module <#selecting-a-module>`__   |
-+-----------------------------------+-----------------------------------+
-| Tabular Report                    | `Selecting Report                 |
-|                                   | Type <#selecting-report-type>`__  |
-+-----------------------------------+-----------------------------------+
-| Portrait                          | `Report                           |
-|                                   | Layout <#report-layout>`__        |
-+-----------------------------------+-----------------------------------+
-| Public                            | `Report                           |
-|                                   | Visibility <#report-visibility>`_ |
-|                                   | _                                 |
-+-----------------------------------+-----------------------------------+
-| Created Time                      | `rfilter Data with                 |
-|                                   | Time <#filter-data-with-time>`__  |
-+-----------------------------------+-----------------------------------+
-| Technician name                   | `Setting Conditions to Filter     |
-|                                   | Data <#setting-conditions-to-filt |
-|                                   | er-data>`__                       |
-+-----------------------------------+-----------------------------------+
-| Product                           | `Grouping of                      |
-|                                   | Data <#grouping-of-data>`__       |
-+-----------------------------------+-----------------------------------+
++-----------------------------------+----------------------------------------------------------------------+
+| Values                            | Section Name                                                         |
++===================================+======================================================================+
+| Asset and Computer                | :ref:`selecting a module`                                            |
+| (Sub-Asset Type)                  |                                                                      |
++-----------------------------------+----------------------------------------------------------------------+
+| Tabular Report                    | :ref:`selecting report type`                                         |
+|                                   |                                                                      |
++-----------------------------------+----------------------------------------------------------------------+
+| Portrait                          | :ref:`report layout`                                                 |
+|                                   |                                                                      |
++-----------------------------------+----------------------------------------------------------------------+
+| Public                            | :ref:`report visibility`                                             |
+|                                   |                                                                      |
+|                                   |                                                                      |
++-----------------------------------+----------------------------------------------------------------------+
+| Created Time                      | :ref:`filter data with time`                                         |
+|                                   |                                                                      |
++-----------------------------------+----------------------------------------------------------------------+
+| Technician name                   | :ref:`setting conditions to filter data`                             |
+|                                   |                                                                      |
+|                                   |                                                                      |
++-----------------------------------+----------------------------------------------------------------------+
+| Product                           | :ref:`grouping of data`                                              |
+|                                   |                                                                      |
++-----------------------------------+----------------------------------------------------------------------+
 
 .. _rf9:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-9.png
@@ -347,6 +349,7 @@ Product.
       :alt: figure 12
 
 .. _create-matrix-report:
+
 Create a Matrix Report
 ~~~~~~~~~~~~~~~~~~~~~~
 
@@ -435,6 +438,7 @@ the past 3 months and group by Technicians.
       :alt: figure 17
 
 .. _create-summary-report:
+
 Create a Summary Report
 ~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -572,6 +576,7 @@ the past 3 months.
       :alt: figure 26
 
 .. _editing-report:
+
 Editing a Report
 ----------------
 

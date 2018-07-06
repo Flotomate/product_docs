@@ -93,7 +93,7 @@ Settings** (Patch/Package Management).
 
 These settings help Flotomate to flag Computers as either Highly
 Vulnerable or Vulnerable. You can filter the flagged Computers on the
-:ref:`Computer List View <computer-management/computer-list-view>`. Clicking on **System Health
+:ref:`Computer List View <computer list view>`. Clicking on **System Health
 Settings** opens a page. Here you can set the conditions separately to
 define Highly Vulnerable and Vulnerable.
 

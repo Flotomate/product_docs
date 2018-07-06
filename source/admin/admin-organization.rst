@@ -157,7 +157,7 @@ subtracted from the calculation). These calculations are done to see
 whether any SLAs have been violated or not. Of course, the SLAs have to
 be configured to use business hours.
 
-Learn more about :ref:`SLA <admin-automation/managing-sla>`.
+Learn more about :ref:`SLA <managing sla>`.
 
 To add business hours:
 
@@ -202,7 +202,7 @@ Location
 ========
 
 You can add your business location/locations in Flotomate along with the
-time zone/zones. You can have :ref:`business hours <business-hours>` for
+time zone/zones. You can have :ref:`business hours <business hours>` for
 each location.
 
 Some benefits of having locations:

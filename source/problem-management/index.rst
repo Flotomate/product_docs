@@ -5,7 +5,7 @@ Problem Management
    :maxdepth: 3
    :caption: Problem Management
 
-   introduction-problem-Management
+   introduction-problem-management
    creating-a-problem
    problem-list-view
    searching-problems

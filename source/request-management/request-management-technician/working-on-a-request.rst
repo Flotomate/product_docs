@@ -4,14 +4,14 @@ Working on a Request
 
 Once a Technician decides to work on a Request, he heads to the Details
 View of the Request. There he/she uses the product features and tools to
-resolve the Request.
+resolve and close the Request.
 
 Request Details View
 ====================
 
 The Request Details view organizes and manages all information related
-to a Request. Each Request has its own Details View having features that
-Technicians use to resolve a Request.
+to a Request. Each Request has its own Details View having features/tools that
+Technicians use to resolve or close a Request.
 
 To open the Details View
 
@@ -21,7 +21,7 @@ To open the Details View
    the Request, which is adjacent to its ID. The Request Details View
    opens. Each Request has its own Details View.
 
-The List View is a dynamic interface with the following features:
+The Details View is a dynamic interface with the following features:
 
 .. _rmf-16:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-16.png
@@ -100,20 +100,27 @@ editing the Subject and Description.
     :align: center
     :alt: figure 18
 
-Viewing Other Requests Created by the Requestor
-===============================================
+Requestor Info and Other Requests of a Requestor
+================================================
 
-The product has the provision to view all other Requests created by the Requestor from the Details View
-of a Request.
+A Technician can view Requestor information and other Requests created by the Requestor from the Details View of
+a Request. 
 
 - Go to the :ref:`Details View <request-details-view>` of a Request
 - Hover your mouse over the Requestor info section of the page.
-- A pop-up menu opens where you can access other Requests.
+- A pop-up menu opens where you can access the info and other Requests.
 
-.. _rmf-18.1:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-18.1.png
-    :align: center
-    :alt: figure 18.1
+    .. _rmf-18.1:
+    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-18.1.png
+        :align: center
+        :alt: figure 18.1
+
+    .. _rmf-18.2:
+    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-18.2.png
+        :align: center
+        :alt: figure 18.2
+
+  .. note:: In the Request Information tab (:numref:`rmf-18.2`), you can also view the values of :ref:`Custom Requestor Fields <requestor-custom-field>`.
 
 Classify Requests
 =================
@@ -167,12 +174,12 @@ the following ways:
       effect which is either on User, Department or Business.
 
 -  **Service Level Agreement**: SLA determines the Response Time and
-   Resolution Time after considering Priority (others conditions in case
+   Resolution Time after considering Priority (other conditions in case
    of custom SLA). It also determines the escalated action when a time
    condition is violated. This generates the following data points about
    a Request.
 
-   a. **SLA Status**: Tells whether any of the SLA conditions are
+   a. **Overdue Status**: Tells whether any of the SLA conditions are
       violated or not.
 
    b. **Due-Date**: It reminds Technicians about the due date.
@@ -219,6 +226,11 @@ the following ways:
 -  **Reopen Count**: This label shows how many times the Request has
    been opened after getting close. The tag appears when a Request gets
    reopened for the first time.
+
+-  **Requestor Account**: It shows the associated Requestor Account. Learn more about :ref:`ad-requestor-accounts`. 
+
+-  **Template**: If the Request was created using a Service Item (created from a Service Catalog Template), then the name of the Template is shown.
+   Learn more about :doc:`service-catalog`. 
 
 Linking Knowledge with a Request
 ================================

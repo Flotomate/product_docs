@@ -15,8 +15,8 @@ A Template is defined with respect to the following:
 
 - Create associated task for Requests created using the Template.
 
-We are going to create a Template called On-Boarding that will be used to create a Service Item which captures information to create
-a Request for addition of a new employee to the organization. 
+We are going to create a Template called On-Boarding that will be used to create a Service Item which will be used by the HR dept
+to create Request for on-boarding of new employees in the Marketing dept. Learn about :ref:`Use Case <sc-use-case>`.  
 
 **To add a new Template:**
 
