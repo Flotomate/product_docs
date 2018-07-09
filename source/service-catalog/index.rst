@@ -9,4 +9,4 @@ Service Catalog
    create-service-category
    creating-a-template
    create-service-item
-   
+   creating-a-request-from-service-item

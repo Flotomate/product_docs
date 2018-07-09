@@ -41,6 +41,8 @@ to create Request for on-boarding of new employees in the Marketing dept. Learn 
 
 **Create Form:**
 
+.. note:: Related Topic: :ref:`Working with Form Fields <Working with Custom Fields>`
+
 - Using drag and drop we create the following form:
 
 .. _scf-11:
@@ -56,8 +58,6 @@ to create Request for on-boarding of new employees in the Marketing dept. Learn 
     :align: center
     :alt: figure 12
 
-.. note:: Related Topic: :ref:`Working with Form Fields <Working with Custom Fields>`
-
 **Create Workflow**
 
 Workflow automation enables Administrators to channel tickets through a funnel with predefined rules.
@@ -65,7 +65,7 @@ Administrators set the rules that interact with the ticket details
 (Department, Type, Support Level, etc.) and even change them if
 required.
 
-.. note:: Related Topic: Learn how to create a :ref:`Custom Workflow <understanding workflow>`
+.. note:: Related Topic: Learn how to create a :ref:`Custom Workflow <understanding workflow>`.
 
 - We click on the **Workflow** tab. Here we see all Workflows specific for that Template, if any. We click on **Create a Workflow**
   button to add a new workflow. 
@@ -85,7 +85,7 @@ required.
         :align: center
         :alt: figure 14
 
-  b. Following are taken when a Request satisfies the parameters:
+  b. Following actions are taken when a Request satisfies the parameters:
 
      i. Request is assigned to a Technician.
 
@@ -107,7 +107,7 @@ to get resolved, and they also govern the escalation rules when Requests
 are not resolved or responded within a stipulated time frame. **SLA**\ s
 can be set for a department and a sub-department.
 
-.. note:: Related Topic: Learn more about :ref:`Create a SLA` 
+.. note:: Related Topic: Learn more about :ref:`Create a SLA`. 
 
 - We click on the **SLA** tab. Here we can see all existing SLA's specific to the Template, if any. We click on **Create an SLA**.
 

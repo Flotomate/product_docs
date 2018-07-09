@@ -2,9 +2,14 @@
 Asking for Feedback
 *******************
 
+Feedbacks are valuable information that helps in taking important decisions. 
+Top performing companies are top performers because they consistently seek ways to make themselves better.
 A Technician can ask a Requestor for feedback about his/her experience
-with a Request. In taking feedback, an email is sent with a link to the
-feedback form or the link is embedded in the notification emails sent
+with a Request. Such a feedback loop ensures continuous improvement in the way
+services are delivered to the end user. 
+
+In taking feedback, an email can be sent (by a Technician) with a link to the
+feedback form and the sane link is also embedded in the notification emails sent
 when a Request is resolved and closed.
 
 To activate feedback:

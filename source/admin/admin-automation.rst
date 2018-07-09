@@ -21,7 +21,7 @@ operation effortlessly.
 
 .. note:: Setting Workflow Automation requires Administrative rights.
 
-Understanding Workflow:
+Understanding Workflow
 -----------------------
 
 Log in to your dashboard and go to **Admin** >> **Workflow**
@@ -227,7 +227,7 @@ having their own rules for resolution and escalation time:
 
 .. note:: Managing SLAs requires Administrative rights.
 
-Create a SLA:
+Create a SLA
 -------------
 
 1. Log in to your dashboard.

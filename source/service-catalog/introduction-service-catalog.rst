@@ -38,8 +38,8 @@ a Template called On-Board) to create credentials for new joiners in the Marketi
 
 - We then create a Template called On-Boarding in the above created Category (:doc:`creating-a-template`).
 
-- Using the Template we create a service Item (:doc:`create-service-item`). 
+- Using the Template we create a Service Item (:doc:`create-service-item`). 
 
-- 
+- A person from the HR dept creates a Request using the Service Item (:doc:`create-a-request-from-service-item`)
 
 

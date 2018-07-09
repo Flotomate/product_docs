@@ -3,7 +3,7 @@ Share a Report
 
 The product allows you to send a Report as an email. To export a Report:
 
--  Go to the `Report List View <#report-list-view>`__.
+-  Go to the :doc:`Report List View <report-list-view>`.
 
 -  Click on the name of a Report that you want to share. The Custom
    Reports page opens.

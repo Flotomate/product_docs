@@ -2,8 +2,8 @@
 Deleting a Request
 ******************
 
-Deleting is a bulk operation which means you can delete multiple
-Requests at once.
+Deleting Requests is a simple operation; you can delete Requests one at a time or multiple of them at once. 
+The operation is done from the Request List View. 
 
 1. Go to **Request** >> :doc:`Request List View <request-list-view>`.
 

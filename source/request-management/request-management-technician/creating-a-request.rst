@@ -2,13 +2,14 @@
 Creating a Request 
 ******************
 
-Technicians can create Requests using the email to ticket feature and
+There are multitude of ways to create a Request (Incident) in our Helpdesk product. 
+Technicians can create Requests using the email to ticket feature or they can use
 the Create a Request dialog box.
 
 The Create a Request dialog box is available on both the Requestor and
 Technician Portal. However, the Create a Request form on the Technician
 portal is different. It has additional fields that are specific to the
-needs of the Technicians.
+needs of a Technician.
 
 Only people with create Request rights can create Requests. Please refer
 :ref:`Roles <admin-user-management>` (Users) in the Administration Manual.
