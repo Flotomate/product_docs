@@ -15,7 +15,7 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
-import guzzle_sphinx_theme
+
 
 # -- Project information -----------------------------------------------------
 
@@ -74,8 +74,7 @@ pygments_style = 'sphinx'
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-#html_theme =  'default'
-html_theme = 'guzzle_sphinx_theme'
+html_theme =  'default'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -83,17 +82,10 @@ html_theme = 'guzzle_sphinx_theme'
 #
 # html_theme_options = {}
 
-html_theme_options = {
-    # Set the name of the project to appear in the sidebar
-    "project_nav_name": "Project Name",
-}
-
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
-
-html_theme_path = guzzle_sphinx_theme.html_theme_path()
 
 # Custom sidebar templates, must be a dictionary that maps document names
 # to template names.
@@ -185,7 +177,6 @@ epub_exclude_files = ['search.html']
 
 #inter-sphinx extension
 extensions = ['sphinx.ext.intersphinx', 'sphinx.ext.autosectionlabel',]
-extensions.append("guzzle_sphinx_theme")
 
 #numfig
 numfig = True
