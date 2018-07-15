@@ -13,7 +13,7 @@ The Problem Details view organizes and manages all information related
 to a Problem. Each Problem has its own Details View having features that
 Technicians use to resolve a Problem.
 
-To open a Problem Details View:
+To open Problem Details View:
 
 1. Go to Problem List View from the Navigation Menu.
 

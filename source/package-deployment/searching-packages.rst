@@ -59,8 +59,8 @@ Custom Filters (Applicable on Package List Views)
 
 You can make a filter using search options and keywords and save it by
 clicking on the star icon to the far left of the search bar. Saved
-search filters appear along with the platform-specific filters in :numref:
-`spf-21.1`. Custom filters are specific to a particular platform.
+search filters appear along with the platform-specific filters in :numref:`spf-21.1`. 
+Custom filters are specific to a particular platform.
 
 For example, a user saves a search query that filters packages with
 Package Type: Application Patch and the keyword Deamon.

@@ -6,7 +6,7 @@ What is Deployment?
 ===================
 
 Deployment (in Flotomate) refers to the capability of installing and
-upgrading computer programs/OS, and configure Windows Registry in a
+upgrading computer programs/OS, and configuring Windows Registry in a
 large set of computers remotely. It is vital for managing the life-cycle
 of a Computer on a large scale, and Flotomate provides a comprehensive
 tool that handles all aspects of Package/Registry Deployment intuitively

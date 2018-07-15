@@ -518,6 +518,50 @@ modification of a Technician’s info.
     :align: center
     :alt: figure 25
 
+Convert a Technician into Super-User
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+A superuser is a user with privilege levels far beyond those of most user accounts. 
+Superuser account is necessary for the platform management functions but also to control and oversee them.
+
+A superuser can convert an existing  Technician into a superuser after giving up his/her rights.
+
+**To Convert a Technician into Superuser**
+
+- He goes to **Admin** (A Navigation Tab) >> **Technician** (under User).
+
+- In the Technician page, an **Action Menu** Icon is visible against people who are not
+  superusers. This **Action Menu** Icon is visible to the superuser only.
+
+.. _adf-25.1:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-25.1.png
+    :align: center
+    :alt: figure 25.1
+
+- Superuser clicks on the option **Convert to Super Admin** in the Action Menu of a Technician. 
+  This opens a dialog box with the following fields:
+
+  a. **My Email**: The email ID of the existing superuser.
+
+  b. **Roles**: The roles of the existing superuser when he/she is no longer the superuser.
+
+  c. **Location**: The location of the existing superuser when he/she is no longer the superuser.
+
+  .. _adf-25.2:
+  .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-25.2.png
+    :align: center
+    :alt: figure 25.2
+
+- He clicks on **Proceed** that takes him to another dialog box where he has to confirm the migration by entering
+  his account password. 
+
+.. _adf-25.3:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-25.3.png
+    :align: center
+    :alt: figure 25.3
+
+- On success, the existing superuser is logged out, and he is no longer the superuser.        
+
 Role of a Technician
 ^^^^^^^^^^^^^^^^^^^^
 

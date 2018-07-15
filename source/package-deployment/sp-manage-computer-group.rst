@@ -42,8 +42,7 @@ having Computer Groups can be convenient are as follows:
 
 -  In whatever way you select Computers, they all become part of the
    group. The manual and automatic methods of selection are similar to
-   the ones used for adding Computers to an :doc:`Endpoint
-   Scope <configuring-endpoint-scope>`.
+   the ones used for adding Computers to an :doc:`Endpoint Scope <configure-endpoint-scope>`.
 
 -  Add the Computers and click on **Create** to save the group.
 

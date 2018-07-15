@@ -37,17 +37,19 @@ The Details View is a dynamic interface with the following features:
 
 -  Section-D houses five functions:
 
-   a. :ref:`Work <communication-collaboration-and-resolution>`
+   a. :ref:`Work <communication collaboration and resolution>`
 
-   b. :ref:`Relations <add-relations>`
+   b. :ref:`Relations <rm-add-relations>`
 
    c. :ref:`Approvals <rm-asking-for-approval>`
 
    d. :ref:`Custom Fields <ad-custom-fields>`
 
-   e. :ref:`Time Log <rm-time-log>`
+   e. :ref:`request information` 
 
-   f. :ref:`Notification <rm-notifications>`
+   f. :ref:`Time Log <rm-time-log>`
+
+   g. :ref:`Notification <rm-notifications>`
 
 -  Section-E is :ref:`Task <rm-managing-task>` column which is a sub-function
    of Work.
@@ -121,6 +123,7 @@ a Request.
         :alt: figure 18.2
 
   .. note:: In the Request Information tab (:numref:`rmf-18.2`), you can also view the values of :ref:`Custom Requestor Fields <requestor-custom-field>`.
+
 
 Classify Requests
 =================
@@ -407,6 +410,8 @@ Request unless you fulfill the set conditions. Rules are in regards to:
 Please refer the Administrator Manual to know more about Custom Rules
 for Requests.
 
+.. _rm-add-relations:
+
 Add Relations
 =============
 
@@ -447,7 +452,27 @@ existing Requests, Problems, Changes and Assets.
 -  Search for the right entry and click **Link** to add a relationship
    between your selection/selections and the Request.
 
+Request Information
+===================
+
+.. _rmf-28.1:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-28.1.png
+    :align: center
+    :alt: figure 28.1
+
+Requests created from the Service Catalog have additional information. The additional information is captured
+using a custom form; the field values are viewable under the **Request Information** tab in the Request Details View.
+
+**Related Topics**
+
+- Understand the workflow behind creating Requests from the Service Catalog (:doc:`Learn <service-catalog-workflow>`).
+
+- Understand how Service :doc:`Categories<create-service-category>` and :doc:`Templates<creating-a-template>` are created.
+
+- Understand how a Service Item is created from a Template (:doc:`Learn<create-service-item>`).
+
 .. _rm-time-log:
+
 Time Log
 ========
 

@@ -94,6 +94,8 @@ Here you can view the version details of the product. The details are automatica
     :align: center
     :alt: figure 78.3
 
+.. _ad-departments:
+
 Departments
 ===========
 

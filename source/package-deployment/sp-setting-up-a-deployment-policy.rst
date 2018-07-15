@@ -3,7 +3,7 @@ Setting Up a Deployment Policy
 ******************************
 
 A deployment policy is created to control how a Deployment Request
-.actually carries out the deployment of packages/registry entries. A
+actually carries out the deployment of packages/registry entries. A
 user can create multiple policies and select any one of those when
 creating a Deployment Request.
 

@@ -8,8 +8,7 @@ deployment of a select set of Packages (Know what is a
 following a user-defined policy.
 
 Below diagram shows all the processes in Package Deployment in a
-sequential manner (some processes are one time, and some are
-infrequent):
+sequential manner (some processes are one time, and some are frequent):
 
 .. _spf-0:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/software-package-deployment/SP-0.png
