@@ -14,10 +14,19 @@ System Requirement :
 
 **OS Architecture**: 
 
-- Windows (32 & 64 bits).
-- Linux (64bits).
+- Windows (32 & 64 bit).
+- Linux (64bit).
 
 .. note:: Currently we have tested the Linux Agent in Ubuntu 16 and above.
+
+**Installation Links**
+
+Windows(32bit): `Click Here <https://s3.ap-south-1.amazonaws.com/flotomate-customer-releases/latest/agent/windows/x86/Agent.exe/>`_
+
+Windows(64bit): `Click Here <https://s3.ap-south-1.amazonaws.com/flotomate-customer-releases/latest/agent/windows/x64/Agent.exe/>`_
+
+Linux(64bit): `Click Here <https://s3.ap-south-1.amazonaws.com/flotomate-customer-releases/latest/agent/linux/x64/agent/>`_
+
 
 Installation in Windows
 =======================

@@ -20,10 +20,19 @@ Downloading Base OS
 You need ubuntu-16.04.1 desktop OS to run our product. Follow the link
 to download the OS:
 
-http://old-releases.ubuntu.com/releases/xenial/ubuntu-16.04.2-desktop-amd64.iso
+https://s3.ap-south-1.amazonaws.com/flotomate-customer-releases/share/ubuntu_server_os.iso
 
 .. note:: Ignore the above steps if you’re coming from the Product ISO
           installation setup.
+
+
+Product Installer
+=================
+
+Download product build/installer from following link :
+
+https://s3.ap-south-1.amazonaws.com/flotomate-customer-releases/latest/main/linux/service_desk_master_CI
+
 
 Installation Steps : 
 =====================
