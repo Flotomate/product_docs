@@ -460,8 +460,10 @@ You can create an Approval workflow for:
 
 -  Knowledge Management
 
+-  Purchase
+
 Understanding Approval Workflow
-----------------------------
+-------------------------------
 
 Go to **Admin** (A Navigation Tab) >> **Approval Workflow**
 (Automation).
@@ -505,7 +507,19 @@ type:
       Approval is rejected.
 
    c. **Majority**: If the majority of Approvers agree then Approval is
-      successful.
+      successful. Things to Remember:
+
+      i. In order to get approval, 50% or more people have to agree.
+
+      ii. In case minimum 50% people approves, you can ignore the rest 50% without affecting the Approved status.
+
+Multiple Approval
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+**Set Multiple Approval Stages in a Single Approval**
+
+You can set
+
 
 Creating an Approval Workflow
 -----------------------------
@@ -513,22 +527,32 @@ Creating an Approval Workflow
 -  Go to **Admin** >> Approval **Workflow** and click **Create an
    Approval Workflow**.
 
--  We are going to create an Approval Workflow called Approvers for
-   Problem.
+-  We are going to create an Approval Workflow called Marketing Approval for the Request module.
+   It will have the following behavior:
 
--  We select Problem as our chosen module.
+   a. When an assigned Technician initiates an Approval process for a Request, then the system will check whether the Department is Marketing and
+      Location is Mumbai.
 
--  We set the following values for the
-   :ref:`stages <setting approval conditions>`:
+   b. If the above condition is true then an Approval is created (in the Request) with two Approvers. 
 
-    +-----------------------------------+---------------------------------------------------------------+
-    | Values                            | Stage Name                                                    |
-    +===================================+===============================================================+
-    | Category equals to Software       | :ref:`Setting Approval Workflow <setting approval conditions>`|                 
-    +-----------------------------------+---------------------------------------------------------------+
-    | Set Approvers to two Technicians. | :ref:`Setting Approvers <settings approvers>`                 |         
-    | Decision Type as **Unanimous**    |                                                               |
-    +-----------------------------------+---------------------------------------------------------------+
+   c. The Approval is set to Unanimous which means both the Approvers have to approve the Approval.   
+
+-  We select Request as our chosen module.
+
+-  We set the following values for the :ref:`stages <setting approval conditions>`:
+
++-----------------------------------+----------------------------------------------------------------+
+| Values                            | Stage Name                                                     |
++-----------------------------------+----------------------------------------------------------------+
+| Department Equals to Marketing    | :ref:`Setting Approval Workflow <setting approval conditions>` |
+|                                   |                                                                |
+| AND                               |                                                                |
+|                                   |                                                                |
+| Location Contains Mumbai          |                                                                |
++-----------------------------------+----------------------------------------------------------------+
+| Set Approvers to two Technicians. | :ref:`Setting Approvers <settings approvers>`                  |
+| Decision Type as **Unanimous**    |                                                                |
++-----------------------------------+----------------------------------------------------------------+
 
 .. _adf-50:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-50.png

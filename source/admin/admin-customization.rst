@@ -717,7 +717,34 @@ You can view and edit values of such fields from the Custom Fields tab in the :r
 .. _adf-103.5:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-103.5.png
      :align: center
-     :alt: figure 103.5  
+     :alt: figure 103.5
+
+**Feedback Form**
+
+A Feedback form captures the experience of a Requestor with the Helpdesk. A Feedback form is always specific to a particular
+Request. Using Custom fields, administrators can add more fields to capture additional information. Values captured by custom fields 
+are visible under the Feedback tab in the Details View of a Request.
+
+Things to Remember:
+
+- A Feedback form is specific to a particular Request.
+
+- A link to the Feedback form is sent with the Resolved and Closure Email, and an Email sent manually.
+  (:ref:`Learn More <To Activate Feedback>`)s
+
+The Actual Feedback Form:
+
+.. _adf-103.6:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-103.6.png
+     :align: center
+     :alt: figure 103.6
+
+The information captured by a Feedback form is visible in the following places. 
+
+.. _adf-103.7:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-103.7.png
+     :align: center
+     :alt: figure 103.7     
 
 .. _ad-category:
 

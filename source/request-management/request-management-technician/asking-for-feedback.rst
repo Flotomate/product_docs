@@ -12,7 +12,8 @@ In taking feedback, an email can be sent (by a Technician) with a link to the
 feedback form and the sane link is also embedded in the notification emails sent
 when a Request is resolved and closed.
 
-**To activate feedback:**
+To Activate Feedback
+---------------------
 
 -  Go to **Admin** >> **Request Feedback Settings** (under Request Management).
 
@@ -35,15 +36,23 @@ when a Request is resolved and closed.
 -  If you turn **Send feedback manually** button on, then you can send a
    feedback link to a Requester from the Details View of a Request.
 
-.. _rmf-65.1:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-65.1.png
-    :align: center
-    :alt: figure 65.1
+    .. _rmf-65.1:
+    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-65.1.png
+        :align: center
+        :alt: figure 65.1
 
-.. _rmf-65.2:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-65.2.png
-    :align: center
-    :alt: figure 65.2
+    .. _rmf-65.2:
+    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-65.2.png
+        :align: center
+        :alt: figure 65.2
+
+
+**Things To Remember**
+
+-  You cannot change the email message sent manually from the Details View.
+
+-  You can modify the contains of the email notification send when a Request is Resolved and Closed 
+   (:ref:`Learn More<modify-content-of-a-notification>`).
 
 When a Requestor clicks on the feedback link he/she gets the following
 form:
@@ -74,9 +83,16 @@ A user can add additional fields on the feedback form (refer :numref:`rmf-66`). 
 
 To add Custom Fields:
 
-- Go to Admin >> Feedback Custom Field (under Request Management).
+- Go to **Admin** (A Navigation Tab) >> **Feedback Custom Field** (under Request Management).
 
-- In the Custom Field page, create form using drag and drop using the pre-defined field types. 
+- In the Custom Field page, create a form using drag and drop from pre-defined field types. 
+
+.. _rmf-67.1:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-67.1.png
+    :align: center
+    :alt: figure 67.1
+
+.. note:: Learn how to work with :ref:`Custom Fields <Working with Custom Fields>`.    
 
 
 
