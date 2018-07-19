@@ -230,14 +230,189 @@ Creating a Renewal
 
 .. note:: A Contract can have only one renewal. Only the assigned Technician of a Contract can initiate a renewal. 
 
-Acme Inc has purchased Alienware Servers from Vendor Beebon Inc. Beebon Inc is contractually obligated to provide service to Acme Inc. 
-Acme Inc has a Service Contract with Beebon that is going to expire within six months. Acme Inc decides to renew the Contract 
-and extends it for another year. 
+Acme Inc has purchased Alienware laptops from Vendor Beebon Inc. Beebon Inc is contractually obligated to provide service to Acme Inc. 
+Acme Inc has a Service Contract with Beebon that is going to expire after a year. Acme Inc decides to renew the Contract 
+and extend it for another year. 
 
 The assigned Technician of the Contract has to update the Contract. Now he has to create a renewal.
 
 - He goes to the :ref:`contract details view`  of the Contract.
 
-- 
+.. _con-27:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/contract-management/con-27.png
+     :align: center
+     :alt: figure 27
+
+- He clicks on **Renew** from the Action Menu.
+
+.. _con-28:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/contract-management/con-28.png
+     :align: center
+     :alt: figure 28
+
+- A dialog box opens where he gets the following fields:
+
+    .. _con-29:
+    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/contract-management/con-29.png
+        :align: center
+        :alt: figure 29
+
+  a. **Contract Start and End date&time**: The time period of the new Contract.      
+
+  b. **Currency and Cost**: Currency selection from the system currency list (Learn how to add :ref:`currency<ad-currency>`) and
+     the total cost of the renewal.
+
+  c. **Description**: Details of the renewal if any.
+
+- He fills the details of the new Contract and clicks on **Renew**. The start and end time of the Contract is set considering the
+  :ref:`Renewal date and time conditions`.  
+
+- The new Contract will start after the expiry of the current active Contract. When the new Contract starts, the old Contract will expire 
+  and the Renewed status will change to Yes. The Renewed Contract is visible under the Renewals tab.
+
+.. _con-30:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/contract-management/con-30.png
+    :align: center
+    :alt: figure 30
+
+Child Contract
+==============
+
+A Contract can have multiple sub-contracts. In the product, a sub-contract is referred to as a Child Contract. 
+A sub-contract is a contract between a party to an original contract and a third party. An original Contract is referred to as a 
+Parent Contract. 
+
+The relationship between a Parent Contract and its children can be defined as follows:
+
+-  There's a direct relationship between a Parent and its children with regards to expiry and cancellation. 
+
+-  When a Parent Contract expires, all its child Contracts also expire.
+
+-  When a Parent Contract is cancelled, all its child Contracts are also get cancelled.
+
+**To add a Child Contract**
+
+While :doc:`creating a Contract <create-a-contract>`, you get the option to select a Parent Contract. If you select a Parent Contract, 
+then the Contract that you are creating becomes a Child Contract. You can view all Child Contracts of a Parent Contract under the
+**Child Contracts** tab on the Details View. 
+
+.. _con-31:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/contract-management/con-31.png
+    :align: center
+    :alt: figure 31
 
 
+.. _con-32:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/contract-management/con-32.png
+    :align: center
+    :alt: figure 32
+
+Notifications
+=============
+
+The Contract module has pre-defined Notifications and also the option to send custom Notification. Currently, there are four
+pre-defined Notifications out of the box. They are as follows:
+
+You will find the pre-defined Notifications in **Admin** (A Navigation tab) >> **Email Notifications** (under Automation) >> under **Contract**. 
+
+.. _con-33:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/contract-management/con-33.png
+    :align: center
+    :alt: figure 33
+
++------------------------------------------------------+-------------------------------------------------------+
+| Notify When Contract is Cancelled                    | The assigned Technician gets an email                 |
+|                                                      | notification when a Contract is Cancelled.            |
++------------------------------------------------------+-------------------------------------------------------+
+| Notify When Contract is Renewed.                     | The assigned Technician gets an email                 |
+|                                                      | notification when a Contract is Renewed.              |
++------------------------------------------------------+-------------------------------------------------------+
+| .. _notify-settings:                                 | Notify a select set of people by an email about       |
+|                                                      | the expiry of a Contract before a set number of days. |
+| Notify When Contract is about Expire before 15 days. | The recipients are added from the Notify Settings     |
+|                                                      | in the Details View of a Contract.                    |
++------------------------------------------------------+-------------------------------------------------------+
+| Notify When Contract is Expired                      | The assigned Technician gets an email                 |
+|                                                      | notification when a Contract expires.                 |
++------------------------------------------------------+-------------------------------------------------------+
+
+Notify Settings
+---------------
+
+A Technician can add recipients to a Contract who will receive an :ref:`email notification<notify-settings>` telling them that the Contract is going to
+expire after a certain number of days. The Technician can control who receives the email and the number of days before (the email
+is sent) expiry.
+
+**To Configure Notify Settings:**
+
+- Go to the :ref:`Contract Details View` of the Contract of which you want to configure Notify Settings.
+
+- Under the Notify Settings tab, you will find all the configurable fields.
+
+.. _con-34:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/contract-management/con-34.png
+    :align: center
+    :alt: figure 34
+
+- When you are done Configuring, hit **Update** to save your settings.
+
+Custom Notification
+-------------------
+
+A Technician can generate a notification instantaneously from the :ref:`Contract Details View` of a Contract. He can add multiple recipients and add a 
+custom message body. 
+
+**To send a custom notification:**
+
+- Go to the :ref:`Contract Details View` of a Contract.
+
+- Select **Send Notification** from the Action Menu.
+
+.. _con-35:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/contract-management/con-35.png
+    :align: center
+    :alt: figure 35
+
+- A dialog box opens where you can create a custom notification.
+
+.. _con-36:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/contract-management/con-36.png
+    :align: center
+    :alt: figure 36
+
+- When you are done creating a custom notification, hit **send**.
+
+.. note:: You can view all sent Custom Notifications under the Notifications tab. 
+
+.. _con-37:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/contract-management/con-37.png
+    :align: center
+    :alt: figure 37
+
+Attachments
+===========
+
+A Technician can add Attachments to a Contract. A Contract can have multiple Attachments. To add a Attachment:
+
+- Go to the :ref:`Contract Details View` of a Contract.
+
+- You will find all existing Attachments under the **Attachments** tab. Click on **Add an Attachment**.
+
+.. _con-38:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/contract-management/con-38.png
+    :align: center
+    :alt: figure 38
+
+- A dialog box opens where you have to add a name and description, and attach a file. 
+
+.. _con-39:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/contract-management/con-39.png
+    :align: center
+    :alt: figure 39
+
+-  Click on **Add** when you are done. The attached file will be added to the Contract.
+
+
+
+
+ 

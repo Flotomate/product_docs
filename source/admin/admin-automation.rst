@@ -2,6 +2,8 @@
 Automation
 **********
 
+.. _ad-workflow:
+
 Workflow 
 ========
 

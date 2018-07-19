@@ -9,14 +9,14 @@ A Template is defined with respect to the following:
 
 - Specific workflow to automate the handling of the life-cycle of the Requests created using the Template.
 
-- Specific SLA to control the response and resolution time.
+- Specific SLA to control the response and resolution time, and escalation.
 
 - Specific Approval workflow to add supervision.
 
 - Create associated task for Requests created using the Template.
 
 We are going to create a Template called On-Boarding that will be used to create a Service Item which will be used by the HR dept
-to create Request for on-boarding of new employees in the Marketing dept. Learn about :ref:`Use Case <sc-use-case>`.  
+to create Request for on-boarding of new employees in the Marketing department. Learn about the :ref:`Use Case <sc-use-case>`.  
 
 **To add a new Template:**
 
@@ -37,7 +37,7 @@ to create Request for on-boarding of new employees in the Marketing dept. Learn 
     :align: center
     :alt: figure 10
 
-- A new page opens, here we have to create a form, define a workflow, create a SLA and Approval workflow, and add tasks. 
+- A new page opens, here we have to create a form, define a workflow, create a SLA and create an Approval workflow, and add tasks. 
 
 **Create Form:**
 
@@ -65,33 +65,43 @@ Administrators set the rules that interact with the ticket details
 (Department, Type, Support Level, etc.) and even change them if
 required.
 
+**Implementation Behavior:**
+
+- Workflow created here will work specifically for Requests created using a :doc:`Service Item<create-service-item>` having the On-Boarding Template.
+
+- The Workflow created here works parallel with the generic :ref:`WorKflow <ad-workflow>` in Admin. Both the Workflows might get initiated
+  together and perform their own actions after checking their conditions.
+
+- The Template Workflow is initiated when a Request is created from a Service Item.
+
 .. note:: Related Topic: Learn how to create a :ref:`Custom Workflow <understanding workflow>`.
 
-- We click on the **Workflow** tab. Here we see all Workflows specific for that Template, if any. We click on **Create a Workflow**
-  button to add a new workflow. 
 
-- In the new page, we define a name, add parameters and select actions.
+We click on the **Workflow** tab. Here we see all Workflows specific for that Template, if any. We click on **Create a Workflow**
+button to add a new workflow. 
+
+In the new page, we define a name, add parameters and select actions.
 
     .. _scf-13:
     .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/service-catalog/SC-13.png
         :align: center
         :alt: figure 13
 
-  a. The workflow wil work on Requests satisfying the parameters, which are Department equals to Marketing and Location
-     equals Ahmedabad. 
+The workflow wil work on Requests satisfying the parameters, which are Department equals to Marketing and Location
+equals Ahmedabad. 
 
     .. _scf-14:
     .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/service-catalog/SC-14.png
         :align: center
         :alt: figure 14
 
-  b. Following actions are taken when a Request satisfies the parameters:
+Following actions are taken when a Request satisfies the parameters:
 
-     i. Request is assigned to a Technician.
+- Request is assigned to a Technician.
 
-     ii. Priority is set to High.
+- Priority is set to High.
 
-     iii. An Email is sent to the Requestor.
+- An Email is sent to the Requestor.
 
     .. _scf-15:
     .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/service-catalog/SC-15.png
@@ -107,55 +117,69 @@ to get resolved, and they also govern the escalation rules when Requests
 are not resolved or responded within a stipulated time frame. **SLA**\ s
 can be set for a department and a sub-department.
 
+**Implementation Behavior:**
+
+- An SLA created here will work specifically for Requests created using a :doc:`Service Item<create-service-item>` having the On-Boarding Template.
+
+- Template SLA will decide Response and Resolution time of Requests created using a Service Item (with the On-Boarding Template).
+
+- The system SLA will not work along side Template SLA.
+
 .. note:: Related Topic: Learn more about :ref:`Create a SLA`. 
 
-- We click on the **SLA** tab. Here we can see all existing SLA's specific to the Template, if any. We click on **Create an SLA**.
+We click on the **SLA** tab. Here we can see all existing SLA's specific to the Template, if any. We click on **Create an SLA**.
 
-- In the new page, we set the following things:
+In the new page, we set the following things:
 
-  a. We give a name, set Operational Hour Type and Department.
+We give a name, set Operational Hour Type and Department.
 
      .. _scf-16:
      .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/service-catalog/SC-16.png
          :align: center
          :alt: figure 16
 
-  b. We set the following parameters. The SLA will be valid for Requests satisfying the below mentioned parameters. 
+We set the following parameters. The SLA will be valid for Requests satisfying the below mentioned parameters. 
 
      .. _scf-17:
      .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/service-catalog/SC-17.png
          :align: center
          :alt: figure 17
 
-  c. Then we set the minimum response and resolution time, and escalation in case of violation.
+Then we set the minimum response and resolution time, and escalation in case of violation.
 
      .. _scf-18:
      .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/service-catalog/SC-18.png
          :align: center
          :alt: figure 18   
        
-  We set the response time as 3 hours and on violation the assigned Technician and Priority is changed.
-  We set the Resolution time as 1 day and on violation the assigned Technician is changed.
+We set the response time as 3 hours and on violation the assigned Technician and Priority is changed.
+We set the Resolution time as 1 day and on violation the assigned Technician is changed.
 
 **Approval Workflow**
 
 Approval Workflow helps Administrators to automate the Approval process for a Request. 
 An Approval Workflow, when initiated, creates an Approval and adds approvers to it.
 
+**Implementation Behavior:**
+
+- An Approval Workflow created here will work specifically for Requests created using a :doc:`Service Item<create-service-item>` having the On-Boarding Template.
+ 
+- The generic Approval Workflow in Admin doesn't work in Requests created using a Service Item.
+
 .. note:: Related Topic: Learn more about :ref:`Approval Workflow<ad-approval-workflow>`
 
-- We click on the **Approvals** tab. Here we can see all existing Approval Workflows specific to the Template, if any. 
-  We click on **Create an Approval**.
+We click on the **Approvals** tab. Here we can see all existing Approval Workflows specific to the Template, if any. 
+We click on **Create an Approval**.
 
-- In the new page, we give a name, parameters and actions:
+In the new page, we give a name, parameters and actions:
 
   .. _scf-18.1:
   .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/service-catalog/SC-18.1.png
        :align: center
        :alt: figure 18.1
 
-  Any Request (made using the template) having the Department Marketing will require approval from a Technician
-  before resolving or closing.     
+Any Request (made using the template) having the Department Marketing will require approval from a Technician
+before resolving or closing.     
 
 
 **Adding Tasks**

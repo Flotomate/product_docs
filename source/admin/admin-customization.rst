@@ -384,7 +384,7 @@ custom field feature. For example, some of our product users are capturing emplo
 
 Custom fields are additional fields added by a user. They can appear
 while creating a ticket, and in the details view of a ticket and CI.
-Custom fields can be added to Requests, Problems, Changes, and Assets.
+Custom fields can be added to Requests, Problems, Changes, Contract, Feedback, Purchase and Assets.
 
 .. note:: Adding Custom Fields requires administrative rights.
 
@@ -431,8 +431,21 @@ formatting option you can build interesting forms. The various options are as fo
 .. _adf-94.9:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-94.9.png
     :align: center
-    :alt: figure 94.9 
+    :alt: figure 94.9
 
+- **Text Area-input**: It is a multi line text input area. 
+
+.. _adf-94.9.1:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-94.9.1.png
+    :align: center
+    :alt: figure 94.9.1
+
+- **Labels**: This are static, immutable chunks of text.
+
+.. _adf-94.9.2:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-94.9.2.png
+    :align: center
+    :alt: figure 94.9.2
 
 Working with Custom Fields
 --------------------------
@@ -443,7 +456,7 @@ The product has a simple drag and drop UI to create and arrange fields.
 
 **To create a custom field:**
 
-- Go to **Admin** >> **(Request, Problem, Change, or Asset) Custom Fields**.
+- Go to **Admin** >> **(Request, Problem, Change, Contract, Purchase, Feedback or Asset) Custom Fields**.
 
 .. note:: Each module has a separate custom fields page.
 
@@ -479,12 +492,12 @@ The product has a simple drag and drop UI to create and arrange fields.
 
   a. **Form Label**: This refers to the title of the field.
 
-  b. **Input Type**: Available for Text Input field. This field supports three types of inputs: Text, Number and Date.
+  b. **Input Type**: Available for Text Input field. This field supports three types of inputs: Text, Number and Date (Sat, Jul 21, 2018 4:39 PM).
 
-  c. **Hint Text**: Available for Text Input and Dropdown. Hint text appears pre-filled in the input area; hinting the user what to
+  c. **Hint Text**: Available for Text Input and Drop-down. Hint text appears pre-filled in the input area; hinting the user what to
      input.  
 
-  d. **Default Value**: Applicable in all field types. You can select what value to be pre-selected or pre-filled by default.
+  d. **Default Value**: Applicable in all field types. You can choose what value to be pre-selected or pre-filled by default.
      In case there are multiple options, you can select any one as the default value. 
 
     .. _adf-98.1:
@@ -497,12 +510,19 @@ The product has a simple drag and drop UI to create and arrange fields.
     .. _adf-98.2:
     .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-98.2.png
         :align: center
-        :alt: figure 98.2   
+        :alt: figure 98.2
+
+  f. **Label value**: Refers to a static chunk of text which is immutable and available only in a Label field.        
 
 **Rearrange Custom Field**
 
-You can arrange the fields using drag and drop. You can group fields in to sections (this feature is available for Request and Problem custom fields), and
-you can arrange custom fields in to a matrix using the section feature. 
+You can arrange the fields using drag and drop. You can group fields in to sections (this feature is available for Request, 
+Requestor, Feedback, Purchase, Contract and Problem custom fields), and
+you can arrange custom fields in to a matrix using the section feature.
+
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-94.7.png
+    :align: center
+    :alt: figure 94.7
 
 .. note:: The rearrange feature doesn't work when a field is in edit mode (Glance View is open). 
           The fields are movable when the move icon is visible. 
@@ -559,6 +579,13 @@ You can control the visibility of some default fields on the (Requestor Form) Cu
      :align: center
      :alt: figure 100.1.1
 
+Custom fields in Request also appear in the :ref:`Report module<create-tabular-report>`. Technicians can use custom fields in generating reports. 
+
+.. _adf-100.1.2:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-100.1.2.png
+     :align: center
+     :alt: figure 100.1.2
+
 **Problem**:
 
 Problem custom fields are available to Technicians on the **Create a Problem** page.
@@ -579,6 +606,9 @@ You can find the fields under the **Custom Fields** tab.
 You can make a field compulsory for certain Statuses. For example,
 if a field is compulsory in Open Status, then you cannot keep the
 field empty when changing to another Status. Please refer to the above :ref:`section <custom-field-reques>`.
+
+Custom fields in Problem also appear in the :ref:`Report module<create-tabular-report>` (as part of the column selection). 
+Technicians can use custom fields in generating reports. 
 
 **Change**:
 
@@ -609,6 +639,9 @@ You can mark a field as compulsory at a particular stage.
      :align: center
      :alt: figure 102.2
 
+Custom fields in Change also appear in the :ref:`Report module<create-tabular-report>` (as part of the column selection). 
+Technicians can use custom fields in generating reports.     
+
 **Asset**:
 
 You add a custom field either to an Asset Type (all sub-types will have the field) or a particular sub-type (specific).
@@ -629,13 +662,16 @@ Management manual to learn more.
 .. _adf-102.5:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-102.5.png
      :align: center
-     :alt: figure 102.5         
+     :alt: figure 102.5
+
+Custom fields in Asset also appear in the :ref:`Report module<create-tabular-report>` (as part of the column selection). 
+Technicians can use custom fields in generating reports. Remember, custom fields are specific to an Asset Type and a sub-type.               
 
 .. _requestor-custom-field:
 
 **Requestor Custom Field**
        
-Here Custom fields allow you to create new variables to store information about requestors.
+Here Custom fields allow you to create new variables to store additional information about requestors.
 
 You can create n number of text fields.
 
@@ -663,8 +699,25 @@ Custom fields are considered when mapping columns during CSV import of Requestor
 .. _adf-103.4:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-103.4.png
         :align: center
-        :alt: figure 103.4              
+        :alt: figure 103.4
 
+**Contract Custom Fields**
+
+Users can add Custom Contract Fields in the Contract module. Some of the use cases of having custom fields are:
+
+- Custom fields can be used for capturing additional information about a Contract.
+
+- Custom fields appear in the :ref:`Reporting module<new-custom-report>`, where you can generate reports using custom fields.
+
+- Custom fields are supported in CSV import of Contracts (as one of the header property values). Custom fields can be used to capture additional information during Contract
+  :doc:`CSV import <upload-contracts-csv>`.
+
+You can view and edit values of such fields from the Custom Fields tab in the :ref:`contract details view` of a Contract.
+
+.. _adf-103.5:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-103.5.png
+     :align: center
+     :alt: figure 103.5  
 
 .. _ad-category:
 
