@@ -9,3 +9,6 @@ Purchase Management
    marking-a-purchase-request
    create-a-po
    create-po-template
+   gl-code
+   currency
+   cost-center

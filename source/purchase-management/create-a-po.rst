@@ -23,7 +23,7 @@ creates a PO from the Purchase Request.
 
 **Creating a PO from a Request:**
 
-One benefit of creating  a PO for a Purchase Request is that it's automatically linked with the Request.
+One benefit of creating a PO for a Purchase Request is that it's automatically linked with the Request.
 
 - A Technician opens the :ref:`Request Details View` of the Purchase Request. 
 
@@ -52,3 +52,22 @@ One benefit of creating  a PO for a Purchase Request is that it's automatically 
 - A PO is created which is visible in the **Purchase** section (:numref:`pur-4`).    
 
 **Creating a PO from Purchase List View:**
+
+.. note:: Creating a PO directly from the Purchase List View will not create a Relationship with the Purchase Request. 
+
+- A Technician clicks on the Launcher icon from the Technician Dashboard. 
+
+- Then he selects **Purchase**.
+
+.. _pur-6:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/purchase-management/PUR-6.png
+    :align: center
+    :alt: figure 6
+
+- Purchase List View opens. Here all existing Purchase Orders are visible. He clicks on **Create a Purchase Order** situated in the
+  top right corner of the page to create a PO. 
+
+- A dialog box opens which is similar to :numref:`pur-5`. Clicking on **Create** directs the Technician to another page where he has
+  to fill in te details of the PO (:doc:`Learn More <edit-po>`). 
+
+- After filling the PO details, the Technician has the option to link the PO with a Purchase Request. 

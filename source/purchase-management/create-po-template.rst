@@ -32,9 +32,9 @@ Create PO Template
     b. Billing and Shipping addresses. A billing address is the address connected to a specific form of payment.
        The shipping address is where you want to receive your orders from the supplier. Both can be same.
 
-    c. **GL Code**: A serial number assigned to different debits and credits in General Ledger.
+    c. **GL Code**: A serial number assigned to different debits and credits in General Ledger (:doc:`Learn More <gl-code>`).
 
-    b. **Cost Center**:  It is a part of an organization to which costs may be charged for accounting purposes.
+    b. **Cost Center**:  It is a part of an organization to which costs may be charged for accounting purposes (:doc:`Learn More <cost-center>`).
 
     d. Signature of the signing authority.
 
@@ -46,7 +46,7 @@ Create PO Template
 
 **Editing a Template**
 
-You can edit existing Templates from the Purchase Template page. 
+You can edit/delete existing Templates from the Purchase Template page. 
 
 .. _pur-temp-3:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/purchase-management/PUR-TEMP-3.png
