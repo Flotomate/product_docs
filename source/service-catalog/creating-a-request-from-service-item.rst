@@ -12,6 +12,14 @@ A Request created using a Service Item has the following characteristics:
 
 - It has defined Task/Tasks, and Tasks are sometimes divided into stages.
 
+Based on the set :ref:`sc-use-case`, we have done the following things:
+
+- Created a :doc:`Service Category <create-service-category>`.
+
+- Created a :doc:`Service Template <creating-a-template>`.
+
+- Created a :doc:`Service Item <create-service-item>`.
+
 In the previous section, we had created a Service Item called :doc:`Employee On-Boarding (Marketing)<create-service-item>`.
 In this section, we will show you how it is used by Requestors in creating on-board Requests.
 

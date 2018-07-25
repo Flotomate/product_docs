@@ -683,28 +683,33 @@ across the following modules:
 
 -  Admin
 
+- Contract
+
+- Purchase
+
+- Report
+
 Default Roles
 -------------
 
 Flotomate offers eight default roles with predefined permissions
 covering major ITSM processes.
 
-+-----------------------+-----------------------+-----------------------+
-| Admin                 | Service Desk          | Problem Specialist    |
-|                       | Technician            | Technician            |
-+-----------------------+-----------------------+-----------------------+
-| Request Specialist    | Problem Specialist    | Change Specialist     |
-| Technician            | Technician            | Technician            |
-+-----------------------+-----------------------+-----------------------+
-| Asset Specialist      | Junior Technician     |                       |
-| Technician            |                       |                       |
-+-----------------------+-----------------------+-----------------------+
++-------------------------------+-------------------------------+------------------------------+
+| Contract Manager              | Purchase Manager              | Patch Specialist Technician  |
++-------------------------------+-------------------------------+------------------------------+
+| Junior Technician             | Asset Specialist Technician   | Change Specialist Technician |
++-------------------------------+-------------------------------+------------------------------+
+| Problem Specialist Technician | Request Specialist Technician | Service Desk Technician      |
++-------------------------------+-------------------------------+------------------------------+
+| Admin                         |                               |                              |
++-------------------------------+-------------------------------+------------------------------+
 
 Add/View Roles
 --------------
 
 -  In the **Admin** section, you can view all the roles in Roles
-   (in Users) page. Click any one role to view its permissions and rights.
+   (under Users) page. Click any one role to view its permissions and rights.
 
 .. _adf-27:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-27.png
@@ -712,7 +717,7 @@ Add/View Roles
     :alt: figure 27
 
 -  You add a custom role by going back to the **Roles** page and
-   clicking **Add Roles** situated in the top right corner of the page.
+   clicking **Create a Role** situated in the top right corner of the page.
    We have the permissions and rights grouped module wise. Click any one
    module to see its rights and permissions.
 
@@ -833,6 +838,34 @@ Add/View Roles
     |           | -  Manage automation in the product.             |
     |           |                                                  |
     |           | -  Ignore approvers in an Approval process.      |
+    +-----------+--------------------------------------------------+ 
+    | Contract  | - View Contracts                                 |
+    |           |                                                  |
+    |           | - Update and Create Contracts                    |
+    |           |                                                  |
+    |           | - Delete Contracts                               |
+    |           |                                                  |
+    |           | - Manage attachments of Contracts                |
+    |           |                                                  |
+    |           | - Contract Renewal                               |
+    |           |                                                  |
+    |           | - Manage relationships of Contracts              |
+    +-----------+--------------------------------------------------+
+    | Purchase  | - View Purchase Order                            |
+    |           |                                                  |
+    |           | - Create and update Purchase Order               |
+    |           |                                                  |
+    |           | - Delete Purchase Orders                         |
+    |           |                                                  |
+    |           | - Manage invoice and payments                    |
+    |           |                                                  |
+    |           | - Manage relationships of PO                     |
+    |           |                                                  |
+    |           | - Closing POs                                    |
+    |           |                                                  |
+    |           | - Cancel Purchase Order                          |
+    +-----------+--------------------------------------------------+
+    | Report    | - View and manage Reports                        |
     +-----------+--------------------------------------------------+
 
 -  Once you are done with the permissions and rights, hit **Create** to

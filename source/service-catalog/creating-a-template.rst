@@ -58,6 +58,13 @@ to create Request for on-boarding of new employees in the Marketing department. 
     :align: center
     :alt: figure 12
 
+You can select what default fields to show on the Service Item Request form.
+
+.. _scf-12.1:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/service-catalog/SC-12.1.png
+    :align: center
+    :alt: figure 12.1    
+
 **Create Workflow**
 
 Workflow automation enables Administrators to channel tickets through a funnel with predefined rules.
@@ -178,8 +185,13 @@ In the new page, we give a name, parameters and actions:
        :align: center
        :alt: figure 18.1
 
-Any Request (made using the template) having the Department Marketing will require approval from a Technician
-before resolving or closing.     
+Any Request (made using the template) having the Department Marketing will have the following output:
+
+- A two stage Approval will be created. 
+
+- Each stage of the Approval will have a single Approver.
+
+- Stages will have an order (:ref:`Learn More <Multiple Approvals>`)
 
 
 **Adding Tasks**
@@ -196,6 +208,11 @@ before resolving or closing.
 
 - We create three stages (we define a stage by adding a task to it) with each having one task.
 
+Things to Remember:
+
+- The Task thread created here will not be disturbed by a Task created manually in the Request.
+
+- Tasks of one stage is visible at a time.
 
 Now we are done with everything. We have two options now: either publish the Template or leave it as Draft. We publish the Template
 using the **Publish** button. The Template gets activated.

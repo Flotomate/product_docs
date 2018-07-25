@@ -3,7 +3,15 @@ Creating a Service Item
 ***********************
 
 A Service Item allows you to actually use a Template. It generates a visual que through 
-which a Requestor can communicate with a Template and create Request.
+which a Requestor can interact with a Template and create Request.
+
+Based on the set :ref:`sc-use-case`, we have done the following things:
+
+- Created a :doc:`Service Category <create-service-category>`.
+
+- Created a :doc:`Service Template <creating-a-template>`.
+
+Now we are going to create a Service Item. 
 
 **To Create a Service Item**
 
@@ -35,6 +43,9 @@ which a Requestor can communicate with a Template and create Request.
       :align: center
       :alt: figure 24
 
+   .. note:: When creating a Service Item from Admin >> Service page, there will be a field called Service Template where
+             you have to select a Service Catalog Template. 
+   
    a. Name of the Service
 
    b. **Group Access Level**: You can restrict access to Requestors belonging to a particular group on Custom Portal. But the

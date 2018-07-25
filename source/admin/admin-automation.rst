@@ -513,12 +513,77 @@ type:
 
       ii. In case minimum 50% people approves, you can ignore the rest 50% without affecting the Approved status.
 
-Multiple Approval
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+-  You can create multiple stages in an Approval with each having their own set of Approvers.       
+
+Multiple Approvals
+^^^^^^^^^^^^^^^^^^
 
 **Set Multiple Approval Stages in a Single Approval**
 
-You can set
+You can set stages in an Approval (refer :numref:`adf-49`) with each having their own set of Approvers. You can select the Approval type for each stage as 
+either Unanimous or Majority. All stages will be part of a single Approval when created in a ticket.
+
+.. _adf-49.1:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-49.1.png
+    :align: center
+    :alt: figure 49.1
+
+Things to Remember:
+
+- All stages are created when an Approval is initiated in a ticket.
+
+- The Approval type between the stages doesn't follow the Global Approval Settings.
+
+- There's a top down hierarchy followed by the stages. In other words, stages in the top are given priority over the ones at the bottom.
+  Stages get activated one at a time; at any point a stage gets rejected then the entire Approval is rejected; 
+  if there are stages below a rejected stage then they are ignored too. 
+
+.. _adf-49.2:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-49.2.png
+    :align: center
+    :alt: figure 49.2
+
+.. _adf-49.3:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-49.3.png
+    :align: center
+    :alt: figure 49.3
+
+- Technicians can pre-approve a stage by ignoring the Approvers (Given he has the right to ignore Approvers).
+
+- Each stage will have its own Approval Type. 
+
+- Using the Re-Approve option (in an Approval) closes all the stages and creates a duplicate (with all the stages).
+
+.. _adf-49.4:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-49.4.png
+    :align: center
+    :alt: figure 49.4
+
+**When Multiple Approvals are created**
+
+An Approval workflow is triggered when a ticket meets its conditions. It may happen that a ticket might trigger multiple Approval
+workflows; in that case, multiple Approvals will be created for that ticket. You know there are multiple Approvals (in a ticket) when you can see their
+approvers. 
+
+.. _adf-49.5:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-49.5.png
+    :align: center
+    :alt: figure 49.5
+
+You can decide what kind of Approval Type (either Unanimous or Majority) to follow between Approvals from Approval Settings.
+
+.. _global-approval-settings:
+
+**Global Approval Settings**
+
+- Go to Admin >> Approval Workflow.
+
+- Open Approval Settings dialog box. 
+
+.. _adf-49.6:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-49.6.png
+    :align: center
+    :alt: figure 49.6
 
 
 Creating an Approval Workflow
