@@ -8,6 +8,18 @@ Purchase Management
    purchase-management-workflow
    marking-a-purchase-request
    create-a-po
+   assigning-a-po
+   purchase-list-view
+   searching-po
+   purchase-details-view
+   edit-po-details
+   print-po
+   cancel-po
+   archive-po
+   audit-trail-po
+   po-relations
+   po-attachments
+   po-notifications
    create-po-template
    gl-code
    currency

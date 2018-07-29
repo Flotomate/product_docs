@@ -21,7 +21,8 @@ has to fill in the PO details and save it.
 Based on our :ref:`Use Case <pur-use-case>`. A Request was marked as a Purchase Request by a Technician. A Technician moves forward and
 creates a PO from the Purchase Request. 
 
-**Creating a PO from a Request:**
+Creating a PO from a Request
+=============================
 
 One benefit of creating a PO for a Purchase Request is that it's automatically linked with the Request.
 
@@ -51,7 +52,8 @@ One benefit of creating a PO for a Purchase Request is that it's automatically l
 
 - A PO is created which is visible in the **Purchase** section (:numref:`pur-4`).    
 
-**Creating a PO from Purchase List View:**
+Creating a PO from Purchase List View
+======================================
 
 .. note:: Creating a PO directly from the Purchase List View will not create a Relationship with the Purchase Request. 
 
@@ -68,6 +70,6 @@ One benefit of creating a PO for a Purchase Request is that it's automatically l
   top right corner of the page to create a PO. 
 
 - A dialog box opens which is similar to :numref:`pur-5`. Clicking on **Create** directs the Technician to another page where he has
-  to fill in te details of the PO (:doc:`Learn More <edit-po>`). 
+  to fill in te details of the PO (:doc:`Learn More <edit-po-details>`). 
 
-- After filling the PO details, the Technician has the option to link the PO with a Purchase Request. 
+- After filling the PO details, the Technician has the option to link the PO with a Purchase Request (:doc:`Learn More <po-relationships>`).

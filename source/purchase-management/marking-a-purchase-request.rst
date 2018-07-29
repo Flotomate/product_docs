@@ -28,7 +28,7 @@ five laptops for their new recruits. The Request has an assigned Technician who 
 
 - The Request is marked as a Purchase Request. A label in :numref:`pur-3` shows the Request as a Purchase Request. 
 
-.. note:: Related Topic: :doc:`How to Create a Request <creating-a-request>`. 
+.. note:: **Related Topic**: :ref:`How to Create a Request <creating a request>`. 
 
 **Un-marking a Request:**
 

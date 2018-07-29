@@ -41,7 +41,8 @@ Use Case:
 =========
 
 Fictitious Inc is on-boarding five people in the Marketing department. A person from the HR department has filed a Request with the Helpdesk
-to allot five laptops to the new recruits. A Technician who is assigned (it could be any other Technician) to the Request takes the following actions to resolve the Request.
+to allot five laptops to the new recruits. A Technician who is assigned (Learn More About :doc:`Assignment <assigning-a-po>`) 
+(it could be any other Technician) to the Request takes the following actions to resolve the Request.
 
 .. note:: Purchase is a multi-stage process. Learn about the entire :doc:`Purchase Management workflow <purchase-management-workflow>`.
 
@@ -49,4 +50,4 @@ to allot five laptops to the new recruits. A Technician who is assigned (it coul
 
 - (A Technician with :ref:`PO rights <Technician Roles>`) Creates a Purchase Order and links it with the Request. (:doc:`Learn More <create-a-po>`).
 
-- 
+- Updates the PO details (:doc:`Learn more <edit-po-details>`)

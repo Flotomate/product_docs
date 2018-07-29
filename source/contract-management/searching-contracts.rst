@@ -73,7 +73,7 @@ The saved search queries appear on top of the :doc:`contract-list-view`.
 Using Filters
 =============
 
-The product has filters to sort Contracts List using the following
+The module has filters to sort the Contracts List using the following
 criteria:
 
 - Duration of the Contracts.
