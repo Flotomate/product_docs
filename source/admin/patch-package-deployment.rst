@@ -133,159 +133,23 @@ Endpoint Scope
 ==============
 
 Depending on the License agreement you have with us, the number of
-Computers you can manage with the product (for remote deployment) is
+Computers you can manage with Patch Management is
 limited. All discovered Computers (with our Agent application) stay out
 of the scope of the product by default; you have to bring them within
-the scope before you can use our product features.
+the scope before you can use Patch Management.
 
 The Endpoint Scope lets you view all available Computers (not in the
 Scope) and add them to the Scope. You can set certain conditions that
 allow the product to add any new Computers automatically. You can also
 add Computers manually.
 
-There is a counter that shows how many Computers are within the scope
-and how many you can still add. In no situation, you can exceed the
-total number of Computers you are allowed to add to the Scope.
+There is a counter that shows how many Computers are within the scope. 
+In no situation, you can exceed the total number of Computers you are allowed to add to the Scope.
 
 .. note:: Only Computers configured with our Agent Application is visible
           on Endpoint Scope.
 
-Add Computers to a Scope
-------------------------
-
--  Go to **Admin** (accessed from **Product Launcher**) >> **Endpoint
-   Scope** (Patch/Package Management).
-
-.. _adf-123:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-123.png
-    :align: center
-    :alt: figure 123
-
--  The Endpoint Scope page opens.
-
-.. _adf-124:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-124.png
-    :align: center
-    :alt: figure 124
-
-
--  You can view the total number of Computers that you can add from the
-   Total Endpoint Scope number. The Total Available shows you the number
-   of Computers you can still add to reach the Total Endpoint Scope
-   number.
-
-.. _adf-125:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-125.png
-    :align: center
-    :alt: figure 125
-
-
-**Adding a Network (Automatic Addition of Computers)**
-
--  You can associate a Network with a Scope; this allows the Scope to
-   automatically add Computers (with the Agent application) in the
-   Network based on include and exclude conditions. You can use both
-   manual and automatic addition of Computers together; they are not
-   mutually exclusive.
-
-.. _adf-126:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-126.png
-    :align: center
-    :alt: figure 126
-
-
--  Once you select a Network, you now have to add conditions. The
-   conditions are of two types: include and exclude. Both the types
-   create a set of Computers from which to either include or exclude.
-   When there’s an intersection or conflict between the two types then
-   exclude conditions/condition override the include set. For example,
-   to add Computers within an IP range with a hostname containing “Digi”
-   and excluding those with Linux OS, yields the following conditions:
-
-.. _adf-127.1:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-127.1.png
-    :align: center
-    :alt: figure 127.1
-
-.. _adf-127.2:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-127.2.png
-    :align: center
-    :alt: figure 127.2
-
-
-**Manual Adding Computers**
-
--  You can manually search and add Computers to a scope. The search bar
-   supports the Advanced Search feature where you get search options by
-   clicking on the search bar.
-
-    .. _adf-128.1:
-    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-128.1.png
-        :align: center
-        :alt: figure 128.1
-
-    .. _adf-128.2:
-    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-128.2.png
-        :align: center
-        :alt: figure 128.2
-
-
-   You can also enter keywords to search for a Computer. When entering a
-   keyword, the product explores all the Computers with the keyword in
-   their Name, Hostname, Domain name, OS name and Service Pack. A Computer
-   has to have at least one field matched (partial or full) with the
-   keyword; in case there are multiple keywords, a Computer has to have at
-   least one field matched for each keyword.
-
-   You can combine search options with keywords. Between two different
-   conditions of the same type OR logic is followed. Between different
-   types AND logic is observed. An example of same type contradiction is OS
-   Name contains Windows vs. OS Name contains Linux.
-
-.. _adf-129:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-129.png
-    :align: center
-    :alt: figure 129
-
--  Once you have found your Computers, add by selecting them, and they
-   move to the Selected Computers list. Manually selected Computers
-   override the exclude criteria/conditions set under the Network.
-
-.. _adf-130:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-130.png
-    :align: center
-    :alt: figure 130
-
--  Once you are done setting conditions and adding Computers, click on
-   **Update**.
-
--  You can create more than one Scope to accommodate multiple Networks
-   (a Scope can have only one Network). The actual Computer list is
-   cumulative of all available Scopes (added manually and
-   automatically).
-
-.. _adf-131:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-131.png
-    :align: center
-    :alt: figure 131
-
-Preview Computer List
----------------------
-
-Once you are done with adding Computers and setting conditions, you can
-view the final list of all the Computers (added manually and
-automatically) in all Scopes using the Preview function.
-
-Open Endpoint Scope from **Admin**. Click on **Preview** to generate the
-Computer list.
-
-.. _adf-132:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-132.png
-    :align: center
-    :alt: figure 132
-
-You can search for a Computer. The search bar supports the Advanced
-Search feature. It is similar to the search bar in a Scope.
+Learn More about :doc:`Endpoint Scope <config-endpoint-scope>`
 
 Approval Settings
 =================
@@ -341,3 +205,29 @@ Patch Approval Setting (Selecting an Approval Method)
        this setting.
 
 -  Select an Approval Type and hit **Update**.
+
+Remote Office
+=============
+
+Modern organizations are geographically dispersed. They have offices at different locations all controlled from a main office. Offices that are
+away from the main office are termed as Remote Offices. It may happen that all the offices of an organization form part of a single 
+network. Individual offices can have a relay server: A relay server is used to allow communications from outside a company's firewall 
+to internal Servers.  
+
+In order to accommodate such situations, we have the following Patch Management features:
+
+- A user can create a group of computers for a location and save it as a Remote Office. 
+
+- A user can add a Remote Office in a scope instead of individual computers for Patch Management.
+
+- Users can point a Remote Office to a relay Server. This is useful when there are multiple offices, and the admin doesn't want them
+  to hog the central server for Patch download. This is why we have the feature that allows a Remote Office to download Patches from a 
+  local shared drive (routed via relay server). 
+
+Learn More about :doc:`Remote Office <remote-office>`
+
+Batch Deployment
+================
+
+As an admin, you can control the deployment process
+

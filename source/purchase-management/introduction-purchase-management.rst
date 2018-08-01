@@ -35,6 +35,8 @@ Purchase Management tries to streamline the purchase function of an Organization
 
 - Custom fields in a Purchase Order.
 
+.. note:: Any activity related to Purchase requires :ref:`specific rights <Technician Roles>`.
+
 .. _pur-use-case:
 
 Use Case:
@@ -51,3 +53,9 @@ to allot five laptops to the new recruits. A Technician who is assigned (Learn M
 - (A Technician with :ref:`PO rights <Technician Roles>`) Creates a Purchase Order and links it with the Request. (:doc:`Learn More <create-a-po>`).
 
 - Updates the PO details (:doc:`Learn more <edit-po-details>`)
+
+- Takes the PO through all its :doc:`po-stages`.
+
+- Finally closes the PO
+
+- Reconcile purchased assets once in use (:doc:`po-asset-reconciliation`). 

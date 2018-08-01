@@ -200,6 +200,8 @@ To add business hours:
 6. Set holidays and write a small description. Click **Add** to add
    your new business hours.
 
+.. _ad-location:
+
 Location 
 ========
 

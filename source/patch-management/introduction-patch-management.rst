@@ -22,7 +22,7 @@ systematic way. It also includes the administrative decision of deciding
 which Patches are appropriate for deployment and documenting procedures
 like required configurations.
 
-Patch Management is vital for managing the lifecycle of an Asset, and
+Patch Management is vital for managing the life-cycle of an Asset, and
 Flotomate provides a comprehensive tool that handles all aspects of
 Patch Management intuitively and efficiently.
 

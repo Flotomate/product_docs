@@ -38,6 +38,7 @@ There are three ways to create a Deployment Request in the product:
    publishes a Deployment Request.
 
 .. _manually-create-request:
+
 Manually Creating a Request
 ===========================
 
@@ -221,6 +222,7 @@ Adding a Deployment Request from a Computer’s Details View:
    Deployment Requests <manually-create-request>`.
 
 .. _deployment-request-approval:
+
 Approval
 ========
 
@@ -360,6 +362,7 @@ status as Ignored in Approval details dialog box of the Article.
    :alt: figure 78
 
 .. _searching-deployment-request:
+
 Searching Deployment Requests
 =============================
 

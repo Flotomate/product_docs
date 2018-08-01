@@ -4,7 +4,7 @@ Contract Management
 .. toctree::
    :maxdepth: 3
 
-   introduction-contract-Management
+   introduction-contract-management
    create-a-contract
    uploading-contracts-csv
    contract-list-view

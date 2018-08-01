@@ -20,7 +20,9 @@ Purchase Management
    po-relations
    po-attachments
    po-notifications
+   po-stages
    create-po-template
    gl-code
    currency
    cost-center
+   po-custom-field

@@ -643,11 +643,11 @@ Setting Email Notifications
 
 Flotomate has 67 predefined email notifications that are sent on
 particular events. Emails notifications are useful in keeping
-stakeholders up to date on certain aspects of the product. You have
+stakeholders up to date with the operations of the product. You have
 complete control over the content of the notifications, and you can even
 turn them off if required.
 
-:ref:`Request Feedback <request feedback settings>` has a dependence on
+:ref:`Request Feedback <request feedback settings>` feature has a dependence on
 Email Notifications. Certain notifications need to be on for feedback to
 work.
 
@@ -672,9 +672,13 @@ View Email Notifications
 
     e. Knowledge (4 Notifications)
 
-    f. Patch (4 Notifications)
+    f. Patch (6 Notifications)
 
     g. Package (4 Notifications)
+
+    h. Contract (6 Notifications)
+
+    i. Purchase (11 Notifications)
 
 .. _adf-51:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-51.png
@@ -686,7 +690,7 @@ View Email Notifications
 Modify Content of a Notification
 --------------------------------
 
--  Go to the Email Notifications page.
+-  Go to the :ref:`Email Notifications <View Email Notifications>` page.
 
 -  Click on a Notification or the Edit Icon adjacent to a Notification.
 
