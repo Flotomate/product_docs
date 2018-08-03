@@ -10,7 +10,7 @@ You have complete control over Computers with respect to the following:
 
 -  What Patches to deploy?
 
--  How to deploy the Patches (:doc:`Deployment Policy <deployment-policy>`).
+-  How to deploy the Patches (:doc:`Deployment Policy <deployment-policy>` and :doc:`batch-deployment`).
 
 The product shows you vital info about the Computers with respect to the
 following:
@@ -22,6 +22,7 @@ following:
 -  Connection status of a Computer with the main server.
 
 .. _computer-list-view:
+
 Computer List View
 ==================
 
@@ -65,18 +66,23 @@ Computers that are available in the system.
 
    b. Hostname of the Computer.
 
-   c. The OS platform of the Computer.
+   c. The platform and OS name of the Computer.
 
-   d. Service Pack Details.
+   d. Architecture info either 32bit or 64bit.
 
-   e. Domain Details
+   e. Service Pack Details.
 
-   f. IP address of the Computer
+   f. Agent Version details
+
+   g. IP address of the Computer
+
+   h. Name of the associated remote office.
 
 -  Section D is where you can control the number of Computers visible on
    a page. You can set a default number from the Preference section.
 
 .. _active-status-computer:
+
 Active Status of a Computer
 ===========================
 
@@ -86,17 +92,13 @@ the associated marker. The marker has two colours: **green** signifying
 the Computer is active and communicating, and **yellow** signifying the
 Computer is offline.
 
-.. _pf-101.1:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-101.1.png
-   :align: center
-   :alt: figure 101.1
-
 .. _pf-101.2:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-101.2.png
    :align: center
    :alt: figure 101.2
 
 .. _searching-computer:
+
 Searching Computers
 ===================
 
@@ -108,6 +110,7 @@ View <computer-list-view>`:
 -  Using Filters
 
 .. _search-bar-2:
+
 Search Bar
 ----------
 
@@ -141,6 +144,7 @@ of same option type contradiction is OS Name contains Windows vs. OS
 Name contains Linux.
 
 .. _filters-2:
+
 Filters
 -------
 
@@ -152,6 +156,7 @@ number of missing Patches. Learn more about :ref:`Computer Health
 Management <computer-health>`.
 
 .. _computer-details-view:
+
 Computer’s Details View
 =======================
 
@@ -223,6 +228,7 @@ that shows additional information and provides deployment options.
         :ref:`statuses <deployment-status>`.
 
 .. _computer-health:
+
 Computer Health Management
 ==========================
 

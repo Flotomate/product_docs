@@ -2,11 +2,11 @@
 Currency
 ********
 
-Flotomate ITSM allows a Technician to add a Currency with a monetary value. You can add a Currency in the following places:
+Flotomate ITSM allows a Technician to add a Currency with a monetary value. You can add a Currency in the following:
 
-- Contract
+- In a Contract
 
-- Purchase Order
+- In a Purchase Order
 
 Adding a Currency
 =================
@@ -31,7 +31,7 @@ Adding a Currency
 The Currency is now visible on the Currency page. In the Currency page, you can search for a Currency using the search bar. The search bar has
 pre-defined options that you can access by clicking on it. 
 
-**Editing GL Code**
+**Editing Currency**
 
 You can edit/delete an existing Currency from the Currency page.
 

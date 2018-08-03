@@ -24,6 +24,7 @@ to the following:
 -  Connection status of a Computer with the main server.
 
 .. _sp-computer-list-view:
+
 Computer List View
 ==================
 

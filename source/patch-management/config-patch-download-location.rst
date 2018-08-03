@@ -16,6 +16,7 @@ To facilitate the download process, you need to configure two things:
 Proxy Server and Shared Drive configuration.
 
 .. _proxy-settings:
+
 Configuring Proxy Settings 
 ==========================
 
@@ -69,6 +70,7 @@ Select an option and provide the required inputs. Hit **Update** to save
 your changes. Now you have successfully configured your Proxy settings.
 
 .. _share-drive:
+
 Configuring Shared Drive
 ========================
 
@@ -112,6 +114,7 @@ when Patches don’t have a locally stored Package file.
    are done with everything, click on **Update** to save your changes.
 
 .. _configuring-package-location-single-patch:
+
 Configuring Package Location for a single Patch
 ===============================================
 

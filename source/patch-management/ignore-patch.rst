@@ -24,6 +24,7 @@ There are two ways to ignore Patches: manual and automatic (**Decline
 Patch Configuration**)
 
 .. _manual-ignore-patch:
+
 Manually Ignore Patches
 =======================
 
@@ -52,6 +53,7 @@ Manually Ignore Patches
    :alt: figure 56
 
 .. _decline-patch-configuration:
+
 Decline Patch Configuration
 ===========================
 
@@ -65,12 +67,12 @@ A decline configuration jumps into action whenever a Computer demands a
 Patch. It checks whether the Patch is part of any DC and updates the
 Patch database accordingly. Patches ignored automatically are also added
 to the global ignored list, but you can drill down to the specific
-Computers where they have been ignored using the product UI.
+Computers where they have been ignored using the UI features.
 
 We now create a Decline Patch Configuration that ignores Windows
-Defender updates for a Computer Group called Alpha.
+Defender patches for the Computer Group Alpha.
 
-.. note:: The maximum decline configurations you can create is ten.
+.. note:: The maximum number of decline configurations you can create is ten.
 
 -  We go to **Patch** from the **Launcher**.
 
@@ -85,16 +87,14 @@ Defender updates for a Computer Group called Alpha.
    existing decline configurations. We click on **Create Configuration**
    situated in the top right corner of the page.
 
--  The Create page opens. We provide a name, description and define the
-   platform for the configuration.
+-  The Create page opens. We provide a name and description.
 
 .. _pf-58:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-58.png
    :align: center
    :alt: figure 58
 
--  Based on the platform selected, we see the Patches and application
-   for selection.
+-  We see the Patches and application for selection. Selected Applications and Patches are considered as a whole.  
 
 .. _pf-59:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-59.png
@@ -102,7 +102,7 @@ Defender updates for a Computer Group called Alpha.
    :alt: figure 59
 
 -  We select the application Windows Defender (:numref:`pf-59`). All existing
-   and future Patches of Windows Defender for the Computer Group are
+   and future Patches of Windows Defender for the target computers are
    ignored. We can also select individual Patches for ignoring or mix
    things up by using both application and Patches.
 
@@ -118,10 +118,23 @@ Defender updates for a Computer Group called Alpha.
    :align: center
    :alt: figure 60.2
 
--  We select the Computer Group Alpha in the same way we selected the
-   application. We can select multiple groups.
+.. _pf-60.3:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-60.3.png
+   :align: center
+   :alt: figure 60.3
 
--  We click on **Create** to save our configuration.
+-  We have set a Remote Office and a include condition that will select computers belonging to the Alpha group. 
+   Here you can set the following things:
+
+   a. Set a :ref:`Remote Office <add-remote-office>`. This will allow auto selection of multiple computers from a Remote Office's 
+      network may or may not be based on include and exclude conditions. 
+
+   b. Set :ref:`individual <Adding of Computers from List>` computer 
+
+   
+   c. Set a different :ref:`Scope<Adding Multiple Scopes>` (Target) if there are multiple Remote Offices.    
+
+-  We click on **Create** to save our decline configuration.
 
 -  Later we can edit the decline configuration from the Decline Patch
    Configuration page.
@@ -132,6 +145,7 @@ Defender updates for a Computer Group called Alpha.
    :alt: figure 61
 
 .. _un-ignore-patches:
+
 Un-Ignoring Patches
 ===================
 
@@ -140,4 +154,4 @@ whether they have been manually ignored or by a decline configuration.
 
 The process of un-ignoring is same as :ref:`manually ignoring a
 Patch <manual-ignore-patch>` where instead Ignore button you get
-Un-Ignore button. When you ignore a Patch, it happens globally.
+Un-Ignore button. When you un-ignore a Patch, it happens globally.

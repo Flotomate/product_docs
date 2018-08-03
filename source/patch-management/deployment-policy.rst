@@ -39,13 +39,15 @@ notifications.
 ::
     a. **Name**: This field allows you to give a name to the policy.
 
-    b. **Initiate Policy**: You can instruct Computers to install the Patches immediately or during a system startup.
+    b. **Apply on Every Startup**: You can instruct the product server to send command to a Computer on every startup.
 
-    c. **Reboot Policy**: You can instruct Computers to perform a reboot, shutdown or do nothing after a successful installation.
+    c. **Initiate Policy**: You can instruct Computers to install the Patches immediately or during a system startup.
 
-    d. **Allow-user-to-skip-deployment**: Do you want to give the users of Computers the option to skip a deployment?
+    d. **Reboot Policy**: You can instruct Computers to perform a reboot, shutdown or do nothing after a successful installation.
 
-    e. **Notify-user-before-deployment**: Do you want to notify the users of Computers before a deployment. 
+    e. **Allow-user-to-skip-deployment**: Do you want to give the users of Computers the option to skip a deployment?
+
+    f. **Notify-user-before-deployment**: Do you want to notify the users of Computers before a deployment. 
        If you select **Yes,** then two new fields appear where you have to add a title and a message for the users.
    
 5.  Fill in the fields and click **Add** to add the policy to the product list 
@@ -56,11 +58,6 @@ notifications.
 -  Go to the Deployment Policy page.
 
 -  Click on the Edit Icon adjacent to the policy which you want to edit.
-
-.. _pf-41:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-41.png
-   :align: center
-   :alt: figure 41
 
 -  Click on **Update** after performing the edits.
 

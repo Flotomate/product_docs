@@ -46,7 +46,10 @@ Add Computers to a Scope
    :align: center
    :alt: figure 3
 
-**Adding a Remote Office (Automatic Addition of Computers)**
+.. _add-remote-office:   
+
+Adding a Remote Office (Automatic Addition of Computers)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 -  You can associate a :doc:`Remote Office <remote-office>` with a Scope; this allows the Scope to
    automatically add Computers (with the Agent application) in the
@@ -61,13 +64,15 @@ Add Computers to a Scope
    :align: center
    :alt: figure 4
 
--  Once you select a Remote Office, you now have to add conditions. The
+-  Once you select a Remote Office, you can add conditions. The
    conditions are of two types: include and exclude. Both the types
    create a set of Computers from which to either include or exclude.
    When there’s an intersection or conflict between the two types then
    exclude conditions/condition override the include set. For example,
    to add Computers within an IP range with a hostname containing “Digi”
    and excluding those with Linux OS, yields the following conditions:
+
+   .. note:: Without include and exclude conditions, all Computers in a Remote office will be added.
 
 .. _P-5.1:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-5.1.png
@@ -79,7 +84,8 @@ Add Computers to a Scope
    :align: center
    :alt: figure 5.2
 
-**Manual Adding Computers**
+Adding of Computers from List
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 -  You can manually search and add Computers to a scope. The search bar
    supports the Advanced Search feature where you get search options by
@@ -125,6 +131,11 @@ Add Computers to a Scope
 -  Once you are done setting conditions and adding Computers, click on
    **Update**.
 
+.. _endpoint-scope:
+
+Adding Multiple Scopes
+^^^^^^^^^^^^^^^^^^^^^^
+
 -  You can create more than one Scope to accommodate multiple Remote Offices
    (a Scope can have only one Remote Office). The actual Computer list is
    cumulative of all available Scopes (added manually and
@@ -135,7 +146,13 @@ Add Computers to a Scope
    :align: center
    :alt: figure 9
 
+.. _P-9.1.1:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-9.1.1.png
+   :align: center
+   :alt: figure 9.1.1   
+
 .. _preview-scope-list:
+
 Preview Computer List
 ---------------------
 
