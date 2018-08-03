@@ -13,5 +13,7 @@ Package Management
    searching-packages
    managing-software-packages
    sp-setting-up-a-deployment-policy
+   package-batch-deployment
    sp-deployment-request
+   uninstall-packages
    sp-computer-management

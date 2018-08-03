@@ -122,7 +122,7 @@ single Asset in Flotomate.
 
 .. _change-name-description-asset:
 
-Change (Host)Name and Description of an Asset
+Change (Host) Name and Description of an Asset
 =======================================
 
 Section-A (:numref:`amf-14`) shows the ID and Name (by default host name in case of Hardware Asset) of the Asset. The ID

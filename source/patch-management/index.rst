@@ -20,6 +20,7 @@ Patch Management
    ignore-patch
    deployment-request
    automatic-patch-deployment
+   uninstall-deployment-request
    computer-management 
 
 

@@ -35,7 +35,7 @@ having Computer Groups can be convenient are as follows:
 
 -  A new page opens. Here you can view all the Computers added to the
    :ref:`Endpoint scope <add-computer-scope>`. You get options to
-   select Computers manually and automatically from a Network (based on
+   select Computers manually and automatically from a Remote Office (can be filtered using
    include and exclude conditions).
 
 .. _P-12:
@@ -43,16 +43,26 @@ having Computer Groups can be convenient are as follows:
    :align: center
    :alt: figure 12
 
--  Provide a name to the Computer Group.
+-  In section A of :numref:`P-12`, enter a name and description of the group.
 
 -  In whatever way you select Computers, they all become part of the
-   group. The manual and automatic methods of selection are
-   similar to the ones used for adding Computers to an :ref:`Endpoint scope <add-computer-scope>`.
+   group. Add a remote office to the first scope. Learn how to add a :ref:`Remote Office <add-remote-office>`. 
 
--  Add the Computers and click on **Create** to save the group.
+-  You can add additional computers from the list, if any. Learn how to add :ref:`Additional Computers <Adding of Computers from List>`
 
--  You can review the Computer list of a group from the Computer Group
-   page.
+-  You can create multiple scopes, each having their own Remote Office and additional computers, and the group will be
+   a cumulative of all the Scopes. Learn more about :ref:`Scopes <endpoint-scope>`.   
+
+-  When done, click on **Create** to save the group.
+
+You can review computers in each Scope before adding them to a group. You also preview computers of a group (after creation) from 
+Computer Group page.  
+
+
+.. _P-12.1:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-12.1.png
+   :align: center
+   :alt: figure 12.1
 
 .. _P-13.1:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-13.1.png
@@ -64,10 +74,10 @@ having Computer Groups can be convenient are as follows:
    :align: center
    :alt: figure 13.2
 
--  You can search for a Computer Group using the search bar (Figure 13)
-   which supports Advance Search and is similar to the one used for
-   searching Computers in an :ref:`Endpoint scope <add-computer-scope>`. You can open the details of any
-   Computer Group by click on it.
+You can search for a Computer Group using the search bar (Figure 13)
+which supports Advance Search and is similar to the one used for
+searching Computers in an :ref:`Endpoint scope <add-computer-scope>`. You can open the details of any
+Computer Group by click on it.
 
 **Edit/Delete Groups**
 
@@ -79,13 +89,14 @@ You can edit and delete any Computer Group.
    :alt: figure 14
 
 .. _view-archived-groups:
-View Archived Groups
+
+View Deleted Groups
 --------------------
 
-When a group is archived, we store the group details in a separate
+When a group is deleted, we store the group in a separate
 section for future reference. It is because even when a group gets
 deleted, it stays active in associated Deployment Requests.
 
-You can view all archived groups in the Computer Group page by clicking
-**Archive Computer Group** button situated in the top right corner. You
+You can view all archived groups in the Computer Group page by clicking on
+**Archive Computer Group** (refer :numref:`P-14`). You
 can also preview the Computer list of an archived group.

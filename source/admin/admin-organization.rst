@@ -59,6 +59,11 @@ The Account page is divided in to three sections; they are as follows:
 
     h. Time zone of the company.
 
+    i. Base currency in which the organization does all its transactions. When required, the base currency is converted against a
+       foreign currency in the system list (Learn how to add a :ref:`Currency <Adding a Currency>`)
+
+    j. The Activation Code in use is visible here.  
+
 - Once you are done inputting data, click on **Update** to save the
   information.
 

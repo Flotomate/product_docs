@@ -21,6 +21,7 @@ Purchase Management
    po-attachments
    po-notifications
    po-stages
+   po-asset-reconciliation
    create-po-template
    gl-code
    currency
