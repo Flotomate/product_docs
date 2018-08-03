@@ -19,7 +19,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = u'ITSM Product Documentation'
+project = u'Flotomate ITSM Documentation'
 copyright = u'2018, Flotomate Technologies Private Limited'
 author = u'Flotomate Technologies Private Limited'
 
