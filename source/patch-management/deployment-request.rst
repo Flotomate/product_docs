@@ -93,7 +93,7 @@ Manually Creating a Request
 
         ii.  Section-B has a search bar for searching all available Patches for
              the selected platform. The search bar supports the Advanced Search
-             feature. Learn how to use :ref:`Advanced Search <advanced-search-computer>`.
+             feature. Learn how to use :ref:`Advanced Search <search-bar-list-view>`.
 
         iii.  Section-C is where you view the available Patches in the product.
               Clicking a checkbox selects a Patch and transfers it to section-A.

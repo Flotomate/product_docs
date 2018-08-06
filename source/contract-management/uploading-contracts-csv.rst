@@ -95,7 +95,7 @@ Things to Remember when using the file:
   matching name from a drop-down list by clicking on the field.
 
     .. _con-52:
-    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/con-52.png
+    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/contract-management/con-52.png
         :align: center
         :alt: figure 52
 
@@ -111,7 +111,7 @@ Things to Remember when using the file:
   for property values that aren’t in the system.
 
     .. _con-53:
-    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/con-53.png
+    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/contract-management/con-53.png
         :align: center
         :alt: figure 53
 
@@ -124,7 +124,7 @@ Things to Remember when using the file:
   process. 
 
 .. _con-54:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/con-54.png
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/contract-management/con-54.png
      :align: center
      :alt: figure 54
 

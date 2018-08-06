@@ -31,18 +31,18 @@ The Contract List View opens, and the various sections of the UI are as follows:
 
 .. note:: Kindly refer to :numref:`con-5` for the below description.
 
-1. Section A, B, C and D are the :ref:`search features<>`.
+1. Section A, B, C and D are the :ref:`search features<Searching Contracts>`.
 
 2. Section E is the Grid View (refer section G) of all the available Contacts in the system. 
    The following information is visible for each Contract:
 
    a. Status of the Contact (shows the life cycle of the Contract).
 
-   b. Contract Type (:ref:`Learn More`)
+   b. Contract Type (:ref:`Learn More <con-contract-type>`)
 
    c. Time left for the expiry of the Contract.
 
-   d. Manual assignment option (:ref:`Learn more`)
+   d. Manual assignment option (:ref:`Learn more <Assigning a Contract>`)
 
    e. Action Menu next to the assignment button housing the following options:
 
@@ -53,16 +53,16 @@ The Contract List View opens, and the various sections of the UI are as follows:
 3. Section F is the Glance Pane of a Contract. It appears when a Contract is selected in Grid View (refer section G) 
    It shows additional information across three tabs:
 
-   a. **Details**: It shows almost all of the details of a Contract.
+   a. **Details**: It shows key information of a Contract.
 
       .. _con-6:
       .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/contract-management/con-6.png
            :align: center
            :alt: figure 6
 
-   b. **Associated Assets**: This tab shows all associated Assets (includes all Asset types).
+   b. **Associated Assets**: This tab shows all associated Assets.
 
-   c. **Audit Trail**: Here you can get a glance of the Audit Trail (:ref:`Learn More`).
+   c. **Audit Trail**: Here you can get a glance of the Audit Trail (:doc:`Learn More <contract-audit-trail>`).
 
 4. Section G is where you can change the view mode in section E. The Grid View is the default mode, and you
    can switch between the following two views.
@@ -85,7 +85,7 @@ The Contract List View opens, and the various sections of the UI are as follows:
 
    a. :doc:`create-a-contract`  
 
-   b. :doc:`csv-upload-of-contract`
+   b. :doc:`uploading-contracts-csv`
     
  
 

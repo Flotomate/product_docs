@@ -118,8 +118,25 @@ single Asset in Flotomate.
    d. :ref:`Change Barcode <changing an assets barcode>`.
 
 -  Section-G is the Action Menu of the Details View. The available
-   options in this menu depend on the Asset Type.
+   options in this menu depend on the Asset Type. Some of the Options are:
 
+   a. Add Attachments (available in all Asset Class).
+
+   b. Scan Now (Only in Hardware Assets).
+
+   c. Exclude from Scanning (Only in Hardware Assets).
+
+   d. View Audit Trail (available in all Asset Class).
+
+   e. Export Asset (available in Hardware and Software).
+
+   f. Remote Desktop (only in Hardware Assets).
+
+   g. Reconcile (only in Hardware Assets).
+
+   h. Mark for Notification (only in Software Assets).
+
+   
 .. _change-name-description-asset:
 
 Change (Host) Name and Description of an Asset
@@ -464,3 +481,37 @@ View <manage-asset-details>` of a Non-Software Asset.
 
 -  The **View Full-Screen** button expands the View Area to the entire
    page.
+
+Reconciliation of Assets
+========================
+
+When new Assets are purchased and received, the related :doc:`Purchase Order <introduction-purchase-management>` is closed. The Assets that are received are automatically added to the
+CMDB with the status **In Stock**. 
+
+When these Assets are discovered during an Asset Scanning (could be Agent-less or Agent Based), duplicate entires are
+created in the CMDB. A Technician has to manually reconcile each Asset with an **In Stock ** Asset. Reconciliation facilitates proper
+inventory management where a Technician knows exactly which Assets are available for assignment.  
+
+Only two Assets can be reconciled at a time.
+
+Conditions for Asset Reconciliation:
+
+- Only two Assets can be reconciled at a time.
+
+- Any one of them has to have an Origin: Purchase Order.
+
+What happens after Reconciliation of two Assets ?
+
+- The Asset with Origin: Purchase Order is deleted.
+
+- The Asset that is not deleted gets the following information added from the deleted Asset:
+
+  a. Product info.
+
+  b. Purchase Order details.
+
+  c. The associated Purchase Order is linked (Relation) with the Asset.
+
+  d. Used By and Manage By fields are updated, if any.
+
+Learn how to perform :ref:`Asset Reconciliation <Manual Reconciliation of Assets>`.  

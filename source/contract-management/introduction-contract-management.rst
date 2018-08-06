@@ -5,14 +5,11 @@ Introduction to Contract Management
 What is a Contract?
 ===================
 
-A voluntary, deliberate, and legally binding agreement between two or more competent parties. 
-Contracts are usually written but may be spoken or implied, and generally have to do with employment, sale or lease, or tenancy.
+A Contract is a written agreement that binds two or more parties in a transaction. In the context of Contract Management, such documents
+are created to govern leasing activities, Warranty, Support and Maintenance. 
 
-A contractual relationship is evidenced by (1) an offer, (2) acceptance of the offer, and a (3) valid (legal and valuable) consideration. 
-Each party to a contract acquires rights and duties relative to the rights and duties of the other parties. 
-However, while all parties may expect a fair benefit from the contract (otherwise courts may set it aside as inequitable) it does not follow that each party will benefit to an equal extent.
-
-Read more: `http://www.businessdictionary.com/definition/contract.html`__
+A Contract is created with a third party Vendor (a Contract can be associated with one Vendor only), and it houses important information
+relating to price, validity period of the Contract, Contract Type, and Sub-Contract Status. 
 
 What is Contract Management?
 ============================

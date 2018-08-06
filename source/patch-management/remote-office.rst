@@ -46,7 +46,7 @@ You are redirected to a new page. Here you enter the following information:
   If you want the Remote office to download Patches from a local source (via shared drive) then select **Distribution Server**. 
   Enter a IP and a Port number so the product server can route the Patches to the Remote Office's shared drive. 
 
-- Section C is where you add computers to the Remote Office. Learn how to :ref:`add computers <add-computer-scope>`.
+- Section C is where you add computers to the Remote Office. Learn how to :ref:`add computers to Patch Management <add-computer-scope>`.
 
 - When done, click on **Create** to save your remote office.
 

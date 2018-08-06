@@ -49,7 +49,7 @@ Some benefits of automatic Contract Management:
 
    e. **Start and End date**: Enter the validity period of the contract using the start and end date fields.
 
-   f. **Currency**: Enter the Currency in which the transaction will happen from a predefined. Learn how to add Currency.
+   f. **Currency**: Enter the Currency in which the transaction will happen from a predefined. Learn how to add :ref:`Currency <Adding a Currency>`.
 
    g. **Cost**: It is the cost of the transaction involved.
 

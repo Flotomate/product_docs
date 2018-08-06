@@ -8,6 +8,8 @@ Flotomate ITSM allows a Technician to add a Currency with a monetary value. You 
 
 - In a Purchase Order
 
+.. _pur-currency:
+
 Adding a Currency
 =================
 

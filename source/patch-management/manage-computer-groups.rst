@@ -20,7 +20,7 @@ having Computer Groups can be convenient are as follows:
 
 **Create a Computer Group**
 
--  Go to the :doc:`Patch List View <patch-list-view>`.
+-  Go to the :ref:`Patch List View <patch list view>`.
 
 -  Click on **All Computers Group** from the Patch menu.
 
@@ -43,12 +43,14 @@ having Computer Groups can be convenient are as follows:
    :align: center
    :alt: figure 12
 
--  In section A of :numref:`P-12`, enter a name and description of the group.
+-  In :numref:`P-12`, enter a name and description of the group.
 
 -  In whatever way you select Computers, they all become part of the
-   group. Add a remote office to the first scope. Learn how to add a :ref:`Remote Office <add-remote-office>`. 
+   group. Add a remote office to the first scope (if you want Computers from the Remote Office to be added automatically). 
+   Learn how to add a :ref:`Remote Office <add-remote-office>`. 
 
--  You can add additional computers from the list, if any. Learn how to add :ref:`Additional Computers <Adding of Computers from List>`
+-  You can add additional computers from the list, if any. By the way, you can create a group without a Remote office by selecting computers from the
+   given list. Learn how to add :ref:`Additional Computers <Adding of Computers from List>`
 
 -  You can create multiple scopes, each having their own Remote Office and additional computers, and the group will be
    a cumulative of all the Scopes. Learn more about :ref:`Scopes <endpoint-scope>`.   
@@ -68,11 +70,6 @@ Computer Group page.
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-13.1.png
    :align: center
    :alt: figure 13.1
-
-.. _P-13.2:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-13.2.png
-   :align: center
-   :alt: figure 13.2
 
 You can search for a Computer Group using the search bar (Figure 13)
 which supports Advance Search and is similar to the one used for

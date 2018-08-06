@@ -39,7 +39,7 @@ Add Computers to a Scope
    :alt: figure 2
 
 -  You can view the total number of Computers that you can add as
-   Total Endpoint Scope number. 
+   *Total Endpoints in Scope* number. 
 
 .. _P-3:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-3.png
@@ -69,8 +69,8 @@ Adding a Remote Office (Automatic Addition of Computers)
    create a set of Computers from which to either include or exclude.
    When there’s an intersection or conflict between the two types then
    exclude conditions/condition override the include set. For example,
-   to add Computers within an IP range with a hostname containing “Digi”
-   and excluding those with Linux OS, yields the following conditions:
+   to add Computers within an IP range and with a hostname containing “Digit”
+   , and excluding those with "Vector" in their Hostname, yields the following conditions (refer: :numref:`P-5.2`):
 
    .. note:: Without include and exclude conditions, all Computers in a Remote office will be added.
 
@@ -137,7 +137,7 @@ Adding Multiple Scopes
 ^^^^^^^^^^^^^^^^^^^^^^
 
 -  You can create more than one Scope to accommodate multiple Remote Offices
-   (a Scope can have only one Remote Office). The actual Computer list is
+   (a Scope can have only one Remote Office). The actual Endpoint Computer list is
    cumulative of all available Scopes (added manually and
    automatically).
 
@@ -157,8 +157,7 @@ Preview Computer List
 ---------------------
 
 Once you are done with adding Computers and setting conditions, you can
-view the final list of all the Computers (added manually and
-automatically) in all the Scopes and a single scope using the Preview function.
+view the final list of all the Computers in all the Scopes and also individual scopes using the Preview function.
 
 Open Endpoint Scope from **Admin**. Click on **Preview** to generate the
 Computer list. The preview button is also there for each scope.
@@ -175,4 +174,4 @@ Computer list. The preview button is also there for each scope.
 
 You can search for a Computer. The search bar supports the Advanced
 Search feature. It is similar to the search bar in a
-:ref:`Scope <add-computer-scope>`.
+:ref:`Scope <endpoint-scope>`.

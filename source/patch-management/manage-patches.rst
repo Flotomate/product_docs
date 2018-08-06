@@ -97,7 +97,7 @@ Quick Glance of Patch Details
 The Patch List View allows you to quickly glance the details of a Patch
 in the following way:
 
--  Open the :ref:`Patch List View <patch-list-view>`.
+-  Open the :ref:`Patch List View <patch list view>`.
 
 -  You can open the Patch Details dialog box of any Patch by clicking on
    the view icon adjacent to a Patch.
@@ -108,7 +108,7 @@ in the following way:
    :alt: figure 18
 
 -  The Patch Details dialog box is a concise version of the :ref:`Details
-   View <patch-details-view>`. You get all the information minus the
+   View <patch details view>`. You get all the information minus the
    features and description.
 
 .. _pf-19:
@@ -226,7 +226,7 @@ Another way to filter Patches is by using status:
 
 -  **Missing**: Refers to Patches that Computers ought to have installed
    but still being demanded, then they are highlighted as Missing. Learn
-   more about :ref:`Missing Patches <what-is-missing-patch>`.
+   more about :doc:`Missing Patches <missing-patch>`.
 
 -  **Ignored**: Refers to all Patches that have been tagged as Ignore.
 
@@ -292,7 +292,7 @@ The Patch Details View has the following fields and options:
 -  Section-B shows the details of the Patch. The information shown in
    this section is deemed as critical, and the same information
    (excluding description) is available when you are glancing the
-   details of a Patch from the :ref:`List View <quick-glance-patch>`. The data points that are as follows:
+   details of a Patch from the :ref:`List View <quick glance of patch details>`. The data points that are as follows:
    
    a. Severity information as stated by the Software Vendor.
 
@@ -336,7 +336,7 @@ The Patch Details View has the following fields and options:
 
       iii. **Missing**: Shows the Computers that were supposed to have
            the Patch but they do not have the Patch. Learn more about
-           :ref:`missing Patches <what is missing patch>`.
+           :doc:`missing Patches <missing-patch>`.
 
       iv.  **Ignored**: Shows in how many Computers the Patch is
            ignored.
