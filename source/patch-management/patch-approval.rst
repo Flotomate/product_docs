@@ -78,7 +78,7 @@ Request is created by a Test Task (each request has its own start and
 end period). At the end of a period, the selected Patches in a
 Deployment Request are auto-approved if the installations have been
 unanimously successful. The purpose of a review period is to give
-Technicians the time to securitize a deployment done by a Test Task and
+Technicians the time to scrutinize a deployment done by a Test Task and
 Reject Patches that have caused issues.
 
 **Add an Automatic Patch Test**
@@ -167,8 +167,8 @@ View Status of Test Task
 ------------------------
 
 Once you create a Test Task, you can view how many Deployment Requests
-the Test Task has created and the status of each deployment. The tool
-also shows which Patches are pending decision from an Automatic Patch
+the Test Task has created and the status of each deployment. The system
+also shows which Patches are pending decision (in their :ref:`Details View <patch details view>`) from an Automatic Patch
 Test:
 
 .. _pf-49:

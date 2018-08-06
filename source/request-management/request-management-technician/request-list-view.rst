@@ -42,6 +42,8 @@ The List View is dynamic with the following features:
 
    c. :doc:`Mark as Spam <mark-a-request-as-a-spam>`
 
+   d. :doc:`Mark as PR <marking-a-purchase-request>` 
+
    d. :doc:`Archive <deleting-a-request>`
 
    e. :doc:`Claim <assigning-a-request>`
@@ -103,5 +105,5 @@ The List View is dynamic with the following features:
     :align: center
     :alt: figure 8
 
--  Section-I is the :doc:`Manage Announcements <rm-announcements>` option; nest to that, is the Action Menu 
-   housing the :doc:`View Archived Requests <deleting-a-request>`.
+-  Section-I is the Action Menu that houses two options:
+   :doc:`Manage Announcements <rm-announcements>` and :doc:`View Archived Requests <deleting-a-request>`.

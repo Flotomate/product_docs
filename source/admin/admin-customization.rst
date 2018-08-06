@@ -746,7 +746,24 @@ The information captured by a Feedback form is visible in the following places.
      :align: center
      :alt: figure 103.7
 
-**Purchase Custom Field**          
+**Purchase Custom Field**
+
+Custom fields appear on the :ref:`Edit a PO page <Open Edit a Purchase Order Page>`.  Custom fields can be accessed from 
+**Admin** >> **Purchase Custom Fields**.
+
+.. _pur-50:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/purchase-management/PUR-50.png
+    :align: center
+    :alt: figure 50
+
+There are two class of Purchase Custom Fields:
+
+- **General Details**: This class of custom fields appear under the Additional Information section of :ref:`Edit a PO page <Open Edit a Purchase Order Page>`.
+ 
+- **Purchase Items**: These are Text fields that support only numbers, and they either add or subtract to the Net Total price of a 
+  Purchase Order (excluding or including shipping). 
+
+Learn More about :ref:`Purchase Custom Fields`. 
 
 .. _ad-category:
 

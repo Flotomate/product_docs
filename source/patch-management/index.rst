@@ -21,6 +21,7 @@ Patch Management
    deployment-request
    automatic-patch-deployment
    uninstall-deployment-request
+   download-patches
    computer-management 
 
 

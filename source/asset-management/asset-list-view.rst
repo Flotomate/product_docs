@@ -109,11 +109,13 @@ view differ across classes in terms of filters and options.
 
    a. :ref:`Bulk Update<am-bulk-update>`
 
-   b. :ref:`Delete<delete-assets>`
+   b. :ref:`Reconcile <Asset Reconciliation>` 
 
-   c. :ref:`Print Barcode<print-asset-barcode>`
+   c. :ref:`Delete<delete-assets>`
 
-   d. :ref:`Move to Stage<delete-assets>`
+   d. :ref:`Print Barcode<Print Asset Barcode>`
+
+   e. :ref:`Move to Stage<delete-assets>`
 
 -  Other features specifically for Software Assets are:
 

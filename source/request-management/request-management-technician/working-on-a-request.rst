@@ -64,17 +64,19 @@ The Details View is a dynamic interface with the following features:
 
    c. Action Menu:
 
-      i.   :doc:`Mark as Spam <mark-a-request-as-a-spam>`
+      i.  :doc:`Mark as Spam <mark-a-request-as-a-spam>`
 
-      ii.    :doc:`View Audit Trail <rm-viewing-audit-trail>`
+      ii.  :doc:`View Audit Trail <rm-viewing-audit-trail>`
 
-      iii.   :ref:`Add Watcher <rm-watchers>`
+      iii. :doc:`Mark as Purchase Request <marking-a-purchase-request>`  
 
-      iv.  :ref:`Send Notification <rm-notifications>`
+      iv.  :ref:`Add Watcher <rm-watchers>`
 
-      v. Watch/Unwatch
+      v.  :ref:`Send Notification <rm-notifications>`
 
-      vi. :doc:`Send Feedback <asking-for-feedback>`
+      vi.  Watch/Unwatch
+
+      vii.  :doc:`Send Feedback <asking-for-feedback>`
 
 Modifying Request Subject and Description
 =========================================

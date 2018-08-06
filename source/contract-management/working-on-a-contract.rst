@@ -37,13 +37,28 @@ The Details View opens with the following fields:
 
    b. :ref:`Contract Renewal`
     
-   c. :ref:`Child Contracts`
+   c. :ref:`Child Contract`
 
-   d. :ref:`Notify Settings`
+   d. :ref:`custom contract Field` (visible when there are custom fields)
 
-   e. :ref:`Attachments`
+   e. :ref:`con-attachments`
 
-   f. :ref:`Notification`
+   f. :ref:`con-notifications`
+
+4. Section D houses the :ref:`Renew Contract Option <creating a renewal>`, :doc:`Assign Owner option <assigning-a-contract>` and 
+   Action Menu. In the Action Menu we have the following options:
+
+   a. :doc:`Cancel <cancelling-a-contract>`
+
+   b. :ref:`Notify Settings`
+
+   c. :ref:`Send Email <con-notifications>`
+
+   d. :doc:`Print <printing-a-contract>`
+
+   e. :doc:`View Audit Trail <contract-audit-trail>`
+
+   f. :doc:`Delete a Contract <archive-and-delete>`           
 
 Modify Contract Name and Description
 ====================================
@@ -81,6 +96,8 @@ The system allows the following categories for classification:
 
 - Cost and Currency
 
+.. _con-status:
+
 Status
 ------
 
@@ -102,11 +119,13 @@ The statuses are as follows:
 
 .. note:: You cannot change Status manually.
 
+.. _con-contract-type:
+
 Contract Type
 -------------
 
 A Contract Type shows the nature of relationship between two or more parties. Every Contract has a type, and we give four types
-out of the box. You can add more types (Learn how to add more :doc:`contract-types`). Following are the pre-defined types:
+out of the box. You can add more types (Learn how to add more :doc:`contract-type`). Following are the pre-defined types:
 
 - **Lease**: A lease is a contractual arrangement calling for the lessee to pay the lessor for use of an asset. Property, 
   buildings and vehicles are common assets that are leased. Industrial or business equipment is also leased (wikipedia). 
@@ -169,21 +188,25 @@ you can access the system currency list from the field. Learn how to add a :ref:
 Associate Assets
 ================
 
-A Contract is created around an Asset/Assets, and it defines the obligation of the seller and duties of the buyer. A Contract always
-has an association with an Asset/Assets;
+A Contract is generally created around an Asset/Assets, and it defines the obligation of the seller and duties of the buyer. A Contract can
+have relationship with an Asset/Assets;
 
 You can link an Asset/Assets with a Contract is the following way:
 
 - Go to the :ref:`contract details view` of a Contract.
 
-- You can find all existing association under the **Assets** tab. To add a new Asset, click on **Associate Asset**.
+- You can find all existing association under the **Assets** tab. Here you have two options: create a new Asset and Relate (**Create and Relate**), and 
+  relate a existing Asset (**Add Relation**) in the CMDB.
 
 .. _con-24:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/contract-management/con-24.png
     :align: center
     :alt: figure 24
 
-- A new dialog box opens, where you can search and associate multiple Assets. 
+- Clicking on **Click and Relate** >> **Asset** opens the Add Asset dialog box (:ref:`Learn More <Manually Creating an Asset in the CMDB>`). 
+  Use this option when the associated Asset/Assets is/are not in the CMDB.    
+
+- Clicking on **Add Relation** >> **Asset** opens the *Create a Relationship with Asset* dialog box, where you can search and associate multiple Assets. 
 
     .. _con-25:
     .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/contract-management/con-25.png
@@ -197,7 +220,7 @@ You can link an Asset/Assets with a Contract is the following way:
         :align: center
         :alt: figure 26
 
-  Based on the selected Asset class the list area is populated. 
+  Based on the selected Asset class, the list area is populated. 
 
   The search bar supports the Advance Search feature where you can use search options and keywords to create a filter.
   Learn how to use the :ref:`search bar<am-using-search-bar>`.
@@ -243,7 +266,7 @@ The assigned Technician of the Contract has to update the Contract. Now he has t
      :align: center
      :alt: figure 27
 
-- He clicks on **Renew** from the Action Menu.
+- He clicks on **Renew**.
 
 .. _con-28:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/contract-management/con-28.png
@@ -259,7 +282,7 @@ The assigned Technician of the Contract has to update the Contract. Now he has t
 
   a. **Contract Start and End date&time**: The time period of the new Contract.      
 
-  b. **Currency and Cost**: Currency selection from the system currency list (Learn how to add :ref:`currency<ad-currency>`) and
+  b. **Currency and Cost**: Currency selection from the system currency list (Learn how to add :ref:`currency<pur-currency>`) and
      the total cost of the renewal.
 
   c. **Description**: Details of the renewal if any.
@@ -307,6 +330,8 @@ then the Contract that you are creating becomes a Child Contract. You can view a
     :align: center
     :alt: figure 32
 
+.. _con-notifications:
+
 Notifications
 =============
 
@@ -347,12 +372,17 @@ is sent) expiry.
 
 - Go to the :ref:`Contract Details View` of the Contract of which you want to configure Notify Settings.
 
-- Under the Notify Settings tab, you will find all the configurable fields.
+- Click on **Notify Settings** from the Action Menu.
 
-.. _con-34:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/contract-management/con-34.png
+.. _con-34.1:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/contract-management/con-34.1.png
     :align: center
-    :alt: figure 34
+    :alt: figure 34.1
+
+.. _con-34.2:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/contract-management/con-34.2.png
+    :align: center
+    :alt: figure 34.2    
 
 - When you are done Configuring, hit **Update** to save your settings.
 
@@ -366,7 +396,7 @@ custom message body.
 
 - Go to the :ref:`Contract Details View` of a Contract.
 
-- Select **Send Notification** from the Action Menu.
+- Select **Send Email** from the Action Menu.
 
 .. _con-35:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/contract-management/con-35.png
@@ -388,6 +418,8 @@ custom message body.
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/contract-management/con-37.png
     :align: center
     :alt: figure 37
+
+.. _con-attachments:
 
 Attachments
 ===========

@@ -69,7 +69,7 @@ Creating an Automatic Patch Deployment
     
        iii. **Exclude Application**: You exclude applications that are ignored when searching for Patches.
 
-       There is a search bar for Application that supports filtering using Package Type.
+       There is a search bar that supports filtering using Package Type.
 
        You can filter application Patches using criteria Categories and Severities; 
        for example, you can make the Test Task select Patches with the Category Service Packs and Severity, Critical and Important.
@@ -97,15 +97,15 @@ Creating an Automatic Patch Deployment
 
             iii.  Only consider Approved Patches that are newly added missing.
 
-    d. Section D is where you set your target computers. Patch will be deployed in the target computers. Here you can set the
-       following things:
+    d. Section D is where you set your target computers. Patch will be deployed in the target computers. You can set Computers either
+       from a Remote Office or by manually selecting them from the list, or both. 
 
-       i. Set a :ref:`Remote Office <add-remote-office>`. This will allow auto selection of multiple computers from a Remote Office's 
+       i. Setting a :ref:`Remote Office <add-remote-office>`. This will allow auto selection of multiple computers from a Remote Office's 
           network may or may not be based on include and exclude conditions. 
 
-       ii. Set :ref:`individual <Adding of Computers from List>` computers.
+       ii. Setting :ref:`individual <Adding of Computers from List>` computers. 
 
-       iii. Set a different :ref:`Scope<Adding Multiple Scopes>` (Target) if there are multiple Remote Offices.
+       iii. Adding a different :ref:`Scope<Adding Multiple Scopes>` (Target) if there are multiple Remote Offices.
 
 -  Complete filling the fields and selecting the options. Click on
    **Create** to create your auto-deployment task.

@@ -116,7 +116,7 @@ list area with Contracts having that status.
     :align: center
     :alt: figure 15
 
-.. note:: Learn more about :ref:`Statuses<con-status>`
+.. note:: Learn more about :ref:`Statuses<con-status>`.
 
 You can filter Contracts by Contract Type (ref: :numref:`con-15`). We provide four types out of the box. You can add more types
-(Learn more about :doc:`contract-types`). 
+(Learn more about :doc:`contract-type`). 

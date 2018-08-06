@@ -11,7 +11,7 @@ provision for adding more types, also refers to as custom Contract Types.
 - Go to **Admin** (A Navigation Tab) >> **Contract Type** (Contract Management).
 
 .. _con-55:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/con-55.png
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/contract-management/con-55.png
      :align: center
      :alt: figure 55
 
@@ -20,7 +20,7 @@ provision for adding more types, also refers to as custom Contract Types.
 - Create Contract Type dialog box opens where you have to add a Name and Description of the new Contract.
 
 .. _con-56:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/con-56.png
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/contract-management/con-56.png
      :align: center
      :alt: figure 56
 
@@ -39,6 +39,6 @@ click the adjacent edit icon.
 Custom Contract Types can be deleted using the adjacent delete icon. 
 
 .. _con-57:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/con-57.png
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/contract-management/con-57.png
      :align: center
      :alt: figure 57

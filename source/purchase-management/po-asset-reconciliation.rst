@@ -35,7 +35,9 @@ What happens after Reconciliation of two Assets ?
 Manual Reconciliation of Assets
 ===============================
 
-- Go to the :doc:`asset-list-view`.
+**Reconciliator from Details View:**
+
+- Go to the :doc:`asset-list-view` (of Hardware Assets).
 
 - :ref:`Search <am-using-search-bar>` for the discovered Asset that you want to reconcile. Click on the Asset Name and go to its :doc:`Details View <manage-asset-details>`.
 
@@ -55,6 +57,19 @@ Manual Reconciliation of Assets
     :alt: figure 2
 
 - Click on **Reconcile**. 
+
+**Reconciliation from Asset List View:**
+
+- Go to the :doc:`asset-list-view` (of Hardware Assets).
+
+- In the list area, select one or more Assets. 
+
+- The **Reconcile** button appears on the top. Click the button to begin the Reconciliation process. It will ask for a confirmation.
+
+.. _am-rc-3:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-RC-3.png
+    :align: center
+    :alt: figure 3
 
 
 Auto Reconciliation of Assets

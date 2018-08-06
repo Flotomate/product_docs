@@ -28,7 +28,7 @@ Patch Configuration**)
 Manually Ignore Patches
 =======================
 
-- Go to the :ref:`Patch List View <patch-list-view>`.
+- Go to the :ref:`Patch List View <patch list view>`.
 
 - Select the Patch/Patches that you want to ignore. The Ignore button appears above the list area.
 
@@ -45,7 +45,7 @@ Manually Ignore Patches
    :align: center
    :alt: figure 55
 
-- You can also ignore a Patch from its :ref:`Details View <patch-details-view>`.
+- You can also ignore a Patch from its :ref:`Details View <patch details view>`.
 
 .. _pf-56:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-56.png
@@ -102,7 +102,7 @@ Defender patches for the Computer Group Alpha.
    :alt: figure 59
 
 -  We select the application Windows Defender (:numref:`pf-59`). All existing
-   and future Patches of Windows Defender for the target computers are
+   and future Patches of Windows Defender for the target computers will be
    ignored. We can also select individual Patches for ignoring or mix
    things up by using both application and Patches.
 
@@ -123,7 +123,7 @@ Defender patches for the Computer Group Alpha.
    :align: center
    :alt: figure 60.3
 
--  We have set a Remote Office and a include condition that will select computers belonging to the Alpha group. 
+-  We set a Remote Office and a include condition that will select computers belonging to the Alpha group. 
    Here you can set the following things:
 
    a. Set a :ref:`Remote Office <add-remote-office>`. This will allow auto selection of multiple computers from a Remote Office's 

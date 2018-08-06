@@ -8,8 +8,8 @@ Purchase Management
    purchase-management-workflow
    marking-a-purchase-request
    create-a-po
-   assigning-a-po
    purchase-list-view
+   assigning-a-po
    searching-po
    purchase-details-view
    edit-po-details
