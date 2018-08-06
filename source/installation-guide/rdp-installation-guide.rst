@@ -24,17 +24,17 @@ Minimum System Requirement:
 Downloading RDP Agent
 =====================
 
-**Windows 64bit:**
+**Windows 32-bit & 64-bit:**
 
 You can download the RDP Agent (Windows) from the below link:
 
-https://s3.ap-south-1.amazonaws.com/flotomate-customer-releases/latest/rdp+server/RDP+Agent.exe
+https://s3.ap-south-1.amazonaws.com/flotomate-customer-releases/latest/rdp+server/windows/RDP+Agent.exe
 
-**Linux 64bit**:
+**Linux 64-bit**:
 
 You can download the RDP Agent (Linux) from the below link:
 
-https://s3.ap-south-1.amazonaws.com/flotomate-customer-releases/latest/rdp+server/agent_rdp
+https://s3.ap-south-1.amazonaws.com/flotomate-customer-releases/latest/rdp+server/linux/agent_rdp
 
 Manual Installation Setup:
 ==========================
