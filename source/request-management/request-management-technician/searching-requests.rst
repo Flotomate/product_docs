@@ -47,7 +47,7 @@ search query in :numref:`rmf-10`.
     :alt: figure 10
 
 Between two different conditions of the same data type, the OR logic
-prevails. Between different data, types, the AND logic prevails. An
+prevails. Between different data types the AND logic prevails. An
 example of same data type conditions is Status Open vs. Status Closed.
 Between keywords and conditions AND logic is followed.
 

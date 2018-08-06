@@ -4,14 +4,14 @@ Working on a Request
 
 Once a Technician decides to work on a Request, he heads to the Details
 View of the Request. There he/she uses the product features and tools to
-resolve the Request.
+resolve and close the Request.
 
 Request Details View
 ====================
 
 The Request Details view organizes and manages all information related
-to a Request. Each Request has its own Details View having features that
-Technicians use to resolve a Request.
+to a Request. Each Request has its own Details View having features/tools that
+Technicians use to resolve or close a Request.
 
 To open the Details View
 
@@ -21,7 +21,7 @@ To open the Details View
    the Request, which is adjacent to its ID. The Request Details View
    opens. Each Request has its own Details View.
 
-The List View is a dynamic interface with the following features:
+The Details View is a dynamic interface with the following features:
 
 .. _rmf-16:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-16.png
@@ -37,15 +37,19 @@ The List View is a dynamic interface with the following features:
 
 -  Section-D houses five functions:
 
-   a. :ref:`Work <communication-collaboration-and-resolution>`
+   a. :ref:`Work <communication collaboration and resolution>`
 
-   b. :ref:`Relations <add-relations>`
+   b. :ref:`Relations <rm-add-relations>`
 
    c. :ref:`Approvals <rm-asking-for-approval>`
 
-   d. :ref:`Time Log <rm-time-log>`
+   d. :ref:`Custom Fields <ad-custom-fields>`
 
-   e. :ref:`Notification <rm-notifications>`
+   e. :ref:`request information` 
+
+   f. :ref:`Time Log <rm-time-log>`
+
+   g. :ref:`Notification <rm-notifications>`
 
 -  Section-E is :ref:`Task <rm-managing-task>` column which is a sub-function
    of Work.
@@ -60,17 +64,19 @@ The List View is a dynamic interface with the following features:
 
    c. Action Menu:
 
-      i.   :doc:`Mark as Spam <mark-a-request-as-a-spam>`
+      i.  :doc:`Mark as Spam <mark-a-request-as-a-spam>`
 
-      ii.    :doc:`View Audit Trail <rm-viewing-audit-trail>`
+      ii.  :doc:`View Audit Trail <rm-viewing-audit-trail>`
 
-      iii.   :ref:`Add Watcher <rm-watchers>`
+      iii. :doc:`Mark as Purchase Request <marking-a-purchase-request>`  
 
-      iv.  :ref:`Send Notification <rm-notifications>`
+      iv.  :ref:`Add Watcher <rm-watchers>`
 
-      v. Watch/Unwatch
+      v.  :ref:`Send Notification <rm-notifications>`
 
-      vi. :doc:`Send Feedback <asking-for-feedback>`
+      vi.  Watch/Unwatch
+
+      vii.  :doc:`Send Feedback <asking-for-feedback>`
 
 Modifying Request Subject and Description
 =========================================
@@ -98,20 +104,28 @@ editing the Subject and Description.
     :align: center
     :alt: figure 18
 
-Viewing Other Requests Created by the Requestor
-===============================================
+Requestor Info and Other Requests of a Requestor
+================================================
 
-The product has the provision to view all other Requests created by the Requestor from the Details View
-of a Request.
+A Technician can view Requestor information and other Requests created by the Requestor from the Details View of
+a Request. 
 
 - Go to the :ref:`Details View <request-details-view>` of a Request
 - Hover your mouse over the Requestor info section of the page.
-- A pop-up menu opens where you can access other Requests.
+- A pop-up menu opens where you can access the info and other Requests.
 
-.. _rmf-18.1:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-18.1.png
-    :align: center
-    :alt: figure 18.1
+    .. _rmf-18.1:
+    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-18.1.png
+        :align: center
+        :alt: figure 18.1
+
+    .. _rmf-18.2:
+    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-18.2.png
+        :align: center
+        :alt: figure 18.2
+
+  .. note:: In the Request Information tab (:numref:`rmf-18.2`), you can also view the values of :ref:`Custom Requestor Fields <requestor-custom-field>`.
+
 
 Classify Requests
 =================
@@ -165,12 +179,12 @@ the following ways:
       effect which is either on User, Department or Business.
 
 -  **Service Level Agreement**: SLA determines the Response Time and
-   Resolution Time after considering Priority (others conditions in case
+   Resolution Time after considering Priority (other conditions in case
    of custom SLA). It also determines the escalated action when a time
    condition is violated. This generates the following data points about
    a Request.
 
-   a. **SLA Status**: Tells whether any of the SLA conditions are
+   a. **Overdue Status**: Tells whether any of the SLA conditions are
       violated or not.
 
    b. **Due-Date**: It reminds Technicians about the due date.
@@ -217,6 +231,11 @@ the following ways:
 -  **Reopen Count**: This label shows how many times the Request has
    been opened after getting close. The tag appears when a Request gets
    reopened for the first time.
+
+-  **Requestor Account**: It shows the associated Requestor Account. Learn more about :ref:`ad-requestor-accounts`. 
+
+-  **Template**: If the Request was created using a Service Item (created from a Service Catalog Template), then the name of the Template is shown.
+   Learn more about :doc:`service-catalog`. 
 
 Linking Knowledge with a Request
 ================================
@@ -286,19 +305,29 @@ perform the following actions:
    gets added to a unified thread. The comments of the Requester also
    get added to the thread.
 
-   The Requester gets an email notification on every message you post.
-   The Requestor can reply to the emails and the replies are added to
-   the comment thread in the **Work** tab.
+   The Requester gets an email notification on every message you post and vice-versa (Requestor and assigned Technician are the
+   default recipients for email notification). The Requestor can reply to the emails and the replies are added to
+   the comment thread.
 
-   A Requestor can directly comment in the Details View of a Request
+   A Requestor can also comment in the Details View of a Request
    from the Customer Portal. Where he/she can specify a Technician’s
-   name as @tachnician_name in the message body. The mentioned
-   Technician gets notified via email.
+   name (other than the assigned Technician) as @tachnician_name in the 
+   message body, and the mentioned Technician/Technicians get notified via email.
 
-.. _rmf-24:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-24.png
-    :align: center
-    :alt: figure 24
+    .. _rmf-24:
+    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-24.png
+        :align: center
+        :alt: figure 24
+   
+   Yon can use a template to insert a canned response in the text field. Click on **Insert from Template**
+   , which opens a dialog box from where you can search and add a template. 
+
+   .. _rmf-24.1:
+   .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-24.1.png
+        :align: center
+        :alt: figure 24.1
+
+   Learn how to add a :ref:`Response Template<ad-response-template>`. 
 
 -  **Collaborate**: You can collaborate with other Technicians. You can
    start a message thread which is visible to people who has access to
@@ -358,6 +387,16 @@ posts.
 When you add a solution, you get a prompt asking you to resolve the
 Request.
 
+Yon can use a template to insert a canned response in the text field. Click on **Insert from Template**
+, which opens a dialog box from where you can search and add a template.
+
+.. _rmf-26.1:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-26.1.png
+    :align: center
+    :alt: figure 26.1
+
+Learn how to add a :ref:`Response Template<ad-response-template>`.
+
 Resolve Rules
 -------------
 
@@ -372,6 +411,8 @@ Request unless you fulfill the set conditions. Rules are in regards to:
 
 Please refer the Administrator Manual to know more about Custom Rules
 for Requests.
+
+.. _rm-add-relations:
 
 Add Relations
 =============
@@ -413,7 +454,27 @@ existing Requests, Problems, Changes and Assets.
 -  Search for the right entry and click **Link** to add a relationship
    between your selection/selections and the Request.
 
+Request Information
+===================
+
+.. _rmf-28.1:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-28.1.png
+    :align: center
+    :alt: figure 28.1
+
+Requests created from the Service Catalog have additional information. The additional information is captured
+using a custom form; the field values are viewable under the **Request Information** tab in the Request Details View.
+
+**Related Topics**
+
+- Understand the workflow behind creating Requests from the Service Catalog (:doc:`Learn <service-catalog-workflow>`).
+
+- Understand how Service :doc:`Categories<create-service-category>` and :doc:`Templates<creating-a-template>` are created.
+
+- Understand how a Service Item is created from a Template (:doc:`Learn<create-service-item>`).
+
 .. _rm-time-log:
+
 Time Log
 ========
 
@@ -464,8 +525,8 @@ How to Edit/Delete Time Log:
 Custom Fields
 =============
 
-Custom fields are additional fields that can appear on the Create a
-Request form (both Technician and Customer Portal) or solely on the
+Custom fields are additional fields that appear on the Create a
+Request form (both Technician and Customer Portal) and the
 Details View of Requests. You can create such fields from the Admin
 section.
 
@@ -475,7 +536,7 @@ created a field called employee ID and made it compulsory for the status
 make sure the Employee ID is not empty.
 
 Inputted values in the Custom field is shown in the :ref:`Details
-View <request-details-view>` of a Request.
+View <request-details-view>` of a Request under Custom Fields tab.
 
 .. _rmf-32:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-32.png
@@ -483,6 +544,7 @@ View <request-details-view>` of a Request.
     :alt: figure 32
 
 .. _rm-asking-for-approval:
+
 Asking for Approval
 ===================
 
@@ -653,6 +715,7 @@ Approval Process
    b. Location, Category, and Department cannot be modified.
 
 .. _rm-managing-task:
+
 Managing Task
 =============
 

@@ -19,7 +19,7 @@ the product.
       :align: center
       :alt: figure 33
 
-Section-A, B & C houses the `search features <#search-a-report>`__.
+Section-A, B & C houses the :doc:`search features <search-a-report>`.
 
 Section-D is the list area where you view the available Reports. The
 Report Names are shown as a tabular list, and the following information
@@ -32,10 +32,10 @@ accompanies each name:
 -  Creator information.
 
 Section-E is the Glance View of a Report where you can view additional
-information and set a `schedule <#schedule-a-report>`__ for report
+information and set a :doc:`schedule <schedule-a-report>` for report
 generation.
 
 Section-F allows you to control the number of Reports visible on a
 single page.
 
-Section-G houses the `Create a Report <#create-&-edit>`__ button.
+Section-G houses the :doc:`Create a Report <create-&-edit>` button.

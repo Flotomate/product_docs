@@ -2,6 +2,8 @@
 Customization
 *************
 
+.. _ad-status
+
 Status 
 ======
 
@@ -118,6 +120,8 @@ custom Statuses. They are as follows:
 
    c. Retired
 
+.. _ad-add-custom-status:
+
 Add Custom Status 
 -----------------
 
@@ -204,12 +208,14 @@ Add Business Services
     :align: center
     :alt: figure 92
 
+.. _ad-templates:
+
 Templates
 =========
 
 Templates in Flotomate allows you to quickly fill the create form of
 Request, Problem, and Change. You can create templates for each of the
-ticket types, and your users can use them while creating a Request,
+ticket types, and your users (only on Technician portal) can use them while creating a Request,
 Problem or Change.
 
 .. note:: Managing templates requires administrative rights.
@@ -230,48 +236,62 @@ Add a Template
 
 -  A dialog box opens where you can pre-define the following things:
 
-    .. _adf-94:
-    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-94.png
-        :align: center
-        :alt: figure 94
+   a. **Request**:
 
-    a. **Request**:
+        .. _adf-94:
+        .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-94.png
+            :align: center
+            :alt: figure 94
 
-        i.  The subject of a Request.
+       i.  The subject of a Request.
 
-        ii.  Status, Urgency, and Impact of a Request.
+       ii. Urgency, and Impact of a Request.
 
-        iii.  Tags of a Request.
+       iii. Tags of a Request.
 
-        iv.  Category of a Request.
+       iv.  Category of a Request.
 
-        v.  Description of a Request.
+       v.   Requestor Accounts.
 
-    b. **Problem**:
+       vi.  Description of a Request.
 
-        i.  Subject to a Problem
+   b. **Problem**:
 
-        ii.  Whether a Problem is known or not.
+        .. _adf-94.1:
+        .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-94.1.png
+            :align: center
+            :alt: figure 94.1
 
-        iii.  Status, Urgency, Nature of Problem and Impact of a Problem.
+       i.  Subject to a Problem
 
-        iv.  Tags of a Problem.
+       ii.  Whether a Problem is known or not.
 
-        v. Category of a Problem.
+       iii.  Priority, Urgency, Nature of Problem and Impact of a Problem.
 
-        vi.  Description of a Problem.
+       iv. Tags of a Problem.
 
-    c. **Change**:
+       v.  Mark the Problem as a known error.
 
-        i.  The subject of a Change.
+       vi.  Category of a Problem.
 
-        ii.  Status, Urgency, Risk, Change Type and Impact of a Change.
+       vii.  Description of a Problem.
 
-        iii.  Tags of a Change.
+   c. **Change**:
 
-        iv.  Category of a Change.
+        .. _adf-94.2:
+        .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-94.2.png
+            :align: center
+            :alt: figure 94.2
 
-        v.  Description of a Change.
+       i.  The subject of a Change.
+
+       ii.  Priority, Urgency, Risk, Change Type and Impact of a Change.
+
+       iii.  Tags of a Change.
+
+       iv.  Category of a Change.
+
+       v.  Description of a Change.
 
 Edit Request Templates
 ----------------------
@@ -285,190 +305,467 @@ Edit Request Templates
 
 -  Delete any template using the Delete Icon next to the Edit Icon.
 
+.. _ad-response-template:
+
+Response Template
+=================
+
+While handling Requests, Technicians have to do a lot of repetitive work. We have isolated two such work: asking Requestors and 
+giving a Solution. You can now create templates to deliver canned response and solution to Requestors having similar problems.
+You can create n number of templates and access them directly from Ask Requestor and Solution input box in a Request.
+
+**To Create a Template:**
+
+- Go to **Admin** (A Navigation Tab) >> **Response Template** (under Request Management).
+
+.. _adf-94.1:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-94.1.png
+    :align: center
+    :alt: figure 94.1
+ 
+- The Response Templates page opens. Here you can view all your existing templates. Click on **Create Response Template**
+  situated in the top right corner of the page.
+
+- A new page opens where you get the following fields:
+
+    .. _adf-94.2:
+    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-94.2.png
+        :align: center
+        :alt: figure 94.2
+
+    a. Section A (:numref:`adf-94.2`) is where you give a name to the template.
+
+    b. In section B, you decide where the template will be used. It can either be used while asking Requestors or giving a solution to
+       a Request.
+
+    c. There is a toggle button to turn on/off the template in section C.
+
+    d. Section D is the text area to add your response.
+
+    e. While writing your response , you can add placeholders from a predefined list which you can access from Section E.
+       Placeholders can fetch specific data; for example, the placeholder {#Ticket Id#} fetches the ticket id of the Request 
+       on which you are working.
+
+    .. _adf-94.5:
+    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-94.5.png
+        :align: center
+        :alt: figure 94.5   
+
+  Fill all necessary fields and click on **Create**. Your template is added to the Response Template page. 
+
+.. _adf-94.6:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-94.6.png
+    :align: center
+    :alt: figure 94.6
+
+**Using the templates**
+
+You can access the response templates while working on a Request. You can directly add a template while asking a Requestor and
+adding a solution.
+
+.. _adf-94.3:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-94.3.png
+    :align: center
+    :alt: figure 94.3
+
+.. _adf-94.4:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-94.4.png
+    :align: center
+    :alt: figure 94.4        
+
+.. _ad-custom-fields:
+
 Custom Fields
 =============
 
+When creating a ticket or CI (Configurable Item), our system captures certain data.
+Apart from the default types, we give users the flexibility to capture custom data types using the 
+custom field feature. For example, some of our product users are capturing employee id using a custom field. 
+
 Custom fields are additional fields added by a user. They can appear
 while creating a ticket, and in the details view of a ticket and CI.
-Custom fields can be added to Requests, Problems, Changes, and Assets.
+Custom fields can be added to Requests, Problems, Changes, Contract, Feedback, Purchase and Assets.
 
 .. note:: Adding Custom Fields requires administrative rights.
 
-Add a Custom Field
-------------------
+.. _ad-types-of-fields:
 
--  Go to **Admin** >> **(Request, Problem, Change or Asset) Custom
-   Fields**.
+Types of Fields
+---------------
+
+We have four field types and one formatting option which you can use. The fields support a host of input types. Using the
+formatting option you can build interesting forms. The various options are as follows:
+
+- **Text Field**: This is a basic field that allows users to input a small amount of text. Supported value types   
+  are: Text, Number and Date.
+
+.. _adf-94.5:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-94.5.png
+    :align: center
+    :alt: figure 94.5 
+
+- **Dropdown**: This field is populated from a predefined list. You get the option to defined the list.
+
+.. _adf-94.6:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-94.6.png
+    :align: center
+    :alt: figure 94.6 
+
+- **Section**: Adding a section allows you to group fields. You can group similar fields together and align them in split form
+  inside the section.  
+
+.. _adf-94.7:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-94.7.png
+    :align: center
+    :alt: figure 94.7 
+
+- **Checkbox**: It is a predefined checklist. You select by the checking the options. 
+
+.. _adf-94.8:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-94.8.png
+    :align: center
+    :alt: figure 94.8 
+
+- **Radio Button**: Similar to checklist, but supports only one selection.
+
+.. _adf-94.9:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-94.9.png
+    :align: center
+    :alt: figure 94.9
+
+- **Text Area-input**: It is a multi line text input area. 
+
+.. _adf-94.9.1:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-94.9.1.png
+    :align: center
+    :alt: figure 94.9.1
+
+- **Labels**: This are static, immutable chunks of text.
+
+.. _adf-94.9.2:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-94.9.2.png
+    :align: center
+    :alt: figure 94.9.2
+
+Working with Custom Fields
+--------------------------
+
+The product has a simple drag and drop UI to create and arrange fields. 
+
+.. _ad-create-custom-fields:
+
+**To create a custom field:**
+
+- Go to **Admin** >> **(Request, Problem, Change, Contract, Purchase, Feedback or Asset) Custom Fields**.
+
+.. note:: Each module has a separate custom fields page.
 
 .. _adf-95:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-95.png
     :align: center
     :alt: figure 95
 
--  In the **Custom Fields** page, you can view your existing custom
-   fields for each module, if any.
+- In the **Custom Fields** page, you can view your existing custom
+  fields, if any.
 
 .. _adf-96:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-96.png
     :align: center
     :alt: figure 96
 
--  Regardless of the module, you can only have two types of fields: Text
-   Field and Selection Field. A Text field has a label and an input area
-   for a value, and a Selection Field has a label and an input area
-   with a drop-down list of values.
+- To create a new field, drag and drop a field type from the Form Control section to the Preview section. 
 
-   Anywhere, you can have both Text-Field and Selection-Field. You start
-   adding fields using the **Add** button.
-
-    +-----------------------------------+------------------------------------------+
-    | Text Field                        | -  Field Label is the name of the        |
-    |                                   |    field and appears above the           |
-    |                                   |    field.                                |
-    |                                   |                                          |
-    |                                   | -  Default Value always appears          |
-    |                                   |    in the field before being             |
-    |                                   |    edited.                               |
-    |                                   |                                          |
-    |                                   |    .. _adf-97:                           |
-    |                                   |    .. figure:: https://bit.ly/2t1fs3u    |
-    |                                   |        :align: center                    |     
-    |                                   |        :alt: figure 97                   |  
-    |                                   |                                          |        
-    |                                   |                                          |
-    +-----------------------------------+------------------------------------------+
-    | Selection Field                   | -  You can have one Field Label          |
-    |                                   |    but multiple options.                 |
-    |                                   |                                          |
-    |                                   | -  Use the Plus Icon to add more         |
-    |                                   |    options                               |
-    |                                   |                                          |
-    |                                   | -  The options are shown as a            |
-    |                                   |    list.                                 |
-    |                                   |                                          |
-    |                                   | -  You can select an option to be        |
-    |                                   |    the default value. Default            |
-    |                                   |    Value always appears in the           |
-    |                                   |    field before being edited.            |
-    |                                   |                                          |
-    |                                   | -  You can change the Default            |
-    |                                   |    Values’.                              |
-    |                                   |                                          |
-    |                                   |     .. _adf-98:                          |
-    |                                   |     .. figure:: https://bit.ly/2JBPyOI   | 
-    |                                   |        :align: center                    |
-    |                                   |        :alt: figure 98                   |  
-    +-----------------------------------+------------------------------------------+
-
--  The behavior and outlook of custom fields change across the module types.
-
-    a. **Request**:
-
-      i. You can show a custom field in **Create a Request** form.
-
-            .. _adf-99:
-            .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-99.png
-                :align: center
-                :alt: figure 99
-
-         For example, we have created a field called Employee ID in :numref:`adf-99`.
-
-      ii. New fields appear in the Work tab of a Request.
-
-        .. _adf-100:
-        .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-100.png
-            :align: center
-            :alt: figure 100
-
-      iii. You can make a field compulsory for certain Statuses. For
-           example, if a field is compulsory in Open Status, then you cannot
-           keep the field empty when changing to another Status.
-
-    b. **Problem**:
-
-      i. All custom fields appear in the **Custom Fields** tab under
-           **Analysis**.
-
-        .. _adf-101:
-        .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-101.png
-            :align: center
-            :alt: figure 101
-
-      ii. You can make a field compulsory for certain Statuses. For example,
-          if a field is compulsory in Open Status, then you cannot keep the
-          field empty when changing to another Status
-
-    c. **Change**:
-
-      i. You can add a field to a particular stage of a Change.
-
-        .. _adf-102:
-        .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-102.png
-            :align: center
-            :alt: figure 102
-
-      ii.  You can mark a field as compulsory at a particular stage.
-
-      iii. Fields appear in a separate section called Custom Fields.
-
-        .. _adf-103:
-        .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-103.png
-            :align: center
-            :alt: figure 103
-
-    d. **Asset**:
-
-      i. You add a field either to an Asset Type or a particular
-         sub-type.
-
-      ii. Within a type, you can either make the field appear in Property
-          section or Component section. Please refer to the Asset
-          Management manual to learn more.
-
-    e. **Requestor**
-       
-       i. Here Custom fields allow you to create new variables to store information about requestors.
-
-       ii. You can create n number of text fields.
-
-        .. _adf-103.1:
-        .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-103.1.png
-            :align: center
-            :alt: figure 103.1
-        
-       iii. Such fields appear on the :ref:`form for creating <add-requestor-individually>` Requestors.
-
-        .. _adf-103.2:
-        .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-103.2.png
-            :align: center
-            :alt: figure 103.2
-
-       iv. Custom fields appear while mapping field names during LDAP Configurations.
-
-        .. _adf-103.3:
-        .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-103.3.png
-             :align: center
-             :alt: figure 103.3
-
-       v. Custom fields are considered when mapping columns during CSV import of Requestors.
-
-        .. _adf-103.4:
-        .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-103.4.png
-             :align: center
-             :alt: figure 103.4              
-
-Edit Custom Fields
-------------------
-
--  Go to the :ref:`Custom Fields <add-a-custom-field>` page.
-
--  .You can change the name of a custom field using the Edit Icon or
-   delete it using the Delete Icon.
-
-.. _adf-104:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-104.png
+.. _adf-97:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-97.png
     :align: center
-    :alt: figure 104
+    :alt: figure 97
+
+- The field is immediately created, and you can edit the field in its Glance View. 
+  You can open the Glance view by clicking on the field.
+
+    .. _adf-98:
+    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-98.png
+        :align: center
+        :alt: figure 98
+
+  Depending on the field type you can edit the following things: 
+
+  a. **Form Label**: This refers to the title of the field.
+
+  b. **Input Type**: Available for Text Input field. This field supports three types of inputs: Text, Number and Date (Sat, Jul 21, 2018 4:39 PM).
+
+  c. **Hint Text**: Available for Text Input and Drop-down. Hint text appears pre-filled in the input area; hinting the user what to
+     input.  
+
+  d. **Default Value**: Applicable in all field types. You can choose what value to be pre-selected or pre-filled by default.
+     In case there are multiple options, you can select any one as the default value. 
+
+    .. _adf-98.1:
+    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-98.1.png
+        :align: center
+        :alt: figure 98.1 
+
+  e. **Add Option**: For Checkbox and Radio-button type fields, you can add n number of options.
+
+    .. _adf-98.2:
+    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-98.2.png
+        :align: center
+        :alt: figure 98.2
+
+  f. **Label value**: Refers to a static chunk of text which is immutable and available only in a Label field.        
+
+**Rearrange Custom Field**
+
+You can arrange the fields using drag and drop. You can group fields in to sections (this feature is available for Request, 
+Requestor, Feedback, Purchase, Contract and Problem custom fields), and
+you can arrange custom fields in to a matrix using the section feature.
+
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-94.7.png
+    :align: center
+    :alt: figure 94.7
+
+.. note:: The rearrange feature doesn't work when a field is in edit mode (Glance View is open). 
+          The fields are movable when the move icon is visible. 
+
+.. _adf-98.4:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-98.4.png
+    :align: center
+    :alt: figure 98.4
+
+You can delete a field using the adjacent trash icon.     
+
+Custom Field Behavior
+---------------------
+
+The behavior and outlook of custom fields is different for each module.
+
+.. _custom-field-request:
+
+**Request**:
+
+Custom fields appear on the **Create a Request** form. The fields appear by default in the Technician portal, but you have
+to specifically toggle an option to make them appear in the Customer portal.
+
+.. _adf-98.3:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-98.3.png
+    :align: center
+    :alt: figure 98.3
+            
+.. _adf-99:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-99.png
+    :align: center
+    :alt: figure 99
+
+You can view and edit custom fields from the :ref:`details view <request details view>` of a Request. You can find the fields
+under the **Custom Fields** tab. 
+
+.. _adf-100:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-100.png
+     :align: center
+     :alt: figure 100
+
+You can make a field compulsory for certain Statuses. For example, if a field is compulsory in Open Status, then you cannot
+keep the field empty when changing to another Status.
+
+.. _adf-100.1:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-100.1.png
+     :align: center
+     :alt: figure 100.1    
+    
+You can control the visibility of some default fields on the (Requestor Form) Customer portal; they are:
+
+.. _adf-100.1.1:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-100.1.1.png
+     :align: center
+     :alt: figure 100.1.1
+
+Custom fields in Request also appear in the :ref:`Report module<create-tabular-report>`. Technicians can use custom fields in generating reports. 
+
+.. _adf-100.1.2:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-100.1.2.png
+     :align: center
+     :alt: figure 100.1.2
+
+**Problem**:
+
+Problem custom fields are available to Technicians on the **Create a Problem** page.
+
+.. _adf-100.2:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-100.2.png
+     :align: center
+     :alt: figure 100.2
+
+Technicians can view and edit custom fields from the :ref:`details view <problem details view>` of a Problem. 
+You can find the fields under the **Custom Fields** tab. 
+
+.. _adf-101:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-101.png
+        :align: center
+        :alt: figure 101
+
+You can make a field compulsory for certain Statuses. For example,
+if a field is compulsory in Open Status, then you cannot keep the
+field empty when changing to another Status. Please refer to the above :ref:`section <custom-field-reques>`.
+
+Custom fields in Problem also appear in the :ref:`Report module<create-tabular-report>` (as part of the column selection). 
+Technicians can use custom fields in generating reports. 
+
+**Change**:
+
+Custom fields in the case of a Change, appears only in the :ref:`Details View <change details view>` under the **Custom Fields** tab.
+While creating custom fields, you can specifically mark a field as belonging to a particular stage.
+
+.. _adf-102:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-102.png
+     :align: center
+     :alt: figure 102
+
+.. _adf-102.1:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-102.1.png
+     :align: center
+     :alt: figure 102.1
+
+.. _adf-103:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-103.png
+     :align: center
+     :alt: figure 103
+
+.. note:: Stage specific fields can be edited in their respective stages.     
+
+You can mark a field as compulsory at a particular stage.
+
+.. _adf-102.2:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-102.2.png
+     :align: center
+     :alt: figure 102.2
+
+Custom fields in Change also appear in the :ref:`Report module<create-tabular-report>` (as part of the column selection). 
+Technicians can use custom fields in generating reports.     
+
+**Asset**:
+
+You add a custom field either to an Asset Type (all sub-types will have the field) or a particular sub-type (specific).
+
+Within a type, you can either make the field appear in Property section or Component section. Please refer to the Asset
+Management manual to learn more.
+
+.. _adf-102.3:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-102.3.png
+     :align: center
+     :alt: figure 102.3
+
+.. _adf-102.4:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-102.4.png
+     :align: center
+     :alt: figure 102.4
+
+.. _adf-102.5:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-102.5.png
+     :align: center
+     :alt: figure 102.5
+
+Custom fields in Asset also appear in the :ref:`Report module<create-tabular-report>` (as part of the column selection). 
+Technicians can use custom fields in generating reports. Remember, custom fields are specific to an Asset Type and a sub-type.               
+
+.. _requestor-custom-field:
+
+**Requestor Custom Field**
+       
+Here Custom fields allow you to create new variables to store additional information about requestors.
+
+You can create n number of text fields.
+
+.. _adf-103.1:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-103.1.png
+        :align: center
+        :alt: figure 103.1
+        
+Such fields appear on the :ref:`form for creating <add requestor individually>` Requestors.
+
+.. _adf-103.2:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-103.2.png
+        :align: center
+        :alt: figure 103.2
+
+Requestor Custom fields also appear while mapping field names during LDAP Configurations.
+
+.. _adf-103.3:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-103.3.png
+        :align: center
+        :alt: figure 103.3
+
+Custom fields are considered when mapping columns during CSV import of Requestors.
+
+.. _adf-103.4:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-103.4.png
+        :align: center
+        :alt: figure 103.4
+
+**Contract Custom Fields**
+
+Users can add Custom Contract Fields in the Contract module. Some of the use cases of having custom fields are:
+
+- Custom fields can be used for capturing additional information about a Contract.
+
+- Custom fields appear in the :ref:`Reporting module<new-custom-report>`, where you can generate reports using custom fields.
+
+- Custom fields are supported in CSV import of Contracts (as one of the header property values). Custom fields can be used to capture additional information during Contract
+  :doc:`CSV import <upload-contracts-csv>`.
+
+You can view and edit values of such fields from the Custom Fields tab in the :ref:`contract details view` of a Contract.
+
+.. _adf-103.5:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-103.5.png
+     :align: center
+     :alt: figure 103.5
+
+**Feedback Form**
+
+A Feedback form captures the experience of a Requestor with the Helpdesk. A Feedback form is always specific to a particular
+Request. Using Custom fields, administrators can add more fields to capture additional information. Values captured by custom fields 
+are visible under the Feedback tab in the Details View of a Request.
+
+Things to Remember:
+
+- A Feedback form is specific to a particular Request.
+
+- A link to the Feedback form is sent with the Resolved and Closure Email, and an Email sent manually.
+  (:ref:`Learn More <To Activate Feedback>`)s
+
+The Actual Feedback Form:
+
+.. _adf-103.6:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-103.6.png
+     :align: center
+     :alt: figure 103.6
+
+The information captured by a Feedback form is visible in the following places. 
+
+.. _adf-103.7:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-103.7.png
+     :align: center
+     :alt: figure 103.7
+
+**Purchase Custom Field**
+
+Custom fields appear on the :ref:`Edit a PO page <Open Edit a Purchase Order Page>`.  Custom fields can be accessed from 
+**Admin** >> **Purchase Custom Fields**.
+
+.. _pur-50:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/purchase-management/PUR-50.png
+    :align: center
+    :alt: figure 50
+
+There are two class of Purchase Custom Fields:
+
+- **General Details**: This class of custom fields appear under the Additional Information section of :ref:`Edit a PO page <Open Edit a Purchase Order Page>`.
+ 
+- **Purchase Items**: These are Text fields that support only numbers, and they either add or subtract to the Net Total price of a 
+  Purchase Order (excluding or including shipping). 
+
+Learn More about :ref:`Purchase Custom Fields`. 
+
+.. _ad-category:
 
 Category
 ========
@@ -597,12 +894,14 @@ Edit Category
 -  You can only delete Categories in Software. In other types, you have
    to turn a Category off.
 
+.. _ad-custom-rule:
+
 Custom Rules
 ============
 
 Using Custom Rules, you can set pre-requisites that need to be done
 before performing certain actions. You can have Custom Rules for
-Request, Problem, Change, Knowledge and Remote Deployment.
+Request, Problem, Change, Knowledge, Remote Deployment and Purchase.
 
 To Open Custom Rules:
 
@@ -792,3 +1091,67 @@ Remote Deployment:
 
 Whether a deployment of Patches and Packages needs to go through an
 Approval process.
+
+.. _purchase-custom-rules:
+
+Purchase
+--------
+
+You can set rules for each stage of a change process. A Purchase Order cannot move to a different stage as long as it's violating
+a rule of its present stage. 
+
+- **Open and Order Complete Rules**
+  
+  a. Make Delivery Time field mandatory.
+
+  b. Make Requested By field mandatory.
+
+  c. Make GL Code field mandatory.
+
+  d. Make Cost Center field mandatory.
+
+  e. Make Signing Authority field mandatory.
+
+- **Receive Complete Rules**
+
+  a. Make Delivery Time field mandatory.
+
+  b. Make Requested By field mandatory.
+
+  c. Make GL Code field mandatory.
+
+  d. Make Cost Center field mandatory.
+
+  e. Make Signing Authority field mandatory.
+
+  f. All purchase items must be received. 
+
+- **Payment Complete Rules**
+
+  a. Make Delivery Time field mandatory.
+
+  b. Make Requested By field mandatory.
+
+  c. Make GL Code field mandatory.
+
+  d. Make Cost Center field mandatory.
+
+  e. Make Signing Authority field mandatory.
+
+  f. Should have at least one invoice attached.
+
+  g. Should have at least one payment done against an attached invoice. 
+
+- **Closed Rules**
+
+  a. The PO should have an owner (assigned Technician).
+
+  b. Make Delivery Time field mandatory.
+
+  c. Make Requested By field mandatory.
+
+  d. Make GL Code field mandatory.
+
+  e. Make Cost Center field mandatory.
+
+  f. Make Signing Authority field mandatory.

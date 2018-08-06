@@ -20,6 +20,7 @@ Few of the benefits of using Automatic Patch Deployment:
    likely to have heavy traffic.
 
 .. _create-auto-deployment:
+
 Creating an Automatic Patch Deployment
 ======================================
 
@@ -33,16 +34,52 @@ Creating an Automatic Patch Deployment
 
 -  A new page opens with the following fields and options:
 
-    .. _pf-93:
-    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-93.png
+    .. _pf-93.1:
+    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-93.1.png
         :align: center
-        :alt: figure 93
+        :alt: figure 93.1
 
-    a. Section A (:numref:`pf-93`) is where you provide a name to the task, select
-       a :doc:`Deployment Policy <deployment-policy>` and a
-       Platform (a single task can deploy Patches of either one platform).
+    .. _pf-93.2:
+    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-93.2.png
+        :align: center
+        :alt: figure 93.2
 
-    b. Section B is where you select task and Patch type:
+    .. _pf-93.3:
+    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-93.3.png
+        :align: center
+        :alt: figure 93.3
+
+    .. _pf-93.4:
+    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-93.4.png
+        :align: center
+        :alt: figure 93.4            
+
+    a. Section A (:numref:`pf-93.1`) is where you provide a name to the task and select
+       a :doc:`Deployment Policy <deployment-policy>`. You also get a toggle to turn the deployment task off later.
+
+    b. Section B is where you decide from which applications to select the Patches. You get three options:
+
+       i.  **All Application**: As the name suggests, this includes all available applications for searching Patches.   
+       ii. **Include Application**: You include applications from which Patches are selected.
+
+            .. _pf-47:
+            .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-47.png
+               :align: center
+               :alt: figure 47
+    
+       iii. **Exclude Application**: You exclude applications that are ignored when searching for Patches.
+
+       There is a search bar that supports filtering using Package Type.
+
+       You can filter application Patches using criteria Categories and Severities; 
+       for example, you can make the Test Task select Patches with the Category Service Packs and Severity, Critical and Important.
+
+       .. _pf-48:
+       .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-48.png
+           :align: center
+           :alt: figure 48  
+   
+    c. Section C is where you select task and Patch type:
 
         **Task Type:**
 
@@ -60,8 +97,15 @@ Creating an Automatic Patch Deployment
 
             iii.  Only consider Approved Patches that are newly added missing.
 
-    c. Section C is where you select Computer Groups/Group where the Patches
-       are going to be deployed.
+    d. Section D is where you set your target computers. Patch will be deployed in the target computers. You can set Computers either
+       from a Remote Office or by manually selecting them from the list, or both. 
+
+       i. Setting a :ref:`Remote Office <add-remote-office>`. This will allow auto selection of multiple computers from a Remote Office's 
+          network may or may not be based on include and exclude conditions. 
+
+       ii. Setting :ref:`individual <Adding of Computers from List>` computers. 
+
+       iii. Adding a different :ref:`Scope<Adding Multiple Scopes>` (Target) if there are multiple Remote Offices.
 
 -  Complete filling the fields and selecting the options. Click on
    **Create** to create your auto-deployment task.
@@ -74,6 +118,7 @@ You can open a task in edit mode by clicking on the Edit Icon adjacent
 to a task. Similarly, you can delete a task using the Delete Icon.
 
 .. _auto-deployment-schedule:
+
 Create an Auto-Deployment Schedule
 ==================================
 

@@ -17,6 +17,8 @@ from the Admin section.
 
 .. note:: All Technician are Requestors by default and enjoy their rights and permissions, and even more.
 
+.. _view-requestor:
+
 **Open Requestors Page**
 
 The Requestors page is where you can add, view, update and delete
@@ -51,7 +53,7 @@ Add Requestors Individually
 
 You can add Requestors individually by entering their details.
 
-:ref:`Who are Requestors? <manage-requestors>`
+:ref:`Who are Requestors? <manage requestors>`
 
 -  Go to **Admin** >> **Requestors** (Users).
 
@@ -80,7 +82,7 @@ You can add Requestors individually by entering their details.
 You can edit the details of Requestors created manually or imported
 through CSV. You cannot edit Requestors imported via LDAP.
 
--  In the Requestors page, :ref:`Search <search-for-a-requestor>` for the
+-  In the Requestors page, :ref:`Search <search for a requestor>` for the
    Requestor that you want to edit.
 
 -  Click on the Edit Icon adjacent to the Requestor. The Edit Requestor
@@ -96,7 +98,7 @@ through CSV. You cannot edit Requestors imported via LDAP.
 You can delete Requestors created manually, imported through CSV or
 imported via LDAP.
 
--  :ref:`Search <search-for-a-requestor>` for the Requestor that you want to
+-  :ref:`Search <search for a requestor>` for the Requestor that you want to
    delete.
 
 -  Click on the Delete Icon adjacent to the Requestor. On Confirmation,
@@ -141,7 +143,7 @@ To upload Requestors from a CSV follow the below steps:
 -  In the CSV file, input the Requestor details under their respective
    heads. Each row should represent a single Requestor.
 
--  Go to the :ref:`Requestors <manage-requestors>` page. Click on settings
+-  Go to the :ref:`Requestors <manage requestors>` page. Click on settings
    and select **Import from CSV**.
 
 .. _adf-8:
@@ -212,7 +214,7 @@ product using the LDAP protocol.
 
 .. note:: You need admin rights to add Requestors using LDAP.
 
-Once :ref:`LDAP server is configured <ldap-configuration>`, you can start
+Once :ref:`LDAP server is configured <ldap configuration>`, you can start
 importing Requestors:
 
 1. Go to **Admin** >> **LDAP Configuration** (IT Infrastructure).
@@ -231,10 +233,10 @@ importing Requestors:
 Search for a Requestor
 ----------------------
 
-The :ref:`Requestors <manage-requestors>` page has a search box for
+The :ref:`Requestors <manage requestors>` page has a search box for
 searching Requestors. The search box uses Advanced Search features.
 
--  Go to :ref:`Requestors <manage-requestors>`.
+-  Go to :ref:`Requestors <manage requestors>`.
 
 -  In the search box, you can search for a Requestor using five search
    options. Click on the search box to access the search options.
@@ -264,9 +266,9 @@ created manually, imported through CSV or imported via LDAP. In case of
 Requestors from LDAP, you cannot edit their details after converting
 them to Technicians.
 
--  Go to **Admin** >> :ref:`Requestor <manage-requestors>` (Users).
+-  Go to **Admin** >> :ref:`Requestor <manage requestors>` (Users).
 
--  :ref:`Search <search-for-a-requestor>` for the Requestor that you want to
+-  :ref:`Search <search for a requestor>` for the Requestor that you want to
    convert.
 
 -  Click on the Action Menu adjacent to the Requestor. Select **Convert
@@ -290,7 +292,7 @@ them to Technicians.
 
    a. Role/Roles as a Technician. This determines the rights and
       permissions of the Technician. Learn more about :ref:`Roles of a
-      Technician <technician-roles>`.
+      Technician <technician roles>`.
 
    b. You can explicitly mention the support level. Technicians are
       grouped into four levels (tiers) based on their degree of
@@ -310,9 +312,9 @@ Technician.
 You can block Requestors created manually, imported through CSV or
 imported via LDAP. Blocked Requestors cannot log in to the system.
 
--  Go to **Admin** >> :ref:`Requestor <manage-requestors>` (Users)
+-  Go to **Admin** >> :ref:`Requestor <manage requestors>` (Users)
 
--  :ref:`Search <search-for-a-requestor>` for the Requestor that you want to
+-  :ref:`Search <search for a requestor>` for the Requestor that you want to
    block.
 
 -  Click on the Block Icon adjacent to the Requestor. On Confirmation,
@@ -478,7 +480,7 @@ Add/View Technicians
 
    e. Roles of the Technician. This defines the rights and permissions
       of the Technician. Learn how to :ref:`create custom
-      roles <technician-Roles>`.
+      roles <technician Roles>`.
 
    f. There are four support levels to choose from; you can select all
       four. Defining the levels of a Technician is a way to quantify
@@ -498,7 +500,7 @@ Update a Technician’s Info
 Flotomate provides the **Edit Technician** dialog box for easy
 modification of a Technician’s info.
 
-:ref:`Learn who is Technician? <managing-Technician>`
+:ref:`Learn who is Technician? <managing Technician>`
 
 .. note:: You need to have administrative rights to view and modify Technician details.
 
@@ -516,6 +518,50 @@ modification of a Technician’s info.
     :align: center
     :alt: figure 25
 
+Convert a Technician into Super-User
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+A superuser is a user with privilege levels far beyond those of most user accounts. 
+Superuser account is necessary for the platform management functions but also to control and oversee them.
+
+A superuser can convert an existing  Technician into a superuser after giving up his/her rights.
+
+**To Convert a Technician into Superuser**
+
+- He goes to **Admin** (A Navigation Tab) >> **Technician** (under User).
+
+- In the Technician page, an **Action Menu** Icon is visible against people who are not
+  superusers. This **Action Menu** Icon is visible to the superuser only.
+
+.. _adf-25.1:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-25.1.png
+    :align: center
+    :alt: figure 25.1
+
+- Superuser clicks on the option **Convert to Super Admin** in the Action Menu of a Technician. 
+  This opens a dialog box with the following fields:
+
+  a. **My Email**: The email ID of the existing superuser.
+
+  b. **Roles**: The roles of the existing superuser when he/she is no longer the superuser.
+
+  c. **Location**: The location of the existing superuser when he/she is no longer the superuser.
+
+  .. _adf-25.2:
+  .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-25.2.png
+    :align: center
+    :alt: figure 25.2
+
+- He clicks on **Proceed** that takes him to another dialog box where he has to confirm the migration by entering
+  his account password. 
+
+.. _adf-25.3:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-25.3.png
+    :align: center
+    :alt: figure 25.3
+
+- On success, the existing superuser is logged out, and he is no longer the superuser.        
+
 Role of a Technician
 ^^^^^^^^^^^^^^^^^^^^
 
@@ -524,7 +570,7 @@ the Roles field in Edit Technician dialog box (:numref:`adf-25`)\ **;** select
 the roles applicable to the person and hit **Update** to make the
 changes.
 
-Learn :ref:`how to add new roles <technician-roles>`.
+Learn :ref:`how to add new roles <technician roles>`.
 
 Change Support Level
 ^^^^^^^^^^^^^^^^^^^^
@@ -637,28 +683,33 @@ across the following modules:
 
 -  Admin
 
+- Contract
+
+- Purchase
+
+- Report
+
 Default Roles
 -------------
 
 Flotomate offers eight default roles with predefined permissions
 covering major ITSM processes.
 
-+-----------------------+-----------------------+-----------------------+
-| Admin                 | Service Desk          | Problem Specialist    |
-|                       | Technician            | Technician            |
-+-----------------------+-----------------------+-----------------------+
-| Request Specialist    | Problem Specialist    | Change Specialist     |
-| Technician            | Technician            | Technician            |
-+-----------------------+-----------------------+-----------------------+
-| Asset Specialist      | Junior Technician     |                       |
-| Technician            |                       |                       |
-+-----------------------+-----------------------+-----------------------+
++-------------------------------+-------------------------------+------------------------------+
+| Contract Manager              | Purchase Manager              | Patch Specialist Technician  |
++-------------------------------+-------------------------------+------------------------------+
+| Junior Technician             | Asset Specialist Technician   | Change Specialist Technician |
++-------------------------------+-------------------------------+------------------------------+
+| Problem Specialist Technician | Request Specialist Technician | Service Desk Technician      |
++-------------------------------+-------------------------------+------------------------------+
+| Admin                         |                               |                              |
++-------------------------------+-------------------------------+------------------------------+
 
 Add/View Roles
 --------------
 
 -  In the **Admin** section, you can view all the roles in Roles
-   (in Users) page. Click any one role to view its permissions and rights.
+   (under Users) page. Click any one role to view its permissions and rights.
 
 .. _adf-27:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-27.png
@@ -666,7 +717,7 @@ Add/View Roles
     :alt: figure 27
 
 -  You add a custom role by going back to the **Roles** page and
-   clicking **Add Roles** situated in the top right corner of the page.
+   clicking **Create a Role** situated in the top right corner of the page.
    We have the permissions and rights grouped module wise. Click any one
    module to see its rights and permissions.
 
@@ -787,6 +838,34 @@ Add/View Roles
     |           | -  Manage automation in the product.             |
     |           |                                                  |
     |           | -  Ignore approvers in an Approval process.      |
+    +-----------+--------------------------------------------------+ 
+    | Contract  | - View Contracts                                 |
+    |           |                                                  |
+    |           | - Update and Create Contracts                    |
+    |           |                                                  |
+    |           | - Delete Contracts                               |
+    |           |                                                  |
+    |           | - Manage attachments of Contracts                |
+    |           |                                                  |
+    |           | - Contract Renewal                               |
+    |           |                                                  |
+    |           | - Manage relationships of Contracts              |
+    +-----------+--------------------------------------------------+
+    | Purchase  | - View Purchase Order                            |
+    |           |                                                  |
+    |           | - Create and update Purchase Order               |
+    |           |                                                  |
+    |           | - Delete Purchase Orders                         |
+    |           |                                                  |
+    |           | - Manage invoice and payments                    |
+    |           |                                                  |
+    |           | - Manage relationships of PO                     |
+    |           |                                                  |
+    |           | - Closing POs                                    |
+    |           |                                                  |
+    |           | - Cancel Purchase Order                          |
+    +-----------+--------------------------------------------------+
+    | Report    | - View and manage Reports                        |
     +-----------+--------------------------------------------------+
 
 -  Once you are done with the permissions and rights, hit **Create** to
@@ -1002,3 +1081,47 @@ and Amartya.
 He can efficiently manage all the groups from the **Technician Groups**
 page. Now he is confident that he has aligned his company’s resources to
 meet its IT requirements.
+
+.. _ad-requestor-accounts:
+
+Requestor Accounts
+=================
+
+We have users who use our Helpdesk to serve their external clients from different organization. In such cases, it becomes important to track the source
+of a request. With the Request Accounts feature, users of our product can bifurcate incoming Requests based on the organization
+of the Requestor. Before using this feature, a user (with admin rights) has to manually add the client organizations in the product.
+
+**Adding a Requestor Account**
+
+- Go to Admin (A Navigation Tab) >> Request Accounts (under User).
+
+.. _adf-35.1:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-35.1.png
+    :align: center
+    :alt: figure 35.1
+
+- The Requestor Accounts page opens. Here you can view all your existing accounts. You can search for an account
+  using the search bar. To create a new account, click on **Create Requestor Account** situated in the top right corner of the
+  page.
+
+- A dialog box opens. Type in a Name and Description and hit **Create**.
+
+.. _adf-35.2:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-35.2.png
+    :align: center
+    :alt: figure 35.2
+
+- The new account is added to the Requestor Accounts page.
+
+**Edit/Delete an Account**
+
+- Go to the :ref:`Requestor Accounts<requestor accounts>` page.
+
+- The edit icon allows you to edit an Account and the delete icon lets you delete one.
+
+.. _adf-35.3:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-35.3.png
+    :align: center
+    :alt: figure 35.3
+
+.. note:: When you delete an Account, the Account label disappears from Requests that have already been created.     

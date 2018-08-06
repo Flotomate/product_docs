@@ -38,6 +38,7 @@ There are three ways to create a Deployment Request in the product:
    publishes a Deployment Request.
 
 .. _manually-create-request:
+
 Manually Creating a Request
 ===========================
 
@@ -68,19 +69,18 @@ Manually Creating a Request
             default placeholder. It is advisable to keep the date part of the
             placeholder.
 
-        ii.  **Platform**: Select the platform for which you are deploying
-             patch/patches. Currently, we support only Windows and Linux.
+        ii. **Deployment Policy**: Select a Deployment policy from the
+            drop-down list. A Deployment Policy governs how the deployment of
+            Patches is carried out. Learn about :doc:`Deployment
+            Policies <deployment-policy>`.
 
-        iii. **Deployment Policy**: Select a Deployment policy from the
-             drop-down list. A Deployment Policy governs how the deployment of
-             Patches is carried out. Learn about :doc:`Deployment
-             Policies <deployment-policy>`.
-
-        iv.  **Install After**: Provide a date and time after which the request
+        iii. **Install After**: Provide a date and time after which the request
              tells the Computers to commence the installation process
 
-        v.  **Expire After**: This is the date and time after which the
+        iv. **Expire After**: This is the date and time after which the
             request ceases to be a valid request.
+
+        v.  **Deployment Action**: Shows whether the deployment is for Patch installation or un-installation.    
 
     b. **Select Patch**: Here you add the Patch/Patches that you want to deploy.
 
@@ -93,7 +93,7 @@ Manually Creating a Request
 
         ii.  Section-B has a search bar for searching all available Patches for
              the selected platform. The search bar supports the Advanced Search
-             feature. Learn how to use :ref:`Advanced Search <advanced-search-computer>`.
+             feature. Learn how to use :ref:`Advanced Search <search-bar-list-view>`.
 
         iii.  Section-C is where you view the available Patches in the product.
               Clicking a checkbox selects a Patch and transfers it to section-A.
@@ -108,16 +108,15 @@ Manually Creating a Request
             :alt: figure 65
 
 
-        Target refers to Computer/Computers where Patches are going to be
-        installed. You can select a Computer Group or Groups, or individual
-        Computers as a target. You can select both Computer Groups and Computers
-        as a target.
+       Here you set your target computers. Patch will be deployed in the target computers. Here you can set the
+       following things:
 
-        You can create a new group using the **Create Computer Group** button.
-        It opens a dialog box where you can create a group; learn :doc:`how to create
-        a group <manage-computer-groups>`. You also get a search bar to search
-        Computers. The search bar supports the Advanced Search feature. Learn
-        how to use :ref:`Advanced Search <advanced-search-computer>`.
+       i. Set a :ref:`Remote Office <add-remote-office>`. This will allow auto selection of multiple computers from a Remote Office's 
+          network may or may not be based on include and exclude conditions.
+
+       ii. Set :ref:`individual <Adding of Computers from List>` computers.
+
+       iii. Set a different :ref:`Scope<Adding Multiple Scopes>` (Target) if there are multiple Remote Offices. 
       
     d. **Retry Configuration**
 
@@ -152,13 +151,14 @@ the Quick Filter **Drafted**.
 
 If you want to publish the request, then click on **Publish**. This
 might or might not activate the request immediately, depending on Custom
-Rules. If Patch :ref:`Custom Rules <deployment-request-approval>` demand Approval, then you
+Rules. If Patch :ref:`Custom Rules<Patch Custom Rules>` demand Approval, then you
 have to seek Approval before you can publish the Request.
 
 You can publish a drafted request from its Update page (clicking on a
 request opens its Update page).
 
 .. _other-ways-add-request:
+
 Other Ways to Add a Manual Request
 ==================================
 
@@ -221,17 +221,18 @@ Adding a Deployment Request from a Computer’s Details View:
    Deployment Requests <manually-create-request>`.
 
 .. _deployment-request-approval:
+
 Approval
 ========
 
-In case there is a custom rule defined (Refer admin manual for Patch Custom Rules), then you have to make every
-drafted request go through an Approval process before publishing it. In
+In case there is a custom rule defined (Refer admin manual for Patch :ref:`Custom Rules<ad-custom-rule>`), 
+then you have to make every drafted request go through an Approval process before publishing it. In
 an Approval process, you seek approval from a set of approver/approvers.
 
 Asking for an Approval:
 -----------------------
 
--  Go to the :ref:`Deployment Request <manually-create-request>` page.
+-  Go to the :ref:`Deployment Request<manually-create-request>` page.
 
 -  Click on the Quick Filter **Drafted** to sort all drafted requests.
 
@@ -240,15 +241,14 @@ Asking for an Approval:
    :align: center
    :alt: figure 70
 
--  Select one or more requests. The **Ask for an Approval** button
-   appears above the list area.
+-  Requests that haven't gone through the Approval process have the **Ask for Approval** button adjacent to them.
 
 .. _pf-71:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-71.png
    :align: center
    :alt: figure 71
 
--  Click on **Ask for an Approval** to initiate the Approval process.
+-  Click on **Ask for an Approval** to initiate the Approval process. The Approval status changes to pending.
 
 Different States in an Approval
 -------------------------------
@@ -361,6 +361,7 @@ status as Ignored in Approval details dialog box of the Article.
    :alt: figure 78
 
 .. _searching-deployment-request:
+
 Searching Deployment Requests
 =============================
 
@@ -394,8 +395,7 @@ In some options you have to enter a value and in others there are
 predefined values. You can create conditions using multiple options.
 Between two different conditions of the same option type OR logic is
 followed. Between different types AND logic is observed. An example of
-same option type contradiction is Platform equals Windows vs. Platform
-equals Linux.
+same option type contradiction is Name contains Patch vs. Name contains deploy.
 
 .. _pf-81:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-81.png
@@ -445,15 +445,17 @@ and the Approval status shows both Approved and Pre-Approved requests.
 
 -  :ref:`Manually <manually-create-request>`
 
--  :ref:`Automatic Patch Deployment <auto-patch-deployment>`
+-  :ref:`Automatic Patch Deployment <Automatic Patch Deployment>`
 
 -  :ref:`Automatic Patch Test <automatic-patch-test>`
 
 .. _managing-deployment-requests-1:
+
 Managing Deployment Requests
 ============================
 
 .. _deployment-status:
+
 Deployment Status
 -----------------
 

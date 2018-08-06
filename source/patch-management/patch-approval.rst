@@ -14,6 +14,7 @@ Approval and Automatic Approval (Automatic Patch Test). Which method to
 choose is decided from the Patch Approval Setting in Admin.
 
 .. _approval-settings:
+
 Patch Approval Setting (Selecting an Approval Method)
 =====================================================
 
@@ -56,6 +57,7 @@ c. **Qualified Patches will be Approved by Test Task**: All new incoming
 Select an Approval Type and hit **Update**.
 
 .. _automatic-patch-test:
+
 Automatic Patch Test (Auto-Approval of Patches)
 ===============================================
 
@@ -76,7 +78,7 @@ Request is created by a Test Task (each request has its own start and
 end period). At the end of a period, the selected Patches in a
 Deployment Request are auto-approved if the installations have been
 unanimously successful. The purpose of a review period is to give
-Technicians the time to securitize a deployment done by a Test Task and
+Technicians the time to scrutinize a deployment done by a Test Task and
 Reject Patches that have caused issues.
 
 **Add an Automatic Patch Test**
@@ -96,38 +98,43 @@ Reject Patches that have caused issues.
    :alt: figure 44
 
 -  The Automatic Patch Test page opens. Here you can view all your Test
-   Tasks if any. Click on **Create a Test Task** situated in the top
+   Tasks if any. Click on **Create Patch Test Task** situated in the top
    right corner of the page.
 
 -  The Create page opens with the following fields:
 
-.. _pf-45:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-45.png
-   :align: center
-   :alt: figure 45
+    .. _pf-45:
+    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-45.png
+       :align: center
+       :alt: figure 45
 
-.. _pf-46:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-46.png
-   :align: center
-   :alt: figure 46
-::
-    a. Section A (:numref:`pf-45`) is where you enter a name for the Task, select a platform (based on which Patches are shown), 
-       and select a Deployment Policy (:doc:`Learn more <deployment-policy>`). You also get a toggle to turn/off the Task anytime.
+    .. _pf-46.1:
+    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-46.1.png
+       :align: center
+       :alt: figure 46.1
+
+    .. _pf-46.2:
+    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-46.2.png
+       :align: center
+       :alt: figure 46.2   
+
+    a. Section A (:numref:`pf-45`) is where you enter a name for the Task, 
+       and select a Deployment Policy (:doc:`Learn more <deployment-policy>`). You also get a toggle to turn/off the Task anytime later.
 
     b. Section B is where you decide from which applications to select the Patches. You get three options:
-::
-    ::
-        i.  **All Application**: As the name suggests, this includes all available applications for searching Patches.
 
-        ii. **Include Application**: You include applications from which Patches are selected.
+    
+       i.  **All Application**: As the name suggests, this includes all available applications for searching Patches.   
+       ii. **Include Application**: You include applications from which Patches are selected.
 
-.. _pf-47:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-47.png
-   :align: center
-   :alt: figure 47
-:: 
-    ::
-        iii. **Exclude Application**: You exclude applications that are ignored when searching for Patches.
+            .. _pf-47:
+            .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-47.png
+               :align: center
+               :alt: figure 47
+    
+       iii. **Exclude Application**: You exclude applications that are ignored when searching for Patches.
+
+       There is a search bar for Application that supports filtering using Package Type.
 
     c. Section C is where you set the criteria based on which Patches are selected. You can set Categories and Severities; 
        for example, you can make the Test Task select Patches with the Category Service Packs and Severity, Critical and Important.
@@ -137,23 +144,31 @@ Reject Patches that have caused issues.
    :align: center
    :alt: figure 48
 ::
-    d. Select D is where you select the Computer Group/Groups; Computers in them are the ones that are going to deploy the Patches. 
-       You can select multiple groups with their own set of Computers. You can create a new group using the **Create Computer Group** button (:doc:`Learn More <manage-computer-groups>`).
+    d. Section D is where you set your target computers. Patch will be deployed in the target computers. Here you can set the
+       following things:
+
+       i. Set a :ref:`Remote Office <add-remote-office>`. This will allow auto selection of multiple computers from a Remote Office's 
+          network may or may not be based on include and exclude conditions. 
+
+       ii. Set :ref:`individual <Adding of Computers from List>` computers.
+
+       iii. Set a different :ref:`Scope<Adding Multiple Scopes>` (Target) if there are multiple Remote Offices.  
 
     e. Section E is where you set the review period (in days) for Auto-Approval. 
        A review period starts whenever a Deployment Request is created by the Test Task (a Test Task can create multiple Requests each one with its own review period). 
        At the end of a period, the selected Patches in a Deployment Request are auto-approved if the installations have been unanimously successful.
 
--  Make all the necessary selections and click on **Create** to start
+-  When you are done with the fields and options, click on **Create** to start
    the Test Task.
 
 .. _status-test-task:
+
 View Status of Test Task
 ------------------------
 
 Once you create a Test Task, you can view how many Deployment Requests
-the Test Task has created and the status of each deployment. The tool
-also shows which Patches are pending decision from an Automatic Patch
+the Test Task has created and the status of each deployment. The system
+also shows which Patches are pending decision (in their :ref:`Details View <patch details view>`) from an Automatic Patch
 Test:
 
 .. _pf-49:

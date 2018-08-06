@@ -14,7 +14,7 @@ The Agent Self Upgrade feature allows for a smooth transition from one
 version of the Agent to another. Using this feature, an admin can
 centrally deploy an Agent.exe from the product server, which is received
 by all the (active) computers in the :ref:`Endpoint
-scope <endpoint-scope>`. The received **agent.exe** auto-installs
+scope <endpoint scope>`. The received **agent.exe** auto-installs
 itself during the next boot cycle.
 
 Some of the benefits of using the latest version of the Agent

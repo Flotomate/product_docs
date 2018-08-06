@@ -2,10 +2,12 @@
 Mark a Request as a Spam
 ************************
 
+Irrelevant and unsolicited messages sent are Spam; here the messages are in the form of tickets (Requests). 
 It may happen that some Requests that you receive are irrelevant, and
-you want them disappear. You can discard a Request as a Spam, and it
-disappears from the product. You can mark multiple Requests as Spam at
-once or mark them individually.
+you want them to disappear. You can discard a Request as a Spam, and it
+disappears from the main server. 
+
+You can mark multiple Requests as Spam at once or mark them individually.
 
 .. _rmf-58:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-58.png

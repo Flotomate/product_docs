@@ -3,8 +3,7 @@ Asset Management
 
 .. toctree::
    :maxdepth: 2
-   :caption: Patch Management
-
+   
    asset-management-intro
    asset-list-view
    manage-asset-details
@@ -20,7 +19,7 @@ Asset Management
    modify-software-assets
    manage-software-license
    consolidating-software
-   prohibted-software
+   prohibited-software
    software-metering
    asset-discovery
    initiate-manual-scanning

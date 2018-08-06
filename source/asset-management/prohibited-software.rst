@@ -10,7 +10,7 @@ Flotomate has a default Software Type called Prohibited, which can be
 used to flag certain Software Assets in the CMDB. The process of
 flagging can be done both manually and through automation.
 
-We have `notifications <#different-types-of-notifications>`__ that
+We have :ref:`notifications <different types of notifications>` that
 notify people about the discovery of Prohibited Assets. The notification
 can go to the users (Used By) of the Assets and the Administrators.
 
@@ -19,7 +19,7 @@ Manually Flagging a Software Asset as Prohibited
 
 **Flagging from the Asset List View**:
 
--  Go to the `Asset List View <#asset-list-view>`__ of the class
+-  Go to the :doc:`Asset List View <asset-list-view>` of the class
    Software IT Asset.
 
 -  Select one or more Software from the list area. The **Mark as
@@ -37,7 +37,7 @@ Manually Flagging a Software Asset as Prohibited
 
 .. note:: Using this method you can flag Software Assets one at a time.
 
--  Go to the `Details View <#classifying-assets>`__ of a Software Asset.
+-  Go to the :doc:`Details View <mange-asset-details>` of a Software Asset.
 
 -  There expand the **More Details** section.
 
@@ -70,7 +70,7 @@ provide the regex expressions.
 
 **To Provide an Expression:**
 
-1. Go to the `Asset List View <#asset-list-view>`__ of the class
+1. Go to the :doc:`Asset List View <asset-list-view>` of the class
    Software IT Assets.
 
 2. Select one or more Software from the list area. **Manage Prohibited
@@ -96,7 +96,7 @@ provide the regex expressions.
 
     a. In section-A, you add emails of people who want a notification
        every time a Prohibited Software Asset is discovered. The
-       `notification <#managing-software-licenses>`__ for Admin is sent
+       :ref:`notification <managing software licenses>` for Admin is sent
        to the mentioned email address/addresses.
 
     b. In section-B, you add your expression. You can add multiple
@@ -123,7 +123,7 @@ You can ignore Prohibited Software in certain Hardware Assets. Computer
 Exclusion lets you add Assets that you want to ignore for Prohibited
 Software.
 
--  Go to the `List View <#asset-list-view>`__ of class Software Assets.
+-  Go to the :doc:`List View <asset-list-view>` of class Software Assets.
 
 -  Click on Computer Exclusion above view pane.
 
@@ -133,7 +133,7 @@ Software.
     :alt: figure 146
 
 -  Add Global Exclusion dialog box opens. There you can search for
-   Assets (it supports `Advanced Search <#using-search-bar>`__). Select
+   Assets (it supports :ref:`Advanced Search <am-using-search-bar>`). Select
    the Assets that you want to ignore and add them for exclusion.
 
 .. _amf-147:

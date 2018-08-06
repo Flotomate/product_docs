@@ -14,17 +14,19 @@ Schedule.
 Creating a Schedule
 ~~~~~~~~~~~~~~~~~~~
 
--  Go to the `Report List View <#create-a-summary-report>`__.
+-  Go to the :ref:`Report List View <create a summary report>`.
 
 -  Select the Report for which you want to set a Schedule. Now click on
    **Schedule** from the Glance View.
 
+.. _rf38:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-38.png
       :align: center
       :alt: figure 38
 
 -  The following fields appear in the Glance View.
 
+.. _rf39:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-39.png
       :align: center
       :alt: figure 39
@@ -65,6 +67,7 @@ Creating a Schedule
 
 -  The Glance View shows the settings of the current Schedule.
 
+.. _rf40:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-40.png
       :align: center
       :alt: figure 40

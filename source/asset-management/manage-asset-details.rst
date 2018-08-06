@@ -17,7 +17,7 @@ Asset has with other CI (Configuration Items).
 
 To Access the Asset Details View:
 
-1. Go to the `Asset List View <#asset-list-view>`__ of any class.
+1. Go to the :doc:`Asset List View<asset-list-view>` of any class.
 
 2. Clicking on the ID or Name of an Asset from the list area takes you
    to the Asset Details View of the Asset.
@@ -30,10 +30,9 @@ To Access the Asset Details View:
 Understanding the Details View is the first step towards managing a
 single Asset in Flotomate.
 
--  Section-A houses the `Change Name and Description of an
-   Asset <#change-name-and-description-of-an-asset>`__.
+-  Section-A houses the :ref:`Change Name and Description of an Asset<change-name-description-asset>`.
 
--  Section B & C houses the `classifiers <#prohibited-software>`__.
+-  Section B & C houses the :ref:`classifiers <classifying assets>`.
 
 -  Section-D showcases Properties, Components, Details and other
    information. Visibility of a tab depends upon the Asset Type.
@@ -78,26 +77,22 @@ single Asset in Flotomate.
     d. **Details**: The Details tab contains information on a Software Asset
        concerning cost, validity, and license.
 
-    e. **Consolidated Software**: Learn more about `Software
-       Consolidation <#_Consolidating_Software>`__.
+    e. **Consolidated Software**: Learn more about :doc:`Software Consolidation <consolidating-software>`.
 
     f. **History**: The History Tab of an Asset shows the following:
 
-        i. `Audit Trail <#managing-software-licenses>`__
+        i. :ref:`Audit Trail <am-viewing-audit-trail>`
 
-        ii.  `Scan and Change log. <#managing-software-licenses>`__
+        ii. :doc:`Scan and Change log. <asset-logs>`
 
-    g. **Relationships**: Learn about `Managing
-       Relationships <#prohibited-software>`__.
+    g. **Relationships**: Learn about :doc:`Managing Relationships <prohibited-software>`.
 
-    h. **Linked Events**: Learn about `Linked
-       Events <#prohibited-software>`__.   
+    h. **Linked Events**: Learn about :ref:`Linked Events <am-linked-events>`.   
 
     i. **Installation**: The Installation tab of a Software lists all the
        machines using the Software or have it installed.
 
-    j. **Metering**: Learn about `Software
-       Metering <#managing-software-licenses>`__.
+    j. **Metering**: Learn about :doc:`Software Metering <software-metering>`.
 
     k. **Notes**: Technicians can add notes in an Asset. Notes are visible to all Technicians
        who are allowed to view the CMDB. :ref:`Learn more <adding notes>`.
@@ -116,16 +111,35 @@ single Asset in Flotomate.
 
    a. View Barcode
 
-   b. `Print Barcode <#print-asset-barcode>`__
+   b. :ref:`Print Barcode <print asset barcode>`
 
-   c. `Copy Barcode <#copying-an-asset-barcode-to-the-clipboard>`__
+   c. :ref:`Copy Barcode <copying an asset barcode to the clipboard>`
 
-   d. `Change Barcode <#changing-an-assets-barcode>`__.
+   d. :ref:`Change Barcode <changing an assets barcode>`.
 
 -  Section-G is the Action Menu of the Details View. The available
-   options in this menu depend on the Asset Type.
+   options in this menu depend on the Asset Type. Some of the Options are:
 
-Change (Host)Name and Description of an Asset
+   a. Add Attachments (available in all Asset Class).
+
+   b. Scan Now (Only in Hardware Assets).
+
+   c. Exclude from Scanning (Only in Hardware Assets).
+
+   d. View Audit Trail (available in all Asset Class).
+
+   e. Export Asset (available in Hardware and Software).
+
+   f. Remote Desktop (only in Hardware Assets).
+
+   g. Reconcile (only in Hardware Assets).
+
+   h. Mark for Notification (only in Software Assets).
+
+   
+.. _change-name-description-asset:
+
+Change (Host) Name and Description of an Asset
 =======================================
 
 Section-A (:numref:`amf-14`) shows the ID and Name (by default host name in case of Hardware Asset) of the Asset. The ID
@@ -147,7 +161,7 @@ Classifying Assets
 ==================
 
 You can classify an Asset using predefined and custom identifiers. Go to
-the `Details View <#searching-assets>`__ of any Asset, and you would
+the :doc:`Details View <manage-asset-details>` of any Asset, and you would
 have the following classifying options.
 
 .. _amf-18.1:
@@ -189,8 +203,7 @@ have the following classifying options.
 
     e. **In Transit**: The Asset has been purchased and in transit.
 
-   You can have custom statuses. Learn more about `custom
-   status <#_Asset_Custom_Status>`__.
+   You can have custom statuses. Learn more about :ref:`custom status <ad-add-custom-status>`.
 
 -  **Discover status** (:numref:`amf-18.2`): The system classifies all discovered
    Assets with the label **Discovered**. The Assets that are manually
@@ -235,8 +248,8 @@ field (:numref:`amf-18.2`) opens a drop-down menu where you make your selection.
     :alt: figure 21
 
 Asset Groups are important for adding
-`subscribers <#managing-subscribers>`__ to Hardware Asset related
-`notifications <#_Different_Types_of>`__. Learn more about Asset Group.
+:ref:`subscribers <managing subscribers>` to Hardware Asset related
+:ref:`notifications <different types of notifications>`. Learn more about Asset Group.
 
 Add/Modify Product
 ------------------
@@ -261,7 +274,7 @@ below 5 MB size.
 Adding an Attachment
 --------------------
 
-Go to the `Asset Details View <#searching-assets>`__ of the Asset to
+Go to the :doc:`Asset Details View <manage-asset-details>` of the Asset to
 which you want to add an attachment.
 
 .. _amf-22:
@@ -286,12 +299,14 @@ Asset in the More Details section.
     :align: center
     :alt: figure 23
 
+.. _am-linked-events:
+
 Linked Events
 =============
 
 The **Linked Events** tab gives you an option to create a link between
 an Asset and other Requests, Problems, Knowledge and Changes. Learn to
-access the `Linked Events <#searching-assets>`__ tab.
+access the :ref:`Linked Events <manage-asset-details>` tab.
 
 The purpose of creating links is to build contextual information about
 an Asset; for example, a faulty cooling system in a server (CI) have
@@ -384,8 +399,8 @@ The relationships created between nodes (Assets) are saved in the system
 and can be viewed in their respective **Relationship** tabs. However,
 such relationships have no bearing on the CMDB.
 
-You can access the **Relationship** tab from the `Details
-View <#searching-assets>`__ of a Non-Software Asset.
+You can access the **Relationship** tab from the :ref:`Details
+View <manage-asset-details>` of a Non-Software Asset.
 
 .. _amf-27:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-27.png
@@ -444,8 +459,8 @@ View <#searching-assets>`__ of a Non-Software Asset.
             :alt: figure 30
 
     c. Section-C has the search bar for searching Assets in the CMDB. It
-       supports the Advanced Search (refer the search bar of `List
-       View <#asset-list-view>`__) feature.
+       supports the Advanced Search (refer the search bar of :doc:`List
+       View <asset-list-view>`) feature.
 
     d. In section-D, you can view all the Assets or the list of Assets
        filtered by search. Here you make the selection for the second node.
@@ -466,3 +481,37 @@ View <#searching-assets>`__ of a Non-Software Asset.
 
 -  The **View Full-Screen** button expands the View Area to the entire
    page.
+
+Reconciliation of Assets
+========================
+
+When new Assets are purchased and received, the related :doc:`Purchase Order <introduction-purchase-management>` is closed. The Assets that are received are automatically added to the
+CMDB with the status **In Stock**. 
+
+When these Assets are discovered during an Asset Scanning (could be Agent-less or Agent Based), duplicate entires are
+created in the CMDB. A Technician has to manually reconcile each Asset with an **In Stock ** Asset. Reconciliation facilitates proper
+inventory management where a Technician knows exactly which Assets are available for assignment.  
+
+Only two Assets can be reconciled at a time.
+
+Conditions for Asset Reconciliation:
+
+- Only two Assets can be reconciled at a time.
+
+- Any one of them has to have an Origin: Purchase Order.
+
+What happens after Reconciliation of two Assets ?
+
+- The Asset with Origin: Purchase Order is deleted.
+
+- The Asset that is not deleted gets the following information added from the deleted Asset:
+
+  a. Product info.
+
+  b. Purchase Order details.
+
+  c. The associated Purchase Order is linked (Relation) with the Asset.
+
+  d. Used By and Manage By fields are updated, if any.
+
+Learn how to perform :ref:`Asset Reconciliation <Manual Reconciliation of Assets>`.  

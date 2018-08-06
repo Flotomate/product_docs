@@ -8,7 +8,7 @@ you to create a bundle of software with one as the Primary and the rest
 as Secondary. This way you can consolidate multiple Software Assets into
 one.
 
-1. Go to the `Asset List View <#asset-list-view>`__ of the class
+1. Go to the :doc:`Asset List View<asset-list-view>` of the class
    Software IT Asset.
 
 2. In the Asset List View, select the Software that you want to
@@ -40,7 +40,7 @@ one.
 
     d. Section-C houses the search bar that lets you search Software Assets
        in the CMDB. The search bar supports the Advanced Search (similar to
-       the one in `List View <#asset-list-view>`__) feature. You can use the
+       the one in :doc:`List View<asset-list-view>`) feature. You can use the
        search box to find specific Assets by using keywords and predefined
        search options.
 

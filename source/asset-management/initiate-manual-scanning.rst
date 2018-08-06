@@ -2,6 +2,8 @@
 Initiate Manual Scanning
 ************************
 
+.. _scanning-a-single-hardware-computer:
+
 Scanning a Single Hardware Computer
 ===================================
 
@@ -44,7 +46,7 @@ existing network.
 Excluding an Asset from Scanning
 ================================
 
-You can exclude an Asset from the `Polling <#run-on-demand-polling>`__
+You can exclude an Asset from the :ref:`Polling<run on demand polling>`
 process.
 
 **From List View**
@@ -61,7 +63,7 @@ process.
 
 **From Details View**
 
-- Go to the `Asset Details View <#searching-assets>`__ of the Asset
+- Go to the :doc:`Asset Details View<manage-asset-details>` of the Asset
    that you want to exclude.
 
 .. _amf-198:

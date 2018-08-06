@@ -324,6 +324,8 @@ a successful connection was established or not.
 3. You can delete any credential by clicking the Delete icon adjacent
    to a credential.
 
+.. _adding-a-network:
+
 Network
 ^^^^^^^
 
@@ -554,7 +556,7 @@ reports based on the output of a Discovery operation.
 
 New Assets can be added automatically to the CMDB during a Discovery
 operation and kept up to date by scheduling a process called
-`Polling <#run-on-demand-polling>`__ that retrieves any changes at the
+:ref:`Polling<run-on-demand-polling>` that retrieves any changes at the
 source.
 
 Using Scheduling, you can even automate the Discovery process. You can
@@ -580,12 +582,12 @@ in a Probe:
         :align: center
         :alt: figure 168
 
-   During discovery, you can view the `progress <#statusprogress-of-a-probe>`__ under the Discovery tab.
+   During discovery, you can view the :ref:`progress<status-of-a-probe>` under the Discovery tab.
 
 4. All discovered Assets are added to the Asset List View; there you
    can view them and can perform other operations. If you did not
    select automatic addition to the CMDB, then discovered Assets are
-   staged for `review <#reviewing-discovered-assets>`__; from there you
+   staged for :ref:`review<reviewing-discovered-assets>`; from there you
    have to commit them to the CMDB. You can view the Assets that are currently staged
    by clicking on the **View Assets in Stage** button under the Status tab.
 
@@ -731,7 +733,7 @@ You can edit all the parameters of an existing Probe:
 
 3. Select **Edit** from the **Action Menu**. The Update Discovery
    Probe dialog box appears. The dialog box has the same fields as the
-   `Create Discovery Probe <#creating-a-discovery-probe>`__ dialog
+   :ref:`Create Discovery Probe<creating-a-discovery-probe>` dialog
    box.
 
 4. Change the parameters that you want and hit **Update**.
@@ -748,6 +750,7 @@ Deleting a Probe
    appears and clicking on **Yes** deletes the Probe.
 
 .. _status-of-a-probe:
+
 Status/Progress of a Probe
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -936,9 +939,9 @@ add a manufacturer when adding an SNMP device in SNMP Custom Properties.
 
 Related Topic:
 
--  `SNMP Properties <#snmp-custom-properties>`__
+-  :ref:`SNMP Properties<snmp-custom-properties>`
 
--  `Adding Manufacturer <#adding-a-manufacturer>`__.
+-  :ref:`Adding Manufacturer<adding-a-manufacturer>`.
 
 **Adding a Network:**
 
@@ -947,7 +950,7 @@ would utilize the credentials to communicate with the nodes.
 
 -  Go to **Admin** >> **Networks** (under IT Infrastructure).
 
--  We use the `Add Network <#network>`__ dialog box to add a Network
+-  We use the :ref:`Add Network <adding-a-network>` dialog box to add a Network
    called IP_Range.
 
 .. _amf-181:
@@ -998,8 +1001,7 @@ network.
    Probe**.
 
 -  We create a Probe called IP_Range_Probe using the Network that we
-   have created. Learn `how to create a
-   Probe <#creating-a-discovery-probe>`__.
+   have created. Learn :ref:`how to create a Probe<creating-a-discovery-probe>`.
 
 .. _amf-185:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-185.png
@@ -1020,6 +1022,8 @@ Running our first discovery operation:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-186.png
     :align: center
     :alt: figure 186
+
+.. _creating-a-discovery-probe:
 
 Domain Network Discovery Probe
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

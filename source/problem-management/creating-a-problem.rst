@@ -10,9 +10,9 @@ A Problem can be created from the Technician Portal only using the
 Create a Problem dialog box. There are two to ways to access the Create
 a Problem dialog box.
 
--  Press the letter R in your keyboard while logged in, or.
+-  Press the letter P in your keyboard while logged in, or.
 
--  Click on the **Create** button from the Navigation tab and then
+-  Click on the **Create (Plus Icon)** button from the Navigation tab and then
    select **Problem**.
 
 .. _pmf-1:

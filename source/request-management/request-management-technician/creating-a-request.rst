@@ -2,13 +2,14 @@
 Creating a Request 
 ******************
 
-Technicians can create Requests using the email to ticket feature and
+There are multitude of ways to create a Request (Incident) in our Helpdesk product. 
+Technicians can create Requests using the email to ticket feature or they can use
 the Create a Request dialog box.
 
 The Create a Request dialog box is available on both the Requestor and
 Technician Portal. However, the Create a Request form on the Technician
 portal is different. It has additional fields that are specific to the
-needs of the Technicians.
+needs of a Technician.
 
 Only people with create Request rights can create Requests. Please refer
 :ref:`Roles <admin-user-management>` (Users) in the Administration Manual.
@@ -34,11 +35,10 @@ Only people with create Request rights can create Requests. Please refer
     :align: center
     :alt: figure 3
 
-3. You have to set a Request Category in section-A (:numref:`rmf-2`). It is a
-   way to categorize Requests. The product has two predefined Categories
-   (:doc:`Incident and Service Requests <introduction-request-management>`) to choose
-   from, and you can add more categories. Each category can have
-   Sub-Categories, up to three levels. Please refer Request Category
+3. You have to set a Request Category in section-A (:numref:`rmf-2`). It helps to categorize a Request. 
+   The product has two predefined Categories (:doc:`Incident and Service Requests <introduction-request-management>`) 
+   to choose from, and you can add more categories. Each category can have
+   Sub-Categories, up to three levels. Please refer :ref:`Request Category<ad-category>`
    (Helpdesk) in the Administration Manual to learn how to add
    Categories and Sub-Categories.
 
@@ -46,11 +46,10 @@ Only people with create Request rights can create Requests. Please refer
    in section-B (:numref:`rmf-2`).
 
 4. You can fill the form using a template which is a quicker way to
-   submit Requests that are recurring or part of a Service Request
-   catalog. Section-B has the field that lets you populate the form from
+   submit Requests that are recurring in nature. Section-B has the field that lets you populate the form from
    a custom template.
 
-   You can manage custom templates from **Request Templates** (Helpdesk)
+   You can manage custom templates from :ref:`Request Templates<ad-templates>` (Helpdesk)
    in **Admin**. Please refer the Administration Manual on how to add
    templates.
 
@@ -62,15 +61,15 @@ Only people with create Request rights can create Requests. Please refer
 
    b. It configures the following classifiers of the Request:
 
-      i.   Priority of the Request.
+      i.  Urgency level of the Request.
 
-      ii.  Urgency level of the Request.
-
-      iii. Impact of the Request on the organization.
+      ii. Impact of the Request on the organization.
 
    c. It can add Tags to the Request.
 
-   d. It can add a Description.
+   d. It can add a category and Requestor Account.
+
+   e. It can add a Description.
 
 5. In section-C, you need to add the Requestor email and name (Requestor
    Email ID and Requestor Name). You cannot create a Request with an
@@ -86,11 +85,10 @@ Only people with create Request rights can create Requests. Please refer
    auto-populates. Else, you have to fill it yourself because it is a
    mandatory field.
 
-7. In section-E, you set the Status, Priority, Urgency, and Impact. This
+7. In section-E, you set the Urgency, Impact and Tags. This
    data is vital for tracking and managing Requests.
 
-   If you are not using a template, then you have to set them manually
-   according to your requirements.
+   If you are using a template, then you don't have to set them manually.
 
    Tags are optional identifiers that you can add. You can add multiple
    tags if you want.
@@ -98,16 +96,19 @@ Only people with create Request rights can create Requests. Please refer
 8. Section-F is the Description area where you write a detailed
    explanation of the Request. It should talk about the symptoms that
    lead to the Request. You can attach additional documents to support
-   the resolution process in section-H.
+   the resolution process in section-I.
 
-9. In section-G&H, you can add Technician Group, Location, and
-   Department. These fields have a drop-down list of values predefined
+9. In section-G, you can add a Technician Group, Location,
+   Department and Requestor Accounts. These fields have a drop-down list of values predefined
    by an Administrator; you just need to select the appropriate values.
 
-   Please refer the Administration Manual to know more about the fields.
+   Please refer the Administration Manual to know more about the :doc:`fields<admin-customization>`.
 
-10. Hit **Create** when you are done filling the form. Now you have
-    successfully created your Request. An email is sent to the Requester
+10. Fields in section-H are custom fields. You can add n number of fields from the admin section. 
+    You can control the visibility of such fields. Learn how to create a :ref:`Request Custom Field<ad-custom-fields>`.    
+
+11. Hit **Create** when you are done filling the form. Now you have
+    successfully created your Request. An email is sent to the Requestor
     acknowledging the Request.
 
 **Email to ticket**
@@ -115,9 +116,10 @@ Only people with create Request rights can create Requests. Please refer
 Flotomate gives the option to set up an email as the Helpdesk email
 address. Technicians can send an email to create a Request.
 
-The question, who can create a Request, depends on the **Helpdesk**
+The question, who can create a Request, depends on the **Helpdesk Security (Users)**
 settings in the **Admin** section. If settings allow creating Requests
-without login, then anyone with the Helpdesk email can create a Request.
+without login (**Allow Guest Requester to Report a Request**) and email to ticket feature is allowed in **Email Server Configuration**, 
+then anyone with the Helpdesk email can create a Request.
 Else, the system accepts email Requests from registered emails only.
 
 When a Technician creates a Request using an email, the email subject

@@ -2,6 +2,8 @@
 Automation
 **********
 
+.. _ad-workflow:
+
 Workflow 
 ========
 
@@ -21,7 +23,7 @@ operation effortlessly.
 
 .. note:: Setting Workflow Automation requires Administrative rights.
 
-Understanding Workflow:
+Understanding Workflow
 -----------------------
 
 Log in to your dashboard and go to **Admin** >> **Workflow**
@@ -169,21 +171,21 @@ Follow the below steps to create a Workflow:
 
 -  We select the module type as Request.
 
--  We set the following values for all the four :ref:`stages <workflow-type>`:
+-  We set the following values for all the four :ref:`stages <workflow type>`:
 
 +-----------------------------------+--------------------------------------------+
 | Values                            | Stage Name                                 |
 +===================================+============================================+
-| Event                             | :ref:`Workflow Type <workflow-type>`       |
+| Event                             | :ref:`Workflow Type <workflow type>`       |
 |                                   |                                            |
 +-----------------------------------+--------------------------------------------+
-| Marked as Spam                    | :ref:`Selecting an Event <select-an-event>`|                        
+| Marked as Spam                    | :ref:`Selecting an Event <select an event>`|                        
 |                                   |                                            |
 +-----------------------------------+--------------------------------------------+
-| Description contains Antivirus OR | :ref:`Setting Conditions <set-conditions>` |                    
+| Description contains Antivirus OR | :ref:`Setting Conditions <set conditions>` |                    
 | Subject contains Antivirus.       |                                            |
 +-----------------------------------+--------------------------------------------+
-| Set Spam to False                 | :ref:`Setting Actions <set-actions>`       |                      
+| Set Spam to False                 | :ref:`Setting Actions <set actions>`       |                      
 |                                   |                                            |
 +-----------------------------------+--------------------------------------------+
 
@@ -227,7 +229,7 @@ having their own rules for resolution and escalation time:
 
 .. note:: Managing SLAs requires Administrative rights.
 
-Create a SLA:
+Create a SLA
 -------------
 
 1. Log in to your dashboard.
@@ -266,7 +268,7 @@ Setting SLA Conditions
 
 Section D (:numref:`adf-42`) lets you define the conditions for the **SLA** to
 be applicable. To learn how to use control flow using condition
-statements, please refer :ref:`setting Workflow conditions <set-conditions>`.
+statements, please refer :ref:`setting Workflow conditions <set conditions>`.
 
 Setting Response Time and Escalation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -315,19 +317,19 @@ Add a Service Level Agreement (SLA)
 -  We add a name and department.
 
 -  We set the following values for the
-   :ref:`Stages <setting-operational-hour-type>`:
+   :ref:`Stages <setting operational hour type>`:
 
     +-----------------------------------+----------------------------------------------------------------------------------------+
     | Values                            | Stage Name                                                                             | 
     +===================================+========================================================================================+
-    | Calendar Hours                    | :ref:`Setting Operational Hour Type <setting-operational-hour-type>`                   |                         |
+    | Calendar Hours                    | :ref:`Setting Operational Hour Type <setting operational hour type>`                   |                         |
     +-----------------------------------+----------------------------------------------------------------------------------------+
-    | VIP Request equals to True        | :ref:`Setting SLA Conditions <setting-sla-conditions>`                                 |
+    | VIP Request equals to True        | :ref:`Setting SLA Conditions <setting sla conditions>`                                 |
     +-----------------------------------+----------------------------------------------------------------------------------------+
-    | Set assignee to a technician      | :ref:`Setting Response Time and Escalation <setting-response-time-and-escalation>`     |    
+    | Set assignee to a technician      | :ref:`Setting Response Time and Escalation <setting response time and escalation>`     |    
     | after 10 mins of violation.       |                                                                                        |
     +-----------------------------------+----------------------------------------------------------------------------------------+
-    | Set priority to urgent a day      | :ref:`Setting Resolution Time and Escalation <setting-resolution-time-and-escalation>` |     
+    | Set priority to urgent a day      | :ref:`Setting Resolution Time and Escalation <setting resolution time and escalation>` |     
     | before violation.                 |                                                                                        |
     +-----------------------------------+----------------------------------------------------------------------------------------+
 
@@ -380,9 +382,9 @@ to stay within SLA guidelines
 Manage SLA with Status
 ----------------------
 
-In the :ref:`Custom Status <add-custom-status>` page, you can turn on/off
+In the :ref:`Custom Status <ad-add-custom-status>` page, you can turn on/off
 SLA in a Request Status using the adjacent toggle button. Learn more
-about :ref:`SLA <managing-sla>`.
+about :ref:`SLA <managing sla>`.
 
 Except for Open, Resolved and Closed, you can deactivate/activate SLA in
 all other Statuses, including custom ones.
@@ -393,6 +395,7 @@ all other Statuses, including custom ones.
     :alt: figure 46
 
 .. _use-case-1:
+
 User Story
 ==========
 
@@ -434,6 +437,8 @@ responded within 10 hours then the **Request** is auto-assigned to John,
 and if the resolution does not happen within a day then the priority is
 automatically set to high.
 
+.. _ad-approval-workflow:
+
 Approval Workflow
 =================
 
@@ -455,8 +460,10 @@ You can create an Approval workflow for:
 
 -  Knowledge Management
 
+-  Purchase
+
 Understanding Approval Workflow
-----------------------------
+-------------------------------
 
 Go to **Admin** (A Navigation Tab) >> **Approval Workflow**
 (Automation).
@@ -481,7 +488,7 @@ Setting Approval Conditions
 
 Section-B is where you set conditions for the Workflow. When set
 conditions are triggered, the system creates an Approval and assigns
-approver/approvers to it. Learn more about :ref:`setting conditions <set-conditions>`.
+approver/approvers to it. Learn more about :ref:`setting conditions <set conditions>`.
 
 Settings Approvers
 ^^^^^^^^^^^^^^^^^^
@@ -500,7 +507,84 @@ type:
       Approval is rejected.
 
    c. **Majority**: If the majority of Approvers agree then Approval is
-      successful.
+      successful. Things to Remember:
+
+      i. In order to get approval, 50% or more people have to agree.
+
+      ii. In case minimum 50% people approves, you can ignore the rest 50% without affecting the Approved status.
+
+-  You can create multiple stages in an Approval with each having their own set of Approvers.       
+
+Multiple Approvals
+^^^^^^^^^^^^^^^^^^
+
+**Set Multiple Approval Stages in a Single Approval**
+
+You can set stages in an Approval (refer :numref:`adf-49`) with each having their own set of Approvers. You can select the Approval type for each stage as 
+either Unanimous or Majority. All stages will be part of a single Approval when created in a ticket.
+
+.. _adf-49.1:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-49.1.png
+    :align: center
+    :alt: figure 49.1
+
+Things to Remember:
+
+- All stages are created when an Approval is initiated in a ticket.
+
+- The Approval type between the stages doesn't follow the Global Approval Settings.
+
+- There's a top down hierarchy followed by the stages. In other words, stages in the top are given priority over the ones at the bottom.
+  Stages get activated one at a time; at any point a stage gets rejected then the entire Approval is rejected; 
+  if there are stages below a rejected stage then they are ignored too. 
+
+.. _adf-49.2:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-49.2.png
+    :align: center
+    :alt: figure 49.2
+
+.. _adf-49.3:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-49.3.png
+    :align: center
+    :alt: figure 49.3
+
+- Technicians can pre-approve a stage by ignoring the Approvers (Given he has the right to ignore Approvers).
+
+- Each stage will have its own Approval Type. 
+
+- Using the Re-Approve option (in an Approval) closes all the stages and creates a duplicate (with all the stages).
+
+.. _adf-49.4:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-49.4.png
+    :align: center
+    :alt: figure 49.4
+
+**When Multiple Approvals are created**
+
+An Approval workflow is triggered when a ticket meets its conditions. It may happen that a ticket might trigger multiple Approval
+workflows; in that case, multiple Approvals will be created for that ticket. You know there are multiple Approvals (in a ticket) when you can see their
+approvers. 
+
+.. _adf-49.5:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-49.5.png
+    :align: center
+    :alt: figure 49.5
+
+You can decide what kind of Approval Type (either Unanimous or Majority) to follow between Approvals from Approval Settings.
+
+.. _global-approval-settings:
+
+**Global Approval Settings**
+
+- Go to Admin >> Approval Workflow.
+
+- Open Approval Settings dialog box. 
+
+.. _adf-49.6:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-49.6.png
+    :align: center
+    :alt: figure 49.6
+
 
 Creating an Approval Workflow
 -----------------------------
@@ -508,22 +592,32 @@ Creating an Approval Workflow
 -  Go to **Admin** >> Approval **Workflow** and click **Create an
    Approval Workflow**.
 
--  We are going to create an Approval Workflow called Approvers for
-   Problem.
+-  We are going to create an Approval Workflow called Marketing Approval for the Request module.
+   It will have the following behavior:
 
--  We select Problem as our chosen module.
+   a. When an assigned Technician initiates an Approval process for a Request, then the system will check whether the Department is Marketing and
+      Location is Mumbai.
 
--  We set the following values for the
-   :ref:`stages <setting-approval-conditions>`:
+   b. If the above condition is true then an Approval is created (in the Request) with two Approvers. 
 
-    +-----------------------------------+---------------------------------------------------------------+
-    | Values                            | Stage Name                                                    |
-    +===================================+===============================================================+
-    | Category equals to Software       | :ref:`Setting Approval Workflow <setting-approval-conditions>`|                 
-    +-----------------------------------+---------------------------------------------------------------+
-    | Set Approvers to two Technicians. | :ref:`Setting Approvers <settings-approvers>`                 |         
-    | Decision Type as **Unanimous**    |                                                               |
-    +-----------------------------------+---------------------------------------------------------------+
+   c. The Approval is set to Unanimous which means both the Approvers have to approve the Approval.   
+
+-  We select Request as our chosen module.
+
+-  We set the following values for the :ref:`stages <setting approval conditions>`:
+
++-----------------------------------+----------------------------------------------------------------+
+| Values                            | Stage Name                                                     |
++-----------------------------------+----------------------------------------------------------------+
+| Department Equals to Marketing    | :ref:`Setting Approval Workflow <setting approval conditions>` |
+|                                   |                                                                |
+| AND                               |                                                                |
+|                                   |                                                                |
+| Location Contains Mumbai          |                                                                |
++-----------------------------------+----------------------------------------------------------------+
+| Set Approvers to two Technicians. | :ref:`Setting Approvers <settings approvers>`                  |
+| Decision Type as **Unanimous**    |                                                                |
++-----------------------------------+----------------------------------------------------------------+
 
 .. _adf-50:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-50.png
@@ -549,11 +643,11 @@ Setting Email Notifications
 
 Flotomate has 67 predefined email notifications that are sent on
 particular events. Emails notifications are useful in keeping
-stakeholders up to date on certain aspects of the product. You have
+stakeholders up to date with the operations of the product. You have
 complete control over the content of the notifications, and you can even
 turn them off if required.
 
-:ref:`Request Feedback <request-feedback-settings>` has a dependence on
+:ref:`Request Feedback <request feedback settings>` feature has a dependence on
 Email Notifications. Certain notifications need to be on for feedback to
 work.
 
@@ -578,19 +672,25 @@ View Email Notifications
 
     e. Knowledge (4 Notifications)
 
-    f. Patch (4 Notifications)
+    f. Patch (6 Notifications)
 
     g. Package (4 Notifications)
+
+    h. Contract (6 Notifications)
+
+    i. Purchase (11 Notifications)
 
 .. _adf-51:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-51.png
     :align: center
     :alt: figure 51
 
+.. _modify-content-of-a-notification:
+
 Modify Content of a Notification
 --------------------------------
 
--  Go to the Email Notifications page.
+-  Go to the :ref:`Email Notifications <View Email Notifications>` page.
 
 -  Click on a Notification or the Edit Icon adjacent to a Notification.
 
@@ -670,21 +770,50 @@ Jira Integration
 Rest API Client
 ---------------
 
+A REST API defines a set of functions which developers can perform
+requests and receive responses via HTTP protocol such as GET and POST.
+Flotomate allows third party clients to create Requests using REST API.
+
+Before using REST API, you have to create an API Client.
+
+**Creating an API Client:**
+
 -  Go to **Admin** >> **Integrations** (Automation).
 
--  Click **Create an Integration**.
+.. _adf-55.1:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-55.1.png
+    :align: center
+    :alt: figure 55.1
+
+-  Click on **Create an Integration** situated in the top right corner of the page.
 
 -  Give the settings a name and description.
 
--  Select the **Rest API Client** option from below and select a user
-   from the drop-down list.
+-  Select the **Rest API Client** option from below, and you have two options with respect to user selection.
 
--  Save your changes before exiting.
+   a. **Allow any User**: You can use the credentials of any user (registered with the product) to make API calls.
+
+   b. **Allow specific User**: You can only use the credentials of the mentioned user for making API calls.
+
+.. _adf-55.2:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-55.2.png
+    :align: center
+    :alt: figure 55.2  
+
+-  Click on **Create** to save your API Client.
+
+.. note:: The user acts as an identifier for all interactions made using
+          the API. It is preferable to create a dummy user specifically for the
+          Client.
+
+- Open the API client again from the Integrations page to view the Client **ID** and **Secrete**.
 
 .. _adf-56:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-56.png
     :align: center
     :alt: figure 56
+
+Learn how to make an :doc:`API Call <how-to-create-request-using-rest>`.
 
 Edit Integration
 ----------------

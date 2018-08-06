@@ -14,6 +14,7 @@ All Reports are created using the New Custom Reports page. To access the
 page follow the below steps.
 
 .. _new-custom-report:
+
 New Custom Report
 ~~~~~~~~~~~~~~~~~
 
@@ -270,6 +271,7 @@ columns are available depends on the Report type and module selected.
       :alt: figure 8
 
 .. _create-tabular-report: 
+
 Create a Tabular Report
 ~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -280,32 +282,32 @@ Create a Tabular Report
    Product.
 -  Following is our selections for the sections in New Custom Reports:
 
-+-----------------------------------+-----------------------------------+
-| Values                            | Section Name                      |
-+===================================+===================================+
-| Asset and Computer (Sub-Asset     | `Selecting a                      |
-| Type)                             | Module <#selecting-a-module>`__   |
-+-----------------------------------+-----------------------------------+
-| Tabular Report                    | `Selecting Report                 |
-|                                   | Type <#selecting-report-type>`__  |
-+-----------------------------------+-----------------------------------+
-| Portrait                          | `Report                           |
-|                                   | Layout <#report-layout>`__        |
-+-----------------------------------+-----------------------------------+
-| Public                            | `Report                           |
-|                                   | Visibility <#report-visibility>`_ |
-|                                   | _                                 |
-+-----------------------------------+-----------------------------------+
-| Created Time                      | `rfilter Data with                 |
-|                                   | Time <#filter-data-with-time>`__  |
-+-----------------------------------+-----------------------------------+
-| Technician name                   | `Setting Conditions to Filter     |
-|                                   | Data <#setting-conditions-to-filt |
-|                                   | er-data>`__                       |
-+-----------------------------------+-----------------------------------+
-| Product                           | `Grouping of                      |
-|                                   | Data <#grouping-of-data>`__       |
-+-----------------------------------+-----------------------------------+
++-----------------------------------+--------------------------------------------+
+| Values                            | Section Name                               |
++===================================+============================================+
+| Asset and Computer                | :ref:`selecting a module`                  |
+| (Sub-Asset Type)                  |                                            |
++-----------------------------------+--------------------------------------------+
+| Tabular Report                    | :ref:`selecting report type`               |
+|                                   |                                            |
++-----------------------------------+--------------------------------------------+
+| Portrait                          | :ref:`report layout`                       |
+|                                   |                                            |
++-----------------------------------+--------------------------------------------+
+| Public                            | :ref:`report visibility`                   |
+|                                   |                                            |
+|                                   |                                            |
++-----------------------------------+--------------------------------------------+
+| Created Time                      | :ref:`filter data with time`               |
+|                                   |                                            |
++-----------------------------------+--------------------------------------------+
+| Technician name                   | :ref:`setting conditions to filter data`   |
+|                                   |                                            |
+|                                   |                                            |
++-----------------------------------+--------------------------------------------+
+| Product                           | :ref:`grouping of data`                    |
+|                                   |                                            |
++-----------------------------------+--------------------------------------------+
 
 .. _rf9:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-9.png
@@ -347,6 +349,7 @@ Product.
       :alt: figure 12
 
 .. _create-matrix-report:
+
 Create a Matrix Report
 ~~~~~~~~~~~~~~~~~~~~~~
 
@@ -358,32 +361,32 @@ Create a Matrix Report
 
 -  Following is our selections for the sections in New Custom Reports:
 
-+-----------------------------------+-----------------------------------+
-| Values                            | Section Name                      |
-+===================================+===================================+
-| Request                           | `Selecting a                      |
-|                                   | Module <#selecting-a-module>`__   |
-+-----------------------------------+-----------------------------------+
-| Matrix Report                     | `Selecting Report                 |
-|                                   | Type <#selecting-report-type>`__  |
-+-----------------------------------+-----------------------------------+
-| Portrait                          | `Report                           |
-|                                   | Layout <#report-layout>`__        |
-+-----------------------------------+-----------------------------------+
-| Public                            | `Report                           |
-|                                   | Visibility <#report-visibility>`_ |
-|                                   | _                                 |
-+-----------------------------------+-----------------------------------+
-| Created Time                      | `rfilter Data with                 |
-|                                   | Time <#filter-data-with-time>`__  |
-+-----------------------------------+-----------------------------------+
-| Status Equals to Closed           | `Setting Conditions to Filter     |
-|                                   | Data <#setting-conditions-to-filt |
-|                                   | er-data>`__                       |
-+-----------------------------------+-----------------------------------+
-| Technician                        | `Grouping of                      |
-|                                   | Data <#grouping-of-data>`__       |
-+-----------------------------------+-----------------------------------+
++-----------------------------------+---------------------------------------------+
+| Values                            | Section Name                                |
++===================================+=============================================+
+| Request                           | :ref:`selecting a module`                   |      
+|                                   |                                             |
++-----------------------------------+---------------------------------------------+
+| Matrix Report                     | :ref:`selecting report type`                |
+|                                   |                                             |
++-----------------------------------+---------------------------------------------+
+| Portrait                          | :ref:`report layout`                        |
+|                                   |                                             |
++-----------------------------------+---------------------------------------------+
+| Public                            | :ref:`report visibility`                    |
+|                                   |                                             |
+|                                   |                                             |
++-----------------------------------+---------------------------------------------+
+| Created Time                      | :ref:`filter data with time`                |
+|                                   |                                             |
++-----------------------------------+---------------------------------------------+
+| Status Equals to Closed           | :ref:`setting conditions to filter data`    |
+|                                   |                                             |
+|                                   |                                             |
++-----------------------------------+---------------------------------------------+
+| Technician                        | :ref:`grouping of data`                     |
+|                                   |                                             |
++-----------------------------------+---------------------------------------------+
 
 .. _rf13:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-13.png
@@ -435,6 +438,7 @@ the past 3 months and group by Technicians.
       :alt: figure 17
 
 .. _create-summary-report:
+
 Create a Summary Report
 ~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -446,29 +450,29 @@ Create a Summary Report
 
 -  Following is our selections for the sections in New Custom Reports:
 
-+-----------------------------------+-----------------------------------+
-| Values                            | Section Name                      |
-+===================================+===================================+
-| Asset and Computer (Sub-Asset     | `Selecting a                      |
-| Type)                             | Module <#selecting-a-module>`__   |
-+-----------------------------------+-----------------------------------+
-| Summary Report                    | `Selecting Report                 |
-|                                   | Type <#selecting-report-type>`__  |
-+-----------------------------------+-----------------------------------+
-| Portrait                          | `Report                           |
-|                                   | Layout <#report-layout>`__        |
-+-----------------------------------+-----------------------------------+
-| Public                            | `Report                           |
-|                                   | Visibility <#report-visibility>`_ |
-|                                   | _                                 |
-+-----------------------------------+-----------------------------------+
-| Created Time                      | `rfilter Data with                 |
-|                                   | Time <#filter-data-with-time>`__  |
-+-----------------------------------+-----------------------------------+
-| Technician name                   | `Setting Conditions to Filter     |
-|                                   | Data <#setting-conditions-to-filt |
-|                                   | er-data>`__                       |
-+-----------------------------------+-----------------------------------+
++-----------------------------------+-------------------------------------------+
+| Values                            | Section Name                              |
++===================================+===========================================+
+| Asset and Computer (Sub-Asset     | :ref:`selecting a module`                 |
+| Type)                             |                                           |
++-----------------------------------+-------------------------------------------+
+| Summary Report                    | :ref:`selecting report type`              |
+|                                   |                                           |
++-----------------------------------+-------------------------------------------+
+| Portrait                          | :ref:`report layout`                      |
+|                                   |                                           |
++-----------------------------------+-------------------------------------------+
+| Public                            | :ref:`report visibility`                  |
+|                                   |                                           |
+|                                   |                                           |
++-----------------------------------+-------------------------------------------+
+| Created Time                      | :ref:`filter data with time`              |
+|                                   |                                           |
++-----------------------------------+-------------------------------------------+
+| Technician name                   | :ref:`setting conditions to filter data`  |
+|                                   |                                           |
+|                                   |                                           |
++-----------------------------------+-------------------------------------------+
 
 .. _rf18:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-18.png
@@ -528,15 +532,15 @@ The feature that allows you to do this is called multi-module.
 +----------------+----------------------------------------------------+
 | Values         | Section Name                                       |
 +================+====================================================+
-| Multi-Module   | `Selecting a Module <#selecting-a-module>`__       |
+| Multi-Module   | :ref:`selecting a module`                          |
 +----------------+----------------------------------------------------+
-| Summary Report | `Selecting Report Type <#selecting-report-type>`__ |
+| Summary Report | :ref:`selecting report type`                       |
 +----------------+----------------------------------------------------+
-| Portrait       | `Report Layout <#report-layout>`__                 |
+| Portrait       | :ref:`report layout`                               |
 +----------------+----------------------------------------------------+
-| Public         | `Report Visibility <#report-visibility>`__         |
+| Public         | :ref:`report visibility`                           |
 +----------------+----------------------------------------------------+
-| Created Time   | `rfilter Data with Time <#filter-data-with-time>`__ |
+| Created Time   | :ref:`filter data with time`                       |
 +----------------+----------------------------------------------------+
 
 .. _rf23:
@@ -572,13 +576,14 @@ the past 3 months.
       :alt: figure 26
 
 .. _editing-report:
+
 Editing a Report
 ----------------
 
 A Technician can edit a report that he/she has created. Pre-defined reports can't be modified.
 Both public (certain fields are restricted) and private reports can be modified. To edit a report:
 
--  Go to the `Report List View <#_report_list_view>`__.
+-  Go to the :doc:`Report List View <report-list-view>`.
 
 -  In the list area, click on the **Edit Report** button of the Report
    which you want to edit. The Update Custom Report page opens.
@@ -629,7 +634,7 @@ Selection** button. You can rearrange the order using drag and drop.
 A Technician is allowed to delete Reports that he/she has
 created. To delete a report:
 
--  Go to the `Report List View <#report-list-view>`__.
+-  Go to the :doc:`Report List View <report-list-view>`.
 
 -  Click on the Delete icon adjacent to the report that you want to delete. On
    Confirmation, the Report is deleted.

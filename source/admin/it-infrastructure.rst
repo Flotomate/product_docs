@@ -13,10 +13,10 @@ Some of the capabilities that the product get after email setup are:
 -  Requestors can log tickets using email.
 
 -  The product can send :ref:`Email
-   Notifications <setting-email-notifications>` and Announcements.
+   Notifications <setting email notifications>` and Announcements.
 
 -  Technicians can change Request details using :ref:`Email
-   Commands <email-command-settings>`.
+   Commands <email command settings>`.
 
 Whether self-hosted or cloud-hosted, you can add any vanity email
 address to Flotomate using any one of the two email protocols: POP3 and

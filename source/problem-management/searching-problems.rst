@@ -2,7 +2,7 @@
 Searching Problems
 ******************
 
-Flotomate gives you two broad ways to search Problems in :ref:`Problem List
+Flotomate gives you two broad ways to search Problems in the :ref:`Problem List
 View <problem-list-view>`.
 
 -  Using custom and predefined filters.
@@ -14,7 +14,7 @@ Using a Search Bar
 
 Flotomate allows you to perform an Advanced Search using various
 combinations of predefined search options and keywords. If you want to
-see the list of available options, then click on the Search Box. You can
+see the list of available options, then click on the search box. You can
 select an option or multiple options from the drop-down list.
 
 .. _pmf-9:
@@ -23,7 +23,7 @@ select an option or multiple options from the drop-down list.
     :alt: figure 9
 
 You can also search Problems with keywords in the search field. When you
-provide a keyword, Flotomate searches all the Problems with the keyword
+provide a keyword, the module searches all the Problems with the keyword
 in Subject, Description, Tags, Symptom, Root Cause, Requester Email and
 ID fields. All matched Problems are displayed under their respective
 statuses. In case of multiple keywords, all keywords need to be matched.

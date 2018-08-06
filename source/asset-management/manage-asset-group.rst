@@ -20,7 +20,7 @@ You have to first create Groups and then add Assets to them.
 
 .. note:: This operation requires Admin rights.
 
-1. Go to `Asset List View <#asset-list-view>`__.
+1. Go to :doc:`Asset List View <asset-list-view>`.
 
 2. Click on the Action Menu and select **Manage Asset Groups** from the
    pop-up menu.
@@ -62,7 +62,7 @@ Editing/Deleting Asset Groups
 
 **To Edit an Asset Group:**
 
-1. Go to the Asset Groups page from `List View <#asset-list-view>`__.
+1. Go to the Asset Groups page from :doc:`List View <asset-list-view>`.
 
 2. In the Asset Groups page, click on the Edit Icon adjacent to the
     Asset Group that you want to edit.

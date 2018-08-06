@@ -1,4 +1,5 @@
 .. _software-metering-1:
+
 *****************
 Software Metering
 *****************
@@ -46,8 +47,7 @@ Adding a Meter
 
     b. **Select Software Asset**: Select the Software that you want to
        meter. You can search the Software using the search bar. The search
-       bar supports Advanced Search. Learn `how to use Advanced
-       Search <#_Understanding_the_Asset>`__.
+       bar supports Advanced Search. Learn :ref:`how to use Advanced Search <am-using-search-bar>`.
 
         .. _amf-150:
         .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-150.png
@@ -98,8 +98,7 @@ There are two ways to view the data collected by a Meter:
     :align: center
     :alt: figure 154
 
--  You can also view the Metering data in the `Details
-   View <#searching-assets>`__ of the Software Asset under the Meter
+-  You can also view the Metering data in the :doc:`Details View <manage-asset-details>` of the Software Asset under the Meter
    tab.
 
 .. _amf-155:

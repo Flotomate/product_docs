@@ -7,8 +7,7 @@ View:
 **Use Search Bar**
 
 The product allows you to search for a Report using a keyword/keywords.
-The search bar is at the top of the `Report List
-View <#report-list-view>`__.
+The search bar is at the top of the :doc:`Report List View <report-list-view>`.
 
 .. _rf34:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-34.png
@@ -40,5 +39,4 @@ You can quickly toggle between Pre-Defined Reports and Custom Reports:
 -  **Pre-Defined Report**: Flotomate comes preloaded with 23 predefined
    Reports. These are standard Reports commonly used in the product.
 
--  **Custom Report**: These are Reports that you create using the `New
-   Custom Report <#create-&-edit>`__ page.
+-  **Custom Report**: These are Reports that you create using the :doc:`New Custom Report <create-&-edit>` page.

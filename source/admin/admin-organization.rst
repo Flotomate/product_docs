@@ -59,6 +59,11 @@ The Account page is divided in to three sections; they are as follows:
 
     h. Time zone of the company.
 
+    i. Base currency in which the organization does all its transactions. When required, the base currency is converted against a
+       foreign currency in the system list (Learn how to add a :ref:`Currency <Adding a Currency>`)
+
+    j. The Activation Code in use is visible here.  
+
 - Once you are done inputting data, click on **Update** to save the
   information.
 
@@ -93,6 +98,8 @@ Here you can view the version details of the product. The details are automatica
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-78.3.png
     :align: center
     :alt: figure 78.3
+
+.. _ad-departments:
 
 Departments
 ===========
@@ -157,7 +164,7 @@ subtracted from the calculation). These calculations are done to see
 whether any SLAs have been violated or not. Of course, the SLAs have to
 be configured to use business hours.
 
-Learn more about :ref:`SLA <admin-automation/managing-sla>`.
+Learn more about :ref:`SLA <managing sla>`.
 
 To add business hours:
 
@@ -198,11 +205,13 @@ To add business hours:
 6. Set holidays and write a small description. Click **Add** to add
    your new business hours.
 
+.. _ad-location:
+
 Location 
 ========
 
 You can add your business location/locations in Flotomate along with the
-time zone/zones. You can have :ref:`business hours <business-hours>` for
+time zone/zones. You can have :ref:`business hours <business hours>` for
 each location.
 
 Some benefits of having locations:

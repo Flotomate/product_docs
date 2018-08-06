@@ -3,7 +3,7 @@ Managing Software Packages
 **************************
 
 The first step towards package deployment is to add Software Packages in
-the system. A Package has to be manually added in the Flotomate before
+the system. A Package has to be manually added to the Package Management before
 it can be attached to a Deployment Request.
 
 Whatever Packages you add, they all appear on the :doc:`Package List

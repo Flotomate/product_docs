@@ -7,6 +7,7 @@ and manage their Requests. The Customer Portal is the primary interface
 between Requesters and the Helpdesk.
 
 .. _creating-a-request-1:
+
 Creating a Request 
 ==================
 
@@ -34,8 +35,8 @@ guest users. An Admin has to enable the guest user feature.
 
 -  The **Create-a-Request** dialog box opens. You have to enter a
    Category, your email ID (your authenticated email if Request without
-   login is disabled), and a Subject line. :ref:`Learn more about the
-   fields <request-management-technician/creating-a-request>`.
+   login is disabled), and a Subject line. :doc:`Learn more about the
+   fields<create-a-request>`.
 
 -  Fill in the details and hit **Create**. If you are not logged in,
    then you may be asked to log in depending on the settings selected by

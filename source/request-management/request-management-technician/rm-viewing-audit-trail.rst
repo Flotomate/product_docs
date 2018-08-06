@@ -3,7 +3,7 @@
 Viewing Audit Trail
 *******************
 
-The Audit Trail dialog box lists most changes concerning assignment, and
+The Audit Trail dialog box lists changes concerning assignment, and
 :ref:`classifiers <classify-requests>` of a Request.
 
 1. Go to **Request** >> :doc:`Request List View <request-list-view>`.

@@ -19,7 +19,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = u'ITSM Product Documentation'
+project = u'Flotomate ITSM Documentation'
 copyright = u'2018, Flotomate Technologies Private Limited'
 author = u'Flotomate Technologies Private Limited'
 
@@ -38,8 +38,7 @@ release = u'2.0.0'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = [
-]
+extensions = ['sphinx.ext.intersphinx', 'sphinx.ext.autosectionlabel', 'rst2pdf.pdfbuilder']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -175,8 +174,12 @@ epub_copyright = copyright
 # A list of files that should not be packed into the epub file.
 epub_exclude_files = ['search.html']
 
-#inter-sphinx extension
-extensions = ['sphinx.ext.intersphinx', 'sphinx.ext.autosectionlabel',]
-
 #numfig
 numfig = True
+
+# index - master document
+# rst2pdf - name of the generated pdf
+# Sample rst2pdf doc - title of the pdf
+# Your Name - author name in the pdf
+
+pdf_documents = [('index', u'Flotomate Product Manual', u'ITSM Product Manual', u'Amartya Gupta'),]
