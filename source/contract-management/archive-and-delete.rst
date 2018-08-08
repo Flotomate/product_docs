@@ -1,21 +1,16 @@
-***************************
-Archive & Delete a Contract
-***************************
+*****************
+Delete a Contract
+*****************
 
-There are two ways to remove a Contract from the system:
-
-- **Delete**: Permanently removes a Contract from the system.
-
-- **Archive**: Removes a Contract but can be retrieved later. 
-
-You can remove a Contract in any status. You can remove a Parent Contract; Child Contracts remain unaffected and they are no longer a 
+Technician can permanently remove a Contract from the system. This is non-reversible action. He can remove a Contract in any status. 
+When removing a Parent Contract, the Child Contracts remain unaffected and they are no longer a 
 child.
 
-**To Archive a Contract:**
+**To Delete a Contract from List View:**
 
 - Go to the :doc:`contract-list-view`. 
 
-- Click on **Archive** from the Action Menu of the Contract that you want to remove.
+- Click on **Delete** from the Action Menu of the Contract that you want to remove.
 
 .. _con-40:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/contract-management/con-40.png
@@ -24,7 +19,7 @@ child.
 
 - On Confirmation, the Contract is removed.
 
-**To Delete a Contract:**
+**To Delete a Contract from Details View:**
 
 - Go to the :ref:`Contract Details View` of a Contract.
 

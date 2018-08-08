@@ -85,3 +85,74 @@ way:
 -  On confirmation, the server stops sending the command for upgrade to
    all computers in the scope. Computers that have already upgraded stay
    unaffected.
+
+Periodic DB Upgrade
+===================
+
+Users can create backups of the database of the Main (Product) Server. The database contains all the user generated data from all the 
+modules. Once a backup is created, a (Admin) user can download the backup to his local machine. 
+
+A backup can be initiated manually and scheduled for automatic creation. 
+
+**Some benefits of doing Periodic Backups:**
+
+- Backups give protection against data lose incase of product failure or corruption.
+
+- Backups provide flexibility in data migration. 
+
+- Ability to hold data for a longer period of time. 
+
+- Ability to give legal response related to compliance.
+
+Manually Initiate & Download a backup
+=====================================
+
+- Go to **Admin** >> **Database Backup** (under System).
+
+.. _adf-151.1:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-151.1.png
+    :align: center
+    :alt: figure 151.1
+
+- The Database Backup page opens. Here you can view all your current backups. Click on **Backup Now** to create a new backup.
+
+- Once backup is created, click on **Download Backup** which will locally install the backup.
+
+.. _adf-151.2:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-151.2.png
+    :align: center
+    :alt: figure 151.2
+
+Scheduling a Backup
+===================
+
+A schedule will automatically create a backup at a specified interval. 
+
+- Go to **Admin** >> **Database Backup** (under System).
+
+- Click on **Schedule Backup** to specify a interval. 
+
+- A dialog box opens where you set a schedule Frequency and configure email notification.
+
+  .. _adf-151.3:
+  .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-151.3.png
+      :align: center
+      :alt: figure 151.3
+
+  a. **Schedule Frequency**: Currently there are five types of frequencies:
+     
+     .. note:: Proper time tracking depends on appropriate Time Zone selection. 
+
+     i. **Once**: Backup will happen at a specific date and time.
+
+     ii. **Daily**: Backup will happen everyday after a certain date & time at a specific time.
+
+     iii. **Weekly**: Discovery happens on a specific day/days of a week at a specific time.
+
+     iv. **Monthly**: Discovery happens in selected month/months of a year on a particular day at a specific time.
+
+     v. **Interval**: Discovery happens every specified Minutes, Hours, Days or Months.
+
+  b. You can add recipients (email addresses) who will receive an email when a backup attempt fails.
+
+- Once a backup happens, you can download it locally.   
