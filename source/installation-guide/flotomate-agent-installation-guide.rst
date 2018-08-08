@@ -1,8 +1,8 @@
-**************************************
+**********************************
 Flotomate Agent Installation Guide
-**************************************
+**********************************
 
-Describes Installation Steps for Flotomate Windows Agent – 1.0.0
+Describes Installation Steps for Flotomate Windows & Linux Agent.
 
 System Requirement :
 ====================
@@ -17,7 +17,7 @@ System Requirement :
 - Windows (32 & 64 bit).
 - Linux (64bit).
 
-.. note:: Currently we have tested the Linux Agent in Ubuntu 16 and above.
+.. note:: Currently we have only tested the Linux Agent in Ubuntu 16.04.
 
 **Installation Links**
 
@@ -25,24 +25,22 @@ Windows(32bit): `Click Here <https://s3.ap-south-1.amazonaws.com/flotomate-custo
 
 Windows(64bit): `Click Here <https://s3.ap-south-1.amazonaws.com/flotomate-customer-releases/latest/agent/windows/x64/Agent.msi>`_
 
+Linux(64bit): `Click Here <https://s3.ap-south-1.amazonaws.com/flotomate-customer-releases/latest/agent/linux/x64/agent>`_
+
 
 Installation in Windows
 =======================
 
-1. Download the latest agent.exe file from the given link.
+1. Download the latest msi file from the given link.
 
-2. Run Agent.exe as Administrator.
-
-.. _aig-1:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/agent-installation-guide/AIG-1.png
-    :align: center
-    :alt: figure 1
+2. Run the msi file.
 
 3. Follow the wizards as below mentioned screenshots
 
  a. Click Next
 
     .. _aig-2:
+
     .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/agent-installation-guide/AIG-2.png
         :align: center
         :alt: figure 2
@@ -50,25 +48,33 @@ Installation in Windows
  b. Click next
 
     .. _aig-3:
+
     .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/agent-installation-guide/AIG-3.png
         :align: center
         :alt: figure 3
 
-4. During installation setup, It will ask for URL. Write url of
-   service-desk’s main-server with http or https. Note : http or https in
-   url is must.
+4. It will ask for URL and Port. Select a Protocol based on what the URL supports. 
+   If there's no Port, then leave it blank. 
 
 .. _aig-4:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/agent-installation-guide/AIG-4.png
     :align: center
     :alt: figure 4
 
-5. Then next and finish installation process.
+5. Click next and finish installation process.
 
 .. _aig-5:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/agent-installation-guide/AIG-5.png
     :align: center
     :alt: figure 5
+
+.. _aig-5.1:
+
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/agent-installation-guide/AIG-5.1.png
+    :align: center
+    :alt: figure 5.1    
 
 Installation in Linux
 =====================
@@ -82,6 +88,7 @@ Installation in Linux
    **sudo chmod 777 agent**
 
 .. _aig-6:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/agent-installation-guide/AIG-6.png
     :align: center
     :alt: figure 6
@@ -91,6 +98,7 @@ Installation in Linux
    **sudo ./agent**
 
 .. _aig-7:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/agent-installation-guide/AIG-7.png
     :align: center
     :alt: figure 7
@@ -100,6 +108,7 @@ Installation in Linux
 6. Enter the URL of the product (Flotomate) server.
 
 .. _aig-8:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/agent-installation-guide/AIG-8.png
     :align: center
     :alt: figure 8    
