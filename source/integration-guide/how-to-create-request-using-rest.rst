@@ -21,6 +21,7 @@ Creating an Incident?
 -  Copy Client ID and Client Secret from the Integration page.
 
 .. _rapi-3:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/integration-guide/rest-3.png
     :align: center
     :alt: figure 3
@@ -29,6 +30,7 @@ Creating an Incident?
    token. Here the user* credentials are required (Password and Username).
 
 .. _rapi-4:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/integration-guide/rest-4.png
     :align: center
     :alt: figure 4
@@ -36,6 +38,7 @@ Creating an Incident?
 -  You will receive an access token from the server.
 
 .. _rapi-5:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/integration-guide/rest-5.png
     :align: center
     :alt: figure 5
@@ -91,6 +94,7 @@ Creating an Incident?
     to create API Client)*
 
     .. _rapi-7:
+
     .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/integration-guide/rest-7.png
         :align: center
         :alt: figure 7
@@ -98,6 +102,7 @@ Creating an Incident?
     **Response**:
 
     .. _rapi-6:
+    
     .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/integration-guide/rest-6.png
         :align: center
         :alt: figure 6

@@ -1,5 +1,6 @@
-Manage Computer Groups
-======================
+*****************************************
+Manage Computer Groups (Patch Management)
+*****************************************
 
 You can classify Computers into groups. Some of the use cases where
 having Computer Groups can be convenient are as follows:
@@ -25,6 +26,7 @@ having Computer Groups can be convenient are as follows:
 -  Click on **All Computers Group** from the Patch menu.
 
 .. _P-11:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-11.png
    :align: center
    :alt: figure 11
@@ -33,12 +35,13 @@ having Computer Groups can be convenient are as follows:
    if any. Click on **Create Computer Group** situated in the top right
    corner of the page.
 
--  A new page opens. Here you can view all the Computers added to the
+-  A new page opens. Here you can view all the Computers in the
    :ref:`Endpoint scope <add-computer-scope>`. You get options to
-   select Computers manually and automatically from a Remote Office (can be filtered using
+   select Computers manually and automatically from a Remote Office (which can be filtered using
    include and exclude conditions).
 
 .. _P-12:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-12.png
    :align: center
    :alt: figure 12
@@ -60,18 +63,25 @@ having Computer Groups can be convenient are as follows:
 You can review computers in each Scope before adding them to a group. You also preview computers of a group (after creation) from 
 Computer Group page.  
 
-
 .. _P-12.1:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-12.1.png
    :align: center
    :alt: figure 12.1
 
 .. _P-13.1:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-13.1.png
    :align: center
    :alt: figure 13.1
 
-You can search for a Computer Group using the search bar (Figure 13)
+.. _P-13.2:
+
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-13.2.png
+   :align: center
+   :alt: figure 13.2   
+   
+You can search the preview list of a Group and Scope using a search bar (:numref:`P-13.2`)
 which supports Advance Search and is similar to the one used for
 searching Computers in an :ref:`Endpoint scope <add-computer-scope>`. You can open the details of any
 Computer Group by click on it.
@@ -81,6 +91,7 @@ Computer Group by click on it.
 You can edit and delete any Computer Group.
 
 .. _P-14:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-14.png
    :align: center
    :alt: figure 14
@@ -88,7 +99,7 @@ You can edit and delete any Computer Group.
 .. _view-archived-groups:
 
 View Deleted Groups
---------------------
+===================
 
 When a group is deleted, we store the group in a separate
 section for future reference. It is because even when a group gets

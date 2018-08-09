@@ -1,16 +1,24 @@
-**********************************
-Introduction to Package Deployment
-**********************************
+**************************
+Introduction to Deployment
+**************************
 
 What is Deployment?
 ===================
 
-Deployment (in Flotomate) refers to the capability of installing and
-upgrading computer programs/OS, and configuring Windows Registry in a
+Deployment (in Flotomate) refers to the capability of installing, uninstalling and
+upgrading computer programs, and configuring Windows Registry in a
 large set of computers remotely. It is vital for managing the life-cycle
 of a Computer on a large scale, and Flotomate provides a comprehensive
 tool that handles all aspects of Package/Registry Deployment intuitively
 and efficiently.
+
+So using the Deployment feature, users can:
+
+- Remotely install or uninstall Software across a large set of computers.
+
+- Remotely manage Windows Registry across a large set of computers. For example; a user can disable Chrome update remotely 
+  across all computers in the Endpoint Scope using a Registry Template.
+
 
 What is a Software Package?
 ===========================
@@ -25,12 +33,22 @@ A Software package may refer to:
    multiple packages, or a package consisting of multiple separate
    pieces.
 
-Source: `Wikipedia <https://en.wikipedia.org/wiki/Software_package>`__
 
-Benefits of Software Package Deployment
-=======================================
+What is a Registry Template?
+============================
 
-Some of the benefits of having Package Deployment are as follows:
+In a Windows machine, the Registry is a hierarchical database of lower level settings. The purpose of it is to serve as an archive that
+collects and stores configuration settings of Windows components, Hardware and Software. These configuration setting entires are retrieved
+by their respective Windows components, Hardware and Software at startup.
+ 
+The registry contains two basic elements: keys and values. A Registry Template created as part of Deployment has Keys and Values, when
+deployed can manipulate the behavior of Windows components, Hardware and Software of a computer. 
+
+
+Benefits of Remote Deployment
+=============================
+
+Some of the benefits of having remote Deployment are as follows:
 
 -  Package Deployment updates all administered IT Assets with the latest
    Software from the Vendor; this enhances security and helps in
@@ -49,4 +67,4 @@ Some of the benefits of having Package Deployment are as follows:
 -  Having the latest Packages for all IT Assets (workstations and
    servers) prevents unplanned breakdowns due to a Software bug.
 
--  The method of deployment can be controlled using a Deployment Policy.
+-  Using a Registry Deployment, users can fine-tune the behavior of OS across a large set of computers.
