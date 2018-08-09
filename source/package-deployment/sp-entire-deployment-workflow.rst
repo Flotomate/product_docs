@@ -14,3 +14,19 @@ sequential manner (some processes are one time, and some are frequent):
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/software-package-deployment/SP-0.png
     :align: center
     :alt: figure 0
+
+**Relevant Topics:**
+
+- :doc:`configure-endpoint-scope`
+
+- :ref:`Share Drive Configuration`
+
+- :doc:`sp-manage-computer-group`
+
+- :doc:`sp-setting-up-a-deployment-policy` 
+
+- :ref:`ad-batch-deployment`
+
+- :doc:`managing-software-packages`
+
+- :doc:`sp-deployment-request` 

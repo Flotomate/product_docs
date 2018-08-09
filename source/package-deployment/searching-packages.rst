@@ -23,6 +23,7 @@ available options, then click on the search box. You can select a single
 option or multiple options from the drop-down list.
 
 .. _spf-19:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/software-package-deployment/SP-19.png
     :align: center
     :alt: figure 19
@@ -36,9 +37,6 @@ full) with the keyword; in case there are multiple keywords, a
 package/template has to have at least one field matched for each
 keyword.
 
-The search bar in the Windows Registry List View only supports
-keyword-based searches.
-
 A search query (for packages) can be made up of pre-defined options and
 keywords. In any case, the output yields packages that satisfy all the
 parameters of the search query.
@@ -50,6 +48,7 @@ of same option type contradiction is Package Type equals Application
 Patch vs. Package Type equals Operating System.
 
 .. _spf-20:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/software-package-deployment/SP-20.png
     :align: center
     :alt: figure 20
@@ -66,14 +65,27 @@ For example, a user saves a search query that filters packages with
 Package Type: Application Patch and the keyword Deamon.
 
 .. _spf-21.1:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/software-package-deployment/SP-21.1.png
     :align: center
     :alt: figure 21.1
 
 .. _spf-21.2:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/software-package-deployment/SP-21.2.png
     :align: center
     :alt: figure 21.2
+
+Searching Registry Templates
+----------------------------
+
+Search box on the :ref:`Registry Template List View <Windows Registry templates>` supports only keywords based searches.
+
+.. _spf-21.3:
+
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/software-package-deployment/SP-21.3.png
+    :align: center
+    :alt: figure 21.3
 
 Filters
 =======
@@ -86,6 +98,7 @@ templates in the product:
    the :doc:`Launcher icon <package-registry-list-view>`.
 
 .. _spf-22:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/software-package-deployment/SP-22.png
     :align: center
     :alt: figure 22
@@ -96,6 +109,7 @@ templates in the product:
    a. Segregate packages based on architecture type (32bit or 64bit).
 
     .. _spf-23:
+
     .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/software-package-deployment/SP-23.png
         :align: center
         :alt: figure 23
@@ -103,6 +117,7 @@ templates in the product:
    b. Segregate packages based on Package type.
 
     .. _spf-24:
+    
     .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/software-package-deployment/SP-24.png
         :align: center
         :alt: figure 24
