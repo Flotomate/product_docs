@@ -10,7 +10,7 @@ Registry.
 
 You have complete control over Computers with respect to the following:
 
--  What Packages to deploy?
+-  What Packages/Registry entries to deploy?
 
 -  How to deploy the Packages (:doc:`Deployment Policy <sp-setting-up-a-deployment-policy>`).
 
@@ -38,7 +38,7 @@ Computers that are available in the system.
 
 1. Log in to your Dashboard.
 
-2. Go to **Package** from the **Launcher**.
+2. Go to **Deployment** from the **Launcher**.
 
 .. _spf-61:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/software-package-deployment/SP-61.png
@@ -59,7 +59,8 @@ Computers that are available in the system.
     :align: center
     :alt: figure 63
 
--  Section A & B (:numref:`spf-63`) are the :ref:`search features <sp-searching-computers>`.
+-  Section A & B (:numref:`spf-63`) are the :ref:`search features <sp-searching-computers>`. Section A also segregates computers
+   based on :ref:`sp-computer-health-management`. 
 
 -  Section C is the list area where you view all Computers. You can view
    the following information about a Computer:
@@ -103,6 +104,7 @@ Computer is offline.
     :alt: figure 64.2
 
 .. _sp-searching-computers:
+
 Searching Computers
 ===================
 
@@ -113,6 +115,7 @@ There are two broad ways to search Computers in the product’s :ref:`List View 
 -  Using Filters
 
 .. _search-bar-2:
+
 Search Bar
 ----------
 
@@ -226,11 +229,12 @@ that shows additional information and provides deployment options.
    Patch/Package/Registry Deployment instructions to the Computer. You also
    view their :ref:`statuses <sp-deployment-status>`.
 
+.. _sp-computer-health-management:
+
 Computer Health Management
 ==========================
 
-We have discussed earlier (in Patch Management manual) that Patch
-Management ensures that all administered IT Assets are updated with the
+Patch Management ensures that all administered IT Assets are updated with the
 latest Patch from the Software Vendor; this enhances security and helps
 in thwarting external and internal cyber-attacks.
 
@@ -238,54 +242,15 @@ Computers fetch and deploy Patches. So it becomes imperative to monitor
 all Computers to keep yourself aligned with the idea of Patch
 Management.
 
-Our product has a feature called System Health that flags Computers that
-are missing critical, essential Patches. This helps you to manage your
+System Health Settings flags Computers that are missing critical, essential Patches. This helps you to manage your
 vulnerability and prevent any attacks.
 
-System Health Settings
-----------------------
+You can filter computers based on System Health from the Computer List View. 
 
-Go to **Admin** (A Navigation Tab) >> **System Health Settings**
-(Patch/Package Management).
+.. _spf-68.1:
 
-.. _spf-69:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/software-package-deployment/SP-69.png
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/software-package-deployment/SP-68.1.png
     :align: center
-    :alt: figure 69
+    :alt: figure 68.1
 
-These settings help Flotomate to flag Computers as either Highly
-Vulnerable or Vulnerable. You can filter the flagged Computers on the
-:ref:`Computer List View <sp-computer-list-view>`. Clicking on **System
-Health Settings** opens a page. Here you can set the conditions
-separately to define Highly Vulnerable and Vulnerable.
-
-.. _spf-70:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/software-package-deployment/SP-70.png
-    :align: center
-    :alt: figure 70
-
-Click on **Edit** to make the fields editable. You are expected to enter
-the minimum number of missing Patches for each severity label.
-
-Each vulnerability status has a set of four severity labels and their
-counts. No two same labels can have the same numbers (Numbers in Highly
-Vulnerable have to be higher than Vulnerable).
-
-.. _spf-71:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/software-package-deployment/SP-71.png
-    :align: center
-    :alt: figure 71
-
-The number zero in a field signifies that there’s no condition for the
-corresponding severity label.
-
-If a Computer has a missing Patch number that is equal to or exceeds a
-minimum value for a label, then the Computer is flagged with the
-corresponding health status. In case a Computer satisfies multiple
-labels then the label top in the hierarchy is considered (Critical
-Patches having the highest priority and Low severity having the lowest).
-
-.. _spf-72:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/software-package-deployment/SP-72.png
-    :align: center
-    :alt: figure 72
+Learn how configure :ref:`system-health-settings`. 

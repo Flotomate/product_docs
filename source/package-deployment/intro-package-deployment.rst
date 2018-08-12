@@ -67,4 +67,4 @@ Some of the benefits of having remote Deployment are as follows:
 -  Having the latest Packages for all IT Assets (workstations and
    servers) prevents unplanned breakdowns due to a Software bug.
 
--  Using a Registry Deployment, users can fine-tune the behavior of OS across a large set of computers.
+-  Using a Registry Deployment, users can fine-tune the behavior of the OS across a large set of computers.

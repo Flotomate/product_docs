@@ -80,54 +80,7 @@ Our product has a feature called System Health that flags Computers that
 are missing critical, essential Patches. This helps you to manage your
 vulnerability and prevent any attacks.
 
-System Health Settings
-----------------------
-
-Go to **Admin** (Accessed from **Product Launcher**) >> **System Health
-Settings** (Patch/Package Management).
-
-.. _adf-119:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-119.png
-    :align: center
-    :alt: figure 119
-
-These settings help Flotomate to flag Computers as either Highly
-Vulnerable or Vulnerable. You can filter the flagged Computers on the
-:ref:`Computer List View <computer list view>`. Clicking on **System Health
-Settings** opens a page. Here you can set the conditions separately to
-define Highly Vulnerable and Vulnerable.
-
-.. _adf-120:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-120.png
-    :align: center
-    :alt: figure 120
-
-Click on **Edit** to make the fields editable. You are expected to enter
-the minimum number of missing Patches for each severity label.
-
-Each vulnerability status has a set of four severity labels and their
-counts. No two same labels can have the same numbers (Numbers in Highly
-Vulnerable have to be higher than Vulnerable).
-
-.. _adf-121:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-121.png
-    :align: center
-    :alt: figure 121
-
-
-The number zero in a field signifies that there’s no condition for the
-corresponding severity label.
-
-If a Computer has a missing Patch number that is equal to or exceeds a
-minimum value for a label, then the Computer is flagged with the
-corresponding health status. In case a Computer satisfies multiple
-labels then the label top in the hierarchy is considered (Critical
-Patches having the highest priority and Low severity having the lowest).
-
-.. _adf-122:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-122.png
-    :align: center
-    :alt: figure 122
+Learn how configure :ref:`system-health-settings`. 
 
 .. _ad-endpoint-scope:
 
@@ -137,14 +90,14 @@ Endpoint Scope
 Depending on the License agreement you have with us, the number of
 Computers you can manage for Patch/Packages is
 limited. All discovered Computers (with our Agent application) stay out
-of the scope of the product by default; you have to bring them within
-the scope before you can use remote deployment.
+of the scope (target) of the product by default; you have to bring them within
+the scope (target) before you can use remote deployment.
 
 The Endpoint Scope lets you view all available Computers (both in and out of Endpoint Scope) and add them to the Scope. You can set certain conditions that
 allow the product to add any new Computers automatically. You can also
 add Computers manually.
 
-There is a counter that shows how many Computers are within the scope. 
+There is a counter that shows how many Computers are within the scope (target). 
 In no situation, you can exceed the total number of Computers you are allowed to add to the Scope.
 
 .. note:: Only Computers configured with our Agent Application are visible in Endpoint Scope.
@@ -182,7 +135,7 @@ Add Computers to a Scope
 Adding a Remote Office (Automatic Addition of Computers)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
--  You can associate a :doc:`Remote Office <remote-office>` with a Scope; this allows the Scope to
+-  You can associate a :doc:`Remote Office <remote-office>` with a Scope (target); this allows the Scope (target) to
    automatically add Computers (with the Agent application) in the
    Remote Office based on include and exclude conditions. You can use both
    manual and automatic addition of Computers together; they are not
@@ -218,7 +171,7 @@ Adding a Remote Office (Automatic Addition of Computers)
 Adding of Computers from List
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
--  You can manually search and add Computers to a scope. The search bar
+-  You can manually search and add Computers to a scope (target). The search bar
    supports the Advanced Search feature where you get search options by
    clicking on the search bar.
 
@@ -267,7 +220,7 @@ Adding of Computers from List
 Adding Multiple Scopes
 ^^^^^^^^^^^^^^^^^^^^^^
 
--  You can create more than one Scope to accommodate multiple Remote Offices
+-  You can create more than one Scope (target) to accommodate multiple Remote Offices
    (a Scope can have only one Remote Office). The actual Endpoint Computer list is
    cumulative of all available Scopes (added manually and
    automatically).
@@ -288,7 +241,7 @@ Preview Computer List
 ---------------------
 
 Once you are done with adding Computers and setting conditions, you can
-view the final list of all the Computers in all the Scopes and also individual scopes using the Preview function.
+view the final list of all the Computers in all the Scopes (targets) and also individual scopes using the Preview function.
 
 Open Endpoint Scope from **Admin**. Click on **Preview** to generate the
 Computer list. The preview button is also there for each scope.
