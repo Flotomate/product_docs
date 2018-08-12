@@ -15,6 +15,8 @@ following forms:
 
 -  Branding
 
+.. _ad-account:
+
 Account 
 =======
 

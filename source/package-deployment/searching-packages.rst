@@ -9,6 +9,8 @@ View <package-registry-list-view>`:
 
 -  Using Filters
 
+.. _sp-search-bar:
+
 Search Bar
 ==========
 

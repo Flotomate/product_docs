@@ -245,6 +245,8 @@ Our product has a feature called System Health that flags Computers that
 are missing critical, essential Patches. This helps you to manage your
 vulnerability and prevent any attacks.
 
+.. _system-health-settings:
+
 System Health Settings
 ----------------------
 

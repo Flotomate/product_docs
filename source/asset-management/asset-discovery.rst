@@ -665,10 +665,13 @@ You can Schedule both Discovery and Polling.
             Minute field.
 
         iii.  **Weekly**: Discovery happens on a specific day/days of
-              a week.
+              a week at a specified time.
 
         iv.  **Monthly**: Discovery happens in selected month/months
-             of a year on a particular day.
+             of a year on a particular day at a specified time.
+
+        The Time Zone is automatically set based on the Time-Zone in the :ref:`Account Profile <ad-account>`. but
+        you can change it.     
 
     b. In Field-B, if you want the discovered Assets directly to be
        added to the CMDB then select **Yes,** else **No** if you want

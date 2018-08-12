@@ -204,6 +204,26 @@ To upload Requestors from a CSV follow the below steps:
     :align: center
     :alt: figure 12
 
+Self-Registration of Requesters
+-------------------------------
+
+An admin can allow a user to create a Requester account from the Customer Portal. Enabling Self-Registration adds a button on the
+Customer Portal that can be used by anyone (who has access to the customer portal) to create a Requester account. 
+
+.. note:: Self-Registration can be enabled from **Admin** >> **Requestors** (under Users) >> **Self Registration Config**.
+
+.. _adf-12.1:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-12.1.png
+    :align: center
+    :alt: figure 12.1
+
+While enabling Self-Registration you have two options:
+
+- **Allow Everyone**: **Sign Up** button will on the Customer Portal. 
+
+- **Set of Domain**: 
+
+
 Import Requestors Using LDAP
 ----------------------------
 
@@ -880,156 +900,40 @@ roles cannot be modified.
 Helpdesk Security
 =================
 
-This section of Admin controls how users log in to the product and the
-necessity of their credential when submitting a ticket.
+A lot of security issues can be thwarted just by controlling the way people use the system. With the Helpdesk Security settings
+an admin can control the following:
 
-You can make sure that users can securely log into the customer portal
-with third party credentials using a SSO login . You can even make
-login an optional action before submitting a Request from the customer
-portal.
-
-Single Sign-On Configuration
-----------------------------
-
-Single Sign-On feature in Flotomate enables users to log in to the
-customer portal with third-party credentials. It creates a unifying
-experience for some users and saves time by not having to maintain
-multiple accounts.
-
-.. note:: SSO Configuration requires administrative rights.
-
-Activate Create Request through SSO Login
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-- Go to **Admin** (A Navigation tab) >> **Helpdesk Security** (Users).
+.. note:: Open Helpdesk Security settings by going to **Admin** >> **Helpdesk Security** (under Users).
 
 .. _adf-28:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-28.png
     :align: center
     :alt: figure 28
 
-- In the new page, turn on the **Allow Single Sign-On for User**. Now
-  you have to configure the SSO settings to use this feature.
+**Allow Guest Requesters to Report a Request:**
 
-Configure Simple SSO:
-^^^^^^^^^^^^^^^^^^^^^
+Turning on this option allows guests, without a Requestor account, to submit a Request from the Customer Portal, but they cannot view and manage their
+submitted Requests. Guests, with a Requestor account, can view their
+Requests in the **My Request** section after logging-in.
 
--  Go to **Admin** >> **Helpdesk Security** (Users).
+**Allow Technician to Report a ticket from a Guest Requester:**
 
-.. _adf-29:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-29.png
-    :align: center
-    :alt: figure 29
-
--  In the Simple SSO section, click on edit which makes the fields
-   editable. Input the following information.
-
-   a. **SSO Login URL**: This is the URL of the third party web server
-      where the authentication happens.
-
-   b. **SSO Logout URL**: Sending the Guest Requestor to this URL clears
-      all session cookies, and the Guest is logged out.
-
-   c. **SSO Shared Key**: The key authenticates the identity of
-      Flotomate during communication with third-party servers. You have
-      to copy and put the key in the third party server.
-
--  Save your changes by hitting **Update**.
-
-Configure Google SSO
-^^^^^^^^^^^^^^^^^^^^
-
-People can log in to the customer portal using Google credentials.
-
--  Go to **Admin** >> **Helpdesk Security** (Users).
-
-.. _adf-30:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-30.png
-    :align: center
-    :alt: figure 30
-
--  Once you connect your AuthO client with Google, you are required to
-   generate a Client ID. You need to put that Client ID in the Google
-   Client ID field.
-
--  Save your changes by clicking **Update**.
-
-On enabling SSO, an SSO Login button appears on your customer login
-page. You can enable/disable an SSO configuration anytime.
-
-.. _adf-31:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-31.png
-    :align: center
-    :alt: figure 31
-
-Understanding Flow of an SSO Login
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
--  A Requester who intends to log in to your customer portal and clicks
-   on "**SSO Login**."
-
--  The requester is redirected to the Login URL (A SSO login page
-   opens).
-
--  Requester enters his/her application credential in the SSO login
-   page.
-
--  The SSO Login page authenticates credential from the application
-   server.
-
--  If the application server finds given credentials valid, it sends a
-   generated "Hash" with a pre-shared key.
-
--  Now, the Login page makes an authentication call against Flotomate
-   server to obtain SSO Token.
-
--  If authentication is successful, then the Flotomate server issues SSO
-   token, and it redirects to Support portal as a logged in user.
-
-Allow Request without Login
----------------------------
-
-Do you want your requesters to be logged in when they make a request, or
-you want them to create a request as a guest? Flotomate has the guest
-login feature for the latter.
-
-Guests, without a Requestor account, cannot view and manage their
-submitted Requests. Guest, with a Requestor account, can view their
-Requests in the **My Request** section.
-
-.. note:: Changing this option requires administrative rights.
-
-To enable/disable this option:
-
-- Go to **Admin** >> **Helpdesk Security** (Users).
-
-.. _adf-32:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-32.png
-    :align: center
-    :alt: figure 32
-
-- Toggle **Allow to Report Request without login** to turn on/off the
-  feature.
-
-Allow Technicians to Submit Requests of Non-Requestors
------------------------------------------------------
-
-Flotomate has the option to allow Technicians to submit requests in the
+Turning on this option allows Technicians to submit Requests in the
 name of people who are not requestors. The product doesn't demand for authentication.
 
-.. note:: Changing this option requires administrative rights.
+**Allows Requester to link Asset:**
 
-To enable/disable this option:
+.. note:: Related Topic: :ref:`Creating a Request`
 
-- Go to **Admin** >> **Helpdesk Security** (Users).
+Turning this option enables logged in Requesters to link Assets directly from the Create a Request form of the *Customer Portal*. 
+A Requester can only link Assets that are :ref:`Used By <Classifying Assets>` him/her. 
 
-.. _adf-32.1:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-32.1.png
+.. _adf-28.1:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-28.1.png
     :align: center
-    :alt: figure 32.1
+    :alt: figure 28.1
 
-- Toggle **Allow Technician to report a ticket for non-exist requestor** to turn on/off the
-  feature.
+**Allow Technician for Do Not Disturb mode:**
 
 User Story
 ==========    

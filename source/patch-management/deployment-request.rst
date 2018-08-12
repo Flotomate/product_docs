@@ -114,6 +114,14 @@ Manually Creating a Request
        i. Set a :ref:`Remote Office <add-remote-office>`. This will allow auto selection of multiple computers from a Remote Office's 
           network may or may not be based on include and exclude conditions.
 
+          You can use a :doc:`manage-computer-group` to filter a Remote office. Computers (of the Remote Office) in the Group will be
+          either included or excluded.
+
+          .. _pf-65.1:
+          .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/software-package-deployment/P-65.1.png
+            :align: center
+            :alt: figure 65.1
+
        ii. Set :ref:`individual <Adding of Computers from List>` computers.
 
        iii. Set a different :ref:`Scope<Adding Multiple Scopes>` (Target) if there are multiple Remote Offices. 
