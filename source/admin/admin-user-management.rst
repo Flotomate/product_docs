@@ -219,10 +219,18 @@ Customer Portal that can be used by anyone (who has access to the customer porta
 
 While enabling Self-Registration you have two options:
 
-- **Allow Everyone**: **Sign Up** button will on the Customer Portal. 
+- **Allow Everyone**: A **Sign Up** button appears on the Customer Portal. Anyone who has access to the Customer Portal can create a Requester
+  account. 
 
-- **Set of Domain**: 
+- **Set of Domain**: A Sign Up button appears on the Customer Portal. But an admin can restrict who can register by defining
+  domains. By adding a domain, only people with an email id belonging to that domain (or any other domain already being added) can register. 
 
+.. _adf-12.2:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-12.2.png
+    :align: center
+    :alt: figure 12.2 
+
+When you done configuring, click on **Update** to start Self-Registration.
 
 Import Requestors Using LDAP
 ----------------------------
@@ -934,6 +942,9 @@ A Requester can only link Assets that are :ref:`Used By <Classifying Assets>` hi
     :alt: figure 28.1
 
 **Allow Technician for Do Not Disturb mode:**
+
+Turning this option allows Technicians to globally mark them unavailable for assignment of Request tickets through Auto Assignment. 
+This option is only available on the Technician portal. Learn more about :ref:`Technician Profile <pro-edit-profile>`. 
 
 User Story
 ==========    
