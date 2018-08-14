@@ -149,6 +149,8 @@ A Registry Template created as part of Deployment has Keys and Values, when
 deployed can manipulate the behavior of Windows components, Hardware and Software of a computer. The system has
 24 pre-defined templates out of the box; they are as follows:
 
+.. note:: Related Topic: :ref:`Registry Deployment Use Case <A Registry Deployment Use Case>`.
+
 .. _spf-27.1:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/software-package-deployment/SP-27.1.png
     :align: center
@@ -162,17 +164,35 @@ deployed can manipulate the behavior of Windows components, Hardware and Softwar
 
 - A dialog box opens where you have to enter a name and description. 
 
-.. _spf-27.1:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/software-package-deployment/SP-27.1.png
+.. _spf-27.1.0:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/software-package-deployment/SP-27.1.0.png
     :align: center
-    :alt: figure 27.1
+    :alt: figure 27.1.0
 
 - When done, click on **Create** and your templates will be created. 
+
+- You will be redirected to the **Update** page of the Template where you can modify the registry details.
 
 Editing a Registry Template
 ---------------------------
 
-A Registry Template houses Registry Items. Each Registry Item has the following:
+A user (See :ref:`Technician Roles`) can go to the Update page of a Registry Template from the :ref:`Registry List View <sp-list-view>` and modify its details.
+Clicking on a Template name opens the Update page.
+
+.. _spf-27.1.1:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/software-package-deployment/SP-27.1.1.png
+    :align: center
+    :alt: figure 27.1.1
+
+In the Update page a user can perform the following actions:
+
+- Update Name and Description of the Template.
+
+- Delete the Template (A pre-defined Template cannot be deleted).
+
+- Add and modify Registry Items.
+
+A Registry Item is a set of instruction to locate and modify a particular value name/key. A Registry Item has the following fields:
 
 - **Action**: Following operations are permissable:
 
@@ -186,18 +206,39 @@ A Registry Template houses Registry Items. Each Registry Item has the following:
 
 - **Header Key**: Following Header Keys are supported:
 
-  a. HKEY_LOCAL_MACHINE
+  a. **HKEY_LOCAL_MACHINE**: This branch contains computer specific information about the type of hardware, software, 
+     and other preferences on a given PC. It is usually abbreviated as HKLM. You’ll mostly use the HKLM\Software key 
+     to check machine-wide settings.
 
-  b. HKEY_USERS\.Default
+  b. **HKEY_USERS\.Default**: This branch contains individual preferences for each user of the computer, each user is represented 
+     by a SID sub-key located under the main branch.
 
-- **Sub Key**: User defined
+- **Sub Key**: Sub-keys are nested folders with in a hive. While creating a Registry Item, the Sub Key has to be manually filled in.
 
 - **Data Type**: Following data types are supported:
 
-  .. _spf-27.2:
-  .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/software-package-deployment/SP-27.2.png
-      :align: center
-      :alt: figure 27.2
+    .. _spf-27.2:
+    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/software-package-deployment/SP-27.2.png
+        :align: center
+        :alt: figure 27.2
+
+  a. **REG_SZ**: This type is a standard string, used to represent human readable text values.
+
+  b. **REG_BINARY**: This type stores the value as raw binary data. Most hardware component information is stored as binary data, 
+     and can be displayed in an editor in hexadecimal format.
+
+  c. **REG_DWORD**: This type represents the data by a four byte number and is commonly used for boolean values, 
+     such as "0" is disabled and "1" is enabled. Additionally many parameters for device driver and services are this 
+     type, and can be displayed in REGEDT32 in binary, hexadecimal and decimal format, or in REGEDIT in hexadecimal and decimal format.
+
+  d. **REG_EXPAND_SZ**: This type is an expandable data string that is string containing a variable to be replaced when called by an application. 
+     For example, for the following value, the string "%SystemRoot%" will replaced by the actual location of the directory 
+     containing the Windows NT system files. (This type is only available using an advanced registry editor such as REGEDT32)
+
+  e. **REG_MULTI_SZ**: This type is a multiple string used to represent values that contain lists or multiple values, 
+     each entry is separated by a NULL character. (This type is only available using an advanced registry editor such as REGEDT32).
+
+  f. **REG_QWORD**: A 64-bit number.
 
 - **Value Name**: This field supports a user defined and dynamic variable. The dynamic variables are:
 
@@ -213,14 +254,15 @@ A Registry Template houses Registry Items. Each Registry Item has the following:
       :align: center
       :alt: figure 27.4
 
-You can add n number of Registry Items in a Registry Template, and you can modify them later. You cannot
+You can add n number of Registry Items in a Registry Template, and you can modify (or delete) them later. You cannot
 modify a predefined Registry Item in a predefined Registry Template. 
 
-**To Create a new Registry Item:**
+Creating a new Registry Item
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 - Go to the :ref:`Registry Template List View <Viewing Package/Registry List View>`.
 
-- Click on a Template to open its details view. 
+- Click on a Template to open its Update page. 
 
 - In the new page, you can view all existing Registry Items. There is a Search Bar for searching Items.
   Learn how to use the :ref:`sp-search-bar`. Click on **Create Registry Item**.  
