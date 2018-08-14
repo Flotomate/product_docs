@@ -42,8 +42,9 @@ collects and stores configuration settings of Windows components, Hardware and S
 by their respective Windows components, Hardware and Software at startup.
  
 The registry contains two basic elements: keys and values. A Registry Template created as part of Deployment has Keys and Values, when
-deployed can manipulate the behavior of Windows components, Hardware and Software of a computer. 
+deployed can manipulate the behavior of Windows components, Hardware and Software of a computer.
 
+.. note:: Related Topic: :ref:`Registry Deployment Use Case <A Registry Deployment Use Case>`.
 
 Benefits of Remote Deployment
 =============================

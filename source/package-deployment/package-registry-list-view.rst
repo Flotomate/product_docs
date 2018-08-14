@@ -11,6 +11,8 @@ We have the Package/Registry List View that gives a point & click
 interface to manage all package/registry info from a single place. The view
 is divided across Windows & Linux Packages, and Registry Templates.
 
+.. _sp-list-view:
+
 Viewing Package/Registry List View
 ==================================
 

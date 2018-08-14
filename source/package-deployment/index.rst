@@ -17,3 +17,4 @@ Package Management
    sp-deployment-request
    uninstall-packages
    sp-computer-management
+   using-registry-deployment
