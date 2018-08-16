@@ -93,7 +93,7 @@ Flotomate ITSM – Eagle 2.5.0 – Release Note
 
    -  Android (Tentative on 17\ :sup:`th` August in the Google Play Store)
    
-   -  iOS (Submission to App Store tentative on 31\ :sup:`st` August)
+   -  iOS (Submission to Apple App Store tentative on 31\ :sup:`st` August)
 
 5. **Dynamic Form Builder for Customization**
 
