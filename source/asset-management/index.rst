@@ -17,7 +17,7 @@ Asset Management
    export-asset-details
    modify-assets
    modify-software-assets
-   manage-software-license
+   manage-software-license/index
    consolidating-software
    prohibited-software
    software-metering
