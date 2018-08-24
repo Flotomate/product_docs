@@ -657,7 +657,7 @@ View Email Notifications
 ------------------------
 
 - Go to **Admin** (A Navigation tab) >> **Email Notification**
-   (Automation)
+  (Automation)
 
 - In the new page, you can view all the Notifications across the
   following types:
