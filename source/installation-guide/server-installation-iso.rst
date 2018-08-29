@@ -32,6 +32,7 @@ Installation Process:
 2. Select language:
 
 .. _sii-1:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/server-installation/SII-1.png
     :align: center
     :alt: figure 1
@@ -39,6 +40,7 @@ Installation Process:
 3. Select installation type, “\ *Install IT Service Desk*\ ”.
 
 .. _sii-2:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/server-installation/SII-2.png
     :align: center
     :alt: figure 2
@@ -46,6 +48,7 @@ Installation Process:
 4. The installation process will start.
 
 .. _sii-3:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/server-installation/SII-3.png
     :align: center
     :alt: figure 3
@@ -75,6 +78,7 @@ Installation Process:
    **sudo ./service_desk_master_CI**
 
     .. _sii-4:
+
     .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/server-installation/SII-4.png
         :align: center
         :alt: figure 4
@@ -83,6 +87,7 @@ Installation Process:
    provide following password : mypassword.
 
     .. _sii-5:
+
     .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/server-installation/SII-5.png
         :align: center
         :alt: figure 5
@@ -92,11 +97,13 @@ Installation Process:
    spaces.)
 
     .. _sii-6:
+
     .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/server-installation/SII-6.png
         :align: center
         :alt: figure 6
 
     .. _sii-7:
+
     .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/server-installation/SII-7.png
         :align: center
         :alt: figure 7
@@ -110,6 +117,7 @@ Installation Process:
    as below :
 
 .. _sii-8:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/server-installation/SII-8.png
     :align: center
     :alt: figure 8
@@ -124,6 +132,7 @@ Installation Process:
     using a product.
 
 .. _sii-9:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/server-installation/SII-9.png
     :align: center
     :alt: figure 9

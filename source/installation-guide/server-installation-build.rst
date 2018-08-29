@@ -52,6 +52,7 @@ product on to your server:
    **sudo ./service_desk_master_CI**
 
     .. _sib-1:
+
     .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/server-installation/SIB-1.png
         :align: center
         :alt: figure 1
@@ -60,6 +61,7 @@ product on to your server:
    provide following password : mypassword
 
     .. _sib-2:
+
     .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/server-installation/SIB-2.png
         :align: center
         :alt: figure 2
@@ -69,6 +71,7 @@ product on to your server:
    characters or spaces.)
 
     .. _sib-3:
+
     .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/server-installation/SIB-3.png
         :align: center
         :alt: figure 3
@@ -77,6 +80,7 @@ product on to your server:
    the product.
 
 .. _sib-4:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/server-installation/SIB-4.png
     :align: center
     :alt: figure 4
@@ -87,6 +91,7 @@ product on to your server:
    as below :
 
 .. _sib-5:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/server-installation/SIB-5.png
     :align: center
     :alt: figure 5
@@ -101,6 +106,7 @@ product on to your server:
    using a product.
 
 .. _sib-6:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/server-installation/SIB-6.png
     :align: center
     :alt: figure 6
@@ -138,6 +144,7 @@ Flotomate Service Desk - Server Upgrade Guide
    **sudo ./service_desk_master_CI**
 
    .. _sib-7:
+
    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/server-installation/SIB-7.png
        :align: center
        :alt: figure 7
@@ -146,6 +153,7 @@ Flotomate Service Desk - Server Upgrade Guide
    product.
 
 .. _sib-8:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/server-installation/SIB-8.png
        :align: center
        :alt: figure 8
@@ -157,6 +165,7 @@ Flotomate Service Desk - Server Upgrade Guide
    using product.
 
 .. _sib-9:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/server-installation/SIB-9.png
        :align: center
        :alt: figure 9   
