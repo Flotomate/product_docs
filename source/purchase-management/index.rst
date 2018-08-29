@@ -27,3 +27,4 @@ Purchase Management
    currency
    cost-center
    po-custom-field
+   po-custom-rules

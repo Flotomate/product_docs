@@ -1,19 +1,20 @@
+*************************************
 How to Create Incident Using REST API
-=====================================
+*************************************
 
 A REST API defines a set of functions which developers can perform
 requests and receive responses via HTTP protocol such as GET and POST.
 {Product} allows third party clients to create Requests using REST API.
 
 Perquisite
-----------
+==========
 
 Before using REST API, you have to create an API Client.
 
 Learn how to create an :ref:`API Client <rest api client>`.
 
 Creating an Incident?
----------------------
+=====================
 
 -  Go to **Admin** (A Navigation tab) >> **Integration** (under
    Automation).
@@ -46,7 +47,7 @@ Creating an Incident?
 -  Now you can create an incident using the API path. Below is the API
    path for creating an Incident.
 
-    **API**: *http://{server-url}/api/incident*
+    **API**: *http://{server-url}/api/ususer/incident*
 
     **HTTP Method:** POST
 

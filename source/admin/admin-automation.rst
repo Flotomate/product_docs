@@ -813,7 +813,7 @@ Before using REST API, you have to create an API Client.
     :align: center
     :alt: figure 56
 
-Learn how to make an :doc:`API Call <how-to-create-request-using-rest>`.
+Learn how to make :ref:`API Calls <How to Create Incident Using REST API>`.
 
 Edit Integration
 ----------------
