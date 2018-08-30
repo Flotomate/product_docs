@@ -8,14 +8,14 @@ What is a Contract?
 A Contract is a written agreement that binds two or more parties in a transaction. In the context of Contract Management, such documents
 are created to govern leasing activities, Warranty, Support and Maintenance. 
 
-A Contract is created with a third party Vendor (a Contract can be associated with one Vendor only), and it houses important information
-relating to price, validity period of the Contract, Contract Type, and Sub-Contract Status. 
+A Contract is created with a third party Vendor (a Contract can be associated with one Vendor only), and it contains important information
+related to price, validity period of the Contract, Contract Type, and Sub-Contract Status. 
 
 What is Contract Management?
 ============================
 
 Contract Management is the practice of managing the life-cycle of contracts. Contract creation, execution and analysis come
-in the ambit of Contract Management. It exists to maximize operational and financial performance of an organization, while minimizing
+under Contract Management. It exists to maximize operational and financial performance of an organization, while minimizing
 financial risks. 
 
 Contract Management has proven to be a cumbersome and time consuming activity, which is why there's a need for effective and automated contract management system.
