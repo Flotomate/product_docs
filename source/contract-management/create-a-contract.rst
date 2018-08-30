@@ -3,7 +3,7 @@ Create a Contract
 *****************
 
 A Contract formalizes the relation between two commercial entities. You can add n number of Contracts in the product; adding a Contract
-starts the automatic management of the Contract.
+starts the process of Contract Management.
 
 Some benefits of automatic Contract Management:
 

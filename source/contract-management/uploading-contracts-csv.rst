@@ -28,6 +28,11 @@ file with Contract details without changing the headers values.
 
 - Go to the :doc:`contract-list-view` and click on **Import Contracts**.
 
+.. _con-46.1:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/contract-management/con-46.1.png
+    :align: center
+    :alt: figure 46.1
+
 - The Import page opens. Click on **Download Demo CSV** to download the blank file.
 
 .. _con-47:

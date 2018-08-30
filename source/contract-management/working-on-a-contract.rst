@@ -141,7 +141,7 @@ Vendor
 ------
 
 A Vendor is an entity that offers something for sale. A Contract generally defines the terms and conditions between a buyer and seller
-(Vendor). While adding a Contract you can directly associate a Vendor from the system Vendor list or add it later. Learn how to add a :ref:`ad-vendor`.
+(Vendor). While adding a Contract you can directly associate a Vendor from the system Vendor list or add it later. Learn how to add a :ref:`am-vendor`.
 
 Duration
 --------
@@ -231,8 +231,17 @@ Contract Renewal
 ================
 
 A Contract is time bound; it has a start date and end date. A Technician can extend this period by reissuing the Contract (with different date and time) which is
-termed as Renewal. When a Contract is Renewed, the original Contract expires and a duplicate Contract is created with different start and
-end time. 
+termed as Renewal. When a Contract is Renewed, the following behavior can be noticed:
+
+- A duplicate Contract is created with a different start and
+  end time with the keyword **Renewed Contract**. 
+    .. _con-26.1:
+    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/contract-management/con-26.1.png
+         :align: center
+         :alt: figure 26.1
+
+- When the renewed contract starts the original contract gets cancelled.
+  
 
 Renewal date and time conditions
 --------------------------------
@@ -245,13 +254,15 @@ The below table shows the conditions that you need to keep in mind when setting 
 | Original Contract | 13/07/2018/6:00 PM                            | 13/07/2019/6:00 PM                        |
 +-------------------+-----------------------------------------------+-------------------------------------------+
 | Renewed Contract  | The start date&time cannot be less            | The end date&time cannot be less than the |
-|                   | than start date&time of the original contract | end date&time of the original Contract.   |
+|                   | than start date&time of the original contract.| end date&time of the original Contract.   |
+|                   | If condition is not meet, then the original   |                                           |
+|                   | contract is cancelled.                        |                                           |
 +-------------------+-----------------------------------------------+-------------------------------------------+
 
 Creating a Renewal
 ------------------
 
-.. note:: A Contract can have only one renewal. Only the assigned Technician of a Contract can initiate a renewal. 
+.. note:: A Contract can have only one renewal (A renewed contract can also be renewed). Only the assigned Technician of a Contract can initiate a renewal. 
 
 Acme Inc has purchased Alienware laptops from Vendor Beebon Inc. Beebon Inc is contractually obligated to provide service to Acme Inc. 
 Acme Inc has a Service Contract with Beebon that is going to expire after a year. Acme Inc decides to renew the Contract 
@@ -290,7 +301,7 @@ The assigned Technician of the Contract has to update the Contract. Now he has t
 - He fills the details of the new Contract and clicks on **Renew**. The start and end time of the Contract is set considering the
   :ref:`Renewal date and time conditions`.  
 
-- The new Contract will start after the expiry of the current active Contract. When the new Contract starts, the old Contract will expire 
+- The new Contract will start after the expiry of the current active Contract. When the new Contract starts, the old Contract will get cancelled 
   and the Renewed status will change to Yes. The Renewed Contract is visible under the Renewals tab.
 
 .. _con-30:
@@ -352,13 +363,16 @@ You will find the pre-defined Notifications in **Admin** (A Navigation tab) >> *
 | Notify When Contract is Renewed.                     | The assigned Technician gets an email                 |
 |                                                      | notification when a Contract is Renewed.              |
 +------------------------------------------------------+-------------------------------------------------------+
-| .. _notify-settings:                                 | Notify a select set of people by an email about       |
+|                                                      | Notify a select set of people by an email about       |
 |                                                      | the expiry of a Contract before a set number of days. |
-| Notify When Contract is about Expire before 15 days. | The recipients are added from the Notify Settings     |
+| Notify When Contract is about Expire before days.    | The recipients are added from the Notify Settings     |
 |                                                      | in the Details View of a Contract.                    |
 +------------------------------------------------------+-------------------------------------------------------+
 | Notify When Contract is Expired                      | The assigned Technician gets an email                 |
 |                                                      | notification when a Contract expires.                 |
++------------------------------------------------------+-------------------------------------------------------+
+| Notify when Contract is Assigned                     | An email notification is sent to a Technician when a  |
+|                                                      | contract is assigned to him.                          | 
 +------------------------------------------------------+-------------------------------------------------------+
 
 Notify Settings
