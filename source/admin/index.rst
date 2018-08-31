@@ -3,11 +3,10 @@ Administration Manual
 
 .. toctree::
    :maxdepth: 3
-   :caption: Administration Manual
 
    admin-introduction
    admin-user-management
-   admin-automation
+   admin-automation/index
    it-infrastructure
    admin-organization
    admin-customization 
