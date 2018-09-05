@@ -624,6 +624,7 @@ View <problem-details-view>` of a Problem.
     :alt: figure 46
 
 .. _pm-asking-for-approval:
+
 Asking for Approval
 ===================
 
@@ -632,7 +633,7 @@ approvals from others before resolving or closing a Problem. The
 Approval process is a mechanism for control that ensures Technicians
 don’t commit unauthorized actions.
 
-Custom rules decide whether taking Approval is necessary or not before
+:ref:`Custom rules <ad-custom-rule>` decide whether taking Approval is necessary or not before
 resolving or closing a Problem.
 
 Initiating an Approval
@@ -643,14 +644,12 @@ Initiating an Approval
 
 1. Go to the :ref:`Details View <problem-details-view>` of a Problem.
 
-2. Scroll down to the **Approval** tab and click it.
+2. Click on **Ask for Approval** from the Action Menu.
 
 .. _pmf-47:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/problem-management/PM-47.png
     :align: center
     :alt: figure 47
-
-3. Click on **Ask for Approval** to initiate the Approval process.
 
 Different States in an Approval Process
 ---------------------------------------

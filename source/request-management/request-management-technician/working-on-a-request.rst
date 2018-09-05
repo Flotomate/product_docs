@@ -553,7 +553,7 @@ approvals from others before resolving or closing a Request. The
 Approval process is a mechanism for control that ensures Technicians
 don’t commit unauthorized actions.
 
-Custom rules, set by someone with Admin rights, decide whether taking
+:ref:`Custom rules <ad-custom-rule>`, set by someone with Admin rights, decide whether taking
 Approval is necessary or not before resolving or closing a Request.
 
 Initiating an Approval
@@ -564,16 +564,15 @@ Initiating an Approval
 
 1. Go to the :ref:`Details View <request-details-view>` of a Request.
 
-2. Scroll down to the **Approval** tab and click it.
+2. Click on **Ask for Approval** from the Action Menu.
 
 .. _rmf-33:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-33.png
     :align: center
     :alt: figure 33
 
-3. Click on **Ask for Approval** to initiate the Approval process.
-
 .. _rm-different-states-in-an-approval-process:
+
 Different States in an Approval Process
 ---------------------------------------
 
@@ -592,7 +591,7 @@ An assigned Technician can view all his Approvals under the Approvals
 tab. The Approvals tab shows two columns: the Approvals column which
 lists all the Approvals along with their approvers, and the Comments
 column that shows the message thread between Technicians and approvers.
-Any Technician with the necessary rights can access the Approvals tab of
+Any Technician with the necessary :ref:`rights <Technician Roles>` can access the Approvals tab of
 a Request.
 
 .. _rmf-34:
@@ -600,9 +599,9 @@ a Request.
     :align: center
     :alt: figure 34
 
-An assigned Technician can create multiple Approvals with the same
-approvers or different ones. Between multiple Approvals, whether to go
-with unanimous or majority can be set from **Admin** (A Navigation Tab)
+An assigned Technician can create multiple Approvals (manually) with the same
+approvers or different ones; automatic Approval workflow can also create multiple Approvals. 
+Between multiple Approvals, whether to go with unanimous or majority can be set from **Admin** (A Navigation Tab)
 >> **Approval Workflow** (Automation) >> **Approval Settings**, but the
 rights to do it lies with the Super Admin.
 
@@ -614,13 +613,28 @@ rights to do it lies with the Super Admin.
 Approval Process
 ----------------
 
+.. note:: An assigned Technician can initiate an Approval process for n number of times. At the start of each process, the 
+          Request will start from the Pending status. 
+
+-  An Approval can be initiated manually or automatically by an Approval Workflow. When the :ref:`manual approval option <Allow Manual Approval>` 
+   is turned on, you get the following dialog box when you click on **Ask for Approval**.
+
+   .. _rmf-35.1:
+   .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-35.1.png
+        :align: center
+        :alt: figure 35.1
+
+   When you create a manual approval, the system also checks for Approval workflows. Incase a workflow is triggered,
+   both the manual approval and an automatic Approval are created. You can skip manual approval altogether using the 
+   **Skip** button. 
+
 -  When an Approval process is initiated, first the system changes the
-   Request status to **Pending in Approval** and then checks for
-   available Approval Workflows. If there are no workflows, then the
+   Request Approval status to **Pending** and then checks for
+   available Approval Workflows. If there are no workflows and no manual approval, then the
    Request is pre-approved, and the Approval status is changed to
    **Pre-Approved** and Request status is changed to Pending on
-   Technician. If there is a workflow, then based on its set conditions
-   approver/approvers are auto-assigned for approval.
+   Technician. If there is a workflow or a manual approval, then based on its set conditions
+   approver/approvers are auto-assigned/assigned for approval.
 
    .. note:: Refer to Administration Manual to know more about Approval
              Workflows.
@@ -713,6 +727,12 @@ Approval Process
       Approval is approved.
 
    b. Location, Category, and Department cannot be modified.
+
+Related Topics:
+
+-  :ref:`Understanding Approval Workflow`
+-  :ref:`Creating an Approval Workflow`
+-  :ref:`Allow Manual Approval`   
 
 .. _rm-managing-task:
 
