@@ -560,6 +560,7 @@ Please refer the Administrator Manual to know more about Custom Rules
 for Problems.
 
 .. _pm-adding-relations:
+
 Adding Relations
 ================
 
@@ -654,13 +655,13 @@ Initiating an Approval
 Different States in an Approval Process
 ---------------------------------------
 
--  Approval Pending:
+-  Approval Pending
 
--  Approval Rejected:
+-  Approval Rejected
 
--  Approval Pre-Approved:
+-  Approval Pre-Approved
 
--  Approval Approved:
+-  Approval Approved
 
 Managing Approval
 -----------------
@@ -669,16 +670,16 @@ An assigned Technician can view all his Approvals under the Approvals
 tab. The Approvals tab shows two columns: the Approvals column which
 lists all the Approvals along with their approvers, and the Comments
 column that shows the message thread between Technicians and approvers.
-Any Technician with the necessary rights can access the Approvals tab.
+Any Technician with the necessary :ref:`rights <Technician Roles>` can access the Approvals tab.
 
 .. _pmf-48:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/problem-management/PM-48.png
     :align: center
     :alt: figure 48
 
-An assigned Technician can create multiple Approvals with the same
-approvers or different ones. Between multiple Approvals, whether to go
-with unanimous or majority can be set from **Admin** (A Navigation Tab)
+An assigned Technician can create multiple Approvals (manually) with the same
+approvers or different ones; automatic Approval workflow can also create multiple Approvals. 
+Between multiple Approvals, whether to go with unanimous or majority can be set from **Admin** (A Navigation Tab)
 >> **Approval Workflow** (Automation) >> **Approval Settings**, but the
 rights to do it lies with the Super Admin.
 
@@ -690,13 +691,28 @@ rights to do it lies with the Super Admin.
 Approval Process
 ----------------
 
+.. note:: An assigned Technician can initiate an Approval process for n number of times. At the start of each process, the 
+          Request will start from the Pending status. 
+
+-  An Approval can be initiated manually or automatically by an Approval Workflow. When the :ref:`manual approval option <Allow Manual Approval>` 
+   is turned on, you get the following dialog box when you click on **Ask for Approval**.
+
+   .. _rmf-35.1:
+   .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-35.1.png
+        :align: center
+        :alt: figure 35.1
+
+   When you create a manual approval, the system also checks for Approval workflows. Incase a workflow is triggered,
+   both the manual approval and an automatic Approval are created. You can skip manual approval altogether using the 
+   **Skip** button. 
+
 -  When an Approval process is initiated, first the system changes the
-   Problem status to **Pending in Approval** and then checks for
-   available Approval Workflows. If there are no workflows, the
-   Problem is pre-approved and the Approval status is changed to
+   Problem Approval status to **Pending** and then checks for
+   available Approval Workflows. If there are no workflows and no manual approval, then the
+   Problem is pre-approved, and the Approval status is changed to
    **Pre-Approved** and Problem status is changed to Pending on
-   Technician. If there is a workflow, then based on its set conditions
-   approver/approvers are auto assigned for approval.
+   Technician. If there is a workflow or a manual approval, then based on its set conditions
+   approver/approvers are auto-assigned/assigned for approval.
 
    .. note:: Refer to Administration Manual to know more about Approval
              Workflows.
@@ -789,6 +805,12 @@ Approval Process
    a. Nature of the Problem.
 
    b. The business service associated with the Problem.
+
+Related Topics:
+
+-  :ref:`Understanding Approval Workflow`
+-  :ref:`Creating an Approval Workflow`
+-  :ref:`Allow Manual Approval` 
 
 Time Log in Problem
 ===================
