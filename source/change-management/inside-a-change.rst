@@ -250,6 +250,7 @@ below steps:
    the same way, you can link multiple Articles/FAQs.
 
 .. _cm-collaborate-schedule-and-planning:
+
 Collaborate, Schedule and Planning
 ==================================
 
@@ -320,6 +321,7 @@ the change.
        commencing the Change.
 
 .. _cm-adding-relations:
+
 Adding Relations
 ================
 
@@ -373,6 +375,7 @@ be a single approver) to move the Change to the next stage.
     :alt: figure 34
 
 .. _cm-different-states-in-an-approval-process:
+
 Different States in an Approval Process
 ---------------------------------------
 
@@ -385,6 +388,7 @@ Different States in an Approval Process
 -  Approval Approved:
 
 .. _cm-manually-adding-approval:
+
 Manually Adding Approval
 ------------------------
 
@@ -406,6 +410,7 @@ two types of Approval:
    successful.
 
 .. _cm-asking-for-approval:
+
 Asking for Approval
 -------------------
 
@@ -418,6 +423,7 @@ Approval moves to next stage.
 .. note:: Refer to Administration Manual to know more about Approval Workflows.
 
 .. _cm-approval-process:
+
 Approval Process
 ----------------
 
@@ -510,6 +516,7 @@ Approval Process
    b. Change Type
 
 .. _cm-managing-approvals-for-technician:
+
 Managing Approvals for Technician.
 ----------------------------------
 
@@ -528,6 +535,7 @@ Clicking on the Comment Icon in :numref:`cmf-41` opens the comment dialog box.
 Anyone can comment as long as the dialog box is visible to them.
 
 .. _cm-time-log:
+
 Time Log
 ========
 
@@ -536,6 +544,7 @@ the assigned Technician) working to implement the Change can log their
 time spent working in the **Time Log** section.
 
 .. _cm-adding-a-time-log:
+
 Adding a Time Log:
 ------------------
 
@@ -580,6 +589,7 @@ Edit/Delete a Time Log:
    you can delete them using the Delete Icon.
 
 .. _cm-managing-tasks:
+
 Managing Tasks
 ==============
 
