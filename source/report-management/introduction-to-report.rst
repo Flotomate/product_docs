@@ -22,11 +22,17 @@ You can generate reports across the following modules:
 
 -  Asset
 
--  Remote Deployment
+-  Remote Deployment - Patches
+
+-  Remote Deployment - Agent
 
 -  Software License
 
 -  Project
+
+-  Contract
+
+-  Purchase
 
 **Benefits of Report**
 

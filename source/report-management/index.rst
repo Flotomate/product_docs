@@ -6,7 +6,7 @@ Report Management
    :caption: Report Management
 
    introduction-to-report 
-   create-&-edit 
+   create-edit-reports/index 
    report-list-view 
    search-a-report 
    preview-a-report 
