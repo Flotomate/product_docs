@@ -2,7 +2,7 @@ Installation Guides
 ===================
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 3
    :caption: Installation Guide
    
    flotomate-agent-installation-guide

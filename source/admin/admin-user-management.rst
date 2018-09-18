@@ -717,6 +717,8 @@ across the following modules:
 
 - Report
 
+- Dashboard
+
 Default Roles
 -------------
 
@@ -894,6 +896,12 @@ Add/View Roles
     |           | - Cancel Purchase Order                          |
     +-----------+--------------------------------------------------+
     | Report    | - View and manage Reports                        |
+    +-----------+--------------------------------------------------+
+    | Dashboard | - Manage Dashboard gives the permission to       |
+    |           |   Create/Update/Delete/Duplicate Dashboards      |
+    |           |                                                  |
+    |           | - Manage KPI and Widgets gives the permission to |
+    |           |   Create / Update / Delete / Duplicate Dashlets  |
     +-----------+--------------------------------------------------+
 
 -  Once you are done with the permissions and rights, hit **Create** to
