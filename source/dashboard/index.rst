@@ -6,5 +6,6 @@ Flotomate Dashboard
 
    dashboard-introduction
    dashboard-list
-   out-of-the-box-dashboard
+   out-of-the-box-dashboards
    creating-a-dashboard
+   managing-a-dashboard
