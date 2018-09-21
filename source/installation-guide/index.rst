@@ -14,3 +14,4 @@ Installation Guides
    rdp-middleware-installation-guide
    server-installation-build
    server-installation-iso
+   upgrade-guide/index
