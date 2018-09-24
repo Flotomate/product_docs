@@ -3,7 +3,7 @@ Out of the Box Dashboards
 *************************
 
 Flotomate ITSM tool provides four predefined Dashboards out of the box. Each of them have a theme that showcases specific Dashlets.
-These Dashboards have the following features:
+These Dashboards support the following operations:
 
 - Predefined Dashboards are shared with all users having the :ref:`Dashboard rights`.
 

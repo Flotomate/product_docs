@@ -67,6 +67,6 @@ Who Can Work with Dashboards?
 
 A Technician with the following :ref:`roles <Technician Roles>` (Admin >> Technician Roles) can work with the Flotomate Dashboard:
 
-- **Manage Dashboard**
+- **Manage Dashboard**: User can only create Dashboards and add Predefined Dashlets, but he/she can't create new Dashlets.
 
-- **Manage KPI and Widget**
+- **Manage KPI and Widget**: Same as above except he/she can create new Dashlets.

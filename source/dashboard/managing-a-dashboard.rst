@@ -14,6 +14,19 @@ Once a Technician (should have necessary :ref:`Permissions <dashboard-permission
 
 - Delete a Dashboard.
 
+- Rearrange and resize Dashlets.
+
+Setting Filters in a Dashboards
+===============================
+
+Inside a Dashboard (accessed from :ref:`Dashboard List` page), you can change the default time and location filters. This change
+will not be permanent, for that you need to :ref:`edit <Modifying Existing Dashboard>` the Dashboard.
+
+.. _das-3.1:
+  .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/dashboard/DAS-3.1.png
+    :align: center
+    :alt: figure 3.1
+
 Modifying Existing Dashboard
 ============================
 
@@ -114,8 +127,8 @@ user is the owner, and he/she can add more Dashlets.
 - You cannot select multiple Dashlet types; you have to select and add Dashlets of one type at a time. Preselected Dashlets are
   already added. Use the **Add Select KPIs/Widgets/Shortcuts** to add your selection.
 
-Removing Dashlets
-=================
+Removing Dashlets from a Dashboard
+==================================
 
 An owner of a Dashboard can remove Dashlets from his/her Dashboard. When it comes to :ref:`Predefined` Dashboards, the super
 user is the owner, and he/she can remove Dashlets from such Dashboards. 
@@ -171,6 +184,8 @@ A user can create a duplicate of a Dashboard. Duplicating a Dashboard has the fo
 
   d. Privacy settings (Whom to share the duplicate Dashboard with, either Technicians, Technician Groups or both).
 
+  e. Advance settings; you can ignore time and location filters.
+
 - When done, click on **Duplicate** to finish the process.
 
 Making a Dashboard the Default
@@ -201,3 +216,23 @@ visible on the :ref:`Dashboard List` page.
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/dashboard/DAS-11.png
     :align: center
     :alt: figure 11
+
+Resizing and Rearranging Dashlets in a Dashboard
+================================================
+
+An owner of a Dashboard can rearrange and resize the added Dashlets. 
+
+.. _das-11.1:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/dashboard/DAS-11.1.png
+    :align: center
+    :alt: figure 11.1
+
+Change Visualization of a Widget
+--------------------------------
+
+An owner of a Dashboard can change the chart type (bar chart, column chart, line chart or pie chart) of a Widget.
+
+.. _das-11.2:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/dashboard/DAS-11.2.png
+    :align: center
+    :alt: figure 11.2
