@@ -1,13 +1,26 @@
+***************
 Search a Report
-===============
+***************
 
-Flotomate gives you two ways to search for a Report in the Report List
+Flotomate ITSM tool gives you three features to search for a Report in the Report List
 View:
 
-**Use Search Bar**
+Selecting a Folder
+==================
 
-The product allows you to search for a Report using a keyword/keywords.
-The search bar is at the top of the :doc:`Report List View <report-list-view>`.
+In the :ref:`Report List View`, the Reports are grouped into folders. It's compulsory to put a Report in a folder. You can search for
+a Report within a folder and even apply filters. 
+
+.. _rf33.1:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-33.1.png
+      :align: center
+      :alt: figure 33.1
+
+Searching a Report within a Folder
+----------------------------------
+
+Once you select a folder, the product allows you to search for a Report using a keyword/keywords.
+The search bar is at the top of the :ref:`Report List View`.
 
 .. _rf34:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-34.png
@@ -20,23 +33,17 @@ have the keyword are shown in the list area. In case there are multiple
 keywords, all keywords need to be present in a Report in order to have a
 match.
 
-**Use Filters**
-
-There are two types of filters in the Report List View: one that filters
-Reports based on a selected module, and the other that filters Reports
-based on whether a Report is pre-defined or custom.
+Filtering Reports in a Folder
+-----------------------------
 
 .. _rf35:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-35.png
       :align: center
       :alt: figure 35
 
-Apart from filtering Reports module wise, you can have an overview of
-the distribution of Reports across all the modules.
+Once you select a folder, You can quickly toggle between Pre-Defined Reports and Custom Reports:
 
-You can quickly toggle between Pre-Defined Reports and Custom Reports:
+-  **Pre-Defined Report**: Flotomate comes pre-loaded with 41 predefined
+   Reports categorize by module. These are standard Reports commonly used in the product.
 
--  **Pre-Defined Report**: Flotomate comes preloaded with 23 predefined
-   Reports. These are standard Reports commonly used in the product.
-
--  **Custom Report**: These are Reports that you create using the :doc:`New Custom Report <create-&-edit>` page.
+-  **Custom Report**: These are Reports that you create using the :doc:`New Custom Report <create-a-edit>` page.

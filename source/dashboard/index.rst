@@ -11,4 +11,3 @@ Flotomate Dashboard
    creating-a-dashboard
    managing-a-dashboard
    managing-dashlets
-   making-a-dashboard-use-case
