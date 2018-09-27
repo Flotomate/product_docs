@@ -31,7 +31,8 @@ Create a Matrix Report
 | Portrait                          | :ref:`report layout`                        |
 |                                   |                                             |
 +-----------------------------------+---------------------------------------------+
-| Public                            | :ref:`report visibility`                    |
+| Report Shared with three          | :ref:`report visibility`                    |
+| Technicians.                      |                                             |
 |                                   |                                             |
 |                                   |                                             |
 +-----------------------------------+---------------------------------------------+

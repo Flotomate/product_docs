@@ -30,7 +30,8 @@ Create a Tabular Report
 | Portrait                          | :ref:`report layout`                       |
 |                                   |                                            |
 +-----------------------------------+--------------------------------------------+
-| Public                            | :ref:`report visibility`                   |
+| Report shared with                | :ref:`report visibility`                   |
+| three Technicians.                |                                            |
 |                                   |                                            |
 |                                   |                                            |
 +-----------------------------------+--------------------------------------------+
@@ -61,13 +62,11 @@ Create a Tabular Report
       :align: center
       :alt: figure 10
 
--  Here you see all the data columns available in a module. Each module
-   has different columns to select. In Asset, you get different columns
+-  Each module has different columns to select. In Asset, you get different columns
    for each Asset Type; there could be hidden columns that you have to
-   un-hide by checking a box highlighted in the above figure.
+   un-hide by checking the relevant boxes.
 
-   You can also search for a column using the search bar in that
-   section.
+   You can also search for a column using the search bar in the Report Columns section.
 
 -  We select three columns for this Report. We can rearrange them using
    drag & drop. We finalize our selections by clicking on **Done**.

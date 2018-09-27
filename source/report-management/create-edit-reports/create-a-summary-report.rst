@@ -31,7 +31,8 @@ Create a Summary Report
 | Portrait                          | :ref:`report layout`                      |
 |                                   |                                           |
 +-----------------------------------+-------------------------------------------+
-| Public                            | :ref:`report visibility`                  |
+| Report shared with three          | :ref:`report visibility`                  |
+| Technicians.                      |                                           |
 |                                   |                                           |
 |                                   |                                           |
 +-----------------------------------+-------------------------------------------+

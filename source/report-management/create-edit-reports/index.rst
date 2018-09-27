@@ -10,3 +10,4 @@ Create and Edit Reports
    create-a-summary-report
    create-a-multi-module-report
    editing-a-report
+   more-demo-reports

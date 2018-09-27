@@ -111,7 +111,82 @@ Installation in Linux
 
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/agent-installation-guide/AIG-8.png
     :align: center
-    :alt: figure 8    
+    :alt: figure 8   
+
+Uninstall Linux Agent
+---------------------
+
+Open Terminal and follow the below mentioned commands:
+
+- Stop Agent Service:
+
+  **sudo systemctl stop  agent_service**
+
+- Disable Agent Service:
+
+  **sudo systemctl disable  agent_service**
+
+- Remove Agent Service:
+
+  **sudo rm /etc/systemd/system/agent_service.service**
+
+- Delete Agent dir:
+
+  **sudo rm -rf /opt/it-service-desk**
+
+Installation in Mac OS
+======================
+
+1. Download the latest Mac agent file from the given link.
+
+2. Open terminal and change directory to where the agent file is downloaded.
+
+3. Check the permissions of the Mac Agent file whether it is executable. If not run the following command.
+
+   **sudo chmod 777 agent**
+
+.. _aig-9:
+
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/agent-installation-guide/AIG-9.png
+    :align: center
+    :alt: figure 9
+
+4. Now run the Mac agent file using the following command:
+
+   **sudo ./agent**
+
+.. _aig-10:
+
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/agent-installation-guide/AIG-10.png
+    :align: center
+    :alt: figure 10
+
+5. The installation process will begin, and it will ask for the URL of the main server. 
+
+.. _aig-11:
+
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/agent-installation-guide/AIG-11.png
+    :align: center
+    :alt: figure 11
+
+6. The installation process will complete after providing the URL.
+
+Uninstall Mac Agent 
+-------------------
+
+Open Terminal and follow the below mentioned commands:
+
+- Stop Agent Service:
+
+  **sudo launchctl unload /Library/LaunchDaemons/com.flotomate.agent.plist**
+
+- Remove Agent Service:
+
+  **Sudo rm /Library/LaunchDaemons/com.flotomate.agent.plist**
+
+- Delete Agent dir:
+
+  **Sudo rm -rf /opt/it-service-desk**
 
 Installation using PsExec (For Windows)
 =======================================

@@ -118,6 +118,8 @@ following modules:
     .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-2.png
         :align: center
         :alt: figure 2
+   
+   .. note:: You can further drill down in the Asset Type selection with :ref:`Set Asset Type`. 
 
 
 -  **Project**: Refers to the Project Management module.
@@ -327,6 +329,8 @@ In correlation type reports, the primary filters comes into action first and the
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-3.3.png
       :align: center
       :alt: figure 3.3
+
+.. note:: Read a :ref:`use-case <Creating a Correlation Reports>` for correlated Report.
 
 Grouping of data
 ^^^^^^^^^^^^^^^^

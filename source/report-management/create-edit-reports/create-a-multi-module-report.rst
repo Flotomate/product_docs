@@ -33,7 +33,8 @@ The feature that allows you to do this is called multi-module.
 +----------------------+----------------------------------------------------+
 | Portrait             | :ref:`report layout`                               |
 +----------------------+----------------------------------------------------+
-| Public               | :ref:`report visibility`                           |
+| Report shared with   | :ref:`report visibility`                           |
+| three Technicians    |                                                    |
 +----------------------+----------------------------------------------------+
 | Created Time         | :ref:`filter data with time`                       |
 +----------------------+----------------------------------------------------+
