@@ -11,14 +11,14 @@ Agent. A user has to enable Metering individually for Software Assets that
 he/she wants to track. Currently, Metering tracks the following information
 of a Software Asset:
 
--  The number of times the Software application was open. Also referred
-   to as Usage Count. 
+- The number of times the Software application was open. Also referred
+  to as Usage Count. 
 
--  Total time the Software Application was used. Also referred to as
-   Usage Duration.
+- Total time the Software Application was used. Also referred to as
+  Usage Duration.
 
--  Time elapsed since the application was last open. Also referred to as
-   Last Used.
+- Time elapsed since the application was last open. Also referred to as
+  Last Used.
 
 The above three statistics are shown in two different ways: cumulative counts from all the agents and individual counts of each agent.
 
@@ -81,10 +81,10 @@ computers from where usage statistics about the Software will be collected.
 
 - The Configure Meter dialog box opens. Here you have to define a target/targets. A target can include:
 
-.. _amf-149:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-149.png
-    :align: center
-    :alt: figure 149 
+    .. _amf-149:
+    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-149.png
+        :align: center
+        :alt: figure 149 
 
    a. **A Remote Office**: You can add a Remote office to a target; to added multiple Remote Offices, you have to add multiple targets.
       You can filter the Computers within a Remote Office using include and exclude conditions. The process is similar to adding
@@ -97,28 +97,31 @@ computers from where usage statistics about the Software will be collected.
 Meter Statistics
 ================
 
-You can access the me
-
-
-
-
-
-
-
-
-
 There are two ways to view the data collected by a Meter:
 
--  Go to the Software Meter page and click on a Meter to view the data
-   in the right-hand side information pane.
+- You can view the Metering data in the :doc:`Details View <manage-asset-details>` of the Software Asset under the Meter
+  tab.
+
+  **Things to Remember:**
+
+   a. You have to start the Meter using the **Start** button.
+
+   b. In order to add more targets, you have to first stop the Meter and click on Re Configure Meter.
+
+   c. The **Reset** button restarts the Meter Counter.  
 
 .. _amf-154:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-154.png
     :align: center
     :alt: figure 154
 
--  You can also view the Metering data in the :doc:`Details View <manage-asset-details>` of the Software Asset under the Meter
-   tab.
+- Go to **Asset** >> **Software Meter**. Here you get a central repo of all created Meters; apart from that you can:
+
+   a. Turn a Meter on and off. 
+
+   b. View Meter statistics of individual Meter.
+
+   c. Delete a Meter.
 
 .. _amf-155:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-155.png
@@ -128,18 +131,18 @@ There are two ways to view the data collected by a Meter:
 Viewing Meter Statistics for Consolidated Software Assets
 =========================================================
 
-In a Consolidation of Software Assets, one Asset is the Primary Asset,
+In a :ref:`Consolidation of Software Assets <Consolidating Software>`, one Asset is the Primary Asset,
 and the rest are Secondary Assets. If any or all the Assets have a
 Meter, then the following scenarios prevail.
 
--  If all Assets in a Consolidation have a Meter, then the Primary Asset
-   shows the cumulative data of all the Assets in its Meter tab, and the
-   Secondary Assets shows their individual meter data.
+- If all Assets in a Consolidation have a Meter, then the Primary Asset
+  shows the cumulative data of all the Assets in its Meter tab, and the
+  Secondary Assets shows their individual meter data.
 
--  If the Primary Asset does not have a Meter but Secondary Assets have
-   then the Primary Asset shows the cumulative meter data of Secondary
-   Assets, and the Secondary Assets show their data. In vice-versa, the
-   Primary Asset shows its data, and the Secondary Assets show no data.
+- If the Primary Asset does not have a Meter but Secondary Assets have
+  then the Primary Asset shows the cumulative meter data of Secondary
+  Assets, and the Secondary Assets show their data. In vice-versa, the
+  Primary Asset shows its data, and the Secondary Assets show no data.
 
 Whatever Meter data is present in a Consolidation it gets added to the
 Primary Asset.
