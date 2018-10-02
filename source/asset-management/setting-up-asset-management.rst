@@ -137,37 +137,26 @@ in each product.
         :align: center
         :alt: figure 65
 
-    a. **Name**: HP DeskJet GT 5821 is the name of a printer.
+    a. **Name**: Acer Swift 5 is the name of a printer.
 
-    b. **Product Type**: Printer is the Product Type for HP DeskJet GT 5821.
+    b. **Product Type**: Workstation is the Product Type for Acer Swift 5.
        This field has a drop-down list. If you do not see the correct
        Product Type, then you have to add it. Learn :ref:`how to add a Product Type <am-product-type>`.
-
-    c. **Status**: There are three Statuses that you can select:
-
-        i.   **In Production**: This means that the Product is in use.
-
-        ii.  **Pipeline**: This means that the Product has not been bought
-             yet. However, there’s a plan of purchase.
-
-        iii. **Retirement**: This means that the Product is not in use
-             anymore.
-
-    d. **Manufacturer**: This field has a drop-down list. If you do not see
+    
+    c. **Manufacturer**: This field has a drop-down list. If you do not see
        the correct Manufacturer name, then you have to add it. Learn :ref:`how to
        add a Manufacturer <am-manufacturer>`.
 
-    e. **Warranty Period**: You can add how long the Product is covered
-       under Warranty.
+    d. **Part Number**: A part number is a identifier; if you have one, add it here. 
 
-    f. **Description**: A short description of the Product.
+    e. **Description**: A short description of the Product.
 
 4. Click on **Add** and your Product is added to the Products page.
 
 Searching Products
 ------------------
 
-You can search for a Product using the search bar and Quick Filters on the Product Catalog page. 
+You can search for a Product using the search bar on the Product Catalog page. 
 The search bar has the search option type that allows you to search based on Product Type. 
 
 .. _amf-66:
@@ -185,15 +174,50 @@ that you make.
     :alt: figure 67
 
 You can create multiple conditions using the available options. You can
-also search using keywords. Just type in a keyword and hit enter. You
+also search using keywords. Just type in a keyword and hit enter. You can 
 use both keywords and search options.
 
-The Product Catalog page has Quick Filters to sort the products into three categories:
+.. _product-depreciation:
+
+Configure Depreciation
+----------------------
+
+An Asset, in the CMDB, is an instance of a Product. An Asset can inherit certain properties from its associated Product.
+One such property is Depreciation. 
+
+A user can add Depreciation criteria to a Product, which allows a Hardware/Non-IT Asset (associated with the product) to populate
+its Depreciation details under **Financial**. If the Purchase Cost is there, then the Asset details automatically shows the monthly and
+annual Depreciation. 
+  
+**To add Depreciation**:
+
+- Go to **Asset** (A Navigation Tab) >> **Product Catalog**.
+
+- Select **Configure Depreciation** from the Action Menu of a Product. 
 
 .. _amf-67.1:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-67.1.png
     :align: center
     :alt: figure 67.1
+
+- The Depreciation Configurations dialog box opens where you have to input the following:
+
+    .. _amf-67.2:
+    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-67.2.png
+        :align: center
+        :alt: figure 67.2
+
+    a. **Depreciation Method**: Currently we support four Depreciation methods.
+
+    b. Rate of Depreciation.
+
+    c. Useful life of the Asset.
+
+    d. Salvage Value of the Asset.
+
+  Depending on the method selected, you have to provide the parameters. Lean more about `Depreciation <https://corporatefinanceinstitute.com/resources/knowledge/accounting/types-depreciation-methods/>`_
+
+- When done, click on **Configure**. Now associated Hardware/Non-IT Assets can use the Depreciation config.
 
 **Editing/Deleting a Product**
 

@@ -5,15 +5,15 @@ Manage Asset Details
 Another vital component of the interface is the Details View. Every
 Asset in the CMDB has a Details View that shows all the information
 available on an Asset. Apart from viewing, it also lets you perform CRUD
-operations on a stored Asset.
+operations on a stored Asset (CI).
 
 An Asset in our system has many properties and components; all of them
 can be viewed on the Details View of an Asset. The available fields in
-Details View depends on the Asset Type; for example, a Details View of a
-Desktop has more fields compared to an SNMP device.
+Details View depends on the Asset Type; for example, the Details View of a
+Desktop has more fields compared to a SNMP device.
 
 Details View lets you create maps that tell you about the relations an
-Asset has with other CI (Configuration Items).
+Asset has with other CIs (Configuration Items).
 
 To Access the Asset Details View:
 

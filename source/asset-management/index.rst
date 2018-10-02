@@ -16,6 +16,7 @@ Asset Management
    asset-logs
    export-asset-details
    modify-assets
+   asset-financial
    modify-software-assets
    manage-software-license/index
    consolidating-software

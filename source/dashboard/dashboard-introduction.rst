@@ -30,10 +30,10 @@ A Dashboard is like an empty canvas where a user can add multiple data blocks (D
 There are two main components of a Dashboard:
 
 - **Filters**: A Dashboard has two filters based on which data is shown; they are: Date & Time range and Location filter.
-  If both the filters are set, then a data point has to satisfy both the set conditions. 
+  If both the filters are set, then a data point has to satisfy both the set filter conditions. 
 
   The location filter shows exclusively the data points having the set location; for example, if location is set to Ahmedabad then
-  all KPIs, Widgets and Shortcuts will show data of that particular location.
+  all KPIs and Widgets will show data of that particular location. Filters are not applicable on Shortcuts.
 
 - **Dashlet**: A Dashlet is a single data block in a Dashboard. Currently, we support three kinds of Dashlets:
 
@@ -42,8 +42,7 @@ There are two main components of a Dashboard:
 
   b. **Widgets**: A Widget is a graphical representation of data filtered by time and other parameters.
      
-  c. **Shortcuts**: It is a list of Frequent Access Items (i.e. My Incidents, My Approval, My Tasks etc.).
-
+  c. **Shortcuts**: It is a list of Frequent Access Items (i.e. My Open Incidents, My Approval, My Tasks etc.).
 
 Support Modules
 ===============

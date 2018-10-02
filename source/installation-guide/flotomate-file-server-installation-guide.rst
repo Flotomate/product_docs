@@ -28,8 +28,17 @@ Prerequisite
 ------------
 
 - Separate Linux server for File Server installation.
-- You need ubuntu-16.04.1 desktop OS to run. Follow the link
-  to download the OS:
+- You need ubuntu-16.04.1 desktop OS to run. 
+
+  Minimum Hardware Requirement:
+
+  a. 64bit architecture.
+
+  b. 100 GB hard-disk space.
+
+  c. 2 GB RAM
+
+  Follow the link to download the OS:
 
   https://s3.ap-south-1.amazonaws.com/flotomate-customer-releases/share/ubuntu_server_os.iso
 
@@ -38,7 +47,8 @@ Installation Steps
 
 In order to initiate a file server you need to configure in three places (Main Server , Relay server (if required), and File Server).
 
-.. note:: We provide a single build for Relay and File Server.
+.. note:: We provide a single build for Relay and File Server. You have to install them separately: one as file server and other, 
+          relay server.
 
 In File Server
 ^^^^^^^^^^^^^^
@@ -63,7 +73,7 @@ In File Server
     :align: center
     :alt: figure 3
 
-- Now restart services: **systemctl restart ft-relay-server** (Do not forgot this)
+- Now restart services: **systemctl restart ft-relay-server.server** (Do not forgot this)
 
 In Relay Server (If in use)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -77,7 +87,7 @@ Type the following commands in the terminal of the relay server (a separate serv
 
 - Change under main-server : **URL={your main server url}**
 
-- Restart services: **systemctl restart ft-relay-server** (Do not forgot this).
+- Restart services: **systemctl restart ft-relay-server.server** (Do not forgot this).
 
 In Main Server
 ^^^^^^^^^^^^^^
@@ -98,4 +108,4 @@ Do following step to change  Service-conf.yaml file in the Main Server.
     :align: center
     :alt: figure 4
   
-- Restart services: **systemctl restart ft-main-server** (Do not forgot this)
+- Restart services: **systemctl restart ft-main-server.server** (Do not forgot this)
