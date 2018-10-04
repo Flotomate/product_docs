@@ -9,7 +9,7 @@ The ability to install and uninstall Packages gives a complete experience to use
 
 **To Create an Uninstall Deployment Request:**
 
-- Go to the :ref:`Deployment Request Page <Adding a Package Deployment Request>` 
+- Go to the :ref:`Deployment Request Page <adding-a-package-deployment-request>`. 
 
 - On the page, click on **Uninstall Packages** from the Action Menu.
 
@@ -22,7 +22,7 @@ The ability to install and uninstall Packages gives a complete experience to use
 
 - Publish your Request after necessary Approval, if any. 
 
-Learn more about how to create a :ref:`Learn More <Adding a Package Deployment Request>`. 
+Learn more about how to create a :ref:`Learn More <adding-a-package-deployment-request>`. 
 
 **Creating Uninstall Deployment Request from Computer Details View:**
 

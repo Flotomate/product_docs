@@ -17,13 +17,12 @@ information:
 -  **Computer details**: Computers that are going to install the
    Packages.
 
-Learn how :ref:`Deployment Requests <Adding a Package Deployment Request>`
+Learn how :ref:`Deployment Requests <adding-a-package-deployment-request>`
 are created.
 
-All Computers ping the Flotomate server periodically to check for
+All Computers ping the main server periodically to check for
 available Deployment Requests. On finding a Deployment Request,
-Computers/Computer can acquire the Packages info from the Shared Drive or a
-Remote URL, and install them following a Deployment Policy. A single end
+Computers/Computer can acquire the Packages info from the :ref:`File Server <File Server Installation Guide>` and install them following a Deployment Policy. A single end
 to end process of fetching and installing/deploying Packages or registry
 values is called Deployment Cycle.
 
@@ -52,7 +51,7 @@ create a deployment request:
     :alt: figure 32.1
 
 4. The Deployment Requests page opens. Here you can view existing Requests either drafted or published. 
-   Click on **Deploy Packages** situated in the top right corner of the page.
+   Click on **Deploy Packages/Registry** situated in the top right corner of the page.
 
 5. The Create page opens. The page is divided into four sections; they
    are as follows:
@@ -75,19 +74,16 @@ create a deployment request:
 
         ii. **Platform**: Select the platform for which you are deploying
             Package/Packages. Currently, we support only Windows and Linux.
-            For a Registry Request, the default platform is Windows.
+            For a Registry Request, the default platform is Windows.  
 
-        iii. **Deployment Action**:  It shows whether the deployment is for install or uninstall of Packages. This info is missing
-             in a Registry Request.   
-
-        iv. **Deployment Policy**: Select a Deployment policy from the
+        iii. **Deployment Policy**: Select a Deployment policy from the
              drop-down list. A Deployment Policy governs how the deployment of
              Packages is carried out. Learn about :doc:`Deployment Policies <sp-setting-up-a-deployment-policy>`.
 
-        v. **Install After**: Provide a date and time after which the request
+        vi. **Install After**: Provide a date and time after which the request
             tells the Computers to commence the installation process
 
-        vi.  **Expire After**: This is the date and time after which the
+        v.  **Expire After**: This is the date and time after which the
             request ceases to be a valid request.
 
     b. **Select Package**: Here you add the Package/Packages/Registry/Registries that you want to deploy.
@@ -103,12 +99,13 @@ create a deployment request:
             :alt: figure 34.1
 
         i. Section-A (:numref:`spf-34`) is the area where you view the selected
-           Packages/Registries.
+           Packages/Registries and select whether the deployment is for install or uninstall of Packages. This info is missing
+           in a Registry Request.
 
         ii. Section-B has a search bar for searching all available Packages/Registries
             for the selected OS. The search bar supports the Advanced Search (not when searching for Registry)
             feature. Learn how to use Advanced Search (refer to how search
-            works in :doc:`Package List View <sp-search-bar>`).
+            works in :ref:`Package List View <sp-search-bar>`).
 
         iii. Section-C is where you view the available Packages/Registries in the main
              server. Clicking a checkbox selects a Package and transfers it to
@@ -121,10 +118,10 @@ create a deployment request:
        Target refers to Computer/Computers where Packages/Registries are going to be
        installed/deployed. 
 
-       .. _spf-34.1:
-       .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/software-package-deployment/SP-34.1.png
+       .. _spf-35:
+       .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/software-package-deployment/SP-35.png
             :align: center
-            :alt: figure 34.1
+            :alt: figure 35
 
        Here you set your target computers which requires you to set the following things:
 
@@ -134,10 +131,10 @@ create a deployment request:
           You can use a :doc:`sp-manage-computer-group` to filter a Remote office. Computers (of the Remote Office) in the Group will be
           either included or excluded.
 
-          .. _spf-34.2:
-          .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/software-package-deployment/SP-34.2.png
+          .. _spf-35.1:
+          .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/software-package-deployment/SP-35.1.png
             :align: center
-            :alt: figure 34.2  
+            :alt: figure 35.1  
 
        ii. Set :ref:`individual <Adding of Computers from List>` computers.
 
@@ -191,7 +188,7 @@ Other Ways to Add a Deployment Requests
 Adding a Deployment Request from the Package/Registry List View:
 ----------------------------------------------------------------
 
-Our product allows you to select a Package/Packages/Registry/Registries from the List Page
+Our tool allows you to select a Package/Packages/Registry/Registries from the List Page
 directly and deploy them.
 
 1. Go to the :doc:`List View <package-registry-list-view>` of
@@ -258,6 +255,9 @@ Asking for an Approval:
     :align: center
     :alt: figure 41
 
+- When :ref:`Allow Manual Approval` feature is turned on, you will be shown a dialog box that you can use to create a manual
+  Approval. If you **skip** this dialog box, then the Approval goes to the Workflow.
+
 Different States in an Approval
 -------------------------------
 
@@ -272,7 +272,7 @@ Different States in an Approval
 Approval Process:
 -----------------
 
--  First, the system checks all available Approval Workflows when an
+-  In case of automatic approval, first, the system checks all available Approval Workflows when an
    Approval is asked. If there are no workflows or the present workflow
    conditions are not meet, then the drafted request/requests are
    Pre-Approved, and you can proceed with publishing. If there is a
@@ -370,7 +370,7 @@ Approval Process:
 Searching Deployment Requests
 =============================
 
-There are two broad ways to search Deployment Requests in the product:
+There are two broad ways to search Deployment Requests in the tool:
 
 -  Using Search Bar
 
@@ -489,6 +489,8 @@ Altogether there are six statuses:
     :align: center
     :alt: figure 55
 
+-  **FS Not Prepared**: This shows that the :ref:`File Server <File Server Installation Guide>` is not setup.
+
 -  **Yet to Receive**: The Computer is yet to receive instructions from
    the request to install the Package.
 
@@ -541,7 +543,7 @@ published, a request cannot be edited.
 
 **Archiving**
 
-The product allows you to delete published and drafted Deployment
+The tool allows you to delete published and drafted Deployment
 Requests. You can delete multiple requests.
 
 -  Go to the :doc:`Deployment Request <adding-a-package-deployment-request>` page from the

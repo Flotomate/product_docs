@@ -1,6 +1,10 @@
+.. _Share Drive Configuration:
+
 ******************************
 File Server Installation Guide
 ******************************
+
+.. important:: Use of Shared Drive for Remote Deployment has been deprecated. Instead we now use a File Server.
 
 A file server is a computer responsible for central storage of data. A file server works in conjunction with our main server, 
 and it's the backbone for Remote Deployment. A file server is a must in the following usage scenarios:

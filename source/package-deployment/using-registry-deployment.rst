@@ -8,12 +8,12 @@ of Windows components, Hardware and Software. These configuration setting entire
 by their respective Windows components, Hardware and Software at startup.
 
 Windows Registry contains keys and values and by manipulating them we can change the behavior of the OS. Now we are going to create a 
-Registry Template (also create Registry Items) that *disables the automatic update button in Windows 10*. Then we are going to deploy the template by creating a 
+Registry Configuration (also create Registry Items) that *disables the automatic update button in Windows 10*. Then we are going to deploy the Configuration by creating a 
 Deployment Request.
 
-**Creating a Registry Template:**
+**Creating a Registry Configuration:**
 
-- We are going to create a Template called **Disable Windows Auto-Update ** (:ref:`Creating a Registry Template`).
+- We are going to create a Configuration called **Disable Windows Auto-Update ** (:ref:`Creating a Registry Configuration`).
 
 - We require a single Registry Item that would disable the automatic update button in Windows 10 (:ref:`Creating a new Registry Item`). 
   
@@ -26,14 +26,14 @@ Deployment Request.
     :align: center
     :alt: figure 1
 
-- Now we have created the Registry Item, and then we update the Template.
+- Now we have created the Registry Item, and then we update the Configuration.
 
 .. _sp-u-2:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/software-package-deployment/SP-U-2.png
     :align: center
     :alt: figure 2
 
-- We create a Deployment Request for the Template (:ref:`adding-a-package-deployment-request`).
+- We create a Deployment Request for the Configuration (:ref:`adding-a-package-deployment-request`).
 
 .. _sp-u-3:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/software-package-deployment/SP-U-3.png

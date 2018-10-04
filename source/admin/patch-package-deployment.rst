@@ -21,50 +21,6 @@ rules:
     :align: center
     :alt: figure 116
 
-Share Drive Configuration
-=========================
-
-A Shared Drive is a shared resource on a Computer network. It is a
-device or piece of information on a Computer that can be remotely
-accessed from another Computer, typically via a local area network or an
-enterprise intranet, transparently as if it were a resource in the local
-machine.
-
-The Shared Drive is the default location where the Product Server stores
-all the Patches before deployment. The product asks for a Shared Drive
-when Patches don’t have a locally stored Package file.
-
-**To Setup a Shared Drive:**
-
-1. Log in to your Dashboard.
-
-2. Go to **Admin** (accessed from **Product Launcher**) >> **Shared
-   Drive Configurations** (Patch/Package Deployment).
-
-.. _adf-117:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-117.png
-    :align: center
-    :alt: figure 117
-
-3. The Shared Drive Configuration page opens. Here you get the
-   following fields and options:
-
-    .. _adf-118:
-    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-118.png
-        :align: center
-        :alt: figure 118
-
-    a. In section-A (:numref:`adf-118`), you type in a URL that tells the Product
-       Server the location of the Shared Drive.
-
-    d. If you want the Patches to be automatically downloaded when there’s a
-       request, then turn on the toggle button in section-B.
-
-   Click the **Edit** button to make the fields editable. Once you enter
-   the URL, you can test the connection; the product tells you whether a
-   successful connection was established with the Share Drive. Once you
-   are done with everything, click on **Update** to save your changes.
-
 System Health Configuration
 ===========================
 
@@ -82,25 +38,25 @@ vulnerability and prevent any attacks.
 
 Learn how configure :ref:`system-health-settings`. 
 
-.. _ad-endpoint-scope:
+.. _add-endpoint-scope:
 
 Endpoint Scope
 ==============
 
 Depending on the License agreement you have with us, the number of
-Computers you can manage for Patch/Packages is
+Computers you can manage for Patch/Packages/Registry is
 limited. All discovered Computers (with our Agent application) stay out
-of the scope (target) of the product by default; you have to bring them within
-the scope (target) before you can use remote deployment.
+of the scope (target) of Remote Deployment by default; you have to bring them within
+the scope (target).
 
-The Endpoint Scope lets you view all available Computers (both in and out of Endpoint Scope) and add them to the Scope. You can set certain conditions that
-allow the product to add any new Computers automatically. You can also
+The Endpoint Scope lets you view all available Computers (both in and out of Endpoint Scope) and add them to the scope of Remote Deployment. 
+You can set certain conditions that will allow the main server to add any new Computers automatically to the scope. You can also
 add Computers manually.
 
-There is a counter that shows how many Computers are within the scope (target). 
-In no situation, you can exceed the total number of Computers you are allowed to add to the Scope.
+There is a counter on the Endpoint Scope page that shows how many Computers are allowed within the scope. 
+In no situation, you can exceed the mentioned number.
 
-.. note:: Only Computers configured with our Agent Application are visible in Endpoint Scope.
+.. note:: Only Computers configured with our Agent Application are visible in the Endpoint Scope page.
 
 .. _add-computer-scope:
 
@@ -322,20 +278,20 @@ Remote Office
 
 Modern organizations are geographically dispersed. They have offices at different locations all controlled from a main office. Offices that are
 away from the main office are termed as Remote Offices. It may happen that all the offices of an organization form part of a single 
-network. Individual offices can have a relay server: A relay server is used to allow communications from outside a company's firewall 
-to internal Servers.  
+network. Individual offices may have a relay server: A relay server is used to allow communications from outside a company's firewall 
+to the internal Servers.  
 
-In order to accommodate such situations, we have the following Patch Management features:
+In order to accommodate such situations, we have the following Remote Automation features:
 
 - A user can create a group of computers for a location and save it as a Remote Office. 
 
-- A user can add a Remote Office in a scope instead of individual computers for Patch Management.
+- A user can add a Remote Office in a scope (Endpoint Scope) instead of individual computers for Patch/Package/Registry Management.
 
 - Users can point a Remote Office to a relay Server. This is useful when there are multiple offices, and the admin doesn't want them
-  to hog the central server for Patch download. This is why we have the feature that allows a Remote Office to download Patches from a 
-  local shared drive (routed via relay server). 
+  to hog the central :ref:`File Server <File Server Installation Guide>` for Patch/Package download. This is why we have the feature that allows a Remote Office to download Patches/Packages from a 
+  Relay Server rather than the central File Server. 
 
-Learn More about :doc:`Remote Office <remote-office>`
+Learn More about :ref:`Remote Office`.
 
 .. _ad-batch-deployment:
 

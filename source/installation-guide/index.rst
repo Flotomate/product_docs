@@ -15,3 +15,4 @@ Installation Guides
    server-installation-build
    server-installation-iso
    upgrade-guide/index
+   FAQ/index
