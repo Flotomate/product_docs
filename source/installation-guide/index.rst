@@ -14,5 +14,6 @@ Installation Guides
    rdp-middleware-installation-guide
    server-installation-build
    server-installation-iso
+   ha-setup
    upgrade-guide/index
    FAQ/index

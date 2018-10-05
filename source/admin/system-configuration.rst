@@ -25,8 +25,8 @@ application:
 
 -  Upgrading to a newer version eliminates possible security flaws.
 
-Initiating an Upgrade Request:
-------------------------------
+Uploading a New Agent Application File (Step 1)
+-----------------------------------------------
 
 -  Go to the **Admin** (A Navigation Tab) >> **All Computers**
    (Systems).
@@ -36,53 +36,53 @@ Initiating an Upgrade Request:
     :align: center
     :alt: figure 149
 
--  The Agent Self Upgrade page opens. Here you can view all your
-   existing requests. To create a new one, click on **Create Upgrade
-   Request** situated in the top right corner.
+-  The All Computers page opens. Here you can view all your
+   existing Computers (with the Agent application) along with their active status. 
+   Step one is to upload the new Agent application file; click on **Upload New Agent** from the Action Menu.
 
--  A new dialog box opens with the following fields:
+   .. _adf-149.1:
+   .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-149.1.png
+        :align: center
+        :alt: figure 149.1
+
+-  A new dialog box opens where you have to enter the following inputs:
 
     .. _adf-150:
     .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-150.png
         :align: center
         :alt: figure 150
 
-    a. In section A, you give a name to the request. You can search for a
-       request by its name in the Agent Self Upgrade page.
+    a. Name of the upgrade.
 
-    b. You write the Agent version in section B that you are going to
-       deploy.
+    b. Version of the Agent installation file.
 
-    c. In section C, you select a platform (either Windows or Linux).
+    c. Supported OS platform of the Application file (either Windows or Linux).
 
-    d. Select an architecture in section D.
+    d. Supported architecture either 32bit or 64bit.
 
-    e. You attach the exe file of the Agent in section E.
+    e. Lastly, attache the installation file of the latest Agent.
 
-    f. Write a description of the new Agent in section F.
+   When you are done, click on **Create**. This updates the uploaded agent list.
 
-   When you are done, click on **Create**. The main server immediately
-   activates the request.
+   .. _adf-150.1:
+   .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-150.1.png
+        :align: center
+        :alt: figure 150.1
 
-Rejecting an Upgrade Request
-----------------------------
+Initiating an Upgrade (Step 2)
+------------------------------
 
-You can reject an already published upgrade request in the following
-way:
+-  Go to the **Admin** (A Navigation Tab) >> **All Computers**
+   (Systems).
 
--  Open Agent Self Upgrade page from Admin.
-
--  Click on the **Reject** button adjacent to the request that you want
-   to stop.
+-  :ref:`Search <Searching Assets>` and select the computers that you want to upgrade, and click the **Upgrade** button.
 
 .. _adf-151:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-151.png
     :align: center
     :alt: figure 151
 
--  On confirmation, the server stops sending the command for upgrade to
-   all computers in the scope. Computers that have already upgraded stay
-   unaffected.
+-  On confirmation, the server will deploy the latest version of the Agent from the uploaded agent list.
 
 Periodic DB Upgrade
 ===================

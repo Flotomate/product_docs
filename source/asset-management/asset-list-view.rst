@@ -38,7 +38,7 @@ view differ across classes in terms of filters and options.
 
 .. note:: Kindly refer to :numref:`amf-2`.
 
--  Section A, B, C & D are the :ref:`search features<change name and description of an asset>`.
+-  Section A, B, C & D are the :ref:`search features <Searching Assets>`.
 
 -  Section-E is the checkbox which you can use to select all the Assets
    currently viewable in the list area.
