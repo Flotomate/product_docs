@@ -37,7 +37,7 @@ Note: :ref:`.Net-Framework required <question1>`
 
 2. Run the msi file.
 
-3. Follow the wizards as below mentioned screenshots
+3. Follow the wizards as below mentioned screenshots:
 
  a. Click Next
 
@@ -56,7 +56,8 @@ Note: :ref:`.Net-Framework required <question1>`
         :alt: figure 3
 
 4. It will ask for URL and Port. Select a Protocol based on what the URL supports. 
-   If there's no Port, then leave it blank. 
+   If there's no Port, then leave it blank. You can get the activation code from Flotomate ITSM tool in **Admin** >> **Account** 
+   (under Organization).
 
 .. _aig-4:
 
@@ -107,7 +108,8 @@ Installation in Linux
 
 5. Enter your system password.
 
-6. Enter the URL of the product (Flotomate) server.
+6. Enter the URL of the product (Flotomate) server. You can get the activation code from Flotomate ITSM tool in **Admin** >> **Account** 
+   (under Organization).
 
 .. _aig-8:
 
@@ -164,6 +166,9 @@ Installation in Mac OS
     :alt: figure 10
 
 5. The installation process will begin, and it will ask for the URL of the main server. 
+
+   .. note:: You can get the activation code from Flotomate ITSM tool in **Admin** >> **Account** 
+             (under Organization).
 
 .. _aig-11:
 
