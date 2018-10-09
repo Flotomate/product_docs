@@ -7,7 +7,7 @@ There are several scenarios that can generate missing Patches but we are going t
 before doing that you need to understand the role of a Computer, the Update Server, and Flotomate Server, 
 and how they are related with one another.
 
--  **Computer**: A Computer resides in a Node. It is responsible for
+-  **Computer**: A Computer has the Flotomate Agent Application. It is responsible for
    acquiring and installing the Patches. It communicates with both the
    Update Server and Flotomate Server.
 
@@ -18,7 +18,9 @@ and how they are related with one another.
 -  **Flotomate Server**: It gets the new update information from the
    Computers and gives instructions to them through a Deployment
    Request. It can also fetch new Patches from the Update server and
-   store them in a Shared Drive.
+   store them in a :ref:`File Server <File Server Installation Guide>`.
+
+   **Related Topic**: :ref:`Relay Server <Flotomate Relay Server Installation Guide>`.
 
 -  **Relationship Matrix**: Computers, Update Server, and Flotomate
    Server they all exchange information with each other and work in
@@ -57,7 +59,7 @@ and how they are related with one another.
 |                 |                 |                 | Patches from    |
 |                 |                 |                 | the download    |
 |                 |                 |                 | location on the |
-|                 |                 |                 | Shared Drive.   |
+|                 |                 |                 | File Server.    |
 +-----------------+-----------------+-----------------+-----------------+
 | Update Server   | Already defined |                 | The Flotomate   |
 |                 | in the above    |                 | Server can      |
@@ -65,7 +67,7 @@ and how they are related with one another.
 |                 |                 |                 | Patches from    |
 |                 |                 |                 | the Update      |
 |                 |                 |                 | Server in its   |
-|                 |                 |                 | Shared Drive.   |
+|                 |                 |                 | File Server.    |
 +-----------------+-----------------+-----------------+-----------------+
 
 Some of the scenarios where a Patch can go missing:

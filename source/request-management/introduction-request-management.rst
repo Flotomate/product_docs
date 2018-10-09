@@ -2,6 +2,8 @@
 Introduction
 ************
 
+.. _what-is-request:
+
 What is a Request?
 ==================
 

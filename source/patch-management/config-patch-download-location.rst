@@ -1,28 +1,30 @@
-***********************************
-Configuring Patch Download Location
-***********************************
+.. _Configuring Patch Download Location:
 
-Currently, all Patches are downloaded by the Product Server from the
-Update Server in a Shared Drive by default. A Patch is downloaded in the Shared
-Drive when there’s a request for the Patch.
+***********************
+Enabling Patch Download
+***********************
 
-Computers during a deployment fetch the Patches from a Shared Drive;
+Currently, all Patches are downloaded by the Main Server from the
+Update Server in the File Server by default. A Patch is downloaded in the File Server when there’s a request for the Patch or
+someone initiates a manual download.
+
+Computers during a deployment fetch the Patches from a File Server;
 the mechanism has been designed to save bandwidth during a deployment.
 You cannot expect hundreds of Computers downloading the same Patch
-separately. Instead, a Patch is first downloaded on the Shared Drive,
+separately. Instead, a Patch is first downloaded on the File Server,
 and then it is fetched by the Computers.
 
-To facilitate the download process, you need to configure two things:
-Proxy Server and Shared Drive configuration.
+To facilitate the download process (in to the File Server), you need to configure two things:
+Proxy Server and File Server configuration.
 
 .. _proxy-settings:
 
-Configuring Proxy Settings 
+Configuring Proxy Settings
 ==========================
 
-Before you can download anything, you have to make sure the Product
+Before you can download anything, you have to make sure the Main
 Server can access the internet. For this, you have to configure the
-Proxy Settings in the product.
+Proxy Settings in the tool.
 
 Accessing Proxy Settings
 ------------------------
@@ -44,7 +46,7 @@ Configuration page opens. Click on **Edit** to make things editable. You
 get three options to select from, and they are as follows:
 
 -  **No Internet Access**: Select this option when you do not want the
-   Product Server to access the Internet.
+   Main Server to access the Internet.
 
 .. _pf-33:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-33.png
@@ -52,7 +54,7 @@ get three options to select from, and they are as follows:
    :alt: figure 33
 
 -  **Direct Internet Access**: Select this option when there are no
-   Proxy settings between the Internet and the Product Server.
+   Proxy settings between the Internet and the Main Server.
 
 -  **Configure Manually**: If you have a Proxy, then you can configure
    it under this option. Your inputs go in the following fields:
@@ -71,79 +73,56 @@ your changes. Now you have successfully configured your Proxy settings.
 
 .. _share-drive:
 
-Configuring Shared Drive
+Configuring File Server
 ========================
 
-A Shared Drive is a shared resource on a Computer network. It is a
-device or piece of information on a Computer that can be remotely
-accessed from another Computer, typically via a local area network or an
-enterprise intranet, transparently as if it were a resource in the local
-machine.
+A File Server is a computer responsible for central storage of data. A file server works in conjunction with our main server, 
+and it’s the backbone for Remote Deployment. 
 
-The Shared Drive is the default location where the Product Server stores
-all the Patches before deployment. The product asks for a Shared Drive
-when Patches don’t have a locally stored Package file.
+The File Server is the default location where the Main Server stores all the Patches before deployment. 
 
-**To Setup a Shared Drive:**
+.. note:: Shared drive configuration in our product has been deprecated, and the current architecture allows delivery of Patch/Packages 
+          to Agent/Relay via File Server only.
 
-1. Log in to your Dashboard.
 
-2. Go to **Admin** (A Navigation Tab) >> **Shared Drive Configurations**
-   (Patch/Package Deployment).
-
-.. _pf-34:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-34.png
-   :align: center
-   :alt: figure 34
-
-3. The Shared Drive Configuration page opens. Here you get the following
-   fields and options:
-
-.. _pf-35:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-35.png
-   :align: center
-   :alt: figure 35
-::
-    a. In section-A (:numref:`pf-35`), you type in a URL that tells the Product Server the location of the Shared Drive.
-
-    b. If you want the Patches to be automatically downloaded when there’s a request, then turn on the toggle button in section-B.
-
-   Click the **Edit** button to make the fields editable. Once you enter
-   the URL, you can test the connection; the product tells you whether a
-   successful connection was established with the Share Drive. Once you
-   are done with everything, click on **Update** to save your changes.
+Learn :ref:`how to setup a File Server <File Server Installation Guide>`.
 
 .. _configuring-package-location-single-patch:
 
-Configuring Package Location for a single Patch
-===============================================
+Configuring Package Location for Manually Uploaded Packages
+===========================================================
 
-It may happen that a Patch already exists in an accessible location as a
-package file, and to prevent the Product Server from downloading it
-again, we can add an URL in the Patch so that Computers know they can
-fetch the Patch directly from the mentioned location.
+In a standard setup, Agents update the Main Server with the required Patches, and the Main Server fetches them from the
+Update Server. Here access to the internet plays a vital role. In a situation when there's no internet this process will not work.
+
+The Main Server allows for manual Patch creation to over the limitation of having to have an active internet connection for
+Patch Deployment. When a user creates a Patch, the details are updated in the Patch List; the only problem is the details don't 
+have the file location. 
 
 **To Configure Package Location:**
 
-1. Go to the :ref:`Details View <patch-details-view>` of a Patch.
+1. Go to the :ref:`Details View <patch-details-view>` of a manually created Patch.
 
-2. Click on **Configure Packages** from the **Action Menu** situated in
-   the top right corner of the page.
+2. Click on **Configure Packages** situated in the top right corner of the page.
 
 .. _pf-36:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-36.png
    :align: center
    :alt: figure 36
 
-3. The Configure Package dialog box opens. Paste the URL into the empty
-   field and click on **Add Location**. You can add multiple locations
-   in the dialog box.
+3. The Configure Patch dialog box opens. There you have two options:
+   
+    a. Upload a package file (a user can upload multiple package files).
+
+    b. Add Shared Drive file path of the package file (one can add multiple file paths). 
 
 .. _pf-37:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-37.png
    :align: center
    :alt: figure 37
 
-4. In the Configure Package dialog box, you can view the URLs that have
-   been added. You can delete an URL by clicking the adjacent delete
+4. In the Configure Patch dialog box, you can view the paths/files that have
+   been added. You can delete a path/file by clicking the adjacent delete
    icon.
+
+.. note:: Relate topic: Manual Patch.

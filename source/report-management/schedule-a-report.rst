@@ -1,18 +1,19 @@
+*****************
 Schedule a Report
-=================
+*****************
 
 You can periodically receive a generated Report via email using the
 Schedule option. You decide the time interval when to receive, and in
 what format you want to receive the Report.
 
-In Public Reports, Schedules are user specific meaning that a user can
+In :ref:`shared Reports <Report Visibility>`, Schedules are user specific meaning that a user can
 manage and view Schedules that he creates.
 
 In Private Reports, only the creator of a Report can make and view a
 Schedule.
 
 Creating a Schedule
-~~~~~~~~~~~~~~~~~~~
+===================
 
 -  Go to the :ref:`Report List View <create a summary report>`.
 
@@ -24,13 +25,13 @@ Creating a Schedule
       :align: center
       :alt: figure 38
 
--  The following fields appear in the Glance View.
+-  The following fields appear in a separate dialog box.
 
-.. _rf39:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-39.png
-      :align: center
-      :alt: figure 39
-::
+      .. _rf39:
+      .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-39.png
+            :align: center
+            :alt: figure 39
+
       a. First, enter for last how many days you want the Report. The time
          range keeps moving with respect to the current data.
 
@@ -73,6 +74,6 @@ Creating a Schedule
       :alt: figure 40
       
 -  You can turn the Schedule off using the **Scheduled** toggle. Click on
-   **Edit Schedule** to make the fields editable.
+   **Edit Schedule** to open the Report Schedule dialog box.
 
 -  When you are over with your editing, click on **Save Schedule**.

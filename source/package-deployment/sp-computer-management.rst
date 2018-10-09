@@ -29,7 +29,7 @@ Computer List View
 ==================
 
 The UI is different for Computers and Packages. We have already covered
-the Package aspect of the product. Now we are going to talk about the
+the Package aspect of the tool. Now we are going to talk about the
 Computer aspect.
 
 The Computer aspect is made up of two types of views: the Computer List
@@ -88,7 +88,7 @@ Active Status of a Computer
 ===========================
 
 The tool has a marker that tells whether a Computer is active or
-offline. Wherever you see Agent information in the product, you can see
+offline. Wherever you see Agent information in the tool, you can see
 the associated marker. The marker has two colours: **green** signifying
 the Computer is active and communicating, and **yellow** signifying the
 Computer is offline.
@@ -108,7 +108,7 @@ Computer is offline.
 Searching Computers
 ===================
 
-There are two broad ways to search Computers in the product’s :ref:`List View <sp-computer-list-view>`:
+There are two broad ways to search Computers in the tool’s :ref:`List View <sp-computer-list-view>`:
 
 -  Using the Search Bar
 

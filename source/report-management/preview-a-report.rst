@@ -13,9 +13,11 @@ Open Custom Reports
 Each Report has a Custom Report page that is accessed from the Report
 List View.
 
--  Go to the :doc:`Report List View <report-list-view>`.
+-  Go to the :ref:`Report List View`.
 
--  Scroll down to the list area and click on a Report name that you want
+-  Select a Folder; based on that Reports are shown.
+
+-  Go to the list area and click on a Report name that you want
    to preview. The Custom Reports page opens.
 
 Preview and Download
@@ -30,11 +32,11 @@ Preview and Download
 
 Section-A is where you select a timeframe for the preview. Enter a Start
 Date and End Date. Based on this range, data is fetched considering
-either Create Time, Update Time or Closed Time. Click **Get Preview** to
+either Create Time, Update Time, Closed Time, Warranty Expiration Date, Acquisition Date or Audit Date. Click **Get Preview** to
 generate a preview.
 
 Section-B shows you the condition/conditions based on which data is
-filtered.
+filtered. The correlation filters are also visible here, if there are any.
 
 Section-C is where you get to see a preview of the Report.
 

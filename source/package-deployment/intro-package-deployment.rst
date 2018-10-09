@@ -25,7 +25,7 @@ What is a Software Package?
 
 A Software package may refer to:
 
--  **Package** (package management system), in which individual files or
+-  **Package**, in which individual files or
    resources are packed together as a software collection that provides
    specific functionality as part of a larger system.
 
@@ -33,15 +33,16 @@ A Software package may refer to:
    multiple packages, or a package consisting of multiple separate
    pieces.
 
+.. _what is registry configuration:
 
-What is a Registry Template?
-============================
+What is Registry Configuration?
+===============================
 
 In a Windows machine, the Registry is a hierarchical database of lower level settings. The purpose of it is to serve as an archive that
 collects and stores configuration settings of Windows components, Hardware and Software. These configuration setting entires are retrieved
 by their respective Windows components, Hardware and Software at startup.
  
-The registry contains two basic elements: keys and values. A Registry Template created as part of Deployment has Keys and Values, when
+The registry contains two basic elements: keys and values. A Registry Configuration created as part of Deployment has Keys and Values, when
 deployed can manipulate the behavior of Windows components, Hardware and Software of a computer.
 
 .. note:: Related Topic: :ref:`Registry Deployment Use Case <A Registry Deployment Use Case>`.
@@ -57,8 +58,8 @@ Some of the benefits of having remote Deployment are as follows:
 
 -  Helps in conserving bandwidth when a program needs to be installed in
    a large number of administered IT Assets. Software Deployment in our
-   product can happen from a Shared Drive which means an Admin has to
-   install a program once on the Shared Drive and the Computers fetch
+   product happens from a File Server which means the main server has to
+   upload the Package to the File Server and from there Computers fetch
    it.
 
 -  Often new Packages come with performance improvements and new
@@ -68,4 +69,4 @@ Some of the benefits of having remote Deployment are as follows:
 -  Having the latest Packages for all IT Assets (workstations and
    servers) prevents unplanned breakdowns due to a Software bug.
 
--  Using a Registry Deployment, users can fine-tune the behavior of the OS across a large set of computers.
+-  Using a Registry Deployment, users can fine-tune the behavior of Windows OS across a large set of computers.

@@ -6,100 +6,122 @@ Software Metering
 
 Metering is a convenient tool to track the utilization of a Software
 application across machines in an organization. Using Metering,
-Flotomate can track three usage statistics of a Software Asset using an
-Agent. You have to enable Metering individually for Software Assets that
-you want to track. Currently, Metering tracks the following information
+Asset Management can track three usage statistics of a Software Asset using an
+Agent. A user has to enable Metering individually for Software Assets that
+he/she wants to track. Currently, Metering tracks the following information
 of a Software Asset:
 
--  The number of times the Software application was open. Also referred
-   to as Usage Count
+- The number of times the Software application was open. Also referred
+  to as Usage Count. 
 
--  Total time the Software Application was used. Also referred to as
-   Usage Duration.
+- Total time the Software Application was used. Also referred to as
+  Usage Duration.
 
--  Time elapsed since the application was last open. Also referred to as
-   Last Used.
+- Time elapsed since the application was last open. Also referred to as
+  Last Used.
+
+The above three statistics are shown in two different ways: cumulative counts from all the agents and individual counts of each agent.
+
+The metering feature is available for all OS platforms supported by the :ref:`Flotomate Agent Application <Flotomate Discovery Agent>`.
 
 Adding a Meter
 ==============
 
-1. Go to **Asset** (A Navigation Tab) >> **Software Meter**.
+Each Software has its own Meter, and Meter statistics are recorded individually. In order to track multiple Software, and a user has to
+create multiple Meters. 
 
-2. The Software Meter page opens. Here you can view all the Meters that
-   you have created. Click on **Create a Meter** situated in the top
-   right corner of the page.
+**Follow the Below Steps to Set Up a Meter:**
+
+- Go to **Asset** (A Navigation Tab) >> **All Software IT Assets**, and then open the :ref:`Details View <Manage Asset Details>`
+  of the Software that you want to meter.
+
+.. _amf-147.1:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-147.1.png
+    :align: center
+    :alt: figure 147.1   
+
+Configure Executable Filename
+-----------------------------
+
+Before you can set-up a Meter, you have to add the executable filename of the Software:
+
+- In the Details View, Under the Details tab, click the edit icon. A new dialog box opens.
+
+.. _amf-147.2:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-147.2.png
+    :align: center
+    :alt: figure 147.2
+
+- Add the name; the name and extension has to match the actual filename of the Application/Software that you want to track.
+
+.. _amf-147.3:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-147.3.png
+    :align: center
+    :alt: figure 147.3
+
+Adding Computers
+----------------
+
+Now that the filename is added, you can now configure a Meter. Here you will be asked for a target/targets; A target is a group of
+computers from where usage statistics about the Software will be collected. 
+
+- Things to remember before adding targets:
+
+   a. If you want to track the usage in computers belonging to a remote office, you have to first create the :ref:`Remote Office <Remote Office>`
+      and then add it to the :ref:`Endpoint Scope <ad-endpoint-scope>`.
+
+   b. If you want to add individual Computers, then you have to bring them first within the :ref:`Endpoint Scope <ad-endpoint-scope>`. 
+
+- In the Details View, under the **Meter** Tab, click on **Configure Meter**.
 
 .. _amf-148:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-148.png
     :align: center
-    :alt: figure 148
+    :alt: figure 148 
 
-3. The Create a Meter dialog box opens. Then you have to provide the
-   following information:
+- The Configure Meter dialog box opens. Here you have to define a target/targets. A target can include:
 
-    a. **Meter information**: In this section, you have to provide a
-       **Name** and **Description** of the Meter.
+    .. _amf-149:
+    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-149.png
+        :align: center
+        :alt: figure 149 
 
-        .. _amf-149:
-        .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-149.png
-            :align: center
-            :alt: figure 149
+   a. **A Remote Office**: You can add a Remote office to a target; to added multiple Remote Offices, you have to add multiple targets.
+      You can filter the Computers within a Remote Office using include and exclude conditions. The process is similar to adding
+      a Remote Office in :ref:`Endpoint Scope <add-remote-office>`.
 
-    b. **Select Software Asset**: Select the Software that you want to
-       meter. You can search the Software using the search bar. The search
-       bar supports Advanced Search. Learn :ref:`how to use Advanced Search <am-using-search-bar>`.
+   b. **Individual Computers**: You can search and select computers currently having the Agent application. :ref:`Learn more <Adding of Computers from List>`.       
+    
+- When done, click on **Update**. A meter will be added to the Software Asset.
 
-        .. _amf-150:
-        .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-150.png
-            :align: center
-            :alt: figure 150
-
-    c. **Configure Executable File Name**: As the name suggests, you have to
-       provide the name of the executable file of the Software application
-       if the file is not configured automatically.
-
-        .. _amf-151:
-        .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-151.png
-            :align: center
-            :alt: figure 151
-
-    d. **Select Computer**: You have two ways to add computers:
-
-        i. **Computers**: You have to select computers with the Flotomate
-           Agent manually from a list. You can search for computers in the
-           search bar. The search bar supports Advanced Search.
-
-        .. _amf-152:
-        .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-152.png
-            :align: center
-            :alt: figure 152
-
-        ii. **Network**: You can select all the computers with the Agent in
-            an IP Range defined Network. Here you have to select the Network.
-
-        .. _amf-153:
-        .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-153.png
-            :align: center
-            :alt: figure 153
-
-4. After providing the information, click on **Create** to add the
-   meter in the Software Meter page.
-
-Viewing Meter Statistics
-========================
+Meter Statistics
+================
 
 There are two ways to view the data collected by a Meter:
 
--  Go to the Software Meter page and click on a Meter to view the data
-   in the right-hand side information pane.
+- You can view the Metering data in the :doc:`Details View <manage-asset-details>` of the Software Asset under the Meter
+  tab.
+
+  **Things to Remember:**
+
+   a. You have to start the Meter using the **Start** button.
+
+   b. In order to add more targets, you have to first stop the Meter and click on Re Configure Meter.
+
+   c. The **Reset** button restarts the Meter Counter.  
 
 .. _amf-154:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-154.png
     :align: center
     :alt: figure 154
 
--  You can also view the Metering data in the :doc:`Details View <manage-asset-details>` of the Software Asset under the Meter
-   tab.
+- Go to **Asset** >> **Software Meter**. Here you get a central repo of all created Meters; apart from that you can:
+
+   a. Turn a Meter on and off. 
+
+   b. View Meter statistics of individual Meter.
+
+   c. Delete a Meter.
 
 .. _amf-155:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-155.png
@@ -109,18 +131,18 @@ There are two ways to view the data collected by a Meter:
 Viewing Meter Statistics for Consolidated Software Assets
 =========================================================
 
-In a Consolidation of Software Assets, one Asset is the Primary Asset,
+In a :ref:`Consolidation of Software Assets <Consolidating Software>`, one Asset is the Primary Asset,
 and the rest are Secondary Assets. If any or all the Assets have a
 Meter, then the following scenarios prevail.
 
--  If all Assets in a Consolidation have a Meter, then the Primary Asset
-   shows the cumulative data of all the Assets in its Meter tab, and the
-   Secondary Assets shows their individual meter data.
+- If all Assets in a Consolidation have a Meter, then the Primary Asset
+  shows the cumulative data of all the Assets in its Meter tab, and the
+  Secondary Assets shows their individual meter data.
 
--  If the Primary Asset does not have a Meter but Secondary Assets have
-   then the Primary Asset shows the cumulative meter data of Secondary
-   Assets, and the Secondary Assets show their data. In vice-versa, the
-   Primary Asset shows its data, and the Secondary Assets show no data.
+- If the Primary Asset does not have a Meter but Secondary Assets have
+  then the Primary Asset shows the cumulative meter data of Secondary
+  Assets, and the Secondary Assets show their data. In vice-versa, the
+  Primary Asset shows its data, and the Secondary Assets show no data.
 
 Whatever Meter data is present in a Consolidation it gets added to the
 Primary Asset.

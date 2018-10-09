@@ -4,7 +4,7 @@ Packages/Registry Template List View
 
 The UI is divided across packages/registries and Computers. One aspect
 lets you view packages & registry templates and perform related
-operations, and the Computer aspect lets you view all Computers and
+operations, and the other aspect lets you view all Computers and
 perform related operations.
 
 We have the Package/Registry List View that gives a point & click
@@ -18,9 +18,9 @@ Viewing Package/Registry List View
 
 1. Log in to your Dashboard.
 
-2. Click on the Launcher icon and select **Package**.
+2. Click on the Launcher icon and select **Deployment**.
 
-3. Now choose a type: either Windows Packages, Linux Packages or Windows
+3. Now choose a type: Packages or Windows
    Registry. Based on your selection packages/registries are shown.
 
 .. _spf-15:
@@ -49,7 +49,7 @@ Windows/Linux Packages
 
 Please refer to :numref:`spf-18` for the below description:
 
--  Section-A houses the :doc:`search features <searching-packages>`.
+-  Section-A and D house the :doc:`search features <searching-packages>`.
 
 -  Section-B is the list area where you can view all the
    packages in the system. You can view the following
@@ -100,11 +100,11 @@ Please refer to :numref:`spf-18.1` for the below description:
 
   c. The number of registry items in the template.
 
-  You can open a Template and edit it (:ref:`Learn More <editing a registry template>`). 
+  You can open a Template and edit it (:ref:`Learn More <editing a registry configuration>`). 
 
 - In section C, you can control how many Templates are visible on a single page.
 
-- Section D houses the :ref:`Create Windows Registry Template` option. 
+- Section D houses the :ref:`Create Windows Registry Configuration` option. 
 
 
 

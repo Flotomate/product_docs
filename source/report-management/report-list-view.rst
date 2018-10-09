@@ -1,5 +1,6 @@
+****************
 Report List View
-================
+****************
 
 The Report List View is where you get to see all the existing Reports in
 the product.
@@ -25,17 +26,15 @@ Section-D is the list area where you view the available Reports. The
 Report Names are shown as a tabular list, and the following information
 accompanies each name:
 
--  Module info.
+-  Name of the owner (the person who created the Report).
 
 -  Report type.
 
--  Creator information.
-
 Section-E is the Glance View of a Report where you can view additional
-information and set a :doc:`schedule <schedule-a-report>` for report
+information and set a :doc:`schedule <schedule-a-report>` for periodic report
 generation.
 
 Section-F allows you to control the number of Reports visible on a
 single page.
 
-Section-G houses the :doc:`Create a Report <create-&-edit>` button.
+Section-G houses the :doc:`Create a Custom Report <create-a-edit>` button.

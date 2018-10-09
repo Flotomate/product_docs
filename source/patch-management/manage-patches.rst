@@ -7,13 +7,13 @@ Working with Patches
 Patch List View
 ===============
 
-The UI is divided across Patch and Computer. The Patch aspect lets you
-view patches and perform related operations, and the Computer aspect
+The UI is divided across Patches and Computers. The Patch aspect lets you
+view patches (either of Windows or Linux) and perform related operations, and the Computer aspect
 lets you view Computers and perform related operations.
 
 The Patch aspect is made up of two types of views: the Patch List View and
 Details View. The Patch List View gives a point & click interface to
-manage all patches from a single place. Currently only Windows Patches are supported. 
+manage all patches from a single place. Currently Windows and Linux Patches are supported. 
 You can view Patches of any one platform at a time.
 
 **To open Patch List View**
@@ -22,7 +22,7 @@ You can view Patches of any one platform at a time.
 
 -  Click on the Launcher icon and select **Patch**.
 
--  You are directly taken to the Patch List View.
+-  You are directly taken to the Patch List View (depends on which filter is set as default).
 
     .. _pf-15.1:
     .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-15.1.png
@@ -62,8 +62,7 @@ On the Patch List View (:numref:`pf-16`), you get the following options:
    f. **Category**: These are pre-defined categories done by the
       Software Vendor.
 
-   g. **Installed System**: The total number of installation done in
-      various Nodes.
+   g. **Missing System**: The total number of machines not having the Patch.
 
    h. **Approval Status**: It could be either Approved, Pending, Reject or Not-Approved.
 
@@ -71,12 +70,12 @@ On the Patch List View (:numref:`pf-16`), you get the following options:
    and Download as bulk operations. In the list area, selecting one or more
    Patches makes the options visible.
 
-.. _pf-17:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-17.png
-   :align: center
-   :alt: figure 17
+    .. _pf-17:
+    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-17.png
+       :align: center
+       :alt: figure 17
 
-::
+
     The Deploy button lets you create a Deployment Request for the chosen
     Patches.
 
@@ -87,7 +86,7 @@ On the Patch List View (:numref:`pf-16`), you get the following options:
     is excluded from all the processes in the system, and they appear only
     under the Ignored tab. Learn more about :doc:`Ignored Patches <ignore-patch>`.
 
-    The Download button downloads the selected Patches to the Shared Drive.
+    The Download button downloads the selected Patches to the File Server.
 
 .. _quick-glance-patch:
 
@@ -133,8 +132,7 @@ View <patch-list-view>`:
 Search Bar
 ----------
 
-You can use a search bar to search Patches in the :ref:`List
-View <patch-list-view>`. The search bar supports the
+You can use a search bar to search Patches in the :ref:`List View <patch-list-view>`. The search bar supports the
 Advanced Search feature where you get a set of predefined search options
 to narrow down your searches. If you want to see all the available
 options, then click on the search box. You can select a single option or
@@ -189,22 +187,44 @@ severity **Important** and the keyword Net Framework in the Name.
    :align: center
    :alt: figure 22.2
 
+.. _patch-default-filter:
+
+Default Filter
+^^^^^^^^^^^^^^
+
+You can make a filter in :numref:`pf-22.2` as the default filter. The default filter is applied whenever someone opens the Patch
+module.
+
+.. _pf-22.3:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-22.3.png
+   :align: center
+   :alt: figure 22.3
+
 .. _filters-patch-list:
 
 Filters
 -------
 
-You can search for a Patch in the :ref:`List
-View <patch-list-view>` using Quick Filters. Flotomate
+You can search for a Patch in the :ref:`List View <patch-list-view>` using Quick Filters. Flotomate
 gives you two types of Quick Filters:
 
--  Filter based on download status.
+- Filter based on OS platform.
 
--  Status-based filter.
+- Filter based on download status.
 
--  Severity type based filter.
+- Status-based filter.
 
-You can filter patches that have been downloaded in the Shared Drive from Patch List View. 
+- Severity type based filter.
+
+The first filter you can apply is whether you want to see Windows or Linux Patches, which can be selected from the
+Patch Menu.
+
+.. _pf-22.4:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-22.4.png
+   :align: center
+   :alt: figure 22.4
+
+You can filter patches that have been downloaded in the File Server from Patch List View; this is a pre-defined filter.
 
 .. _pf-23.1:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-23.1.png
@@ -259,10 +279,6 @@ criteria
 
 Patch Details View
 ==================
-
-The UI is divided across Patches and Computers. The Patch aspect lets
-you view patches and perform related operations, and the Computer aspect
-lets you view Computers and perform related operations.
 
 The Patch aspect is made up of two views: the Patch List View and
 Details View. The Details View shows essential details about a Patch and
@@ -377,23 +393,24 @@ The Patch Details View has the following fields and options:
            :align: center
            :alt: figure 31
 
-   b. In the **Affected Products** tab, you can view which application/OS
-       is affected by the Patch.   
+   b. In the **Affected Products** tab, you can view which application/OS is affected by the Patch.  
+
    c. In the **Download URL** tab, you can view the download location of
-       the Patch. You can also download the Patch file locally onto a
-       machine using the **Download** button or **Copy** the URL.   
+      the Patch. You can also download the Patch file locally onto a
+      machine using the **Download** button or **Copy** the URL.   
+
    d. In the **Deployment Status tab**, you can view all the associated
-       Deployment Requests and their statuses. A Patch can be associated
-       with multiple Deployment Requests, and the status shows two essential
-       things: download status of the Patch (in the shared drive) and the
-       installation status in the Computers.
+      Deployment Requests and their statuses. A Patch can be associated
+      with multiple Deployment Requests, and the status shows two essential
+      things: download status of the Patch (in the File Server) and the
+      installation status in the Computers.
 
 -  Section-E houses the following options:
 
    a. The **Approve/Reject** button for manual approval of a Patch.
 
-   b. You can directly open the Create page for deployment with the
-      Patch preselected using the **Deploy** button.
+   b. You can directly open the Create page for deployment with the Patch preselected using the **Deploy** button.
 
-   c. The Action menu is where you can :ref:`Configure Package <configuring-package-location-single-patch>` location, **Ignore/Un-Ignore** the Patch
-      and **Download Patch** in the Shared Drive.
+   c. :ref:`Configure Package <configuring-package-location-single-patch>` to add a download location for manually added patches.
+
+   c. The Action menu is where you can **Ignore/Un-Ignore** the Patch and **Download Patch** in the File Server.

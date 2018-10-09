@@ -2,8 +2,7 @@
 Searching Packages/Registry Templates
 *************************************
 
-There are two broad ways to search in the product’s :doc:`List
-View <package-registry-list-view>`:
+There are two broad ways to search in the Deployment :doc:`List View <package-registry-list-view>`:
 
 -  Using a Search Bar
 
@@ -78,6 +77,18 @@ Package Type: Application Patch and the keyword Deamon.
     :align: center
     :alt: figure 21.2
 
+Making a Filter as Default
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+You can make a filter as default for the option Packages from the Deployment menu. The default filter opens when someone clicks
+on Package from the menu.
+
+.. _spf-21.2.1:
+
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/software-package-deployment/SP-21.2.1.png
+    :align: center
+    :alt: figure 21.2.1
+
 Searching Registry Templates
 ----------------------------
 
@@ -95,7 +106,7 @@ Filters
 There are three primary filters available to sort packages and registry
 templates in the product:
 
--  You can isolate packages for Windows and Linux, and also registry
+-  You can isolate packages for Windows and Linux from the Packages List View, and registry
    templates from the Package Menu. You can access the Package Menu from
    the :doc:`Launcher icon <package-registry-list-view>`.
 

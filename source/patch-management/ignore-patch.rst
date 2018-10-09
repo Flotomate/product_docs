@@ -8,7 +8,7 @@ with the idea of Patch Management. It becomes necessary to keep these
 Patches out from the IT infrastructure which might cause more trouble
 than any good.
 
-Our product allows you to ignore certain Patches for deployment.
+Our product allows users to ignore certain Patches for deployment.
 Ignoring a Patch has the following effects:
 
 -  An ignored Patch is segregated to a separate section called **Ignored

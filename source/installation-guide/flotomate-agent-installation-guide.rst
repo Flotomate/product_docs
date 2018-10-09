@@ -31,11 +31,13 @@ Linux(64bit): `Click Here <https://s3.ap-south-1.amazonaws.com/flotomate-custome
 Installation in Windows
 =======================
 
+Note: :ref:`.Net-Framework required <question1>` 
+
 1. Download the latest msi file from the given link.
 
 2. Run the msi file.
 
-3. Follow the wizards as below mentioned screenshots
+3. Follow the wizards as below mentioned screenshots:
 
  a. Click Next
 
@@ -54,7 +56,8 @@ Installation in Windows
         :alt: figure 3
 
 4. It will ask for URL and Port. Select a Protocol based on what the URL supports. 
-   If there's no Port, then leave it blank. 
+   If there's no Port, then leave it blank. You can get the activation code from Flotomate ITSM tool in **Admin** >> **Account** 
+   (under Organization).
 
 .. _aig-4:
 
@@ -105,13 +108,92 @@ Installation in Linux
 
 5. Enter your system password.
 
-6. Enter the URL of the product (Flotomate) server.
+6. Enter the URL of the product (Flotomate) server. You can get the activation code from Flotomate ITSM tool in **Admin** >> **Account** 
+   (under Organization).
 
 .. _aig-8:
 
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/agent-installation-guide/AIG-8.png
     :align: center
-    :alt: figure 8    
+    :alt: figure 8   
+
+Uninstall Linux Agent
+---------------------
+
+Open Terminal and follow the below mentioned commands:
+
+- Stop Agent Service:
+
+  **sudo systemctl stop  agent_service**
+
+- Disable Agent Service:
+
+  **sudo systemctl disable  agent_service**
+
+- Remove Agent Service:
+
+  **sudo rm /etc/systemd/system/agent_service.service**
+
+- Delete Agent dir:
+
+  **sudo rm -rf /opt/it-service-desk**
+
+Installation in Mac OS
+======================
+
+1. Download the latest Mac agent file from the given link.
+
+2. Open terminal and change directory to where the agent file is downloaded.
+
+3. Check the permissions of the Mac Agent file whether it is executable. If not run the following command.
+
+   **sudo chmod 777 agent**
+
+.. _aig-9:
+
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/agent-installation-guide/AIG-9.png
+    :align: center
+    :alt: figure 9
+
+4. Now run the Mac agent file using the following command:
+
+   **sudo ./agent**
+
+.. _aig-10:
+
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/agent-installation-guide/AIG-10.png
+    :align: center
+    :alt: figure 10
+
+5. The installation process will begin, and it will ask for the URL of the main server. 
+
+   .. note:: You can get the activation code from Flotomate ITSM tool in **Admin** >> **Account** 
+             (under Organization).
+
+.. _aig-11:
+
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/agent-installation-guide/AIG-11.png
+    :align: center
+    :alt: figure 11
+
+6. The installation process will complete after providing the URL.
+
+Uninstall Mac Agent 
+-------------------
+
+Open Terminal and follow the below mentioned commands:
+
+- Stop Agent Service:
+
+  **sudo launchctl unload /Library/LaunchDaemons/com.flotomate.agent.plist**
+
+- Remove Agent Service:
+
+  **Sudo rm /Library/LaunchDaemons/com.flotomate.agent.plist**
+
+- Delete Agent dir:
+
+  **Sudo rm -rf /opt/it-service-desk**
 
 Installation using PsExec (For Windows)
 =======================================

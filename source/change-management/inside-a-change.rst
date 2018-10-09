@@ -366,8 +366,8 @@ selecting the items and clicking on **Link**.
 Approval in Change
 ==================
 
-At the Approval stage, you might need an Approval from approvers (it may
-be a single approver) to move the Change to the next stage.
+At the Approval stage, you might need an Approval from approver/approvers (multiple approvers can span across multiple Approvals) 
+to move the Change to the next stage.
 
 .. _cmf-34:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/change-management/CM-34.png
@@ -379,13 +379,13 @@ be a single approver) to move the Change to the next stage.
 Different States in an Approval Process
 ---------------------------------------
 
--  Approval Pending:
+-  Approval:Pending
 
--  Approval Rejected:
+-  Approval:Rejected
 
--  Approval Pre-Approved:
+-  Approval:Pre-Approved
 
--  Approval Approved:
+-  Approval:Approved
 
 .. _cm-manually-adding-approval:
 
@@ -417,10 +417,11 @@ Asking for Approval
 You can check whether an Approval Workflow is set or not by clicking on
 **Ask For Approval**. An Approval Workflow has conditions based on that
 approvers are automatically set. If conditions of a workflow are not
-triggered or there’s no workflow then the Change is Pre-Approved and the
+triggered or there’s no workflow (and manual Approvals) then the Change is Pre-Approved and the
 Approval moves to next stage.
 
 .. note:: Refer to Administration Manual to know more about Approval Workflows.
+.. note:: A Change can have both manual and automatic Approvers.
 
 .. _cm-approval-process:
 
@@ -431,7 +432,7 @@ Approval Process
    created it follows the same Approval process.
 
 -  Technicians can view all the approvers, their statuses and comments
-   in the Approvals tab.
+   under the Approvals tab.
 
     .. _cmf-36:
     .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/change-management/CM-36.png
@@ -451,7 +452,7 @@ Approval Process
         :alt: figure 37
 
    Clicking on **My Approvals** (:numref:`cmf-37`) opens the My Approval page
-   where he can view his Approvals.
+   where the approver can view his Approvals.
 
     .. _cmf-38:
     .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/change-management/CM-38.png
@@ -459,8 +460,14 @@ Approval Process
         :alt: figure 38
 
    Clicking on a Change Approval in **My Approval** opens a page with the
-   title of the Approval as the header title. There he can perform the
-   following actions:
+   title of the Approval as the header title and other details like:
+
+    a. Change Details.
+    b. Related Asset information.
+    c. Planning details.
+    d. Comment thread.
+   
+   Here the approver can perform the following actions:
 
     .. _cmf-39:
     .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/change-management/CM-39.png
@@ -486,7 +493,7 @@ Approval Process
 -  On success, the Approval moves to the Approved status and the Change
    goes to the next stage. On failure, the Approval moves to the
    Rejected status and the Change doesn’t move forward; you can put it
-   back to the Planning stage, close it or re-initiate the Approval
+   back to the Planning stage, close it or re-initiate (Re-Approve) the Approval
    process.
 
 .. _cmf-40:
@@ -494,7 +501,7 @@ Approval Process
     :align: center
     :alt: figure 40
 
--  If a Technician has the right to ignore approvers (refer
+-  If a Technician has the :ref:`right <Technician Roles>` to ignore approvers (refer
    Administration Manual), then he can ignore non-responsive approvers
    and push the Approval towards Approved stage. An ignored approver can
    only see his status as Ignored in the Details View of the Change,
@@ -513,18 +520,20 @@ Approval Process
 
    a. Risk of the Change.
 
-   b. Change Type
+   b. Change Type.
 
 .. _cm-managing-approvals-for-technician:
 
 Managing Approvals for Technician.
 ----------------------------------
 
-A Technician can have multiple Approvals with the same approvers or
-different ones. Between multiple Approvals, whether to go with unanimous
-or majority can be set from **Admin** (A Navigation Tab) >> **Approval
-Workflow** (Automation) >> **Approval Settings**, but the rights to do
-it lies with the Super Admin.
+An assigned Technician can create multiple Approvals (manually) with the same
+approvers or different ones; automatic Approval workflow can also create multiple Approvals. 
+Between multiple Approvals, whether to go with unanimous or majority can be set from **Admin** (A Navigation Tab)
+>> **Approval Workflow** (Automation) >> **Approval Settings**, but the
+rights to do it lies with the Super Admin.
+
+A Technician can send an email notification using the **Remind** button (refer: :numref:`cmf-41`) adjacent to an approver.
 
 .. _cmf-41:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/change-management/CM-41.png
@@ -533,6 +542,12 @@ it lies with the Super Admin.
 
 Clicking on the Comment Icon in :numref:`cmf-41` opens the comment dialog box.
 Anyone can comment as long as the dialog box is visible to them.
+
+Related Topics:
+
+-  :ref:`Understanding Approval Workflow`
+-  :ref:`Creating an Approval Workflow`
+-  :ref:`Allow Manual Approval`   
 
 .. _cm-time-log:
 
