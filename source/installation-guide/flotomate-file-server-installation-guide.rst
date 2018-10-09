@@ -63,6 +63,8 @@ In File Server
 
 - Change directory: **cd/opt/flotomate/relay-server/config**
 
+- Open yaml file using: **nano services-conf.yaml**
+
 .. _FSC-2:
 
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/file-server-configuration/FSI-2.png
@@ -77,7 +79,7 @@ In File Server
     :align: center
     :alt: figure 3
 
-- Now restart services: **systemctl restart ft-relay-server.server** (Do not forgot this)
+- Now restart services: **systemctl restart ft-relay-server.service** (Do not forgot this)
 
 In Relay Server (If in use)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -91,7 +93,7 @@ Type the following commands in the terminal of the relay server (a separate serv
 
 - Change under main-server : **URL={your main server url}**
 
-- Restart services: **systemctl restart ft-relay-server.server** (Do not forgot this).
+- Restart services: **systemctl restart ft-relay-server.service** (Do not forgot this).
 
 In Main Server
 ^^^^^^^^^^^^^^
@@ -112,4 +114,4 @@ Do following step to change  Service-conf.yaml file in the Main Server.
     :align: center
     :alt: figure 4
   
-- Restart services: **systemctl restart ft-main-server.server** (Do not forgot this)
+- Restart services: **systemctl restart ft-main-server.service** (Do not forgot this)

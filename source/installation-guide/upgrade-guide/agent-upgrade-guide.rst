@@ -10,9 +10,19 @@ Upgrading Agent application allows for the following benefits:
 
 - Security Patches to resolve vulnerability.
 
+The below mention steps are applicable for existing customers having the following setup:
+
+- Main server version : 2.5.0 
+
+- Agent version : 2.3.0
+
+- New Agent version : 2.5.0
+
+- New Agent Monitor version : 1.0.0
+
 **Prerequisite (Things to have before beginning the Upgrade process)**
 
-- Complete File Server setup (Learn more)
+- Complete File Server setup (:ref:`Learn more <File Server Installation Guide>`)
 
 - Download Latest Agent Monitor executable file.
 
@@ -53,18 +63,6 @@ We are going to create a Deployment Request for Agent Monitor.
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/agent-installation-guide/AUP-2.png
     :align: center
     :alt: figure 2
-
-.. _aup-3:
-
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/agent-installation-guide/AUP-3.png
-    :align: center
-    :alt: figure 3
-
-.. _aup-4:
-
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/agent-installation-guide/AUP-4.png
-    :align: center
-    :alt: figure 4
 
 - Now you have added the Monitor as a Package. Select the new Package and click on **Deploy**.
 

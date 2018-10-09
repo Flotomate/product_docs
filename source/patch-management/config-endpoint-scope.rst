@@ -17,4 +17,4 @@ total number of Computers you are allowed to add to the Scope.
 
 .. note:: Only Computers configured with our Agent Application are visible on the Endpoint Scope page.
 
-Learn how to add computers to about :doc:`Endpoint Scope <add-computer-scope>`.
+Learn how to add computers to about :ref:`Endpoint Scope <add-endpoint-scope>`.

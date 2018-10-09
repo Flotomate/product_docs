@@ -2,15 +2,15 @@ Introduction to Patch Management
 ================================
 
 .. _what-is-patch:
+
 What is a Patch?
 ----------------
 
-*“A patch is a piece of software designed to update a Computer program
+A patch is a piece of software designed to update a Computer program
 or its supporting data, to fix or improve it. This includes fixing
 security vulnerabilities and other bugs, with such patches usually
-called bugfixes or bug fixes, and improving the usability or
-performance.”* Source:
-`Wikipedia <https://en.wikipedia.org/wiki/Patch_(computing)>`_.
+called bug-fixes or bug fixes, and improving the usability or
+performance.
 
 What is Patch Management?
 -------------------------
