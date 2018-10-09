@@ -147,12 +147,14 @@ Reject Patches that have caused issues.
     d. Section D is where you set your target computers. Patch will be deployed in the target computers. Here you can set the
        following things:
 
-       i. Set a :ref:`Remote Office <add-remote-office>`. This will allow auto selection of multiple computers from a Remote Office's 
-          network may or may not be based on include and exclude conditions. 
+        i. :ref:`Remote Office <add-remote-office>`: This will allow auto selection of multiple computers from a Remote Office's 
+           network which may or may not be based on include and exclude conditions. 
+ 
+        ii. :ref:`Individual computers <Adding of Computers from List>` from Additional Computers.
+ 
+        iii. Multiple :ref:`targets <Adding Multiple Scopes>` (Scope) if there are multiple Remote Offices. 
 
-       ii. Set :ref:`individual <Adding of Computers from List>` computers.
-
-       iii. Set a different :ref:`Scope<Adding Multiple Scopes>` (Target) if there are multiple Remote Offices.  
+       One can preview all computers in a target using the **Preview** button.
 
     e. Section E is where you set the review period (in days) for Auto-Approval. 
        A review period starts whenever a Deployment Request is created by the Test Task (a Test Task can create multiple Requests each one with its own review period). 
@@ -181,7 +183,7 @@ Test:
 -  Click on **View Status** adjacent to the Test Task.
 
 -  A new page opens with the **Deployment Requests** tab. All requests
-   are shown in this tab.
+   are shown under this tab.
 
 .. _pf-50:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-50.png
@@ -190,8 +192,7 @@ Test:
 
 -  You can further drill down and view statuses with respect to what
    Patches and Computers are involved with the request using the
-   **Status** button. Learn More about `Deployment Request
-   status <#deployment-status>`__.
+   **Status** button. Learn More about `Deployment Request status <#deployment-status>`__.
 
 -  Patches involved in an Automatic Patch Test are shown as having the
    status Pending in Patch List View and Details View.
