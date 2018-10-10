@@ -262,6 +262,6 @@ features:
 
 6. **Custom Field Support in Keywords/Placeholders**
 
-   -  Users can now use custom field values in placeholders for creating
+   -  Users can now use custom field values (excluding Requestor field) in placeholders for creating
       custom emails.
 
