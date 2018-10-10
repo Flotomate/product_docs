@@ -251,11 +251,6 @@ features:
 
 5. **Requester Profile at fingertips**
 
-   .. _re-2.7-3:
-   .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/release-note/RE-2.7-3.png
-    :align: center
-    :alt: figure 3
-
    Technicians can search users using the keyboard shortcut and from
    Technician Portal, and view:
 
