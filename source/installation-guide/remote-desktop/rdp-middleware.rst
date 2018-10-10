@@ -2,7 +2,7 @@
 Flotomate RDP Middleware Installation Guide
 *******************************************
 
-Describes Installation Steps for Flotomate RDP Middleware – 1.0.0
+Describes Installation Steps for Flotomate RDP Middleware – 2.5.0
 
 System Requirement:
 ===================
@@ -14,7 +14,7 @@ Downloading RDP Middleware
 
 You can download the RDP Middleware from the below link:
 
-https://s3.ap-south-1.amazonaws.com/flotomate-customer-releases/latest/rdp+middleware/rdp_middleware
+`Download Link <https://s3.ap-south-1.amazonaws.com/flotomate-customer-releases/latest/rdp+middleware/rdp_middleware>`_
 
 Manual Installation Setup:
 ==========================

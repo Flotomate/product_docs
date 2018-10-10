@@ -51,13 +51,40 @@ Installation Steps
 
 In order to initiate a file server you need to configure in three places (Main Server , Relay server (if required), and File Server).
 
+Download Relay Server: `Download Link <https://s3.ap-south-1.amazonaws.com/flotomate-customer-releases/latest/relay+server/linux/relay_server_CI>`_
+
 .. note:: We provide a single build for Relay and File Server. You have to install them separately: one as file server and other, 
           relay server.
 
 In File Server
 ^^^^^^^^^^^^^^
 
-- Install :ref:`Relay server <Flotomate Relay Server Installation Guide>` as per instruction.
+- Copy release build installer (relay_server_CI) to target machine.
+
+- Make Sure you have execute permission to build file. If it does not
+  have execute permission then you can change it by following command,
+
+  **sudo chmod 777 relay_server_CI**
+
+- Run Installer by following command
+
+  **sudo ./relay_server_CI**
+
+  .. _rsib-1:
+
+  .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/relay-server-installation/RSIB-1.png
+        :align: center
+        :alt: figure 1
+
+- Type in your system pass and hit enter to start the installation process.
+
+- Once you see the below screen, that means you have successfully installed the relay server.
+
+  .. _rsib-2:
+  
+  .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/relay-server-installation/RSIB-2.png
+         :align: center
+         :alt: figure 2
 
 - Acquire root access: **sudo -i**.
 
@@ -83,6 +110,36 @@ In File Server
 
 In Relay Server (If in use)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+To install Relay Server:
+
+- Copy release build installer (relay_server_CI) to target machine.
+
+- Make Sure you have execute permission to build file. If it does not
+  have execute permission then you can change it by following command,
+
+  **sudo chmod 777 relay_server_CI**
+
+- Run Installer by following command
+
+  **sudo ./relay_server_CI**
+
+  .. _rsib-1:
+
+  .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/relay-server-installation/RSIB-1.png
+        :align: center
+        :alt: figure 1
+
+- Type in your system pass and hit enter to start the installation process.
+
+- Once you see the below screen, that means you have successfully installed the relay server.
+
+  .. _rsib-2:
+  
+  .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/relay-server-installation/RSIB-2.png
+         :align: center
+         :alt: figure 2
+
 Type the following commands in the terminal of the relay server (a separate server altogether) to change **Service-conf.yaml** file.
 
 - Get root access: **sudo -i**
@@ -99,6 +156,8 @@ In Main Server
 ^^^^^^^^^^^^^^
 
 Do following step to change  Service-conf.yaml file in the Main Server.
+
+.. note:: Learn :ref:`how to install server <Flotomate Service Desk – Server Installation via Build>`.
 
 - Get root access: **sudo -i**
 

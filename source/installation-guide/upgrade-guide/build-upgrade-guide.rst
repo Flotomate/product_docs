@@ -9,7 +9,7 @@ Flotomate Service Desk - Server Upgrade Guide
 
 2. Download the latest release build from the below link:
 
-   https://s3.ap-south-1.amazonaws.com/flotomate-customer-releases/latest/main/linux/service_desk_master_CI
+   `Download Link <https://s3.ap-south-1.amazonaws.com/flotomate-customer-releases/latest/main/linux/service_desk_master_CI>`_
 
 3. Copy release build installer (service_desk_master_CI) to target
    machine.

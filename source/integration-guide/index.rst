@@ -5,5 +5,6 @@ Integration Guide
     :maxdepth: 3
     
     incident-apis/index
+    create-new-user-in-ad-for-ldap
     
 

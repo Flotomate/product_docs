@@ -1,8 +1,8 @@
-******************************************
-Flotomate Agent Monitor Installation Guide
-******************************************
+****************************************
+Windows Agent Monitor Installation Guide
+****************************************
 
-Describes Installation Steps for Flotomate Windows Agent – 1.0.0
+Describes Installation Steps for Flotomate Windows Agent Monitor-1.0.0.
 
 System Requirement :
 ====================
@@ -17,13 +17,13 @@ System Requirement :
 
 **Perquisites**:
 
-- Flotomate Windows Agent (:ref:`Learn More <Flotomate Agent Installation Guide>`) have to be installed before installing Agent Monitor.
+- Flotomate Windows Agent (:ref:`Learn More <Windows Agent Installation Guide>`) have to be installed before installing Agent Monitor.
 
 **Installation Links**
 
-Windows(64bit): `Click Here <https://s3.ap-south-1.amazonaws.com/flotomate-customer-releases/latest/agent+monitor/windows/x64/monitor.msi>`_
+Windows(64bit): `Click Here <https://s3.ap-south-1.amazonaws.com/flotomate-daily-builds/agent/windows/2018-10-10+12.34.15+IST/Agent+Monitor.msi>`_
 
-Windows(32bit): `Click Here <https://s3.ap-south-1.amazonaws.com/flotomate-customer-releases/latest/agent+monitor/windows/x86/monitor-32.msi>`_
+Windows(32bit): `Click Here <https://s3.ap-south-1.amazonaws.com/flotomate-daily-builds/agent/windows/32-BIT/10-10-2018/Agent+Monitor-32.msi>`_
 
 Installation in Windows
 =======================
@@ -66,7 +66,11 @@ Installation in Windows
     :align: center
     :alt: figure 4
 
-6. Running the msi file again (after installing the Agent monitor) gives you the options to:
+
+Uninstall of Agent Monitor
+==========================
+
+Running the msi file again (after installing the Agent monitor) gives you the options to:
 
    a. Modify
 

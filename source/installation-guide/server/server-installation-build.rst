@@ -1,7 +1,7 @@
 ******************************************************
 Flotomate Service Desk – Server Installation via Build
 ******************************************************
-Describes Server Installation Steps via product build
+Describes Server (2.7.0) Installation Steps via product build
 
 System Requirements
 ===================
@@ -31,8 +31,7 @@ Product Installer
 
 Download product build/installer from following link :
 
-https://s3.ap-south-1.amazonaws.com/flotomate-customer-releases/latest/main/linux/service_desk_master_CI
-
+`Download Link <https://s3.ap-south-1.amazonaws.com/flotomate-customer-releases/latest/main/linux/service_desk_master_CI>`_
 
 Fresh Installation Guide : 
 ==========================

@@ -2,7 +2,7 @@
 Flotomate Relay Server Installation Guide
 *****************************************
 
-Describes Relay Server Installation Steps via build.
+Describes Relay Server (2.7.0) Installation Steps via build.
 
 Downloading Base OS
 ===================
@@ -17,7 +17,7 @@ Product Installer
 
 Download product build/installer from following link :
 
-https://s3.ap-south-1.amazonaws.com/flotomate-customer-releases/latest/relay+server/linux/relay_server_CI
+`Download Link <https://s3.ap-south-1.amazonaws.com/flotomate-customer-releases/latest/relay+server/linux/relay_server_CI>`_
 
 Installation Steps : 
 ====================
@@ -44,7 +44,7 @@ After installing the Base OS, follow the below steps to install Relay Server:
 4. Type in your system pass and hit enter to start the installation process. 
 
 5. Once you see below screen, that means you have successfully installed
-   the product.
+   the relay server.
 
     .. _rsib-2:
     
