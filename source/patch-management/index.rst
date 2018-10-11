@@ -18,6 +18,7 @@ Patch Management
    batch-deployment
    patch-approval
    ignore-patch
+   manual-patch-upload
    deployment-request
    automatic-patch-deployment
    uninstall-deployment-request

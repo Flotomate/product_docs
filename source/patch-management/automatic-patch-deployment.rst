@@ -29,7 +29,7 @@ Creating an Automatic Patch Deployment
 -  Select **Automatic Patch Deployment** from the Patch menu.
 
 -  The Automatic Patch Deployment page opens. Here you can view all your
-   existing auto-deployments tasks if any. Click on **Create Auto Deploy
+   existing auto-deployments tasks if any. Click on **Create Auto Patch Deploy
    Task** situated in the top right corner of the page.
 
 -  A new page opens with the following fields and options:
@@ -83,11 +83,11 @@ Creating an Automatic Patch Deployment
 
         **Task Type:**
 
-            i.  Download only Approved Patch types in the :ref:`Shared Drive <share-drive>`.
+            i.  Download only Approved Patch types in the :ref:`File Server <share-drive>`.
 
-            ii. Download only Approved Patch types in the :ref:`Shared Drive <share-drive>`, and create a drafted Deployment Request.
+            ii. Download only Approved Patch types in the :ref:`File Server <share-drive>`, and create a drafted Deployment Request.
 
-            iii.  Download only Approved Patch types in the :ref:`Shared Drive <share-drive>`, and create and publish a Deployment Request.
+            iii.  Download only Approved Patch types in the :ref:`File Server <share-drive>`, and create and publish a Deployment Request.
 
         **Patch Type:**
 
@@ -206,9 +206,9 @@ tabs:
       Patch.
 
    d. **Transferring**: The Product Server is transferring the Patch to
-      the Shared Drive.
+      the File Server.
 
-   e. **Available**: The Patch is available on the Shared Drive for
+   e. **Available**: The Patch is available on the File Server for
       deployment.
 
    f. **Cancelled**: There was an error in downloading the Patch.

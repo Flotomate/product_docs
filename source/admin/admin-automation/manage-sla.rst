@@ -4,19 +4,23 @@ Managing SLA
 
 Service Level Agreements define the commitment between Requestors and
 the IT service provider in an organization. **SLA**\ s determine the
-level of urgency, response time, and the time required for **Requests**
-to get resolved, and they also govern the escalation rules when Requests
+level of urgency, response time, and the time required for Tickets
+to get resolved, and they also govern the escalation rules when Tickets
 are not resolved or responded within a stipulated time frame. **SLA**\ s
 can be set for a department and a sub-department.
 
 By default we have four **SLA**\ s defined out of the box with each
-having their own rules for resolution and escalation time:
+having their own rules for resolution and escalation time. The default SLAs are defined for the Request module and, they are
+triggered based on the Priority.
 
 +-----------------------+-------------------------+
 | Low Priority **SLA**  | Medium Priority **SLA** |
 +-----------------------+-------------------------+
 | High Priority **SLA** | Urgent Priority **SLA** |
 +-----------------------+-------------------------+
+
+We have extended support of SLA for Problem and Change modules from build-2.7.0. Only difference being, new modules don't 
+support setting of Response time and Escalation; you can only set Resolution time and escalation. 
 
 .. note:: Managing SLAs requires Administrative rights.
 
@@ -39,10 +43,9 @@ You get the following page:
 
 You have to give the SLA a name before doing anything else.
 
-Section A tells us that **SLA** is only applicable to Requests which is
-the default selection.
+Section A gives you the option to choose for which module the SLA is.
 
-Section C lets you define the **SLA** for a particular department. You
+Section C lets you classify the **SLA** for a particular department. You
 can select the department from a drop-down list.
 
 **Creating an SLA rule in a four-stage process:**

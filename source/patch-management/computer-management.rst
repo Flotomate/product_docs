@@ -180,9 +180,10 @@ that shows additional information and provides deployment options.
 -  Section-A shows the identity of the Computer. It starts with the
    Computer ID and then the Computer Name. It also shows additional
    information about the Computer. You can see the platform, OS details,
-   IP address and hostname of the Computer.
+   IP address ,hostname of the Computer, Architecture, Remote Office
+   details, Vendor and Domain Name
 
--  Section-C gives you two tabs to view all related Patches and
+-  Section-B gives you two tabs to view all related Patches and
    Deployment Requests:
 
    **Patches:**
@@ -226,6 +227,8 @@ that shows additional information and provides deployment options.
         In this tab, you can view all Deployment Requests that are giving Patch
         Deployment instructions to the Computer. You also view their
         :ref:`statuses <deployment-status>`.
+
+- Section-C is where you can deploy/uninstall patch and packages.
 
 .. _computer-health:
 

@@ -21,13 +21,13 @@ Learn :ref:`to create a Deployment Request <manually-create-request>`
 
 All Computers ping the Flotomate server every hour to check for
 available Deployment Requests. On finding a Deployment Request,
-Computer/Computers can acquire the Patches from the Shared Drive, and
+Computer/Computers can acquire the Patches from the File Server, and
 install them following a :doc:`Deployment Policy <deployment-policy>`. 
 A Deployment Cycle refers to the end to end process involving getting and installing Patches.
 
 **Methods of Deployment**
 
-There are three ways to create a Deployment Request in the product:
+There are three ways to create a Deployment Request in the tool:
 
 -  Manually creating a Deployment Request and publishing it.
 
@@ -52,7 +52,7 @@ Manually Creating a Request
    :alt: figure 62
 
 - The Deployment Requests page opens. Here you can view all available
-  requests in the product. Click on **Deploy Patches** situated in the
+  requests in the tool. Click on **Deploy Patches** situated in the
   top right corner of the page.
 
 - The Create page opens. The page is divided into four sections; they
@@ -80,7 +80,8 @@ Manually Creating a Request
         iv. **Expire After**: This is the date and time after which the
             request ceases to be a valid request.
 
-        v.  **Deployment Action**: Shows whether the deployment is for Patch installation or un-installation.    
+        v.  You can select whether you want to create the deployment for installation or uninstallation.
+            When you select uninstallation, only the installed Patches are shown.     
 
     b. **Select Patch**: Here you add the Patch/Patches that you want to deploy.
 
@@ -95,7 +96,7 @@ Manually Creating a Request
              the selected platform. The search bar supports the Advanced Search
              feature. Learn how to use :ref:`Advanced Search <search-bar-list-view>`.
 
-        iii.  Section-C is where you view the available Patches in the product.
+        iii.  Section-C is where you view the available Patches in the tool.
               Clicking a checkbox selects a Patch and transfers it to section-A.
 
         Select the Patches that you want to deploy.
@@ -118,7 +119,7 @@ Manually Creating a Request
           either included or excluded.
 
           .. _pf-65.1:
-          .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/software-package-deployment/P-65.1.png
+          .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-65.1.png
             :align: center
             :alt: figure 65.1
 
@@ -256,7 +257,8 @@ Asking for an Approval:
    :align: center
    :alt: figure 71
 
--  Click on **Ask for an Approval** to initiate the Approval process. The Approval status changes to pending.
+-  When :ref:`Allow Manual Approval` feature is turned on, you will be shown a dialog box that you can use to create a manual
+  Approval. If you **skip** this dialog box, then the Approval goes to the Workflow.
 
 Different States in an Approval
 -------------------------------
@@ -272,7 +274,7 @@ Different States in an Approval
 Approval Process:
 -----------------
 
-First, the system checks all available Approval Workflows when an
+In case of automatic approval, first, the system checks all available Approval Workflows when an
 Approval is asked. If there are no workflows or the workflow
 conditions are not meet, then the drafted request/requests are
 Pre-Approved, and you can proceed with publishing. If there is a
@@ -373,7 +375,7 @@ status as Ignored in Approval details dialog box of the Article.
 Searching Deployment Requests
 =============================
 
-There are two broad ways to search Deployment Requests in the product:
+There are two broad ways to search Deployment Requests in the tool:
 
 -  Using Search Bar
 
@@ -492,7 +494,7 @@ tabs:
                 :align: center
                 :alt: figure 84
 
-            a. **Pending**: The Patch has been put in a queue by the Product Server
+            a. **Pending**: The Patch has been put in a queue by the Main Server
                for download. At this stage, you can cancel the process.
 
             .. _pf-85:
@@ -500,24 +502,24 @@ tabs:
                 :align: center
                 :alt: figure 85
 
-            b. **Downloading**: The Product Server is downloading the Patch. At this
+            b. **Downloading**: The Main Server is downloading the Patch. At this
                stage, you can cancel the process.
 
-            c. **Downloaded**: The Product Server has finished downloading the
+            c. **Downloaded**: The Main Server has finished downloading the
                Patch.
 
-            d. **Transferring**: The Product Server is transferring the Patch to the
-               Shared Drive.
+            d. **Transferring**: The Main Server is transferring the Patch to the
+               File Server.
 
-            e. **Available**: The Patch is available on the Shared Drive for
+            e. **Available**: The Patch is available on the File Server for
                deployment.
 
             f. **Cancelled**: A user cancelled the downloading process, or there was
-               an error in downloading the Patch. You can restart the download
-               process using the **Retry** button.
+               an error in downloading the Patch. This error also comes when the File Server is not setup.
+               You can restart the download process using the **Retry** button.
 
       -  **Computers**: Here you can view all the associated Computers. Each
-         computer has a **Deployment Status** button which opens a dialog box
+         computer has a **Deploy Status** button which opens a dialog box
          where you can view the installation statuses of each Patch. Computer
          transitions through various statuses when installing a Patch. Some of
          the statuses reflect a stage, and some are conclusions. Altogether
@@ -548,7 +550,13 @@ tabs:
 
             f. **Not Applicable**: The Patch is not meant for the Computer.
 
+            g. **FS Not Prepared**: The main server has lost connection with the file server.
+
+            h. **DS Not Prepared**: If there are Computers in a Remote Office, Patches are locally stored in Distribution Servers.
+               This status shows that the concerned Patch is not available in the distribution server.
+
 .. _not-applicable:
+
 Unsupported Computers in a Deployment
 -------------------------------------
 
@@ -587,7 +595,7 @@ be edited.
 
 **Archiving**
 
-The product allows you to delete published and drafted Deployment
+The tool allows you to delete published and drafted Deployment
 Requests. You can delete multiple requests at a time.
 
 -  Go to the :ref:`Deployment Request <manually-create-request>` page
@@ -610,7 +618,7 @@ Deleting a published request has the following effects:
 -  Installation of Patches is cancelled in Computers that are yet to
    receive instructions.
 
--  Downloading and transfer of Patches to the Shared Drive continues
+-  Downloading and transfer of Patches to the File Server continues
    even when the request is archived.
 
 View Archived Deployment Requests

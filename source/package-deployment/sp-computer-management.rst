@@ -186,7 +186,7 @@ that shows additional information and provides deployment options.
    IP address ,hostname of the Computer, Architecture, Remote Office
    details, Vendor and Domain Name
 
--  Section-C gives you two tabs to view all related Patches and
+-  Section-B gives you two tabs to view all related Patches and
    Deployment Requests:
 
    **Patches:**
@@ -228,6 +228,8 @@ that shows additional information and provides deployment options.
    In this tab, you can view all Deployment Requests that are giving
    Patch/Package/Registry Deployment instructions to the Computer. You also
    view their :ref:`statuses <sp-deployment-status>`.
+
+- Section-C is where you can deploy/uninstall patch and packages.
 
 .. _sp-computer-health-management:
 

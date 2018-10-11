@@ -27,6 +27,13 @@ The ability to install and uninstall Patches gives a complete experience to user
 
 - Click on **Uninstall** to initiate a Deployment Request. 
 
+One can also create an uninstall Deployment Request directly from Deployment Request page.
+
+.. _p-un-2.1:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-UN-2.1.png
+    :align: center
+    :alt: figure 2.1
+
 Learn more about how to create a :ref:`Deployment Request <manually-create-request>`. 
 
 **Creating Uninstall Deployment Request from Computer Details View:**

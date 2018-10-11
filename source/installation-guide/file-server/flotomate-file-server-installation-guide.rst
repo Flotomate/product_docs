@@ -1,3 +1,5 @@
+.. _share-drive:
+
 .. _Share Drive Configuration:
 
 ******************************
