@@ -43,7 +43,7 @@ You get the following page:
 
 You have to give the SLA a name before doing anything else.
 
-Section A gives you the option to choose for which module the SLA is.
+Section A gives you the option to choose for which module the SLA is for.
 
 Section C lets you classify the **SLA** for a particular department. You
 can select the department from a drop-down list.
