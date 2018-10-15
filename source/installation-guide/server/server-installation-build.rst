@@ -57,7 +57,7 @@ product on to your server:
         :alt: figure 1
 
    During Installation, Installer will prompt for Password. Please
-   provide following password : mypassword
+   provide following password : whatpassword
 
     .. _sib-2:
 
@@ -65,9 +65,9 @@ product on to your server:
         :align: center
         :alt: figure 2
 
-   During Installation, Installer will prompt for Tenant Name. You can
-   set any name (must be all small letters without any special
-   characters or spaces.)
+   Next, you have to select whether you want a standalone installation or a High Availability setup. Option 1 is for a standalone
+   installation, and 2 & 3 are for a High Availability setup. In case, you are opting for HA then you have to install the build in two
+   separate servers one as Master and other as Slave. Learn more about :ref:`HA setup <Flotomate High Availability Server Setup>`.
 
     .. _sib-3:
 
@@ -84,9 +84,9 @@ product on to your server:
     :align: center
     :alt: figure 4
 
-4. After Installation,
+4. After Installation, wait of five minutes.
 
-   Navigate to http://localhost/register, It will open Registration form
+   Navigate to http://{server_IP}/register, It will open Registration form
    as below :
 
 .. _sib-5:
@@ -95,27 +95,14 @@ product on to your server:
     :align: center
     :alt: figure 5
 
-5. Please provide super admin user details there.
+5. The registration form is for the first user, who is by default the Super User. The Super User has all the rights. 
+   Register a user, and use the credentials to login to the ITSM portal. 
 
-6. In Personalize URL field, make sure you put exact same name which you
-   given as tenant name during installation process.
-
-7. Now you can login to http://localhost with super admin user, Setup
-   your organization, users and configure important setting to start
-   using a product.
+6. You can access the ITSM portal from a web-browser on **http://{server_IP}/login**. Use the tab to switch between Customer and
+   Technician portal (:numref:`sib-6`). 
 
 .. _sib-6:
 
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/server-installation/SIB-6.png
     :align: center
     :alt: figure 6
-
-8. Note that :
-
-   Technician Portal will be available at :
-   http://localhost
-
-   Customer Portal will be available at : http://localhost/portal
-
-9. You can also configure DNS entry which points domain name to
-   machine’s IP address as you wish.      

@@ -1,6 +1,8 @@
-******************************
-Linux Agent Installation Guide
-******************************
+.. _Linux Agent Installation Guide:
+
+*********************************************
+Linux Agent Installation/Uninstallation Guide
+*********************************************
 
 Describes Installation Steps for Flotomate Linux Agent-2.7.0
 
