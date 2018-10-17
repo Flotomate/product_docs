@@ -6,6 +6,7 @@ Manage Software License
 
    software-license-management
    software-license-use-case
+   setting-software-as-managed
    creating-a-license
    linking-software-license-with-software
    searching-a-license

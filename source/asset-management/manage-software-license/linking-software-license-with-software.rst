@@ -36,7 +36,7 @@ associated with a Software Asset from the Details View of the License.
        :align: center
        :alt: figure 125
 
-3. The **License** tab only appears when the Software Type is set to **Managed**. 
+3. The **License** tab only appears when the Software Type is set to :ref:`Managed <Setting Software Type as Managed>`. 
    Change the Software Type to **Managed** from the **More Details** section if you do not see the **License** tab under **Details**.
 
 4. The **License** tab shows the associated License if any. In the

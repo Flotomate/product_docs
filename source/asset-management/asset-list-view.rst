@@ -317,14 +317,14 @@ There are filters to isolate an Asset Type:
 
 .. _am-bulk-update:
 
-Bulk Update
-===========
+Bulk Update Assets
+==================
 
 Flotomate supports bulk update of Asset information of multiple Assets
 at once. The dialog box to perform this operation is same across all the
 classes. To perform the bulk update:
 
-1. Go to the :doc:`Asset List View<asset-list-view>` of any class.
+1. Go to the :ref:`Asset List View` of any class.
 
 2. Select Assets on which you want to perform Bulk Update. The Bulk
    Update button appears above the pane. Click on **Bulk Update**.
@@ -360,6 +360,8 @@ classes. To perform the bulk update:
    j. Location: Locations of the Assets
 
    k. Business Service: Which business services do the Assets affect?
+
+   l. Software Type: This field is available only for Software Assets. 
 
    Number of Assets that are going to be updated is visible in the
    Update button. When you are done hit **Update** to save your
