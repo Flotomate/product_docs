@@ -11,5 +11,5 @@ Asset Management
    barcode-configuration
    product-type
    rdp-configuration
-   software-normalization**
+   software-normalization
    
