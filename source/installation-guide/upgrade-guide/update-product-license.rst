@@ -7,7 +7,7 @@ Describes Steps to Update Flotomate License
 Prerequisite:
 =============
 
-Product instance in a server.
+Latest build installed in a Server.
 
 Installation Setup:
 ===================

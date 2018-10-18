@@ -265,3 +265,4 @@ features:
    -  Users can now use custom field values (excluding Requestor field) in placeholders for creating
       custom emails.
 
+.. important:: :ref:`Learn how to Upgrade Product License. <How to Update Product License>` 
