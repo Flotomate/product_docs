@@ -7,7 +7,7 @@ Installation Guides
    server/index
    relay-server/index
    file-server/index
-   plugin-server/index
+   plugin-server/index**
    agent/index
    remote-desktop/index
    high-availability/index
