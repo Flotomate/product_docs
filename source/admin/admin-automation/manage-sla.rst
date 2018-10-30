@@ -37,6 +37,7 @@ Create a SLA
 You get the following page:
 
 .. _adf-42:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-42.png
     :align: center
     :alt: figure 42
@@ -73,6 +74,7 @@ can set escalation rules that determine the actions after an SLA
 violation. Please refer below figure to set escalation.
 
 .. _adf-43:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-43.png
     :align: center
     :alt: figure 43
@@ -128,6 +130,7 @@ Add a Service Level Agreement (SLA)
     +-----------------------------------+----------------------------------------------------------------------------------------+
 
 .. _adf-44:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-44.png
     :align: center
     :alt: figure 44
@@ -163,6 +166,7 @@ to stay within SLA guidelines
 -  Scroll down to the Review Period.
 
 .. _adf-45:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-45.png
     :align: center
     :alt: figure 45
@@ -184,6 +188,7 @@ Except for Open, Resolved and Closed, you can deactivate/activate SLA in
 all other Statuses, including custom ones.
 
 .. _adf-46:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-46.png
     :align: center
     :alt: figure 46
