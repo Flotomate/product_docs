@@ -1,17 +1,15 @@
-**************************
-Plugin Server Introduction
-**************************
+*************************
+Plugin Server Setup Guide
+*************************
 
-What is a Plugin?
-=================
+**What is a Plugin?**
 
 A plug-in is a piece of code that integrates with our main server to perform a specific function. 
 In the context of our product, a plugin is nothing but a .fp bundle (i.e. Kind of app, zip). 
 
-What is a Plugin Server?
-========================
+**What is a Plugin Server?**
 
-Plugin Server is a server which hosts/runs plugins. It is like our main server with a specialized purpose of running plugins. 
+Plugin server is a server which hosts/runs plugins. It is like our main server with a specialized purpose of running plugins. 
 The main server will call a plugin server to execute specific plugin and get the desired output.
 
 Plugin Server Setup
@@ -131,3 +129,5 @@ Main Server Configuration (Step 3)
 5. Save your changes, and restart the main-server with the following command:
 
    **systemctl restart ft-main-server.service**
+
+Now you are done with installing the server. 

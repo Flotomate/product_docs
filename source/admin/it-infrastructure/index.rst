@@ -10,3 +10,4 @@ IT Infrastructure
    ad-network
    proxy-server-configuration
    ldap-configuration
+   plugin-registration**
