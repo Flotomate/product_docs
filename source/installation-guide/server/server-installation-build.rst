@@ -57,7 +57,7 @@ product on to your server:
         :alt: figure 1
 
    During Installation, Installer will prompt for Password. Please
-   provide following password : whatpassword
+   provide following password : mypassword
 
     .. _sib-2:
 
