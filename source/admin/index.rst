@@ -7,7 +7,7 @@ Administration Manual
    admin-introduction
    admin-user-management
    admin-automation/index
-   it-infrastructure
+   it-infrastructure/index
    admin-organization
    admin-customization 
    setting-up-helpdesk
