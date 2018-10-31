@@ -11,6 +11,6 @@ Administration Manual
    admin-organization
    admin-customization 
    setting-up-helpdesk
-   patch-package-deployment
+   patch-package-deployment/index
    admin-asset-management/index
    system-configuration 
