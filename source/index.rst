@@ -26,7 +26,7 @@ Flotomate Product Manual
    patch-management/index
    package-deployment/index
    dashboard/index
-   flotomate-plugins/index**
+   flotomate-plugins/index
    user-profile/index
    use-cases/index
 
