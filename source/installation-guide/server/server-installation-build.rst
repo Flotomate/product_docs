@@ -10,7 +10,7 @@ Hardware Requirement:
 
 -  4GB System RAM
 
--  Dual Core Processor
+-  Two Core Processor
 
 -  Space: 100 GB Hard Drive
 

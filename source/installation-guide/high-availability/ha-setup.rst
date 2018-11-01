@@ -61,7 +61,7 @@ The HA-proxy have to be installed in a separate server as well.
 
 -  4GB of System RAM.
 
--  Minimum Dual Core Processor.
+-  Minimum Two Core Processor.
 
 -  Minimum 100 GB of Hard disk space.
 

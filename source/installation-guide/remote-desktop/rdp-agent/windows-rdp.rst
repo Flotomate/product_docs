@@ -15,7 +15,7 @@ Minimum System Requirement:
 
 -  1GB System RAM
 
--  Dual-Core Processor
+-  Two-Core Processor
 
 -  Space: 250 MB Hard Drive
 
