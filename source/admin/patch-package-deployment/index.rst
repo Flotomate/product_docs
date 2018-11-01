@@ -11,3 +11,4 @@ Patch & Package Deployment
    approval-settings
    remote-office
    batch-deployment
+   external-storage-configuration
