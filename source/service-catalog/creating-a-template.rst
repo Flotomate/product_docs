@@ -50,8 +50,8 @@ to create Request for on-boarding of new employees in the Marketing department. 
     :align: center
     :alt: figure 11
 
-- All of the fields are Text Fields. Learn about the :ref:`different types of fields <ad-types-of-fields>`. The properties of the fields
-  are as follows:
+- All of the fields are Text Fields. Learn about the :ref:`different types of fields <ad-types-of-fields>`. You can access the
+  properties of a field by clicking on it. We have set the fields to be compulsory and visible to the requesters.
 
 .. _scf-12:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/service-catalog/SC-12.png
@@ -79,7 +79,7 @@ required.
 - The Workflow created here works parallel with the generic :ref:`WorKflow <ad-workflow>` in Admin. Both the Workflows might get initiated
   together and perform their own actions after checking their conditions.
 
-- The Template Workflow is initiated when a Request is created from a Service Item.
+- The Template Workflow is initiated based on the **When Condition** of a workflow.
 
 .. note:: Related Topic: Learn how to create a :ref:`Custom Workflow <understanding workflow>`.
 
@@ -214,6 +214,18 @@ Things to Remember:
 
 - Tasks of one stage is visible at a time.
 
+
+**Create a Scenario**
+
+We can create scenarios specifically for Requests created using the Template. A scenario is a set of actions ,when applied, that can
+modify a ticket. We can create n number of scenarios in a template each with its own set of conditions. 
+
+- Under the Scenario tab, click on **Create a Scenario**.
+
+- Create a scenario in the new page. Learn :ref:`how to create a scenario <Create a Scenario>`. 
+
+After creating the scenario, we can enforce the scenario on Request tickets created using the template. :ref:`Learn more <Enforcing a Scenario>`.
+
 Now we are done with everything. We have two options now: either publish the Template or leave it as Draft. We publish the Template
 using the **Publish** button. The Template gets activated.
 
@@ -229,4 +241,3 @@ You can edit/delete the Template (along with its conditions) anytime later.
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/service-catalog/SC-21.png
     :align: center
     :alt: figure 21
- 

@@ -64,19 +64,23 @@ The Details View is a dynamic interface with the following features:
 
    c. Action Menu:
 
-      i.  :doc:`Mark as Spam <mark-a-request-as-a-spam>`
+      i. :ref:`Ask for Approval <rm-asking-for-approval>`
+      
+      ii.  :ref:`Mark as Spam <Mark a Request as a Spam>`
 
-      ii.  :doc:`View Audit Trail <rm-viewing-audit-trail>`
+      iii.  :ref:`View Audit Trail <rm-viewing-audit-trail>`
 
-      iii. :doc:`Mark as Purchase Request <marking-a-purchase-request>`  
+      iv. :ref:`Mark as Purchase Request <Marking a Request as Purchase>`  
 
-      iv.  :ref:`Add Watcher <rm-watchers>`
+      v.  :ref:`Add Watcher <rm-watchers>`
 
-      v.  :ref:`Send Notification <rm-notifications>`
+      vi.  :ref:`Send Notification <rm-notifications>`
 
-      vi.  Watch/Unwatch
+      vii.  Watch/Unwatch
 
-      vii.  :doc:`Send Feedback <asking-for-feedback>`
+      viii.  :ref:`Send Feedback <Asking for Feedback>`
+
+      ix. :ref:`Scenario <Scenario Automation>`
 
 Modifying Request Subject and Description
 =========================================
@@ -587,8 +591,8 @@ Different States in an Approval Process
 Managing Approval
 -----------------
 
-An assigned Technician can view all his Approvals under the Approvals
-tab. The Approvals tab shows two columns: the Approvals column which
+An assigned Technician can view all his Approvals under the **Approvals** tab. 
+The Approvals tab shows two columns: the Approvals column which
 lists all the Approvals along with their approvers, and the Comments
 column that shows the message thread between Technicians and approvers.
 Any Technician with the necessary :ref:`rights <Technician Roles>` can access the Approvals tab of
@@ -745,7 +749,7 @@ the Details View of a Request.
 
 Any Technician can assign Tasks to other Technicians related to any
 Request if he has manage Task rights. An assignee can see his Task/Tasks
-on his Dashboard.
+in his My Tasks section.
 
 .. _rmf-42:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-42.png
