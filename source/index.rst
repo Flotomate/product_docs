@@ -29,6 +29,7 @@ Flotomate Product Manual
    flotomate-plugins/index
    user-profile/index
    use-cases/index
+   FAQ/index
 
 
 
