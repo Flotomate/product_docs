@@ -34,7 +34,7 @@ Prerequisite
 ------------
 
 - Separate Linux server for File Server installation.
-- You need ubuntu-16.04.1 desktop OS to run. 
+- You need ubuntu-16.04.1 Server OS to run. 
 
   Minimum Hardware Requirement:
 
