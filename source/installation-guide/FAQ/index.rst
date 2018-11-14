@@ -5,4 +5,5 @@ FAQ
    :maxdepth: 2
     
    error-dot-net-framework
+   dhcp-error
      

@@ -599,6 +599,8 @@ in a Probe:
 Run on Demand Polling
 ^^^^^^^^^^^^^^^^^^^^^
 
+.. note:: If the Network is set to use DHCP protocol then one has to :ref:`configure DNS <DNS Configuration>`. 
+
 Polling detects any changes made to a discovered Asset at the source and
 pushes the changes (if any) to the CMDB. This process helps you to keep
 your CMDB up to date. The fastest way to initiate Polling is to use the
