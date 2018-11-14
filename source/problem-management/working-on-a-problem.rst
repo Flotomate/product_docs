@@ -39,9 +39,9 @@ Please refer :numref:`pmf-16` for the below description:
 
 -  Section-D houses the following functions:
 
-   a. :ref:`Analysis <analysing-a-problem>`
+   a. :ref:`Analysis <Analyzing a Problem>`
 
-      i. :ref:`Task <notifications-in-problem>`
+      i. :ref:`Task <pm-managing-task>`
 
       ii.  :ref:`Investigation <pm-investigation>`
 
@@ -49,13 +49,13 @@ Please refer :numref:`pmf-16` for the below description:
 
    b. :ref:`Relations <pm-adding-relations>`
 
-   c. :ref:`Time Log <time-log-in-problem>`
+   c. :ref:`Time Log <Time Log in Problem>`
 
-   d. :ref:`Custom Fields <ad-custom-fields>`
+   d. :ref:`Custom Fields <Custom Fields in a Problem>`
 
-   d. :ref:`Notifications <notifications-in-problem>`
+   e. :ref:`Notifications <Notifications in Problem>`
 
-   e. :ref:`Approvals <pm-asking-for-approval>`
+   f. :ref:`Approvals <pm-asking-for-approval>`
 
 -  Section-E shows you the requester details.
 
@@ -67,15 +67,19 @@ Please refer :numref:`pmf-16` for the below description:
 
    c. Action Menu:
 
-      i.   :ref:`View Audit Trail <pm-audit-trail>`
+      i. :ref:`Ask for Approval <pm-asking-for-approval>`
+      
+      i. :ref:`View Audit Trail <pm-audit-trail>`
 
-      ii.  :ref:`Add Watcher <watchers-in-problem>`
+      ii. :ref:`Add Watcher <watchers-in-problem>`
 
       iii. :ref:`Send Notification <notifications-in-problem>`
 
-      iv.   Unwatch
+      iv. Unwatch
 
-      v.    :ref:`Make Announcement <managing-announcements-for-problems>`
+      v. :ref:`Make Announcement <managing-announcements-for-problems>`
+
+      vi. :ref:`Scenario <Scenario Automation>`
 
 Modifying Problem Subject and Description
 =========================================
@@ -237,6 +241,7 @@ Some of the classifiers are shown with each Problem in the :doc:`List
 View <problem-list-view>`.
 
 .. _linking-knowledge-article-with-a-problem:
+
 Linking Knowledge Article/FAQ with a Problem
 ============================================
 
@@ -279,7 +284,7 @@ You can view the related Knowledge of a Problem under its Relations tab.
     :align: center
     :alt: figure 28
 
-Analysing a Problem
+Analyzing a Problem
 ===================
 
 Flotomate allows Technicians to gather information through communication
@@ -303,6 +308,7 @@ processes and they are:
 -  :ref:`Resolution <pm-managing-task>`
 
 .. _pm-investigation:
+
 Investigation
 =============
 
@@ -349,6 +355,7 @@ A Problem may cause disruptions in business processes. You can record
 all disruptions and their nature in relation to the Problem.
 
 .. _pm-conversation:
+
 Conversations
 =============
 
@@ -407,6 +414,7 @@ Please refer the Administrator Manual to know more about Custom Rules
 for Problems.
 
 .. _pm-managing-task:
+
 Managing Task
 =============
 
