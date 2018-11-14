@@ -9,7 +9,7 @@ Administration Manual
    admin-automation/index
    it-infrastructure/index
    admin-organization
-   admin-customization 
+   admin-customization/index 
    setting-up-helpdesk
    patch-package-deployment/index
    admin-asset-management/index
