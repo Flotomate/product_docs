@@ -12,22 +12,22 @@ You can create n number of templates and access them directly from Ask Requestor
 
 - Go to **Admin** (A Navigation Tab) >> **Response Template** (under Request Management).
 
-.. _adf-94.1:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-94.1.png
+.. _ad-res-1:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/ad-response+template/AD-RES-1.png
     :align: center
-    :alt: figure 94.1
+    :alt: figure 1
  
 - The Response Templates page opens. Here you can view all your existing templates. Click on **Create Response Template**
   situated in the top right corner of the page.
 
 - A new page opens where you get the following fields:
 
-    .. _adf-94.2:
-    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-94.2.png
+    .. _ad-res-2:
+    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/ad-response+template/AD-RES-2.png
         :align: center
-        :alt: figure 94.2
+        :alt: figure 2
 
-    a. Section A (:numref:`adf-94.2`) is where you give a name to the template.
+    a. Section A (:numref:`ad-res-2`) is where you give a name to the template.
 
     b. In section B, you decide where the template will be used. It can either be used while asking Requestors or giving a solution to
        a Request.
@@ -40,29 +40,31 @@ You can create n number of templates and access them directly from Ask Requestor
        Placeholders can fetch specific data; for example, the placeholder {#Ticket Id#} fetches the ticket id of the Request 
        on which you are working.
 
-    .. _adf-94.5:
-    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-94.5.png
+    .. _ad-res-3:
+    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/ad-response+template/AD-RES-3.png
         :align: center
-        :alt: figure 94.5   
+        :alt: figure 3
 
-  Fill all necessary fields and click on **Create**. Your template is added to the Response Template page. 
+    f. In section F you can also attach a file. The attache file will be used as part of the response.   
 
-.. _adf-94.6:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-94.6.png
-    :align: center
-    :alt: figure 94.6
+- Fill all necessary fields and click on **Create**. Your template is added to the Response Template page. 
+
+    .. _ad-res-4:
+    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/ad-response+template/AD-RES-4.png
+        :align: center
+        :alt: figure 4
 
 **Using the templates**
 
 You can access the response templates while working on a Request. You can directly add a template while asking a Requestor and
 adding a solution.
 
-.. _adf-94.3:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-94.3.png
+.. _ad-res-5:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/ad-response+template/AD-RES-5.png
     :align: center
-    :alt: figure 94.3
+    :alt: figure 5
 
-.. _adf-94.4:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-94.4.png
+.. _ad-res-6:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/ad-response+template/AD-RES-6.png
     :align: center
-    :alt: figure 94.4    
+    :alt: figure 6    

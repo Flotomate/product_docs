@@ -80,9 +80,10 @@ The product has a simple drag and drop UI to create and arrange fields.
 
 .. _ad-create-custom-fields:
 
-**To create a custom field:**
+create a custom field
+---------------------
 
-- Go to **Admin** >> **(Request, Problem, Change, Contract, Purchase, Feedback or Asset) Custom Fields**.
+- Go to **Admin** >> **(Request, Problem, Change, Contract, Purchase, Feedback, Project or Asset) Custom Fields**.
 
 .. note:: Each module has a separate custom fields page.
 
@@ -140,12 +141,30 @@ The product has a simple drag and drop UI to create and arrange fields.
 
   f. **Label value**: Refers to a static chunk of text which is immutable and available only in a Label field.        
 
-**Rearrange Custom Field**
+Additional Custom Field Options
+-------------------------------
+Clicking on a field opens the glance view where you will get additional options depending on the field type and module selected. 
+
+.. _ad-cus-1:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/ad-custom-field/AD-CUS-1.png
+    :align: center
+    :alt: figure 1
+
+1. **Required**: This option makes the field compulsory on a form.
+
+2. **System Managed field**: This option makes the field uneditable, and the field will show only system generated values.
+
+3. **Show on Requester form**: This option is only available in Request fields and allows to control what field to show on the 
+   Requester form.
+
+Rearrange Custom Field
+----------------------
 
 You can arrange the fields using drag and drop. You can group fields in to sections (this feature is available for Request, 
 Requestor, Feedback, Purchase, Contract and Problem custom fields), and
 you can arrange custom fields in to a matrix using the section feature.
 
+.. _adf-94.7:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-94.7.png
     :align: center
     :alt: figure 94.7
@@ -198,6 +217,13 @@ keep the field empty when changing to another Status.
      :align: center
      :alt: figure 100.1    
     
+You can make a field as system field, which shows only system generated value. Such fields are not editable from the user interface.
+
+.. _ad-cus-3:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/ad-custom-field/AD-CUS-3.png
+    :align: center
+    :alt: figure 3
+
 You can control the visibility of some default fields on the (Requestor Form) Customer portal; they are:
 
 .. _adf-100.1.1:
@@ -211,6 +237,13 @@ Custom fields in Request also appear in the :ref:`Report module<create-tabular-r
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-100.1.2.png
      :align: center
      :alt: figure 100.1.2
+
+Custom fields in Request appear as part of the Workflow conditions.
+
+.. _ad-cus-2:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/ad-custom-field/AD-CUS-2.png
+    :align: center
+    :alt: figure 2
 
 **Problem**:
 
@@ -231,10 +264,19 @@ You can find the fields under the **Custom Fields** tab.
 
 You can make a field compulsory for certain Statuses. For example,
 if a field is compulsory in Open Status, then you cannot keep the
-field empty when changing to another Status. Please refer to the above :ref:`section <custom-field-reques>`.
+field empty when changing to another Status. Please refer to the above :ref:`section <custom-field-request>`.
+
+You can make a field as system field, which shows only system generated value. Such fields are not editable from the user interface.
+
+.. _ad-cus-3:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/ad-custom-field/AD-CUS-3.png
+    :align: center
+    :alt: figure 3
 
 Custom fields in Problem also appear in the :ref:`Report module<create-tabular-report>` (as part of the column selection). 
 Technicians can use custom fields in generating reports. 
+
+Custom fields in Problem also appear as part of the Workflow conditions.
 
 **Change**:
 
@@ -258,15 +300,26 @@ While creating custom fields, you can specifically mark a field as belonging to 
 
 .. note:: Stage specific fields can be edited in their respective stages.     
 
-You can mark a field as compulsory at a particular stage.
+You can mark a field as compulsory at a particular stage. You can even mark a field as a system field that only shows system 
+generated data. 
 
 .. _adf-102.2:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-102.2.png
      :align: center
      :alt: figure 102.2
 
+You can make a field as system field, which shows only system generated value. Such fields are not editable from the user interface.
+
+.. _ad-cus-3:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/ad-custom-field/AD-CUS-3.png
+    :align: center
+    :alt: figure 3
+
 Custom fields in Change also appear in the :ref:`Report module<create-tabular-report>` (as part of the column selection). 
 Technicians can use custom fields in generating reports.     
+
+Custom fields in Change also appear as part of the Workflow conditions.
+
 
 **Asset**:
 
@@ -290,6 +343,13 @@ Management manual to learn more.
      :align: center
      :alt: figure 102.5
 
+You can make a field as system field, which shows only system generated value. Such fields are not editable from the user interface.
+
+.. _ad-cus-3:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/ad-custom-field/AD-CUS-3.png
+    :align: center
+    :alt: figure 3
+
 Custom fields in Asset also appear in the :ref:`Report module<create-tabular-report>` (as part of the column selection). 
 Technicians can use custom fields in generating reports. Remember, custom fields are specific to an Asset Type and a sub-type.               
 
@@ -306,6 +366,13 @@ You can create n number of text fields.
         :align: center
         :alt: figure 103.1
         
+You can make a field as system field, which shows only system generated value. Such fields are not editable from the user interface.
+
+.. _ad-cus-4:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/ad-custom-field/AD-CUS-4.png
+    :align: center
+    :alt: figure 4
+
 Such fields appear on the :ref:`form for creating <add requestor individually>` Requestors.
 
 .. _adf-103.2:
@@ -338,6 +405,13 @@ Users can add Custom Contract Fields in the Contract module. Some of the use cas
 - Custom fields are supported in CSV import of Contracts (as one of the header property values). Custom fields can be used to capture additional information during Contract
   :doc:`CSV import <upload-contracts-csv>`.
 
+You can make a field as system field, which shows only system generated value. Such fields are not editable from the user interface.
+
+.. _ad-cus-5:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/ad-custom-field/AD-CUS-5.png
+    :align: center
+    :alt: figure 5
+
 You can view and edit values of such fields from the Custom Fields tab in the :ref:`contract details view` of a Contract.
 
 .. _adf-103.5:
@@ -356,7 +430,10 @@ Things to Remember:
 - A Feedback form is specific to a particular Request.
 
 - A link to the Feedback form is sent with the Resolved and Closure Email, and an Email sent manually.
-  (:ref:`Learn More <To Activate Feedback>`)s
+  (:ref:`Learn More <To Activate Feedback>`).
+
+.. note:: You can make a field as system field, which shows only system generated value. 
+          Such fields are not editable from the user interface. :ref:`Learn more <Additional Custom Field Options>`.
 
 The Actual Feedback Form:
 

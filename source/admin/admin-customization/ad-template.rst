@@ -14,7 +14,7 @@ Problem or Change.
 Add a Template
 ==============
 
--  Go to **Admin** >> (Request, Problem or Change) Templates.
+-  Go to **Admin** >> (Request, Problem, Change, Purchase or Service Catalog) Templates.
 
 .. _adf-93:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-93.png
@@ -22,7 +22,7 @@ Add a Template
     :alt: figure 93
 
 -  In the new page, you can view your existing templates. To add a new
-   one, click on **Create a (Request, Problem, or Change) Template** in
+   one, click on **Create a (Request, Problem, Change, Purchase or Service Catalog) Template** in
    the top right corner.
 
 -  A dialog box opens where you can pre-define the following things:
@@ -84,10 +84,18 @@ Add a Template
 
        v.  Description of a Change.
 
+   d. **Purchase Template**
+
+      Learn how to create a :ref:`PO Template <Purchase Order Templates>`.
+
+   e. **Service Catalog Template**
+
+      Learn how to create a :ref:`Service Template <Creating a Service Catalog Template>`.
+
 Edit Request Templates
 ======================
 
--  Go to **(Request, Problem or Change) Templates** page
+-  Go to **(Request, Problem, Change, Purchase or Service Catalog) Templates** page
 
 -  Click the Edit-Icon adjacent to a template to open a dialog box.
 
