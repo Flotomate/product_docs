@@ -211,7 +211,7 @@ be visible in the :ref:`folder <Adding a Folder>` which was selected while creat
     :align: center
     :alt: figure 18.1
 
-Other users cannot view the content in their My Drafts folders, but they can edit the content from the main folder. 
+Other users cannot view the content in their My Drafts, but they can edit the content from the content's folder. 
 
 .. _kbf-18.2:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/knowledge-management/KB-18.2.png
