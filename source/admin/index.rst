@@ -13,4 +13,5 @@ Administration Manual
    setting-up-helpdesk
    patch-package-deployment/index
    admin-asset-management/index
-   system-configuration 
+   system-configuration
+   location-scope/index 

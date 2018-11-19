@@ -18,7 +18,8 @@ A Template is defined with respect to the following:
 We are going to create a Template called On-Boarding that will be used to create a Service Item which will be used by the HR dept
 to create Request for on-boarding of new employees in the Marketing department. Learn about the :ref:`Use Case <sc-use-case>`.  
 
-**To add a new Template:**
+New Service Catalog Template
+============================
 
 - We go to **Admin** (A Navigation tab) >> **Templates** (under Service Catalog).
 
@@ -39,7 +40,8 @@ to create Request for on-boarding of new employees in the Marketing department. 
 
 - A new page opens, here we have to create a form, define a workflow, create a SLA and create an Approval workflow, and add tasks. 
 
-**Create Form:**
+Create Form
+-----------
 
 .. note:: Related Topic: :ref:`Working with Form Fields <Working with Custom Fields>`
 
@@ -65,7 +67,8 @@ You can select what default fields to show on the Service Item Request form.
     :align: center
     :alt: figure 12.1    
 
-**Create Workflow**
+Create Workflow
+---------------
 
 Workflow automation enables Administrators to channel tickets through a funnel with predefined rules.
 Administrators set the rules that interact with the ticket details
@@ -115,7 +118,17 @@ Following actions are taken when a Request satisfies the parameters:
         :align: center
         :alt: figure 15
 
-**Define SLA:**
+Fields created in the :ref:`Form section <Create Form>` can be used to make conditions as part of a template workflow. 
+Custom fields are automatically added to the event list, Add if list, and Add Action list. For example, We can create
+an event condition with the field Employee ID:
+
+.. _scf-15.1:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/service-catalog/SC-15.1.png
+    :align: center
+    :alt: figure 15.1
+
+Define SLA
+----------
 
 Service Level Agreements define the commitment between Requestors and
 the IT service provider in an organization. **SLA**\ s determine the
@@ -162,7 +175,8 @@ Then we set the minimum response and resolution time, and escalation in case of 
 We set the response time as 3 hours and on violation the assigned Technician and Priority is changed.
 We set the Resolution time as 1 day and on violation the assigned Technician is changed.
 
-**Approval Workflow**
+Approval Workflow
+-----------------
 
 Approval Workflow helps Administrators to automate the Approval process for a Request. 
 An Approval Workflow, when initiated, creates an Approval and adds approvers to it.
@@ -194,7 +208,8 @@ Any Request (made using the template) having the Department Marketing will have 
 - Stages will have an order (:ref:`Learn More <Multiple Approvals>`)
 
 
-**Adding Tasks**
+Adding Tasks
+------------
 
 .. note:: Related Topic: Learn about :ref:`rm-managing-task` 
 
@@ -215,7 +230,8 @@ Things to Remember:
 - Tasks of one stage is visible at a time.
 
 
-**Create a Scenario**
+Create a Scenario
+-----------------
 
 We can create scenarios specifically for Requests created using the Template. A scenario is a set of actions ,when applied, that can
 modify a ticket. We can create n number of scenarios in a template each with its own set of conditions. 

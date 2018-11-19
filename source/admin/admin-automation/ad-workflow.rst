@@ -161,6 +161,20 @@ a Request to Database if set conditions are triggered.
     :align: center
     :alt: figure 40
 
+
+Custom Field in Workflow
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+A user can create custom fields in Request, Problem and Change. Such fields appear on the create form. These fields are also
+added to the :ref:`Event list <Select an Event>`, :ref:`Add if list <Set Conditions>`, and :ref:`Add Action list <Set Actions>` of a workflow.
+
+.. _adf-40.1:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-40.1.png
+    :align: center
+    :alt: figure 40.1
+
+Learn more about :ref:`Custom Fields <Custom Field Behavior>`.
+
 Create a Workflow
 -----------------
 Follow the below steps to create a Workflow:
