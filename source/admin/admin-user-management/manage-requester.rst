@@ -54,7 +54,7 @@ You can add Requestors individually by entering their details.
 
 -  Go to **Admin** >> **Requestors** (Users).
 
--  On the **Requestors** page, click **Add** **Requestor** situated in
+-  On the **Requestors** page, click **Add Requestor** situated in
    the top right corner of the page. You get the **Add** **Requestor**
    dialog box.
 
@@ -62,12 +62,16 @@ You can add Requestors individually by entering their details.
    can mark a Requestor as VIP if he/she is a critical person in the
    organization. This gives him/her the following benefits:
 
-   a. Tickets created by him/her have the VIP label. They are treated
+   a. Tickets created with the VIP label can be treated
       with priority by the Technicians.
 
    b. Specific Workflows, SLAs, and Reports can be created for VIPs.
 
--  You can create custom fields that allow you to store additional information. :doc:`Learn More (see Custom Fields) <admin-customization>`    
+-  The **Logon Name** is the Workstation user-name of the Requester. 
+   The field value is used for auto-assigning the Requester's workstation to his/her name. The assignment happens during asset 
+   discovery. :ref:`Learn more <Preference>`.
+
+-  You can create custom fields that allow you to store additional information. :ref:`Learn More (see Custom Fields) <requestor-custom-field>`    
 
 -  When you are done filling in the details, hit **Add**.
 
@@ -323,7 +327,10 @@ them to Technicians.
       grouped into four levels (tiers) based on their degree of
       expertise.
 
-   c. :ref:`Location <location>` of the Technician.
+   c. :ref:`Location <ad-location>` of the Technician. This is different from the Authorized Location field.
+
+   d. The **Authorized Location** field grants the permission to view the data of the selected location only. The feature is called
+      :ref:`Location Scope <Data Segregation with Location Scope>`. 
 
 -  When you are done, hit **Add**.
 

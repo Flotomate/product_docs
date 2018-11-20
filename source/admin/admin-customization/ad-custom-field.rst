@@ -186,7 +186,8 @@ The behavior and outlook of custom fields is different for each module.
 
 .. _custom-field-request:
 
-**Request**:
+Request
+-------
 
 Custom fields appear on the **Create a Request** form. The fields appear by default in the Technician portal, but you have
 to specifically toggle an option to make them appear in the Customer portal.
@@ -245,7 +246,8 @@ Custom fields in Request appear as part of the Workflow conditions.
     :align: center
     :alt: figure 2
 
-**Problem**:
+Problem
+-------
 
 Problem custom fields are available to Technicians on the **Create a Problem** page.
 
@@ -278,7 +280,8 @@ Technicians can use custom fields in generating reports.
 
 Custom fields in Problem also appear as part of the Workflow conditions.
 
-**Change**:
+Change
+------
 
 Custom fields in the case of a Change, appears only in the :ref:`Details View <change details view>` under the **Custom Fields** tab.
 While creating custom fields, you can specifically mark a field as belonging to a particular stage.
@@ -321,7 +324,8 @@ Technicians can use custom fields in generating reports.
 Custom fields in Change also appear as part of the Workflow conditions.
 
 
-**Asset**:
+Asset
+-----
 
 You add a custom field either to an Asset Type (all sub-types will have the field) or a particular sub-type (specific).
 
@@ -355,7 +359,8 @@ Technicians can use custom fields in generating reports. Remember, custom fields
 
 .. _requestor-custom-field:
 
-**Requestor Custom Field**
+Requestor Custom Field
+----------------------
        
 Here Custom fields allow you to create new variables to store additional information about requestors.
 
@@ -394,7 +399,8 @@ Custom fields are considered when mapping columns during CSV import of Requestor
         :align: center
         :alt: figure 103.4
 
-**Contract Custom Fields**
+Contract Custom Fields
+----------------------
 
 Users can add Custom Contract Fields in the Contract module. Some of the use cases of having custom fields are:
 
@@ -419,7 +425,8 @@ You can view and edit values of such fields from the Custom Fields tab in the :r
      :align: center
      :alt: figure 103.5
 
-**Feedback Form**
+Feedback Form
+-------------
 
 A Feedback form captures the experience of a Requestor with the Helpdesk. A Feedback form is always specific to a particular
 Request. Using Custom fields, administrators can add more fields to capture additional information. Values captured by custom fields 
@@ -449,7 +456,8 @@ The information captured by a Feedback form is visible in the following places.
      :align: center
      :alt: figure 103.7
 
-**Purchase Custom Field**
+Purchase Custom Field
+---------------------
 
 Custom fields appear on the :ref:`Edit a PO page <Open Edit a Purchase Order Page>`.  Custom fields can be accessed from 
 **Admin** >> **Purchase Custom Fields**.

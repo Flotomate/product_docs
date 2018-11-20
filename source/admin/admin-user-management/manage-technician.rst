@@ -11,6 +11,8 @@ Technician.
 
 .. note:: Managing Technician requires you to have admin rights.
 
+.. _add-technician:
+
 Add/View Technicians
 ====================
 
@@ -61,6 +63,12 @@ Add/View Technicians
 
    g. Add the location of the Technician. Learn :ref:`how to add a
       location <location>` to the product.
+
+      .. important:: (Note that Location Authorization and Location are two different concept.)
+
+   h. The **Authorization Location** puts the technician in the location scope. The field is populated from the location list, but
+      unlike the location field above, the Authorization Location only allows the technicians to view objects (tickets, Assets, etc) for
+      the selected location and those with no location details. Learn more about :ref:`Location Scope <Data Segregation with Location Scope>`.  
 
 5. Hit **Add** to register a new Technician.
 
