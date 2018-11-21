@@ -39,7 +39,7 @@ Fresh Installation Guide :
 After installing the Base OS, follow the below steps to install the
 product on to your server:
 
-1. Copy release build installer (flotomate_master_CI) to target machine.
+1. Copy release build installer (service_desk_master_CI) to target machine.
 
 2. Make Sure you have execute permission to build file. If it does not
    have execute permission then you can change it by following command,
