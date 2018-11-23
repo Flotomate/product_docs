@@ -104,3 +104,28 @@ A user with **All** location permission can create a report and share the same w
 specific location permission try to create the report, the location filter is automatically applied. 
 
 Related Topics:  :ref:`Create a Report <Stages to Create a Custom Report>`, :ref:`Sharing a Report <Report Visibility>`.
+
+Location Specific Options in Admin
+----------------------------------
+
+A user can find location specific options in **Admin** >> **Preference** (under Users). Here one would find the following options:
+
+.. _ad-loc-2:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/location-scope/AD-LOC-2.png
+    :align: center
+    :alt: figure 2
+
+- **Allow Requesters to Report a Request with Location**: Enabling this option allows requesters (only) to choose a location
+  other than his/her own location when creating a Request from the Requesters portal. 
+
+  Relate Topic: :ref:`Creating a Request from Requester Portal <creating-a-request-1>` 
+
+- **Auto Identify Location of the Asset**: If this option is enabled then an asset is automatically assigned to a location
+  based on the Network. 
+  
+  The assignment happens during a discovery of an asset by both agent-based and agent-less method. The location
+  is assigned from the :ref:`Network List <Add a Network>`; if a discovered asset has an IP that falls in a Network with an assigned location,
+  then the location is inherited by the asset as well.
+
+  .. note:: Location details can't be fetched from a Domain Network.
+  

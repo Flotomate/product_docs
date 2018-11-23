@@ -16,7 +16,8 @@ from the Admin section.
 
 .. _view-requestor:
 
-**Open Requestors Page**
+Open Requestors Page
+====================
 
 The Requestors page is where you can add, view, update and delete
 Requestors in the product.

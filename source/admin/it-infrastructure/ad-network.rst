@@ -13,8 +13,7 @@ Adding a Network allows the product to perform the following things:
 Add a Network
 =============
 
-1. Log in to your Dashboard and head to **Admin** >> **Networks** (IT
-   Infrastructure).
+1. Log in to your Dashboard and head to **Admin** >> **Networks** (IT Infrastructure).
 
 2. Click the **Create a Network** icon situated in the top right corner
    of the page. Create a Network dialog box opens.
@@ -33,7 +32,9 @@ Add a Network
 
 4. You can associate the Network to a department.
 
-5. Add a Domain Network Type:
+5. You can associate the Network (works with IP range only) with a location. <WIP>
+
+6. Add a Domain Network Type:
    We have two Domain Network Types to select from:
 
     a. Domain Network:
@@ -69,7 +70,7 @@ Add a Network
         |                                   | IPs.                              |
         +-----------------------------------+-----------------------------------+
 
-6. Type in a description and protocol type (if IP Range is selected).
+7. Type in a description and protocol type (if IP Range is selected).
 
     a. We have two protocols to select from:
 
@@ -84,7 +85,7 @@ Add a Network
         |    for asset Discovery to work.   |                                   |
         +-----------------------------------+-----------------------------------+
 
-7. Add the necessary credentials from the credential list, or you can create new credentials using the
+8. Add the necessary credentials from the credential list, or you can create new credentials using the
    **Add New Credential** option in :numref:`adf-69`. When you are done hit **Create**.
 
 **Edit/Delete Network**

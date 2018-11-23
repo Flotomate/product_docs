@@ -37,7 +37,21 @@ A Requester can only link Assets that are :ref:`Used By <Classifying Assets>` hi
     :align: center
     :alt: figure 28.1
 
+**Allow Requesters to Report a Request with Location**: :ref:`Learn More <Location Specific Options in Admin>` 
+
 **Allow Technician for Do Not Disturb mode:**
 
 Turning this option allows Technicians to globally mark them unavailable for assignment of Request tickets through Auto Assignment. 
 This option is only available on the Technician portal. Learn more about :ref:`Technician Profile <pro-edit-profile>`. 
+
+**Auto Identify User of the Asset**: 
+
+Enabling this option allows the system to automatically assign an asset to a requester based on the Logon Name provided in the
+system. The Logon Name is the workstation username which is provided when registering a requester. When an asset is discovered, it is matched
+with a requester using the Logon Name. You can find the username in Windows 10 from Control Panel >> User Accounts.
+
+Related Topics: :ref:`Adding a Requester <Add Requestors Individually>`.
+
+.. note:: Technicians are by default requesters, and you can configure the Logon Name there. 
+
+**Auto Identify Location of the Asset**: :ref:`Learn More <Location Specific Options in Admin>`

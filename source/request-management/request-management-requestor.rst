@@ -58,6 +58,7 @@ Request Subject, email body becomes the Request Description, and any
 attachments become the Request attachment.
 
 .. _request-list-view-1:
+
 Request List View
 =================
 
@@ -97,6 +98,7 @@ To access Request List View
        visible per page; the highest is 100 per page.
 
 .. _searching-request-1:
+
 Searching Request
 =================
 
@@ -115,6 +117,7 @@ There are two broad ways to search requests:
     :alt: figure 81
 
 .. _request-details-view-1:
+
 Request Details View
 ====================
 
@@ -143,6 +146,7 @@ and has access to the details of the Request.
        :ref:`Edit <editing-subject-and-description>`.
 
 .. _classify-requests-1:
+
 Classify Requests
 =================
 
