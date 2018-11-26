@@ -206,6 +206,8 @@ A person with :ref:`Knowledge rights <Technician Roles>` can create articles and
 draft, the drafted content shows in the My Drafts folder (**Knowledge** >> **Browse Articles**) of his account. The content will also
 be visible in the :ref:`folder <Adding a Folder>` which was selected while creating the content. 
 
+.. note:: The visibility of a drafted Article to other users depends on the :ref:`visibility settings <Knowledge Permissions>` set by the author.
+
 .. _kbf-18.1:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/knowledge-management/KB-18.1.png
     :align: center

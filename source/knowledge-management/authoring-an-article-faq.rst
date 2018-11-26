@@ -47,15 +47,15 @@ To write an Article/FAQ:
         :alt: figure 4.2
 
 
-   .. note:: Managing Knowledge content requires Knowledge rights.
+   .. note:: Creating Knowledge content requires :ref:`Create Knowledge<Technician Roles>` right.
 
-   .. note:: Please refer to :numref:`kbf-4.1`.
+   .. note:: Please refer to :numref:`kbf-4.2`.
 
-4. In section-A (:numref:`kbf-4`), you add a title to the Article (Question in
+4. In section-A (:numref:`kbf-4.2`), you add a title to the Article (Question in
    case of an FAQ). A suitable title should convey the purpose of the
    Article using searchable keywords.
 
-5. In section-B (:numref:`kbf-4`), you get to define the following things:
+5. In section-B (:numref:`kbf-4.2`), you get to define the following things:
 
     a. **Folder Name**: This is a required field. An Article/FAQ has to
        reside in a folder, and users create all the folders in Knowledge.
@@ -72,7 +72,7 @@ To write an Article/FAQ:
 
 
     b. **Visibility**: This is a required field in the sense that it can’t
-       be left empty. You get three visibility options; you have to select
+       be left empty. You get two visibility options; you have to select
        one:
 
         .. _kbf-6:
@@ -82,13 +82,10 @@ To write an Article/FAQ:
 
         i. **Public**: The Article/FAQ is visible to everyone on both the
            Customer and Technician Portal. On the Customer Portal, anyone can
-           view the Article/FAQ without logged in.
+           view the Article/FAQ without logged in. Learn more about :ref:`public view permission`.
 
-        ii. **Within Customer Portal**: The Article/FAQ is visible on the
-            Customer Portal to log in users and the Technician Portal.
-
-        iii. **Within Technician Portal**: As the name suggests, the Article/FAQ
-             is visible only on the Technician Porta to log in users.
+        ii. **Private**: The Article/FAQ will be visible to the owner and the super-admin by default. The owner can set a 
+            different read permission if he/she wants. Learn more about :ref:`private view permission`. 
 
     c. **Tags**: Here you add tags to the Article/FAQ. Using tags, you can
        add keywords to make it more searchable.
@@ -144,9 +141,13 @@ To write an Article/FAQ:
    the body.
 
 8. The first step towards publishing an Article is to save it as a draft
-   (section-F). A drafted Article is visible to people having Knowledge
-   rights. You can’t put an FAQ in the draft; you have to publish it
-   directly.
+   (section-F). A drafted Article is visible to technicians (on technician portal) with:
+
+   - Write permission when the Article is private. Public drafted articles are visible to all technician cum requesters.
+
+   .. note:: A super admin can see all drafted articles doesn’t matter whether they are private or public.
+
+   - Knowledge view rights (:ref:`Learn More <Technician Roles>`).
 
    The moment you draft your Article, a Publish button appears. If you
    don’t want to publish it immediately, then you can open the drafted
@@ -154,8 +155,11 @@ To write an Article/FAQ:
    long as the Article is in the draft. Learn more about :doc:`Publishing
    Drafted Article <publishing-a-drafted-article>`.
 
+   .. note:: Only the owner can publish a drafted article.
+
    Section-F also houses the back button that takes you to the previous
-   page.
+   page. Other than the back button, you have the :ref:`Permissions <Knowledge Permissions>` option
+   to set the permissions for the selected  visibility.
 
    Once you are done with your Article/FAQ, save it as a draft and
    :doc:`publish <publishing-a-drafted-article>` it later or immediately.

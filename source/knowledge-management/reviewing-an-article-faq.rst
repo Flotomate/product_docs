@@ -267,8 +267,10 @@ To View Audit Trail:
     :align: center
     :alt: figure 31
 
-Change Visibility
-=================
+.. _Change Visibility:
+
+Change Visibility and Permissions
+=================================
 
 You can decide who can see an Article/FAQ by changing the Visibility
 settings. You can change this setting for both drafted and publish
@@ -285,5 +287,18 @@ To change Visibility:
     :align: center
     :alt: figure 32
 
+.. _kbf-32.1:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/knowledge-management/KB-32.1.png
+    :align: center
+    :alt: figure 32.1
+
 -  Select any one option from the pop-up menu. Know more about the
    :doc:`options <authoring-an-article-faq>`.
+
+- Based on the Visibility option selected, you also have to set the permission which will give editing and viewing rights to other
+  users. 
+
+.. _kbf-32.1:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/knowledge-management/KB-32.1.png
+    :align: center
+    :alt: figure 32.1

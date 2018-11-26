@@ -105,6 +105,13 @@ specific location permission try to create the report, the location filter is au
 
 Related Topics:  :ref:`Create a Report <Stages to Create a Custom Report>`, :ref:`Sharing a Report <Report Visibility>`.
 
+Location Scope for Approval
+---------------------------
+
+An approver of an approval won't be able to see the approval (in the technician portal) if the ticket/CI (for which the approval has been sought) has
+a location which he/she is not assigned. As an requester (logged into the requester portal), he/she can view the approval and 
+other approvals of all locations. 
+
 Location Specific Options in Admin
 ----------------------------------
 

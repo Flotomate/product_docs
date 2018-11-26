@@ -32,7 +32,9 @@ Add a Network
 
 4. You can associate the Network to a department.
 
-5. You can associate the Network (works with IP range only) with a location. <WIP>
+5. You can associate the Network (works with IP range only) with a location. When an asset is discovered, if the IP of the asset
+   falls in a network associated with a location, then the asset also inherits the location details. An asset assigned to a location
+   will be visible to the technicians assigned to that location. :ref:`Learn more <Location Scope in Asset Management>`. 
 
 6. Add a Domain Network Type:
    We have two Domain Network Types to select from:

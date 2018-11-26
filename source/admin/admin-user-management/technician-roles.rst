@@ -90,7 +90,8 @@ Add/View Roles
     |           |                                                  |
     |           | -  Cancel a Project                              |
     +-----------+--------------------------------------------------+
-    | Knowledge | -  Create, update and delete Knowledge.          |
+    | Knowledge | -  Create, update, manage folders,               |
+    |           |    and archive folder.                           |
     +-----------+--------------------------------------------------+
     | Request   | -  View, create, update and delete a Request.    |
     |           |                                                  |
