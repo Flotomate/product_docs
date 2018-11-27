@@ -33,7 +33,7 @@ Installing Flotomate File Server
 Prerequisite
 ------------
 
-- Separate Linux server for File Server installation.
+- Separate Ubuntu Linux server for File Server installation.
 - You need ubuntu-16.04.1 desktop OS to run. 
 
   Minimum Hardware Requirement:

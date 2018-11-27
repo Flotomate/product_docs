@@ -1,26 +1,28 @@
-.. _Linux Agent Installation Guide:
+.. _Ubuntu Linux Agent Installation Guide:
 
 *********************************************
-Linux Agent Installation/Uninstallation Guide
+Ubuntu Linux Agent Installation/Uninstallation Guide
 *********************************************
 
-Describes Installation Steps for Flotomate Linux Agent-2.7.0
+Describes Installation Steps for Flotomate Ubuntu Linux Agent-2.7.0
 
 System Requirement :
 ====================
 
 **Target Machine OS**: 
 
-- Linux (64bit).
+- Ubuntu (64bit).
 
-.. note:: Currently we have only tested the Linux Agent in Ubuntu 16.04.
+.. note:: Currently we have only tested the Ubuntu Linux Agent in Ubuntu 16.04.
 
 **Installation Links**
 
-Linux(64bit): `Click Here <https://s3.ap-south-1.amazonaws.com/flotomate-customer-releases/latest/agent/linux/x64/agent>`_
+Ubuntu Linux(64bit): `Click Here <https://s3.ap-south-1.amazonaws.com/flotomate-customer-releases/latest/agent/linux/x64/agent>`_
 
-Installation in Linux
-=====================
+.. _Installation in Ubuntu Linux:
+
+Installation in Ubuntu
+======================
 
 1. Download the latest agent file from the given link.
 
@@ -57,7 +59,9 @@ Installation in Linux
     :align: center
     :alt: figure 8   
 
-Uninstall Linux Agent
+.. _Uninstall Ubuntu Linux Agent:
+
+Uninstall Ubuntu Linux Agent
 ---------------------
 
 Open Terminal and follow the below mentioned commands:

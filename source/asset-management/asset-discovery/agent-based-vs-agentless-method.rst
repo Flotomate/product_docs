@@ -50,7 +50,7 @@ between Agent-Based and Agentless scanning:
 |                       | Agent-Based scanning  | setup, the product    |
 |                       | supports the          | scans Assets that     |
 |                       | Discovery of Windows  |                       |
-|                       | and Linux machines.   | following credential  |
+|                       | and Ubuntu machines.  | following credential  |
 |                       |                       | types:                |
 |                       |                       |                       |
 |                       |                       | -  WMI (Windows       |

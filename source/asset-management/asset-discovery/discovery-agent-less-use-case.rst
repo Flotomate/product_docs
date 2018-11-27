@@ -13,7 +13,7 @@ We have the following Assets in the network that we want to discover:
 
 - Three Windows workstations in a domain.
 
-- One Linux workstation.
+- One Ubuntu Linux workstation.
 
 - An SNMP enabled router.
 
@@ -37,7 +37,7 @@ necessary data. We have the following credentials to add:
 
    Password: Mind@launch
 
--  **Linux Machine**:
+-  **Ubuntu Linux Machine**:
 
    Domain Username = discovery
 
@@ -66,7 +66,7 @@ credentials:
 
 -  WMI for Windows machines
 
--  SSH for the Linux machine
+-  SSH for the Ubuntu Linux machine
 
 -  SNMP for the router.
 

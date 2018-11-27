@@ -229,7 +229,7 @@ progress status in the **Discovery** tab:
 
 -  **Windows Nodes**: Out of total Up Nodes how many are Windows nodes.
 
--  **Linux Nodes**: Out of total Up Nodes how many are Linux nodes.
+-  **Ubuntu Linux Nodes**: Out of total Up Nodes how many are Ubuntu Linux nodes.
 
 -  **SNMP Nodes**: Out of total Up Nodes how many are SNMP nodes.
 

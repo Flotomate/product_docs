@@ -56,7 +56,7 @@ Uploading a New Agent Application File (Step 1)
 
     b. Version of the Agent installation file.
 
-    c. Supported OS platform of the Application file (either Windows or Linux).
+    c. Supported OS platform of the Application file (either Windows or Ubuntu).
 
     d. Supported architecture either 32bit or 64bit.
 

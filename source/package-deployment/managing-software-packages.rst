@@ -7,13 +7,13 @@ the system. A Package/Registry Configuration has to be manually added to the Dep
 it can be attached to a Deployment Request.
 
 Whatever Packages/Registry Configurations you add, they all appear on the :doc:`Deployment List View <package-registry-list-view>` 
-(either in Windows Packages, Linux Packages or Windows Registry). 
+(either in Windows Packages, Ubuntu Linux Packages or Windows Registry). 
 After adding, you can modify a Package/Registry Configuration details and also delete them.
 
 Adding a Software Package
 =========================
 
-1. Go to the :doc:`Package List View <package-registry-list-view>` (either Windows or Linux).
+1. Go to the :doc:`Package List View <package-registry-list-view>` (either Windows or Ubuntu Linux).
 
 2. Click on the **Add Software Package** button situated in the top
    right corner.
@@ -30,7 +30,7 @@ Adding a Software Package
       The best practice is to type the name of the Software.
 
    b. **Platform (Compulsory Field)**: Select the OS on which the package
-      runs. Here you get a predefined list containing Windows and Linux.
+      runs. Here you get a predefined list containing Windows and Ubuntu Linux.
 
    c. **Silent Installation Argument**: :ref:`Learn More <Silent Installation of a Software>`. 
 
@@ -68,7 +68,7 @@ Adding a Software Package
    You can add additional arguments controlling install and uninstall behavior of the package; they are:
 
    a. :ref:`MSI File Parameter`
-   b. :ref:`Parameters of Other Files (EXE/Linux)` 
+   b. :ref:`Parameters of Other Files (EXE/Ubuntu Linux)` 
         
    Fill in the fields and click **Add**. Now you have successfully added a
    Package, and it now appears on the :doc:`Package List View <package-registry-list-view>`.
@@ -98,7 +98,7 @@ When uploading a MSI file you can attach/add additional files and arguments to c
     :align: center
     :alt: figure 26.2  
 
-Parameters for Other Files (EXE/Linux)
+Parameters for Other Files (EXE/Ubuntu Linux)
 --------------------------------------
 
 .. _spf-26.3:
