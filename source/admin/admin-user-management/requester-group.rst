@@ -39,6 +39,9 @@ Add a Requestor Group
    **Select a Parameter** field based on that Requestors are added
    automatically. You can set conditions based on three criteria:
 
+   .. Important:: If the logged in admin has limited location permissions then he/she won't be able to select requesters outside his/her
+                  location scope. :ref:`Learn more <Data Segregation with Location Scope>`.
+
     +----------------------+----------------------------------+
     | Requestor Department | Department info from LDAP server |
     +----------------------+----------------------------------+

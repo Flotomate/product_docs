@@ -42,6 +42,8 @@ Create a New Technical Group
 -  In the new dialog box, give the group a name, description and add the
    technicians in the Users field.
 
+   .. note:: Technician list will be filtered based on location. :ref:`Learn more <Data Segregation with Location Scope>`.
+
 -  Click on **Create** to create the group.
 
 Modify Technician Group

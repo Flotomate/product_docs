@@ -17,7 +17,8 @@ Create a Scenario
 
 .. note:: The operations requires admin rights. 
 
-We are going to create a scenario that assigns a Problem ticket to a particular technician having the tag **Server** and Priority: **High**.
+We are going to create a scenario that assigns a Problem  
+ticket to a particular technician having the tag **Server** and Priority: **High**.
 
 -  We go to **Admin** >> **Scenario** (Automation).
 
@@ -29,6 +30,8 @@ We are going to create a scenario that assigns a Problem ticket to a particular 
 - In the scenario page, we can view existing scenarios. We can filter scenarios by module and search them using a keyword.
 
 - Click on **Create a Scenario** situated in the top tight corner of the page. 
+
+.. note:: Fields are same for all modules.
 
 - In the create page, you can input the following:
 
@@ -42,6 +45,8 @@ We are going to create a scenario that assigns a Problem ticket to a particular 
   b. Module of the scenario.
 
   c. Define an access level:
+
+     .. note:: A user can only see technicians of location which he/she has :ref:`permission <Data Segregation with Location Scope>`.
 
      i. **Technicians Access Level**: Grant access to specific technicians to use the scenario.
      ii. **Technicians Group Access Level**: Grant access to group.groups.
@@ -64,7 +69,7 @@ We are going to create a scenario that assigns a Problem ticket to a particular 
         :align: center
         :alt: figure 2
 
-- We click **Create** to save the scenario.
+- We click **Create** to save the scenario. Likewise, you can create scenarios for other modules as well.
 
 An admin can enable & disable a scenario from the Scenario page. He can also edit a scenario. 
 
@@ -74,7 +79,7 @@ Enforcing a Scenario
 A technician can enforce a scenario on a ticket from its details view. When a scenario is enforced, the system checks whether 
 the ticket fulfills the scenario conditions; if it fulfills then the scenario implements its actions.
 
-.. note:: :ref:`Request Details View`, :ref:`Problem Details View` and :ref:`Change Details View`.
+.. note:: Learn how to access :ref:`Request Details View`, :ref:`Problem Details View` and :ref:`Change Details View`.
 
 **Follow the steps to enforce a scenario:**
 

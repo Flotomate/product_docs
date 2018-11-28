@@ -26,20 +26,14 @@ In this section, we will show you how it is used by Requestors in creating on-bo
 A person from the HR dept has initiated the on-boarding process of a new employee in the Marketing dept. 
 Now he wants to create the credentials for the new employee. He goes to the Customer Portal to use a Service Item.
 
-- He logs into the Customer Portal and goes to the **My Request** section.
+- He logs into the Customer Portal and clicks on **Service Catalog**.
 
 .. _scf-25:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/service-catalog/SC-25.png
       :align: center
       :alt: figure 25
 
-.. _scf-26:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/service-catalog/SC-26.png
-      :align: center
-      :alt: figure 26
-
-- From the Quick Create button, he opens the Service Catalog. He clicks the Human Resource category and
-  selects the **Employee On-Boarding (Marketing)** item.
+-  He clicks the Human Resource category and selects the **Employee On-Boarding (Marketing)** item.
 
 .. _scf-27:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/service-catalog/SC-27.png
@@ -53,12 +47,19 @@ Now he wants to create the credentials for the new employee. He goes to the Cust
       :align: center
       :alt: figure 28
 
-A Request is created on the Technician Portal where a Technician is assigned based on the defined Workflow.
+A Request is created on the Technician Portal where a Technician is assigned based on the defined Workflow. 
 
 .. _scf-29:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/service-catalog/SC-29.png
       :align: center
       :alt: figure 29
+
+The request will have Source: Service Catalog.
+
+.. _scf-26:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/service-catalog/SC-26.png
+      :align: center
+      :alt: figure 26
 
 A Technician can also access and use the Service Catalog from the Technician Portal.
 

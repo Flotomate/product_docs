@@ -219,6 +219,8 @@ Enabling SLA Monitoring
 
      SLA-Performance = (Violated Ticket by SLA  * 100 )/ (Qualified SLA Compliant Tickets + Violated Tickets by SLA)
 
+     .. note:: SLA-Performance is calculated everyday at 11:00 PM. The server time is considered here. 
+
      When compliance level of a ticket is below the penalty level then it becomes non-compliant.
 
   b. **Penalty Points and Penalty Compliance Level for**: The penalty points tell how many points to subtract when SLA
