@@ -6,4 +6,5 @@ FAQ
     
    error-dot-net-framework
    dhcp-error
+   elastic-search-not-working-ha
      

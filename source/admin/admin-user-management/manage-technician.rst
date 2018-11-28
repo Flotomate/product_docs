@@ -62,13 +62,31 @@ Add/View Technicians
       is not a mandatory field.
 
    g. Add the location of the Technician. Learn :ref:`how to add a
-      location <location>` to the product.
+      location <location>` to the product. Adding location here will put the technician in a location scope as a requester. 
 
       .. important:: (Note that Location Authorization and Location are two different concept.)
 
    h. The **Authorization Location** puts the technician in the location scope. The field is populated from the location list, but
       unlike the location field above, the Authorization Location only allows the technicians to view objects (tickets, Assets, etc) for
-      the selected location and those with no location details. Learn more about :ref:`Location Scope <Data Segregation with Location Scope>`.  
+      the selected location and those with no location details. Learn more about :ref:`Location Scope <Data Segregation with Location Scope>`. 
+
+   i. You can further filter what the technician can view using the Access Level control. You can assign three types of access level.
+
+      .. _adf-24.1:
+      .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-24.1.png
+            :align: center
+            :alt: figure 24.1
+
+      i. **Global Access**: Assigns location specific rights as per :ref:`Location Scope <Data Segregation with Location Scope>`.
+
+      ii. **Group Access**: This puts an additional restriction on top of Global Access. A technician with Group Access permission
+          will be able to see only Requests tickets with unassigned Technician Group, and if assigned, then he/she has to be
+          part of the group in order to see the tickets.
+
+      iii. **Restricted Access**: This puts an additional restriction on top of Global Access. Technicians with this permission 
+           won't be able to view and create Request tickets.
+
+      Learn about a :ref:`use case <Creating a HR Technician Using Authorization>` on using Authorization for technicians.
 
 5. Hit **Add** to register a new Technician.
 

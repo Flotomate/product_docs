@@ -28,7 +28,7 @@ When a content is in edit mode, the author can add a permission from the Permiss
 Types of Permissions
 --------------------
 
-1. **View Permission**: In a private Article/FAQ the author can explicitly mention who can view the content. He/she 
+1. **Read Permission**: In a private Article/FAQ the author can explicitly mention who can view the content. He/she 
    can select individual requesters and also requester groups. In a public content every requester has the view right.
 
 .. _kb-pub-2:
@@ -44,4 +44,3 @@ Types of Permissions
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/knowledge-management/permission/KB-PUB-3.png
     :align: center
     :alt: figure 3
-

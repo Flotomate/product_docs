@@ -197,6 +197,9 @@ How to Maintain Database Replication When Master is Down
 In an event when Master shuts down, the Slave becomes active and becomes
 the Master with all data from the last point of recovery at Master.
 
+.. important:: It may happen that elastic search might not work in Slave server. 
+               :ref:`Learn how to resolve this problem <Elastic Search not Working After Slave Becomes Master in a HA Setup.>`. 
+
 The Slave becomes the new Master and the old Master stays idle. In order
 to maintain HA of service and DB replication (for data recovery) an
 Admin as to convert the old Master into the new Slave. Now the admin
