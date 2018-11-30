@@ -73,7 +73,7 @@ that restricts access to  particular technician/technicians or group/groups.
 - Create a template for a specific kind of tickets.
 - Automate the handling of recurring scenarios.
 
-You can also create a specific scenario for a :ref:`Service Catalog <Service Catalog Workflow>`item. 
+You can also create a specific scenario for a :ref:`Service Catalog <Service Catalog Workflow>` item. 
 :ref:`Learn more <Create a Scenario>`. 
 
 Related Guides:
