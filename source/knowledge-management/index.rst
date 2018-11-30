@@ -11,6 +11,7 @@ Knowledge Management
    publishing-a-drafted-article
    categorizing-article-faq
    reviewing-an-article-faq
+   kb-permission
    sharing-an-article-faq
    print-an-article-faq
    trashing-an-article-faq

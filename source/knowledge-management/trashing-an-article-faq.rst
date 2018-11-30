@@ -27,8 +27,12 @@ To delete an Article/FAQ:
 Published Articles/FAQs are sent to the Trash first, and from there you
 can delete them permanently. Drafted Articles are directly deleted.
 
+.. note:: When deleting a folder all content goes to the trash except the drafted ones. 
+
 Restoring Deleted Articles/FAQs
 ===============================
+
+.. note:: who can view what content in the trash is decided by the :ref:`permission settings <Knowledge Permissions>` of each content (Articles/FAQs). 
 
 You can restore a deleted Article/FAQ in the following way:
 

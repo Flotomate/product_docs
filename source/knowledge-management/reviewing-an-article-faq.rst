@@ -15,6 +15,7 @@ full view. You can search and open any Article/FAQ from the
     :alt: figure 19
 
 .. _kb-comment:
+
 Comment
 =======
 
@@ -58,10 +59,11 @@ can resolve a comment.
    resolve. The comment disappears when it is resolved.
 
 .. _kb-approval:
+
 Approval
 ========
 
-In case there is a :doc:`custom rule <kb-custom-publish-rule>`, then you have
+In case there is a :ref:`custom rule <Custom Publish Rule>`, then you have
 to make every drafted Article go through an Approval process before
 publishing it. In an Approval process, you seek approval from an
 approver/approvers.
@@ -80,8 +82,7 @@ Initiating Approval Process:
     :align: center
     :alt: figure 21
 
--  Approval details dialog box opens. Clicking on **Ask for Approva**\ l
-   initiates the Approval process
+-  Approval details dialog box opens. Clicking on **Ask for Approval** initiates the Approval process
 
 Different States in an Approval Process
 ---------------------------------------
@@ -97,14 +98,34 @@ Different States in an Approval Process
 Approval Process:
 -----------------
 
+.. note:: An assigned Technician can initiate an Approval process for n number of times. At the start of each process, the 
+          Article will start from the Pending status. 
+
+-  An Approval can be initiated manually or automatically by an Approval Workflow. When the :ref:`manual approval option <Allow Manual Approval>` 
+   is turned on, you get the following dialog box when you click on **Ask for Approval**.
+
+    .. _kbf-21.1:
+    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/knowledge-management/KB-21.1.png
+        :align: center
+        :alt: figure 21.1  
+
+   When you create a manual approval, the system also checks for Approval workflows. Incase a workflow is triggered,
+   both the manual approval and an automatic Approval are created. You can skip manual approval altogether using the 
+   **Skip** button. 
+
 -  When an Approval process is initiated, first the system checks for
-   available Approval Workflows. If there are no workflows, then the
+   available Approval Workflows. If there are no workflows and no manual approval, then the
    drafted Article is Pre-Approved, and you can proceed with publishing.
-   If there is a workflow, then based on its set conditions
-   approver/approvers are auto-assigned for approval.
+   If there is a workflow or a manual approval, then based on its set conditions
+   approver/approvers are auto-assigned/assigned for approval.
 
 -  You can view all the approvers and their comments in the Approval
    details dialog box.
+
+    .. _kbf-21.2:
+    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/knowledge-management/KB-21.2.png
+        :align: center
+        :alt: figure 21.2
 
     .. _kbf-22:
     .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/knowledge-management/KB-22.png
@@ -160,8 +181,8 @@ Approval Process:
 
 -  On success, the Approval moves to the Approved stage where the author
    can publish the draft. On failure, the Approval moves to the Reject
-   stage where the author has to reinitiate the Approval process. The
-   author reinitiates an Approval process using the Re-Approve option.
+   stage where the author has to re-initiate the Approval process. The
+   author re-initiates an Approval process using the Re-Approve option or by starting a fresh approval using the **Ask for Approval** option.
 
 .. _kbf-26:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/knowledge-management/KB-26.png
@@ -185,6 +206,12 @@ Approval Process:
 
 -  Throughout the Approval stage, no one can modify the folder of the
    Article.
+
+Related Topics:
+
+-  :ref:`Understanding Approval Workflow`
+-  :ref:`Creating an Approval Workflow`
+-  :ref:`Allow Manual Approval`   
 
 Linked Events
 =============
@@ -240,8 +267,10 @@ To View Audit Trail:
     :align: center
     :alt: figure 31
 
-Change Visibility
-=================
+.. _Change Visibility:
+
+Change Visibility and Permissions
+=================================
 
 You can decide who can see an Article/FAQ by changing the Visibility
 settings. You can change this setting for both drafted and publish
@@ -258,5 +287,18 @@ To change Visibility:
     :align: center
     :alt: figure 32
 
+.. _kbf-32.1:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/knowledge-management/KB-32.1.png
+    :align: center
+    :alt: figure 32.1
+
 -  Select any one option from the pop-up menu. Know more about the
    :doc:`options <authoring-an-article-faq>`.
+
+- Based on the Visibility option selected, you also have to set the permission which will give editing and viewing rights to other
+  users. 
+
+.. _kbf-32.1:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/knowledge-management/KB-32.1.png
+    :align: center
+    :alt: figure 32.1

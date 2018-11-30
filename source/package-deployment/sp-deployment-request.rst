@@ -73,7 +73,7 @@ create a deployment request:
            of the placeholder.
 
         ii. **Platform**: Select the platform for which you are deploying
-            Package/Packages. Currently, we support only Windows and Linux.
+            Package/Packages. Currently, we support only Windows and Ubuntu Linux.
             For a Registry Request, the default platform is Windows.  
 
         iii. **Deployment Action**:  It shows whether the deployment is for install or uninstall of Packages. This info is missing
@@ -195,7 +195,7 @@ Our tool allows you to select a Package/Packages/Registry/Registries from the Li
 directly and deploy them.
 
 1. Go to the :doc:`List View <package-registry-list-view>` of
-   either Windows, Linux or Windows Registry.
+   either Windows, Ubuntu Linux or Windows Registry.
 
 2. Select Package/Packages/Registry/Registries from the list area. A **Deploy** button
    appears above the list area.
@@ -404,7 +404,7 @@ predefined values. You can create conditions using multiple options.
 Between two different conditions of the same option type OR logic is
 followed. Between different types AND logic is observed. An example of
 same option type contradiction is Platform equals Windows vs. Platform
-equals Linux.
+equals Ubuntu Linux.
 
 .. _spf-51:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/software-package-deployment/SP-51.png

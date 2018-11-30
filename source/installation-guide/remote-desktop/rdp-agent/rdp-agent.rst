@@ -11,7 +11,7 @@ Minimum System Requirement:
 
 -  Windows 7 and above for Windows Agent.
 
--  Ubuntu 16 and above for Linux Agent.
+-  Ubuntu 16 and above for Ubuntu Linux Agent.
 
 **Hardware Requirement:**
 
@@ -30,9 +30,9 @@ You can download the RDP Agent (Windows) from the below link:
 
 https://s3.ap-south-1.amazonaws.com/flotomate-customer-releases/latest/rdp+server/windows/RDP+Agent.exe
 
-**Linux 64-bit**:
+**Ubuntu Linux 64-bit**:
 
-You can download the RDP Agent (Linux) from the below link:
+You can download the RDP Agent (Ubuntu Linux) from the below link:
 
 https://s3.ap-south-1.amazonaws.com/flotomate-customer-releases/latest/rdp+server/linux/agent_rdp
 

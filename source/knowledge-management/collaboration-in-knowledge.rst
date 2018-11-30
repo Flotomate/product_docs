@@ -3,6 +3,7 @@ Collaboration in Knowledge
 **************************
 
 .. _kb-using-sections:
+
 Using Sections
 ==============
 
@@ -44,6 +45,7 @@ In conjunction with :ref:`draft <kb-draft>` and :doc:`comment <reviewing-an-arti
 sections can make collaboration more scalable.
 
 .. _kb-draft:
+
 Draft
 =====
 
@@ -55,14 +57,14 @@ Draft. In addition to that, dividing the content into
 example, a collaboration between three people (A, B & C) can play out in
 the following way.
 
--  A starts an Article and saves it as a Draft.
+-  A starts an private Article and saves it as a Draft and gives edit :ref:`permission <Knowledge Permissions>` to B and C.
 
 .. _kbf-54:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/knowledge-management/KB-54.png
     :align: center
     :alt: figure 54
 
--  The drafted Article is visible to everyone with view rights in the
+-  The drafted Article is visible to B and C because they have edit rights in the
    Technician Portal. B opens the drafted Article in :doc:`edit
    mode <modifying-a-knowledge-article-faq>` and makes his
    contribution, and publishes it.

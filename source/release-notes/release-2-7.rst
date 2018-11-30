@@ -142,7 +142,7 @@ Our revamped Remote Desktop Automation now supports the following:
 -  A Package can be deployed and Install as "Run As System User" or "Run
    as Current User".
 
--  Linux patches are supported via manual upload.
+-  Ubuntu Linux patches are supported via manual upload.
 
 -  Both Patch & Package Support Installation & Uninstallation.
 

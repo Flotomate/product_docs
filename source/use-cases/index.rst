@@ -5,3 +5,4 @@ ITSM Use Cases
    :maxdepth: 3
 
    change-management/index
+   admin/index

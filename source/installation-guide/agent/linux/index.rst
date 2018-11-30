@@ -1,4 +1,4 @@
-Linux Agent Installation Guide
+Ubuntu Linux Agent Installation Guide
 ==============================
 
 .. toctree::

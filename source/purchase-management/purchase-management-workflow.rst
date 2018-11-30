@@ -6,6 +6,7 @@ Purchase in an organization is a multi-stage process involving multiple parties 
 all purchase functions by using a defined workflow. The Flotomate Purchase Management workflow is as follows:
 
 .. _pur-1:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/purchase-management/PUR-1.png
     :align: center
     :alt: figure 1

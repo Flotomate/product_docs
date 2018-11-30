@@ -55,6 +55,7 @@ You can also access the Select Folder dialog box when you open an
 Article/FAQ and change the folder.
 
 .. _kb-changing-folder:
+
 Changing Folder
 ===============
 
@@ -197,3 +198,27 @@ To add/delete tags:
     :alt: figure 18
 
 -  You can delete existing tags by clicking on the cross icon.
+
+My Drafts
+=========
+
+A person with :ref:`Knowledge rights <Technician Roles>` can create articles and FAQs. When he creates a content and saves it as 
+draft, the drafted content shows in the My Drafts folder (**Knowledge** >> **Browse Articles**) of his account. The content will also
+be visible in the :ref:`folder <Adding a Folder>` which was selected while creating the content. 
+
+.. note:: The visibility of a drafted Article to other users depends on the :ref:`visibility settings <Knowledge Permissions>` set by the author.
+
+.. _kbf-18.1:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/knowledge-management/KB-18.1.png
+    :align: center
+    :alt: figure 18.1
+
+Other users cannot view the content in their My Drafts, but they can edit the content from the content's folder. 
+
+.. _kbf-18.2:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/knowledge-management/KB-18.2.png
+    :align: center
+    :alt: figure 18.2
+
+Once the content is published, it will disappear from the My Drafts folder. It will again appear in the My Drafts folder
+of the user who puts it again in draft mode first. 

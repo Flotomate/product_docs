@@ -13,11 +13,11 @@ There are two broad ways to search in the Deployment :doc:`List View <package-re
 Search Bar
 ==========
 
-The way the search bar works is same for Windows and Linux Package List
+The way the search bar works is same for Windows and Ubuntu Linux Package List
 View. The search bar in the Windows Registry view is different.
 
 The :doc:`Package/Registry List View <package-registry-list-view>` has a
-search bar. The search bar (for Windows and Linux Package List View)
+search bar. The search bar (for Windows and Ubuntu Linux Package List View)
 supports the Advanced Search feature where you get a set of predefined
 search options to narrow down your searches. If you want to see all the
 available options, then click on the search box. You can select a single
@@ -106,7 +106,7 @@ Filters
 There are three primary filters available to sort packages and registry
 templates in the product:
 
--  You can isolate packages for Windows and Linux from the Packages List View, and registry
+-  You can isolate packages for Windows and Ubuntu Linux from the Packages List View, and registry
    templates from the Package Menu. You can access the Package Menu from
    the :doc:`Launcher icon <package-registry-list-view>`.
 

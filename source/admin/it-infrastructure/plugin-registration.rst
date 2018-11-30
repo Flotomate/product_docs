@@ -18,6 +18,7 @@ dependencies and makes it available for execution.
 2. Click on **Register New Plugin** situated in the top right corner.
 
 .. _ad-plg-1:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-PLG-1.png
     :align: center
     :alt: figure 1

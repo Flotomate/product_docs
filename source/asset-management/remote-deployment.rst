@@ -9,7 +9,7 @@ application.
 
 You can remotely connect and control workstations in the CMDB using our
 Agent application. Currently Remote Desktop works on workstations having
-either Windows or Linux (Ubuntu OS) and brought in by an Agent.
+either Windows or Ubuntu Linux (Ubuntu OS) and brought in by an Agent.
 
 Perquisite
 ==========

@@ -148,7 +148,7 @@ To understand this pane, you need to understand two views:
      ii. Top five helpful Articles/FAQs based on the feedback from the
          readers.
 
-     iii. Most searched keywords on the Homepage’s search bar.
+     iii. Most searched keywords on all portals combined.
 
 -  **Folder View**: You get this view when you open a folder (the view
    is same for Trash). The view comprises of two main sections:

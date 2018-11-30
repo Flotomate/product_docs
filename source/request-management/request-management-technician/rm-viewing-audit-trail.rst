@@ -1,4 +1,5 @@
 .. _rm-viewing-audit-trail:
+
 *******************
 Viewing Audit Trail
 *******************

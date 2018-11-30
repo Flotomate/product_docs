@@ -146,7 +146,7 @@ Between two different conditions of the same option type OR logic is
 followed. Between different types AND logic is observed. Between
 keywords, and keywords and conditions AND logic is followed. An example
 of same option type contradiction is OS Name contains Windows vs. OS
-Name contains Linux.
+Name contains Ubuntu Linux.
 
 .. _filters-2:
 

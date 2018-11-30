@@ -1,3 +1,6 @@
 {
-    "restructuredtext.confPath": "d:\\product_docs\\source"
+    "restructuredtext.confPath": "${workspaceFolder}\\source",
+    "cSpell.words": [
+        "DHCP"
+    ]
 }

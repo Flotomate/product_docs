@@ -21,6 +21,8 @@ Windows(32bit): `Click Here <https://s3.ap-south-1.amazonaws.com/flotomate-custo
 
 Windows(64bit): `Click Here <https://s3.ap-south-1.amazonaws.com/flotomate-customer-releases/latest/agent/windows/x64/agent.msi>`_
 
+.. important:: Requires sufficient space in Windows Temp file for the application to work.
+
 Installation in Windows
 =======================
 

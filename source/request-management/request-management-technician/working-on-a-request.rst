@@ -64,19 +64,23 @@ The Details View is a dynamic interface with the following features:
 
    c. Action Menu:
 
-      i.  :doc:`Mark as Spam <mark-a-request-as-a-spam>`
+      i. :ref:`Ask for Approval <rm-asking-for-approval>`
+      
+      ii.  :ref:`Mark as Spam <Mark a Request as a Spam>`
 
-      ii.  :doc:`View Audit Trail <rm-viewing-audit-trail>`
+      iii.  :ref:`View Audit Trail <rm-viewing-audit-trail>`
 
-      iii. :doc:`Mark as Purchase Request <marking-a-purchase-request>`  
+      iv. :ref:`Mark as Purchase Request <Marking a Request as Purchase>`  
 
-      iv.  :ref:`Add Watcher <rm-watchers>`
+      v.  :ref:`Add Watcher <rm-watchers>`
 
-      v.  :ref:`Send Notification <rm-notifications>`
+      vi.  :ref:`Send Notification <rm-notifications>`
 
-      vi.  Watch/Unwatch
+      vii.  Watch/Unwatch
 
-      vii.  :doc:`Send Feedback <asking-for-feedback>`
+      viii.  :ref:`Send Feedback <Asking for Feedback>`
+
+      ix. :ref:`Scenario <Scenario Automation>`
 
 Modifying Request Subject and Description
 =========================================
@@ -587,8 +591,8 @@ Different States in an Approval Process
 Managing Approval
 -----------------
 
-An assigned Technician can view all his Approvals under the Approvals
-tab. The Approvals tab shows two columns: the Approvals column which
+An assigned Technician can view all his Approvals under the **Approvals** tab. 
+The Approvals tab shows two columns: the Approvals column which
 lists all the Approvals along with their approvers, and the Comments
 column that shows the message thread between Technicians and approvers.
 Any Technician with the necessary :ref:`rights <Technician Roles>` can access the Approvals tab of
@@ -745,15 +749,16 @@ the Details View of a Request.
 
 Any Technician can assign Tasks to other Technicians related to any
 Request if he has manage Task rights. An assignee can see his Task/Tasks
-on his Dashboard.
+in his My Tasks section.
 
 .. _rmf-42:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-42.png
     :align: center
     :alt: figure 42
 
-Adding a Task
--------------
+Adding a Task in a Request
+--------------------------
+.. note:: Managing tasks in a Request ticket requires the :ref:`manage-task <Technician Roles>` right for Requests. 
 
 -  Go to the :ref:`Details View <request-details-view>` of a Request.
 
@@ -765,11 +770,11 @@ Adding a Task
     :align: center
     :alt: figure 43
 
--  Give a suitable title that describes the Task. Select an assignee
-   from the drop-down list in the **Assignee User** field.
+-  Give a suitable **Subject** that describes the Task. Select an assignee
+   from the drop-down list in the **Task Owner** field.
 
--  Set a time-frame (Start Date Time and End Date Time), Priority, and
-   Description for the task and hit **Create**.
+-  Set the Priority, task type, time-frame (Start Date Time and End Date Time), and
+   Description for the task and hit **Create**. You can also attached a file with the task. 
 
 Editing/Deleting Tasks
 ----------------------
@@ -785,8 +790,8 @@ Editing/Deleting Tasks
    Icon and delete a Task using the Delete Icon. Perform the action you
    want.
 
-Adding Note to a Task
----------------------
+Opening Task Details Pane
+-------------------------
 
 .. _rmf-45:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-45.png
@@ -795,22 +800,27 @@ Adding Note to a Task
 
 -  Go to the Request’s Task Column.
 
--  Click on the Note Icon of a Task.
+-  Click on the Task Details button which opens a pane where you can view the following:
+
+   a. Task Details
+
+   b. Comments
+
+   c. Time Log
+
+   d. Notify Settings
+
+   e. Audit Trail
 
 .. _rmf-46:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-46.png
     :align: center
     :alt: figure 46
 
--  Add your note in the text editor. You can upload files along with the
-   text.
-
 Closing a Task
 --------------
 
--  Go to the Details View of the Request. The assignee of the Task can
-   directly go to the Details View by clicking on the Task title on his
-   Dashboard.
+-  The assignee of the Task can directly go to the Details View by clicking on the Task title on his Dashboard.
 
 -  Scroll down to the Task Column. You can close a Task by clicking on
    **Done** or changing the Status to Closed. Anyone with the necessary
@@ -822,6 +832,7 @@ Closing a Task
     :alt: figure 47
 
 .. _rm-notifications:
+
 Notifications
 =============
 

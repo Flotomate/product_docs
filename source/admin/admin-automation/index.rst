@@ -11,3 +11,4 @@ Admin Automation
    ad-email-notifications
    ad-third-party-integration
    ad-auto-assignment
+   ad-scenario

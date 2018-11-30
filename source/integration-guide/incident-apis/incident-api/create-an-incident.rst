@@ -31,7 +31,7 @@ You would be sending a JSON request that will create a ticket and populate its d
 +---------------------------+----------------+-------------------------------------------------------------------------------------------------------------------------+
 | subject*                  | STRING         | Subject of the ticket.                                                                                                  |
 +---------------------------+----------------+-------------------------------------------------------------------------------------------------------------------------+
-| categoryName              | STRING         | Category Name of an Incident. Set to 'Incident' as It is default to 'Service Request                                    |
+| categoryName*             | STRING         | Category Name of an Incident. Set to 'Incident' as It is default to 'Service Request                                    |
 |                           |                |                                                                                                                         |
 +---------------------------+----------------+-------------------------------------------------------------------------------------------------------------------------+
 | requesterEmail*           | STRING         | Email address of the user registered for the client.                                                                    |

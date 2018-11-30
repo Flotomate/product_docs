@@ -227,7 +227,7 @@ There are five predefined search filters in the header section of
 
             d. **All H/w Windows Assets**: All Hardware Assets with the Windows OS.
 
-            e. **All H/w Linux Assets**: All Hardware Assets with the Linux OS.
+            e. **All H/w Ubuntu Linux Assets**: All Hardware Assets with the Ubuntu Linux OS.
 
 There are filters based on Asset Type:
 

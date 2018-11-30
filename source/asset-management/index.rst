@@ -22,7 +22,7 @@ Asset Management
    consolidating-software
    prohibited-software
    software-metering
-   asset-discovery
+   asset-discovery/index
    initiate-manual-scanning
    remote-deployment
 

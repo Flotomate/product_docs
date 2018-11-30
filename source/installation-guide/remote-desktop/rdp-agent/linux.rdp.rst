@@ -1,15 +1,15 @@
 **********************************
-Linux RDP Agent Installation Guide
+Ubuntu Linux RDP Agent Installation Guide
 **********************************
 
-Describes Installation Steps for Linux RDP Agent.
+Describes Installation Steps for Ubuntu Linux RDP Agent.
 
 Minimum System Requirement:
 ===========================
 
 **Target Machine OS:**
 
--  Ubuntu 16 and above for Linux Agent.
+-  Ubuntu 16 and above for Ubuntu Linux Agent.
 
 **Hardware Requirement:**
 
@@ -22,9 +22,9 @@ Minimum System Requirement:
 Downloading RDP Agent
 =====================
 
-You can download the RDP Agent (Linux) from the below link:
+You can download the RDP Agent (Ubuntu Linux) from the below link:
 
-**Linux 64-bit**: `Download Link <https://s3.ap-south-1.amazonaws.com/flotomate-customer-releases/latest/rdp+server/linux/agent_rdp>`_
+**Ubuntu Linux 64-bit**: `Download Link <https://s3.ap-south-1.amazonaws.com/flotomate-customer-releases/latest/rdp+server/linux/agent_rdp>`_
 
 RDP Installation Setup:
 ==========================

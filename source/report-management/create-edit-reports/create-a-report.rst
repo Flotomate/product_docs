@@ -39,6 +39,28 @@ A user can change the order of the Folders from the :ref:`Report List View`.
 
 .. _Create a Report:
 
+
+Trash Folder in Report
+----------------------
+
+A user with the :ref:`Manage Report Folder <Technician Roles>` role can create and delete folders in Reports. When a folder is 
+deleted, the content (Reports) of the folder is sent to the Trash folder.
+
+.. important:: An individual Report deleted by the owner will not go to the Trash folder; it will be deleted permanently. 
+
+.. _rf0.2:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-0.2.png
+      :align: center     
+      :alt: Figure 0.2
+
+A user can open the Trash folder and view the following:
+
+- Trashed Reports which he/she is the owner.
+
+- Trashed Reports shared with the user. 
+
+Even in the Trash folder, only the owner can delete a Report. 
+
 Stages to Create a Custom Report
 ================================
 

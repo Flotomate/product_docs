@@ -152,7 +152,7 @@ Flotomate ITSM – Eagle 2.5.0 – Release Note
 
 7. **BIOS Component Discovery :** Flotomate discovery engine and an
    agent will discover BIOS component of a computer for both Windows and
-   Linux Machines.
+   Ubuntu Linux Machines.
 
 8. **Improved Asset Relation Topology design :** Underhood technology
    change makes easy to design and visualize the direct and inverse

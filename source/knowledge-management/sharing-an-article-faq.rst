@@ -2,8 +2,7 @@
 Sharing an Article/FAQ 
 **********************
 
-You can share an Article/FAQ with others. It works for both drafted and
-published Articles/FAQs.
+You can share an Article/FAQ with others as a link. This works for a published Article/FAQ only. 
 
 To share an Article/FAQ:
 
@@ -16,6 +15,10 @@ To share an Article/FAQ:
     :align: center
     :alt: figure 33
 
--  A dialog box opens where you can add email addresses and Requester
-   Groups. Add whatever you want and click on **Share**. The recipients
-   are going to receive an email with a link to the Article/FAQ.
+.. _kbf-33.1:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/knowledge-management/KB-33.1.png
+    :align: center
+    :alt: figure 33.1
+
+-  A dialog box opens where you can generate a sharable link. Anyone can view the content (using the link) regardless of 
+   the visibility and permission set by the author. Later anyone (with KB rights) can deactivate the link.
