@@ -5,4 +5,4 @@ Flotomate Plugins
    :maxdepth: 3
 
    plugin-intro
-   ad-plugin
+   st-plugin/index
