@@ -11,6 +11,7 @@ Technician.
 
 .. note:: Managing Technician requires you to have admin rights.
 
+.. _authorization-control:
 .. _add-technician:
 
 Add/View Technicians
