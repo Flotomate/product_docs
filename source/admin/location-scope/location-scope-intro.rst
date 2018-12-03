@@ -108,9 +108,9 @@ Location Scope in Asset Management
   
   a. **Manual**: Like any other objects, it comes within the scope of location wise segregation.
 
-  c. **CSV Import**: If location data is present, then it comes within the scope of location wise segregation. 
+  b. **CSV Import**: If location data is present, then it comes within the scope of location wise segregation. 
 
-  d. **Automatic Discovery (Agent and Agent-less)**: An asset is assigned to a location when discovered based on IP.
+  c. **Automatic Discovery (Agent and Agent-less)**: An asset is assigned to a location when discovered based on IP.
 
 Location Scope in Report
 ------------------------
