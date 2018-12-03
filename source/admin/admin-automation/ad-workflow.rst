@@ -221,3 +221,23 @@ Follow the below steps to create a Workflow:
 You can turn your Workflow on/off using the toggle button adjacent to
 the Workflow name. You can delete a Workflow by going to the edit page
 and then click **Delete**.
+
+Create a Duplicate Workflow
+---------------------------
+
+An admin user can create a copy of an existing workflow and edit the same, and save it as a new workflow. 
+
+**To create a duplicate:**
+
+- Go to **Admin** >> **Workflow**.
+
+- Click on the copy icon adjacent to the workflow that you want to copy.
+
+.. _adf-41.1:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-41.1.png
+    :align: center
+    :alt: figure 41.1
+
+- A copy of the workflow will open in edit mode, which you can further edit and save as a new workflow. 
+
+- When done click on **Create**.

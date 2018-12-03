@@ -20,6 +20,7 @@ Patch Management
    ignore-patch
    manual-patch-upload
    deployment-request
+   copy-deployment-request
    automatic-patch-deployment
    uninstall-deployment-request
    download-patches
