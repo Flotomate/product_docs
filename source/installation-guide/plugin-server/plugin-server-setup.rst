@@ -17,20 +17,30 @@ Plugin Server Setup
 
 Enabling plugin capabilities in the main server is a three step process:
 
-- Setting up a plugin server (Step 1).
+- Install plugin server build (Step 1)
 
-- Copying .fb bundles in the plugin server (Step 2). 
+- Setting up a plugin server (Step 2).
 
-- Configuring the main server with the plugin server (Step 3). 
+- Copying .fb bundles in the plugin server (Step 3). 
+
+- Configuring the main server with the plugin server (Step 4). 
 
 .. note:: The plugin server can be setup in the main server or separately. 
 
+
+Install Plugin Server Build (Step 1)
+------------------------------
+
+Start your server and install the plugin server build into a directory. 
+
+`Download Link <https://s3.ap-south-1.amazonaws.com/flotomate-customer-releases/latest/plugins+server/plugin_server_CI>`_
+
 .. _plugin-server-installation:
 
-Plugin Server Configuration (Step 1)
+Plugin Server Configuration (Step 2)
 ------------------------------------
 
-1. Open plugin server terminal and go to the directory of **plugin_server_CI**.  
+1. Open server terminal and go to the directory containing **plugin_server_CI**.  
 
 .. _plg-1:
 
@@ -58,7 +68,7 @@ Plugin Server Configuration (Step 1)
 
 .. _plugin-transfer:
 
-Copying Plugin Bundle in the Plugin Server (Step 2)
+Copying Plugin Bundle in the Plugin Server (Step 3)
 ---------------------------------------------------
 
 1. Transfer plugin .fp file/files to the plugin server. 
@@ -99,7 +109,7 @@ Copying Plugin Bundle in the Plugin Server (Step 2)
 
 .. _main-server-setup:
 
-Main Server Configuration (Step 3)
+Main Server Configuration (Step 4)
 ----------------------------------
 
 1. Open terminal of the main server. We will now input the IP address of the plugin server in the **services-config.yaml** file. 

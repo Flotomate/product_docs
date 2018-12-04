@@ -2,7 +2,7 @@
 Windows RDP Agent Installation Guide
 ************************************
 
-Describes Installation Steps for Windows RDP Agent.
+Describes Installation Steps for Windows RDP Agent 3.0.0.
 
 Minimum System Requirement:
 ===========================
@@ -25,6 +25,8 @@ Downloading RDP Agent
 You can download the RDP Agent (Windows) from the below link:
 
 **Windows 64-bit**: `Download Link <https://s3.ap-south-1.amazonaws.com/flotomate-customer-releases/latest/rdp+server/windows/x64/rdp_agent.exe>`_
+
+**Windows 32-bit**: `Download Link <https://s3.ap-south-1.amazonaws.com/flotomate-customer-releases/latest/rdp+server/windows/x64/rdp_agent.exe>`_
 
 RDP Installation Setup:
 ==========================

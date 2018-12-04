@@ -1,7 +1,7 @@
 ******************************************************
 Flotomate Service Desk – Server Installation via Build
 ******************************************************
-Describes Server (2.7.0) Installation Steps via product build
+Describes Server (3.0.0) Installation Steps via product build
 
 System Requirements
 ===================

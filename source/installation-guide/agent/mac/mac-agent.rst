@@ -2,7 +2,7 @@
 Mac-OS Agent Installation Guide
 *******************************
 
-Describes Installation Steps for Flotomate MacOS Agent-2.7.0
+Describes Installation Steps for Flotomate MacOS Agent-3.0.0
 
 System Requirement :
 ====================

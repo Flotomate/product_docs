@@ -2,7 +2,7 @@
 Windows Agent Installation Guide
 ********************************
 
-Describes Installation Steps for Flotomate Windows Agent -2.7.0.
+Describes Installation Steps for Flotomate Windows Agent -3.0.0.
 
 System Requirement :
 ====================

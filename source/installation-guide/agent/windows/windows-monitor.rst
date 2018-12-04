@@ -21,9 +21,9 @@ System Requirement :
 
 **Installation Links**
 
-Windows(64bit): `Click Here <https://s3.ap-south-1.amazonaws.com/flotomate-daily-builds/agent/windows/2018-10-10+12.34.15+IST/Agent+Monitor.msi>`_
+Windows(64bit): `Click Here <https://s3.ap-south-1.amazonaws.com/flotomate-customer-releases/latest/agent+monitor/windows/x64/agent_monitor.msi>`_
 
-Windows(32bit): `Click Here <https://s3.ap-south-1.amazonaws.com/flotomate-daily-builds/agent/windows/32-BIT/10-10-2018/Agent+Monitor-32-updated.msi>`_
+Windows(32bit): `Click Here <https://s3.ap-south-1.amazonaws.com/flotomate-customer-releases/latest/agent+monitor/windows/x86/agent+_monitor.msi>`_
 
 Installation in Windows
 =======================

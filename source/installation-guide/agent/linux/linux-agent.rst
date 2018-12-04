@@ -4,7 +4,7 @@
 Ubuntu Linux Agent Installation/Uninstallation Guide
 *********************************************
 
-Describes Installation Steps for Flotomate Ubuntu Linux Agent-2.7.0
+Describes Installation Steps for Flotomate Ubuntu Linux Agent-3.0.0
 
 System Requirement :
 ====================

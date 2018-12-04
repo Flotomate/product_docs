@@ -11,7 +11,7 @@ To create a duplicate deployment:
 - Click on the **Copy** button adjacent to the Deployment that you want to copy.
 
 .. _pc-1:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/P-C-1.png
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/patch-management/copy-deployment/P-C-1.png
    :align: center
    :alt: figure 1
 

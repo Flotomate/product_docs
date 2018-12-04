@@ -19,7 +19,7 @@ Hardware Requirement:
 Product ISO Link
 ================
 
-Download product ISO from following link :
+Download product ISO containing Ubuntu 16.04 from following link:
 
 `Download Link <https://s3.ap-south-1.amazonaws.com/flotomate-customer-releases/latest/main/linux/service_desk.iso>`_
 
