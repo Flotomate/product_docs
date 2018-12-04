@@ -2,7 +2,7 @@
 Data Segregation with Location Scope
 ************************************
 
-We have implemented data localization for organizations with diverse geographical presence; it is achieved using 
+We have implemented location based data segregation for organizations with diverse geographical presence; it is achieved using 
 location scoping. Data in the ITSM tool is segregated for technicians and requesters based on location; for example, London
 office technicians will support that office's requesters and authorized to see that location's data. 
 
@@ -10,7 +10,7 @@ Few Use Cases for Location Scope
 ================================
 
 - A ticket filed in a particular office will be visible to the technicians assigned to that office. A ticket
-  must carry location information for location scope to work. Such localization speeds up the service delivery
+  must carry location information for location scope to work. Such segregation speeds up the service delivery
   process. 
 
 - Achieve security through obscurity. You can define access authorization using location. 
