@@ -35,6 +35,7 @@ Possible Use Cases of a High Availability Setup:
    last point of recovery.
 
    .. _ha-1:
+
    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/ha-setup/HA-1.png
         :align: center
         :alt: figure 1
@@ -68,9 +69,7 @@ The HA-proxy have to be installed in a separate server as well.
 **Download of Base OS:**
 
 You need Ubuntu-16.04.1 Server OS for this setup. Follow the link to
-download the OS: 
-
-`https://s3.ap-south-1.amazonaws.com/flotomate-customer-releases/share/ubuntu_server_os.iso`_
+download the OS: `Download Link<https://s3.ap-south-1.amazonaws.com/flotomate-customer-releases/share/ubuntu_server_os.iso>`_
 
 **Things to Know/Have before Installation:**
 --------------------------------------------
@@ -102,6 +101,7 @@ Installation of Master and Slave
    **sudo ./service_desk_master_CI**
 
    .. _ha-2:
+
    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/ha-setup/HA-2.png
         :align: center
         :alt: figure 2
@@ -110,6 +110,7 @@ Installation of Master and Slave
    provide following password : mypassword.
 
    .. _ha-3:
+
    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/ha-setup/HA-3.png
         :align: center
         :alt: figure 3
@@ -118,6 +119,7 @@ Installation of Master and Slave
    choose option number of 2.
 
    .. _ha-4:
+
    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/ha-setup/HA-4.png
         :align: center
         :alt: figure 4
@@ -129,6 +131,7 @@ Installation of Master and Slave
    the Master server. Provide the IP address and hit enter.
 
    .. _ha-5:
+
    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/ha-setup/HA-5.png
         :align: center
         :alt: figure 5
@@ -137,6 +140,7 @@ Installation of Master and Slave
    and hit enter.
 
    .. _ha-6:
+
    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/ha-setup/HA-6.png
         :align: center
         :alt: figure 6
@@ -148,6 +152,7 @@ Installation of Master and Slave
    (Master) Service Desk using its IP address and Register the product.
 
    .. _ha-7:
+
    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/ha-setup/HA-7.png
         :align: center
         :alt: figure 7
@@ -167,6 +172,7 @@ Installation of Master and Slave
     setup.
 
     .. _ha-8:
+
     .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/ha-setup/HA-8.png
          :align: center
          :alt: figure 8
@@ -179,11 +185,13 @@ Installation of Master and Slave
     setup of HA servers.**
 
     .. _ha-9:
+
     .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/ha-setup/HA-9.png
          :align: center
          :alt: figure 9
 
     .. _ha-10:
+
     .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/ha-setup/HA-10.png
          :align: center
          :alt: figure 10
@@ -219,6 +227,7 @@ will perform the following processes.
    **python3 config_changes.py 192.168.0.118(new-master) 192.168.0.137(old-master)**
 
    .. _ha-11:
+
    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/ha-setup/HA-11.png
         :align: center
         :alt: figure 11
@@ -268,6 +277,7 @@ terminal.
 | apt-get install haproxy=1.6.\\*
 
 .. _ha-12:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/ha-setup/HA-12.png
     :align: center
     :alt: figure 12
@@ -289,6 +299,7 @@ HAproxy Setup
 3. Copy paste the following at the end of the file and save it.
 
    .. _ha-13:
+
    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/ha-setup/HA-13.png
         :align: center
         :alt: figure 13
@@ -296,6 +307,7 @@ HAproxy Setup
 4. Now you have to restart the HAproxy using the following command.
 
    .. _ha-14:
+   
    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/ha-setup/HA-14.png
         :align: center
         :alt: figure 14

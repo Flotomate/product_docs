@@ -84,8 +84,8 @@ Initiating an Upgrade (Step 2)
 
 -  On confirmation, the server will deploy the latest version of the Agent from the uploaded agent list.
 
-Periodic DB Upgrade
-===================
+Periodic DB Backup
+==================
 
 Users can create backups of the database of the Main (Product) Server. The database contains all the user generated data from all the 
 modules. Once a backup is created, a (Admin) user can download the backup to his local machine. 
