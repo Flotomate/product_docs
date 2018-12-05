@@ -15,6 +15,7 @@ Package Management
    sp-setting-up-a-deployment-policy
    package-batch-deployment
    sp-deployment-request
+   copy-deployment-request
    uninstall-packages
    sp-computer-management
    using-registry-deployment

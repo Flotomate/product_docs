@@ -32,6 +32,7 @@ Uploading a New Agent Application File (Step 1)
    (Systems).
 
 .. _adf-149:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-149.png
     :align: center
     :alt: figure 149
@@ -41,6 +42,7 @@ Uploading a New Agent Application File (Step 1)
    Step one is to upload the new Agent application file; click on **Upload New Agent** from the Action Menu.
 
    .. _adf-149.1:
+
    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-149.1.png
         :align: center
         :alt: figure 149.1
@@ -48,6 +50,7 @@ Uploading a New Agent Application File (Step 1)
 -  A new dialog box opens where you have to enter the following inputs:
 
     .. _adf-150:
+
     .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-150.png
         :align: center
         :alt: figure 150
@@ -65,6 +68,7 @@ Uploading a New Agent Application File (Step 1)
    When you are done, click on **Create**. This updates the uploaded agent list.
 
    .. _adf-150.1:
+
    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-150.1.png
         :align: center
         :alt: figure 150.1
@@ -78,6 +82,7 @@ Initiating an Upgrade (Step 2)
 -  :ref:`Search <Searching Assets>` and select the computers that you want to upgrade, and click the **Upgrade** button.
 
 .. _adf-151:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-151.png
     :align: center
     :alt: figure 151
@@ -108,6 +113,7 @@ Manually Initiate & Download a backup
 - Go to **Admin** >> **Database Backup** (under System).
 
 .. _adf-151.1:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-151.1.png
     :align: center
     :alt: figure 151.1
@@ -117,6 +123,7 @@ Manually Initiate & Download a backup
 - Once backup is created, click on **Download Backup** which will locally install the backup.
 
 .. _adf-151.2:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-151.2.png
     :align: center
     :alt: figure 151.2
@@ -133,6 +140,7 @@ A schedule will automatically create a backup at a specified interval.
 - A dialog box opens where you set a schedule Frequency and configure email notification.
 
   .. _adf-151.3:
+  
   .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-151.3.png
       :align: center
       :alt: figure 151.3

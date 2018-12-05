@@ -167,7 +167,7 @@ Do following step to change  Service-conf.yaml file in the Main Server.
 
 - Open: **nano application-hosted.properties**
 
-- Change the following field: **com.flotomate.fileServer.url=http://{file Server Ip}:7070/api** (change port if you have changed port of file server)
+- Change the following field: **com.flotomate.fileServer.url=http://{file Server Ip}:6060/api** (change port if you have changed port of file server)
 
 .. _FSC-4:
 
