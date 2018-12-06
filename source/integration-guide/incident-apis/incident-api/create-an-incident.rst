@@ -42,6 +42,12 @@ You would be sending a JSON request that will create a ticket and populate its d
 | tags                      | String Array   | These are additional identifiers attached to a ticket. Its a list                                                       |
 |                           |                | that can contain n number of STRINGS.                                                                                   |
 +---------------------------+----------------+-------------------------------------------------------------------------------------------------------------------------+
+| impact                    | ENUM           | Describes the effect of the incident/request. Possible values: LOW, ONUSER , ONDEPARTMENT, Or ONBUSINESS                |
++---------------------------+----------------+-------------------------------------------------------------------------------------------------------------------------+
+| priority                  | ENUM           | Shows the importance of the request/incident. Possible values: LOW,MEDIUM,HIGH,URGENT                                   |        
++---------------------------+----------------+-------------------------------------------------------------------------------------------------------------------------+
+| urgency                   | ENUM           | Marks the request as urgent. Possible values: LOW,MEDIUM,HIGH, or URGENT                                                |
++---------------------------+----------------+-------------------------------------------------------------------------------------------------------------------------+
 | description               | STRING         | Additional explanation about the ticket.                                                                                |
 +---------------------------+----------------+-------------------------------------------------------------------------------------------------------------------------+
 | requesterName             | STRING         | Name of the user registered for the client.                                                                             |

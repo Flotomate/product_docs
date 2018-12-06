@@ -58,7 +58,7 @@ the servers have to have separate IP addresses.
 
 The HA-proxy have to be installed in a separate server as well.
 
-**System Requirement for Servers:**
+**Minimum System Requirements for Master and Slave Servers:**
 
 -  4GB of System RAM.
 
