@@ -14,4 +14,5 @@ Manage Software License
    downloading-invoice-po
    allocating-assets-users
    adding-note-license
+   relate-purchase-order
    compliance-settings

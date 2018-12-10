@@ -39,8 +39,15 @@ requires minimum information and involves the following process:
 
     e. **Description**: A short description of the License.
 
-4. Type in the details and hit **Add**. You are taken to the License
-   Details View where you can add additional information about the
-   License.
+4. Type in the details and hit **Add**. 
+
+5. The Select Software dialog box will open. Here you can associate the license with a software; you also get the option to skip the process. 
+   The associated software type will be automatically changed to managed. After that you are taken to the License
+   Details View where you can add additional information about the License.
+
+.. _amf-124.0:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-124.0.png
+    :align: center
+    :alt: figure 124.0
 
 After we are done creating the License, we are going to link it with a Software Asset (:ref:`Learn More <Associating a Software License with a Software Asset>`)
