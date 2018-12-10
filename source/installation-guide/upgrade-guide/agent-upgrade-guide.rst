@@ -64,6 +64,8 @@ We are going to create a Deployment Request for Agent Monitor.
     :align: center
     :alt: figure 2
 
+.. note:: Related topic: :ref:`Adding a Software Package`. 
+
 - Now you have added the Monitor as a Package. Select the new Package and click on **Deploy**.
 
 .. _aup-5:
@@ -74,7 +76,10 @@ We are going to create a Deployment Request for Agent Monitor.
 
 .. note:: You would require a Deployment Policy. Learn how to create a :doc:`Deployment Policy <sp-setting-up-a-deployment-policy>`. 
 
-- We will publish our Deployment Request of our Package. Select all computers where you want to deploy. View below image for reference. 
+- We will publish our Deployment Request of our Package. Select all computers where you want to deploy. View below image for reference.
+
+.. note:: While selecting the package, make sure to set the **User** as **Current User**.
+..note:: Related topic: :ref:`adding-a-package-deployment-request`.
 
 .. _aup-6:
 
