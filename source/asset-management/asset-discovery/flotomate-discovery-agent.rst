@@ -41,9 +41,9 @@ Installing the Agent on a Windows machine can be done in three ways:
 
 1. Download the Agent Application installer on the workstation.
 
-2. Go to the directory where the Agent.exe file is situated.
+2. Go to the directory where the agent.msi file is situated.
 
-3. Run Agent.exe as Administrator.
+3. Run agent.msi as Administrator.
 
 .. _amf-189:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-189.png
@@ -75,9 +75,9 @@ Installing the Agent on a Windows machine can be done in three ways:
 1. You can also install the Agent Application from the Command Prompt
    without the hassle of seeing multiple dialog boxes.
 
-2. Open CMD and change the target path to Agent.exe.
+2. Open CMD and change the target path to agent.msi.
 
-3. Type Agent.exe and the URL of the main server, and hit enter. Your
+3. Type agent.msi and the URL of the main server, and hit enter. Your
    installation is done.
 
 .. _amf-192:
@@ -98,11 +98,11 @@ PsTools toolkit developed by Sysinternals.
 
 2. Extract the zip file to a folder.
 
-3. Download the Agent.exe file from the following link:
+3. Download the agent.msi file from the following link:
 
-   https://s3.ap-south-1.amazonaws.com/flotomate-customer-releases/latest/agent/Agent.exe
+   https://s3.ap-south-1.amazonaws.com/flotomate-customer-releases/latest/agent/agent.msi
 
-4. Put Agent.exe in the PSTools folder.
+4. Put agent.msi in the PSTools folder.
 
 5. Add IP list in ip.txt file for installing agent in those computers.
 
@@ -117,9 +117,9 @@ PsTools toolkit developed by Sysinternals.
 Uninstalling (Windows) the Discovery Agent Application
 ------------------------------------------------------
 
-1. Go to the directory where Agent.exe file is situated.
+1. Go to the directory where agent.msi file is situated.
 
-2. Run the Agent.exe file.
+2. Run the agent.msi file.
 
 3. Given that you have already installed the Agent Application, the
      Agent Setup Wizard leads you to the Modify, Repair, and Remove

@@ -21,8 +21,8 @@ System Requirement :
 
 **Installation Links**
 
-Windows(32bit): `Click Here <https://s3.ap-south-1.amazonaws.com/flotomate-customer-releases/latest/agent/windows/x86/Agent.exe>`_
+Windows(32bit): `Click Here <https://s3.ap-south-1.amazonaws.com/flotomate-customer-releases/latest/agent/windows/x86/agent.msi>`_
 
-Windows(64bit): `Click Here <https://s3.ap-south-1.amazonaws.com/flotomate-customer-releases/latest/agent/windows/x64/Agent.exe>`_
+Windows(64bit): `Click Here <https://s3.ap-south-1.amazonaws.com/flotomate-customer-releases/latest/agent/windows/x64/agent.msi>`_
 
 Ubuntu Linux(64bit): `Click Here <https://s3.ap-south-1.amazonaws.com/flotomate-customer-releases/latest/agent/linux/x64/agent>`_

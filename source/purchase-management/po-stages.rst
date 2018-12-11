@@ -137,7 +137,7 @@ going to the **Invoice and Payments** tab and clicking on **Add Invoice**.
     :alt: figure 48
 
 He adds periodic payments to the Invoice while keeping the PO status as **Payment: Partially Received**. He saves the payments in the
-**Invoice and Payments** tab by clicking on **Make Payment** adjacent to the invoice. 
+**Invoice and Payments** tab by clicking on **Make Payment** adjacent to the invoice. The technician can see what amount is still due here.
 
 .. _pur-49:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/purchase-management/PUR-49.png

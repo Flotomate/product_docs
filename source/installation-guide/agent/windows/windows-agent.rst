@@ -9,7 +9,7 @@ System Requirement :
 
 **Target Machine OS**: 
 
-- Windows 7 and above.
+- Windows 7 and above versions.
 
 **OS Architecture**: 
 
@@ -79,9 +79,9 @@ Installation using PsExec (For Windows)
 
 1. Download PSTools.zip. Extract the zip file to a folder.
 
-2. Download the Agent.exe file.
+2. Download the agent.msi file.
 
-3. Put Agent.exe in the PSTools folder.
+3. Put agent.msi in the PSTools folder.
 
 4. Add IP list in ip.txt file for installing agent in those computers.
 
