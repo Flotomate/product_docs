@@ -4,12 +4,12 @@
 Status 
 ******
 
-Status show the stage of a Request, Problem, Change and an Asset in
+Status show the stage of a Request, Problem, Change, Project and an Asset in
 their respective process flow. Statuses are essential in managing the
-life-cycle of tickets and CIs in the Flotomate. A lot of automatic
-processes can be created based on the Status of a ticket.
+life-cycle of tickets, projects and CIs in Flotomate. A lot of automatic
+processes can be created based on the Status of a ticket/project/CI.
 
-We have predefined Statuses for each of the ticket types and Assets.
+We have predefined Statuses for each of the ticket types, project and Asset.
 Along with pre-defined Statuses, you can add custom Statuses.
 
 .. note:: Setting Custom Status requires administrative rights.
@@ -24,11 +24,15 @@ Along with pre-defined Statuses, you can add custom Statuses.
     :align: center
     :alt: figure 85.2
 
+.. _adf-85.3:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-85.3.png
+    :align: center
+    :alt: figure 85.3
 
 Predefined Status 
 =================
 
-Flotomate has predefined Statuses which are immutable. They coexist with
+Flotomate has predefined Statuses which are immutable and some statuses which can be changed. They coexist with
 custom Statuses. They are as follows:
 
 -  **Request**:
@@ -37,15 +41,17 @@ custom Statuses. They are as follows:
 
    a. Open
 
-   b. Pending On Requestor
+   b. In Progress (can be changed)
 
-   c. Pending in Approval
+   c. Pending On Requestor
 
-   d. Pending On Technician
+   d. Pending in Approval
 
-   e. Resolved
+   e. Pending On Technician
 
-   f. Closed
+   f. Resolved
+
+   g. Closed
 
 -  **Problem**:
 
@@ -53,15 +59,17 @@ custom Statuses. They are as follows:
 
    a. Open
 
-   b. Pending On Requestor
+   b. In Progress (can be changed)
 
-   c. Pending in Approval
+   c. Pending On Requestor
 
-   d. Pending On Technician
+   d. Pending in Approval
 
-   e. Resolved
+   e. Pending On Technician
 
-   f. Closed
+   f. Resolved
+
+   g. Closed
 
 -  **Change**:
 
@@ -71,17 +79,21 @@ custom Statuses. They are as follows:
 
       i. Requested
 
-      ii.  Rejected
+      ii. Req.Info (can be changed)
 
-      iii. Accepted
+      iii.  Rejected
+
+      iv. Accepted
 
    b. Planning:
 
       i.  In Progress
 
-      ii. Canceled
+      ii. Req.Info (can be changed)
 
-      ii. Completed
+      iii. Canceled
+
+      iv. Completed
 
    c. Approval:
 
@@ -95,6 +107,8 @@ custom Statuses. They are as follows:
 
       i. In Progress
 
+      ii. Backout (can be changed)
+
       ii. Rejected
 
       iii. Completed
@@ -102,6 +116,8 @@ custom Statuses. They are as follows:
    e. In Review:
 
       i. In Progress
+
+      ii. Req.Info (can be changed)
 
       ii. Failed
 
@@ -117,12 +133,28 @@ custom Statuses. They are as follows:
 
    c. Retired
 
+   d. In Stock (can be changed)
+
+   e. In Transit (can be changed)
+
+- **Project**
+
+  a. Not Started
+
+  b. In Progress
+
+  c. Hold
+
+  d. Closed
+
+  e. Cancelled
+
 .. _ad-add-custom-status:
 
 Add Custom Status 
 =================
 
--  Go to **Admin** >> **(Request, Problem, Change or Asset) Custom
+-  Go to **Admin** >> **(Request, Problem, Change, Project or Asset) Custom
    Status**.
 
 .. _adf-86:

@@ -6,11 +6,11 @@ Custom Rules
 
 Using Custom Rules, you can set pre-requisites that need to be done
 before performing certain actions. You can have Custom Rules for
-Request, Problem, Change, Knowledge, Remote Deployment and Purchase.
+Request, Problem, Change, Knowledge, Asset, Project, Remote Deployment and Purchase.
 
 To Open Custom Rules:
 
--  Go to **Admin** >> **(Request, Problem, Change, Knowledge or Patch)
+-  Go to **Admin** >> **(Request, Problem, Change, Knowledge, Asset, Purchase, Project or Patch)
    Custom Rules**.
 
 .. _adf-108.1:
@@ -206,3 +206,32 @@ You can set rules for each stage of a Purchase Order process. A Purchase Order c
 a rule of its present stage. 
 
 Learn what are the :doc:`Purchase Rules <po-purchase-rules>`.
+
+Project(CR)
+===========
+
+- **Project Complete Rules**
+
+  a. Mandatory fields before marking a project complete.
+
+     i. Category
+
+     ii. Location
+
+     iii. Owner
+
+  b. Prerequisites before marking a project as complete.
+
+     i. All milestones must be marked as complete. 
+     
+     ii. All tasks must be closed
+
+- **Milestone Complete Rules**
+
+  a. Decide whether **Owner** should be mandatory field or not.
+
+  b. Decide whether all tasks associated with the milestone needs to be closed before marking the milestone as complete.
+
+- **Task Closure Rules**
+
+  a. Decide whether **Owner** should be mandatory field or not.

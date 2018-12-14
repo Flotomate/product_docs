@@ -7,7 +7,7 @@ Category
 The category is one of many categorization features we have. You can use
 category for delegation, workflow design, or any other categorization
 function required by your organization. You can have Categories for
-Request, Problem, Change, Project, and Software.
+Request, Problem, Change, Service, Project, and Software.
 
 Predefined categories
 =====================
@@ -89,15 +89,14 @@ Add a Category
 
 .. note:: Adding a category requires you to have access to the Admin section.
 
--  Go to **Admin** >> **(Request, Problem, Change, Project or
-   Software)** **Categories**.
+-  Go to **Admin** >> **(Request, Problem, Change, Service, Project or Software) Categories**.
 
 .. _adf-105:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-105.png
     :align: center
     :alt: figure 105
 
--  In Request, Problem, Change, and Project, you can add a Category and
+-  In Request, Problem, Change, Service, Software and Project, you can add a Category and
    its Sub-Categories up to level three. In Software, you can have only
    standalone Categories.
 
@@ -116,7 +115,7 @@ Add a Category
 Edit Category
 =============
 
--  Go to **Categories** page\ **.**
+-  Go to **Categories page.**
 
 -  You can change the name of a Category using the Edit icon.
 

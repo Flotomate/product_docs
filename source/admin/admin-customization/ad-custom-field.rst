@@ -10,7 +10,7 @@ custom field feature. For example, some of our product users are capturing emplo
 
 Custom fields are additional fields added by a user. They can appear
 while creating a ticket, and in the details view of a ticket and CI.
-Custom fields can be added to Requests, Problems, Changes, Contract, Feedback, Purchase and Assets.
+Custom fields can be added to Requests, Problems, Changes, Contract, Feedback, Purchase, Project and Assets.
 
 .. note:: Adding Custom Fields requires administrative rights.
 
@@ -72,6 +72,13 @@ formatting option you can build interesting forms. The various options are as fo
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-94.9.2.png
     :align: center
     :alt: figure 94.9.2
+
+- **Attachment**: This field allows you to attache a file of size up to 5 MB. 
+
+.. _adf-94.9.3:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-94.9.3.png
+    :align: center
+    :alt: figure 94.9.3
 
 Working with Custom Fields
 ==========================
@@ -161,7 +168,7 @@ Rearrange Custom Field
 ----------------------
 
 You can arrange the fields using drag and drop. You can group fields in to sections (this feature is available for Request, 
-Requestor, Feedback, Purchase, Contract and Problem custom fields), and
+Requestor, Feedback, Purchase, Contract, Project and Problem custom fields), and
 you can arrange custom fields in to a matrix using the section feature.
 
 .. _adf-94.7:
@@ -330,7 +337,7 @@ Asset
 You add a custom field either to an Asset Type (all sub-types will have the field) or a particular sub-type (specific).
 
 Within a type, you can either make the field appear in Property section or Component section. Please refer to the Asset
-Management manual to learn more.
+Management manual to :ref:`learn more <Asset Management>`.
 
 .. _adf-102.3:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-102.3.png
@@ -475,3 +482,13 @@ There are two class of Purchase Custom Fields:
   Purchase Order (excluding or including shipping). 
 
 Learn More about :ref:`Purchase Custom Fields`. 
+
+Project Custom Field
+--------------------
+
+Custom fields appear under the **Custom Field** tab in the details view of a project.
+
+.. _adf-103.8:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-103.8.png
+     :align: center
+     :alt: figure 103.8
