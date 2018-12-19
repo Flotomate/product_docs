@@ -366,8 +366,8 @@ Technicians can use custom fields in generating reports. Remember, custom fields
 
 .. _requestor-custom-field:
 
-Requestor Custom Field
-----------------------
+User Custom Field
+-----------------
        
 Here Custom fields allow you to create new variables to store additional information about requestors.
 

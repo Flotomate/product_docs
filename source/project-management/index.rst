@@ -11,3 +11,8 @@ Project Management
    project-details-view
    edit-name-description
    manage-project-details
+   working-on-a-project
+   manage-milestones
+   managing-tasks
+   create-relations
+   manage-attachments

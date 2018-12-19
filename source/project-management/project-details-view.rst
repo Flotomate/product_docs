@@ -38,7 +38,7 @@ Open Project Details View
 
   a. Section A allows a technician to edit the :ref:`name and description of the project <Edit Name and Description of a Project>`.
 
-  b. Section B is where a technician edits the details of the project. :ref:`Learn how to edit the details of the project`.
+  b. Section B is where a technician edits the details of the project. :ref:`Learn how to edit the details of the project <Modify Project Details>`.
 
   c. Section C houses six functions that helps a technician/project owner to manage the entire project. 
 

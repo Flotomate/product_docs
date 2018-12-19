@@ -7,3 +7,4 @@ Upgrade Guide
    agent-upgrade-guide
    build-upgrade-guide
    update-product-license
+   api-license-activation
