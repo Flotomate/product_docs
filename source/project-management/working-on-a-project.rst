@@ -100,7 +100,7 @@ Knowledge content with the project.
 Marking the Project as Complete
 ===============================
 
-A project is a time bound activity. A technician can mark the project as closed from:
+A project is a time bound activity. A technician can mark the project as completed/closed from:
 
 **:ref:`Project Management List View`**:
 
@@ -126,10 +126,10 @@ The default custom rule will ask the following before marking the project as com
 
 One can change the default custom rule. :ref:`Learn more <ad-custom-rule>`.
 
-Archiving the Project
-=====================
+Archive/Cancel the Project
+==========================
 
-A technician can delete the project using the **Archive** option available in:
+A technician can delete/cancel the project using the **Archive/Cancel Project** option available in:
 
 **:ref:`Project Management List View`**:
 
@@ -144,3 +144,13 @@ A technician can delete the project using the **Archive** option available in:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-43.jpg
     :align: center
     :alt: figure 43
+
+Other Project Management Activities
+===================================
+
+A technician working on the project can create multiple milestones.
+Milestones are sub-projects with their own set of tasks. Learn more about :ref:`Milestones <Manage Milestone>` 
+
+A technician can create tasks for the project and its individual milestones. Learn more :ref:`Managing Tasks`.
+
+A technician while working on the project can create relations with other items in ITSM (tickets and CIs). :ref:`Learn More <Create Relations in a Project>`.

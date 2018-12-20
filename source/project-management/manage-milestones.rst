@@ -93,6 +93,24 @@ A technician has to start a milestone.
     :align: center
     :alt: figure 22
 
+Marking a Milestone as Complete
+===============================
+
+A milestone is a time bound activity. A technician can mark a milestone as completed/closed from:
+
+.. _proj-46:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-46.jpg
+    :align: center
+    :alt: figure 46
+
+The default custom rule will ask the following before marking a milestone as complete.
+
+- A milestone owner.
+
+- All associated tasks marked as done. 
+
+One can change the default custom rule. :ref:`Learn more <ad-custom-rule>`.
+
 View Audit Trail of a Milestone
 ===============================
 
@@ -111,22 +129,22 @@ The audit trail of a milestone shows all the changes made to it and by whom alon
     :align: center
     :alt: figure 23
 
-Delete a Milestone
-==================
+Delete/Cancel a Milestone
+=========================
 
-A technician can delete a milestone from a project. 
+A technician can delete/cancel a milestone from a project. 
 
-**To delete a project:**
+**To delete/cancel a project:**
 
 - Go to the :ref:`details view <Project Details View>` of a task.
 
 - Click on the **Milestone** tab.
 
-- Select a milestone and click on **Archive** from it action menu.
+- Select a milestone and click on **Archive/Cancel** from it action menu.
 
 .. _proj-24:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-24.jpg
     :align: center
     :alt: figure 24
 
-- On confirmation, the milestone is deleted. 
+- On confirmation, the milestone is deleted/cancelled. 

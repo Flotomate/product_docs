@@ -67,3 +67,8 @@ Tasks created in a project can be searched using a search bar and filters in the
     :alt: figure 26
 
 Learn more about :ref:`Searching Tasks`.
+
+Working on a Task
+=================
+
+<WIP>
