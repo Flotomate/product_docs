@@ -13,6 +13,7 @@ The operation is done from the Request List View.
    delete the selected Request/Requests.
 
 .. _rmf-72:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-72.png
     :align: center
     :alt: figure 72
@@ -27,6 +28,7 @@ on the Request List View.
 - Click on **View Archived Request** from the Action Menu.
 
 .. _rmf-72.1:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-72.1.png
     :align: center
     :alt: figure 72.1
@@ -34,9 +36,10 @@ on the Request List View.
 - A dialog box opens where you can view all archived Requests. You can select a few Requests and click on Un-archived
   to bring them back to Request List View.
 
- .. _rmf-72.2:
+.. _rmf-72.2:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-72.2.png
     :align: center
     :alt: figure 72.2
 
-- Click on **Done** to save your changes.     
+- Click on **Done** to save your changes.

@@ -20,6 +20,7 @@ Doing a Merge:
 2. Go to **Request** >> :doc:`Request List View <request-list-view>`.
 
 .. _rmf-69:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-69.png
     :align: center
     :alt: figure 69
@@ -28,6 +29,7 @@ Doing a Merge:
    the list area.
 
 .. _rmf-70:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-70.png
     :align: center
     :alt: figure 70
@@ -62,6 +64,7 @@ You can see the effect of merge under **Relations** tab in the Primary
 Request’s Details View.
 
 .. _rmf-71:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-71.png
     :align: center
     :alt: figure 71

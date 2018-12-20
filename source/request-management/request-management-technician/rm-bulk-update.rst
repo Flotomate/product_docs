@@ -16,6 +16,7 @@ To perform Bulk Update:
    **Bulk Update,** and a dialog box opens.
 
     .. _rmf-68:
+    
     .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-68.png
         :align: center
         :alt: figure 68

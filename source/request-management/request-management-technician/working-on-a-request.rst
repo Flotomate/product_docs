@@ -24,6 +24,7 @@ To open the Details View
 The Details View is a dynamic interface with the following features:
 
 .. _rmf-16:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-16.png
     :align: center
     :alt: figure 16
@@ -99,11 +100,13 @@ editing the Subject and Description.
    hit **Update**.
 
 .. _rmf-17:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-17.png
     :align: center
     :alt: figure 17
 
 .. _rmf-18:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-18.png
     :align: center
     :alt: figure 18
@@ -119,11 +122,13 @@ a Request.
 - A pop-up menu opens where you can access the info and other Requests.
 
     .. _rmf-18.1:
+
     .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-18.1.png
         :align: center
         :alt: figure 18.1
 
     .. _rmf-18.2:
+    
     .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-18.2.png
         :align: center
         :alt: figure 18.2
@@ -139,6 +144,7 @@ Flotomate provides many avenues to classify a Request. Go to the
 the following ways:
 
 .. _rmf-19:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-19.png
     :align: center
     :alt: figure 19
@@ -253,6 +259,7 @@ You could find related information which you can link it with the
 Request.
 
 .. _rmf-20:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-20.png
     :align: center
     :alt: figure 20
@@ -269,6 +276,7 @@ Follow the detailed steps below to use the option:
 -  You can preview an Article/FAQ by clicking on it.
 
 .. _rmf-21:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-21.png
     :align: center
     :alt: figure 21
@@ -280,6 +288,7 @@ You can view the related Articles/FAQs of a Request under the Relations
 tab.
 
 .. _rmf-22:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-22.png
     :align: center
     :alt: figure 22
@@ -293,6 +302,7 @@ The **Work** tab in the :ref:`Details View <request-details-view>` of a
 Request has those functions.
 
 .. _rmf-23:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-23.png
     :align: center
     :alt: figure 23
@@ -319,6 +329,7 @@ perform the following actions:
    message body, and the mentioned Technician/Technicians get notified via email.
 
     .. _rmf-24:
+
     .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-24.png
         :align: center
         :alt: figure 24
@@ -327,6 +338,7 @@ perform the following actions:
    , which opens a dialog box from where you can search and add a template. 
 
    .. _rmf-24.1:
+
    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-24.1.png
         :align: center
         :alt: figure 24.1
@@ -365,6 +377,7 @@ You can add a diagnosis statement in the :ref:`Details
 View <request-details-view>` under **Work** tag.
 
 .. _rmf-25:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-25.png
     :align: center
     :alt: figure 25
@@ -384,6 +397,7 @@ information, you can attach files and can even add links to Knowledge
 posts.
 
 .. _rmf-26:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-26.png
     :align: center
     :alt: figure 26
@@ -395,6 +409,7 @@ Yon can use a template to insert a canned response in the text field. Click on *
 , which opens a dialog box from where you can search and add a template.
 
 .. _rmf-26.1:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-26.1.png
     :align: center
     :alt: figure 26.1
@@ -427,6 +442,7 @@ in the ref`Details View <request-details-view>` of a Request serves this
 purpose.
 
 .. _rmf-27:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-27.png
     :align: center
     :alt: figure 27
@@ -436,6 +452,7 @@ between a Request and other Requests, Problems, Changes, Knowledge
 Articles/FAQs, and Assets.
 
 .. _rmf-28:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-28.png
     :align: center
     :alt: figure 28
@@ -462,6 +479,7 @@ Request Information
 ===================
 
 .. _rmf-28.1:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-28.1.png
     :align: center
     :alt: figure 28.1
@@ -495,6 +513,7 @@ Adding a Time Log
    it.
 
     .. _rmf-29:
+
     .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-29.png
         :align: center
         :alt: figure 29
@@ -502,6 +521,7 @@ Adding a Time Log
 3. Click on **Add** to add a new log.
 
     .. _rmf-30:
+
     .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-30.png
         :align: center
         :alt: figure 30
@@ -519,6 +539,7 @@ How to Edit/Delete Time Log:
    the time logs as a list.
 
     .. _rmf-31:
+
     .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-31.png
         :align: center
         :alt: figure 31
@@ -543,6 +564,7 @@ Inputted values in the Custom field is shown in the :ref:`Details
 View <request-details-view>` of a Request under Custom Fields tab.
 
 .. _rmf-32:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-32.png
     :align: center
     :alt: figure 32
@@ -571,6 +593,7 @@ Initiating an Approval
 2. Click on **Ask for Approval** from the Action Menu.
 
 .. _rmf-33:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-33.png
     :align: center
     :alt: figure 33
@@ -599,6 +622,7 @@ Any Technician with the necessary :ref:`rights <Technician Roles>` can access th
 a Request.
 
 .. _rmf-34:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-34.png
     :align: center
     :alt: figure 34
@@ -610,6 +634,7 @@ Between multiple Approvals, whether to go with unanimous or majority can be set 
 rights to do it lies with the Super Admin.
 
 .. _rmf-35:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-35.png
     :align: center
     :alt: figure 35
@@ -624,6 +649,7 @@ Approval Process
    is turned on, you get the following dialog box when you click on **Ask for Approval**.
 
    .. _rmf-35.1:
+
    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-35.1.png
         :align: center
         :alt: figure 35.1
@@ -647,6 +673,7 @@ Approval Process
    Approvals tab.
 
     .. _rmf-36:
+
     .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-36.png
         :align: center
         :alt: figure 36
@@ -659,6 +686,7 @@ Approval Process
    his account.
 
     .. _rmf-37:
+
     .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-37.png
         :align: center
         :alt: figure 37
@@ -667,6 +695,7 @@ Approval Process
    where he can view his Approvals.
 
     .. _rmf-38:
+
     .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-38.png
         :align: center
         :alt: figure 38
@@ -676,6 +705,7 @@ Approval Process
    following actions:
 
     .. _rmf-39:
+
     .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-39.png
         :align: center
         :alt: figure 39
@@ -702,6 +732,7 @@ Approval Process
    process.
 
 .. _rmf-40:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-40.png
     :align: center
     :alt: figure 40
@@ -721,6 +752,7 @@ Approval Process
    status to Pending in Approval.
 
 .. _rmf-41:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-41.png
     :align: center
     :alt: figure 41
@@ -752,6 +784,7 @@ Request if he has manage Task rights. An assignee can see his Task/Tasks
 in his My Tasks section.
 
 .. _rmf-42:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-42.png
     :align: center
     :alt: figure 42
@@ -766,6 +799,7 @@ Adding a Task in a Request
    Task dialog box opens.
 
 .. _rmf-43:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-43.png
     :align: center
     :alt: figure 43
@@ -782,6 +816,7 @@ Editing/Deleting Tasks
 -  Go to the Request’s Task Column.
 
 .. _rmf-44:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-44.png
     :align: center
     :alt: figure 44
@@ -794,6 +829,7 @@ Opening Task Details Pane
 -------------------------
 
 .. _rmf-45:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-45.png
     :align: center
     :alt: figure 45
@@ -813,6 +849,7 @@ Opening Task Details Pane
    e. Audit Trail
 
 .. _rmf-46:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-46.png
     :align: center
     :alt: figure 46
@@ -827,6 +864,7 @@ Closing a Task
    rights can perform this operation.
 
 .. _rmf-47:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-47.png
     :align: center
     :alt: figure 47
@@ -852,6 +890,7 @@ efficiently.
    Notification** from the pop meu.
 
 .. _rmf-48:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-48.png
     :align: center
     :alt: figure 48
@@ -880,6 +919,7 @@ A Technician can view all his Notifications that he created under
 Click on a Notification to get more details.
 
 .. _rmf-50:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-50.png
     :align: center
     :alt: figure 50
@@ -923,6 +963,7 @@ as follows:
           Notifications.
 
 .. _rm-watchers:
+
 Watchers
 ========
 
@@ -944,6 +985,7 @@ Adding/Editing People as Watchers
    Watcher** from the popup menu.
 
 .. _rmf-51:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-51.png
     :align: center
     :alt: figure 51
@@ -953,6 +995,7 @@ Adding/Editing People as Watchers
    Technician and Requestor, or you can use both emails and groups.
 
 .. _rmf-52:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-52.png
     :align: center
     :alt: figure 52
@@ -973,6 +1016,7 @@ A Technician can be a Watcher too with a single click.
    and you become a Watcher.
 
 .. _rmf-53:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-53.png
     :align: center
     :alt: figure 53
@@ -994,6 +1038,7 @@ To add a Request:
    integrated. Go to the Integrations tab.
 
 .. _rmf-54:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-54.png
     :align: center
     :alt: figure 54
@@ -1001,6 +1046,7 @@ To add a Request:
 -  Click on **Add to Jira**. A new dialog box opens.
 
 .. _rmf-55:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-55.png
     :align: center
     :alt: figure 55
@@ -1023,6 +1069,7 @@ Closing from List View:
    Request is now marked as closed.
 
 .. _rmf-56:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-56.png
     :align: center
     :alt: figure 56
@@ -1037,6 +1084,7 @@ Closing from Details View:
    closure.
 
 .. _rmf-57:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-57.png
     :align: center
     :alt: figure 57

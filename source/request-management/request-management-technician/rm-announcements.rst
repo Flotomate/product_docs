@@ -11,11 +11,13 @@ certain period.
 You can run an Announcement on both Customer and Technician Portals.
 
 .. _rmf-73:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-73.png
     :align: center
     :alt: figure 73
 
 .. _rmf-74:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-74.png
     :align: center
     :alt: figure 74
@@ -31,6 +33,7 @@ Creating an Announcement
    the page. You are now on the Announcements page.
 
 .. _rmf-75:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-75.png
     :align: center
     :alt: figure 75
@@ -39,6 +42,7 @@ Creating an Announcement
    the page. Create Announcement dialog box opens.
 
 .. _rmf-76:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-76.png
     :align: center
     :alt: figure 76
@@ -108,6 +112,7 @@ Turning off an Announcement
 Go to **Request** >> **Manage Announcements** >>Announcements.
 
 .. _rmf-77:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-77.png
     :align: center
     :alt: figure 77

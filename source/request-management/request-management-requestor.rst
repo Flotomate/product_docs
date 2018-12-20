@@ -24,11 +24,13 @@ guest users. An Admin has to enable the guest user feature.
 -  Click on **Create Request**.
 
 .. _rmf-78:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-78.png
     :align: center
     :alt: figure 78
 
 .. _rmf-79:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-79.png
     :align: center
     :alt: figure 79
@@ -77,6 +79,7 @@ To access Request List View
 3. You are now on the Request List View.
 
     .. _rmf-80:
+
     .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-80.png
         :align: center
         :alt: figure 80
@@ -112,6 +115,7 @@ There are two broad ways to search requests:
    statuses:
 
 .. _rmf-81:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-81.png
     :align: center
     :alt: figure 81
@@ -131,6 +135,7 @@ and has access to the details of the Request.
 3. You are now in the Request Details View of that Request.
 
     .. _rmf-82:
+
     .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-82.png
         :align: center
         :alt: figure 82
@@ -160,6 +165,7 @@ Flotomate allows requesters to classify Requests based on the following:
    which is either on User, Department or Business.
 
 .. _rmf-83:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-83.png
     :align: center
     :alt: figure 83
@@ -177,6 +183,7 @@ To write a comment:
    Technician**. The pane expands to show an editor.
 
 .. _rmf-84:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-84.png
     :align: center
     :alt: figure 84

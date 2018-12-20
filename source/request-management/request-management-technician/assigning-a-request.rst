@@ -31,6 +31,7 @@ Alternatively, you use Claim and Assign as a bulk operation. You can
 Claim or Assign multiple Requests at once.
 
 .. _rmf-15:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-15.png
     :align: center
     :alt: figure 15

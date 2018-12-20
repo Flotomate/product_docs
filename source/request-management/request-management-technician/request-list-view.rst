@@ -20,6 +20,7 @@ To open Request List View:
    available Requests in the List View.
 
 .. _rmf-4:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-4.png
     :align: center
     :alt: figure 4
@@ -27,6 +28,7 @@ To open Request List View:
 The List View is dynamic with the following features:
 
 .. _rmf-5:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-5.png
     :align: center
     :alt: figure 5
@@ -54,6 +56,7 @@ The List View is dynamic with the following features:
    following information:
 
     .. _rmf-6:
+
     .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-6.png
         :align: center
         :alt: figure 6
@@ -93,6 +96,7 @@ The List View is dynamic with the following features:
        Glance pane of a Request.
 
         .. _rmf-7:
+
         .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-7.png
             :align: center
             :alt: figure 7
@@ -101,6 +105,7 @@ The List View is dynamic with the following features:
        focus is to give you the most critical information.
 
 .. _rmf-8:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-8.png
     :align: center
     :alt: figure 8

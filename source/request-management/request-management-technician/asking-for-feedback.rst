@@ -18,6 +18,7 @@ To Activate Feedback
 -  Go to **Admin** >> **Request Feedback Settings** (under Request Management).
 
 .. _rmf-64:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-64.png
     :align: center
     :alt: figure 64
@@ -37,11 +38,13 @@ To Activate Feedback
    feedback link to a Requester from the Details View of a Request.
 
     .. _rmf-65.1:
+
     .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-65.1.png
         :align: center
         :alt: figure 65.1
 
     .. _rmf-65.2:
+
     .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-65.2.png
         :align: center
         :alt: figure 65.2
@@ -58,6 +61,7 @@ When a Requestor clicks on the feedback link he/she gets the following
 form:
 
 .. _rmf-66:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-66.png
     :align: center
     :alt: figure 66
@@ -66,6 +70,7 @@ You can view the feedback of a Requestor in the Details View of a
 Request, and the values captured via custom fields are separately shown under the Feedback tab.
 
 .. _rmf-67:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-67.png
     :align: center
     :alt: figure 67
@@ -88,11 +93,9 @@ To add Custom Fields:
 - In the Custom Field page, create a form using drag and drop from pre-defined field types. 
 
 .. _rmf-67.1:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-67.1.png
     :align: center
     :alt: figure 67.1
 
-.. note:: Learn how to work with :ref:`Custom Fields <Working with Custom Fields>`.    
-
-
-
+.. note:: Learn how to work with :ref:`Custom Fields <Working with Custom Fields>`.

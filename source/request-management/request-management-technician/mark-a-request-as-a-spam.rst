@@ -10,6 +10,7 @@ disappears from the main server.
 You can mark multiple Requests as Spam at once or mark them individually.
 
 .. _rmf-58:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-58.png
     :align: center
     :alt: figure 58
@@ -30,6 +31,7 @@ You can also send Requests to spam from the Request Details View:
 2. Click on the Action Menu.
 
 .. _rmf-59:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-59.png
     :align: center
     :alt: figure 59
@@ -51,6 +53,7 @@ Viewing/Unspam a Spammed Requests
    way you Spammed them.
 
     .. _rmf-60:
+    
     .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-60.png
         :align: center
         :alt: figure 60

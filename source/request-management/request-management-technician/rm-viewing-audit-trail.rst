@@ -16,6 +16,7 @@ The Audit Trail dialog box lists changes concerning assignment, and
    search and sort the Audit Trail information.
 
 .. _rmf-61:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-61.png
     :align: center
     :alt: figure 61
@@ -23,6 +24,7 @@ The Audit Trail dialog box lists changes concerning assignment, and
 Alternatively, the Audit Trail is also visible under the Activity tab.
 
 .. _rmf-62:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-62.png
     :align: center
     :alt: figure 62
@@ -35,6 +37,7 @@ Another way to view Audit Trail is from the Details View:
    click on **View Audit Trail**.
 
 .. _rmf-63:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-63.png
     :align: center
     :alt: figure 63

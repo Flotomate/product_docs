@@ -18,6 +18,7 @@ see the list of available options, then click on the Search Box. You can
 select an option or multiple options from a drop-down menu.
 
 .. _rmf-9:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-9.png
     :align: center
     :alt: figure 9
@@ -33,6 +34,7 @@ can save your search queries, refer :numref:`rmf-10`. Saved search queries
 appear in the section-A’s menu list (:numref:`rmf-5`).
 
 .. _rmf-9.1:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-9.1.png
     :align: center
     :alt: figure 9.1
@@ -42,6 +44,7 @@ in the Subject line and have an Impact on a Department. You have the
 search query in :numref:`rmf-10`.
 
 .. _rmf-10:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-10.png
     :align: center
     :alt: figure 10
@@ -52,6 +55,7 @@ example of same data type conditions is Status Open vs. Status Closed.
 Between keywords and conditions AND logic is followed.
 
 .. _rmf-11:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-11.png
     :align: center
     :alt: figure 11
@@ -75,6 +79,7 @@ clicking on the header section (Section-A :numref:`rmf-5`) gives you a popup
 menu containing seven predefined filters.
 
 .. _rmf-12:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-12.png
     :align: center
     :alt: figure 12
@@ -120,6 +125,7 @@ tell you about the distribution of Requests under various predefined and
 custom statuses.
 
 .. _rmf-13:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-13.png
     :align: center
     :alt: figure 13
@@ -147,6 +153,7 @@ The product can also show you the distribution of all the unclosed
 Requests across the priority levels and SLA statuses.
 
 .. _rmf-14:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-14.png
     :align: center
     :alt: figure 14

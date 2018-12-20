@@ -19,6 +19,7 @@ Only people with create Request rights can create Requests. Please refer
    **Request**.
 
 .. _rmf-1:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-1.png
     :align: center
     :alt: figure 1
@@ -26,11 +27,13 @@ Only people with create Request rights can create Requests. Please refer
 2. The **Create-a-Request** dialog box opens.
 
 .. _rmf-2:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-2.png
     :align: center
     :alt: figure 2
 
 .. _rmf-3:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-3.png
     :align: center
     :alt: figure 3
