@@ -77,18 +77,22 @@ Note: :ref:`.Net-Framework required <question1>`
 Installation using PsExec (For Windows)
 =======================================
 
-1. Download PSTools.zip. Extract the zip file to a folder.
+.. note:: Must have system admin credential of computers for agent deployment. 
+
+.. note:: All computers have to be in the same network and domain (if present).
+
+1. Download PSTools.zip. Extract the zip file to a folder in one of the system.
 
 2. Download the agent.msi file.
 
 3. Put agent.msi in the PSTools folder.
 
-4. Add IP list in ip.txt file for installing agent in those computers.
+4. Add IP list and system credential.
 
-5. Now run setup.bat.
+   .. code-block:: PsExec.exe \\host/ip -u domain/administrator -p password -c -d agent.msi /qn
 
-6. Enter the Url of the main server.
+5. Install agent using the following command.
 
-7. Enter Domain Username and password then hit enter.
+   .. code-block:: PsExec.exe \\host/ip -u domain/administrator -p password cmd /c "msiexec.exe /I "C:\Windows\agent.msi" URL=itsm-url SECURE_PROP=code /quiet /norestart"
 
 It will take time for installing agent in all Computers.

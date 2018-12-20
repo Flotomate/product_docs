@@ -17,7 +17,7 @@ All relations are visible under the **Relations** tab on the :ref:`details view 
     :align: center
     :alt: figure 27
 
-A technician can relate existing items in the system.
+A technician can relate existing items in the system. 
 
 .. _proj-28:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-28.jpg

@@ -48,6 +48,14 @@ Prerequisite
 
   https://s3.ap-south-1.amazonaws.com/flotomate-customer-releases/share/ubuntu_server_os.iso
 
+- The following ports need to be open.
+
+.. _FSC-1.1:
+
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/file-server-configuration/FSI-1.1.png
+    :align: center
+    :alt: figure 1.1  
+
 Installation Steps
 ------------------
 
