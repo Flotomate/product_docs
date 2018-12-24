@@ -7,3 +7,4 @@ Task Management
    task-intro
    searching-tasks
    creating-a-tasks
+   working-on-a-task

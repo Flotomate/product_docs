@@ -2,7 +2,8 @@
 Task Management Introduction
 ****************************
 
-My Tasks module allows a technician to view all his tasks at a single place. He/she can also create new tasks and assign them to other technicians
+My Tasks module allows a technician to view all his tasks at a single place. Tasks could be related to different modules, and some of them might
+be independently assigned. He/she can also create new tasks and assign them to other technicians
 or themselves from My Tasks. 
 
 Access My Tasks
