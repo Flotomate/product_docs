@@ -5,5 +5,6 @@ Plugin Server Installation Guide
    :maxdepth: 2
 
    plugin-server-setup
+   creating-a-certificate
    
    

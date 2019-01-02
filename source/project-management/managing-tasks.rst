@@ -66,9 +66,22 @@ Tasks created in a project can be searched using a search bar and filters in the
     :align: center
     :alt: figure 26
 
-Learn more about :ref:`Searching Tasks`.
+Learn more about :ref:`Searching Tasks <Searching My Tasks>`.
 
 Working on a Task
 =================
 
-<WIP>
+A technician works on a task by expanding its details pane by clicking on the expand icon. :ref:`Learn more <Working on a Single Task>`. 
+
+View TimeSheet of a Project
+===========================
+
+A technician working on a project can view the combined man hours worked on the project under **TimeSheet** tab. 
+It is the summation of all time logs of each and every tasks of the project grouped by technician names.
+
+The **TimeSheet** tab can be accessed from the :ref:`details view <Project Details View>` of a project. 
+
+.. _proj-47:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-47.jpg
+    :align: center
+    :alt: figure 47

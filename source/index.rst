@@ -26,8 +26,8 @@ Flotomate Product Manual
    patch-management/index
    package-deployment/index
    dashboard/index
-   project_management/index
-   task.management/index
+   project-management/index
+   task-management/index
    flotomate-plugins/index
    user-profile/index
    use-cases/index

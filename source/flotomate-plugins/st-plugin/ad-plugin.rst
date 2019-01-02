@@ -37,11 +37,11 @@ create new users, update existing user, reset user password and delete a user us
     :align: center
     :alt: figure 3
 
-5. You can trigger the plugin as an action item to a :ref:`workflow <ad-workflow>` and :ref:`Scenario <Create a Scenario>`. Following are some of the action items (as part of workflows):
+5. Admin can trigger the plugin as an action item to a :ref:`workflow <ad-workflow>` and :ref:`Scenario <Create a Scenario>`. Following are some of the action items (as part of workflows):
 
    Before triggering any action, one has to understand the parameters that goes into making an input to the active directory. 
    
-   a. **optype (operation type)**: Refers to the kind of operations you want with the plugin. You can select any one from the below types:
+   a. **optype (operation type)**: Refers to the kind of operations an admin want with the plugin. Admin can select any one from the below types:
 
      i. create: Create a new user. 
 
@@ -58,13 +58,29 @@ create new users, update existing user, reset user password and delete a user us
 
    Following are examples of the actions (operations) mentioned above. 
 
-   a. **Create a new user**: A workflow creates a new user in the Active Directory using the plugin when a request is created. Here the 
-      following parameters have been set:
+   a. **Create a new user with password**: A workflow creates a new user using the AD plugin when a request with the category
+      **New Requester** is created. 
+
+      A request can have custom fields to capture requester information. In the following example, a request with the catagory
+      has the following custom fields:
+
+      i. **Name**
+      ii. **Email**
+      iii. **Password**
+
+      Learn how to create :ref:`custom fields <ad-custom-fields>`.
 
       i. **optype**: create (mandatory to create a new user).
       ii. **base-dn**: CN=User,DC=flotomate,DC=com (refers to the top level directory called **User**)
-      iii. **CN**: Name of the object here it is Bhavin_test_User. 
-      iv.  **Properties of object Bhavin_test_User**: st and mail (AD properties).  
+      iii. **CN**: Name of the user, here it is {#Name}. {#Name} is the placeholder to fetch the value of the field **Name**.
+      iv. **Password**: Login password of the user. {#Password} fetches the password. Password must comply with the password rule of the
+          AD.
+      v.  **Properties of object {#Name}**: {#Email} (AD properties).
+      vi. **userPrincipalName**: This attribute is the logon name for the user, here it is {#Email}.
+
+
+      .. note:: It order to set a password, admin has to first create a SSL certificate in the AD, and then transfer the same in the
+                plugin server. :ref:`Learn more <plug-certificate>`.
 
       .. _plgm-4:
 
