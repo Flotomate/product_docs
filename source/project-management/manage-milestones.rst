@@ -22,14 +22,14 @@ Create a Milestone
 - A technician opens a :ref:`project <Project Details View>` and clicks the **Milestones** tab.
 
 .. _proj-16:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-16.jpg
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-16.png
     :align: center
     :alt: figure 16
 
 - He then clicks on the **Create Milestone** button which opens a dialog box where he can enter the following inputs:
 
   .. _proj-17:
-  .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-17.jpg
+  .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-17.png
         :align: center
         :alt: figure 17
 
@@ -66,7 +66,7 @@ Some of the benefits of grouping tasks by milestone are:
 - Click on the **Milestone** tab. Here a technician can drag a task into a milestone, and the task is grouped. 
 
     .. _proj-21:
-    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-21.jpg
+    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-21.png
         :align: center
         :alt: figure 21
   
@@ -89,7 +89,7 @@ A technician has to start a milestone.
 - Select a milestone and click on **Start** from it action menu. The milestone will start on confirmation.
 
 .. _proj-22:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-22.jpg
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-22.png
     :align: center
     :alt: figure 22
 
@@ -99,7 +99,7 @@ Marking a Milestone as Complete
 A milestone is a time bound activity. A technician can mark a milestone as completed/closed from:
 
 .. _proj-46:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-46.jpg
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-46.png
     :align: center
     :alt: figure 46
 
@@ -125,7 +125,7 @@ The audit trail of a milestone shows all the changes made to it and by whom alon
 - Select a milestone and click on **View Audit Trail** from it action menu.
 
 .. _proj-23:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-23.jpg
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-23.png
     :align: center
     :alt: figure 23
 
@@ -143,7 +143,7 @@ A technician can delete/cancel a milestone from a project.
 - Select a milestone and click on **Archive/Cancel** from it action menu.
 
 .. _proj-24:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-24.jpg
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-24.png
     :align: center
     :alt: figure 24
 

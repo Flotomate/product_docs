@@ -25,6 +25,6 @@ A General Workflow for a Project
 ================================
 
 .. _proj-1:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-1.jpg
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-1.png
     :align: center
     :alt: figure 1

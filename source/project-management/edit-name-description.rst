@@ -9,7 +9,7 @@ A technician can change the name and description of a project in the following w
 - He clicks on the edit icon adjacent to the project name.
 
 .. _proj-13:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-13.jpg
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-13.png
     :align: center
     :alt: figure 13
 

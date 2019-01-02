@@ -32,7 +32,7 @@ Open Project Details View
 - Click on a project (name). The details view opens with the following options and fields.
 
   .. _proj-12:
-  .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-12.jpg
+  .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-12.png
         :align: center
         :alt: figure 12
 

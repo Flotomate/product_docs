@@ -11,14 +11,14 @@ A technician can create a new project in the following way:
 - He clicks on the **Create a Project** button situated in the top right corner of the page.
 
 .. _proj-10:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-10.jpg
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-10.png
     :align: center
     :alt: figure 10
 
 - A dialog box opens where the technician can enter the following inputs:
 
     .. _proj-11:
-    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-11.jpg
+    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-11.png
         :align: center
         :alt: figure 11
 

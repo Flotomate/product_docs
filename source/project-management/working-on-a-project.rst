@@ -12,17 +12,17 @@ The project creator can assign the project to himself or any other technician. H
 :ref:`project list view <Project Management List View>` and :ref:`project details view <Project Details View>`.
 
 .. _proj-32:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-32.jpg
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-32.png
     :align: center
     :alt: figure 32
 
 .. _proj-33:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-33.jpg
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-33.png
     :align: center
     :alt: figure 33
 
 .. _proj-34:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-34.jpg
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-34.png
     :align: center
     :alt: figure 34
 
@@ -36,12 +36,12 @@ Members are added from the :ref:`details view <Project Details View>` of a proje
 from the action menu. 
 
 .. _proj-35:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-35.jpg
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-35.png
     :align: center
     :alt: figure 35
 
 .. _proj-36:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-36.jpg
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-36.png
     :align: center
     :alt: figure 36
 
@@ -55,14 +55,14 @@ A technician has to start a project to mark the beginning of the project. He/she
 **:ref:`Project Management List View`**:
 
 .. _proj-37:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-37.jpg
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-37.png
     :align: center
     :alt: figure 37
 
 **:ref:`Project Details View`**:
 
 .. _proj-38:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-38.jpg
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-38.png
     :align: center
     :alt: figure 38
 
@@ -75,14 +75,14 @@ stamp. The audit trail can be accessed from the:
 **:ref:`Project Management List View`**:
 
 .. _proj-39:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-39.jpg
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-39.png
     :align: center
     :alt: figure 39
 
 **:ref:`Project Details View`**:
 
 .. _proj-40:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-40.jpg
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-40.png
     :align: center
     :alt: figure 40
 
@@ -93,7 +93,7 @@ A technician working on the project can refer the Knowledge directly from the :r
 Knowledge content with the project.  
 
 .. _proj-41:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-41.jpg
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-41.png
     :align: center
     :alt: figure 41
 
@@ -105,14 +105,14 @@ A project is a time bound activity. A technician can mark the project as complet
 **:ref:`Project Management List View`**:
 
 .. _proj-44:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-44.jpg
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-44.png
     :align: center
     :alt: figure 44
 
 **:ref:`Project Details View`**:
 
 .. _proj-45:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-45.jpg
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-45.png
     :align: center
     :alt: figure 45
 
@@ -134,14 +134,14 @@ A technician can delete/cancel the project using the **Archive/Cancel Project** 
 **:ref:`Project Management List View`**:
 
 .. _proj-42:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-42.jpg
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-42.png
     :align: center
     :alt: figure 42
 
 **:ref:`Project Details View`**:
 
 .. _proj-43:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-43.jpg
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-43.png
     :align: center
     :alt: figure 43
 

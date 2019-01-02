@@ -17,14 +17,14 @@ A technician can create a task in a project in the following way.
 - He clicks on the **Tasks** tab and then clicks on **Create a Task**.
 
 .. _proj-18:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-18.jpg
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-18.png
     :align: center
     :alt: figure 18
 
 - The Create Task dialog box opens where he can enter the following inputs:
 
     .. _proj-19:
-    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-19.jpg
+    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-19.png
         :align: center
         :alt: figure 19
 
@@ -47,7 +47,7 @@ A technician can create a task in a project in the following way.
 - A technician can also create a task from the **Milestones** tab. 
 
 .. _proj-20:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-20.jpg
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-20.png
     :align: center
     :alt: figure 20
 
@@ -57,12 +57,12 @@ Searching Tasks
 Tasks created in a project can be searched using a search bar and filters in the **Tasks** and **Milestones** tabs. 
 
 .. _proj-25:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-25.jpg
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-25.png
     :align: center
     :alt: figure 25
 
 .. _proj-26:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-26.jpg
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-26.png
     :align: center
     :alt: figure 26
 
@@ -82,6 +82,6 @@ It is the summation of all time logs of each and every tasks of the project grou
 The **TimeSheet** tab can be accessed from the :ref:`details view <Project Details View>` of a project. 
 
 .. _proj-47:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-47.jpg
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-47.png
     :align: center
     :alt: figure 47

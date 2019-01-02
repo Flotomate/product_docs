@@ -18,14 +18,14 @@ Open Project Management List View
 - Go to **admin** >> **Launcher** >> **Project**.
 
 .. _proj-2:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-2.jpg
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-2.png
     :align: center
     :alt: figure 2
 
 - The project management list view opens with the following options:
 
 .. _proj-3:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-3.jpg
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-3.png
     :align: center
     :alt: figure 3
 

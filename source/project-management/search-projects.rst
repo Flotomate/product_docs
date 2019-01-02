@@ -18,12 +18,12 @@ predefined search options. Using the search options, a technician can create a c
 projects are shown. 
 
 .. _proj-4:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-4.jpg
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-4.png
     :align: center
     :alt: figure 4
 
 .. _proj-5:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-5.jpg
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-5.png
     :align: center
     :alt: figure 5
 
@@ -33,7 +33,7 @@ Between two different conditions of the same filter type OR logic is followed. B
 An example of same filter type conditions is Status equals Hold vs. Status equals Closed. 
 
 .. _proj-6:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-6.jpg
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-6.png
     :align: center
     :alt: figure 6
 
@@ -47,7 +47,7 @@ Making a Custom Filter
 A technician can save a search query as a custom filter for later user. 
 
 .. _proj-7:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-7.jpg
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-7.png
     :align: center
     :alt: figure 7
 
@@ -57,7 +57,7 @@ Using Predefined Filters
 A technician has access to the following set of filters available in the header section of the project :ref:`list page <Project Management List View>`.
 
 .. _proj-8:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-8.jpg
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-8.png
     :align: center
     :alt: figure 8
 
@@ -78,6 +78,6 @@ A technician has access to the following set of filters available in the header 
 Another set of filters that the technician has access are above the search bar.
 
 .. _proj-9:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-9.jpg
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-9.png
     :align: center
     :alt: figure 9

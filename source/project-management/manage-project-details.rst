@@ -5,7 +5,7 @@ Modify Project Details
 A technician can modify the details of a project from the :ref:`Project Details View`. He/she can modify the following things:
 
 .. _proj-14:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-14.jpg
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-14.png
     :align: center
     :alt: figure 14
 
@@ -25,7 +25,7 @@ A technician can modify the details of a project from the :ref:`Project Details 
 7. Add tags. 
 
 .. _proj-15:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-15.jpg
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/project-management/PROJ-15.png
     :align: center
     :alt: figure 15
 
