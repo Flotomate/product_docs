@@ -5,3 +5,4 @@ Available Plugins
    :maxdepth: 2
 
    ad-plugin
+   sms-plugin

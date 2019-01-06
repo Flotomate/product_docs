@@ -42,7 +42,9 @@ Start your server and install the plugin server build into a directory.
 Plugin Server Configuration (Step 2)
 ------------------------------------
 
-1. Open server terminal and go to the directory containing **plugin_server_CI**.  
+1. Open server terminal and go to the directory containing **plugin_server_CI**. First change permission with the following command. 
+
+   **sudo chmod 777 plugin_server_CI**
 
 .. _plg-1:
 

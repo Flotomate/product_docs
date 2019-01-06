@@ -56,13 +56,13 @@ create new users, update existing user, reset user password and delete a user us
 
    c. **CN (Common Name)**: Refers to the name of the object with attributes. 
 
-   Following are examples of the actions (operations) mentioned above. 
+   Following are examples of the actions (operations) mentioned above.
 
    a. **Create a new user with password**: A workflow creates a new user using the AD plugin when a request with the category
       **New Requester** is created. 
 
       A request can have custom fields to capture requester information. In the following example, a request with the catagory
-      has the following custom fields:
+      has the following custom field values:
 
       i. **Name**
       ii. **Email**
@@ -73,7 +73,7 @@ create new users, update existing user, reset user password and delete a user us
       i. **optype**: create (mandatory to create a new user).
       ii. **base-dn**: CN=User,DC=flotomate,DC=com (refers to the top level directory called **User**)
       iii. **CN**: Name of the user, here it is {#Name}. {#Name} is the placeholder to fetch the value of the field **Name**.
-      iv. **Password**: Login password of the user. {#Password} fetches the password. Password must comply with the password rule of the
+      iv. **password**: Login password of the user. {#Password} fetches the password. Password must comply with the password rule of the
           AD.
       v.  **Properties of object {#Name}**: {#Email} (AD properties).
       vi. **userPrincipalName**: This attribute is the logon name for the user, here it is {#Email}.
@@ -115,7 +115,7 @@ create new users, update existing user, reset user password and delete a user us
           :align: center
           :alt: figure 6
 
-   d. **Update a user info**: A workflow updates a user in the Active Directory using the plugin when a request, with a specific tag, is created. Here the 
+   d. **Update a user info**: A workflow updates a user in the Active Directory using the plugin when a request, with a specific tag, is created. Here are the 
       following parameters have been set:
 
       .. note:: If given properties don't exist then they will be created.
@@ -130,3 +130,14 @@ create new users, update existing user, reset user password and delete a user us
       .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/plugin-server/PLGM-7.png
           :align: center
           :alt: figure 7
+
+   e. **Reset User Password**: A workflow updates a user's password in the Active Directory using the plugin when a request, 
+      with the category **Reset Password** is created. 
+
+      .. note:: Refer to the above method (Create a new user with password) to know about the input parameters.
+      
+      .. _plgm-8:
+
+      .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/plugin-server/PLGM-8.png
+          :align: center
+          :alt: figure 8.

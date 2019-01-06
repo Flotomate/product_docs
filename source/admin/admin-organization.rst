@@ -178,8 +178,6 @@ To add business hours:
 3. Click **Add Business Hour** situated in the top right corner of the
    page.
 
-..
-
 .. _adf-81:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-81.png
     :align: center
@@ -189,7 +187,9 @@ To add business hours:
    can also select a sub-department) for which you want to set time.
    Give a name to the time profile.
 
-5. We have two options for setting working hours: **24hrs x 7days** and
+5. You can set the business hours as default.
+
+6. We have two options for setting working hours: **24hrs x 7days** and
    **Custom hours**. You can select any one of them.
 
     To set custom hours:
@@ -213,14 +213,14 @@ Location
 ========
 
 You can add your business location/locations in Flotomate along with the
-time zone/zones. You can have :ref:`business hours <business hours>` for
+time zone/zones. :ref:`business hours <business hours>` are auto configured based on the time zone of
 each location.
 
 Some benefits of having locations:
 
 -  You can set a time zone for your business hours.
 
--  You can classify tickets, Assets, and Projects by location.
+-  You can classify and segregate (:ref:`learn more <Data Segregation with Location Scope>`) tickets, Assets, and Projects by location.
 
 -  You can create location specific Reports.
 
