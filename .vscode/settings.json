@@ -1,6 +1,7 @@
 {
     "restructuredtext.confPath": "${workspaceFolder}\\source",
     "cSpell.words": [
-        "DHCP"
+        "DHCP",
+        "Workgroup"
     ]
 }

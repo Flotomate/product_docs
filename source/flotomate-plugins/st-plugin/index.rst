@@ -6,3 +6,5 @@ Available Plugins
 
    ad-plugin
    sms-plugin
+   ticket-forwarding
+   
