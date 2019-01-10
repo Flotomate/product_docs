@@ -12,4 +12,5 @@ Installation Guides
    remote-desktop/index
    high-availability/index
    upgrade-guide/index
+   recovery/index
    
