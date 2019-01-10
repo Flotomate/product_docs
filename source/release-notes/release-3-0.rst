@@ -2,8 +2,8 @@
 Release Notes - Ostrich 3.0.0
 *****************************
 
-**Introduction of New Components**
-==================================
+**Introduction of New Features**
+================================
 
 1. Location Scoping
 -------------------
