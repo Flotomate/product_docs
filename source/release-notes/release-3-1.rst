@@ -5,13 +5,16 @@ Release Notes - Sparrow 3.1.0
 **Introduction of New Features**
 ================================
 
-1. Agent-less Discovery of Solaris System
------------------------------------------
+1. Agent-less Discovery of Solaris Systems
+------------------------------------------
+
+With the current release, admin can now create probs to discover Solaris systems in a network. This is the beginning for our support
+for Unix system. 
 
 2. Disaster Recovery
 --------------------
 
-Disaster recovery is an automated process to replicate the database of the main server in a remote server. 
+Disaster recovery is an automated process to replicate the database of the main server in a remote server. :ref:`Learn More <Disaster Recovery Setup Guide>`.
 
 3. Activation Key Using API
 ---------------------------
