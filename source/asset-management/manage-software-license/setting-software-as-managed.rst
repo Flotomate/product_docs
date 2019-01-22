@@ -35,6 +35,13 @@ Another way is to apply the filter **All Managed Software** and then selecting *
 
 In the new dialog box, one can search and set software as managed. 
 
+The user can also mark multiple software as managed from the :ref:`Asset List View`.
+
+.. _amf-ma-3.1:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-MA-3.1.png
+    :align: center
+    :alt: figure 3.1
+
 Setting Software Type from Asset Details View
 ---------------------------------------------
 

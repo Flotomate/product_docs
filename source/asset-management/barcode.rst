@@ -110,8 +110,6 @@ From Asset Details View:
 
 -  Browser’s print dialog box opens. Where you can print the barcode.
 
-.. _am-print-new-barcodes:
-
 View Barcode of an Asset
 ========================
 
@@ -146,6 +144,21 @@ You can remove a barcode of an Asset from its :ref:`Details View<Manage Asset De
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-43.png
     :align: center
     :alt: figure 43
+
+.. _am-print-new-barcodes:
+
+Generate Barcodes
+=================
+
+A technician can generate a series of barcodes that are not relates to any asset from the :ref:`asset list view <Asset List View>`.
+
+.. _amf-43.1:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-43.1.png
+    :align: center
+    :alt: figure 43.1
+
+Clicking the **Generate Barcodes** option opens a dialog box where the technician can mention the number of barcodes he wants to generate. 
+A PDF file automatically downloads with the said number of barcodes. 
 
 Changing Barcode Prefix
 =======================

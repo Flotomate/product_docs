@@ -37,21 +37,6 @@ Learn how to add :ref:`subscribers<managing subscribers>`.
 
 -  Clicking on the button marks the selected Software Assets.
 
-**From Details View:**
-
--  Go to the :doc:`Details View<managing-asset-details>` of a Software Asset.
-
--  Click on the Action Menu situated in the top right corner beside
-   barcode/Add Barcode.
-
-.. _amf-47:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-47.png
-    :align: center
-    :alt: figure 47
-
--  Clicking on **Mark for Notification** from the pop-up menu marks the
-   Asset.
-
 Marking Other Assets
 --------------------
 
