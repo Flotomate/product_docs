@@ -6,13 +6,10 @@ Software Metering
 
 Metering is a convenient tool to track the utilization of a Software
 application across machines in an organization. Using Metering,
-Asset Management can track three usage statistics of a Software Asset using an
+CMDB can track two usage statistics of a Software Asset using an
 Agent. A user has to enable Metering individually for Software Assets that
 he/she wants to track. Currently, Metering tracks the following information
 of a Software Asset:
-
-- The number of times the Software application was open. Also referred
-  to as Usage Count. 
 
 - Total time the Software Application was used. Also referred to as
   Usage Duration.
@@ -20,7 +17,7 @@ of a Software Asset:
 - Time elapsed since the application was last open. Also referred to as
   Last Used.
 
-The above three statistics are shown in two different ways: cumulative counts from all the agents and individual counts of each agent.
+The above two statistics are shown in two different ways: cumulative counts from all the agents and individual counts of each agent.
 
 The metering feature is available for all OS platforms supported by the :ref:`Flotomate Agent Application <Flotomate Discovery Agent>`.
 

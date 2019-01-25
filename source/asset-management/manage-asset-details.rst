@@ -55,11 +55,13 @@ single Asset in Flotomate.
 
         There are four categories of Properties in Flotomate:
 
-            i.  Computer Properties
+            i. Computer Properties
 
-            ii.   Hardware
+            ii. Hardware
 
-            iii.  Software
+            iii. Software
+
+            iv. Business
 
             iv. Cloud
 
@@ -85,7 +87,7 @@ single Asset in Flotomate.
 
         ii. :doc:`Scan and Change log. <asset-logs>`
 
-    g. **Relationships**: Learn about :doc:`Managing Relationships <prohibited-software>`.
+    g. **Relationships**: Learn about :doc:`Managing Relationships <asset-relations>`.
 
     h. **Linked Events**: Learn about :ref:`Linked Events <am-linked-events>`.   
 
@@ -98,7 +100,12 @@ single Asset in Flotomate.
        who are allowed to view the CMDB. :ref:`Learn more <adding notes>`.
 
     l. **Agent Information**: Assets that have been discovered via an Agent have this tab. The tab shows
-       important information about he Agent, for example Agent ID.
+       important information about the Agent, for example Agent ID.
+
+    m. **Users**: If the asset is a hardware asset (mainly a workstation), then the technician can view all the users of the asset. 
+       The tab also has a search bar for the technician to search for a specific user. 
+
+    n. **Financials**: Here a technician can view the asset cost of a hardware asset. :ref:`Learn more <Asset Financial>`. 
 
 -  Section-E is the Display Pane where all the Properties, Components,
    relationships, editing options, adding options and other information
@@ -116,6 +123,8 @@ single Asset in Flotomate.
    c. :ref:`Copy Barcode <copying an asset barcode to the clipboard>`
 
    d. :ref:`Change Barcode <changing an assets barcode>`.
+
+   e. Remove barcode.
 
 -  Section-G is the Action Menu of the Details View. The available
    options in this menu depend on the Asset Type. Some of the Options are:
@@ -184,7 +193,7 @@ have the following classifying options.
     :align: center
     :alt: figure 19
 
--  **Status**: You can classify an Asset based on usability by using the
+-  **Status**: You can classify an Asset based on usage by using the
    following statuses:
 
     .. _amf-20:
@@ -205,9 +214,9 @@ have the following classifying options.
 
    You can have custom statuses. Learn more about :ref:`custom status <ad-add-custom-status>`.
 
--  **Discover status** (:numref:`amf-18.2`): The system classifies all discovered
+-  **Origin** (:numref:`amf-18.2`): The system classifies all discovered
    Assets with the label **Discovered**. The Assets that are manually
-   created have the **Manually Created** label.
+   created have the **Manually Created** label, and assets created by an agent has the tag **Agent**.
 
 -  **IP Address** (:numref:`amf-18.2`): You can set IP address of a manually
    added Asset.
@@ -220,9 +229,6 @@ have the following classifying options.
 -  **Impact** (:numref:`amf-18.2`): It lets Technicians to define the impact of
    the Asset as either low, on self, department or business.
 
--  **Used By** (:numref:`amf-18.2`): Here a Technician can add the email of the
-   user of the Asset from the Requester list.
-
 -  **Business Service** (:numref:`amf-18.2`): You can associate the Asset with a
    predefined Business Service.
 
@@ -234,6 +240,12 @@ have the following classifying options.
 
 -  **Managed By** (:numref:`amf-18.2`): You can add the email address of the
    Technician who is responsible for the Asset from Technician list.
+
+- **Requester Group**: You can put the asset in a group. Grouping the asset will allow technicians to create search queries and
+  automatic processes.  
+
+- **Software Type** (available only in software assets): This field is for software assets only. The field values are used for white-listing and compliance management.
+  :ref:`Learn more <Software Type>`. 
 
 Add/Modify Asset Group:
 -----------------------
@@ -249,7 +261,7 @@ field (:numref:`amf-18.2`) opens a drop-down menu where you make your selection.
 
 Asset Groups are important for adding
 :ref:`subscribers <managing subscribers>` to Hardware Asset related
-:ref:`notifications <different types of notifications>`. Learn more about Asset Group.
+:ref:`notifications <different types of notifications>`. Learn more about :ref:`Asset Group <Adding an Asset Group>`.
 
 Add/Modify Product
 ------------------
@@ -257,13 +269,13 @@ Add/Modify Product
 Every Asset in the CMDB is an instance of a Product. Having a Product
 unlocks additional functionalities. You can add/modify the Product field
 of all Assets (:numref:`amf-18.2`)). By clicking on the Product field you get
-access to all available Products to choose from.
+access to all available Products to choose from. Learn how you can add :ref:`more products <am-product>`.
 
 Add/Modify Vendor
 -----------------
 
 You can add/modify the Vendor field (:numref:`amf-18.2`) of any Asset from a
-predefined list.
+predefined list. Learn more about managing :ref:`vendors in Flotomate <am-vendor>`.
 
 Asset Attachments
 =================
@@ -305,8 +317,8 @@ Linked Events
 =============
 
 The **Linked Events** tab gives you an option to create a link between
-an Asset and other Requests, Problems, Knowledge and Changes. Learn to
-access the :ref:`Linked Events <manage-asset-details>` tab.
+an Asset and other Requests, Problems, Change, Knowledge, Project, Contract and Purchase. Learn to
+access the :ref:`Linked Events <Manage Asset Details>` tab.
 
 The purpose of creating links is to build contextual information about
 an Asset; for example, a faulty cooling system in a server (CI) have
@@ -320,17 +332,15 @@ the context.
     :align: center
     :alt: figure 24
 
--  You can view the present links of an Asset from the Item list (lift
-   side of the pane). You can filter for Problems, Changes, Requests and
-   KB posts.
+-  You can view the present links of an Asset from the Item list (left
+   side of the pane). You can filter for Requests, Problems, Changes, Kbs, Projects, Purchases and Contracts.
 
--  You can create a new Request, Problem, or Change and link it to an
+-  You can create a new Request, Problem, Change, Kb, Project, Purchase Order and Contract, and link it to an
    existing Asset using the **Create and Relate** option. Using this
-   option, you can directly access the create dialog box of Requests,
-   Changes, and Problems.
+   option, you can directly access the create dialog of the new item.
 
 -  The **Add Relation** option lets you add one or more links to
-   existing Requests, Problems, and Changes.
+   existing Requests, Problems, Changes, Knowledges, Projects, Contracts and Purchases.
 
     .. _amf-25:
     .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-25.png
@@ -338,7 +348,7 @@ the context.
         :alt: figure 25
 
     a. Clicking on **Add Relation** shows you a menu where you have to
-       select either Request, Problem, or Change.
+       select either Request, Problem, Change, Knowledge, Project, Contract or Purchasee.
 
     b. A dialog box opens with a search bar. The search bar supports Advance
        Search.
@@ -381,6 +391,8 @@ a possible fault in an Asset via a Note; other Technicians can view the note bef
 
 - Write a name and description and then click on **Add**.
 
+
+.. _asset-relations:
 
 Relationships
 =============
