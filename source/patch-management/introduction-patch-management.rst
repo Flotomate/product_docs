@@ -44,3 +44,11 @@ Some of the benefits of having Patch Management are as follows:
 
 -  Laws and regulations are imposing security best practices and having
    Assets all patched up is the best way to comply with such rules.
+
+What Platforms (OS) are supported for Patch Management
+-------------------------------------------------
+
+Flotomate patch management supports the following platform:
+
+- Windows 7, 8, 8.1, 10
+- Windows Server 2012, 2016
