@@ -112,44 +112,43 @@ single Asset in Flotomate.
    are visible.
 
 -  Section-F shows the unique Barcode of an Asset. If there’s no
-   Barcode, you can generate a new Barcode by clicking on **Add
-   Barcode** and then **Generate New Barcode**. By clicking on an
+   Barcode, you can generate a new Barcode by clicking on **Add Barcode** and then **Generate New Barcode**. By clicking on an
    existing Barcode, you can perform the following operations:
 
-   a. View Barcode
+   a. :ref:`View Barcode <View Barcode of an Asset>`
 
    b. :ref:`Print Barcode <print asset barcode>`
 
-   c. :ref:`Copy Barcode <copying an asset barcode to the clipboard>`
+   c. :ref:`Copy UPC Code <copying an asset barcode to the clipboard>`
 
-   d. :ref:`Change Barcode <changing an assets barcode>`.
+   d. :ref:`Change Barcode <changing an assets barcode>`
 
-   e. Remove barcode.
+   e. :ref:`Remove barcode <Remove a Barcode>`
 
 -  Section-G is the Action Menu of the Details View. The available
    options in this menu depend on the Asset Type. Some of the Options are:
 
-   a. Add Attachments (available in all Asset Class).
+   a. :ref:`Add Attachments <Asset Attachments>` (available in all Asset Class).
 
-   b. Scan Now (Only in Hardware Assets).
+   b. :ref:`Scan Now <Initiate Manual Scanning>` (Only in Hardware Assets).
 
-   c. Exclude from Scanning (Only in Hardware Assets).
+   c. :ref:`Exclude from Scanning <Excluding an Asset from Scanning>` (Only in Hardware Assets).
 
-   d. View Audit Trail (available in all Asset Class).
+   d. :ref:`View Audit Trail <Viewing Audit Trail>` (available in all Asset Class).
 
-   e. Export Asset (available in Hardware and Software).
+   e. :ref:`Export Asset <Exporting Asset Details>` (available in Hardware and Software).
 
-   f. Remote Desktop (only in Hardware Assets).
+   f. :ref:`Remote Desktop` (only in Hardware Assets).
 
    g. Reconcile (only in Hardware Assets).
 
-   h. Mark for Notification (only in Software Assets).
+   h. Add Barcode (only in Non-Software Assets).
 
    
 .. _change-name-description-asset:
 
 Change (Host) Name and Description of an Asset
-=======================================
+==============================================
 
 Section-A (:numref:`amf-14`) shows the ID and Name (by default host name in case of Hardware Asset) of the Asset. The ID
 Uniquely identifies an Asset whereas the Name is a human readable Asset
