@@ -56,7 +56,7 @@ view differ across classes in terms of filters and options.
       you can change the value by clicking on the field value.
 
    d. **Status**: The current state of the Asset in terms of usability.
-      This field supports quick edit.
+      This field supports quick edit. Learn how to add :ref:`custom statuses <ad-add-custom-status>`. 
 
    e. **Used by**: It tells us about the person who uses the Asset. This
       field supports quick edit.
@@ -78,12 +78,14 @@ view differ across classes in terms of filters and options.
 
    j. **Software Category**: One of the many ways of categorization.
 
+   k. **Installation Count**: It shows the total number of workstations (desktops and laptops) having the software. 
+
       Each Asset has an Action Menu (at far right) from where they can
       perform the following operations: :ref:`Scan Now<scanning-a-single-hardware-computer>`, 
       :ref:`Exclude from Scanning<excluding an asset from scanning>`, 
       :ref:`Viewing Audit Trail<am-viewing-audit-trail>`, 
       :doc:`Export Asset<export-asset-details>`, 
-      :ref:`Mark for Notification<am-marking-for-notification>` (for Software Assets),
+      :ref:`Remote Desktop <Remote Desktop>`,
       and Open Asset in new tab.
 
 -  Section-G gives you the option to set the number of Assets visible
@@ -96,13 +98,13 @@ view differ across classes in terms of filters and options.
 
    b. :ref:`Scan Barcode<opening asset using barcode>`
 
-   c. :ref:`Print Barcode<am-print-new-barcodes>`
+   c. :ref:`Generate Barcode <Generate Barcodes>`
 
-   d. :ref:`Add Assets using Barcode<adding assets using barcode>`
+   d. :ref:`Manage Asset Groups<managing asset groups>`
 
-   e. :ref:`Manage Asset Groups<managing asset groups>`
+   e. :ref:`Asset in Stage<delete-assets>`
 
-   f. :ref:`Asset in Stage<delete-assets>`
+   f. :ref:`Software Normalization` (for software assets).
 
 -  When you select one or more Assets you get the following bulk
    operations:
@@ -113,21 +115,19 @@ view differ across classes in terms of filters and options.
 
    c. :ref:`Delete<delete-assets>`
 
-   d. :ref:`Print Barcode<Print Asset Barcode>`
+   d. :ref:`Generate Barcodes <Print Asset Barcode>`
 
    e. :ref:`Move to Stage<delete-assets>`
 
 -  Other features specifically for Software Assets are:
 
-   a. :ref:`Manage Prohibited Software Expression<managing prohibited software expressions>`
+   f. :ref:`Mark as Prohibited <manually flagging a software asset as prohibited>`
 
-   b. :ref:`Computer Exclusion<computer exclusion>`
+   g. :ref:`Mark as Managed Software <Setting Software Type as Managed>`
 
-   c. :ref:`Mark as Prohibited<manually flagging a software asset as prohibited>`
+   h. :ref:`Mark for Notification <Marking Software Assets>`
 
-   d. :ref:`Mark for Notification<marking software assets>`
-
-   e. :ref:`Consolidate<consolidating software>`
+   i. :ref:`Consolidate <consolidating software>`
 
 Searching Assets
 ================
@@ -250,25 +250,25 @@ There are filters based on Asset Type:
 Software Asset
 ^^^^^^^^^^^^^^
 
-There are three predefined search filters in the header section of
-:doc:`List View<asset-list-view>`:
+There are four predefined search filters in the header section of
+:ref:`Asset List View`.
 
       .. _amf-7:
       .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-7.png
             :align: center
             :alt: figure 7
 
-      You can pin a filter using the Pin Icon. The pinned filter is applied by
-      default whenever someone clicks on **Asset** (A Navigation Tab) to go to
-      the List View.
+You can pin a filter using the Pin Icon. The pinned filter is applied by
+default whenever someone clicks on **Asset** (A Navigation Tab) to go to
+the List View.
 
-            a. **All Software IT Assets**: Shows all the available Software Assets.
+      a. **All Software IT Assets**: Shows all the available Software Assets.
 
-            b. **All Managed Software**: Shows all Software Assets with the Software
-               Type set to Managed.
+      b. **All Managed Software**: Shows all Software Assets with the Software Type set to Managed.
 
-            c. **All S/w Managed By Me**: Shows all Software Assets with your name
-               in the Managed By field.
+      c. **All Prohibited Software**: Shows all Software Assets with the Software Type set to **Prohibited**.  
+
+      d. **All Software Managed By Me**: Shows all Software Assets with your name in the Managed By field.
 
 There are filters to isolate an Asset Type:
 
@@ -295,17 +295,15 @@ There are three predefined search filters in the header section of
             :align: center
             :alt: figure 8
 
-      You can pin a filter using the Pin Icon. The pinned filter is applied by
-      default whenever someone clicks on **Asset** (A Navigation Tab) to go to
-      the List View.
+You can pin a filter using the Pin Icon. The pinned filter is applied by
+default whenever someone clicks on **Asset** (A Navigation Tab) to go to
+the List View.
 
-            a. **All Other IT Assets**: Shows you all the available Other IT Assets.
+      a. **All Other IT Assets**: Shows you all the available Other IT Assets.
 
-            b. **All Other IT Assets Managed By Me**: Shows all Other IT Assets with
-               your name in the Managed By field.
+      b. **All Other IT Assets Managed By Me**: Shows all Other IT Assets with your name in the Managed By field.
 
-            c. **All Other IT Assets Added in 30 days**: Shows you Assets added in
-               the last 30 days.
+      c. **All Other IT Assets Added in 30 days**: Shows you Assets added in the last 30 days.
 
 There are filters to isolate an Asset Type:
 
