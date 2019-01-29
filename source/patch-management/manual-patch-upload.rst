@@ -6,7 +6,7 @@ A user can upload a Patch manually and deploy the same across multiple computers
 
 - In an office where there's no internet connection, and the servers are hosted locally. 
 
-- Installing Ubuntu Linux Patches since there's no defined update server. 
+- Installing Ubuntu 16.04 Patches since there's no defined update server. 
 
 Following are the steps to upload a Patch manually:
 
@@ -30,7 +30,7 @@ Following are the steps to upload a Patch manually:
 
    a. Name of the Patch.
 
-   b. Name of the Platform (Currently, either Windows or Ubuntu Linux).
+   b. Name of the Platform (Currently, either Windows or Ubuntu 16.04).
 
    c. Severity as defined by the Patch vendor. 
 

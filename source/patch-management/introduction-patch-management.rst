@@ -55,3 +55,4 @@ Flotomate patch management supports the following platform:
 - windows 10 32/64 bit
 - windows server 2012
 - windows server 2016
+- Ubuntu 16.04

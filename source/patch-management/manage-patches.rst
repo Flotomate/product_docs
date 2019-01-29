@@ -8,12 +8,12 @@ Patch List View
 ===============
 
 The UI is divided across Patches and Computers. The Patch aspect lets you
-view patches (either of Windows or Ubuntu Linux) and perform related operations, and the Computer aspect
+view patches (either of Windows or Ubuntu) and perform related operations, and the Computer aspect
 lets you view Computers and perform related operations.
 
 The Patch aspect is made up of two types of views: the Patch List View and
 Details View. The Patch List View gives a point & click interface to
-manage all patches from a single place. Currently Windows and Ubuntu Linux Patches are supported. 
+manage all patches from a single place. Currently Windows and Ubuntu 16.04 Patches are supported. 
 You can view Patches of any one platform at a time.
 
 **To open Patch List View**
@@ -216,7 +216,7 @@ gives you two types of Quick Filters:
 
 - Severity type based filter.
 
-The first filter you can apply is whether you want to see Windows or Ubuntu Linux Patches, which can be selected from the
+The first filter you can apply is whether you want to see Windows or Ubuntu 16.04 Patches, which can be selected from the
 Patch Menu.
 
 .. _pf-22.4:
