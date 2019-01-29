@@ -140,9 +140,9 @@ single Asset in Flotomate.
 
    f. :ref:`Remote Desktop` (only in Hardware Assets).
 
-   g. Reconcile (only in Hardware Assets).
+   g. :ref:`Reconcile <Asset Reconciliation>` (only in Hardware Assets).
 
-   h. Add Barcode (only in Non-Software Assets).
+   h. :ref:`Add Barcode <Adding Barcode to an Asset>` (only in Non-Software Assets).
 
    
 .. _change-name-description-asset:

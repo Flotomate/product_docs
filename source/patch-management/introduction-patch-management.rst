@@ -50,5 +50,8 @@ What Platforms (OS) are supported for Patch Management
 
 Flotomate patch management supports the following platform:
 
-- Windows 7, 8, 8.1, 10
-- Windows Server 2012, 2016
+- windows 7 32/64 bit
+- windows 8/8.1 32/64 bit
+- windows 10 32/64 bit
+- windows server 2012
+- windows server 2016

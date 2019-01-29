@@ -9,11 +9,11 @@ When these Assets are discovered during an Asset Scanning (could be Agent-less o
 created in the CMDB. A Technician has to manually reconcile each Asset with an **In Stock ** Asset. Reconciliation facilitates proper
 inventory management where a Technician knows exactly which Assets are available for assignment.  
 
-Only two Assets can be reconciled at a time.
+Maximum two Assets can be reconciled at a time.
 
 Conditions for Asset Reconciliation:
 
-- Only two Assets can be reconciled at a time.
+- Two Assets can be reconciled at a time.
 
 - Any one of them has to have an Origin: Purchase Order.
 
