@@ -13,7 +13,7 @@ We have the following Assets in the network that we want to discover:
 
 - Three Windows workstations in a domain.
 
-- One Ubuntu Linux workstation.
+- One Ubuntu 16.04 workstation.
 
 - An SNMP enabled router.
 

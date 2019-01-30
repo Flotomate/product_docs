@@ -1,8 +1,8 @@
-*****************************************
-Ubuntu Linux RDP Agent Installation Guide
-*****************************************
+***********************************
+Ubuntu RDP Agent Installation Guide
+***********************************
 
-Describes Installation Steps for Ubuntu Linux RDP Agent 3.0.0.
+Describes Installation Steps for Ubuntu RDP Agent 3.0.0.
 
 Minimum System Requirement:
 ===========================
