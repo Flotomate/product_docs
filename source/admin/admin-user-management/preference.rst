@@ -14,18 +14,21 @@ an admin can control the following:
     :align: center
     :alt: figure 28
 
-**Allow Guest Requesters to Report a Request:**
+Allow Guest Requesters to Report a Request:
+-------------------------------------------
 
 Turning on this option allows guests, without a Requestor account, to submit a Request from the Customer Portal, but they cannot view and manage their
 submitted Requests. Guests, with a Requestor account, can view their
 Requests in the **My Request** section after logging-in.
 
-**Allow Technician to Report a ticket from a Guest Requester:**
+Allow Technician to Report a ticket from a Guest Requester:
+-----------------------------------------------------------
 
 Turning on this option allows Technicians to submit Requests in the
 name of people who are not requestors. The product doesn't demand for authentication.
 
-**Allows Requester to link Asset:**
+Allows Requester to link Asset:
+-------------------------------
 
 .. note:: Related Topic: :ref:`Creating a Request`
 
@@ -37,14 +40,19 @@ A Requester can only link Assets that are :ref:`Used By <Classifying Assets>` hi
     :align: center
     :alt: figure 28.1
 
-**Allow Requesters to Report a Request with Location**: :ref:`Learn More <Location Specific Options in Admin>` 
+Allow Requesters to Report a Request with Location:
+--------------------------------------------------- 
 
-**Allow Technician for Do Not Disturb mode:**
+:ref:`Learn More <Location Specific Options in Admin>` 
+
+Allow Technician for Do Not Disturb mode:
+-----------------------------------------
 
 Turning this option allows Technicians to globally mark them unavailable for assignment of Request tickets through Auto Assignment. 
 This option is only available on the Technician portal. Learn more about :ref:`Technician Profile <pro-edit-profile>`. 
 
-**Auto Identify User of the Asset**: 
+Auto Identify User of the Asset:
+-------------------------------- 
 
 Enabling this option allows the system to automatically assign an asset to a requester based on the Logon Name provided in the
 system. The Logon Name is the workstation username which is provided when registering a requester. When an asset is discovered, it is matched
@@ -54,4 +62,7 @@ Related Topics: :ref:`Adding a Requester <Add Requestors Individually>`.
 
 .. note:: Technicians are by default requesters, and you can configure the Logon Name there. 
 
-**Auto Identify Location of the Asset**: :ref:`Learn More <Location Specific Options in Admin>`
+Auto Identify Location of the Asset:
+------------------------------------ 
+
+:ref:`Learn More <Location Specific Options in Admin>`

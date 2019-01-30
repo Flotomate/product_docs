@@ -30,6 +30,7 @@ Flotomate Product Manual
    task-management/index
    flotomate-plugins/index
    user-profile/index
+   support-portal-guide/index
    use-cases/index
    FAQ/index
 

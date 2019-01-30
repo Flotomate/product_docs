@@ -216,3 +216,25 @@ following ways:
 -  In the :ref:`Details View <request-details-view-1>`, he clicks on the **Edit**
    button situated in the top right corner of the page. A dialog box
    opens, where he performs the edits and hits Update.
+
+Requester Linking Assets with Request tickets
+=============================================
+
+If linking assets is :ref:`allowed by the admin <Allows Requester to link Asset:>`, then a requester can attach assets, which he
+is assigned to, with a request ticket. 
+
+He can attache an asset while :ref:`creating a request <creating-a-request-1>`.
+
+.. _rmf-84.2:
+
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-84.2.png
+    :align: center
+    :alt: figure 84.2
+
+He can attache an asset from the :ref:`details view <request-details-view-1>` of a request.
+
+.. _rmf-84.3:
+
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-84.3.png
+    :align: center
+    :alt: figure 84.3
