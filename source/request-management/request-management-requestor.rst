@@ -2,9 +2,12 @@
 Request Management for Requesters
 *********************************
 
-The Customer Portal provides a simple interface for Requesters to create
-and manage their Requests. The Customer Portal is the primary interface
-between Requesters and the Helpdesk.
+The Customer Portal provides a simple interface for Requesters to perform the following operations:
+
+- Create and manage tickets.
+- Access service catalog.
+- Open knowledge articles and FAQs.
+- View annoucements.
 
 .. _creating-a-request-1:
 
@@ -14,14 +17,11 @@ Creating a Request
 The Create a Request form on the Customer Portal is a toned down version
 of the Technician Portal.
 
-Requestors can also use the Create a Request dialog box without login as
-guest users. An Admin has to enable the guest user feature.
+In order to create a new request ticket, a requester will go through the following steps:
 
--  Log in to the Customer Portal. You can log in with third-party
-   credentials if SSO is already configured; please refer Administration
-   Manual to know about SSO configuration.
+-  He logs into the customer portal and clicks on **Create Request**.
 
--  Click on **Create Request**.
+.. note:: Requesters can create tickets without login, if the admin has set the :ref:`permissions in preference <helpdesk security>`. 
 
 .. _rmf-78:
 
@@ -35,70 +35,51 @@ guest users. An Admin has to enable the guest user feature.
     :align: center
     :alt: figure 79
 
--  The **Create-a-Request** dialog box opens. You have to enter a
-   Category, your email ID (your authenticated email if Request without
-   login is disabled), and a Subject line. :doc:`Learn more about the
-   fields<create-a-request>`.
+-  The **Create Request** dialog box opens. He fills the request form and submits. Some of the important fields are:
 
--  Fill in the details and hit **Create**. If you are not logged in,
-   then you may be asked to log in depending on the settings selected by
-   the Admin. You have now created your Request.
+   a. Category
+
+   b. Requester Email ID 
+
+   c. Subject
+
+-  The moment he clicks on **Create** a new ticket is create. 
 
 Creating a Request with an Email 
 --------------------------------
 
 Flotomate gives the option to set up an email as the Helpdesk email
-address. Requestors can send an email to create a Request.
+address. Requestors can send an email to create a request ticket.
 
-The question, who can create a Request, depends on the **Helpdesk**
-settings in the **Admin** section. If settings allow creating Requests
-without login, then anyone with the Helpdesk email can create a Request.
+The question, who can create a Request, depends on the :ref:`Preference <helpdesk security>`
+settings in the **Admin**. If security settings allow creating Requests
+without login, then anyone can create a Request.
 Else, the system accepts email Requests from registered emails only.
 
 When you create a Request using an email, the email subject becomes the
 Request Subject, email body becomes the Request Description, and any
-attachments become the Request attachment.
+attachments become the Request ticket attachment.
 
 .. _request-list-view-1:
 
-Request List View
-=================
+My Request
+==========
 
-Requestors can manage their Requests on the Customer Portal in Request
-List View, but a Requester has no rights to neither view nor manages
-Requests created by other Requesters. He can only view and manage his
-Requests.
+Requestors can manage their Requests from the Customer Portal's My Request section.
 
-To access Request List View
+A requester can access the My Request section by: 
 
-1. Log in to the Customer Portal.
+- Logging in to the Customer Portal.
 
-2. On the homepage, you can find the button **My Requests**, click on
-   it.
+- Clicking on **My Request**. 
 
-3. You are now on the Request List View.
+In the **My Request** section a requester can view all this request tickets.
 
-    .. _rmf-80:
+.. _rmf-80:
 
-    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-80.png
-        :align: center
-        :alt: figure 80
-
-    a. Section A&B are part of the :ref:`search features <searching-request-1>`.
-
-    b. Section C is the list area for Requests. Here you can perform the
-       following operations:
-
-        i. :ref:`Classify <classify-requests-1>`
-
-        ii.  :ref:`Resolve <resolving-a-request>`
-
-        iii. :ref:`Edit <editing-subject-and-description>`
-
-    c. Section-D is the details Pane of a Request.
-
-    d. Clicking section-E gives you the option to set the number of Requests
-       visible per page; the highest is 100 per page.
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-80.png
+    :align: center
+    :alt: figure 80
 
 .. _searching-request-1:
 
@@ -107,12 +88,9 @@ Searching Request
 
 There are two broad ways to search requests:
 
--  **Search Bar**: This search bar is similar to the one in the
-   :ref:`Technician List View <request-management-technician/using-a-search-bar>`.
+-  **Search Bar**: This search bar is similar to the one in the :ref:`Technician List View <Searching Requests>`.
 
--  **Filters**: Status-based filters that tell you about the
-   distribution of Requests under various predefined and custom
-   statuses:
+-  **Filters**: Status-based filters that tell you about the distribution of Requests under various predefined and custom statuses:
 
 .. _rmf-81:
 
@@ -125,14 +103,18 @@ There are two broad ways to search requests:
 Request Details View
 ====================
 
-The Details View is where a Requester communicates with the Technicians
-and has access to the details of the Request.
+A requester can open one of his requests from the :ref:`My Request <request-list-view-1>` section. The details view opens, where the requester can perform the
+following actions:
 
-1. Go to the :ref:`Request List View <request-list-view-1>`.
+- Update request details.
 
-2. Click on the Subject line of a Request.
+- Communicate with a technician. 
 
-3. You are now in the Request Details View of that Request.
+- Edit custom fields.
+
+- Link assets. This feature has to be turned on by an admin from Admin >> :ref:`Preference <helpdesk security>`.
+
+In the details view of a request, the requester will have the following sections:
 
     .. _rmf-82:
 
@@ -145,17 +127,21 @@ and has access to the details of the Request.
     b. Section-B is the :ref:`comment section <conversation-with-technician>`.
        The Requester can also view any linked Knowledge Base write-ups here.
 
-    c. Section-C is the details about the assigned Technician.
+       Custom Fields tab allows the requester to modify custom field values. 
 
-    d. Section-D houses :ref:`Resolve <resolving-a-request>` and
-       :ref:`Edit <editing-subject-and-description>`.
+       Linked Assets tab lists all linked assets with the request. A requester can only link assets that are assigned to him/her. 
+
+    c. Section-C shows the name and email of the assigned technician.
+
+    d. Section-D houses :ref:`Resolve <resolving-a-request>` and :ref:`Edit <editing-subject-and-description>` options. Along with
+       them, there's an action menu with the option to attach documents. 
 
 .. _classify-requests-1:
 
 Classify Requests
 =================
 
-Flotomate allows requesters to classify Requests based on the following:
+Flotomate allows requesters to classify Requests, from the :ref:`details view <request-details-view-1>`, based on the following:
 
 -  **Urgency**: Setting this label shows the Technicians which Requests
    to give priority. These are predefined labels that are immutable, and
@@ -173,9 +159,9 @@ Flotomate allows requesters to classify Requests based on the following:
 Conversation with Technician
 ============================
 
-Requesters can have a conversation thread with Technicians:
+Requesters can start a conversation thread with a Technician:
 
-To write a comment:
+To write a comment, a requester can:
 
 -  Go to the :ref:`Details View <request-details-view-1>` of a Request.
 
@@ -188,28 +174,28 @@ To write a comment:
     :align: center
     :alt: figure 84
 
--  Write your comment. You can also attach files with your comments.
+-  Write his/her comment and also attach files with the comment.
 
-You can search and sort the comment thread.
+A requester can search and sort the comment thread.
 
 Resolving a Request
 ===================
 
 A Requester can resolve a Request in the following ways:
 
--  In the :ref:`List View <request-list-view-1>`, click on the **Resolve**
+-  In the :ref:`List View <request-list-view-1>`, he clicks on the **Resolve**
    button adjacent to a Request’s Subject line. The Status changes to
    Resolve.
 
--  In the :ref:`Details View <request-details-view-1>`, click on Resolve
+-  In the :ref:`Details View <request-details-view-1>`, he clicks on the **Resolve**
    button situated in the top right corner of the page. The Status
    Changes to Resolve.
 
 Reopening a Request
 -------------------
 
-You reopen a Request in the same ways you resolved it, instead of
-**Resolve** you have **Reopen**.
+A requester can open a Request in the same ways he/she resolved it, instead of
+**Resolve** he has to **Reopen**.
 
 Editing Subject and Description
 ===============================
@@ -217,10 +203,16 @@ Editing Subject and Description
 Requesters can edit the Subject and Description of a Request in the
 following ways:
 
--  In the :ref:`List View <request-list-view-1>`, click on the **Edit**
-   button adjacent to a Request’s Subject line. A dialog box opens,
-   perform the edits and hit Update.
+.. _rmf-84.1:
 
--  In the :ref:`Details View <request-details-view-1>`, click on **Edit**
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-84.1.png
+    :align: center
+    :alt: figure 84.1
+
+-  In the :ref:`List View <request-list-view-1>`, he clicks on the **Edit**
+   button adjacent to a Request’s Subject line. A dialog box opens, where he
+   performs the edits and hits Update.
+
+-  In the :ref:`Details View <request-details-view-1>`, he clicks on the **Edit**
    button situated in the top right corner of the page. A dialog box
-   opens, perform the edits and hit Update.
+   opens, where he performs the edits and hits Update.

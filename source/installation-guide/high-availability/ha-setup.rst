@@ -248,7 +248,7 @@ will perform the following processes.
 
 5. The old Master will ask for the new Master IP.
 
-6. Now you will be prompted for the password which is: **aqwe123@.**
+6. Now you will be prompted for the password which is: **aqwe123@**
 
 Now the old Master is the New Slave and the DB of new Master (old Slave)
 will be replicated here.
