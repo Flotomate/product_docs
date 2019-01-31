@@ -6,13 +6,13 @@ There are multitude of ways to create a Request (Incident) in our Helpdesk produ
 Technicians can create Requests using the email to ticket feature or they can use
 the Create a Request dialog box.
 
-The Create a Request dialog box is available on both the Requestor and
-Technician Portal. However, the Create a Request form on the Technician
+The Create Request dialog box is available on both the Customer and
+Technician Portal. However, the Create Request form on the Technician
 portal is different. It has additional fields that are specific to the
 needs of a Technician.
 
 Only people with create Request rights can create Requests. Please refer
-:ref:`Roles <admin-user-management>` (Users) in the Administration Manual.
+:ref:`Roles <Technician Roles>` (Users) in the Administration Manual.
 
 1. Log in to the Technician Portal. Hover your mouse over the **Create**
    button in one of the Navigation Tabs. You see a popup menu; click on
@@ -44,7 +44,6 @@ Only people with create Request rights can create Requests. Please refer
    Sub-Categories, up to three levels. Please refer :ref:`Request Category<ad-category>`
    (Helpdesk) in the Administration Manual to learn how to add
    Categories and Sub-Categories.
-
    The dialog box highlights the selected Category in the Category field
    in section-B (:numref:`rmf-2`).
 
@@ -56,7 +55,7 @@ Only people with create Request rights can create Requests. Please refer
    in **Admin**. Please refer the Administration Manual on how to add
    templates.
 
-   .. note:: The person who creates Templates must have administrative rights.
+   .. note:: The person who creates Templates must have admin rights.
 
    Loading a custom Template (if any) performs the following changes:
 
@@ -101,11 +100,11 @@ Only people with create Request rights can create Requests. Please refer
    lead to the Request. You can attach additional documents to support
    the resolution process in section-I.
 
-9. In section-G, you can add a Technician Group, Location,
-   Department and Requestor Accounts. These fields have a drop-down list of values predefined
+9. In section-G, you can add a Technician Group, Location, and
+   Department. These fields have a drop-down list of values predefined
    by an Administrator; you just need to select the appropriate values.
 
-   Please refer the Administration Manual to know more about the :doc:`fields<admin-customization>`.
+   Please refer the Administration Manual to know more about the above `fields <http://docs.flotomate.com/en/latest/admin/index.html>`_.
 
 10. Fields in section-H are custom fields. You can add n number of fields from the admin section. 
     You can control the visibility of such fields. Learn how to create a :ref:`Request Custom Field<ad-custom-fields>`.    
@@ -114,7 +113,8 @@ Only people with create Request rights can create Requests. Please refer
     successfully created your Request. An email is sent to the Requestor
     acknowledging the Request.
 
-**Email to ticket**
+Email to ticket
+---------------
 
 Flotomate gives the option to set up an email as the Helpdesk email
 address. Technicians can send an email to create a Request.

@@ -12,7 +12,7 @@ outcome of an Incident or Service Request. The Service Desk is alerted
 by a Request, and it is processed according to the workflow designed by
 the organization.
 
-All Requests are broadly categorized into two groups: Incidents and
+All Requests can be broadly categorized (according to ITIL) into two groups: Incidents and
 Service Requests:
 
 1. **Incident**: It is an unplanned disruption in IT-enabled
@@ -30,7 +30,7 @@ What is Request Management?
 ===========================
 
 Flotomate Request Management helps organizations to streamline their IT
-service delivery by standardizing Request handling processes,
+service delivery by standardizing Request (aka tickets) handling processes,
 eliminating duplication of efforts, ensuring availability of accurate
 information, and reducing IT operational cost through automation and
 knowledge base creation.
@@ -50,11 +50,11 @@ follows:
    produces a lot of data, which the product gathers to generate
    essential reports.
 
--  It Improves service quality by removing manual tasks and fulfillment
+-  It Improves service quality by removing manual tasks and fulfilment
    delays with automated workflows and approvals.
 
 -  Our product helps Technicians to manage the entire life-cycle of
-   activities linked to the fulfillment of a Request made by customers
+   activities linked to the fulfilment of a Request made by customers
    and other stakeholders.
 
 -  It increases end-users’ satisfaction by keeping them informed with
