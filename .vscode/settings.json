@@ -3,5 +3,14 @@
     "cSpell.words": [
         "DHCP",
         "Workgroup"
+    ],
+    "spellright.language": [
+        "en"
+    ],
+    "spellright.documentTypes": [
+        "markdown",
+        "latex",
+        "plaintext",
+        "restructuredtext"
     ]
 }

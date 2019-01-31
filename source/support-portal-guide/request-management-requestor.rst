@@ -7,7 +7,7 @@ The Customer Portal provides a simple interface for Requesters to perform the fo
 - Create and manage tickets.
 - Access service catalog.
 - Open knowledge articles and FAQs.
-- View annoucements.
+- View announcements.
 
 .. _creating-a-request-1:
 
@@ -223,7 +223,7 @@ Requester Linking Assets with Request tickets
 If linking assets is :ref:`allowed by the admin <Allows Requester to link Asset:>`, then a requester can attach assets, which he
 is assigned to, with a request ticket. 
 
-He can attache an asset while :ref:`creating a request <creating-a-request-1>`.
+He can attach an asset while :ref:`creating a request <creating-a-request-1>`.
 
 .. _rmf-84.2:
 
@@ -231,7 +231,7 @@ He can attache an asset while :ref:`creating a request <creating-a-request-1>`.
     :align: center
     :alt: figure 84.2
 
-He can attache an asset from the :ref:`details view <request-details-view-1>` of a request.
+He can attach an asset from the :ref:`details view <request-details-view-1>` of a request.
 
 .. _rmf-84.3:
 

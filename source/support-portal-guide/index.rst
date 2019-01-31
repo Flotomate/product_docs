@@ -5,3 +5,5 @@ Customer Portal Guide
    :maxdepth: 3
 
    request-management-requestor
+   accessing-service-catalog
+   access-to-knowledge
