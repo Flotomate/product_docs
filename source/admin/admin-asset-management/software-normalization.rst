@@ -6,7 +6,7 @@ Software Normalization is a rules based automation that does the following:
 
 - Change of Software Asset details when certain set condition/conditions are triggered. 
 
-- Consolidating Software that fulfill certain conditions.
+- Consolidating Software that fulfil certain conditions.
 
 - Control Software installation type by putting Software either in white list or black list (Prohibited Software). 
 
@@ -16,10 +16,10 @@ Software Normalization can be useful in the following scenarios:
   a small set of Software Assets mainly for the purpose of compliance management. Here Software Normalization can be used 
   to change Software Type of Software satisfying certain predefined conditions. 
 
-  Normalization can also be used to set Software Asset fields (i.e Product) upon discovery for better reporting and compliance management.
+  Normalization can also be used to set Software Asset fields (i.e Product) upon discovery for reporting and compliance.
 
 - Sometimes users want to control the kind of software that can be installed in their Computers and what can't be installed. 
-  And, they expect notifications of an un-authorized instance of installation. In this situation, one can mark all unauthorized Software
+  And, they expect notifications of an un-authorized instance of an installation. In such a case, one can mark all unauthorized Software
   as Prohibited (black list). Whenever, a Prohibited Software is discovered a notification is sent to the user and admin. 
 
 Setting Software Normalization
@@ -74,8 +74,8 @@ Create a Normalization Rule for Field Assignment
   - We set the execution priority as High. In a scenario where multiple rules are applied to a single Software, the rules with the
     High priority are applied first, followed by the Medium and then the Low.
 
-  - We turn on **Re-normalize on Next Run**. Turning this option allows Software that have been normalized under this rule
-    to be available for re-normalization by another rule.
+  - We turn on **Re-normalize on Next Run**. Turning on this option allows Software that have been normalized by this rule or any other
+    rule to be renormalized by the same rule, if conditions are satisfied, during its next run.
 
 - When you are done creating a rule, click on **Create**.
 
@@ -115,8 +115,8 @@ Create a Normalization Rule for Suite
   - We set the execution priority as High. In a scenario where multiple rules are applied to a single Software, the rules with the
     High priority are applied first, followed by the Medium and then the Low.
 
-  - We keep **Re-normalize on Next Run** turned off. Turning this option allows Software that have been normalized under this rule
-    to be available for re-normalization by another rule.
+  - We keep **Re-normalize on Next Run** turned off. Turning on this option allows Software that have been normalized by this rule or any other
+    rule to be renormalized by the same rule, if conditions are satisfied, during its next run.
 
 - When you are done creating a rule, click on **Create**.
 
@@ -138,9 +138,15 @@ Control settings allows you put all Software either in the Managed List or Prohi
 
 In the control settings dialog box, you get the following options:
 
-- **Prohibited Software**: If selected then all Software except those with Type either Managed or Prohibited are marked as Prohibited.
+- **Prohibited Software**: If selected then all Software except those with Type either managed or prohibited are marked as Un-Identified.
+  The process is applicable for both new and existing software assets. But the automatic change of the software type happens only once.
+  For a re-run, admin can turn the feature of and on again. 
+  
+- **Managed Software**: If selected then all software whose type is not managed become prohibited. 
+  The process is applicable for both new and existing software assets. But the automatic change of the software type happens only once.
+  For a re-run, admin can turn the feature of and on again. 
 
-- **Managed Software**: If selected then Software with type "None" are marked as Un-Identified.
+  .. note:: Notification on the discovery of a prohibited software is applicable for new assets only.
 
 Initiating Normalization
 ------------------------
