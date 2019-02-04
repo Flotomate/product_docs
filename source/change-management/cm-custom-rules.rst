@@ -1,12 +1,14 @@
-************
-Custom Rules
-************
+.. _custom rules:
 
-Custom rules allow you to make certain fields compulsory in a particular
-Change stage. Please refer Change Workflow. Refer Administration Manual
-to know how to set the rules.
+*******************
+Change Custom Rules
+*******************
 
-.. note:: Requires admin rights.
+Custom rules allow an admin to make certain fields compulsory in a particular
+Change stage. Please refer :ref:`Change Workflow`. Refer Administration Manual
+to know :ref:`how to set the rules <ad-custom-rule>`.
+
+.. note:: Requires admin rights to set change custom rules.
 
 -  **Submission**:
 
@@ -24,7 +26,7 @@ to know how to set the rules.
 
    c. Having an assigned Technician.
 
-   d. Having a Backout plan.
+   d. Having a Back-out plan.
 
    e. Having a Rollout plan.
 
@@ -42,13 +44,19 @@ to know how to set the rules.
 
    b. Having an assigned Technician
 
-You can make adding a note to a Change a compulsory thing before doing
-certain activities, they are:
+Admin can make adding a note to a Change a compulsory thing before doing
+the following activities:
 
--  Change Category of a Change.
+-  Reopen a change.
 
--  Change Location of a Change.
+-  Change Category of a change.
 
--  Change Department of a Change.
+-  Change Location of a change.
 
--  Change assigned Technician of a Change.
+-  Change Department of a change.
+
+-  Change assigned Technician of a change.
+
+-  Set a new priority.
+
+-  Edit a custom field. 

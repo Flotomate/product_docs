@@ -119,11 +119,10 @@ Email to ticket
 Flotomate gives the option to set up an email as the Helpdesk email
 address. Technicians can send an email to create a Request.
 
-The question, who can create a Request, depends on the **Helpdesk Security (Users)**
-settings in the **Admin** section. If settings allow creating Requests
+The question, who can create a Request, depends on the **Preference (Users)**
+settings in **Admin**. If settings allow creating Requests
 without login (**Allow Guest Requester to Report a Request**) and email to ticket feature is allowed in **Email Server Configuration**, 
-then anyone with the Helpdesk email can create a Request.
-Else, the system accepts email Requests from registered emails only.
+then anyone with the Helpdesk email can create a Request. Else, the system accepts email Requests from registered emails only.
 
 When a Technician creates a Request using an email, the email subject
 becomes the Request Subject, email body becomes the Request Description,

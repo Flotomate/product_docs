@@ -9,11 +9,11 @@ Change List View and Change Details View.
 The Change List View is the central hub for **Technicians** to track and
 manage all Changes in the tool.
 
-**To open Change List View**
+**To open Change List View, a technician will:**
 
-1.  Log in to your Dashboard from the Technician Portal.
+1. Log in to his Dashboard from the Technician Portal.
 
-2. Click on **Change** from the Navigation Tabs. The Change List View
+2. Click on **Change** in the navigation section. The Change List View
    opens with the default filter set as **All Open Changes**.
 
 .. _cmf-5:
@@ -40,8 +40,8 @@ Please refer to :numref:`cmf-6` for the below description:
 
 -  Section-E is the list area for all the Changes in the system.
    Visibility of a Change depends on the applied filters, and the way
-   Changes are shown depends on whether Detailed View is selected or
-   Glance View (section-G in :numref:`cmf-6`). Regardless of the view, the
+   Changes are shown depends on whether table view is selected or
+   grid view (section-G in :numref:`cmf-6`). Regardless of the view, the
    following information is visible about a Change:
 
     .. _cmf-7:
@@ -63,10 +63,9 @@ Please refer to :numref:`cmf-6` for the below description:
     c. The subject line of the Change along with its ID.
 
     d. Assignee information or the **Claim** and **Assign** button. If the
-       Change is closed, then you see the **Reopen** button.
+       Change is closed, then the technician will see the **Reopen** button.
 
-    e. Action menu next to **Assign** or **Reopen** houses the :doc:`View Audit
-       Trail <viewing-audit-trail-of-a-change>` and **Open in New Tab** options.
+    e. Action menu next to **Assign** or **Reopen** houses the :doc:`View Audit Trail <viewing-audit-trail-of-a-change>` and **Open in New Tab** options.
 
 -  Section-F is the Glance Pane (visible only in Grid View)of a Change,
    and it shows the following information:
@@ -82,11 +81,11 @@ Please refer to :numref:`cmf-6` for the below description:
 
    e. The **Attached CI** tab lists all Assets linked to the Change.
 
--  Section-G is where you select the maximum number of Changes visible
+-  Section-G is where the technician select the maximum number of Changes visible
    per page, and the view, Table View or Grid View.
 
     a. In Grid View, the listings are more descriptive and explicit
-       compared to Table View. You can view additional information in the
+       compared to Table View. Technician can view additional information in the
        Glance Pane of a Changes.
 
     .. _cmf-8:
@@ -95,10 +94,22 @@ Please refer to :numref:`cmf-6` for the below description:
         :alt: figure 8
 
     b. Table View is minimalistic which shows minimum information without
-       the Glance Pane. The focus is to give you the most critical
+       the Glance Pane. The focus is to give the technician the most critical
        information.
 
     .. _cmf-9:
     .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/change-management/CM-9.png
         :align: center
         :alt: figure 9
+
+Managing Announcements from Change
+==================================
+
+A technician can manage announcements from the change list view.
+
+.. _cmf-9.1:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/change-management/CM-9.1.png
+    :align: center
+    :alt: figure 9.1
+
+Learn more about :ref:`managing announcements <Announcements>`. 

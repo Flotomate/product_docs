@@ -4,7 +4,7 @@ Change Workflow
 
 In Flotomate, a Change passes through a series of processes which we
 call the Change Workflow. The processes have been grouped into five
-stages, and each is might have their conditions.
+stages, and each stage has its own conditions.
 
 .. _cmf-4.1:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/change-management/CM-4.1.png
@@ -24,28 +24,26 @@ The five above mentioned stages are:
 
    a. :doc:`Technician assignment. <assigning-a-change>`
 
-   b. :ref:`Appointment of Change Manager <change-manager>`.
+   b. :ref:`Appointment of Change Manager <Change Manager>`.
 
-   c. :ref:`Collaboration <collaborate-schedule-and-planning>` with other
+   c. :ref:`Collaboration <cm-collaborate-schedule-and-planning>` with other
       people.
 
 -  **Planning Stage**: At this stage, the stakeholders decide how to
    implement the Change. This is also a knowledge and information
    gathering stage. The following processes may take place:
 
-   a. :ref:`Scheduling <collaborate-schedule-and-planning>`
+   a. :ref:`Scheduling <cm-collaborate-schedule-and-planning>`
 
-   b. :ref:`Planning <collaborate-schedule-and-planning>`
+   b. :ref:`Planning <cm-collaborate-schedule-and-planning>`
 
-   c. :ref:`Collaborate <collaborate-schedule-and-planning>`
+   c. :ref:`Collaborate <cm-collaborate-schedule-and-planning`
 
-   d. :ref:`Adding Relations <adding-relations>`
-
-   e. Defining the Impact of the Change
+   d. :ref:`Adding Relations <cm-adding-relations>`
 
 -  **Approval Stage**: If the Change requires cross departmental
    approvals, then at this stage such approvals are sought. The
-   :ref:`Approval <approval-in-change>` process is triggered here. On
+   :ref:`Approval <Approval in Change>` process is triggered here. On
    success, the Change moves forward.
 
    .. note:: A single Change can have multiple Approvals.
@@ -54,15 +52,17 @@ The five above mentioned stages are:
    Implementer. The actual change happens at this stage. The following
    processes might take place.
 
-   a. :ref:`Appointment of Change Implementer and Change Reviewer <adding-people-to-change>`.
+   a. :ref:`Appointment of Change Implementer and Change Reviewer <Adding People to Change>`.
 
    b. Collaboration
 
    c. Adding Relations
 
-   d. :ref:`Creating Tasks <managing-tasks>`
+   d. :ref:`Creating Tasks <cm-managing-tasks>`
 
    e. :ref:`Time Log. <cm-time-log>`
+
+   f. :ref:`Send Notification in Change`
 
 -  **Evaluate and Close**: The implementation of the Change is audited
    by the Change Reviewer for any discrepancies. This is the last stage
