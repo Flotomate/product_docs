@@ -11,8 +11,8 @@ Change Details View
 ===================
 
 The Details View is the central hub for all process related activities.
-It organizes and manages all information and the workflow related to a
-Change. Every Change has its own Details View.
+It organizes and manages all information and the processes related to a
+Change. Every Change has its own Details View. To open the details view of a change.
 
 1. Go to the :doc:`Change List View <change-list-view>`.
 
@@ -29,10 +29,9 @@ Change. Every Change has its own Details View.
     :align: center
     :alt: figure 18
 
--  Section-A, B & C are the :ref:`classifiers <classify-an-change>`.
+-  Section-A, B & C are the :ref:`classifiers <Classify an Change>`.
 
--  Section-C also houses the feature to :ref:`link Knowledge Base with
-   Change <adding-people-to-change>`.
+-  Section-C also houses the feature to :ref:`link Knowledge Base with Change <Linking Knowledge with Change>`.
 
 -  Section-D provides tools to manage the :doc:`Change implementation
    workflow <cm-use-cases>`.
@@ -46,13 +45,13 @@ Change. Every Change has its own Details View.
 
    b. :ref:`Relations <cm-adding-relations>`
 
-   c. :ref:`Task <cm-managing-tasks.>`
+   c. :ref:`Task <cm-managing-tasks>`
 
    d. :ref:`Custom Fields <ad-custom-fields>`
 
    e. :ref:`Time Log <cm-time-log>`
 
-   f. :ref:`Approvals <approval-in-change>`
+   f. :ref:`Approvals <Approval in Change>`
 
 -  Section-G shows you information about the Requester and the time of
    creation of the Change.
@@ -62,6 +61,10 @@ Change. Every Change has its own Details View.
    a. :doc:`Claim and Assign <assigning-a-change>`
 
    b. :doc:`View Audit Trail <viewing-audit-trail-of-a-change>`
+
+   c. :ref:`Add and remove watchers <Add and remove watchers in a change>`
+
+   d. :ref:`Send Notification <Send notifications from a change>`. 
 
 -  Section-I is where all the related Assets (Configuration Items) are
    shown.
@@ -677,3 +680,46 @@ Closing a Task
 Anyone with the manage task rights can go to the :ref:`Details
 View <change-details-view>` and close a Task either by clicking on
 **Done** or setting the Status of the Task to Closed.
+
+Add and Remove Watchers in a Change
+===================================
+
+With the Watch feature, one can subscribe to a specific RFC and receive all notifications related to the change request.
+
+Adding People as Watchers
+-------------------------
+
+A technician can add a watcher from the details view of a change (RFC) by clicking on **Add Watcher**.
+
+.. _cmf-49.1:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/change-management/CM-49.1.png
+    :align: center
+    :alt: figure 49.1
+
+The technician can add people individually using their email addresses, 
+or he can add groups available for Technicians and Requestors, or he can use both emails and groups.
+
+.. _cmf-49.2:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/change-management/CM-49.2.png
+    :align: center
+    :alt: figure 49.2
+
+A technician can add himself as a watcher by clicking the option **Watch**.
+
+.. _cmf-49.3:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/change-management/CM-49.3.png
+    :align: center
+    :alt: figure 49.3
+
+Send Notifications from a Change
+================================
+
+Technician can send a notification from the details view of a change (RFC) by clicking on **Send Notification**.
+
+.. _cmf-49.4:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/change-management/CM-49.4.png
+    :align: center
+    :alt: figure 49.4
+
+A technician can select individuals or groups, be it Requesters or Technicians, or both. 
+The technician can add multiple emails using the Add Email (section-A in Fig. 174) button.

@@ -2,20 +2,19 @@
 Searching Changes 
 *****************
 
-There are two broad ways to search a Change in the :doc:`List
-View <change-workflow>`.
+There are two broad ways to search a Change in the :doc:`List View <change-workflow>`.
 
 -  Using a search bar
 
--  Using custom and predefined filters.
+-  Using custom and predefined filters
 
 Using Search Bar
 ================
 
 Flotomate has a search bar for searching all available Changes in the
-system. It supports the Advanced Search feature which allows you to use
-a combination of pre-defined search options and keywords. If you want to
-see the list of available options, then click on the search bar. You can
+system. It supports the Advanced Search feature which allows a technician to use
+a combination of pre-defined search options and keywords. If the technician want to
+see the list of available options, then he has to click on the search bar. Technician can
 select an option or multiple options from the drop-down list.
 
 .. _cmf-10:
@@ -23,10 +22,10 @@ select an option or multiple options from the drop-down list.
     :align: center
     :alt: figure 10
 
-You can search Changes with keywords in the search field. When you
+A technician can search Changes with keywords from the search field. When the technician
 provide a keyword, Flotomate searches all the Changes with the keyword
 in Subject, Description, Tags, Symptom, Root Cause, Requester Email and
-ID fields. The product shows all matched Changes in the list area. In
+ID fields. The tool shows all matched Changes in the list area. In
 case of multiple keywords, all keywords need to be matched.
 
 .. _cmf-11:
@@ -34,12 +33,12 @@ case of multiple keywords, all keywords need to be matched.
     :align: center
     :alt: figure 11
 
-You can make a query using a chain of predefined options and keywords.
-You can save a search query as a filter, refer :numref:`cmf-11`. Saved search
+A technician can make a query using a chain of predefined options and keywords.
+The technician can save a search query as a filter, refer :numref:`cmf-11`. Saved search
 queries appear in the section-A of :numref:`cmf-6`.
 
-For example, you are looking for all Changes containing the word Server
-in the Subject line and have a medium Priority. You would have the
+For example, a technician looking for all Changes containing the word Server
+in the Subject line and have a medium Priority; he would have the
 following search query:
 
 .. _cmf-12:
@@ -69,18 +68,18 @@ Using Filters
     b. **All Emergency Changes**: It shows all Changes with the Change Type
        set to Emergency.
 
-    c. **My Open Changes**: It shows all unclosed Changes with you as the
+    c. **My Open Changes**: It shows all unclosed Changes with the signed-in technician as the
        assignee.
 
     d. **My Over Due Changes**: It shows all Changes past their due date
-       with you as the assignee.
+       with the signed-in technician as the assignee.
 
     e. **All Open Changes in My Group**: It shows all the Changes with a
-       Technician Group you are part of.
+       Technician Group that the signed-in technician is part of.
 
--  You can filter the available Changes in the List View based on their
+-  A technician can filter the available Changes in the List View based on their
    stage. The tools for this is available in Change List View. The tool
-   also gives you a quick view of the distribution of all the Changes
+   also gives the technician a quick view of the distribution of all the Changes
    across all the stages.
 
 .. _cmf-14:
