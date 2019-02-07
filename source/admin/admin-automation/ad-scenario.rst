@@ -77,7 +77,9 @@ Enforcing a Scenario
 ====================
 
 A technician can enforce a scenario on a ticket from its details view. When a scenario is enforced, the system checks whether 
-the ticket fulfills the scenario conditions; if it fulfills then the scenario implements its actions.
+the ticket fulfils the scenario conditions; if it fulfils then the scenario implements its actions.
+
+Currently, scenario automation is available in: Request, Problem and Change tickets. 
 
 .. note:: Learn how to access :ref:`Request Details View`, :ref:`Problem Details View` and :ref:`Change Details View`.
 

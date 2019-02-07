@@ -66,6 +66,8 @@ Change. Every Change has its own Details View. To open the details view of a cha
 
    d. :ref:`Send Notification <Send notifications from a change>`. 
 
+   e. :ref:`Scenario <Scenario Automation>`
+
 -  Section-I is where all the related Assets (Configuration Items) are
    shown.
 
@@ -76,7 +78,7 @@ Modifying a Change’s Subject and Description
 ============================================
 
 Below the header section of the Details View is the Change ID and
-subject line. Next to the subject line is an edit icon that you can use
+subject line. Next to the subject line is an edit icon that a technician can use
 to modify the Subject and Description.
 
 .. _cmf-19:
@@ -100,7 +102,7 @@ Classify an Change
 
 Flotomate provides a lot of avenues to classify the information of a
 Change. Go to the :ref:`Details View <change-details-view>` of a Change
-where you get the following ways to classify:
+where a technician get the following ways to classify:
 
 .. _cmf-21:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/change-management/CM-21.png
@@ -160,24 +162,26 @@ where you get the following ways to classify:
       department, then this field can be set to that department.
 
    b. **Location**: If the Change is related to a particular location,
-      then this field can be set to that location.
+      then this field can be set to that location. Learn more about :ref:`location scoping <Data Segregation with Location Scope>`.
 
--  **Category**: It is the primary method to categorize the Change. You
+-  **Category**: It is the primary method to categorize the Change. Users
    get six predefined categories out of the box to choose from.
 
--  **Change Reason Type**: You can classify the Change based a reason
-   predefined in the system. You get the following reasons to choose
+-  **Change Reason Type**: A technician can classify the Change based a reason
+   predefined in the system. He gets the following reasons to choose
    from:
 
    a. New Rollout
 
-   b. Technology Upgrade
+   b. Upgrade Existing
 
-   c. Configuration Update
+   c. Technology Upgrade
 
-   d. Maintenance Update
+   d. Configuration Update
 
--  **Target Environment**: You can set the environment where the change
+   e. Maintenance Update
+
+-  **Target Environment**: A technician can set the environment where the change
    is going to happen as either:
 
    a. Production
@@ -185,6 +189,8 @@ where you get the following ways to classify:
    b. Development
 
    c. Test
+
+- **Template**: This field shows the template name used to create the change. Learn how to :ref:`create new template <Data Segregation with Location Scope>`.
 
 Adding People to Change
 =======================
@@ -224,7 +230,7 @@ an assigned Technician.
 Linking Knowledge with Change 
 =============================
 
-You can link a Knowledge Article/FAQ with a Change by following the
+A technician can link a Knowledge Article/FAQ with a Change by following the
 below steps:
 
 1. Go to the :ref:`Details View <change-details-view>` of a Change.
@@ -242,15 +248,15 @@ below steps:
     :align: center
     :alt: figure 25
 
-3. In the dialog box, you see a search bar and a list area. Use the
+3. In the dialog box, the technician sees a search bar and a list area. He will use the
    search bar to search for Knowledge Articles/FAQs. The list area
-   shows the available Knowledge content. You can preview an
+   shows the available Knowledge content. Technician can preview an
    Article/FAQ by clicking on it.
 
-4. Select an Article/FAQ that you want to link. Click on the **Link**
-   button below. The Knowledge content gets linked to the Change. You
+4. Technician selects an Article/FAQ that he wants to link. He clicks on the **Link**
+   button below. The Knowledge content gets linked to the Change. The technician
    can view the relationship in the **Relations** tab of the Change. In
-   the same way, you can link multiple Articles/FAQs.
+   the same way, the technician can link multiple Articles/FAQs.
 
 .. _cm-collaborate-schedule-and-planning:
 
@@ -258,8 +264,8 @@ Collaborate, Schedule and Planning
 ==================================
 
 The :ref:`Details View <change-details-view>` of a Change gives the tools
-for a Technician to collaborate with other Technicians; schedule a
-timeline for the change process; and record planning details regarding
+to a Technician to collaborate with other Technicians; he can schedule a
+timeline for the change process and record planning details regarding
 the change.
 
 -  **Collaborate**: There are multiple stakeholders in a Change, and
@@ -272,8 +278,8 @@ the change.
         :alt: figure 26
 
    Under the **Collaborate** tab (:ref:`Details View <change-details-view>`),
-   you get the options to add a **Collaborate** or **Note**. In either
-   case, you get an editor where you put the message. Using @, you can
+   the technician gets the options to add a **Collaborate** or **Note**. In either
+   case, the technician get an editor where he can put the message. Using @, he can
    direct the message to a specific person.
 
     .. _cmf-27:
@@ -286,11 +292,10 @@ the change.
         :align: center
         :alt: figure 28
 
-   Once a conversation is added, you cannot edit or delete it.
+   Once a conversation is added, he cannot edit or delete it.
 
 -  **Schedule**: Once a Change goes to the planning stage, the assigned
-   Technician can schedule the entire change process. As an assigned
-   Technician, you can enter a Start Time and End Time for the following
+   Technician can schedule the entire change process. The technician can enter a Start Time and End Time for the following
    sub-schedules:
 
     .. _cmf-29:
@@ -301,13 +306,13 @@ the change.
     a. **Change Schedule**: It is the period of the entire Change process.
 
     b. **Down Time**: If the Change can cause an interruption in business
-       processes, then you can mention the period of the same (requires you
+       processes, then the technician can mention the period of the same (requires the technician
        to first set the **Roll Out Schedule**).
 
     c. **Roll Out Plan**: It is the period for the actual implementation of
-       the Change (requires you first set the **Change Schedule**).
+       the Change (requires the technician to first set the **Change Schedule**).
 
--  **Planning**: As an assigned Technician, you can record the details
+-  **Planning**: The assigned technician can record the details
    of the Planning under three heads:
 
     .. _cmf-30:
@@ -333,7 +338,7 @@ relationships between various events in the system. The Relations tab in
 the :ref:`Details View <change-details-view>` of a Change serves this
 purpose.
 
-The Relations tab gives you an option to create relationships between a
+The Relations tab gives the technician an option to create relationships between a
 Change and other Changes, Requests, Problems, Knowledge Articles/FAQs,
 and Assets.
 
@@ -342,7 +347,7 @@ and Assets.
     :align: center
     :alt: figure 31
 
-You can view the present relationships of the Change in **Relation
+He can view the present relationships of the Change in **Relation
 For**.
 
 .. _cmf-32:
@@ -350,15 +355,15 @@ For**.
     :align: center
     :alt: figure 32
 
-You can create a new Request, Problem, Change or Asset and link it to an
+Technician can create a new Request, Problem, Change or Asset and link it to an
 existing Change using the **Create and Relate** button.
 
-The **Add Relation** option lets you add one or more relationships.
-Clicking **Add Relation** opens a pop-menu where you select what you
+The **Add Relation** option lets the technician to add one or more relationships.
+Clicking **Add Relation** opens a pop-menu where he selects what he
 want to link (Request, Problem, Change (Change) or Asset). A dialog box
 opens with a list of items and a search dialog box; the search bar
-supports Advanced Search features where you can search for items with
-predefined search options and keywords. You can perform a link by
+supports Advanced Search features where technician can search for items with
+predefined search options and keywords. Technician can link by
 selecting the items and clicking on **Link**.
 
 .. _cmf-33:
@@ -369,7 +374,7 @@ selecting the items and clicking on **Link**.
 Approval in Change
 ==================
 
-At the Approval stage, you might need an Approval from approver/approvers (multiple approvers can span across multiple Approvals) 
+At the Approval stage, the technician might need an Approval from approver/approvers (multiple approvers can exist across multiple Approvals) 
 to move the Change to the next stage.
 
 .. _cmf-34:
@@ -402,8 +407,8 @@ Clicking on **Add** (:numref:`cmf-34`) opens the Create an Approver dialog box.
     :align: center
     :alt: figure 35
 
-Using the dialog box, you can create an Approval with multiple
-approvers. The assigned approvers get notified immediately. You can have
+Using the dialog box, the technician can create an Approval with multiple
+approvers and technician groups. The assigned approvers get notified immediately. There are 
 two types of Approval:
 
 -  **Unanimous**: All of the approvers have to approve else the Approval
@@ -417,7 +422,7 @@ two types of Approval:
 Asking for Approval
 -------------------
 
-You can check whether an Approval Workflow is set or not by clicking on
+The technician can check whether an Approval Workflow is set or not by clicking on
 **Ask For Approval**. An Approval Workflow has conditions based on that
 approvers are automatically set. If conditions of a workflow are not
 triggered or there’s no workflow (and manual Approvals) then the Change is Pre-Approved and the
@@ -431,7 +436,7 @@ Approval moves to next stage.
 Approval Process
 ----------------
 
--  Whether you create Approval manually or ask for Approval, once
+-  Whether the technician creates the Approval manually or ask for the Approval, once
    created it follows the same Approval process.
 
 -  Technicians can view all the approvers, their statuses and comments
@@ -495,7 +500,7 @@ Approval Process
 
 -  On success, the Approval moves to the Approved status and the Change
    goes to the next stage. On failure, the Approval moves to the
-   Rejected status and the Change doesn’t move forward; you can put it
+   Rejected status and the Change doesn’t move forward; technician can put it
    back to the Planning stage, close it or re-initiate (Re-Approve) the Approval
    process.
 
@@ -504,7 +509,7 @@ Approval Process
     :align: center
     :alt: figure 40
 
--  If a Technician has the :ref:`right <Technician Roles>` to ignore approvers (refer
+-  If the Technician has the :ref:`right <Technician Roles>` to ignore approvers (refer
    Administration Manual), then he can ignore non-responsive approvers
    and push the Approval towards Approved stage. An ignored approver can
    only see his status as Ignored in the Details View of the Change,
@@ -530,7 +535,7 @@ Approval Process
 Managing Approvals for Technician.
 ----------------------------------
 
-An assigned Technician can create multiple Approvals (manually) with the same
+The assigned Technician can create multiple Approvals (manually) with the same
 approvers or different ones; automatic Approval workflow can also create multiple Approvals. 
 Between multiple Approvals, whether to go with unanimous or majority can be set from **Admin** (A Navigation Tab)
 >> **Approval Workflow** (Automation) >> **Approval Settings**, but the
@@ -578,7 +583,7 @@ Adding a Time Log:
     :align: center
     :alt: figure 42
 
-4. In Time Log tab, you can view all the logs, if any. Click on **Add**
+4. In Time Log tab, technician can view all the logs, if any. He will click on **Add**
    to add a new log. A dialog box opens.
 
 .. _cmf-43:
@@ -586,25 +591,24 @@ Adding a Time Log:
     :align: center
     :alt: figure 43
 
-5. In the dialog box, enter a Start Date Time (e.g., Mon, Dec 11, 2017,
-   5:12 PM) and an End Date Time (e.g., Mon, Dec 11, 2017, 10:10 PM),
-   and hit **Add** to save your log.
+5. In the dialog box, technician enters a Start Date Time (e.g., Mon, Dec 11, 2017,
+   5:12 PM) and an End Date Time (e.g., Mon, Dec 11, 2017, 10:10 PM) and a description,
+   and hits **Add** to save his time log.
 
 Edit/Delete a Time Log:
 -----------------------
 
-1. Go to the :ref:`Details View <change-details-view>` of the Change.
+1. A technician goes to the :ref:`Details View <change-details-view>` of the Change.
 
-2. Scroll down to **Time Log** tab and click on it. You can view all
-   your logs under the tab.
+2. Scrolls down to **Time Log** tab and clicks on it. Technician can view all
+   his logs under the tab.
 
 .. _cmf-44:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/change-management/CM-44.png
     :align: center
     :alt: figure 44
 
-3. Perform edits using the Edit Icon adjacent to a log. Alternatively,
-   you can delete them using the Delete Icon.
+3. Technician edits using the Edit Icon adjacent to a log. He can delete them using the Delete Icon.
 
 .. _cm-managing-tasks:
 
@@ -615,8 +619,8 @@ Sometimes implementing a Change becomes a collaboration between multiple
 Technicians; which is why the tool allows delegation of tasks from the
 Details View of a Change.
 
-Once a Change reaches the Implementation stage, you can create Tasks
-related to the Change and assign them to Technicians. Assignees get
+Once a Change reaches the Implementation stage, the assigned technician can create Tasks
+related to the Change and assign them to other Technicians. Assignees get
 notified immediately.
 
 .. note:: In order to work with Tasks in a Change. The Change has to have an assigned Technician.
@@ -629,8 +633,8 @@ notified immediately.
 Adding a Task
 -------------
 
-Clicking on **Add Task** (:numref:`cmf-45`) in **Tasks** (in Details View)
-opens the Add Task dialog box (:numref:`cmf-46`) where you can create and
+Clicking on **Add Task** (:numref:`cmf-45`) under **Tasks** (in Details View)
+opens the Add Task dialog box (:numref:`cmf-46`) where the technician can create and
 assign n number of Tasks.
 
 .. _cmf-46:
@@ -638,7 +642,7 @@ assign n number of Tasks.
     :align: center
     :alt: figure 46
 
-A Task assignee sees his Task/Tasks on his Dashboard under **My Tasks**.
+A Task assignee sees his Task/Tasks on his **floto launcher** >> **My Tasks** section.
 
 .. _cmf-47:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/change-management/CM-47.png
@@ -648,7 +652,7 @@ A Task assignee sees his Task/Tasks on his Dashboard under **My Tasks**.
 **Edit/Delete a Task**
 
 In the :ref:`Details View <change-details-view>`, the Tasks appear as a
-list. There you can perform modifications to a Task and add notes (notes
+list. There a technician can perform modifications to a Task and add notes (notes
 are additional information).
 
 .. _cmf-48:
@@ -722,4 +726,4 @@ Technician can send a notification from the details view of a change (RFC) by cl
     :alt: figure 49.4
 
 A technician can select individuals or groups, be it Requesters or Technicians, or both. 
-The technician can add multiple emails using the Add Email (section-A in Fig. 174) button.
+The technician can add multiple emails using the Add Email (section-A in Fig. 174) button. 
