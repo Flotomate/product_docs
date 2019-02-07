@@ -649,41 +649,11 @@ A Task assignee sees his Task/Tasks on his **floto launcher** >> **My Tasks** se
     :align: center
     :alt: figure 47
 
-**Edit/Delete a Task**
+**Related Topics**
 
-In the :ref:`Details View <change-details-view>`, the Tasks appear as a
-list. There a technician can perform modifications to a Task and add notes (notes
-are additional information).
+- :ref:`Edit Task Details`
 
-.. _cmf-48:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/change-management/CM-48.png
-    :align: center
-    :alt: figure 48
-
-Anyone with the manage task rights can edit Tasks in a Change using the
-edit icon. Same is true for deleting a Task using the delete icon
-(:numref:`cmf-48`).
-
-Adding a Note
--------------
-
-Clicking on the note icon next to delete opens the Add Note dialog box.
-
-.. _cmf-49:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/change-management/CM-49.png
-    :align: center
-    :alt: figure 49
-
-Here anyone with the manage task rights can add a note for all the
-stakeholders to see. In the dialog box, click on **Add Notes** to add a
-Note.
-
-Closing a Task
---------------
-
-Anyone with the manage task rights can go to the :ref:`Details
-View <change-details-view>` and close a Task either by clicking on
-**Done** or setting the Status of the Task to Closed.
+- :ref:`Working on a single task` 
 
 Add and Remove Watchers in a Change
 ===================================
