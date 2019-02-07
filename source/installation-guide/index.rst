@@ -13,4 +13,5 @@ Installation Guides
    high-availability/index
    upgrade-guide/index
    recovery/index
+   prerequisite-guide/index
    
