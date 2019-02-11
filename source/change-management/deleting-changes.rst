@@ -2,14 +2,16 @@
 Deleting Changes
 ****************
 
-Deleting is a bulk operation which means you can delete multiple Changes
+Deleting is a bulk operation which means a technician can delete multiple Changes
 at once.
 
--  Go to **Change** >> :doc:`List View <change-list-view>`.
+**In order to delete a change, a technician:**
 
--  Select a Change or Changes from the list area.
+-  Goes to **Change** >> :doc:`List View <change-list-view>`.
 
--  Click **Archive**, and you get a confirmation message; click **Yes**
+-  Selects a Change or Changes from the list area.
+
+-  Clicks on **Archive**, and he/she get a confirmation message; he/she clicks **Yes**
    to delete the selected Change/Changes.
 
 .. _cmf-61:

@@ -695,5 +695,5 @@ Technician can send a notification from the details view of a change (RFC) by cl
     :align: center
     :alt: figure 49.4
 
-A technician can select individuals or groups, be it Requesters or Technicians, or both. 
+A technician can select individuals or groups, be it Requesters or Technicians, or both.
 The technician can add multiple emails using the Add Email (section-A in Fig. 174) button. 

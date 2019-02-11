@@ -37,7 +37,7 @@ The five above mentioned stages are:
 
    b. :ref:`Planning <cm-collaborate-schedule-and-planning>`
 
-   c. :ref:`Collaborate <cm-collaborate-schedule-and-planning`
+   c. :ref:`Collaborate <cm-collaborate-schedule-and-planning>`
 
    d. :ref:`Adding Relations <cm-adding-relations>`
 

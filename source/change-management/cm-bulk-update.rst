@@ -5,13 +5,13 @@ Bulk Update
 The product allows Technicians to change details of multiple Changes at
 once.
 
-To perform Bulk Update:
+To perform Bulk Update, a technician:
 
--  Go to the :doc:`List View <change-list-view>`.
+-  Goes to the :doc:`List View <change-list-view>`.
 
--  Select more than one Changes.
+-  Selects more than one Change.
 
--  The **Bulk Update** button appears above the list area. Click on
+-  The **Bulk Update** button appears above the list area. He clicks on
    **Bulk Update** and a dialog box opens.
 
     .. _cmf-60:
@@ -19,20 +19,19 @@ To perform Bulk Update:
         :align: center
         :alt: figure 60
 
-  You can change the following things:
+  Using the option, the technician can change the following things:
 
     a. Change the assignee of the Changes.
 
     b. Modify the Technician Group.
 
-    c. Change five :ref:`classifiers <classify-an-change>` ( Priority,
-       Urgency, Impact, Risk and Change Type).
+    c. Change five :ref:`classifiers <classify an change>` (Priority, Urgency, Impact, Risk and Change Type).
 
     d. Add new tags or append to the existing ones.
 
-    e. Change Category, Source, Department and Location.
+    e. Change category, target environment, department and location.
 
-    f. In addition to the above you can also set the following:
+    f. In addition to the above, the technicin can also set the following:
 
         i. **Change Implementer**: It is the Technician who implements the
            Change.
@@ -43,5 +42,5 @@ To perform Bulk Update:
         iii. **Change Reviewer**: It is the Technician who audits the
              implementation of the Change.
 
--  When you are done hit **Update** (number of Changes to be changed is
-   shown) and your changes are saved.
+-  When technician is done, he/she hits **Update** (number of Changes to be changed is
+   shown) and the changes are saved.

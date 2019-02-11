@@ -1,7 +1,3 @@
-*********
-Use cases
-*********
-
 Change Workflow without Rejection:
 ==================================
 
@@ -20,8 +16,8 @@ Change Workflow without Rejection:
    stage.
 
 -  In the Approval stage, the assigned Technician appoints approvers for
-   :ref:`Approval <approval-in-change>`. He can appoint n number of
-   approvers.
+   :ref:`Approval <Approval in Change>`. He can appoint n number of
+   approvers. Alternatively, the RFC can go to approvers automatically if there are pre-defined workflows already. 
 
    An approver gets to see his Approvals in the **My Approvals** section
    of his account.
