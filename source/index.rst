@@ -10,6 +10,7 @@ Flotomate Product Manual
    :maxdepth: 1
    :caption: Contents:
    
+   quick-setup/index
    installation-guide/index
    integration-guide/index
    release-notes/index

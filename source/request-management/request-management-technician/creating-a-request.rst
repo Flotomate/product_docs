@@ -14,6 +14,8 @@ needs of a Technician.
 Only people with create Request rights can create Requests. Please refer
 :ref:`Roles <Technician Roles>` (Users) in the Administration Manual.
 
+**To create a new request ticket:**
+
 1. Log in to the Technician Portal. Hover your mouse over the **Create**
    button in one of the Navigation Tabs. You see a popup menu; click on
    **Request**.
@@ -119,7 +121,7 @@ Email to ticket
 Flotomate gives the option to set up an email as the Helpdesk email
 address. Technicians can send an email to create a Request.
 
-The question, who can create a Request, depends on the **Preference (Users)**
+The question, who can create a Request, depends on the :ref:`**Preference (Users)** <helpdesk security>`
 settings in **Admin**. If settings allow creating Requests
 without login (**Allow Guest Requester to Report a Request**) and email to ticket feature is allowed in **Email Server Configuration**, 
 then anyone with the Helpdesk email can create a Request. Else, the system accepts email Requests from registered emails only.
