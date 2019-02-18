@@ -8,7 +8,12 @@ Our ITSM tool is a standalone service that runs on a ubuntu (16.04 and above) se
 - Two Core Processor.
 - 100GB of Hard Drive Space.
 
-Once installed, it is accessed from a web browser using the server IP or an associated domain name. 
+Once installed, it is accessed from a web browser using the server IP or an associated domain name.
+
+.. _qsg-1:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/quick-guide/QSG-1.png
+    :align: center
+    :alt: figure 1
 
 Downloading ITSM Build (Guide 1)
 ================================
@@ -37,19 +42,19 @@ Learn :ref:`What is High Availability Setup?`.
 
 Follow the installation steps in :ref:`the HA guide <Setting up High Availability Servers>`. 
 
-Installation of Relay Servers (Guide 4)
-=======================================
-
-Once you are done with the ITSM setup, you can connect remote locations/offices using a relay server. 
-A relay server is a separate server that you have to setup and link it with the main server (ITSM).
-
-Follow the installation steps in the :ref:`File Server Installation Guide`.
-
-Installation of File Server (Guide 5)
+Installation of File Server (Guide 4)
 =====================================
 
 Patch and Package management is disabled by default. To enable this feature, you have to setup a file server, and link it with the main 
 server. A file server stores all patches and packages before deployment. 
+
+Follow the installation steps in the :ref:`File Server Installation Guide`.
+
+Installation of Relay Servers (Guide 5)
+=======================================
+
+Once you are done with the ITSM setup, you can connect remote locations/offices using a relay server. 
+A relay server is a separate server that you have to setup and link it with the main server (ITSM).
 
 Follow the installation steps in the :ref:`File Server Installation Guide`.
 
@@ -68,6 +73,9 @@ Follow the installation steps in:
 - :ref:`Windows Agent Installation Guide`
 - :ref:`Ubuntu Linux Agent Installation/Uninstallation Guide`
 - :ref:`Mac-OS Agent Installation Guide`
+
+Along with the agent, you also have to install the agent monitor, which is a separate piece of software. This software allows
+for the automatic upgrade of the main agent application. Follow guide 7 for the installation process. 
 
 Agent Self-Upgrade Feature (Guide 7)
 ====================================
