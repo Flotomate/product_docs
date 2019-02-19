@@ -8,10 +8,10 @@ Release Notes - Dolphin 2.7.0
 1. Dashboard
 ------------
 
-.. _re-2.7-0:
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/release-note/RE-2.7-0.png
-    :align: center
-    :alt: figure 0
+.. .. _re-2.7-0:
+   .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/release-note/RE-2.7-0.png
+      :align: center
+      :alt: figure 0
 
 Flotomate now has a customizable Dashboard that can provide a glance
 view of key KPIs and relevant data. We have predefined Dashboards out of
