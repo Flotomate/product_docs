@@ -21,7 +21,7 @@ Downloading ITSM Build (Guide 1)
 Once you are done setting up the server/servers, cd into a empty directory and run the following command 
 to install the latest product build.
 
-.. code-block:: sudo wget https://s3.ap-south-1.amazonaws.com/flotomate-customer-releases/latest/main/linux/service_desk_master_CI
+**sudo wget https://s3.ap-south-1.amazonaws.com/flotomate-customer-releases/latest/main/linux/service_desk_master_CI**
 
 Installation of ITSM as a Standalone Server (Guide 2)
 =====================================================
