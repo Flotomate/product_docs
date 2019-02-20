@@ -9,7 +9,7 @@ Logging to the main server and open the config file using the following command.
 
 **/opt/flotomate/discovery-service/config/service-conf.yaml**
 
-There, modify the port number to 443. 
+There, modify the highlighted link to https from http and port number to 443.   
 
 .. _faq-4:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/faq/FAQ-4.png
