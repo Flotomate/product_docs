@@ -108,6 +108,8 @@ In File Server
     :align: center
     :alt: figure 2
 
+.. note:: Use https instead of http if main server is using a secure connection. 
+
 - change under main-server : **URL={your main server url}**
 
 .. _FSC-3:
@@ -157,6 +159,8 @@ Type the following commands in the terminal of the relay server (a separate serv
 - Change directory: **cd /opt/flotomate/relay-server/config**
 
 - Open: **nano services-conf.yaml**
+
+.. note:: Use https instead of http if main server is using a secure connection.
 
 - Change under main-server : **URL={your main server url}**
 
