@@ -13,7 +13,7 @@ feedback form and the sane link is also embedded in the notification emails sent
 when a Request is resolved and closed.
 
 To Activate Feedback
----------------------
+--------------------
 
 -  Go to **Admin** >> **Request Feedback Settings** (under Request Management).
 
@@ -48,6 +48,7 @@ To Activate Feedback
     .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-65.2.png
         :align: center
         :alt: figure 65.2
+        
 
 
 **Things To Remember**
@@ -74,6 +75,8 @@ Request, and the values captured via custom fields are separately shown under th
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-67.png
     :align: center
     :alt: figure 67
+    
+    Actual feedback from the requester.
 
 **Things to Remember:**
 

@@ -1,6 +1,8 @@
-******************
-Deleting a Request
-******************
+.. _Deleting a Request:
+
+****************************
+Deleting/Archiving a Request
+****************************
 
 Deleting Requests is a simple operation; you can delete Requests one at a time or multiple of them at once. 
 The operation is done from the Request List View. 
@@ -9,7 +11,7 @@ The operation is done from the Request List View.
 
 2. Select a Request or Requests from the list area.
 
-3. Click Archive, and you get a confirmation message; click **Yes** to
+3. Click **Archive**, and you get a confirmation message; click **Yes** to
    delete the selected Request/Requests.
 
 .. _rmf-72:
@@ -21,7 +23,7 @@ The operation is done from the Request List View.
 Viewing Archived Requests
 =========================
 
-There is a separate section where you can view all archived Requests and Un-archived them if you want them back
+There is a separate section where you can view all archived/deleted Requests and Un-archived them if you want them back
 on the Request List View.
 
 - Go to the :doc:`Request List View <request-list-view>`.
@@ -33,7 +35,7 @@ on the Request List View.
     :align: center
     :alt: figure 72.1
 
-- A dialog box opens where you can view all archived Requests. You can select a few Requests and click on Un-archived
+- A dialog box opens where you can view all archived/deleted Requests. You can select a few Requests and click on Un-archived
   to bring them back to Request List View.
 
 .. _rmf-72.2:

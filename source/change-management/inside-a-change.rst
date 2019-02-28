@@ -387,6 +387,14 @@ to move the Change to the next stage.
 Different States in an Approval Process
 ---------------------------------------
 
+.. _cmf-34.1:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/change-management/CM-34.1.png
+    :align: center
+    :alt: figure 34.1
+
+    Technician can view the approval status of a change. 
+
+
 -  Approval:Pending
 
 -  Approval:Rejected
