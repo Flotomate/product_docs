@@ -2,13 +2,15 @@
 Assigning a Request
 *******************
 
-Assigning a Request to a Technician makes that person responsible for
-the Request. He/she becomes the point of contact for all matters related
-to the Request. An assigned Technician has the privilege to initiate an
+Assigning a Request ticket to a Technician makes that person responsible for
+the ticket. He/she becomes the point of contact for all matters related
+to the Request ticket. An assigned Technician has the privilege to initiate an
 Approval process when required.
 
-A Technician, with the necessary Request rights, can assign a Request to
+A Technician, with the necessary Request rights, can assign a Request ticket to
 other Technicians or claim it for himself/herself.
+
+Learn more about: :ref:`Technician Roles`.
 
 Assigning from List View
 ========================
@@ -19,12 +21,12 @@ Assigning from List View
    The **Claim** and **Assign** buttons appear. Perform the operation
    that you want.
 
-   Selecting **Claim** assigns the Request to you, and you can view your
-   name against the Request Subject line.
+   Selecting **Claim** assigns the Request ticket to the logged in technician, and you can view the assigned technician's
+   name against the ticket's Subject line.
 
-   You can assign the Request to other Technicians. Selecting **Assign**
+   You can assign the Request ticket to other Technicians. Selecting **Assign**
    pops up a list where you can see the names of other Technicians along
-   with colored rings showing the workload of each Technician. Red
+   with coloured rings showing the workload of each Technician. Red
    represents maximum load and green, minimum load.
 
 Alternatively, you use Claim and Assign as a bulk operation. You can
@@ -41,7 +43,7 @@ Assigning from Details View
 
 1. Go to **Request** >> Request List View.
 
-2. Click on a Request and go to its :ref:`Details View <request-details-view>`.
+2. Click on a Request ticket and go to its :ref:`Details View <request-details-view>`.
 
 3. You can find the **Claim** and **Assign** button in the top right
    corner. Perform the action that you want.

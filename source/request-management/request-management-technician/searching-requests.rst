@@ -23,25 +23,16 @@ select an option or multiple options from a drop-down menu.
     :align: center
     :alt: figure 9
 
+    Search options for request tickets. 
+
 You can search Requests with keywords. When you provide a keyword,
 Flotomate examines all the Requests with the keyword in Subject,
 Description, Solution, Tags, Requestor Email, and ID fields. All matched
 Requests get displayed in the list area. In case of multiple keywords,
 all keywords need to be matched.
 
-You can make a filter using a chain of search options and keywords. You
-can save your search queries, refer :numref:`rmf-10`. Saved search queries
-appear in the section-A’s menu list (:numref:`rmf-5`).
-
-.. _rmf-9.1:
-
-.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-9.1.png
-    :align: center
-    :alt: figure 9.1
-
-For example, if you are looking for all Requests containing the word SLA
-in the Subject line and have an Impact on a Department. You have the
-search query in :numref:`rmf-10`.
+You can make a filter using a chain of search options and keywords. For example, if you are looking for all Requests containing the keyword SLA
+and have an Impact on a Department. You have the search query in :numref:`rmf-10`.
 
 .. _rmf-10:
 
@@ -59,6 +50,18 @@ Between keywords and conditions AND logic is followed.
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-11.png
     :align: center
     :alt: figure 11
+
+Save Search queries
+-------------------
+
+You can save your search queries, refer :numref:`rmf-10`. Saved search queries
+appear in the section-A’s menu list (:numref:`rmf-5`).
+
+.. _rmf-9.1:
+
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/request-management/RM-9.1.png
+    :align: center
+    :alt: figure 9.1
 
 Using Filters
 =============
