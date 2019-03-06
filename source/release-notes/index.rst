@@ -8,3 +8,4 @@ Release Notes
    release-2-7
    release-3-0
    release-3-1
+   release-3-2

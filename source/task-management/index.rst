@@ -8,3 +8,4 @@ Task Management
    searching-tasks
    creating-a-tasks
    working-on-a-task
+   scheduled-task

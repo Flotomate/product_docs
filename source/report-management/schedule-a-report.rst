@@ -45,16 +45,13 @@ Creating a Schedule
 
             i.   **Once**: Get a Report once at a specific date and time.
 
-            ii.  **Daily**: Get a Report daily at a specific time after a
-                   specific date and time.
+            ii.  **Daily**: Get a Report daily at a specific time after a specific date and time.
 
             iii. **Weekly**: Get a Report on certain days of a week.
 
-            iv.  **Monthly**: Get a Report on a specific date of certain months
-                 of a year.
+            iv.  **Monthly**: Get a Report on a specific date of certain months of a year.
 
-            v.   **Interval**: Get a Report at a specific interval set in
-                 minutes.
+            v.   **Interval**: Get a Report at a specific interval set in minutes.
 
       e. There are plenty of options to choose from when selecting a Time
          Zone. Set the Time Zone you want to follow based on which Schedule
