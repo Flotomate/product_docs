@@ -40,3 +40,8 @@ Now we have different kinds of licenses to better suit the needs of our customer
 - Service Desk + Asset 
 - Service Desk +  Patch
 - Service Desk Only
+
+RDP Support
+===========
+
+Now we support RDP for Windows server 2012 and 2016. 
