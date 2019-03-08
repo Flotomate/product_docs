@@ -8,11 +8,11 @@ Extended Support for Agent Less Discovery
 In this release we have extended the capabilities of the agent less discovery. Now we support the
 following OSs:
 
-- Solaris* 11.3 and 10
+- Solaris* 11.3 and 10 (It might happen that too many software might be discovered.)
 - OpenSuse Tumbleweed
 - Fedora 29
-- CentOS* 6 and CentOS 7.6
-- REd Hat 7.6 *
+- CentOS* 6 and CentOS 7.6 (Some network adapter fields might not be discovered.)
+- REd Hat 7.6 * (In some Redhat hardware the serial number might be missing.)
 - Debian 9
 
 Task Schedule
@@ -45,3 +45,8 @@ RDP Support
 ===========
 
 Now we support RDP for Windows server 2012 and 2016. 
+
+Better Security
+===============
+
+Now all connections between servers and agents are now secured using HTTPS. 
