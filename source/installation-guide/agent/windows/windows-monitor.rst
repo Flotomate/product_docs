@@ -7,7 +7,7 @@ Describes Installation Steps for Flotomate Windows Agent Monitor.
 System Requirement :
 ====================
 
-**Target Machine OS**: 
+**Target Machine OS**:
 
 - Windows 7 and above.
 

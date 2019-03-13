@@ -14,15 +14,13 @@ The below mentioned steps are applicable for existing customers having the follo
 
 - Minimum main server version : 2.7.0 (Learn about :ref:`build upgrade <Flotomate Service Desk - Server Upgrade Guide>`)
 
-- Minimum starting Agent version 2.7.0.
+- Minimum starting Agent version 2.7.1.
 
 **Prerequisite (Things to have before beginning the Upgrade process)**
 
-- Complete File Server setup (:ref:`Learn more <File Server Installation Guide>`)
-
 - Latest Agent Monitor executable file.
 
-- Latest Agent application executable file, which should be an increment over the minimum starting agent version 2.7.0.
+- Latest Agent application executable file, which should be an increment over the minimum starting agent version for example 2.7.2.
 
 - Latest product build if available.
 
@@ -72,19 +70,12 @@ We are now going to update the old Agent application using the Agent Self Upgrad
     :align: center
     :alt: figure 8
 
+.. important:: When uploading the 32 bit application don't forget to select the 32 bit option, see below.
+
+.. _aup-8.1:
+
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/agent-installation-guide/AUP-8.1.png
+    :align: center
+    :alt: figure 8.1
+
 - Select the computers that you want to update and click **Upgrade**. The Upgrade process will start on confirmation.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
