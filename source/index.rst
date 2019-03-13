@@ -14,6 +14,7 @@ Flotomate Product Manual
    installation-guide/index
    integration-guide/index
    release-notes/index
+   build-archive/index
    request-management/index
    problem-management/index
    change-management/index

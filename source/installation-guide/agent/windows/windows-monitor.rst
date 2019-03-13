@@ -2,7 +2,7 @@
 Windows Agent Monitor Installation Guide
 ****************************************
 
-Describes Installation Steps for Flotomate Windows Agent Monitor-1.0.0.
+Describes Installation Steps for Flotomate Windows Agent Monitor.
 
 System Requirement :
 ====================

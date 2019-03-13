@@ -6,5 +6,3 @@ Server Installation Guide
 
    server-installation-build
    server-installation-iso
-
-   

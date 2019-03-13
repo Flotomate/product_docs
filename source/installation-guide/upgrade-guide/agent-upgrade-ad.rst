@@ -1,6 +1,6 @@
-*****************************************
-Agent\Monitor Bulk Installation Using GPO
-*****************************************
+*******************************************
+Agent & Monitor Bulk Installation Using GPO
+*******************************************
 
 One advantage of having an Active Directory Domain is the possibility to
 deploy software packages via a Group Policy Object. Using GPO is crucial
