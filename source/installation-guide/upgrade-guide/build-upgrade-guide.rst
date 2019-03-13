@@ -7,6 +7,8 @@ Flotomate Service Desk - Server Upgrade Guide
 .. important:: The upgrade of the server has to be done incrementally. Meaning, from build 2.5 you cannot jump to 3.0; you have to
                download the in between versions. Know about the list of :ref:`releases so far <Flotomate Build Archive>`. 
 
+.. important:: It's a good idea to do a DB backup before doing an upgrade. 
+
 1. It is recommended that you take snapshot of your
    existing virtual machine before proceeding with upgrade.
 
