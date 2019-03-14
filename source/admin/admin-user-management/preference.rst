@@ -14,6 +14,11 @@ an admin can control the following:
     :align: center
     :alt: figure 28
 
+Not Allow Concurrent User logging
+---------------------------------
+
+Turn this option **on** will disallow users from having multiple sessions across multiple machines. 
+
 Allow Guest Requesters to Report a Request:
 -------------------------------------------
 

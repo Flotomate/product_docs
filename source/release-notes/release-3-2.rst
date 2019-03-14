@@ -49,4 +49,5 @@ Now we support RDP for Windows server 2012 and 2016.
 Better Security
 ===============
 
-Now all connections between servers and agents are now secured using HTTPS. 
+- Now all connections between servers and agents are now secured using HTTPS. 
+- Option to disallow concurrent logging of users. The option is under **Admin** >> **Preference**. 
