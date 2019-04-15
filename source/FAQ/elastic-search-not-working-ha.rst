@@ -10,6 +10,7 @@ In such a case, you have to Re-index the database of the ITSM.
 - Go to Admin >> Support Console.
 
 .. _faq-1:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/faq/FAQ-1.png
     :align: center
     :alt: figure 1
@@ -17,6 +18,7 @@ In such a case, you have to Re-index the database of the ITSM.
 - Select all modules and click on Re-index. 
 
 .. _faq-2:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/faq/FAQ-2.png
     :align: center
     :alt: figure 2

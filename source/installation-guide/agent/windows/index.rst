@@ -5,4 +5,5 @@ Windows Agent Installation Guide
    :maxdepth: 2
 
    windows-agent
+   windows-server-agent
    windows-monitor

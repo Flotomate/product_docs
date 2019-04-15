@@ -14,6 +14,7 @@ Logging to the main server and apply the following commands to change the config
 There, modify the highlighted link to https from http and port number to 443.  
 
 .. _faq-4:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/faq/FAQ-4.png
     :align: center
     :alt: figure 4

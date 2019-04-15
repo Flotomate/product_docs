@@ -27,6 +27,7 @@ RDP on to your server
 2.  Change directory to the RDP Installation file.
 
 .. _rdpm-1:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/agent-installation-guide/RDPM-1.png
     :align: center
     :alt: figure 1
@@ -34,6 +35,7 @@ RDP on to your server
 3.  Check whether you have the permission to execute the file.
 
 .. _rdpm-2:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/agent-installation-guide/RDPM-2.png
     :align: center
     :alt: figure 2
@@ -54,6 +56,7 @@ RDP on to your server
 6.  Close terminal after installation finishes.
 
 .. _rdpm-4:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/agent-installation-guide/RDPM-4.png
     :align: center
     :alt: figure 4
@@ -65,6 +68,7 @@ RDP on to your server
     Management).
 
 .. _rdpm-5:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/agent-installation-guide/RDPM-5.png
     :align: center
     :alt: figure 5
@@ -74,6 +78,7 @@ RDP on to your server
 10. Click on **Configure RDP**.
 
 .. _rdpm-6:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/installation-guide/agent-installation-guide/RDPM-6.png
     :align: center
     :alt: figure 6

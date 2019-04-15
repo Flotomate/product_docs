@@ -11,7 +11,7 @@ System Requirement :
 
 - Windows 7 and above versions.
 
-**OS Architecture**: 
+**OS Architecture**:
 
 - Windows (32 & 64 bit).
 
