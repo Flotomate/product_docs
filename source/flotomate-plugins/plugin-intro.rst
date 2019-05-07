@@ -37,7 +37,7 @@ Benefits of a Plugin Architecture
 
 - Provides a great deal of flexibility when it comes to customization without burdening the tool.
 
-- New functions can be added with changing the code base of the main product.
+- New functions can be added without changing the code base of the main product.
 
 Some of the Types of Plugin We Support
 ======================================
