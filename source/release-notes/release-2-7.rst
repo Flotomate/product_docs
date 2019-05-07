@@ -9,6 +9,7 @@ Release Notes - Dolphin 2.7.0
 ------------
 
 .. .. _re-2.7-0:
+
    .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/release-note/RE-2.7-0.png
       :align: center
       :alt: figure 0
@@ -84,6 +85,7 @@ Master, the secondary server is called the Slave and there’s a proxy
 server.
 
 .. _re-2.7-1:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/release-note/RE-2.7-1.png
     :align: center
     :alt: figure 1
@@ -131,6 +133,7 @@ the File Server, we now support Relay Servers to distribute File storage
 across multiple Remote Offices.
 
 .. _re-2.7-2:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/release-note/RE-2.7-2.png
     :align: center
     :alt: figure 2
