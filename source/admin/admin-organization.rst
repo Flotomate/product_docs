@@ -194,15 +194,18 @@ To add business hours:
 
     To set custom hours:
 
-    a. Click **Custom hours**; you get a list of all days with a start
-       and end time.
+    a. Click **Custom hours**; you get a list of all days with their work hours.
 
         .. _adf-82:
         .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-82.png
             :align: center
             :alt: figure 82
 
-    b. Select the days that are applicable and set the start and end time.
+    b. Select the days that are applicable and set the work hours.
+
+    c. In custom mode, you can also add break time for each day. 
+
+.. note:: SLA time calculation for a ticket will consider work-time and break-time if custom hours are set. 
 
 6. Set holidays and write a small description. Click **Add** to add
    your new business hours.

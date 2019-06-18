@@ -72,6 +72,8 @@ You can add Requestors individually by entering their details.
    The field value is used for auto-assigning the Requester's workstation to his/her name. The assignment happens during asset 
    discovery. :ref:`Learn more <Preference>`.
 
+   .. note:: A requester can use the logon name instead of the email for portal login.  
+
 -  You can create custom fields that allow you to store additional information. :ref:`Learn More (see Custom Fields) <requestor-custom-field>`    
 
 -  When you are done filling in the details, hit **Add**.

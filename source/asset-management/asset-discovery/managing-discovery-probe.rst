@@ -234,9 +234,43 @@ progress status in the **Discovery** tab:
 -  **SNMP Nodes**: Out of total Up Nodes how many are SNMP nodes.
 
 .. _amf-177:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-177.png
     :align: center
     :alt: figure 177
+
+View Discovery Probe History
+============================
+
+Status of past discoveries can be viewed under the discovery tab.
+
+Click on the **View History**.
+
+.. _amf-204:
+
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-204.png
+    :align: center
+    :alt: figure 204
+
+The progress history window opens. Here you can view the process status of each 
+discovery and the IP addresses of the machines, and their ping status, discovery status, and asset ID. 
+
+.. _amf-205:
+
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-205.png
+    :align: center
+    :alt: figure 205
+
+You can browse through all the discoveries using the pagination button. Each page shows the history of a single discovery with date-time stamp. 
+
+Print Discovery History
+-----------------------
+
+.. _amf-206:
+
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/asset-management/AM-206.png
+    :align: center
+    :alt: figure 206
 
 Reviewing Discovered Assets
 ===========================

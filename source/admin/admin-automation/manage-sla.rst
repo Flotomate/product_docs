@@ -276,6 +276,47 @@ View SLA Compliance Data
     :align: center
     :alt: figure 6
 
+Download SLA Compliance Data
+----------------------------
+You can download the SLA compliance data for all the SLAs.
+
+- Go to **Admin** > **Automation** > **SLA**. 
+
+- Click on SLA settings icon. 
+
+- Choose **Download SLA Monitor Report**. 
+
+- Select a file format. 
+
+.. _ad-slam-7:
+
+.. figure:: https://flotomate-resources.s3-ap-southeast-1.amazonaws.com/admin/sla-monitor/AD-SLAM-7.png
+    :align: center
+    :alt: figure 7
+
+.. _ad-slam-8:
+
+.. figure:: https://flotomate-resources.s3-ap-southeast-1.amazonaws.com/admin/sla-monitor/AD-SLAM-8.png
+    :align: center
+    :alt: figure 8
+
+Set Default SLA Due date
+========================
+
+You can set the default due date of tickets that doesn't qualify for an SLA. 
+
+- Go to **Admin** > **Automation** > **SLA**. 
+
+- Click on SLA settings icon. 
+
+- Choose **SLA Configuration** and set a time.
+
+.. _ad-slam-9:
+
+.. figure:: https://flotomate-resources.s3-ap-southeast-1.amazonaws.com/admin/sla-monitor/AD-SLAM-9.png
+    :align: center
+    :alt: figure 9
+
 Manage SLA with Status
 ======================
 

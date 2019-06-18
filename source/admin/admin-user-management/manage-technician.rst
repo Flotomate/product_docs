@@ -67,11 +67,16 @@ Add/View Technicians
 
       .. important:: (Note that Location Authorization and Location are two different concept.)
 
-   h. The **Authorization Location** puts the technician in the location scope. The field is populated from the location list, but
+   h. **Logon Name**: Logon Name is the Workstation user-name of the Requester. The field value is used for auto-assigning 
+      the Requester’s workstation to his/her name. The assignment happens during asset discovery. 
+
+      .. note:: Logon name can be used instead of the email for login in to the system. 
+
+   i. The **Authorization Location** puts the technician in the location scope. The field is populated from the location list, but
       unlike the location field above, the Authorization Location only allows the technicians to view objects (tickets, Assets, etc) for
       the selected location and those with no location details. Learn more about :ref:`Location Scope <Data Segregation with Location Scope>`. 
 
-   i. You can further filter what the technician can view using the Access Level control. You can assign three types of access level.
+   j. You can further filter what the technician can view using the Access Level control. You can assign three types of access level.
 
       .. _adf-24.1:
       .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-24.1.png

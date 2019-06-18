@@ -1,5 +1,6 @@
+**************
 Share a Report
-==============
+**************
 
 The product allows you to send a Report as an email. To export a Report:
 
@@ -12,6 +13,7 @@ The product allows you to send a Report as an email. To export a Report:
    to enter an email/emails and select a format.
 
 .. _rf37:
+
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/report/R-37.png
       :align: center
       :alt: figure 37

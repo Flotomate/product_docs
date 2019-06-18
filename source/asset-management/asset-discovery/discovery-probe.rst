@@ -87,28 +87,34 @@ The Probe fetches the following data points from a workstation (subject to chang
 
    g. Host Name
 
--  OS Name and Version
+- OS Name and Version
 
--  Service Pack Name
+- Service Pack Name
 
--  Memory Size
+- Memory Size
 
--  Disk Size
+- Disk Size/Information
 
--  CPU Speed
+- CPU Speed
 
--  CPU Core Count
+- CPU Core Count
 
--  MAC Address
+- MAC Address
 
--  Domain Name
+- Domain Name
 
--  Serial Number
+- Serial Number
 
--  Processor Information
+- Processor Information
 
--  Network Adapter Information
+- Network Adapter Information
 
--  Logical Disk Information
+- Monitor Information
 
--  Last Audit Date
+- Mouse and Keyboard
+
+- Logical Disk Information
+
+- Physical Disk Information
+
+- Last Audit Date

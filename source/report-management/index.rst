@@ -14,3 +14,5 @@ Report Management
    preview-a-report 
    share-a-report 
    preview-a-report
+   trashing-a-report
+   restoring-a-report

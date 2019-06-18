@@ -6,3 +6,4 @@ Flotomate RDP Agent Installation Guide
 
    windows-rdp
    linux-rdp
+   mac-rdp

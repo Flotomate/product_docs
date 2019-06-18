@@ -27,7 +27,7 @@ View Email Notifications
 
     b. Problem (12 Notifications)
 
-    c. Change (17 Notifications)
+    c. Change (18 Notifications)
 
     d. Asset (13 Notifications)
 
@@ -37,9 +37,15 @@ View Email Notifications
 
     g. Package (4 Notifications)
 
-    h. Contract (6 Notifications)
+    h. Contract (5 Notifications)
 
-    i. Purchase (11 Notifications)
+    i. Purchase (10 Notifications)
+
+    j. Project (10 Notifications)
+
+    k. Tasks (4 Notifications)
+
+    l. Reports (3 Notification)
 
 .. _adf-51:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-51.png
