@@ -162,3 +162,25 @@ A schedule will automatically create a backup at a specified interval.
   b. You can add recipients (email addresses) who will receive an email when a backup attempt fails.
 
 - Once a backup happens, you can download it locally.   
+
+Support Console
+===============
+
+Support Console allows you to perform the following:
+
+- Download Log files and Discovery log files.
+
+- Upload product License
+
+- Download database backup
+
+- Data indexing for search
+
+- API validation
+
+
+.. _adf-154:
+
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-154.png
+    :align: center
+    :alt: figure 154

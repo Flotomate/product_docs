@@ -63,4 +63,10 @@ The details pane of the task expands where he/she can perform the following oper
 
 6. Technician can check all changes made to the task details from the **Audit Trail** tab. 
 
-7. In section C, the technician can mark the task as done or assign it to another technician. 
+7. In section C, the technician can mark the task as done or assign it to another technician. He/she can also send
+   a notification.
+
+.. _task-21:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/task_management/TASK-21.png
+    :align: center
+    :alt: figure 21

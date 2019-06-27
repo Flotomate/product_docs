@@ -71,6 +71,8 @@ Information Fetched by a Probe
 
 The Probe fetches the following data points from a workstation (subject to change in subsequent product updates):
 
+.. note:: Assets having UUID as 00000000000 can also get discovered.
+
 -  General Details:
 
    a. Name and ID

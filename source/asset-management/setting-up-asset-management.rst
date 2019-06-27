@@ -112,7 +112,7 @@ in each product.
 
 **To add a new Product:**
 
-.. Note:: The Form supports :ref:`Product Custom Field`
+.. Note:: The add form supports :ref:`Product Custom Field`
 
 1. Go to **Asset** (A Navigation Tab) >> **Product Catalog**.
 
@@ -253,7 +253,7 @@ Asset and Product.
 
 **To add a Vendor:**
 
-.. Note:: The Form supports :ref:`Vendor Custom Field`
+.. Note:: The add form supports :ref:`Vendor Custom Field`
 
 1. Go to **Asset** (A Navigation Tab) >> **Vendors Catalog**.
 
