@@ -1032,6 +1032,8 @@ A Technician can add himself as a Watcher with a single click.
 Closing a Problem
 =================
 
+.. note:: Pending Approval are ignored after closing ticket
+
 Flotomate gives you multitude of ways to close a Problem which are as
 follows:
 

@@ -24,7 +24,7 @@ Downloading RDP Agent
 
 You can download the RDP Agent (Ubuntu Linux) from the below link:
 
-**Ubuntu Linux 64-bit**: `Download Link <https://s3.ap-south-1.amazonaws.com/flotomate-customer-releases/latest/rdp+server/linux/agent_rdp>`_
+**Ubuntu Linux 64-bit**: `Download Link <https://flotomate-customer-releases.s3.ap-south-1.amazonaws.com/latest/rdp+server/linux/agent_rdp>`_
 
 RDP Installation Setup:
 ==========================

@@ -26,7 +26,7 @@ Windows(64bit): `Click Here <https://s3.ap-south-1.amazonaws.com/flotomate-custo
 Installation in Windows
 =======================
 
-Note: :ref:`.Net-Framework required <question1>` 
+.. Note:: :ref:`.Net-Framework required <question1>` 
 
 1. Download the latest msi file from the given link.
 

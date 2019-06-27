@@ -19,6 +19,8 @@ You can download the RDP Middleware from the below link:
 Manual Installation Setup:
 ==========================
 
+.. note:: RDP port changed from 5900 to 5901 in both RDP agent and Main server.
+
 After downloading the RDP Middleware, follow the below steps to install
 RDP on to your server
 

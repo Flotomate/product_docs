@@ -112,6 +112,8 @@ in each product.
 
 **To add a new Product:**
 
+.. Note:: The Form supports :ref:`Product Custom Field`
+
 1. Go to **Asset** (A Navigation Tab) >> **Product Catalog**.
 
 .. _amf-63:
@@ -250,6 +252,8 @@ maintain a list of Vendors in Flotomate that you can associate with each
 Asset and Product.
 
 **To add a Vendor:**
+
+.. Note:: The Form supports :ref:`Vendor Custom Field`
 
 1. Go to **Asset** (A Navigation Tab) >> **Vendors Catalog**.
 

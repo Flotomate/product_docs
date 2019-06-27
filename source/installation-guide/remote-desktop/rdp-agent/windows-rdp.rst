@@ -26,9 +26,9 @@ You can download the RDP Agent (Windows) from the below link:
 
 .. note:: RDP now supports for Windows server 2008 both for 32 bit and 64 bit. Install from CMD for 32 bit installation.
 
-**Windows 64-bit**: `Download Link <https://s3.ap-south-1.amazonaws.com/flotomate-customer-releases/latest/rdp+server/windows/x64/rdp_agent.exe>`_
+**Windows 64-bit**: `Download Link <https://flotomate-customer-releases.s3.ap-south-1.amazonaws.com/latest/rdp+server/windows/x64/rdp_agent.msi>`_
 
-**Windows 32-bit**: `Download Link <https://s3.ap-south-1.amazonaws.com/flotomate-customer-releases/latest/rdp+server/windows/x64/rdp_agent.exe>`_
+**Windows 32-bit**: `Download Link <https://flotomate-customer-releases.s3.ap-south-1.amazonaws.com/latest/rdp+server/windows/x64/rdp_agent.msi>`_
 
 RDP Installation Setup:
 ==========================

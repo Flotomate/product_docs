@@ -1065,6 +1065,8 @@ Closing a Request
 Flotomate gives you multitude of ways to close a Request which are as
 follows:
 
+.. note::  Pending Approvals are ignored after closing a ticket.
+
 Closing from List View:
 -----------------------
 

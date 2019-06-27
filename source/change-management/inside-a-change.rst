@@ -444,6 +444,9 @@ Approval moves to next stage.
 Approval Process
 ----------------
 
+.. note:: Pending Approval are ignored after closing a ticket.
+
+
 -  Whether the technician creates the Approval manually or ask for the Approval, once
    created it follows the same Approval process.
 

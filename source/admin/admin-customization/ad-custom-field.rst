@@ -492,3 +492,23 @@ Custom fields appear under the **Custom Field** tab in the details view of a pro
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-103.8.png
      :align: center
      :alt: figure 103.8
+
+Vendor Custom Field
+-------------------
+
+Custom fields appear in the add vendor form.
+
+.. _adf-152:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-152.png
+     :align: center
+     :alt: figure 152
+
+Product Custom Field
+--------------------
+
+Custom field appear in the add product form. 
+
+.. _adf-153:
+.. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-153.png
+     :align: center
+     :alt: figure 153
