@@ -2,7 +2,7 @@
 Change Workflow
 ***************
 
-In Flotomate, a Change passes through a series of processes which we
+In Motadata, a Change passes through a series of processes which we
 call the Change Workflow. The processes have been grouped into five
 stages, and each stage has its own conditions.
 

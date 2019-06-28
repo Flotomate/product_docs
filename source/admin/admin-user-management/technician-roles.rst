@@ -39,7 +39,7 @@ across the following modules:
 Default Roles
 =============
 
-Flotomate offers eight default roles with predefined permissions
+Motadata offers eight default roles with predefined permissions
 covering major ITSM processes.
 
 +-------------------------------+-------------------------------+------------------------------+

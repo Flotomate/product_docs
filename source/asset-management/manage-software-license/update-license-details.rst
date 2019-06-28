@@ -3,7 +3,7 @@ Update License Details
 **********************
 
 A Software License holds vital information that forms the basis for compliance management. 
-Flotomate ITSM tool allows users to manage such information from the Details View of a License.
+Motadata ITSM tool allows users to manage such information from the Details View of a License.
 
 Every License in our tool has a Details View that houses licence related information. 
 You are taken to the Details View after adding a License in the system, but that does not mean you cannot access

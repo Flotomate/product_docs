@@ -2,7 +2,7 @@
 How to Update Product License
 *****************************
 
-Describes Steps to Update Flotomate License
+Describes Steps to Update Motadata License
 
 Prerequisite:
 =============

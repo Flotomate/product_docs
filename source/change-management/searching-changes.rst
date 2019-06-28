@@ -11,7 +11,7 @@ There are two broad ways to search a Change in the :doc:`List View <change-workf
 Using Search Bar
 ================
 
-Flotomate has a search bar for searching all available Changes in the
+Motadata has a search bar for searching all available Changes in the
 system. It supports the Advanced Search feature which allows a technician to use
 a combination of pre-defined search options and keywords. If the technician want to
 see the list of available options, then he has to click on the search bar. Technician can
@@ -23,7 +23,7 @@ select an option or multiple options from the drop-down list.
     :alt: figure 10
 
 A technician can search Changes with keywords from the search field. When the technician
-provide a keyword, Flotomate searches all the Changes with the keyword
+provide a keyword, Motadata searches all the Changes with the keyword
 in Subject, Description, Tags, Symptom, Root Cause, Requester Email and
 ID fields. The tool shows all matched Changes in the list area. In
 case of multiple keywords, all keywords need to be matched.

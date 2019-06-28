@@ -19,7 +19,7 @@ full view. You can search and open any Article/FAQ from the
 Comment
 =======
 
-Flotomate allows you to add comments in an Article/FAQ. Commenting lets,
+Motadata allows you to add comments in an Article/FAQ. Commenting lets,
 you communicate with an audience. By commenting, you can highlight
 issues or ask questions. You can comment on both drafted and published
 Articles/FAQs.
@@ -216,7 +216,7 @@ Related Topics:
 Linked Events
 =============
 
-Flotomate helps Technicians to build contextual information by creating
+Motadata helps Technicians to build contextual information by creating
 relationships between various events in the system. The product allows
 you to view all linked events of a published Article/FAQ. You can view
 relationships with the following types of event:

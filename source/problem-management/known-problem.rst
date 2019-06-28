@@ -1,7 +1,7 @@
 Known Problem
 *************
 
-Flotomate allows you to classify a Problem as known. A known Problem is
+Motadata allows you to classify a Problem as known. A known Problem is
 a Problem that have occurred before in the past, and the system might
 have Knowledge on it. It could also be an anticipated Problem.
 

@@ -1,12 +1,12 @@
 *************************
-Flotomate Discovery Agent 
+Motadata Discovery Agent 
 *************************
 
 Not all workstations in an organization are part of a network, but
-still, they need discovery. By using our Agent Application, Flotomate
+still, they need discovery. By using our Agent Application, Motadata
 can fetch data from such workstations remotely.
 
-Flotomate’s Agent Application is a lightweight application that runs in
+Motadata’s Agent Application is a lightweight application that runs in
 the background of a workstation, acquires data, and pushes it directly
 to the main server.
 

@@ -2,7 +2,7 @@
 ITSM Plugin - Ticket SMS Integration
 ************************************
 
-This is a standard plugin offered by Flotomate to all our users.
+This is a standard plugin offered by Motadata to all our users.
 
 **Purpose**: The plugin can forward a ticket to a third party server.
 

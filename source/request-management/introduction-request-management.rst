@@ -29,7 +29,7 @@ Service Requests:
 What is Request Management?
 ===========================
 
-Flotomate Request Management helps organizations to streamline their IT
+Motadata Request Management helps organizations to streamline their IT
 service delivery by standardizing Request (aka tickets) handling processes,
 eliminating duplication of efforts, ensuring availability of accurate
 information, and reducing IT operational cost through automation and
@@ -60,6 +60,6 @@ follows:
 -  It increases end-users’ satisfaction by keeping them informed with
    updates and notifications about their Requests.
 
-In Flotomate, Request Management for Technicians is a comprehensive
+In Motadata, Request Management for Technicians is a comprehensive
 process and is different from what Requesters have regarding scope and
 scale.

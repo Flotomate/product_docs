@@ -2,7 +2,7 @@
 Windows Agent Monitor Installation Guide
 ****************************************
 
-Describes Installation Steps for Flotomate Windows Agent Monitor.
+Describes Installation Steps for Motadata Windows Agent Monitor.
 
 System Requirement :
 ====================
@@ -17,7 +17,7 @@ System Requirement :
 
 **Perquisites**:
 
-- Flotomate Windows Agent (:ref:`Learn More <Windows Agent Installation Guide>`) have to be installed before installing Agent Monitor.
+- Motadata Windows Agent (:ref:`Learn More <Windows Agent Installation Guide>`) have to be installed before installing Agent Monitor.
 
 **Installation Links**
 

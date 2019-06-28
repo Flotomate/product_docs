@@ -2,7 +2,7 @@
 ITSM Plugin - Text SMS Integration
 **********************************
 
-This is a standard plugin offered by Flotomate to all our users.
+This is a standard plugin offered by Motadata to all our users.
 
 **Purpose**: The plugin can send an SMS using a third party API with the required authentication. 
 

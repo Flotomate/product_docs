@@ -24,7 +24,7 @@ Asset in the CMDB.
     :align: center
     :alt: figure 134.3
 
-Flotomate allows you to add custom Asset Sub-Types in the Asset Type
+Motadata allows you to add custom Asset Sub-Types in the Asset Type
 Hierarchy. You can create sub-types up to two levels.
 
 To add an Asset Type:

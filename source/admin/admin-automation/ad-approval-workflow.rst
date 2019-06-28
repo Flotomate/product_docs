@@ -8,7 +8,7 @@ Approval Workflow
 =================
 
 Approval Workflow helps Administrators to automate the Approval process
-in Flotomate. Flotomate allows you to create an Approval Workflow
+in Motadata. Motadata allows you to create an Approval Workflow
 that, when initiated, creates an Approval and automatically adds approvers.
 
 You can create an Approval workflow for:
@@ -205,7 +205,7 @@ and then click **Delete**.
 Allow Manual Approval
 =====================
 
-A Flotomate admin can allow or disallow Technicians from creating manual approvals in the supported modules. The Approval Settings dialog box
+A Motadata admin can allow or disallow Technicians from creating manual approvals in the supported modules. The Approval Settings dialog box
 has the option.
 
 To Enable/Disable this option:

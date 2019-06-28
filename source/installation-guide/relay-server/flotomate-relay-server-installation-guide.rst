@@ -1,5 +1,5 @@
 *****************************************
-Flotomate Relay Server Installation Guide
+Motadata Relay Server Installation Guide
 *****************************************
 
 Describes Relay Server (2.7.0) Installation Steps via build.

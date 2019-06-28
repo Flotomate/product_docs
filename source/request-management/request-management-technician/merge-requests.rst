@@ -3,7 +3,7 @@ Merge Requests
 **************
 
 Sometimes two or more Requests are similar, or they are duplicates The
-Merge function in Flotomate helps in dealing with duplicates and similar
+Merge function in Motadata helps in dealing with duplicates and similar
 Requests.
 
 In the Merge process, one is the Primary Request, and all others are

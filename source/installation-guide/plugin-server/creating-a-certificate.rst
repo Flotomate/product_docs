@@ -2,7 +2,7 @@
 Setting SSL Connection to Active Directory
 ******************************************
 
-In order to create a user, with password, in the Active Directory from Flotomate using a plugin, an admin has to
+In order to create a user, with password, in the Active Directory from Motadata using a plugin, an admin has to
 configure SSL connection between the plugin server and AD. 
 
 An admin has to generate a SSL certificate from the AD and configure the same in the plugin server. You need the following 

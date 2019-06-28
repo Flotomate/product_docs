@@ -2,7 +2,7 @@
 Integration with Third Party Services
 *************************************
 
-Flotomate supports Jira integration out of the box and any other third
+Motadata supports Jira integration out of the box and any other third
 party client supporting rest API.
 
 .. note:: Integration requires Administrative rights
@@ -36,7 +36,7 @@ Rest API Client
 
 A REST API defines a set of functions which developers can perform
 requests and receive responses via HTTP protocol such as GET and POST.
-Flotomate allows third party clients to create Requests using REST API.
+Motadata allows third party clients to create Requests using REST API.
 
 Before using REST API, you have to create an API Client.
 

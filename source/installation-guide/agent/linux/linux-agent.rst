@@ -4,7 +4,7 @@
 Ubuntu Linux Agent Installation/Uninstallation Guide
 *********************************************
 
-Describes Installation Steps for Flotomate Ubuntu Linux Agent-3.0.0
+Describes Installation Steps for Motadata Ubuntu Linux Agent-3.0.0
 
 System Requirement :
 ====================
@@ -50,7 +50,7 @@ Installation in Ubuntu
 
 5. Enter your system password.
 
-6. Enter the URL of the product (Flotomate) server. You can get the activation code from Flotomate ITSM tool in **Admin** >> **Account** 
+6. Enter the URL of the product (Motadata) server. You can get the activation code from Motadata ITSM tool in **Admin** >> **Account** 
    (under Organization).
 
 .. _aig-8:

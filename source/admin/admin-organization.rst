@@ -2,7 +2,7 @@
 Organization
 ************
 
-Flotomate allows you to maintain company details in the product in the
+Motadata allows you to maintain company details in the product in the
 following forms:
 
 -  Account
@@ -20,7 +20,7 @@ following forms:
 Account 
 =======
 
-Flotomate has the account section where you can maintain the company’s
+Motadata has the account section where you can maintain the company’s
 profile.
 
 .. note:: Managing company details requires you to have Administrative
@@ -106,7 +106,7 @@ Here you can view the version details of the product. The details are automatica
 Departments
 ===========
 
-Flotomate allows you to add your organization’s department names and
+Motadata allows you to add your organization’s department names and
 sub-departments in the product. Each department can have sub-departments
 up to level three.
 
@@ -215,7 +215,7 @@ To add business hours:
 Location 
 ========
 
-You can add your business location/locations in Flotomate along with the
+You can add your business location/locations in Motadata along with the
 time zone/zones. :ref:`business hours <business hours>` are auto configured based on the time zone of
 each location.
 
@@ -272,7 +272,7 @@ Some benefits of having locations:
 Branding
 ========
 
-Flotomate allows you to upload brand assets like logo and Favicon; you
+Motadata allows you to upload brand assets like logo and Favicon; you
 can customize the looks of the product so that people using the product
 can identify the service as part of their organization.
 
@@ -290,7 +290,7 @@ can identify the service as part of their organization.
 
 -  Add the Brand Text, Brand Logo, and Brand Favicon. You can toggle
    between logo and text, whichever way you want to show your identity
-   on Flotomate (top left corner of the screen).
+   on Motadata (top left corner of the screen).
 
 -  Set the Primary, Secondary and Logo Background colors. You can choose
    the text color to be primary or secondary. Whichever you choose as

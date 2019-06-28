@@ -73,10 +73,10 @@ Creating an Announcement
 
 
    In section C, you can send the Announcement as an email to a group or
-   groups. Flotomate allows you to send to both Technician and Requestor
+   groups. Motadata allows you to send to both Technician and Requestor
    Groups or any one of them.
 
-   All Announcements in Flotomate are scheduled. They begin on a start
+   All Announcements in Motadata are scheduled. They begin on a start
    date at a specific time and end on an end date at a specific time. In
    section D, you can enter the Start Date-Time and the End Date-Time of
    the Announcement.

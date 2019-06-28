@@ -1,5 +1,5 @@
 ****************************************
-Flotomate High Availability Server Setup
+Motadata High Availability Server Setup
 ****************************************
 
 What is High Availability Setup?

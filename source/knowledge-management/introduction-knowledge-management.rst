@@ -9,7 +9,7 @@ Operations include activities like fulfilling Requests, resolving
 Incidents, Solving Problems, and implementing Changes.
 
 The primary outcome of Knowledge Management is the creation of a central
-repository, which we refer to as Knowledge in Flotomate. The purpose of
+repository, which we refer to as Knowledge in Motadata. The purpose of
 Knowledge is to capture and share information that would assist in
 performing IT Service Operations.
 

@@ -2,7 +2,7 @@
 Currency
 ********
 
-Flotomate ITSM allows a Technician to add a Currency with a monetary value. You can add a Currency in the following:
+Motadata ITSM allows a Technician to add a Currency with a monetary value. You can add a Currency in the following:
 
 - In a Contract
 

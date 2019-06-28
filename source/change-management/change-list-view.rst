@@ -2,7 +2,7 @@
 Change List View
 ****************
 
-Flotomate provides an intuitive interface to manage the processes
+Motadata provides an intuitive interface to manage the processes
 associated with Change Management. The entire interface is divided into
 Change List View and Change Details View.
 

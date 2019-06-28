@@ -1,5 +1,5 @@
 ===========================================
-Flotomate ITSM – Eagle 2.5.0 – Release Note
+Motadata ITSM – Eagle 2.5.0 – Release Note
 ===========================================
 
 .. _rei-2.5-1:
@@ -15,7 +15,7 @@ Flotomate ITSM – Eagle 2.5.0 – Release Note
    IT departments can design a pre-defined list of services items as a
    catalog which is available in requester portal as shopping service
    experience. Users can rely on the Service Catalog to avail services
-   from the IT department. Flotomate provides service catalog solution
+   from the IT department. Motadata provides service catalog solution
    that helps in streamlining service management to increase
    opportunities for self-service.
 
@@ -41,7 +41,7 @@ Flotomate ITSM – Eagle 2.5.0 – Release Note
    requisition, approval, purchase order, invoice, payment, receive,
    inventory and reconciliation of a variety of assets. Moreover,
    Product Catalogue, Vendor Catalogue along with pre-defined price and
-   tax template, Flotomate Purchase Management module makes Purchase
+   tax template, Motadata Purchase Management module makes Purchase
    Order creation process simple, easy and consistent.
 
    **Benefits :**
@@ -74,7 +74,7 @@ Flotomate ITSM – Eagle 2.5.0 – Release Note
 
 4. **Native Mobile App (Android & iOS)**
 
-   Flotomate native mobile app offers a variety of features which is
+   Motadata native mobile app offers a variety of features which is
    most useful for both technician and requester when they are working
    out of their desk. It especially helpful for the field technician.
 
@@ -98,7 +98,7 @@ Flotomate ITSM – Eagle 2.5.0 – Release Note
 5. **Dynamic Form Builder for Customization**
 
    Understanding every organization has variation in implementing IT
-   processes, Flotomate extensive built-in dynamic form builder allows
+   processes, Motadata extensive built-in dynamic form builder allows
    to support various type of custom field with drag’n drop experience.
    It supports Text, Multi-Line Text, Number, Date, Radio, Checkbox,
    Drop-Down field with its own special property like mandatory and
@@ -150,7 +150,7 @@ Flotomate ITSM – Eagle 2.5.0 – Release Note
    notification (i.e. License expiry, contract expiry, payment due alert
    etc.)
 
-7. **BIOS Component Discovery :** Flotomate discovery engine and an
+7. **BIOS Component Discovery :** Motadata discovery engine and an
    agent will discover BIOS component of a computer for both Windows and
    Ubuntu Linux Machines.
 
@@ -192,7 +192,7 @@ Flotomate ITSM – Eagle 2.5.0 – Release Note
 
 6. **Software Installation with default non-silent Installer :** Not all
    software are supported to be installed silently as it required
-   explicit inputs. Flotomate support feature to provide explicit inputs
+   explicit inputs. Motadata support feature to provide explicit inputs
    upfront and allow to install software silently.
 
 **Administration & Support – New Features**

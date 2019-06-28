@@ -1,4 +1,4 @@
-Flotomate Plugins
+Motadata Plugins
 =================
 
 .. toctree::

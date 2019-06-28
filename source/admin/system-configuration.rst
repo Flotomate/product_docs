@@ -13,7 +13,7 @@ capabilities or both.
 The Agent Self Upgrade feature allows for a smooth transition from one
 version of the Agent to another. Using this feature, an admin can
 centrally deploy an Agent.msi/exe from the main server, which is received
-by all the (active) computers having :ref:`Remote Monitoring <Flotomate Agent Monitor Installation Guide>`.
+by all the (active) computers having :ref:`Remote Monitoring <Motadata Agent Monitor Installation Guide>`.
 
 Some of the benefits of using the latest version of the Agent
 application:

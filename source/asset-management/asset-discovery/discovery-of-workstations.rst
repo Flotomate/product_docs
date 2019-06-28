@@ -2,7 +2,7 @@
 Discovery of Workstations and Other Network Devices
 ***************************************************
 
-Flotomate aims to give maximum flexibility in ways to Discovery Assets
+Motadata aims to give maximum flexibility in ways to Discovery Assets
 in a network. Our product can discover all pingable IT Assets in or
 outside a network. We support Assets Discovery in Windows Domain and IP
 Range Networks, and we also have an Agent Application for Assets that
@@ -32,7 +32,7 @@ are not part of any network/domain.
    that runs in the background of a workstation as a service, acquires
    the data and pushes directly to the main server.
 
-The first part of discovering Assets in Flotomate (without using an
+The first part of discovering Assets in Motadata (without using an
 Agent) is to set up the infrastructure and then to create a Discovery
 Probe. Once you create a Discovery Probe, you can Schedule Discoveries
 and even discover changes in existing recognized Assets.

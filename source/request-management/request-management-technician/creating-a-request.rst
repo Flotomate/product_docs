@@ -118,7 +118,7 @@ Only people with create Request rights can create Requests. Please refer
 Email to ticket
 ---------------
 
-Flotomate gives the option to set up an email as the Helpdesk email
+Motadata gives the option to set up an email as the Helpdesk email
 address. Technicians can send an email to create a Request.
 
 The question, who can create a Request, depends on the :ref:`**Preference (Users)** <helpdesk security>`

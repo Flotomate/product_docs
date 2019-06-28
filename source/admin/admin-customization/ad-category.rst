@@ -12,7 +12,7 @@ Request, Problem, Change, Service, Project, and Software.
 Predefined categories
 =====================
 
-Flotomate comes pre-loaded with the following Categories:
+Motadata comes pre-loaded with the following Categories:
 
 +-----------------------------------+-----------------------------------+
 | **Request**                       | -  Service Request                |

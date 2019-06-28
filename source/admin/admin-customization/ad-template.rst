@@ -4,7 +4,7 @@
 Templates
 *********
 
-Templates in Flotomate allows you to quickly fill the create form of
+Templates in Motadata allows you to quickly fill the create form of
 Request, Problem, and Change. You can create templates for each of the
 ticket types, and your users (only on Technician portal) can use them while creating a Request,
 Problem or Change.

@@ -100,7 +100,7 @@ Add/View Technicians
 Update a Technician’s Info
 ==========================
 
-Flotomate provides the **Edit Technician** dialog box for easy
+Motadata provides the **Edit Technician** dialog box for easy
 modification of a Technician’s info.
 
 :ref:`Learn who is Technician? <managing Technician>`

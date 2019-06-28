@@ -2,7 +2,7 @@
 Getting to Know About Reports
 *****************************
 
-Reports in Flotomate are multi-dimensional, which means data can be shown in different ways. In Flotomate, reports are of two types:
+Reports in Motadata are multi-dimensional, which means data can be shown in different ways. In Motadata, reports are of two types:
 
 - Pre-defined Reports
 - Custom Reports
@@ -149,7 +149,7 @@ following modules:
 -  **Remote Deployment**-**Patch**: Refers to the Patch Management
    module. When selecting this module you also have to select a platform. 
 
--  **Remoter Deployment**-**Agent**: Refers to the Flotomate Agent used
+-  **Remoter Deployment**-**Agent**: Refers to the Motadata Agent used
    for Asset discovery and remote deployment of patches and packages.
 
 -  **Software License**: This allows you to create exclusive reports on Software License usage.   
@@ -252,10 +252,10 @@ Filter Data with Time
 Section-B (:numref:`rf2.1`) allows you to filter data using time. When
 filtering tickets and CIs, one of the below mentioned type of time data is considered, depending on your selection.
 
--  **Created Time**: Whenever data is fetched, by Flotomate, from a
+-  **Created Time**: Whenever data is fetched, by Motadata, from a
    module, the Create Time is considered in checking conditions, if any.
    For example, in a Report that shows total Requests with the Urgency
-   set to High and group by Technicians for last 60 days, the Flotomate
+   set to High and group by Technicians for last 60 days, the Motadata
    checks the Create Time of all the Requests to see eligibility for the
    period.
 

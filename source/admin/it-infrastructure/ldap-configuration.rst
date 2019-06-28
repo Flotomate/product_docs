@@ -2,15 +2,15 @@
 LDAP Configuration
 ******************
 
-Flotomate allows batch upload of **Requestors** through an LDAP request.
+Motadata allows batch upload of **Requestors** through an LDAP request.
 LDAP is a protocol used by enterprises to access a distributed directory of
 their employees. It is mainly used by email clients and other contact
 search programs.
 
-Flotomate establishes a connection with a distributed directory
+Motadata establishes a connection with a distributed directory
 information system using the provided information, and it makes
 queries using the LDAP protocol. It fetches the employee details from
-the server into Flotomate ITSM.
+the server into Motadata ITSM.
 
 Configure LDAP
 ==============
@@ -280,7 +280,7 @@ server. This feature helps you to keep the Requestor list up to date.
 
 1. Open **LDAP Configurations** page and select the server that you want
    to schedule an import. Under **Import Schedule**, set a schedule
-   cycle for importing the Requestors. Flotomate offers three options:
+   cycle for importing the Requestors. Motadata offers three options:
    Daily, Weekly, and Monthly.
 
    a. Importing daily requires a start date and time; after that, the

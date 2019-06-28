@@ -13,7 +13,7 @@ In order to accommodate such situations, we have the following Remote Automation
 
 - A user can add a Remote Office in a scope (Endpoint Scope) instead of individual computers for Patch/Package/Registry Management.
 
-- Users can point a Remote Office to a :ref:`Relay Server <Flotomate Relay Server Installation Guide>`. This is useful when there are multiple offices, and the admin doesn't want them
+- Users can point a Remote Office to a :ref:`Relay Server <Motadata Relay Server Installation Guide>`. This is useful when there are multiple offices, and the admin doesn't want them
   to hog the central :ref:`File Server <File Server Installation Guide>` for Patch/Package download. This is why we have the feature that allows a Remote Office to download Patches/Packages from a 
   Relay Server rather than the central File Server.  
 

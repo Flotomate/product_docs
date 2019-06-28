@@ -2,7 +2,7 @@
 ITSM Plugin - Active Directory Integration
 ******************************************
 
-This is a standard plugin offered by Flotomate to all our users.
+This is a standard plugin offered by Motadata to all our users.
 
 **Purpose**: The plugin provides integration with an Active Directory. When the plugin is executed it can 
 create new users, update existing user, reset user password and delete a user using the LDAP protocol.

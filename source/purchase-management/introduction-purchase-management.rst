@@ -23,7 +23,7 @@ Purchase Management tries to streamline the purchase function of an Organization
 - Managing the departmental expenses of an Organization.
 
 
-**Some of the Key Features of Flotomate Purchase Management Module:**
+**Some of the Key Features of Motadata Purchase Management Module:**
 
 - You can use the CMDB as an inventory for purchased Asset for future reconciliation.
 

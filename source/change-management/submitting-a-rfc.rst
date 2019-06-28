@@ -8,7 +8,7 @@ proactive for seeking efficiency and effectiveness or to enable or
 reflect business advantages, or for initiating programs, projects or
 service improvements.
 
-A Change in Flotomate is a multi-stage process where multiple
+A Change in Motadata is a multi-stage process where multiple
 stakeholders are involved. The first step is to Request for a Change
 (RFC). An Change is submitted using the **Create Change** form.
 
@@ -39,7 +39,7 @@ To create a Change, a technician will:
    to 2 levels, and he can select a sub-category as well. The selected
    category is highlighted in section-B.
 
-   A Category is a way to categorize a Change. Flotomate offers six
+   A Category is a way to categorize a Change. Motadata offers six
    predefined Categories out of the box. An admin can
    :ref:`modify the Category list <ad-category>` shown in section-A.
 
@@ -97,7 +97,7 @@ To create a Change, a technician will:
    b. **Location**: If the Change is taking place at a particular
       Location then the technician can explicitly mention the Location. Before
       adding it to the Change, an admin has to add the locations in
-      Flotomate. Learn how to add a :ref:`Location <ad-location>`.
+      Motadata. Learn how to add a :ref:`Location <ad-location>`.
 
    c. **Department**: If the Change is specific to a Department then the technician
       can explicitly mention the same.

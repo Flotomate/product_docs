@@ -10,7 +10,7 @@ against their IPs from the DNS when the network protocol is DHCP.
 
 In the DHCP protocol, the IPs of Assets keep on changing, so the
 hostname of a machine is taken as the unique identifier. The DNS maps
-all the hostnames of the Assets with their IP addresses. Flotomate
+all the hostnames of the Assets with their IP addresses. Motadata
 connects with the DNS using the information provided by the
 administrator in the DNS Configuration page (Primary DNS and Secondary
 DNS) during polling (scanning of existing Assets).
@@ -35,7 +35,7 @@ Configuring DNS
 -  Enter your primary DNS address in the primary field and your backup
    DNS address in the secondary field.
 
--  The Base URL field is the domain name of Flotomate hosted on your
+-  The Base URL field is the domain name of Motadata hosted on your
    servers. Enter the name and hit **Update** to save your changes.
 
 You can later edit your DNS configuration in the DNS Configuration page.

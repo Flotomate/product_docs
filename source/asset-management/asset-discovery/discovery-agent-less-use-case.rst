@@ -7,7 +7,7 @@ three types of agent-less Discovery. We create two Probes in the process; one us
 an IP Range Network and other, Domain Network. The Probe using the IP
 Range Network can discover all types of Assets, but the other Probe can
 discover only Windows machines. The use case gives you an overview of
-the entire process involved in setting up Discovery in Flotomate.
+the entire process involved in setting up Discovery in Motadata.
 
 We have the following Assets in the network that we want to discover:
 

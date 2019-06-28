@@ -37,7 +37,7 @@ An example of same filter type conditions is Status equals Hold vs. Status equal
     :align: center
     :alt: figure 6
 
-A technician can search projects with keywords. When the technician provides a keyword, Flotomate checks all projects with the keyword. 
+A technician can search projects with keywords. When the technician provides a keyword, Motadata checks all projects with the keyword. 
 Projects with the keyword are displayed in the list area. In case of multiple keywords, all keywords need to be matched. 
 Between keywords and conditions AND logic is followed.
 

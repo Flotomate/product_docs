@@ -47,7 +47,7 @@ On the Patch List View (:numref:`pf-16`), you get the following options:
 -  Section-E is the list area where you can view all the Patches in the
    system. You can see the following information about a Patch here:
 
-   a. **Patch ID**: This is a system generated ID by Flotomate.
+   a. **Patch ID**: This is a system generated ID by Motadata.
 
    b. **Name**: The name of the Patch.
 
@@ -144,7 +144,7 @@ multiple options from the drop-down list.
    :alt: figure 20
 
 You can also search Patches with keywords in the search field. When you
-provide a keyword, Flotomate explores all the Patches with the keyword
+provide a keyword, Motadata explores all the Patches with the keyword
 in their Name, Description, Bulletin ID and KB ID. A Patch has to have
 at least one field matched (partial or full) with the keyword; in case
 there are multiple keywords, the Patch has to have at least one field
@@ -205,7 +205,7 @@ module.
 Filters
 -------
 
-You can search for a Patch in the :ref:`List View <patch-list-view>` using Quick Filters. Flotomate
+You can search for a Patch in the :ref:`List View <patch-list-view>` using Quick Filters. Motadata
 gives you two types of Quick Filters:
 
 - Filter based on OS platform.

@@ -19,7 +19,7 @@ following types of information:
 
 Learn :ref:`to create a Deployment Request <manually-create-request>` 
 
-All Computers ping the Flotomate server every hour to check for
+All Computers ping the Motadata server every hour to check for
 available Deployment Requests. On finding a Deployment Request,
 Computer/Computers can acquire the Patches from the File Server, and
 install them following a :doc:`Deployment Policy <deployment-policy>`. 
@@ -174,7 +174,7 @@ Other Ways to Add a Manual Request
 Deployment Request from the Patch List View:
 --------------------------------------------
 
-Flotomate allows you to select the Patches from the List View directly
+Motadata allows you to select the Patches from the List View directly
 and deploy them.
 
 -  Go to the :ref:`Patch List View <patch-list-view>`.

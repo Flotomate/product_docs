@@ -1,7 +1,7 @@
 Introduction to Reports
 =======================
 
-The Flotomate generates a lot of data which you can convert into
+The Motadata generates a lot of data which you can convert into
 meaningful information using Reports. The reporting feature allows you
 to generate an organized representation of system data. The result is
 printable reports that you can share with others.

@@ -5,7 +5,7 @@ Asset Manufacturer
 ******************
 
 Before adding a Manufacturer’s name to a Product, you have to add it in
-Flotomate. In Flotomate you can maintain a list of manufacturers’ names
+Motadata. In Motadata you can maintain a list of manufacturers’ names
 that you can associate with various Products in the system.
 
 To Add a Manufacturer:

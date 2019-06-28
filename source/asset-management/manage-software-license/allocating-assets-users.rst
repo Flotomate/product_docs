@@ -5,7 +5,7 @@ Allocating Machines/Node/Users in a Software License
 .. note:: Here a machine is referred either to a Workstation, Laptop or Server Asset. A Node is referred to a Hardware Asset.
 
 Allocation gives a machine/node/user, in the CMDB, the right to
-install a Licensed Software. It lets Flotomate keep a count of all valid
+install a Licensed Software. It lets Motadata keep a count of all valid
 installations of a Licensed Software. The count is vital for activating
 compliance specific notifications relating to over and under usage of a
 Licensed Software.
@@ -59,7 +59,7 @@ Unlimited Users, you have to add users instead of Hardware Assets.
         :alt: figure 134
 
    You can search Hardware Assets with keywords. When you provide a
-   keyword, Flotomate searches all the Hardware Assets with the keyword in
+   keyword, Motadata searches all the Hardware Assets with the keyword in
    Name, Description, and Tags.
 
    You can make a filter using a chain of predefined search options and

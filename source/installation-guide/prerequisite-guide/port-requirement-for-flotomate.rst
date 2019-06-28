@@ -1,9 +1,9 @@
 ******************************
-Port Requirement for Flotomate
+Port Requirement for Motadata
 ******************************
 
 Port serves as an interface between one computer and other computers. When setting up our product, opening the right ports is
-vital for the proper functioning of our ITSM solution. Following are ports for all the services in Flotomate ITSM.
+vital for the proper functioning of our ITSM solution. Following are ports for all the services in Motadata ITSM.
 
 - Main Server
     1. Http/Https     80/443

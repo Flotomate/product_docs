@@ -83,7 +83,7 @@ You can Schedule both Discovery and Polling.
 
 .. note:: You need to first create a Probe before you can use scheduling.
 
-1. Log into the Flotomate Dashboard.
+1. Log into the Motadata Dashboard.
 
 2. Go to **Asset** (A Navigation Tab) >> **Discovery Probe**.
 

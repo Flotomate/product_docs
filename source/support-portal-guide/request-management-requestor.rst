@@ -48,7 +48,7 @@ In order to create a new request ticket, a requester will go through the followi
 Creating a Request with an Email 
 --------------------------------
 
-Flotomate gives the option to set up an email as the Helpdesk email
+Motadata gives the option to set up an email as the Helpdesk email
 address. Requestors can send an email to create a request ticket.
 
 The question, who can create a Request, depends on the :ref:`Preference <helpdesk security>`
@@ -141,7 +141,7 @@ In the details view of a request, the requester will have the following sections
 Classify Requests
 =================
 
-Flotomate allows requesters to classify Requests, from the :ref:`details view <request-details-view-1>`, based on the following:
+Motadata allows requesters to classify Requests, from the :ref:`details view <request-details-view-1>`, based on the following:
 
 -  **Urgency**: Setting this label shows the Technicians which Requests
    to give priority. These are predefined labels that are immutable, and

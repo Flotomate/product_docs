@@ -101,13 +101,13 @@ You can install and setup the RDP agent from the following guides:
 - :ref:`Ubuntu RDP Agent Installation Guide`
 
 Once the agents are setup, you have to configure the main server. For this, you have to install
-the RDP middleware in the main server. :ref:`Learn more <Flotomate RDP Middleware Installation Guide>`. 
+the RDP middleware in the main server. :ref:`Learn more <Motadata RDP Middleware Installation Guide>`. 
 
-Running Plugins in Flotomate (Guide 9)
+Running Plugins in Motadata (Guide 9)
 ======================================
 
 You can add more features into the tool using plugins. Plugins are small piece of code that interact with the main server.
-In order to run plugins in Flotomate, you have to setup a plugin server and connect that with the main server. 
+In order to run plugins in Motadata, you have to setup a plugin server and connect that with the main server. 
 
 Learn how to setup a plugin server from:
 

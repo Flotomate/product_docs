@@ -5,10 +5,10 @@ Introduction to Deployment
 What is Deployment?
 ===================
 
-Deployment (in Flotomate) refers to the capability of installing, uninstalling and
+Deployment (in Motadata) refers to the capability of installing, uninstalling and
 upgrading computer programs, and configuring Windows Registry in a
 large set of computers remotely. It is vital for managing the life-cycle
-of a Computer on a large scale, and Flotomate provides a comprehensive
+of a Computer on a large scale, and Motadata provides a comprehensive
 tool that handles all aspects of Package/Registry Deployment intuitively
 and efficiently.
 

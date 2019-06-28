@@ -30,7 +30,7 @@ Once you select a search option, you are required to input a value. The input ar
     :alt: figure 14
     
 You can search POs with keywords. When you provide a keyword,
-Flotomate examines all the POs with the keyword in Name,
+Motadata examines all the POs with the keyword in Name,
 Description, Remark, Terms, Place, Signing Authority and PO ID fields. All matched
 POs get displayed in the list area. In case of multiple keywords,
 all keywords need to be matched.

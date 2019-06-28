@@ -1,4 +1,4 @@
-Flotomate RDP Agent Installation Guide
+Motadata RDP Agent Installation Guide
 ======================================
 
 .. toctree::

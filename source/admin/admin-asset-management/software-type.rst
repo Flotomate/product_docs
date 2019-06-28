@@ -3,7 +3,7 @@ Software Type
 *************
 
 A Software Type tries to define the nature of existence of a Software
-Asset. By default, Flotomate provides six Software Types out of the box.
+Asset. By default, Motadata provides six Software Types out of the box.
 They are as follows:
 
 -  **Excluded**: These are all Software that does not need any managing.

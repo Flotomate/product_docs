@@ -1,4 +1,4 @@
-Flotomate Build Archive
+Motadata Build Archive
 =======================
 
 .. toctree::

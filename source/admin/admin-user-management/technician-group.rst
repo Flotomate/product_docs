@@ -49,7 +49,7 @@ Create a New Technical Group
 Modify Technician Group
 =======================
 
-Flotomate provides an easy way to modify existing **Technician Groups**.
+Motadata provides an easy way to modify existing **Technician Groups**.
 
 To modify an existing group:
 

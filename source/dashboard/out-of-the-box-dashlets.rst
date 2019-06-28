@@ -2,7 +2,7 @@
 Predefined Dashlets
 *******************
 
-Currently, Flotomate gives 23 Predefined Dashlets out of the box. Each of them have different parameters set. 
+Currently, Motadata gives 23 Predefined Dashlets out of the box. Each of them have different parameters set. 
 These Dashlets support the following operations:
 
 - Predefined Dashlets are shared with all users having the :ref:`Dashboard rights`. They can be added to all kinds of Dashboards by

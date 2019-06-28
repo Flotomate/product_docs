@@ -1,8 +1,8 @@
 *******************************************
-Flotomate RDP Middleware Installation Guide
+Motadata RDP Middleware Installation Guide
 *******************************************
 
-Describes Installation Steps for Flotomate RDP Middleware – 2.5.0
+Describes Installation Steps for Motadata RDP Middleware – 2.5.0
 
 System Requirement:
 ===================

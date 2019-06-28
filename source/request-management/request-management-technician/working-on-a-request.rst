@@ -143,7 +143,7 @@ a Request.
 Classify Requests
 =================
 
-Flotomate provides many avenues to classify a Request. Go to the :ref:`Details View <Request Details View>` of a Request, 
+Motadata provides many avenues to classify a Request. Go to the :ref:`Details View <Request Details View>` of a Request, 
 and there you get the following ways:
 
 .. _rmf-19:
@@ -301,7 +301,7 @@ tab.
 Communication, Collaboration, and Resolution
 ============================================
 
-Flotomate has functions that allow Technicians to gather information
+Motadata has functions that allow Technicians to gather information
 through collaboration and communication and use it to resolve a Request.
 The **Work** tab in the :ref:`Details View <request-details-view>` of a
 Request has those functions.
@@ -441,7 +441,7 @@ for Requests.
 Add Relations
 =============
 
-Flotomate helps Technicians to build contextual information by building
+Motadata helps Technicians to build contextual information by building
 relationships between various items in the system. The **Relations** tab
 in the ref`Details View <request-details-view>` of a Request serves this
 purpose.
@@ -932,7 +932,7 @@ Click on a Notification to get more details.
 System Defined Request Notifications
 ------------------------------------
 
-Flotomate has 13 Notifications that are predefined and generated
+Motadata has 13 Notifications that are predefined and generated
 automatically. They can be turned on by an Admin. The Notifications are
 as follows:
 
@@ -1031,7 +1031,7 @@ A Technician can be a Watcher too with a single click.
 Jira Integration
 ================
 
-If you have Jira integrated with Flotomate, then you can directly add a
+If you have Jira integrated with Motadata, then you can directly add a
 Request to Jira from the product.
 
 To add a Request:
@@ -1062,7 +1062,7 @@ To add a Request:
 Closing a Request
 =================
 
-Flotomate gives you multitude of ways to close a Request which are as
+Motadata gives you multitude of ways to close a Request which are as
 follows:
 
 .. note::  Pending Approvals are ignored after closing a ticket.

@@ -6,7 +6,7 @@ Our current architecture only allows for a file server to act as a central stora
 
 - Deployment of Patches.
 - Deployment of Packages.
-- Self-upgrade of Flotomate Agent application.
+- Self-upgrade of Motadata Agent application.
 
 .. note:: Learn about :ref:`File Server <File Server Installation Guide>`.
 

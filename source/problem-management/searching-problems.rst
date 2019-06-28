@@ -2,7 +2,7 @@
 Searching Problems
 ******************
 
-Flotomate gives you two broad ways to search Problems in the :ref:`Problem List
+Motadata gives you two broad ways to search Problems in the :ref:`Problem List
 View <problem-list-view>`.
 
 -  Using custom and predefined filters.
@@ -12,7 +12,7 @@ View <problem-list-view>`.
 Using a Search Bar
 ==================
 
-Flotomate allows you to perform an Advanced Search using various
+Motadata allows you to perform an Advanced Search using various
 combinations of predefined search options and keywords. If you want to
 see the list of available options, then click on the search box. You can
 select an option or multiple options from the drop-down list.

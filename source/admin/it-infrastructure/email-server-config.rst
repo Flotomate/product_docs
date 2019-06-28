@@ -16,7 +16,7 @@ Some of the capabilities that the product get after email setup are:
 -  Technicians can change Request details using :ref:`Email Commands <email command settings>`.
 
 Whether self-hosted or cloud-hosted, you can add any vanity email
-address to Flotomate using any one of the two email protocols: POP3 and
+address to Motadata using any one of the two email protocols: POP3 and
 IMAP.
 
 .. note:: Before configuring email, you have to create an email with your
@@ -98,14 +98,14 @@ Email Server Configuration
     +-----------------------------------+-----------------------------------+
 
 -  After filling the fields, you can test the connection between the
-   server and Flotomate using **Test Connection**. Flotomate warns you
+   server and Motadata using **Test Connection**. Motadata warns you
    in case of a connection error.
 
 -  Add any email addresses that you want to ignore (don’t want to
    receive emails from) in the **Ignore Email Addresses** field. Use
    **Update** to save your changes.
 
-Flotomate gives you two email fields one for outgoing and the other for
+Motadata gives you two email fields one for outgoing and the other for
 incoming. If you want, you can use two different addresses for outgoing
 and incoming. You can use the **Email Server Configuration** page to
 edit your settings later.

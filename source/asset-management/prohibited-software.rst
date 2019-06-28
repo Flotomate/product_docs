@@ -6,7 +6,7 @@ In an organization, there could be restrictions on the kind of Software
 that can be used. For example, torrent clients are prohibited at most
 workplaces.
 
-Flotomate has a default Software Type called Prohibited, which can be
+Motadata has a default Software Type called Prohibited, which can be
 used to flag certain Software Assets in the CMDB. The process of
 flagging can be done both manually and through automation.
 
@@ -100,7 +100,7 @@ A user can also prohibit Software using :ref:`Software Installation Control Sett
 Managing Prohibited Software Expressions
 ========================================
 
-In Flotomate, you can automate the process of flagging (Prohibit) Software Assets.
+In Motadata, you can automate the process of flagging (Prohibit) Software Assets.
 The feature works during discovery and for Software already
 included in the CMDB.
 

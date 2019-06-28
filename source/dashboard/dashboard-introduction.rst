@@ -1,13 +1,13 @@
 ********************************
-Flotomate Dashboard Introduction
+Motadata Dashboard Introduction
 ********************************
 
 Modern businesses are driven by data. Proper data plays the foundation for effective monitoring and improvement of service delivery. 
 A Dashboard provides a glance-view of key KPIs and relevant data. Data shown on a Dashboard can be filtered to reflect a particular business
 process. A Dashboard can also contain important links (as shortcuts). 
 
-Flotomate gives a robust Dashboard that is customizable and can show data in n number of ways. Some of the advantages of using the
-Flotomate Dashboard are as follows:
+Motadata gives a robust Dashboard that is customizable and can show data in n number of ways. Some of the advantages of using the
+Motadata Dashboard are as follows:
 
 - A Dashboard is an empty canvas where a user can add custom data blocks (Dashlets) to present the most valuable and useful set of information.
 
@@ -17,7 +17,7 @@ Flotomate Dashboard are as follows:
 
 - An easy graphical interface allows a user to play with data and do easy cross-sectional analysis.
 
-- A Dashboard can be a one page snapshot of key matrices of a business. A user of the Flotomate Dashboard can quickly judge how
+- A Dashboard can be a one page snapshot of key matrices of a business. A user of the Motadata Dashboard can quickly judge how
   well the Helpdesk is functioning.
 
 Components of a Dashboard
@@ -64,7 +64,7 @@ Currently, Dashboards can be created relating to the following modules:
 Who Can Work with Dashboards?
 =============================
 
-A Technician with the following :ref:`roles <Technician Roles>` (Admin >> Technician Roles) can work with the Flotomate Dashboard:
+A Technician with the following :ref:`roles <Technician Roles>` (Admin >> Technician Roles) can work with the Motadata Dashboard:
 
 - **Manage Dashboard**: User can only create Dashboards and add Predefined Dashlets, but he/she can't create new Dashlets.
 

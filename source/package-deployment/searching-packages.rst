@@ -30,7 +30,7 @@ option or multiple options from the drop-down list.
     :alt: figure 19
 
 You can also search with keywords in the search field. When you provide
-a keyword, Flotomate explores all the packages with the keyword in their
+a keyword, Motadata explores all the packages with the keyword in their
 ID, Name, Description, Display Name, and Version; and for registry
 templates, ID, Sub-key, Value Name, Name, and Description. A
 package/template has to have at least one field matched (partial or

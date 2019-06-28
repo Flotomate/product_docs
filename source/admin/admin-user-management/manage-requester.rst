@@ -8,7 +8,7 @@ product, and almost all of the product features are geared towards
 delivering IT services to Requestors. So it is important to manage their
 information in the product.
 
-Flotomate allows you to add Requestors individually and bulk upload
+Motadata allows you to add Requestors individually and bulk upload
 through LDAP server synchronization. Once uploaded, you can manage them
 from the Admin section.
 
@@ -24,7 +24,7 @@ Requestors in the product.
 
 .. note:: You need to have admin rights or be a Super User to add and modify Requestors.
 
-1. Log in to Flotomate, and go to **Admin** from the Navigation Tabs
+1. Log in to Motadata, and go to **Admin** from the Navigation Tabs
 
 .. _adf-3:
 .. figure:: https://s3-ap-southeast-1.amazonaws.com/flotomate-resources/admin/AD-3.png

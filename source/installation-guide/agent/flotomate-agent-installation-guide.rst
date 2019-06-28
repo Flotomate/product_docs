@@ -1,8 +1,8 @@
 **********************************
-Flotomate Agent Installation Guide
+Motadata Agent Installation Guide
 **********************************
 
-Describes Installation Steps for Flotomate Windows & Ubuntu Linux Agent.
+Describes Installation Steps for Motadata Windows & Ubuntu Linux Agent.
 
 System Requirement :
 ====================

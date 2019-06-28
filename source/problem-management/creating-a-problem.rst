@@ -39,7 +39,7 @@ To create a Problem:
 .. note:: Please refer :numref:`pmf-2` & :numref:`pmf-3` for below description.
 
 -  Section-A is where you search and add a category for the Problem. It
-   is a way to categorize a Problem. Flotomate provides five predefined
+   is a way to categorize a Problem. Motadata provides five predefined
    categories out of the box. Only a user with Admin rights can add more
    categories to the list.
 

@@ -2,9 +2,9 @@
 User Story
 **********    
 
-Ravi is the IT manager at Acme Inc. He is implementing Flotomate
+Ravi is the IT manager at Acme Inc. He is implementing Motadata
 Helpdesk in his company. Ravi has logged into the Dashboard as a
-superuser. For now, he wants to add 10 technicians to Flotomate.
+superuser. For now, he wants to add 10 technicians to Motadata.
 
 -  He goes to the admin section by clicking **Admin** from the
    Navigation tabs.
@@ -36,7 +36,7 @@ updates his role.
     :alt: figure 34
 
 Ravi knows that all his technicians are not the same. He wants to group
-them into different groups. Ravi remembers that Flotomate offers
+them into different groups. Ravi remembers that Motadata offers
 **Technician Groups**; he goes to **Technicians Groups** (Users) from
 **Admin**. He quickly adds a database group name Database and adds Naren
 and Amartya.

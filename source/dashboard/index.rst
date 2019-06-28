@@ -1,4 +1,4 @@
-Flotomate Dashboard
+Motadata Dashboard
 ===================
 
 .. toctree::

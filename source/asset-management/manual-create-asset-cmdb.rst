@@ -2,7 +2,7 @@
 Manually Creating an Asset in the CMDB
 **************************************
 
-Flotomate allows you to add Assets in the CMDB manually. The process
+Motadata allows you to add Assets in the CMDB manually. The process
 involves filling the **Add an Asset** dialog box. You can add both IT
 and Non-IT Assets using the **Add an Asset** dialog box. To add an Asset:
 

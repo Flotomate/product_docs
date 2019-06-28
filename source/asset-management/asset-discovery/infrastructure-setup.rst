@@ -25,7 +25,7 @@ network protocol is DHCP.
 
 In DHCP protocol, the IPs of Assets keep on changing, so the hostname of
 a machine is taken as the unique identifier. The DNS maps all the
-hostnames of the Assets with their IP addresses. Flotomate connects with
+hostnames of the Assets with their IP addresses. Motadata connects with
 the DNS using the information provided by an administrator in the DNS
 Configuration page.
 
@@ -48,7 +48,7 @@ Configuration page.
 3. Enter your primary DNS address in the primary field and your backup
    DNS address in the secondary field.
 
-4. The Base URL field is the domain name of Flotomate hosted on your
+4. The Base URL field is the domain name of Motadata hosted on your
    server. Enter the name and hit Update to save your changes.
 
 You can later edit your DNS configuration in the DNS Configuration page.
@@ -56,7 +56,7 @@ You can later edit your DNS configuration in the DNS Configuration page.
 Credential Library
 ==================
 
-Flotomate provides an interface to upload all your credentials, so our
+Motadata provides an interface to upload all your credentials, so our
 product can authenticate for an authorized access to a network.
 
 A repository stores all Credentials, which we call a library where you
@@ -126,7 +126,7 @@ We provide four easy Discovery Types to choose from:
 
     **SNMP (Simple Network Management Protocol)**
 
-    Flotomate uses this application-layer protocol to scan devices with
+    Motadata uses this application-layer protocol to scan devices with
     the SNMP agent in a managed network.
 
         .. _amf-159:
@@ -206,7 +206,7 @@ a successful connection was established or not.
 Network
 =======
 
-Adding a network to Flotomate is an essential task for you to perform
+Adding a network to Motadata is an essential task for you to perform
 asset Discovery and monitoring. We support Domain networks and IP Range
 Networks.
 

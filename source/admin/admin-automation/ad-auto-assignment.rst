@@ -135,7 +135,7 @@ Auto-Assignment Strategies
    technician/technicians, who is/are not authorized to process
    requests, in the Excluded Technicians field in :numref:`adf-58`.
 
-3. **Manual Assignment**: In Flotomate creation of a Request is treated
+3. **Manual Assignment**: In Motadata creation of a Request is treated
    as an event, and when this event occurs, it can trigger specific
    automatic actions. If no assignment happens, even after the
    automatic actions, then the Request awaits for manual assignment.

@@ -2,7 +2,7 @@
 Introduction
 ************
 
-Users rely on the Service Catalog to avail services from the IT department. Flotomate provides an ITIL®-compliant service catalog 
+Users rely on the Service Catalog to avail services from the IT department. Motadata provides an ITIL®-compliant service catalog 
 solution that helps in streamlining service management and to increase opportunities for self-service. 
 
 What is an IT service catalog?

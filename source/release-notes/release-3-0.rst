@@ -58,7 +58,7 @@ Following objects comes within the scope of location based segregation (i.e. Dat
 2. Plugin Server
 ----------------
 
-Flotomate has introduced the concept of plugins, which is piece of code that integrates with our main server to perform 
+Motadata has introduced the concept of plugins, which is piece of code that integrates with our main server to perform 
 a specific function. In the context of our product, a plugin is nothing but a .fp bundle (i.e. Kind of app, zip).
 
 A Plugin server is a server which hosts/runs plugins. It is like our main server with a specialized purpose of running plugins. 
@@ -90,7 +90,7 @@ Related Guides:
 3. ITSM Plugin - Active Directory Integration 
 ---------------------------------------------
 
-This is a standard plugin offered by Flotomate to all our users.
+This is a standard plugin offered by Motadata to all our users.
 
 **Purpose**: The plugin provides integration with an Active Directory. When the plugin is executed it can create new users, update existing users, read user data and delete a user using the LDAP protocol.
 
@@ -133,7 +133,7 @@ Related Guides:
 5. Project & Task Management
 ----------------------------
 
-Flotomate now has the Project Management module. To support the Project Management module, we have centralized the task
+Motadata now has the Project Management module. To support the Project Management module, we have centralized the task
 management as a separate module that shows all tasks (throughout the system) of a technician. 
 
 .. _re-3.0-5:
@@ -179,7 +179,7 @@ management as a separate module that shows all tasks (throughout the system) of 
 
 1. **Auto Update of Asset Location and User:** 
 
-   Flotomate now has a feature that allows the system to automatically assign an asset to a requester based on the Logon Name provided in the
+   Motadata now has a feature that allows the system to automatically assign an asset to a requester based on the Logon Name provided in the
    system. The Logon Name is the workstation username which is provided when registering a requester. When an asset is discovered, it is matched
    with a requester using the Logon Name. You can find the username in Windows 10 from Control Panel >> User Accounts.
    
@@ -191,7 +191,7 @@ management as a separate module that shows all tasks (throughout the system) of 
    
    Related Topics: :ref:`Adding a Requester <Add Requestors Individually>`.
    
-   Now Flotomate automatically assigns a location to an asset based on the Network.The assignment happens during a discovery of an asset by both agent-based and agent-less method. The location
+   Now Motadata automatically assigns a location to an asset based on the Network.The assignment happens during a discovery of an asset by both agent-based and agent-less method. The location
    is assigned from the :ref:`Network List <Add a Network>`; if a discovered asset has an IP that falls in a Network with an assigned location,
    then the location is inherited by the asset as well.
    

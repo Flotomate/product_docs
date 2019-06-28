@@ -12,7 +12,7 @@ Request and acts upon it.
 
 To open Request List View:
 
-1. Log in to Flotomate through the Technician Portal.
+1. Log in to Motadata through the Technician Portal.
 
 2. Click on **Request** (A Navigation Tab) to open the Request List
    View, or you can hover your mouse over **Request**; you get a popup

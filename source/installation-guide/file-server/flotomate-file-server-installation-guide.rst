@@ -13,7 +13,7 @@ and it's the backbone for Remote Deployment. A file server is a must in the foll
 
 - Deployment of Patches.
 - Deployment of Packages.
-- Self-upgrade of Flotomate Agent application.
+- Self-upgrade of Motadata Agent application.
 
 Shared drive configuration in our product has been deprecated, and the architecture allows 
 delivery of Patch/Packages to Agent/Relay via File Server only.
@@ -27,7 +27,7 @@ How File Server Works
     :align: center
     :alt: figure 1
 
-Installing Flotomate File Server
+Installing Motadata File Server
 ================================
 
 Prerequisite
@@ -171,7 +171,7 @@ In Main Server
 
 Do following step to change  Service-conf.yaml file in the Main Server.
 
-.. note:: Learn :ref:`how to install server <Flotomate Service Desk – Server Installation via Build>`.
+.. note:: Learn :ref:`how to install server <Motadata Service Desk – Server Installation via Build>`.
 
 - Get root access: **sudo -i**
 

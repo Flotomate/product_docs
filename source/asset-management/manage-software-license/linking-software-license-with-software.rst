@@ -5,7 +5,7 @@ Associating a Software License with a Software Asset
 .. note:: Here a Software Asset refers to any Asset having an Asset Type as
           Software or any sub-type of Software.
 
-The functional aspect of having a Software License in Flotomate starts
+The functional aspect of having a Software License in Motadata starts
 with linking the License with a Software Asset which has the same Product
 Type as the License.
 

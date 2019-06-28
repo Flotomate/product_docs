@@ -12,7 +12,7 @@ Upgrading Agent application allows for the following benefits:
 
 The below mentioned steps are applicable for existing customers having the following setup:
 
-- Minimum main server version : 2.7.0 (Learn about :ref:`build upgrade <Flotomate Service Desk - Server Upgrade Guide>`)
+- Minimum main server version : 2.7.0 (Learn about :ref:`build upgrade <Motadata Service Desk - Server Upgrade Guide>`)
 
 - Minimum starting Agent version 2.7.1.
 

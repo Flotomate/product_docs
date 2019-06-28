@@ -2,7 +2,7 @@
 Search a Report
 ***************
 
-Flotomate ITSM tool gives you three features to search for a Report in the Report List
+Motadata ITSM tool gives you three features to search for a Report in the Report List
 View:
 
 Selecting a Folder
@@ -43,7 +43,7 @@ Filtering Reports in a Folder
 
 Once you select a folder, You can quickly toggle between Pre-Defined Reports and Custom Reports:
 
--  **Pre-Defined Report**: Flotomate comes pre-loaded with 41 predefined
+-  **Pre-Defined Report**: Motadata comes pre-loaded with 41 predefined
    Reports categorize by module. These are standard Reports commonly used in the product.
 
 -  **Custom Report**: These are Reports that you create using the :doc:`New Custom Report <create-a-edit>` page.

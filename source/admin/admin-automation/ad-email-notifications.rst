@@ -2,7 +2,7 @@
 Setting Email Notifications
 ***************************
 
-Flotomate has 67 predefined email notifications that are sent on
+Motadata has 67 predefined email notifications that are sent on
 particular events. Emails notifications are useful in keeping
 stakeholders up to date with the operations of the product. You have
 complete control over the content of the notifications, and you can even

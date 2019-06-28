@@ -30,7 +30,7 @@ We support ten types of Licenses out of the box. They are as follows:
 
 -  **Single Machine**: Also referred to as Single User License. This
    type of License grants a single user to use the Software either on a
-   single machine or multiple machines. Flotomate automatically sets the
+   single machine or multiple machines. Motadata automatically sets the
    Purchase Count for this type to one.
 
 -  **Multiple Machine**: This type of License grants multiple users to
@@ -54,7 +54,7 @@ We support ten types of Licenses out of the box. They are as follows:
    uses the Software. The License carries the name of the user.
 
 -  **Node Lock**: A Node Lock License is an encrypted key that is locked
-   to a specific machine. Flotomate automatically sets the Purchase
+   to a specific machine. Motadata automatically sets the Purchase
    Count for this type to one.
 
 -  **Volume Users**: A Volume License denotes the product key used when

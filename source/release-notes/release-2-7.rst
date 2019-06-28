@@ -14,7 +14,7 @@ Release Notes - Dolphin 2.7.0
       :align: center
       :alt: figure 0
 
-Flotomate now has a customizable Dashboard that can provide a glance
+Motadata now has a customizable Dashboard that can provide a glance
 view of key KPIs and relevant data. We have predefined Dashboards out of
 the box; apart from that, users can create new Dashboards to reflect a
 particular business process.
@@ -52,10 +52,10 @@ A Dashboard can fetch data from the following modules:
    the easy cross-sectional analysis.
 
 -  A Dashboard can be a one-page snapshot of key metrics of a business.
-   A user of the Flotomate Dashboard can quickly judge how well the
+   A user of the Motadata Dashboard can quickly judge how well the
    Helpdesk is functioning.
 
-**Key Highlights of Flotomate Dashboard:**
+**Key Highlights of Motadata Dashboard:**
 
 -  A Dashboard is customizable; a user can add and modify Dashlets.
 
@@ -71,7 +71,7 @@ A Dashboard can fetch data from the following modules:
 
 -  Two out of box Dashboards.
 
-**Documentation Link**: :ref:`Flotomate Dashboard Introduction` 
+**Documentation Link**: :ref:`Motadata Dashboard Introduction` 
 
 2. High Availability
 --------------------
@@ -120,7 +120,7 @@ between Master and Slave.
 
 -  Minimal efforts to restore HA again post failure.
 
-**Documentation Link**: :ref:`Flotomate High Availability Server Setup` 
+**Documentation Link**: :ref:`Motadata High Availability Server Setup` 
 
 3. Desktop Automation Product (New Architecture and New Features)
 -----------------------------------------------------------------

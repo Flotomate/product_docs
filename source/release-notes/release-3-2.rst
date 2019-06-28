@@ -18,7 +18,7 @@ following OSs:
 Task Schedule
 =============
 
-Flotomate users can create and manage task schedules. The scheduling feature allows a user to create recurring Tasks
+Motadata users can create and manage task schedules. The scheduling feature allows a user to create recurring Tasks
 with a defined time interval. The interval can be set as:
 
 - Daily

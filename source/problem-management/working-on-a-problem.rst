@@ -112,7 +112,7 @@ To perform an edit:
 Classify a Problem
 ==================
 
-Flotomate provides many avenues to classify a Problem. Go to the
+Motadata provides many avenues to classify a Problem. Go to the
 :ref:`Details View <problem-details-view>` of a Problem, and you get the
 following ways:
 
@@ -287,7 +287,7 @@ You can view the related Knowledge of a Problem under its Relations tab.
 Analyzing a Problem
 ===================
 
-Flotomate allows Technicians to gather information through communication
+Motadata allows Technicians to gather information through communication
 and investigation, and use it to resolve a Problem. The **Analysis** tab
 in the :ref:`Details View <problem-details-view>` of a Problem.
 
@@ -340,7 +340,7 @@ for responding to them. It is based on the premise that effective
 management requires more than merely resolving problems as they develop,
 but finding a way to prevent them.
 
-Flotomate allows you to record a response for the Problem. Along with
+Motadata allows you to record a response for the Problem. Along with
 textual information, you can also attach files.
 
 .. _pmf-31:
@@ -575,7 +575,7 @@ for Problems.
 Adding Relations
 ================
 
-Flotomate helps Technicians to build contextual information by building
+Motadata helps Technicians to build contextual information by building
 relationships between various items in the system. The **Relations** tab
 in the :ref:`Details View <problem-details-view>` of a Problem serves this
 purpose.
@@ -929,7 +929,7 @@ You can view all the Notification sent concerning the Problem under
 System Defined Problem Notifications
 ------------------------------------
 
-Flotomate has 12 Notifications that are predefined and generated
+Motadata has 12 Notifications that are predefined and generated
 automatically. They can be turned on/off from the Admin section
 (requires Admin rights for access). The Notifications are as follows:
 
@@ -1034,7 +1034,7 @@ Closing a Problem
 
 .. note:: Pending Approval are ignored after closing ticket
 
-Flotomate gives you multitude of ways to close a Problem which are as
+Motadata gives you multitude of ways to close a Problem which are as
 follows:
 
 Closing from List View:

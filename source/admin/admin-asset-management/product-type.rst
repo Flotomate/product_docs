@@ -7,7 +7,7 @@ Product Type
 A Product can be further categorized into Product Types. A Product Type
 is a generic category to group Products. For example, Router is a
 Product Type that describes Products like Asus, TP-Link, etc. In
-Flotomate, you get a list of Product Types out of the box, but you can
+Motadata, you get a list of Product Types out of the box, but you can
 also add more types.
 
 **To Add a Product Type:**

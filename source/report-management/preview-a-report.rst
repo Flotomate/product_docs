@@ -1,7 +1,7 @@
 Preview a Report
 ================
 
-Flotomate allows you to preview a Report of a specific period and
+Motadata allows you to preview a Report of a specific period and
 download the output as either PDF or Excel. The Custom Reports page
 facilitates the generation of a preview.
 

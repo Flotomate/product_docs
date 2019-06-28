@@ -7,9 +7,9 @@ Workflow and SLA Use Case
 User Story
 ==========
 
-Ravi, the IT manager, is using Flotomate to manage his company’s service
+Ravi, the IT manager, is using Motadata to manage his company’s service
 desk. He knows how hectic managing the service desk can be; he has been
-using Flotomate’s **Workflow** automation to manage all his Requests.
+using Motadata’s **Workflow** automation to manage all his Requests.
 
 The Antivirus subscriptions of the marketing department are about to
 expire. Ravi knows a significant flow of Requests is about to come. He

@@ -26,7 +26,7 @@ A contract governs the commercial relationship between two organizations through
 revenue and expenses of an organization. When a contract is made poorly, one organization might lose thousands of dollars for not being able to identify a simple technicality.
 Effective Contract Management creates powerful business relationships and paves the road to greater profitability, but only when managed correctly.  
 
-The Contract module of Flotomate automates the Contract Management process with respect to:
+The Contract module of Motadata automates the Contract Management process with respect to:
 
 - Automatic status change which shows the life-cycle of a Contract.
 

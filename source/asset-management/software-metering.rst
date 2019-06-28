@@ -19,7 +19,7 @@ of a Software Asset:
 
 The above two statistics are shown in two different ways: cumulative counts from all the agents and individual counts of each agent.
 
-The metering feature is available for all OS platforms supported by the :ref:`Flotomate Agent Application <Flotomate Discovery Agent>`.
+The metering feature is available for all OS platforms supported by the :ref:`Motadata Agent Application <Motadata Discovery Agent>`.
 
 Adding a Meter
 ==============

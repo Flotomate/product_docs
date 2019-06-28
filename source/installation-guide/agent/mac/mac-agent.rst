@@ -2,7 +2,7 @@
 Mac-OS Agent Installation Guide
 *******************************
 
-Describes Installation Steps for Flotomate MacOS Agent-3.0.0
+Describes Installation Steps for Motadata MacOS Agent-3.0.0
 
 System Requirement :
 ====================
@@ -44,7 +44,7 @@ Installation in Mac OS
 
 5. The installation process will begin, and it will ask for the URL of the main server. 
 
-   .. note:: You can get the activation code from Flotomate ITSM tool in **Admin** >> **Account** 
+   .. note:: You can get the activation code from Motadata ITSM tool in **Admin** >> **Account** 
              (under Organization).
 
 .. _aig-11:

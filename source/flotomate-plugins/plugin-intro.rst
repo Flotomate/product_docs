@@ -1,5 +1,5 @@
 ********************************
-Introduction to Flotomate Plugin
+Introduction to Motadata Plugin
 ********************************
 
 What is a Plugin?
@@ -58,7 +58,7 @@ Some of the Types of Plugin We Support
     b. Complex Asset Report Export
     c. Complex Widget
 
-4. **Pull Plugin (i.e. Pull Data from Other System and Push to Flotomate.)**
+4. **Pull Plugin (i.e. Pull Data from Other System and Push to Motadata.)**
 
     a. Pull Asset Data and Merge those data in our inventory.
 

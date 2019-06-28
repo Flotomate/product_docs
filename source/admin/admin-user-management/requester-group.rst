@@ -2,7 +2,7 @@
 Requestor Groups
 ****************
 
-Flotomate allows you to create groups of Requestors. Grouping is a way
+Motadata allows you to create groups of Requestors. Grouping is a way
 to classify Requestors based on certain criteria.
 
 One use of creating groups is in communication:

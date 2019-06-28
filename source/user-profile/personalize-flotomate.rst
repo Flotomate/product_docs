@@ -1,5 +1,5 @@
 *********************
-Personalize Flotomate
+Personalize Motadata
 *********************
 
 Users logged into the **Technician Portal** have the option to manage their profile, change certain preferences and reset password. To access the

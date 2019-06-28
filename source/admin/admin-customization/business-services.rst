@@ -2,7 +2,7 @@
 Business Services in Problem Management
 ***************************************
 
-Flotomate allows you to add a list of business deliverables (services)
+Motadata allows you to add a list of business deliverables (services)
 of your organization. You can describe each and every business service
 that you add.
 

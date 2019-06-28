@@ -1,5 +1,5 @@
 **********************************************************
-Flotomate Service Desk – Server Installation via ISO Guide
+Motadata Service Desk – Server Installation via ISO Guide
 **********************************************************
 
 Describes ISO Installation Steps

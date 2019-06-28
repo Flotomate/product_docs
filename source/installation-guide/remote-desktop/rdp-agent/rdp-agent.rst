@@ -1,8 +1,8 @@
 **************************************
-Flotomate RDP Agent Installation Guide
+Motadata RDP Agent Installation Guide
 **************************************
 
-Describes Installation Steps for Flotomate RDP Agent – 1.0.0
+Describes Installation Steps for Motadata RDP Agent – 1.0.0
 
 Minimum System Requirement:
 ===========================

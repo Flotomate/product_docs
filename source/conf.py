@@ -19,9 +19,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = u'Flotomate ITSM Documentation'
-copyright = u'2018, Flotomate Technologies Private Limited'
-author = u'Flotomate Technologies Private Limited'
+project = u'Motadata ITSM Documentation'
+copyright = u'2018, Motadata Technologies Private Limited'
+author = u'Motadata Technologies Private Limited'
 
 # The short X.Y version
 version = u''
@@ -128,7 +128,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'ITSMProductDocumentation.tex', u'ITSM Product Documentation Documentation',
-     u'Flotomate Technologies Private Limited', 'manual'),
+     u'Motadata Technologies Private Limited', 'manual'),
 ]
 
 
@@ -182,4 +182,4 @@ numfig = True
 # Sample rst2pdf doc - title of the pdf
 # Your Name - author name in the pdf
 
-pdf_documents = [('index', u'Flotomate Product Manual', u'ITSM Product Manual', u'Amartya Gupta'),]
+pdf_documents = [('index', u'Motadata Product Manual', u'ITSM Product Manual', u'Amartya Gupta'),]

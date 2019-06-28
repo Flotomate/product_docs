@@ -2,7 +2,7 @@
 Authoring an Article/FAQ
 ************************
 
-Flotomate provides the Knowledge Editor to create and publish
+Motadata provides the Knowledge Editor to create and publish
 Articles/FAQs. The editor has built-in text formatting features and the
 capability to add visual media like pictures and videos. You also get
 the option to save your Article (FAQ doesn’t support draft) as a draft

@@ -1,5 +1,5 @@
 ******************************************************
-Flotomate Service Desk – Server Installation via Build
+Motadata Service Desk – Server Installation via Build
 ******************************************************
 Describes Server Installation Steps via product build
 
@@ -64,7 +64,7 @@ product on to your server:
 
    Next, you have to select whether you want a standalone installation or a High Availability setup. Option 1 is for a standalone
    installation, and 2 & 3 are for a High Availability setup. In case, you are opting for HA then you have to install the build in two
-   separate servers one as Master and other as Slave. Learn more about :ref:`HA setup <Flotomate High Availability Server Setup>`.
+   separate servers one as Master and other as Slave. Learn more about :ref:`HA setup <Motadata High Availability Server Setup>`.
 
     .. _sib-3:
 

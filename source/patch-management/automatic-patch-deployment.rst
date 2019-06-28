@@ -24,7 +24,7 @@ Few of the benefits of using Automatic Patch Deployment:
 Creating an Automatic Patch Deployment
 ======================================
 
--  Go to the Flotomate **Launcher** and select **Patch**.
+-  Go to the Motadata **Launcher** and select **Patch**.
 
 -  Select **Automatic Patch Deployment** from the Patch menu.
 

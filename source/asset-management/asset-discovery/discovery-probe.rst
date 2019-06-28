@@ -19,7 +19,7 @@ maximum types of devices in a network.
 Creating a Discovery Probe
 ==========================
 
-1. Log into the Flotomate Dashboard.
+1. Log into the Motadata Dashboard.
 
 2. Go to **Asset** (A Navigation Tab) >> **Discovery Probe**.
 

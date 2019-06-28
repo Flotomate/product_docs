@@ -23,7 +23,7 @@ which Patches are appropriate for deployment and documenting procedures
 like required configurations.
 
 Patch Management is vital for managing the life-cycle of an Asset, and
-Flotomate provides a comprehensive tool that handles all aspects of
+Motadata provides a comprehensive tool that handles all aspects of
 Patch Management intuitively and efficiently.
 
 Benefits of Patch Management
@@ -48,7 +48,7 @@ Some of the benefits of having Patch Management are as follows:
 What Platforms (OS) are supported for Patch Management
 -------------------------------------------------
 
-Flotomate patch management supports the following platform:
+Motadata patch management supports the following platform:
 
 - windows 7 32/64 bit
 - windows 8/8.1 32/64 bit

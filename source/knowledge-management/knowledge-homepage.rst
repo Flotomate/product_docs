@@ -3,7 +3,7 @@ Knowledge Homepage
 ******************
 
 The Knowledge Homepage is the central hub for searching and viewing all
-the Articles/FAQs in Flotomate. Here you can browse and see the file
+the Articles/FAQs in Motadata. Here you can browse and see the file
 structure of the entire Knowledge-base.
 
 While designing the Homepage interface, we have kept eight cornerstones

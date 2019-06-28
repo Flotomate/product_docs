@@ -6,7 +6,7 @@ Status
 
 Status show the stage of a Request, Problem, Change, Project and an Asset in
 their respective process flow. Statuses are essential in managing the
-life-cycle of tickets, projects and CIs in Flotomate. A lot of automatic
+life-cycle of tickets, projects and CIs in Motadata. A lot of automatic
 processes can be created based on the Status of a ticket/project/CI.
 
 We have predefined Statuses for each of the ticket types, project and Asset.
@@ -32,7 +32,7 @@ Along with pre-defined Statuses, you can add custom Statuses.
 Predefined Status 
 =================
 
-Flotomate has predefined Statuses which are immutable and some statuses which can be changed. They coexist with
+Motadata has predefined Statuses which are immutable and some statuses which can be changed. They coexist with
 custom Statuses. They are as follows:
 
 -  **Request**:

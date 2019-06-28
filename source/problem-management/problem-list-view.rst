@@ -5,7 +5,7 @@ Problem List View
 The Problem List View is the central hub for **Technicians** to track
 and manage all Problems in the tool.
 
-1. Log in to Flotomate from the Technician Portal.
+1. Log in to Motadata from the Technician Portal.
 
 2. Click on Problem (A Navigation tab), or you can hover your mouse over
    **Problem**; you see a popup menu. Click on **All Open Problems** to

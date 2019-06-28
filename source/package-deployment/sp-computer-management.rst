@@ -132,7 +132,7 @@ multiple options.
     :alt: figure 65
 
 You can search Computers with keywords in the search field. When you
-provide a keyword, Flotomate searches all the Computers with the keyword
+provide a keyword, Motadata searches all the Computers with the keyword
 in their Service Pack, OS Name, Domain Name, Hostname, and Name. A
 Computer has to have at least one field matched (partial or full) with
 the keyword; in case there are multiple keywords, the Computer has to

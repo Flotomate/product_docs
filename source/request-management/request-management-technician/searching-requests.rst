@@ -2,7 +2,7 @@
 Searching Requests
 ******************
 
-Flotomate gives you two broad ways to search Requests in :doc:`Request List
+Motadata gives you two broad ways to search Requests in :doc:`Request List
 View <request-list-view>`.
 
 -  Using custom and predefined filters.
@@ -26,7 +26,7 @@ select an option or multiple options from a drop-down menu.
     Search options for request tickets. 
 
 You can search Requests with keywords. When you provide a keyword,
-Flotomate examines all the Requests with the keyword in Subject,
+Motadata examines all the Requests with the keyword in Subject,
 Description, Solution, Tags, Requestor Email, and ID fields. All matched
 Requests get displayed in the list area. In case of multiple keywords,
 all keywords need to be matched.

@@ -2,7 +2,7 @@
 Patch Notifications
 *******************
 
-Flotomate provides six notifications out of the box related to Patch
+Motadata provides six notifications out of the box related to Patch
 Management. These notifications are triggered by an event, and the user
 can decide the content and who receives them.
 

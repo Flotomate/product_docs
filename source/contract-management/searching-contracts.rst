@@ -2,7 +2,7 @@
 Searching Contracts
 *******************
 
-Flotomate gives you two broad ways to search Contracts in the :doc:`Contract List View <contract-list-view>`.
+Motadata gives you two broad ways to search Contracts in the :doc:`Contract List View <contract-list-view>`.
 
 -  Using custom and predefined filters.
 

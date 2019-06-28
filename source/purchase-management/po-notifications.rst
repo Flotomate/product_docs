@@ -13,7 +13,7 @@ They are as follows:
 
 - Approver/Approvers of a PO.
 
-- User (Super Admin) of the Flotomate ITSM.
+- User (Super Admin) of the Motadata ITSM.
 
 The Purchase Management module has pre-defined Notifications and also the option to send custom Notifications. Currently, there are eleven
 pre-defined Notifications out of the box.

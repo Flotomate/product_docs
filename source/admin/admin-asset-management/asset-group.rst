@@ -4,7 +4,7 @@
 Asset Group
 ***********
 
-Flotomate allows you to categorize Assets in the CMDB into groups.
+Motadata allows you to categorize Assets in the CMDB into groups.
 Groups are a convenient way to compartmentalize Assets based on certain
 similarities.
 

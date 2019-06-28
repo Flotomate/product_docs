@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 
-Flotomate Product Manual 
+Motadata Product Manual 
 ========================
 .. toctree::
    :maxdepth: 1

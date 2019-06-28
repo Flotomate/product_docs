@@ -2,7 +2,7 @@
 Windows Agent Installation Guide
 ********************************
 
-Describes Installation Steps for Flotomate Windows Agent.
+Describes Installation Steps for Motadata Windows Agent.
 
 System Requirement :
 ====================
@@ -51,7 +51,7 @@ Installation in Windows
         :alt: figure 3
 
 4. It will ask for URL and Port. Select a Protocol based on what the URL supports. 
-   If there's no Port, then leave it blank. You can get the activation code from Flotomate ITSM tool in **Admin** >> **Account** 
+   If there's no Port, then leave it blank. You can get the activation code from Motadata ITSM tool in **Admin** >> **Account** 
    (under Organization).
 
 .. _aig-4:

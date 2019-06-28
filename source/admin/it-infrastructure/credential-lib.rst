@@ -39,7 +39,7 @@ Add Credential
 
 3. Add a **Name** to the credential and select a Discovery Type which
    determines the authentication parameters. Now let’s understand the
-   Discovery Types available with Flotomate:
+   Discovery Types available with Motadata:
 
     **WMI (Windows Management Instrumentation):**
 
@@ -75,7 +75,7 @@ Add Credential
 
     **SNMP (Simple Network Management Protocol)**
 
-    Flotomate uses this application-layer protocol to scan devices with
+    Motadata uses this application-layer protocol to scan devices with
     the SNMP agent in a managed network.
 
     .. _adf-66:

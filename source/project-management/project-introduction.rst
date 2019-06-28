@@ -3,13 +3,13 @@ Introduction to Project Management
 **********************************
 
 A project refers to a temporary collaboration to undertake some planned activities in order to achieve a common goal. Every
-organization undertake projects every now and then. With Flotomate project management, organizations can manage multiple projects
+organization undertake projects every now and then. With Motadata project management, organizations can manage multiple projects
 with each having a dedicated life-cycle. 
 
-Projects created in Flotomate have clear milestones, member details and their tasks. In an organization with diverse geographical presence
+Projects created in Motadata have clear milestones, member details and their tasks. In an organization with diverse geographical presence
 project can be isolated based on location. Learn more about :ref:`location scope <Data Segregation with Location Scope>`.
 
-Few Benefits of Managing Projects with Flotomate
+Few Benefits of Managing Projects with Motadata
 ================================================
 
 - Drives efficiency through better visibility.

@@ -100,7 +100,7 @@ to modify the Subject and Description.
 Classify an Change
 ==================
 
-Flotomate provides a lot of avenues to classify the information of a
+Motadata provides a lot of avenues to classify the information of a
 Change. Go to the :ref:`Details View <change-details-view>` of a Change
 where a technician get the following ways to classify:
 
@@ -333,7 +333,7 @@ the change.
 Adding Relations
 ================
 
-Flotomate helps Technicians to build contextual information by building
+Motadata helps Technicians to build contextual information by building
 relationships between various events in the system. The Relations tab in
 the :ref:`Details View <change-details-view>` of a Change serves this
 purpose.

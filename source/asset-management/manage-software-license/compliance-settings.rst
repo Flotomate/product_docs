@@ -8,12 +8,12 @@ over-utilization of a Licensed Software, and such risks come under the
 umbrella term compliance management. Compliance Management tries to enforce the pre-agreed upon
 conditions related to the usage of a Software.
 
-Flotomate tracks all the Software that are installed on various Hardware
+Motadata tracks all the Software that are installed on various Hardware
 Assets, and the process helps in compliance management. Currently,
-Flotomate supports the generation of notifications upon nine types of
+Motadata supports the generation of notifications upon nine types of
 compliance related violations.
 
-There is a separate thread in Flotomate that checks all Licensed
+There is a separate thread in Motadata that checks all Licensed
 Software and their installation instances against specified parameters;
 those parameters are as follows:
 
@@ -48,7 +48,7 @@ Currently the counters appear in Licencees with the type either Single Machine,
 Multiple Machines, or Node Lock. It shows the following data points:
 
 - :doc:`Allocations <allocating-assets-users>`: This shows the number of machines allocated to
-  the License. Flotomate allows more Allocation than the Purchase
+  the License. Motadata allows more Allocation than the Purchase
   Count.
 
 - :ref:`Purchase Count`
@@ -124,7 +124,7 @@ Purchase Count.
 Compliance Settings
 -------------------
 
-Flotomate allows you to set under and over utilization notifications for
+Motadata allows you to set under and over utilization notifications for
 Multiple Machines and Volume Users License Types. You have to define the
 under-utilization and over-utilization threshold for above mentioned
 License Types to enable utilization monitoring.

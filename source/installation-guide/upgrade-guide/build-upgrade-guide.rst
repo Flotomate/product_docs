@@ -1,11 +1,11 @@
 .. _server-upgrade:
 
 *********************************************
-Flotomate Service Desk - Server Upgrade Guide
+Motadata Service Desk - Server Upgrade Guide
 *********************************************
 
 .. important:: The upgrade of the server has to be done incrementally. Meaning, from build 2.5 you cannot jump to 3.0; you have to
-               download the in between versions. Know about the list of :ref:`releases so far <Flotomate Build Archive>`. 
+               download the in between versions. Know about the list of :ref:`releases so far <Motadata Build Archive>`. 
 
 .. important:: It's a good idea to do a DB backup before doing an upgrade. 
 
@@ -44,9 +44,9 @@ Flotomate Service Desk - Server Upgrade Guide
        :alt: figure 8
 
 6. Now **wait** for at least **5 Minutes** to allow restart of all
-   Flotomate services.
+   Motadata services.
 
-7. Now you can login to Flotomate as usual and start
+7. Now you can login to Motadata as usual and start
    using product.
 
 .. _sib-9:
